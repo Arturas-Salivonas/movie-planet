@@ -31,29 +31,54 @@ export default defineConfig({
         ]
       },
       workbox: {
-        // Cache all static assets
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
+        // Cache all static assets including GeoJSON and WebP posters
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2,geojson,webp}'],
+        // Increase max file size to cache GeoJSON and all posters (default is 2MB)
+        maximumFileSizeToCacheInBytes: 20 * 1024 * 1024, // 20MB for all assets + posters
         // Runtime caching for GeoJSON and images
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/geo\/.*\.geojson$/,
+            // Cache local GeoJSON files (no https prefix for local files)
+            urlPattern: /\/geo\/.*\.geojson$/,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'geojson-cache',
+              cacheName: 'geojson-cache-v2',
               expiration: {
                 maxEntries: 10,
                 maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
               }
             }
           },
           {
+            // Cache local poster images (WebP format)
+            urlPattern: /\/images\/posters\/.*\.webp$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'local-posters-v1',
+              expiration: {
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // Legacy TMDb images (fallback for any remaining external posters)
             urlPattern: /^https:\/\/image\.tmdb\.org\/.*/,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'tmdb-images',
+              cacheName: 'tmdb-images-v1',
               expiration: {
-                maxEntries: 500,
+                maxEntries: 100,
                 maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
               }
             }
           },
@@ -61,7 +86,7 @@ export default defineConfig({
             urlPattern: /^https:\/\/api\.maptiler\.com\/.*/,
             handler: 'StaleWhileRevalidate',
             options: {
-              cacheName: 'map-tiles',
+              cacheName: 'map-tiles-v1',
               expiration: {
                 maxEntries: 500,
                 maxAgeSeconds: 60 * 60 * 24 * 7 // 7 days
@@ -79,15 +104,28 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+    host: 'localhost',
+    strictPort: true,
     open: true,
+    hmr: {
+      protocol: 'ws',
+      host: 'localhost',
+      port: 3000,
+    },
+    headers: {
+      // Enable browser caching for images in dev mode
+      'Cache-Control': 'public, max-age=31536000',
+    },
   },
   build: {
     outDir: 'dist',
     sourcemap: true,
+    // Optimize chunk size for faster loading
+    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
         manualChunks: {
-          // Extract MapLibre GL into its own chunk (heavy library)
+          // Extract MapLibre GL into its own chunk (heavy library ~400KB)
           'maplibre-gl': ['maplibre-gl'],
           // Extract React and related libs into vendor chunk
           'react-vendor': ['react', 'react-dom'],

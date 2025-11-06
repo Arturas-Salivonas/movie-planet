@@ -58,7 +58,20 @@ const Map = forwardRef<MapRef, MapProps>(({
   const map = useRef<maplibregl.Map | null>(null)
   const [movies, setMovies] = useState<Movie[]>([])
   const [geojsonFeatures, setGeojsonFeatures] = useState<GeoJSONFeature[]>([])
-  const markersRef = useRef<maplibregl.Marker[]>([])
+
+  // Track which poster images have been loaded to prevent redundant loading
+  const loadedImagesRef = useRef<Set<string>>(new Set())
+
+  // Loading state for progressive rendering
+  const [loadingState, setLoadingState] = useState<{
+    isLoading: boolean
+    progress: number
+    stage: string
+  }>({
+    isLoading: true,
+    progress: 0,
+    stage: 'Initializing...'
+  })
 
   // Expose methods to parent component
   useImperativeHandle(ref, () => ({
@@ -374,79 +387,80 @@ const Map = forwardRef<MapRef, MapProps>(({
   }
 
   /**
-   * Add movie markers from GeoJSON
+   * Add movie markers from GeoJSON - INITIAL LOAD ONLY
    */
   useEffect(() => {
     if (!map.current || geojsonFeatures.length === 0) return
 
-    let filteredFeatures: GeoJSONFeature[]
+    // Only run this effect once when data is first loaded
+    if (map.current.getSource('movies')) return
 
-    // If a movie is focused, ONLY show that movie's markers (ignore all other filters)
-    if (focusedMovieId) {
-      filteredFeatures = geojsonFeatures.filter(f => f.properties.movie_id === focusedMovieId)
-    } else {
-      // Normal mode: apply search and filter logic
-      const filteredMovies = filterMovies(movies, filters)
-      const filteredIds = new Set(filteredMovies.map(m => m.movie_id))
-
-      filteredFeatures = movies.length > 0
-        ? geojsonFeatures.filter(f => filteredIds.has(f.properties.movie_id))
-        : geojsonFeatures
-    }
-
-    // Wait for style to be loaded
-    if (!map.current.isStyleLoaded()) {
-      map.current.on('load', () => {
-        addMovieMarkers(filteredFeatures)
-      })
-    } else {
-      addMovieMarkers(filteredFeatures)
-    }
-
-    async function addMovieMarkers(features: GeoJSONFeature[]) {
+    async function initializeMarkers() {
       if (!map.current) return
 
-      // Clear existing markers
-      markersRef.current.forEach(marker => marker.remove())
-      markersRef.current = []
+      // Load ALL posters BEFORE adding map layer (prevents warnings)
+      const BATCH_SIZE = 20
+      let loadedCount = 0
+      const allFeatures = geojsonFeatures
 
-      // Remove ALL existing layers and sources completely
-      const layersToRemove = ['movie-markers', 'movie-labels', 'connecting-line']
-      const sourcesToRemove = ['movies', 'connecting-line']
-
-      layersToRemove.forEach(layerId => {
-        if (map.current!.getLayer(layerId)) {
-          map.current!.removeLayer(layerId)
-        }
+      // Always show loading on initial setup
+      setLoadingState({
+        isLoading: true,
+        progress: 90,
+        stage: `Loading posters... 0/${allFeatures.length}`
       })
 
-      sourcesToRemove.forEach(sourceId => {
-        if (map.current!.getSource(sourceId)) {
-          map.current!.removeSource(sourceId)
-        }
-      })
+      // Load posters in batches and await completion
+      for (let i = 0; i < allFeatures.length; i += BATCH_SIZE) {
+        const batch = allFeatures.slice(i, i + BATCH_SIZE)
 
-      // Load and add poster images for each movie
-      for (const feature of features) {
-        const movieId = feature.properties.movie_id
-        const posterPath = feature.properties.poster
-        const isMultiLocation = feature.properties.locations_count > 1
-        const iconName = `poster-${movieId}`
+        await Promise.all(
+          batch.map(async (feature) => {
+            const movieId = feature.properties.movie_id
+            const posterPath = feature.properties.poster
+            const isMultiLocation = feature.properties.locations_count > 1
+            const iconName = `poster-${movieId}`
 
-        if (!map.current!.hasImage(iconName)) {
-          try {
-            const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
-            map.current!.addImage(iconName, posterIcon)
-          } catch (error) {
-            console.error(`Failed to add poster icon for ${movieId}:`, error)
-          }
-        }
+            if (!map.current!.hasImage(iconName)) {
+              try {
+                const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
+                map.current!.addImage(iconName, posterIcon)
+                loadedImagesRef.current.add(iconName) // Mark as loaded
+                loadedCount++
+              } catch (error) {
+                console.error(`Failed to add poster icon for ${movieId}:`, error)
+                // Add fallback icon on error
+                const fallbackIcon = await createPosterIcon(null, movieId, isMultiLocation)
+                map.current!.addImage(iconName, fallbackIcon)
+                loadedImagesRef.current.add(iconName) // Mark as loaded
+                loadedCount++
+              }
+            } else {
+              loadedCount++
+            }
+          })
+        )
+
+        // Update progress after each batch
+        const progress = Math.round((loadedCount / allFeatures.length) * 100)
+        setLoadingState({
+          isLoading: true,
+          progress: 90 + (progress * 0.09), // 90-99% range
+          stage: `Loading posters... ${loadedCount}/${allFeatures.length}`
+        })
       }
+
+      // Show rendering stage
+      setLoadingState({
+        isLoading: true,
+        progress: 99,
+        stage: 'Rendering markers...'
+      })
 
       // Convert MultiPoint features into individual Point features for each location
       const displayFeatures: any[] = []
 
-      features.forEach(feature => {
+      allFeatures.forEach(feature => {
         if (feature.geometry.type === 'MultiPoint') {
           // Create a separate feature for each location
           const coords = feature.geometry.coordinates as number[][]
@@ -504,6 +518,11 @@ const Map = forwardRef<MapRef, MapProps>(({
           'text-halo-blur': 1
         }
       })
+
+      // All done - hide loading screen
+      setTimeout(() => {
+        setLoadingState({ isLoading: false, progress: 100, stage: 'Complete' })
+      }, 300) // Small delay for smooth transition
 
       // Add unified click handler for all movie markers
       const handleMarkerClick = (e: any) => {
@@ -566,7 +585,70 @@ const Map = forwardRef<MapRef, MapProps>(({
         map.current!.getCanvas().style.cursor = ''
       })
     }
-  }, [geojsonFeatures, movies, filters, focusedMovieId, onMovieSelect, onClearFocus])
+
+    // Wait for style to be loaded
+    if (!map.current.isStyleLoaded()) {
+      map.current.on('load', () => {
+        initializeMarkers()
+      })
+    } else {
+      initializeMarkers()
+    }
+  }, [geojsonFeatures]) // Only depend on geojsonFeatures - run once when data loads
+
+  /**
+   * Update visible markers based on filters and focus - NO REBUILDING
+   */
+  useEffect(() => {
+    if (!map.current || !map.current.getSource('movies')) return
+
+    let filteredFeatures: GeoJSONFeature[]
+
+    // If a movie is focused, ONLY show that movie's markers (ignore all other filters)
+    if (focusedMovieId) {
+      filteredFeatures = geojsonFeatures.filter(f => f.properties.movie_id === focusedMovieId)
+    } else {
+      // Normal mode: apply search and filter logic
+      const filteredMovies = filterMovies(movies, filters)
+      const filteredIds = new Set(filteredMovies.map(m => m.movie_id))
+
+      filteredFeatures = movies.length > 0
+        ? geojsonFeatures.filter(f => filteredIds.has(f.properties.movie_id))
+        : geojsonFeatures
+    }
+
+    // Convert MultiPoint features into individual Point features
+    const displayFeatures: any[] = []
+
+    filteredFeatures.forEach(feature => {
+      if (feature.geometry.type === 'MultiPoint') {
+        const coords = feature.geometry.coordinates as number[][]
+        coords.forEach((coord, index) => {
+          displayFeatures.push({
+            ...feature,
+            id: `${feature.id}-loc-${index}`,
+            geometry: {
+              type: 'Point' as const,
+              coordinates: coord
+            }
+          })
+        })
+      } else {
+        displayFeatures.push(feature)
+      }
+    })
+
+    // Update the data source WITHOUT rebuilding layers - INSTANT!
+    const geojson: GeoJSON.FeatureCollection = {
+      type: 'FeatureCollection',
+      features: displayFeatures as any
+    }
+
+    const source = map.current.getSource('movies') as maplibregl.GeoJSONSource
+    if (source && source.setData) {
+      source.setData(geojson)
+    }
+  }, [geojsonFeatures, movies, filters, focusedMovieId]) // Update data when filters/focus change
 
   /**
    * Handle selected movie
@@ -592,6 +674,41 @@ const Map = forwardRef<MapRef, MapProps>(({
 
       {/* Map container */}
       <div ref={mapContainer} style={{ width: '100%', height: '100%' }} />
+
+      {/* Loading Screen Overlay */}
+      {loadingState.isLoading && (
+        <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+          <div className="text-center space-y-6 px-8">
+            {/* Movie emoji animation */}
+            <div className="text-7xl animate-bounce">
+              🎬
+            </div>
+
+            {/* Title */}
+            <h2 className="text-3xl font-bold text-white">
+              CineMap
+            </h2>
+
+            {/* Loading stage text */}
+            <p className="text-xl text-gray-300">
+              {loadingState.stage}
+            </p>
+
+            {/* Progress bar */}
+            <div className="w-80 bg-gray-700 rounded-full h-3 overflow-hidden">
+              <div
+                className="bg-gradient-to-r from-primary-500 to-purple-600 h-full transition-all duration-300 ease-out"
+                style={{ width: `${loadingState.progress}%` }}
+              />
+            </div>
+
+            {/* Progress percentage */}
+            <p className="text-sm text-gray-400 font-mono">
+              {Math.round(loadingState.progress)}%
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Movie count badge */}
       <div className="absolute top-20 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">

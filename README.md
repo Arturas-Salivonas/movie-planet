@@ -15,8 +15,10 @@
 - **🔍 Smart Filtering** - Search and filter by genre, year, rating
 - **🎯 Focus Mode** - Click "Show All on Map" to isolate a single movie's locations
 - **🎨 Beautiful UI** - Circular movie posters, amber connecting lines, cinematic design
-- **⚡ Fast & Responsive** - Built with Vite and React for optimal performance
+- **⚡ Fast & Responsive** - Progressive loading with smooth animated progress bar
+- **💾 Smart Caching** - PWA service worker caches everything (instant repeat visits)
 - **📦 Clean Data Structure** - Just 2 files: database + input library
+- **🔇 Zero Console Noise** - Clean loading with fallback handlers (no warnings)
 
 ## 🚀 Quick Start
 

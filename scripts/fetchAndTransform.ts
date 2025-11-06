@@ -438,12 +438,41 @@ async function main() {
       process.exit(1)
     }
 
-    // Step 8: Success!
+    // Step 8: Download and optimize posters
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    console.log('🖼️  Downloading and optimizing posters...\n')
+
+    try {
+      execSync('tsx scripts/downloadPosters.ts', {
+        cwd: path.join(__dirname, '..'),
+        stdio: 'inherit'
+      })
+    } catch (error) {
+      console.error('\n❌ Error during poster download:', error)
+      process.exit(1)
+    }
+
+    // Step 9: Re-transform to GeoJSON with local poster paths
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    console.log('🔄 Re-transforming GeoJSON with local posters...\n')
+
+    try {
+      execSync('npm run transform:geojson', {
+        cwd: path.join(__dirname, '..'),
+        stdio: 'inherit'
+      })
+    } catch (error) {
+      console.error('\n❌ Error during re-transform:', error)
+      process.exit(1)
+    }
+
+    // Step 10: Success!
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     console.log('\n🎉 SUCCESS! Everything is ready!')
     console.log('\n📊 Next steps:')
     console.log('   1. Restart your dev server: npm run dev')
-    console.log('   2. Open the app and see your new movies on the globe! 🌍\n')
+    console.log('   2. Open the app and see your new movies on the globe! 🌍')
+    console.log('   3. All posters are now cached locally in WebP format! ⚡\n')
 
   } catch (error) {
     console.error('\n💥 Fatal error:', error)
