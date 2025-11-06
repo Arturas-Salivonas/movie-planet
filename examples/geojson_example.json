@@ -1,0 +1,85 @@
+{
+  "description": "Example GeoJSON Feature for a single movie location - Mapbox GL JS compatible",
+  "example_single_feature": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-21.9426, 64.1466]
+    },
+    "properties": {
+      "movie_id": "movie_001",
+      "movie_title": "The Last Horizon",
+      "year": 2019,
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "scene_description": "Opening sequence - protagonist's home and research facility in arctic setting",
+      "poster_url": "https://image.tmdb.org/t/p/w500/placeholder_last_horizon.jpg",
+      "rating": 7.8,
+      "genres": ["Action", "Adventure", "Sci-Fi"]
+    }
+  },
+  "example_feature_collection": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-21.9426, 64.1466]
+        },
+        "properties": {
+          "movie_id": "movie_001",
+          "movie_title": "The Last Horizon",
+          "year": 2019,
+          "city": "Reykjavik",
+          "country": "Iceland",
+          "scene_description": "Opening sequence - protagonist's home and research facility in arctic setting",
+          "poster_url": "https://image.tmdb.org/t/p/w500/placeholder_last_horizon.jpg",
+          "rating": 7.8,
+          "genres": ["Action", "Adventure", "Sci-Fi"]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [139.6503, 35.6762]
+        },
+        "properties": {
+          "movie_id": "movie_001",
+          "movie_title": "The Last Horizon",
+          "year": 2019,
+          "city": "Tokyo",
+          "country": "Japan",
+          "scene_description": "Cyberpunk city chase scenes through Shibuya and Shinjuku districts",
+          "poster_url": "https://image.tmdb.org/t/p/w500/placeholder_last_horizon.jpg",
+          "rating": 7.8,
+          "genres": ["Action", "Adventure", "Sci-Fi"]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [151.2093, -33.8688]
+        },
+        "properties": {
+          "movie_id": "movie_001",
+          "movie_title": "The Last Horizon",
+          "year": 2019,
+          "city": "Sydney",
+          "country": "Australia",
+          "scene_description": "Opera House confrontation and harbor action sequences",
+          "poster_url": "https://image.tmdb.org/t/p/w500/placeholder_last_horizon.jpg",
+          "rating": 7.8,
+          "genres": ["Action", "Adventure", "Sci-Fi"]
+        }
+      }
+    ]
+  },
+  "usage_notes": {
+    "coordinate_order": "GeoJSON uses [longitude, latitude] order, NOT [lat, lng]",
+    "mapbox_integration": "This format can be directly added to Mapbox GL JS using map.addSource() with type: 'geojson'",
+    "helper_function": "Use movieToGeoFeatures() or moviesToGeoJSON() from types.ts to convert Movie objects"
+  }
+}
