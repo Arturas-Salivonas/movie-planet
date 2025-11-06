@@ -26,8 +26,9 @@ console.log('\n🎬 CineMap Automated Fetch & Transform')
 console.log('========================================\n')
 console.log(`🎯 Target: Add ${targetCount} new movies to database\n`)
 
+// DEPRECATED: Old hardcoded library - now loading from movies_input.json
 // IMDb Top 500+ movies library (for auto-population)
-const MOVIE_LIBRARY = [
+const MOVIE_LIBRARY_FALLBACK = [
   {"imdb_id": "tt0111161", "title": "The Shawshank Redemption"},
   {"imdb_id": "tt0068646", "title": "The Godfather"},
   {"imdb_id": "tt0468569", "title": "The Dark Knight"},
@@ -315,72 +316,87 @@ const MOVIE_LIBRARY = [
 
 async function main() {
   try {
-    // Step 1: Load current database
+    // Step 1: Load movie library from movies_input.json
+    const inputPath = path.join(__dirname, '../data/movies_input.json')
+    let movieLibrary: any[] = []
+    try {
+      const inputData = await fs.readFile(inputPath, 'utf-8')
+      const parsed = JSON.parse(inputData)
+      movieLibrary = parsed.movies || parsed // Support both {movies: [...]} and [...]
+      console.log(`📚 Movie library: ${movieLibrary.length} movies available\n`)
+    } catch (error) {
+      console.error('❌ Failed to load movies_input.json')
+      console.error('💡 Make sure data/movies_input.json exists with your movie library')
+      console.error('   Use movies_input_500.json as a template\n')
+      process.exit(1)
+    }
+
+    // Step 2: Load current database
     const enrichedPath = path.join(__dirname, '../data/movies_enriched.json')
     let existingMovies: any[] = []
     try {
       const data = await fs.readFile(enrichedPath, 'utf-8')
-      existingMovies = JSON.parse(data)
+      const parsed = JSON.parse(data)
+      existingMovies = parsed.movies || parsed // Support both {movies: [...]} and [...]
       console.log(`📂 Current database: ${existingMovies.length} movies\n`)
     } catch {
       console.log(`📂 No existing database found - starting fresh\n`)
     }
 
-    // Step 2: Find movies not yet in database
-    const existingIds = new Set(existingMovies.map(m => m.imdb_id))
-    const availableMovies = MOVIE_LIBRARY.filter(m => !existingIds.has(m.imdb_id))
+    // Step 3: Find movies not yet in database
+    const existingIds = new Set(existingMovies.map((m: any) => m.imdb_id))
+    const availableMovies = movieLibrary.filter((m: any) => !existingIds.has(m.imdb_id))
 
     if (availableMovies.length === 0) {
       console.log('🎉 Congratulations! All movies in the library are already in your database!')
-      console.log('💡 Add more movies to MOVIE_LIBRARY in scripts/fetchAndTransform.ts\n')
+      console.log(`💡 Add more movies to data/movies_input.json to expand your library\n`)
       process.exit(0)
     }
 
-    console.log(`🔍 Found ${availableMovies.length} new movies available in library`)
+    console.log(`🔍 Found ${availableMovies.length} new movies available to fetch`)
 
-    // Step 3: Select movies to fetch
+    // Step 4: Select movies to fetch (limit by target count)
     const moviesToFetch = availableMovies.slice(0, targetCount)
-    console.log(`🎯 Selected ${moviesToFetch.length} movies to fetch\n`)
+    console.log(`🎯 Will fetch ${moviesToFetch.length} movies (requested: ${targetCount})\n`)
 
     if (moviesToFetch.length === 0) {
       console.log('⚠️  No new movies to fetch!\n')
       process.exit(0)
     }
 
-    // Step 4: Update movies_input.json with new movies
-    const inputPath = path.join(__dirname, '../data/movies_input.json')
-    let currentInput: any[] = []
-    try {
-      const data = await fs.readFile(inputPath, 'utf-8')
-      currentInput = JSON.parse(data)
-    } catch {
-      // File doesn't exist, start fresh
-    }
+    // Step 5: Create temporary input file for the fetcher
+    // (fetchMoviesAuto.ts expects an array of movies)
+    const tempInputPath = path.join(__dirname, '../data/movies_to_fetch_temp.json')
+    await fs.writeFile(tempInputPath, JSON.stringify(moviesToFetch, null, 2))
+    console.log(`📝 Created temporary fetch list\n`)
 
-    // Merge: keep existing + add new ones
-    const inputIds = new Set(currentInput.map(m => m.imdb_id))
-    const newMovies = moviesToFetch.filter(m => !inputIds.has(m.imdb_id))
-    const updatedInput = [...currentInput, ...newMovies]
-
-    await fs.writeFile(inputPath, JSON.stringify(updatedInput, null, 2))
-    console.log(`✅ Updated movies_input.json with ${newMovies.length} new movies`)
-    console.log(`📋 Total in input: ${updatedInput.length} movies\n`)
-
-    // Step 5: Run the fetcher
+    // Step 6: Run the fetcher
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     console.log('🚀 Starting automated fetch...\n')
 
     try {
       execSync('npm run fetch:auto', {
         cwd: path.join(__dirname, '..'),
-        stdio: 'inherit'
+        stdio: 'inherit',
+        env: {
+          ...process.env,
+          INPUT_FILE: 'data/movies_to_fetch_temp.json' // Use relative path, not absolute
+        }
       })
     } catch (error) {
       console.error('\n❌ Error during fetch:', error)
+      // Clean up temp file
+      try { await fs.unlink(tempInputPath) } catch {}
       process.exit(1)
     }
 
-    // Step 6: Copy to production file
+    // Clean up temp file
+    try {
+      await fs.unlink(tempInputPath)
+      console.log(`🧹 Cleaned up temporary files\n`)
+    } catch {}
+
+    // Step 7: Copy to production file
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     console.log('📦 Copying to production file...\n')
 

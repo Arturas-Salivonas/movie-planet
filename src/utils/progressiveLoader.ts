@@ -21,7 +21,7 @@ export async function loadInBatches<T>(
   for (let i = 0; i < items.length; i += batchSize) {
     const batch = items.slice(i, i + batchSize)
     callback(batch, i)
-    
+
     // Yield to browser to keep UI responsive
     if (i + batchSize < items.length) {
       await new Promise(resolve => setTimeout(resolve, delayBetweenBatches))

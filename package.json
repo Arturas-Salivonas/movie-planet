@@ -8,20 +8,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "generate:geojson": "tsx scripts/generateGeoJSON.ts",
-    "generate:index": "tsx scripts/generateSearchIndex.ts",
-    "fetch:movies": "tsx scripts/fetch_movies.ts",
-    "ingest:imdb": "tsx scripts/ingest_imdb.ts",
-    "geocode:fix": "tsx scripts/geocode_fix.ts",
-    "transform:geojson": "tsx scripts/transform_to_geojson.ts",
-    "verify:locations": "tsx scripts/verifyLocations.ts",
-    "generate:verification": "tsx scripts/generateVerificationGuide.ts",
-    "scrape:imdb": "tsx scripts/scrapeIMDbLocations.ts",
-    "test:scraper": "tsx scripts/testIMDbScraper.ts",
-    "fetch:auto": "tsx scripts/fetchMoviesAuto.ts",
-    "fetch": "tsx scripts/fetchAndTransform.ts",
-    "clean:duplicates": "tsx scripts/cleanDuplicateLocations.ts"
+    "fetch": "tsx scripts/fetchAndTransform.ts"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.35",

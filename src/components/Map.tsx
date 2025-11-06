@@ -136,14 +136,14 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Load GeoJSON features
         const geojsonResponse = await fetch('/geo/movies.geojson')
         const geojsonData = await geojsonResponse.json()
-        
+
         // Store all features for filtering
         setGeojsonFeatures(geojsonData.features)
 
         // Convert all GeoJSON features to Movie objects
         const moviesFromGeoJSON: Movie[] = geojsonData.features.map(convertFeatureToMovie)
         setMovies(moviesFromGeoJSON)
-        
+
         console.log(`📊 Loaded ${geojsonData.features.length} movies for progressive rendering`)
       } catch (error) {
         console.error('Failed to load data:', error)
