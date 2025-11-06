@@ -32,7 +32,7 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
           year: feature.properties.year,
           imdb_id: feature.properties.movie_id,
           tmdb_id: String(feature.properties.tmdb_id),
-          genres: feature.properties.top_genre ? [feature.properties.top_genre] : [],
+          genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
           streaming: [], // Not available in GeoJSON
           locations: [],
         }))

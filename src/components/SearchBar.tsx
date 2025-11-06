@@ -62,7 +62,7 @@ export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
             year: feature.properties.year,
             imdb_id: feature.properties.movie_id,
             tmdb_id: String(feature.properties.tmdb_id),
-            genres: feature.properties.top_genre ? [feature.properties.top_genre] : [],
+            genres: (feature.properties as any).genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
             poster: feature.properties.poster || undefined,
             trailer: feature.properties.trailer || undefined,
             imdb_rating: feature.properties.imdb_rating || undefined,

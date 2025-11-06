@@ -13,6 +13,7 @@ interface MapProps {
   searchQuery: string
   filters: FilterState
   focusedMovieId?: string | null
+  onClearFocus?: () => void
 }
 
 export interface MapRef {
@@ -35,6 +36,7 @@ interface GeoJSONFeature {
     poster: string | null
     trailer: string | null
     top_genre: string | null
+    genres?: string[]
     short_description: string
     imdb_rating: number | null
     locations_count: number
@@ -50,6 +52,7 @@ const Map = forwardRef<MapRef, MapProps>(({
   searchQuery: _searchQuery,
   filters,
   focusedMovieId,
+  onClearFocus,
 }, ref) => {
   const mapContainer = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
@@ -116,7 +119,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       year: feature.properties.year,
       imdb_id: feature.properties.movie_id,
       tmdb_id: String(feature.properties.tmdb_id),
-      genres: feature.properties.top_genre ? [feature.properties.top_genre] : [],
+      genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
       poster: feature.properties.poster || undefined,
       trailer: feature.properties.trailer || undefined,
       imdb_rating: feature.properties.imdb_rating || undefined,
@@ -522,7 +525,7 @@ const Map = forwardRef<MapRef, MapProps>(({
             year: feature.properties.year,
             imdb_id: feature.properties.movie_id,
             tmdb_id: String(feature.properties.tmdb_id),
-            genres: feature.properties.top_genre ? [feature.properties.top_genre] : [],
+            genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
             poster: feature.properties.poster || undefined,
             trailer: feature.properties.trailer || undefined,
             imdb_rating: feature.properties.imdb_rating || undefined,
@@ -539,6 +542,18 @@ const Map = forwardRef<MapRef, MapProps>(({
 
       map.current!.on('click', 'movie-markers', handleMarkerClick)
 
+      // Clear focus when clicking on empty map (not on markers)
+      const handleMapClick = (e: any) => {
+        // Only clear focus if clicking on empty space (not on markers)
+        if (!e.features || e.features.length === 0) {
+          if (focusedMovieId && onClearFocus) {
+            onClearFocus()
+          }
+        }
+      }
+
+      map.current!.on('click', handleMapClick)
+
       // Change cursor on hover
       map.current!.on('mouseenter', 'movie-markers', () => {
         map.current!.getCanvas().style.cursor = 'pointer'
@@ -547,7 +562,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         map.current!.getCanvas().style.cursor = ''
       })
     }
-  }, [geojsonFeatures, movies, filters, focusedMovieId, onMovieSelect])
+  }, [geojsonFeatures, movies, filters, focusedMovieId, onMovieSelect, onClearFocus])
 
   /**
    * Handle selected movie

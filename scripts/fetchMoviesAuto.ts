@@ -99,6 +99,30 @@ async function setCache<T>(key: string, data: T): Promise<void> {
   }
 }
 
+/**
+ * Deduplicate locations by coordinates
+ * Some movies list the same location multiple times (e.g., different scenes in same city)
+ * We only keep one location per unique coordinate pair (rounded to 4 decimal places)
+ */
+function deduplicateLocationsByCoordinates(locations: Location[]): Location[] {
+  const seen = new Set<string>()
+  const deduplicated: Location[] = []
+
+  for (const location of locations) {
+    // Round to 4 decimal places (~11 meters precision)
+    const lat = Math.round(location.lat * 10000) / 10000
+    const lng = Math.round(location.lng * 10000) / 10000
+    const key = `${lat},${lng}`
+
+    if (!seen.has(key)) {
+      seen.add(key)
+      deduplicated.push(location)
+    }
+  }
+
+  return deduplicated
+}
+
 // ============================================================================
 // TMDb Functions
 // ============================================================================
@@ -542,6 +566,12 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
 
     console.log(`\n  ✅ Successfully geocoded ${locations.length}/${scrapedLocations.length} locations`)
 
+    // Deduplicate locations by coordinates (some movies have same location listed multiple times)
+    const deduplicatedLocations = deduplicateLocationsByCoordinates(locations)
+    if (deduplicatedLocations.length < locations.length) {
+      console.log(`  🔧 Removed ${locations.length - deduplicatedLocations.length} duplicate location(s)`)
+    }
+
     return {
       movie_id: movieId,
       title,
@@ -553,7 +583,7 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
       poster: tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : '',
       trailer: extractTrailerId(tmdbData.videos) || '',
       imdb_rating: tmdbData.vote_average || 0,
-      locations
+      locations: deduplicatedLocations
     }
 
   } catch (error: any) {
@@ -588,18 +618,48 @@ async function main() {
   const inputData = await fs.readFile(inputPath, 'utf-8')
   const inputMovies: InputMovie[] = JSON.parse(inputData)
 
-  console.log(`📋 Loaded ${inputMovies.length} movies to process\n`)
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n')
+  console.log(`📋 Loaded ${inputMovies.length} movies to process`)
 
-  const movies: Movie[] = []
+  // Load existing enriched movies to check for duplicates
+  const outputPath = path.join(__dirname, `../${CONFIG.OUTPUT_FILE}`)
+  let existingMovies: Movie[] = []
+  try {
+    const existingData = await fs.readFile(outputPath, 'utf-8')
+    existingMovies = JSON.parse(existingData)
+    console.log(`🔍 Found ${existingMovies.length} existing movies in database`)
+  } catch (error) {
+    console.log(`📝 No existing database found - starting fresh`)
+  }
+
+  // Create Set of existing IMDb IDs for fast lookup
+  const existingImdbIds = new Set(
+    existingMovies.map(m => m.imdb_id).filter((id): id is string => !!id)
+  )
+  console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`)
+
+  const movies: Movie[] = [...existingMovies] // Start with existing movies
   let successCount = 0
   let failCount = 0
+  let skippedCount = 0
 
   for (let i = 0; i < inputMovies.length; i++) {
-    const movie = await processMovie(inputMovies[i], i, inputMovies.length)
+    const inputMovie = inputMovies[i]
+    const imdb_id = inputMovie.imdb_id
+
+    // Check for duplicates
+    if (imdb_id && existingImdbIds.has(imdb_id)) {
+      console.log(`⏭️  [${i + 1}/${inputMovies.length}] Skipping ${imdb_id} - already in database`)
+      skippedCount++
+      continue
+    }
+
+    const movie = await processMovie(inputMovie, i, inputMovies.length)
 
     if (movie) {
       movies.push(movie)
+      if (movie.imdb_id) {
+        existingImdbIds.add(movie.imdb_id) // Add to Set to prevent duplicates within this run
+      }
       successCount++
     } else {
       failCount++
@@ -611,15 +671,16 @@ async function main() {
   }
 
   // Save final result
-  const outputPath = path.join(__dirname, `../${CONFIG.OUTPUT_FILE}`)
   await fs.writeFile(outputPath, JSON.stringify(movies, null, 2))
 
   console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
   console.log('\n✅ Processing Complete!')
   console.log(`\n📊 Statistics:`)
-  console.log(`   Total movies: ${inputMovies.length}`)
-  console.log(`   Successfully processed: ${successCount}`)
+  console.log(`   Input movies: ${inputMovies.length}`)
+  console.log(`   Skipped (already in database): ${skippedCount}`)
+  console.log(`   Newly processed: ${successCount}`)
   console.log(`   Failed: ${failCount}`)
+  console.log(`   Total in database: ${movies.length}`)
   console.log(`\n💾 Output saved to:`)
   console.log(`   ${outputPath}`)
   console.log(`\n📌 Next steps:`)

@@ -1,85 +1,5 @@
 [
   {
-    "imdb_id": "tt0111161",
-    "title": "The Shawshank Redemption"
-  },
-  {
-    "imdb_id": "tt0068646",
-    "title": "The Godfather"
-  },
-  {
-    "imdb_id": "tt0468569",
-    "title": "The Dark Knight"
-  },
-  {
-    "imdb_id": "tt0050083",
-    "title": "12 Angry Men"
-  },
-  {
-    "imdb_id": "tt0108052",
-    "title": "Schindler's List"
-  },
-  {
-    "imdb_id": "tt0167260",
-    "title": "The Lord of the Rings: The Return of the King"
-  },
-  {
-    "imdb_id": "tt0110912",
-    "title": "Pulp Fiction"
-  },
-  {
-    "imdb_id": "tt0060196",
-    "title": "The Good, the Bad and the Ugly"
-  },
-  {
-    "imdb_id": "tt0120737",
-    "title": "The Lord of the Rings: The Fellowship of the Ring"
-  },
-  {
-    "imdb_id": "tt0109830",
-    "title": "Forrest Gump"
-  },
-  {
-    "imdb_id": "tt0137523",
-    "title": "Fight Club"
-  },
-  {
-    "imdb_id": "tt1375666",
-    "title": "Inception"
-  },
-  {
-    "imdb_id": "tt0167261",
-    "title": "The Lord of the Rings: The Two Towers"
-  },
-  {
-    "imdb_id": "tt0080684",
-    "title": "Star Wars: Episode V - The Empire Strikes Back"
-  },
-  {
-    "imdb_id": "tt0133093",
-    "title": "The Matrix"
-  },
-  {
-    "imdb_id": "tt0099685",
-    "title": "Goodfellas"
-  },
-  {
-    "imdb_id": "tt0073486",
-    "title": "One Flew Over the Cuckoo's Nest"
-  },
-  {
-    "imdb_id": "tt0114369",
-    "title": "Se7en"
-  },
-  {
-    "imdb_id": "tt0047478",
-    "title": "Seven Samurai"
-  },
-  {
-    "imdb_id": "tt0120689",
-    "title": "The Green Mile"
-  },
-  {
     "imdb_id": "tt0071562",
     "title": "The Godfather Part II"
   },
@@ -1038,21 +958,5 @@
   {
     "imdb_id": "tt0015864",
     "title": "The Gold Rush"
-  },
-  {
-    "imdb_id": "tt0848228",
-    "title": "The Avengers"
-  },
-  {
-    "imdb_id": "tt0145487",
-    "title": "Spider-Man"
-  },
-  {
-    "imdb_id": "tt0371746",
-    "title": "Iron Man"
-  },
-  {
-    "imdb_id": "tt1843866",
-    "title": "Captain America: The Winter Soldier"
   }
 ]

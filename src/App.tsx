@@ -61,6 +61,7 @@ function App() {
         searchQuery={searchQuery}
         filters={filters}
         focusedMovieId={focusedMovieId}
+        onClearFocus={handleResetFocus}
       />
 
       {/* Reset Focus Button - Shows when a movie is focused */}

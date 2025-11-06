@@ -19,7 +19,9 @@
     "generate:verification": "tsx scripts/generateVerificationGuide.ts",
     "scrape:imdb": "tsx scripts/scrapeIMDbLocations.ts",
     "test:scraper": "tsx scripts/testIMDbScraper.ts",
-    "fetch:auto": "tsx scripts/fetchMoviesAuto.ts"
+    "fetch:auto": "tsx scripts/fetchMoviesAuto.ts",
+    "fetch": "tsx scripts/fetchAndTransform.ts",
+    "clean:duplicates": "tsx scripts/cleanDuplicateLocations.ts"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.35",
