@@ -1,9 +1,11 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, lazy, Suspense } from 'react'
 import Map, { MapRef } from './components/Map'
-import SearchBar from './components/SearchBar'
-import Filters from './components/Filters'
-import MovieModal from './components/MovieModal'
 import { Movie } from './types'
+
+// Lazy load heavy components
+const SearchBar = lazy(() => import('./components/SearchBar'))
+const Filters = lazy(() => import('./components/Filters'))
+const MovieModal = lazy(() => import('./components/MovieModal'))
 
 function App() {
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null)
@@ -39,18 +41,34 @@ function App() {
     <div className="relative w-full h-full">
       {/* Search Bar - Top Left */}
       <div className="absolute top-4 left-4 z-10 w-96">
-        <SearchBar
-          onSearch={setSearchQuery}
-          onMovieSelect={setSelectedMovie}
-        />
+        <Suspense fallback={
+          <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
+            <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+          </div>
+        }>
+          <SearchBar
+            onSearch={setSearchQuery}
+            onMovieSelect={setSelectedMovie}
+          />
+        </Suspense>
       </div>
 
       {/* Filters Panel - Top Right */}
       <div className="absolute top-4 right-4 z-10 w-80">
-        <Filters
-          filters={filters}
-          onFiltersChange={setFilters}
-        />
+        <Suspense fallback={
+          <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
+            <div className="space-y-3">
+              <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+              <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+              <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+            </div>
+          </div>
+        }>
+          <Filters
+            filters={filters}
+            onFiltersChange={setFilters}
+          />
+        </Suspense>
       </div>
 
       {/* Main Map */}
@@ -79,12 +97,18 @@ function App() {
 
       {/* Movie Detail Modal */}
       {selectedMovie && (
-        <MovieModal
-          movie={selectedMovie}
-          onClose={() => setSelectedMovie(null)}
-          onShowAllLocations={handleShowAllLocations}
-          onViewLocation={handleViewLocation}
-        />
+        <Suspense fallback={
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-2xl w-full max-w-4xl h-[600px] m-4 animate-pulse"></div>
+          </div>
+        }>
+          <MovieModal
+            movie={selectedMovie}
+            onClose={() => setSelectedMovie(null)}
+            onShowAllLocations={handleShowAllLocations}
+            onViewLocation={handleViewLocation}
+          />
+        </Suspense>
       )}
 
       {/* Footer - Attribution */}

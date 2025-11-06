@@ -397,7 +397,7 @@ async function main() {
     // Step 6.5: Clean duplicate locations
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     console.log('🔧 Cleaning duplicate locations...\n')
-    
+
     try {
       execSync('npm run clean:duplicates', {
         cwd: path.join(__dirname, '..'),
