@@ -58,6 +58,7 @@ const Map = forwardRef<MapRef, MapProps>(({
   const map = useRef<maplibregl.Map | null>(null)
   const [movies, setMovies] = useState<Movie[]>([])
   const [geojsonFeatures, setGeojsonFeatures] = useState<GeoJSONFeature[]>([])
+  const initializedRef = useRef<boolean>(false)
 
   // Track which poster images have been loaded to prevent redundant loading
   const loadedImagesRef = useRef<Set<string>>(new Set())
@@ -393,7 +394,7 @@ const Map = forwardRef<MapRef, MapProps>(({
     if (!map.current || geojsonFeatures.length === 0) return
 
     // Only run this effect once when data is first loaded
-    if (map.current.getSource('movies')) return
+    if (initializedRef.current || map.current.getSource('movies')) return
 
     async function initializeMarkers() {
       if (!map.current) return
@@ -403,12 +404,14 @@ const Map = forwardRef<MapRef, MapProps>(({
       let loadedCount = 0
       const allFeatures = geojsonFeatures
 
-      // Always show loading on initial setup
-      setLoadingState({
-        isLoading: true,
-        progress: 90,
-        stage: `Loading posters... 0/${allFeatures.length}`
-      })
+      // Only show loading on initial setup, not on StrictMode re-mounts
+      if (!initializedRef.current) {
+        setLoadingState({
+          isLoading: true,
+          progress: 90,
+          stage: `Loading posters... 0/${allFeatures.length}`
+        })
+      }
 
       // Load posters in batches and await completion
       for (let i = 0; i < allFeatures.length; i += BATCH_SIZE) {
@@ -450,12 +453,14 @@ const Map = forwardRef<MapRef, MapProps>(({
         })
       }
 
-      // Show rendering stage
-      setLoadingState({
-        isLoading: true,
-        progress: 99,
-        stage: 'Rendering markers...'
-      })
+      // Show rendering stage only on initial setup
+      if (!initializedRef.current) {
+        setLoadingState({
+          isLoading: true,
+          progress: 99,
+          stage: 'Rendering markers...'
+        })
+      }
 
       // Convert MultiPoint features into individual Point features for each location
       const displayFeatures: any[] = []
@@ -519,10 +524,13 @@ const Map = forwardRef<MapRef, MapProps>(({
         }
       })
 
-      // All done - hide loading screen
-      setTimeout(() => {
-        setLoadingState({ isLoading: false, progress: 100, stage: 'Complete' })
-      }, 300) // Small delay for smooth transition
+      // All done - hide loading screen only on initial setup
+      if (!initializedRef.current) {
+        setTimeout(() => {
+          setLoadingState({ isLoading: false, progress: 100, stage: 'Complete' })
+          initializedRef.current = true
+        }, 300) // Small delay for smooth transition
+      }
 
       // Add unified click handler for all movie markers
       const handleMarkerClick = (e: any) => {

@@ -9,6 +9,10 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      devOptions: {
+        // Disable service worker in dev to avoid interfering with HMR/websocket
+        enabled: false,
+      },
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'CineMap - Movie Filming Locations',
@@ -104,17 +108,18 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    host: 'localhost',
+    // Remove host restriction to allow proper WebSocket connections
+    // host: 'localhost', // Commented out to fix HMR WebSocket issues
     strictPort: true,
     open: true,
-    hmr: {
-      protocol: 'ws',
-      host: 'localhost',
-      port: 3000,
-    },
     headers: {
       // Enable browser caching for images in dev mode
       'Cache-Control': 'public, max-age=31536000',
+    },
+    hmr: {
+      // Let Vite auto-detect the host for HMR
+      // host: 'localhost', // Commented out to fix WebSocket connection issues
+      protocol: 'ws',
     },
   },
   build: {
