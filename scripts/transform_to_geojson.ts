@@ -51,6 +51,7 @@ interface GeoJSONFeature {
     tmdb_id: number
     title: string
     year: number
+    type?: 'movie' | 'tv'
     poster: string | null
     trailer: string | null
     top_genre: string | null
@@ -215,6 +216,7 @@ function transformMovieToFeature(movie: EnrichedMovie): GeoJSONFeature | null {
       tmdb_id: movie.tmdb_id,
       title: movie.title,
       year: movie.year,
+      type: (movie as any).type || 'movie',
       poster: movie.poster || getTmdbImageUrl(movie.poster_path) || null,
       trailer: movie.trailer || movie.trailer_url || null,
       top_genre: movie.genres && movie.genres.length > 0 ? movie.genres[0] : null,
@@ -256,6 +258,7 @@ function generateMoviePaths(movies: EnrichedMovie[]): GeoJSONFeatureCollection {
         tmdb_id: movie.tmdb_id,
         title: movie.title,
         year: movie.year,
+        type: (movie as any).type || 'movie',
         poster: movie.poster || getTmdbImageUrl(movie.poster_path) || null,
         trailer: movie.trailer || movie.trailer_url || null,
         top_genre: movie.genres && movie.genres.length > 0 ? movie.genres[0] : null,

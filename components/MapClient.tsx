@@ -258,8 +258,21 @@ export default function MapClient({
 
   return (
     <div className="relative w-full h-full z-10">
-      {/* Search Bar - Top Left */}
-      <div className="absolute top-4 left-4 z-10 w-96">
+      {/* Logo/Brand - Top Left */}
+      <div className="absolute top-4 left-4 z-10 bg-black/80 backdrop-blur-sm text-white px-6 py-3 rounded-xl shadow-2xl border border-white/20">
+        <div className="flex items-center gap-3">
+          <span className="text-3xl">🌍</span>
+          <div>
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              CineMap
+            </h1>
+            <p className="text-[10px] text-gray-400 tracking-wider">EXPLORE MOVIE FILMING LOCATIONS</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Search Bar - Top Center */}
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 w-96">
         <Suspense fallback={
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
             <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>

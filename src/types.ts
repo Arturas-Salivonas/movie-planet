@@ -32,6 +32,7 @@ export interface Movie {
   readonly year: number;
   readonly imdb_id: string;
   readonly tmdb_id: string;
+  readonly type?: 'movie' | 'tv'; // Content type - movie or TV show
   readonly genres: readonly string[];
   readonly poster?: string;
   readonly trailer?: string;

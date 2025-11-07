@@ -45,12 +45,23 @@ body {
 /* Animated stars background */
 .stars-background {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
   pointer-events: none;
   z-index: -1;
+  transform: translate(-50%, -50%);
+  animation: rotateStars 120s linear infinite;
+}
+
+@keyframes rotateStars {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 .stars-background::before,
@@ -66,16 +77,20 @@ body {
     radial-gradient(2px 2px at 60px 70px, white, transparent),
     radial-gradient(1px 1px at 50px 50px, white, transparent),
     radial-gradient(1px 1px at 130px 80px, white, transparent),
-    radial-gradient(2px 2px at 90px 10px, white, transparent);
+    radial-gradient(2px 2px at 90px 10px, white, transparent),
+    radial-gradient(1px 1px at 180px 120px, white, transparent),
+    radial-gradient(2px 2px at 220px 40px, white, transparent),
+    radial-gradient(1px 1px at 150px 150px, white, transparent);
   background-repeat: repeat;
-  background-size: 200px 200px;
+  background-size: 250px 250px;
   animation: twinkle 5s ease-in-out infinite;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .stars-background::after {
-  background-size: 300px 300px;
+  background-size: 350px 350px;
   animation: twinkle 7s ease-in-out infinite reverse;
+  opacity: 0.4;
 }
 
 @keyframes twinkle {

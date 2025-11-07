@@ -38,6 +38,7 @@ interface Movie {
   year: number
   imdb_id: string
   tmdb_id: number
+  type: 'movie' | 'tv'
   genres: string[]
   poster: string
   trailer: string
@@ -65,8 +66,9 @@ const CONFIG = {
   NOMINATIM_BASE_URL: 'https://nominatim.openstreetmap.org',
   CACHE_DIR: 'data/cache',
   INPUT_FILE: process.env.INPUT_FILE || 'data/movies_input.json',
-  OUTPUT_FILE: 'data/movies_enriched_auto.json',
+  OUTPUT_FILE: 'data/movies_enriched.json', // ✅ FIX: Use the main file directly
   PROGRESS_FILE: 'data/movies_enriched_progress.json',
+  BACKUP_FILE: 'data/movies_enriched_backup.json', // ✅ NEW: Create backup before overwriting
   RATE_LIMIT_DELAY: 1100, // 1.1 seconds for Nominatim
   PUPPETEER_TIMEOUT: 15000,
   MAX_RETRIES: 3,
@@ -488,6 +490,7 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
       year,
       imdb_id: movieId,
       tmdb_id: tmdbId,
+      type: contentType,
       genres: tmdbData.genres?.map((g: any) => g.name) || [],
       poster: tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : '',
       trailer: extractTrailerId(tmdbData.videos) || '',
@@ -509,11 +512,13 @@ async function main() {
   console.log('\n🎬 CineMap Automated Location Fetcher')
   console.log('=====================================\n')
   console.log('This will:')
-  console.log('  1. Fetch movie data from TMDb')
-  console.log('  2. Scrape locations from IMDb (with Puppeteer)')
-  console.log('  3. Fall back to Wikipedia if needed')
-  console.log('  4. Geocode all locations')
-  console.log('  5. Save progress continuously\n')
+  console.log('  1. Fetch movie/TV data from TMDb')
+  console.log('  2. Scrape filming locations from IMDb (with Puppeteer)')
+  console.log('  3. Geocode all locations with Nominatim')
+  console.log('  4. Save progress continuously')
+  console.log('  5. Create automatic backup before modifying database\n')
+  console.log('⚠️  WARNING: This will modify movies_enriched.json')
+  console.log('    A backup will be created at movies_enriched_backup.json\n')
 
   // Validate API key
   if (!CONFIG.TMDB_API_KEY) {
@@ -536,6 +541,11 @@ async function main() {
     const existingData = await fs.readFile(outputPath, 'utf-8')
     existingMovies = JSON.parse(existingData)
     console.log(`🔍 Found ${existingMovies.length} existing movies in database`)
+
+    // ✅ CREATE BACKUP before modifying
+    const backupPath = path.join(__dirname, `../${CONFIG.BACKUP_FILE}`)
+    await fs.writeFile(backupPath, existingData)
+    console.log(`💾 Backup created at: ${CONFIG.BACKUP_FILE}`)
   } catch (error) {
     console.log(`📝 No existing database found - starting fresh`)
   }
@@ -551,7 +561,9 @@ async function main() {
   )
   console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`)
 
-  const movies: Movie[] = [...existingMovies] // Start with existing movies
+  // ✅ FIX: Start with empty array, add existing movies that we're keeping
+  const movies: Movie[] = []
+  const processedIds = new Set<string>()
   let successCount = 0
   let failCount = 0
   let skippedCount = 0
@@ -565,6 +577,11 @@ async function main() {
       const existingMovie = existingMoviesMap.get(imdb_id)
       if (existingMovie && existingMovie.locations && existingMovie.locations.length > 0) {
         console.log(`⏭️  [${i + 1}/${inputMovies.length}] Skipping ${imdb_id} - already in database with locations`)
+        // ✅ FIX: Add existing movie to new array instead of duplicate
+        if (!processedIds.has(imdb_id)) {
+          movies.push(existingMovie)
+          processedIds.add(imdb_id)
+        }
         skippedCount++
         continue
       }
@@ -575,11 +592,12 @@ async function main() {
     const movie = await processMovie(inputMovie, i, inputMovies.length)
 
     if (movie) {
-      movies.push(movie)
-      if (movie.imdb_id) {
-        existingImdbIds.add(movie.imdb_id) // Add to Set to prevent duplicates within this run
+      // ✅ FIX: Only add if not already processed
+      if (movie.imdb_id && !processedIds.has(movie.imdb_id)) {
+        movies.push(movie)
+        processedIds.add(movie.imdb_id)
+        successCount++
       }
-      successCount++
     } else {
       failCount++
     }
@@ -603,10 +621,10 @@ async function main() {
   console.log(`\n💾 Output saved to:`)
   console.log(`   ${outputPath}`)
   console.log(`\n📌 Next steps:`)
-  console.log(`   1. Review ${CONFIG.OUTPUT_FILE}`)
-  console.log(`   2. If satisfied, replace movies_enriched.json with this file`)
-  console.log(`   3. Run: npm run transform:geojson`)
-  console.log(`   4. Restart your dev server\n`)
+  console.log(`   1. Run: npm run transform:geojson`)
+  console.log(`   2. Run: npm run build`)
+  console.log(`   3. Restart your dev server`)
+  console.log(`\n💡 Backup available at: ${CONFIG.BACKUP_FILE}\n`)
 }
 
 // Run the script

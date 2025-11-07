@@ -1,0 +1,635 @@
+[
+  {
+    "movie_id": "tt0070735",
+    "title": "The Sting",
+    "original_title": "The Sting",
+    "year": 1973,
+    "imdb_id": "tt0070735",
+    "tmdb_id": 9277,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4VdQopZb0lx13Me3yxE5rUXMGCI.jpg",
+    "trailer": "_nAIb_J9T5M",
+    "imdb_rating": 8,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0046912",
+    "title": "Dial M for Murder",
+    "original_title": "Dial M for Murder",
+    "year": 1954,
+    "imdb_id": "tt0046912",
+    "tmdb_id": 521,
+    "genres": [
+      "Thriller",
+      "Crime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4KKiFDvtEusJzqzlwHp7iMceXKS.jpg",
+    "trailer": "kR_NZuW28XE",
+    "imdb_rating": 8.007,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0032138",
+    "title": "The Wizard of Oz",
+    "original_title": "The Wizard of Oz",
+    "year": 1939,
+    "imdb_id": "tt0032138",
+    "tmdb_id": 630,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pfAZFD7I2hxW9HCChTuAzsdE6UX.jpg",
+    "trailer": "b_A2twyZevo",
+    "imdb_rating": 7.593,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0037008",
+    "title": "Laura",
+    "original_title": "Laura",
+    "year": 1944,
+    "imdb_id": "tt0037008",
+    "tmdb_id": 1939,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/j0zEiFFrdbZnMXqD3piOtZBJeNB.jpg",
+    "trailer": "KgGtRJY516E",
+    "imdb_rating": 7.621,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0038355",
+    "title": "The Big Sleep",
+    "original_title": "The Big Sleep",
+    "year": 1946,
+    "imdb_id": "tt0038355",
+    "tmdb_id": 910,
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lraHo9D8c0YWfxsKqT5P5sVqMKN.jpg",
+    "trailer": "n-K49CUaeto",
+    "imdb_rating": 7.599,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0039631",
+    "title": "Monsieur Verdoux",
+    "original_title": "Monsieur Verdoux",
+    "year": 1947,
+    "imdb_id": "tt0039631",
+    "tmdb_id": 30588,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mUPXIinTQsBdLlDaWiSl7GwQXVs.jpg",
+    "trailer": "eND72dzh7EU",
+    "imdb_rating": 7.698,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0045793",
+    "title": "From Here to Eternity",
+    "original_title": "From Here to Eternity",
+    "year": 1953,
+    "imdb_id": "tt0045793",
+    "tmdb_id": 11426,
+    "genres": [
+      "War",
+      "Romance",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/25Rm1YJSyhXAEu8abonZvW83aPL.jpg",
+    "trailer": "gFqfmJXrgUc",
+    "imdb_rating": 7.3,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0046359",
+    "title": "Stalag 17",
+    "original_title": "Stalag 17",
+    "year": 1953,
+    "imdb_id": "tt0046359",
+    "tmdb_id": 632,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lfve9FDKjT7JPbWI9NCs5340F79.jpg",
+    "trailer": "nPT7bzA5Nis",
+    "imdb_rating": 7.696,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0049408",
+    "title": "The King and I",
+    "original_title": "The King and I",
+    "year": 1956,
+    "imdb_id": "tt0049408",
+    "tmdb_id": 16520,
+    "genres": [
+      "Music",
+      "Romance",
+      "History"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wUfaP0lLaMpZzp5CrHyII5Vd7cp.jpg",
+    "trailer": "YZ80o1SY71o",
+    "imdb_rating": 7.072,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0053946",
+    "title": "Inherit the Wind",
+    "original_title": "Inherit the Wind",
+    "year": 1960,
+    "imdb_id": "tt0053946",
+    "tmdb_id": 1908,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7oaHcF0gCOt2lKaT2zajhajP0Zo.jpg",
+    "trailer": "1PKkLSCuiEE",
+    "imdb_rating": 7.664,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0062711",
+    "title": "Barbarella",
+    "original_title": "Barbarella",
+    "year": 1968,
+    "imdb_id": "tt0062711",
+    "tmdb_id": 8069,
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Action"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/facTz5BZz4AkJal1FWgjYciekih.jpg",
+    "trailer": "ZKakq5NgoxA",
+    "imdb_rating": 6,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0088930",
+    "title": "Clue",
+    "original_title": "Clue",
+    "year": 1985,
+    "imdb_id": "tt0088930",
+    "tmdb_id": 15196,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aRxbYOYHS8T73nzR8hsLousoplR.jpg",
+    "trailer": "KEXdWfsKZ1k",
+    "imdb_rating": 7.211,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0094226",
+    "title": "The Untouchables",
+    "original_title": "The Untouchables",
+    "year": 1987,
+    "imdb_id": "tt0094226",
+    "tmdb_id": 117,
+    "genres": [
+      "Crime",
+      "History",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8BquGK22zCcsmBWiaIakaaPpSZb.jpg",
+    "trailer": "YbzkK06MJjE",
+    "imdb_rating": 7.756,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0101414",
+    "title": "Beauty and the Beast",
+    "original_title": "Beauty and the Beast",
+    "year": 1991,
+    "imdb_id": "tt0101414",
+    "tmdb_id": 10020,
+    "genres": [
+      "Romance",
+      "Family",
+      "Animation",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hUJ0UvQ5tgE2Z9WpfuduVSdiCiU.jpg",
+    "trailer": "0QwuPbbT_zk",
+    "imdb_rating": 7.7,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0103776",
+    "title": "Batman Returns",
+    "original_title": "Batman Returns",
+    "year": 1992,
+    "imdb_id": "tt0103776",
+    "tmdb_id": 364,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg",
+    "trailer": "ZCaE6AIk0DM",
+    "imdb_rating": 6.944,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0110357",
+    "title": "The Lion King",
+    "original_title": "The Lion King",
+    "year": 1994,
+    "imdb_id": "tt0110357",
+    "tmdb_id": 8587,
+    "genres": [
+      "Family",
+      "Animation",
+      "Drama",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "trailer": "UgjEj5mXLlk",
+    "imdb_rating": 8.3,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0119282",
+    "title": "Hercules",
+    "original_title": "Hercules",
+    "year": 1997,
+    "imdb_id": "tt0119282",
+    "tmdb_id": 11970,
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Adventure",
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dK9rNoC97tgX3xXg5zdxFisdfcp.jpg",
+    "trailer": "mXRDoJqg5Oo",
+    "imdb_rating": 7.5,
+    "locations": []
+  },
+  {
+    "movie_id": "tt2245084",
+    "title": "Big Hero 6",
+    "original_title": "Big Hero 6",
+    "year": 2014,
+    "imdb_id": "tt2245084",
+    "tmdb_id": 177572,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Animation",
+      "Action",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2mxS4wUimwlLmI1xp6QW6NSU361.jpg",
+    "trailer": "8IdMPpKMdcc",
+    "imdb_rating": 7.726,
+    "locations": []
+  },
+  {
+    "movie_id": "tt5834262",
+    "title": "Hotel Artemis",
+    "original_title": "Hotel Artemis",
+    "year": 2018,
+    "imdb_id": "tt5834262",
+    "tmdb_id": 406761,
+    "genres": [
+      "Thriller",
+      "Science Fiction",
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vaZMpZOhhkKOYz0MHCx4vDABwgP.jpg",
+    "trailer": "7bELPcq7gB4",
+    "imdb_rating": 6.1,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0898266",
+    "title": "The Big Bang Theory",
+    "year": 2007,
+    "imdb_id": "tt0898266",
+    "tmdb_id": 1418,
+    "type": "tv",
+    "genres": [
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg",
+    "trailer": "",
+    "imdb_rating": 7.911,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0364845",
+    "title": "NCIS",
+    "year": 2003,
+    "imdb_id": "tt0364845",
+    "tmdb_id": 4614,
+    "type": "tv",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mBcu8d6x6zB1el3MPNl7cZQEQ31.jpg",
+    "trailer": "BhtDgn31XZo",
+    "imdb_rating": 7.625,
+    "locations": []
+  },
+  {
+    "movie_id": "tt1628033",
+    "title": "Top Gear",
+    "year": 2002,
+    "imdb_id": "tt1628033",
+    "tmdb_id": 45,
+    "type": "tv",
+    "genres": [
+      "Reality",
+      "Talk"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aqM6QnuhSXzjHlKbXyKUqxaGiWu.jpg",
+    "trailer": "RbSwU2hn6wk",
+    "imdb_rating": 7.53,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0460649",
+    "title": "How I Met Your Mother",
+    "year": 2005,
+    "imdb_id": "tt0460649",
+    "tmdb_id": 1100,
+    "type": "tv",
+    "genres": [
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
+    "trailer": "cjJLEYMzpjc",
+    "imdb_rating": 8.14,
+    "locations": []
+  },
+  {
+    "movie_id": "tt9477520",
+    "title": "Asuran",
+    "original_title": "அசுரன்",
+    "year": 2019,
+    "imdb_id": "tt9477520",
+    "tmdb_id": 576928,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/Elnp3XrAlMM30dil8rbL7D9XeP.jpg",
+    "trailer": "",
+    "imdb_rating": 7.76,
+    "locations": []
+  },
+  {
+    "movie_id": "tt3470600",
+    "title": "Sing",
+    "original_title": "Sing",
+    "year": 2016,
+    "imdb_id": "tt3470600",
+    "tmdb_id": 335797,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Music",
+      "Animation"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b8UiFXwMrSXVTHM0fb2twl8uE8a.jpg",
+    "trailer": "GIgXWuLQPFY",
+    "imdb_rating": 7.12,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0103359",
+    "title": "Batman: The Animated Series",
+    "year": 1992,
+    "imdb_id": "tt0103359",
+    "tmdb_id": 2098,
+    "type": "tv",
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg",
+    "trailer": "",
+    "imdb_rating": 8.6,
+    "locations": []
+  },
+  {
+    "movie_id": "tt9735318",
+    "title": "The Beatles: Get Back",
+    "year": 2021,
+    "imdb_id": "tt9735318",
+    "tmdb_id": 128876,
+    "type": "tv",
+    "genres": [
+      "Documentary"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nxy9fg1rT853P7zP7ZQGqRimiCS.jpg",
+    "trailer": "Auta2lagtw4",
+    "imdb_rating": 8.4,
+    "locations": []
+  },
+  {
+    "movie_id": "tt4742876",
+    "title": "TVF Pitchers",
+    "year": 2015,
+    "imdb_id": "tt4742876",
+    "tmdb_id": 63180,
+    "type": "tv",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/w0A288hXCytNIi9Kh7VkKE8MQ1W.jpg",
+    "trailer": "84Jk1OqDqOo",
+    "imdb_rating": 7.708,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0072500",
+    "title": "Fawlty Towers",
+    "year": 1975,
+    "imdb_id": "tt0072500",
+    "tmdb_id": 2207,
+    "type": "tv",
+    "genres": [
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tvTYIjujN87dcKAmSLqcvAahykH.jpg",
+    "trailer": "",
+    "imdb_rating": 8.26,
+    "locations": []
+  },
+  {
+    "movie_id": "tt12004706",
+    "title": "Panchayat",
+    "year": 2020,
+    "imdb_id": "tt12004706",
+    "tmdb_id": 101352,
+    "type": "tv",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cPPhduQk1eX0MAE2JDaQRh3UZB5.jpg",
+    "trailer": "AHMEtNAZTP4",
+    "imdb_rating": 8.177,
+    "locations": []
+  },
+  {
+    "movie_id": "tt10530900",
+    "title": "Gullak",
+    "year": 2019,
+    "imdb_id": "tt10530900",
+    "tmdb_id": 90966,
+    "type": "tv",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fSzx4a6pC3QCOkU6NnWE2843hZV.jpg",
+    "trailer": "XKVYXYuPUm8",
+    "imdb_rating": 7.925,
+    "locations": []
+  },
+  {
+    "movie_id": "tt5712554",
+    "title": "The Grand Tour",
+    "year": 2016,
+    "imdb_id": "tt5712554",
+    "tmdb_id": 67557,
+    "type": "tv",
+    "genres": [
+      "Reality",
+      "Comedy",
+      "Talk"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3Pcqu6QliBWJ8vsOVClVLddPnZw.jpg",
+    "trailer": "kLtpcxtk4HI",
+    "imdb_rating": 8.002,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0281491",
+    "title": "Still Game",
+    "year": 2002,
+    "imdb_id": "tt0281491",
+    "tmdb_id": 436,
+    "type": "tv",
+    "genres": [
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b5O5zTFlaiwXb8FrqqTA0sihJPO.jpg",
+    "trailer": "YFiTpKQV0GU",
+    "imdb_rating": 8.295,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0158417",
+    "title": "Mahabharat",
+    "year": 1988,
+    "imdb_id": "tt0158417",
+    "tmdb_id": 12605,
+    "type": "tv",
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/FZJMIxK1AI1VMbeazdc030Qwat.jpg",
+    "trailer": "",
+    "imdb_rating": 7.194,
+    "locations": []
+  },
+  {
+    "movie_id": "tt14392248",
+    "title": "Aspirants",
+    "year": 2021,
+    "imdb_id": "tt14392248",
+    "tmdb_id": 124411,
+    "type": "tv",
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eHE0q1hhUnVkfJlZ22bSQqZeLKn.jpg",
+    "trailer": "",
+    "imdb_rating": 7.558,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0268093",
+    "title": "Ramayan",
+    "year": 1987,
+    "imdb_id": "tt0268093",
+    "tmdb_id": 1990,
+    "type": "tv",
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gIOtRVKHHyPtyGPsLLhzhSYG1QF.jpg",
+    "trailer": "",
+    "imdb_rating": 8.192,
+    "locations": []
+  },
+  {
+    "movie_id": "tt1518542",
+    "title": "Sarabhai vs Sarabhai",
+    "year": 2004,
+    "imdb_id": "tt1518542",
+    "tmdb_id": 4165,
+    "type": "tv",
+    "genres": [
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b4YbLCWGeaY0YTy2vawNccLmTE6.jpg",
+    "trailer": "zokMr-QjnDM",
+    "imdb_rating": 6.594,
+    "locations": []
+  },
+  {
+    "movie_id": "tt0090509",
+    "title": "The Return of Sherlock Holmes",
+    "year": 1986,
+    "imdb_id": "tt0090509",
+    "tmdb_id": 273687,
+    "type": "tv",
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yCUS5ISk5hF95iCa1cmlfnUaECU.jpg",
+    "trailer": "",
+    "imdb_rating": 9,
+    "locations": []
+  }
+]

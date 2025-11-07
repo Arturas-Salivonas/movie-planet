@@ -253,6 +253,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       year: feature.properties.year,
       imdb_id: feature.properties.movie_id,
       tmdb_id: String(feature.properties.tmdb_id),
+      type: (feature.properties as any).type || 'movie',
       genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
       poster: feature.properties.poster || undefined,
       trailer: feature.properties.trailer || undefined,
@@ -786,15 +787,41 @@ const Map = forwardRef<MapRef, MapProps>(({
         </div>
       )}
 
-      {/* Movie count badge */}
-      <div className="absolute top-20 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
-        <div className="flex items-center gap-2">
-          <span className="text-2xl">🎬</span>
-          <div>
-            <p className="text-xs text-gray-300">Total Movies</p>
-            <p className="text-xl font-bold">
-              {movies.length}
-            </p>
+      {/* Instructions - Left Side */}
+      <div className="absolute top-24 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+        <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
+          <span>ℹ️</span> How to Use
+        </h3>
+        <ul className="text-xs text-gray-300 space-y-1">
+          <li>🔍 Search for movies or locations</li>
+          <li>🗺️ Click markers to explore</li>
+          <li>🌐 Rotate & zoom the globe</li>
+          <li>🎬 Discover filming locations worldwide</li>
+        </ul>
+      </div>
+
+      {/* Movie Statistics - Top Right */}
+      <div className="absolute top-24 right-4 z-10 flex flex-col gap-3">
+        <div className="bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
+          <div className="flex items-center gap-2">
+            <span className="text-2xl">🎬</span>
+            <div>
+              <p className="text-xs text-gray-300">Movies</p>
+              <p className="text-xl font-bold">
+                {movies.filter(m => m.type !== 'tv').length}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
+          <div className="flex items-center gap-2">
+            <span className="text-2xl">📺</span>
+            <div>
+              <p className="text-xs text-gray-300">TV Series</p>
+              <p className="text-xl font-bold">
+                {movies.filter(m => m.type === 'tv').length}
+              </p>
+            </div>
           </div>
         </div>
       </div>
