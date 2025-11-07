@@ -115,6 +115,19 @@ async function generateSlugs() {
   const reverseOutputPath = path.join(__dirname, '../data/movies_slugs_reverse.json')
   fs.writeFileSync(reverseOutputPath, JSON.stringify(reverseSlugMap, null, 2), 'utf-8')
 
+  // Copy to public folder for client-side access
+  const publicOutputPath = path.join(__dirname, '../public/data/movies_slugs.json')
+  const publicReverseOutputPath = path.join(__dirname, '../public/data/movies_slugs_reverse.json')
+
+  // Ensure public/data directory exists
+  const publicDataDir = path.join(__dirname, '../public/data')
+  if (!fs.existsSync(publicDataDir)) {
+    fs.mkdirSync(publicDataDir, { recursive: true })
+  }
+
+  fs.writeFileSync(publicOutputPath, JSON.stringify(slugMap, null, 2), 'utf-8')
+  fs.writeFileSync(publicReverseOutputPath, JSON.stringify(reverseSlugMap, null, 2), 'utf-8')
+
   // Print statistics
   console.log('\n✅ Slug generation complete!\n')
   console.log('📈 Statistics:')

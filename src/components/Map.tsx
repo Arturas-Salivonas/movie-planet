@@ -301,36 +301,6 @@ const Map = forwardRef<MapRef, MapProps>(({
       // hash: true // Removed for Next.js - using localStorage for clean URLs
     })
 
-    // Globe rotation animation
-    let isUserInteracting = false
-    let rotationAnimation: number | null = null
-
-    const startRotation = () => {
-      if (!map.current || isUserInteracting) return
-
-      const rotateCamera = (_timestamp: number) => {
-        if (!map.current || isUserInteracting) return
-
-        // Rotate 360 degrees over 2 minutes (120 seconds)
-        const secondsPerRevolution = 720
-        const center = map.current.getCenter()
-        center.lng = (center.lng + (360 / secondsPerRevolution) * (1/60)) % 360
-        map.current.setCenter(center)
-
-        rotationAnimation = requestAnimationFrame(rotateCamera)
-      }
-
-      rotationAnimation = requestAnimationFrame(rotateCamera)
-    }
-
-    const stopRotation = () => {
-      isUserInteracting = true
-      if (rotationAnimation !== null) {
-        cancelAnimationFrame(rotationAnimation)
-        rotationAnimation = null
-      }
-    }
-
     map.current.on('style.load', () => {
       if (map.current) {
         // Set projection to globe
@@ -351,9 +321,6 @@ const Map = forwardRef<MapRef, MapProps>(({
             }
           }
         }
-
-        // Start rotation after map loads
-        setTimeout(startRotation, 1000)
       }
     })
 
@@ -374,12 +341,6 @@ const Map = forwardRef<MapRef, MapProps>(({
       if (saveTimeout) clearTimeout(saveTimeout)
       saveTimeout = setTimeout(saveMapState, 500)
     })
-
-    // Stop rotation on any user interaction
-    map.current.on('mousedown', stopRotation)
-    map.current.on('touchstart', stopRotation)
-    map.current.on('wheel', stopRotation)
-    map.current.on('dragstart', stopRotation)
 
     // Add navigation controls
     map.current.addControl(new maplibregl.NavigationControl(), 'bottom-right')
