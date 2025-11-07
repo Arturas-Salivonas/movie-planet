@@ -28,6 +28,7 @@ console.log(`🎯 Target: Add ${targetCount} new movies to database\n`)
 
 // DEPRECATED: Old hardcoded library - now loading from movies_input.json
 // IMDb Top 500+ movies library (for auto-population)
+/* Commented out - not used anymore
 const MOVIE_LIBRARY_FALLBACK = [
   {"imdb_id": "tt0111161", "title": "The Shawshank Redemption"},
   {"imdb_id": "tt0068646", "title": "The Godfather"},
@@ -313,6 +314,7 @@ const MOVIE_LIBRARY_FALLBACK = [
   {"imdb_id": "tt0167261", "title": "The Lord of the Rings: The Return of the King"},
   {"imdb_id": "tt0264464", "title": "Catch Me If You Can"},
 ]
+*/
 
 async function main() {
   try {

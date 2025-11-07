@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { getAllMovieSlugs, getMovieStats } from '../lib/movies'
+import { getAllMovieSlugs } from '../lib/movies'
 
 /**
  * Generate sitemap for all movies
@@ -19,7 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Get all movie slugs
   const movieSlugs = getAllMovieSlugs()
-  const stats = getMovieStats()
 
   console.log(`📄 Generating sitemap for ${movieSlugs.length} movies...`)
 

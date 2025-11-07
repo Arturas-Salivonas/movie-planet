@@ -22,6 +22,7 @@ interface MapProps {
 export interface MapRef {
   showAllLocationsForMovie: (movie: Movie) => void
   flyToLocation: (lat: number, lng: number) => void
+  resetView: () => void
 }
 
 interface GeoJSONFeature {
@@ -80,22 +81,138 @@ const Map = forwardRef<MapRef, MapProps>(({
   // Expose methods to parent component
   useImperativeHandle(ref, () => ({
     showAllLocationsForMovie: (movie: Movie) => {
+      console.log('🗺️ Map.showAllLocationsForMovie called', {
+        movieId: movie.movie_id,
+        hasMap: !!map.current,
+        featuresLength: geojsonFeatures.length
+      })
+
+      if (!map.current) {
+        console.error('❌ Map not initialized')
+        return
+      }
+
       const feature = geojsonFeatures.find(f => f.properties.movie_id === movie.movie_id)
-      if (feature) {
-        showAllLocations(feature)
+      if (!feature) {
+        console.error('❌ Feature not found for movie', movie.movie_id)
+        return
+      }
+
+      console.log('✅ Feature found, drawing lines', feature)
+
+      const coordinates = feature.geometry.type === 'MultiPoint'
+        ? feature.geometry.coordinates as number[][]
+        : [feature.geometry.coordinates as number[]]
+
+      console.log('📍 Coordinates:', coordinates)
+
+      // Calculate bounds
+      const bounds = new maplibregl.LngLatBounds()
+      coordinates.forEach(coord => bounds.extend(coord as [number, number]))
+
+      // Fit map to bounds
+      map.current.fitBounds(bounds, {
+        padding: 100,
+        maxZoom: 10,
+        duration: 1000
+      })
+
+      // Remove existing connecting line
+      if (map.current.getLayer('connecting-line')) {
+        map.current.removeLayer('connecting-line')
+      }
+      if (map.current.getSource('connecting-line')) {
+        map.current.removeSource('connecting-line')
+      }
+
+      // Draw connecting polyline for multi-location movies
+      if (coordinates.length > 1) {
+        console.log('✅ Drawing line with', coordinates.length, 'points')
+        map.current.addSource('connecting-line', {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates
+            },
+            properties: {}
+          }
+        })
+
+        map.current.addLayer({
+          id: 'connecting-line',
+          type: 'line',
+          source: 'connecting-line',
+          paint: {
+            'line-color': '#F59E0B',
+            'line-width': 4,
+            'line-opacity': 0.9,
+            'line-blur': 1
+          }
+        })
+      } else {
+        console.log('ℹ️ Only 1 location, no line needed')
       }
     },
     flyToLocation: (lat: number, lng: number) => {
       if (map.current) {
+        const targetZoom = 12
+
+        // Temporarily switch to mercator projection for accurate positioning
+        ;(map.current as any).setProjection({ type: 'mercator' })
+
+        // Use flyTo for smooth animation in mercator with faster duration
         map.current.flyTo({
           center: [lng, lat],
-          zoom: 12,
-          duration: 2000,
+          zoom: targetZoom,
+          duration: 1200,
+          essential: true
+        })
+
+        // Wait for mercator animation to complete, then switch to globe
+        setTimeout(() => {
+          if (!map.current) return
+
+          // Switch back to globe projection
+          ;(map.current as any).setProjection({ type: 'globe' })
+
+          // Re-apply center and zoom after globe switch with easeTo for smooth transition
+          map.current.easeTo({
+            center: [lng, lat],
+            zoom: targetZoom,
+            duration: 600,
+            essential: true
+          })
+        }, 1300)
+      }
+    },
+    resetView: () => {
+      if (map.current) {
+        // Remove debug marker if exists
+        if (map.current.getSource('debug-marker')) {
+          map.current.removeLayer('debug-marker')
+          map.current.removeSource('debug-marker')
+        }
+
+        // Remove connecting line if exists
+        if (map.current.getLayer('connecting-line')) {
+          map.current.removeLayer('connecting-line')
+        }
+        if (map.current.getSource('connecting-line')) {
+          map.current.removeSource('connecting-line')
+        }
+
+        // Reset to default view (Europe centered)
+        map.current.flyTo({
+          center: [0.35, 43],
+          zoom: 2.88,
+          duration: 1500,
           essential: true
         })
       }
     }
-  }))
+  }), [geojsonFeatures])
 
   /**
    * Convert GeoJSON feature to Movie object
@@ -364,65 +481,6 @@ const Map = forwardRef<MapRef, MapProps>(({
   }
 
   /**
-   * Show all locations for a movie
-   */
-  const showAllLocations = (feature: GeoJSONFeature) => {
-    if (!map.current) return
-
-    const coordinates = feature.geometry.type === 'MultiPoint'
-      ? feature.geometry.coordinates as number[][]
-      : [feature.geometry.coordinates as number[]]
-
-    // Calculate bounds
-    const bounds = new maplibregl.LngLatBounds()
-    coordinates.forEach(coord => bounds.extend(coord as [number, number]))
-
-    // Fit map to bounds
-    map.current.fitBounds(bounds, {
-      padding: 100,
-      maxZoom: 10,
-      duration: 1000
-    })
-
-    // Remove existing connecting line
-    if (map.current.getLayer('connecting-line')) {
-      map.current.removeLayer('connecting-line')
-    }
-    if (map.current.getSource('connecting-line')) {
-      map.current.removeSource('connecting-line')
-    }
-
-    // Draw connecting polyline for multi-location movies
-    if (coordinates.length > 1) {
-      map.current.addSource('connecting-line', {
-        type: 'geojson',
-        data: {
-          type: 'Feature',
-          geometry: {
-            type: 'LineString',
-            coordinates
-          },
-          properties: {}
-        }
-      })
-
-      map.current.addLayer({
-        id: 'connecting-line',
-        type: 'line',
-        source: 'connecting-line',
-        paint: {
-          'line-color': '#F59E0B', // Vibrant amber color
-          'line-width': 4,
-          'line-opacity': 0.9,
-          'line-blur': 1
-        }
-      })
-
-      // Keep line visible permanently
-    }
-  }
-
-  /**
    * Add movie markers from GeoJSON - INITIAL LOAD ONLY
    */
   useEffect(() => {
@@ -579,10 +637,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         if (featureByMovieId) {
           const movieFromFeature = convertFeatureToMovie(featureByMovieId)
           onMovieSelect(movieFromFeature)
-          // Show all locations for multi-location movies
-          if (featureByMovieId.properties.locations_count > 1) {
-            setTimeout(() => showAllLocations(featureByMovieId), 500)
-          }
+          // Don't automatically show all locations - let user click "Show All on Map" button
         } else {
           // Last resort: create a minimal movie object
           const movieFromClick = {
@@ -694,6 +749,23 @@ const Map = forwardRef<MapRef, MapProps>(({
   }, [geojsonFeatures, movies, filters, focusedMovieId]) // Update data when filters/focus change
 
   /**
+   * Clear connecting lines when focus is removed
+   */
+  useEffect(() => {
+    if (!map.current) return
+
+    // When focusedMovieId is cleared, remove the connecting lines
+    if (!focusedMovieId) {
+      if (map.current.getLayer('connecting-line')) {
+        map.current.removeLayer('connecting-line')
+      }
+      if (map.current.getSource('connecting-line')) {
+        map.current.removeSource('connecting-line')
+      }
+    }
+  }, [focusedMovieId])
+
+  /**
    * Handle selected movie
    */
   useEffect(() => {
@@ -718,8 +790,8 @@ const Map = forwardRef<MapRef, MapProps>(({
       {/* Map container */}
       <div ref={mapContainer} style={{ width: '100%', height: '100%', position: 'relative', zIndex: 1 }} />
 
-      {/* Loading Screen Overlay */}
-      {loadingState.isLoading && (
+      {/* Loading Screen Overlay - Only show on initial load */}
+      {loadingState.isLoading && !initializedRef.current && (
         <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
           <div className="text-center space-y-6 px-8">
             {/* Movie emoji animation */}

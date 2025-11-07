@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Disable font optimization to prevent Google Fonts loading
+  optimizeFonts: false,
+  
   images: {
     domains: ['image.tmdb.org'],
     formats: ['image/webp', 'image/avif'],

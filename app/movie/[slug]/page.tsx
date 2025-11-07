@@ -1,24 +1,18 @@
 import { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import {
   getMovieBySlug,
   getAllMovieSlugs,
-  getRelatedMovies,
 } from '../../../lib/movies'
-import { generateMovieMetadata, generateMovieSchema } from '../../../lib/metadata'
-import MoviePage from '../../../components/MoviePage'
+import { generateMovieMetadata } from '../../../lib/metadata'
 
 interface Props {
   params: { slug: string }
 }
 
 // Enable static site generation for all movies
-// This generates pages at build time for better performance
 export async function generateStaticParams() {
   const slugs = getAllMovieSlugs()
-
-  // For 10k+ movies, we can use ISR (Incremental Static Regeneration)
-  // or generate most popular movies first
   return slugs.map((slug) => ({
     slug: slug,
   }))
@@ -38,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return generateMovieMetadata(movie, params.slug)
 }
 
-// Server component - renders on the server with full HTML
+// Server component - redirects to home with query param
 export default function MovieRoute({ params }: Props) {
   const movie = getMovieBySlug(params.slug)
 
@@ -47,29 +41,7 @@ export default function MovieRoute({ params }: Props) {
     notFound()
   }
 
-  // Get related movies for recommendations
-  const relatedMovies = getRelatedMovies(movie, 6)
-
-  // Generate JSON-LD schema
-  const schema = generateMovieSchema(movie, params.slug)
-
-  return (
-    <>
-      {/* JSON-LD for SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-
-      {/* Movie page content */}
-      <MoviePage
-        movie={movie}
-        slug={params.slug}
-        relatedMovies={relatedMovies}
-      />
-    </>
-  )
+  // Redirect to homepage with movie query param
+  // This keeps SEO benefits but prevents remounting
+  redirect(`/?movie=${params.slug}`)
 }
-
-// Optional: Configure revalidation for ISR
-// export const revalidate = 86400 // Revalidate every 24 hours

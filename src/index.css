@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -172,4 +172,19 @@ body {
 
 .cluster-pulse {
   animation: cluster-pulse 2s ease-in-out infinite;
+}
+
+/* Apply Geist font to MapLibre GL labels and controls */
+.maplibregl-ctrl,
+.maplibregl-popup,
+.maplibregl-popup-content,
+.mapboxgl-ctrl,
+.mapboxgl-popup,
+.mapboxgl-popup-content {
+  font-family: var(--font-geist-sans), system-ui, sans-serif !important;
+}
+
+/* Ensure all text elements use Geist */
+* {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }

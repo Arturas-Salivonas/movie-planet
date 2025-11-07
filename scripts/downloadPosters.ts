@@ -102,7 +102,10 @@ async function convertToWebP(imageBuffer: Buffer, outputPath: string): Promise<v
 
 /**
  * Get file extension from URL or buffer
+ * @internal - Reserved for future use in format detection
  */
+// @ts-ignore - Reserved for npm run fetch script
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getImageFormat(url: string): string {
   const match = url.match(/\.(jpg|jpeg|png|webp)/)
   return match ? match[1] : 'jpg'

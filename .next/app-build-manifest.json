@@ -24,18 +24,6 @@
       "static/chunks/vendors.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
-    ],
-    "/movie/[slug]/page": [
-      "static/chunks/runtime.js",
-      "static/chunks/vendors.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/movie/[slug]/page.js"
-    ],
-    "/movie/[slug]/loading": [
-      "static/chunks/runtime.js",
-      "static/chunks/vendors.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/movie/[slug]/loading.js"
     ]
   }
 }

@@ -2,36 +2,69 @@
 
 /**
  * MapClient - Client wrapper for the map component
- * Handles routing to movie pages
+ * Handles modal-based movie navigation with globe always visible
  */
 
-import dynamic from 'next/dynamic'
-import { useState, lazy, Suspense, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useState, lazy, Suspense, useEffect, useRef, forwardRef } from 'react'
 import type { Movie, FilterState } from '../lib/types'
+import type { MapRef } from '../src/components/Map'
 
 // Lazy load components
 const SearchBar = lazy(() => import('../src/components/SearchBar'))
 const Filters = lazy(() => import('../src/components/Filters'))
+const MovieModal = lazy(() => import('../src/components/MovieModal'))
 
-// Dynamically import Map (CSR only - no SSR) with forwardRef support
-const Map = dynamic(() => import('../src/components/Map'), {
-  ssr: false,
-  loading: () => (
-    <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
-      <div className="text-center space-y-6 px-8">
-        <div className="text-7xl animate-bounce">🎬</div>
-        <h2 className="text-3xl font-bold text-white">CineMap</h2>
-        <p className="text-xl text-gray-300">Loading globe...</p>
+interface MapProps {
+  selectedMovie: Movie | null
+  onMovieSelect: (movie: Movie | null) => void
+  searchQuery: string
+  filters: FilterState
+  focusedMovieId?: string | null
+  onClearFocus?: () => void
+}
+
+// Dynamically import MapWrapper with proper ref forwarding
+const Map = forwardRef<MapRef, MapProps>((props, ref) => {
+  const [MapComponent, setMapComponent] = useState<React.ComponentType<any> | null>(null)
+
+  useEffect(() => {
+    import('../src/components/MapWrapper').then(mod => setMapComponent(() => mod.default))
+  }, [])
+
+  if (!MapComponent) {
+    return (
+      <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+        <div className="text-center space-y-6 px-8">
+          <div className="text-7xl animate-bounce">🎬</div>
+          <h2 className="text-3xl font-bold text-white">CineMap</h2>
+          <p className="text-xl text-gray-300">Loading globe...</p>
+        </div>
       </div>
-    </div>
-  ),
+    )
+  }
+
+  return <MapComponent {...props} ref={ref} />
 })
 
-export default function MapClient() {
-  const router = useRouter()
+Map.displayName = 'Map'
+
+interface MapClientProps {
+  initialMovieSlug?: string
+  initialMovie?: Movie
+  initialRelatedMovies?: Movie[]
+}
+
+export default function MapClient({
+  initialMovieSlug: _initialMovieSlug,
+  initialMovie,
+  initialRelatedMovies = []
+}: MapClientProps) {
+  const mapRef = useRef<MapRef>(null)
+  const [selectedMovie, setSelectedMovie] = useState<Movie | null>(initialMovie || null)
+  const [relatedMovies, setRelatedMovies] = useState<Movie[]>(initialRelatedMovies)
   const [focusedMovieId, setFocusedMovieId] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState<string>('')
+  const [isLocationViewed, setIsLocationViewed] = useState<boolean>(false)
   const [filters, setFilters] = useState<FilterState>({
     genres: [],
     decades: [1980, 2030],
@@ -40,6 +73,7 @@ export default function MapClient() {
 
   // Load slug mapping on client side
   const [slugMap, setSlugMap] = useState<Record<string, string>>({})
+  const [reverseSlugMap, setReverseSlugMap] = useState<Record<string, string>>({})
 
   useEffect(() => {
     // Load reverse slug mapping (movie_id -> slug)
@@ -47,22 +81,179 @@ export default function MapClient() {
       .then(res => res.json())
       .then(data => setSlugMap(data))
       .catch(err => console.error('Failed to load slug mapping:', err))
+
+    // Load forward slug mapping (slug -> movie_id)
+    fetch('/data/movies_slugs.json')
+      .then(res => res.json())
+      .then(data => setReverseSlugMap(data))
+      .catch(err => console.error('Failed to load forward slug mapping:', err))
   }, [])
+
+  // Check URL for movie query param on mount and handle browser back/forward
+  useEffect(() => {
+    const handleUrlChange = async () => {
+      const params = new URLSearchParams(window.location.search)
+      const movieSlug = params.get('movie')
+
+      if (movieSlug && Object.keys(reverseSlugMap).length > 0) {
+        // Get movie_id from slug
+        const movieId = reverseSlugMap[movieSlug]
+        if (movieId) {
+          // Fetch movie data
+          try {
+            const response = await fetch('/geo/movies.geojson')
+            const geojsonData = await response.json()
+            const feature = geojsonData.features.find((f: any) => f.properties.movie_id === movieId)
+
+            if (feature) {
+              // Convert to Movie object
+              const movie = convertGeoJSONToMovie(feature)
+              setSelectedMovie(movie)
+              fetchRelatedMovies(movie)
+            }
+          } catch (error) {
+            console.error('Failed to load movie:', error)
+          }
+        }
+      } else if (!movieSlug && selectedMovie) {
+        // No movie param but modal is open - close it
+        setSelectedMovie(null)
+        setRelatedMovies([])
+      }
+    }
+
+    handleUrlChange()
+
+    // Listen for browser back/forward
+    window.addEventListener('popstate', handleUrlChange)
+    return () => window.removeEventListener('popstate', handleUrlChange)
+  }, [reverseSlugMap, selectedMovie])
+
+  // Helper function to convert GeoJSON feature to Movie object
+  const convertGeoJSONToMovie = (feature: any): Movie => {
+    let locations = []
+    if (feature.geometry.type === 'Point') {
+      const [lng, lat] = feature.geometry.coordinates
+      locations = [{
+        lat, lng,
+        city: feature.properties.location_names[0]?.split(',')[0] || 'Unknown',
+        country: feature.properties.location_names[0]?.split(',')[1]?.trim() || 'Unknown',
+      }]
+    } else if (feature.geometry.type === 'MultiPoint') {
+      locations = feature.geometry.coordinates.map((coord: number[], idx: number) => {
+        const [lng, lat] = coord
+        const locationName = feature.properties.location_names[idx] || 'Unknown'
+        const [city, country] = locationName.split(',').map((s: string) => s.trim())
+        return { lat, lng, city: city || 'Unknown', country: country || 'Unknown' }
+      })
+    }
+
+    return {
+      movie_id: feature.properties.movie_id,
+      title: feature.properties.title,
+      year: feature.properties.year,
+      imdb_id: feature.properties.movie_id,
+      tmdb_id: String(feature.properties.tmdb_id),
+      genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
+      poster: feature.properties.poster || undefined,
+      imdb_rating: feature.properties.imdb_rating || undefined,
+      locations,
+    }
+  }
 
   const handleMovieSelect = (movie: Movie | null) => {
     if (movie) {
       // Get slug for this movie
       const slug = slugMap[movie.movie_id]
       if (slug) {
-        router.push(`/movie/${slug}`)
+        // Update URL with search param instead of navigating
+        const url = new URL(window.location.href)
+        url.searchParams.set('movie', slug)
+        window.history.pushState({}, '', url.toString())
+
+        // Set selected movie to show modal
+        setSelectedMovie(movie)
+
+        // Fetch related movies
+        fetchRelatedMovies(movie)
       } else {
         console.error('No slug found for movie:', movie.movie_id)
       }
+    } else {
+      // Close modal and remove query param
+      setSelectedMovie(null)
+      setRelatedMovies([])
+      const url = new URL(window.location.href)
+      url.searchParams.delete('movie')
+      window.history.pushState({}, '', url.toString())
+    }
+  }
+
+  const fetchRelatedMovies = async (movie: Movie) => {
+    try {
+      // Fetch all movies to find related ones
+      const response = await fetch('/geo/movies.geojson')
+      const geojsonData = await response.json()
+
+      // Convert to Movie objects and find related movies
+      const allMovies: Movie[] = geojsonData.features.map((feature: any) => {
+        let locations = []
+        if (feature.geometry.type === 'Point') {
+          const [lng, lat] = feature.geometry.coordinates
+          locations = [{
+            lat, lng,
+            city: feature.properties.location_names[0]?.split(',')[0] || 'Unknown',
+            country: feature.properties.location_names[0]?.split(',')[1]?.trim() || 'Unknown',
+          }]
+        } else if (feature.geometry.type === 'MultiPoint') {
+          locations = feature.geometry.coordinates.map((coord: number[], idx: number) => {
+            const [lng, lat] = coord
+            const locationName = feature.properties.location_names[idx] || 'Unknown'
+            const [city, country] = locationName.split(',').map((s: string) => s.trim())
+            return { lat, lng, city: city || 'Unknown', country: country || 'Unknown' }
+          })
+        }
+
+        return {
+          movie_id: feature.properties.movie_id,
+          title: feature.properties.title,
+          year: feature.properties.year,
+          imdb_id: feature.properties.movie_id,
+          tmdb_id: String(feature.properties.tmdb_id),
+          genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
+          poster: feature.properties.poster || undefined,
+          imdb_rating: feature.properties.imdb_rating || undefined,
+          locations,
+        }
+      })
+
+      // Find movies with matching genres (exclude current movie)
+      const related = allMovies
+        .filter(m => m.movie_id !== movie.movie_id)
+        .filter(m => {
+          const movieGenres = movie.genres || []
+          const otherGenres = m.genres || []
+          return movieGenres.some(g => otherGenres.includes(g))
+        })
+        .sort((a, b) => (b.imdb_rating || 0) - (a.imdb_rating || 0))
+        .slice(0, 6)
+
+      setRelatedMovies(related)
+    } catch (error) {
+      console.error('Failed to fetch related movies:', error)
     }
   }
 
   const handleResetFocus = () => {
     setFocusedMovieId(null)
+  }
+
+  const handleResetView = () => {
+    if (mapRef.current) {
+      mapRef.current.resetView()
+      setIsLocationViewed(false)
+      setFocusedMovieId(null)
+    }
   }
 
   return (
@@ -101,13 +292,55 @@ export default function MapClient() {
 
       {/* Main Map */}
       <Map
-        selectedMovie={null}
+        ref={mapRef}
+        selectedMovie={selectedMovie}
         onMovieSelect={handleMovieSelect}
         searchQuery={searchQuery}
         filters={filters}
         focusedMovieId={focusedMovieId}
         onClearFocus={handleResetFocus}
       />
+
+      {/* Movie Modal */}
+      {selectedMovie && (
+        <Suspense fallback={null}>
+          <MovieModal
+            movie={selectedMovie}
+            relatedMovies={relatedMovies}
+            onClose={() => handleMovieSelect(null)}
+            onRelatedMovieClick={handleMovieSelect}
+            onShowAllLocations={() => {
+              // Show all locations with connecting lines and close modal
+              if (selectedMovie && mapRef.current) {
+                mapRef.current.showAllLocationsForMovie(selectedMovie)
+                setFocusedMovieId(selectedMovie.movie_id)
+                setSelectedMovie(null) // Close modal so user can see the map
+                setIsLocationViewed(true)
+                // Update URL to remove movie param
+                const url = new URL(window.location.href)
+                url.searchParams.delete('movie')
+                window.history.pushState({}, '', url.toString())
+              }
+            }}
+            onViewLocation={(location) => {
+              // First, fly to the specific location
+              if (mapRef.current) {
+                mapRef.current.flyToLocation(location.lat, location.lng)
+                setIsLocationViewed(true)
+              }
+
+              // Then close modal with a small delay so the fly animation starts first
+              setTimeout(() => {
+                setSelectedMovie(null)
+                // Update URL to remove movie param
+                const url = new URL(window.location.href)
+                url.searchParams.delete('movie')
+                window.history.pushState({}, '', url.toString())
+              }, 100)
+            }}
+          />
+        </Suspense>
+      )}
 
       {/* Reset Focus Button - Shows when a movie is focused */}
       {focusedMovieId && (
@@ -118,6 +351,19 @@ export default function MapClient() {
           >
             <span>↩️</span>
             <span>Show All Movies</span>
+          </button>
+        </div>
+      )}
+
+      {/* Reset View Button - Shows when user has viewed a location */}
+      {isLocationViewed && !focusedMovieId && (
+        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
+          <button
+            onClick={handleResetView}
+            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center gap-2"
+          >
+            <span className="text-xl">🌍</span>
+            <span>Reset View</span>
           </button>
         </div>
       )}

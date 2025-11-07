@@ -484,11 +484,12 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
 
     if (!tmdbId && imdbId) {
       console.log(`  🔍 Finding TMDb ID for ${imdbId}...`)
-      tmdbId = await findTmdbId(imdbId)
-      if (!tmdbId) {
+      const foundId = await findTmdbId(imdbId)
+      if (!foundId) {
         console.error(`  ❌ Could not find TMDb ID`)
         return null
       }
+      tmdbId = foundId
     }
 
     if (!tmdbId) {

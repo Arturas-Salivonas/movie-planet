@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import '../src/index.css'
 import { generateHomeMetadata } from '../lib/metadata'
-
-const inter = Inter({ subsets: ['latin'] })
+import { GeistSans } from 'geist/font/sans'
 
 export const metadata: Metadata = generateHomeMetadata()
 
@@ -20,7 +18,7 @@ export default function RootLayout({
           href="https://unpkg.com/maplibre-gl@5.11.0/dist/maplibre-gl.css"
         />
       </head>
-      <body className={`${inter.className} h-full`}>
+      <body className={`${GeistSans.variable} ${GeistSans.className} h-full antialiased`}>
         {children}
       </body>
     </html>

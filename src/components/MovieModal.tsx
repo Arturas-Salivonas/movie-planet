@@ -11,9 +11,18 @@ interface MovieModalProps {
   onClose: () => void
   onShowAllLocations?: () => void
   onViewLocation?: (location: { lat: number; lng: number }) => void
+  relatedMovies?: Movie[]
+  onRelatedMovieClick?: (movie: Movie) => void
 }
 
-export default function MovieModal({ movie, onClose, onShowAllLocations, onViewLocation }: MovieModalProps) {
+export default function MovieModal({
+  movie,
+  onClose,
+  onShowAllLocations,
+  onViewLocation,
+  relatedMovies = [],
+  onRelatedMovieClick
+}: MovieModalProps) {
   /**
    * Handle ESC key to close modal
    */
@@ -240,6 +249,37 @@ export default function MovieModal({ movie, onClose, onShowAllLocations, onViewL
               </a>
             )}
           </div>
+
+          {/* Related Movies */}
+          {relatedMovies.length > 0 && (
+            <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+                🎬 Related Movies
+              </h3>
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                {relatedMovies.map((related) => (
+                  <button
+                    key={related.movie_id}
+                    onClick={() => onRelatedMovieClick?.(related)}
+                    className="group relative"
+                    title={related.title}
+                  >
+                    {related.poster && (
+                      <img
+                        src={related.poster}
+                        alt={`${related.title} poster`}
+                        className="w-full rounded-lg shadow-lg group-hover:scale-105 transition-transform"
+                        loading="lazy"
+                      />
+                    )}
+                    <p className="mt-2 text-xs text-gray-700 dark:text-gray-300 font-medium line-clamp-2">
+                      {related.title}
+                    </p>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

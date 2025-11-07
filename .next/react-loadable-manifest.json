@@ -5,11 +5,17 @@
       "static/chunks/_app-pages-browser_src_components_Filters_tsx.js"
     ]
   },
-  "components\\MapClient.tsx -> ../src/components/Map": {
-    "id": "components\\MapClient.tsx -> ../src/components/Map",
+  "components\\MapClient.tsx -> ../src/components/MapWrapper": {
+    "id": "components\\MapClient.tsx -> ../src/components/MapWrapper",
     "files": [
       "static/chunks/maplibre.js",
-      "static/chunks/_app-pages-browser_src_components_Map_tsx.js"
+      "static/chunks/_app-pages-browser_src_components_MapWrapper_tsx.js"
+    ]
+  },
+  "components\\MapClient.tsx -> ../src/components/MovieModal": {
+    "id": "components\\MapClient.tsx -> ../src/components/MovieModal",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_MovieModal_tsx.js"
     ]
   },
   "components\\MapClient.tsx -> ../src/components/SearchBar": {
@@ -17,13 +23,6 @@
     "files": [
       "static/chunks/vendors.js",
       "static/chunks/_app-pages-browser_src_components_SearchBar_tsx.js"
-    ]
-  },
-  "components\\MoviePage.tsx -> ./MapPreview": {
-    "id": "components\\MoviePage.tsx -> ./MapPreview",
-    "files": [
-      "static/chunks/maplibre.js",
-      "static/chunks/_app-pages-browser_components_MapPreview_tsx.js"
     ]
   }
 }
