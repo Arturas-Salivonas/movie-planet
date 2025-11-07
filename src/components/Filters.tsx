@@ -210,7 +210,7 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
           {/* Streaming Platforms */}
           <div className="mb-4">
             <h3 className="font-semibold text-gray-900 dark:text-white mb-3 flex items-center justify-between">
-              <span>Streaming On</span>
+
               {filters.streaming.length > 0 && (
                 <button
                   onClick={() => onFiltersChange({ ...filters, streaming: [] })}

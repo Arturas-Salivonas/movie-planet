@@ -4,9 +4,9 @@
  * This script:
  * 1. Fetches movie metadata from TMDb
  * 2. Scrapes filming locations from IMDb using Puppeteer
- * 3. Falls back to Wikipedia if IMDb fails
- * 4. Geocodes all locations using Nominatim
- * 5. Caches everything to avoid re-fetching
+ * 3. Geocodes all locations using Nominatim
+ * 4. Caches everything to avoid re-fetching
+ * 5. Only saves movies with actual IMDb filming locations
  */
 
 import 'dotenv/config'
@@ -127,10 +127,10 @@ function deduplicateLocationsByCoordinates(locations: Location[]): Location[] {
 // TMDb Functions
 // ============================================================================
 
-async function findTmdbId(imdbId: string): Promise<number | null> {
+async function findTmdbId(imdbId: string): Promise<{ tmdb_id: number; type: 'movie' | 'tv' } | null> {
   const cacheKey = `tmdb_find_${imdbId}`
-  const cached = await getCached<{ tmdb_id: number }>(cacheKey)
-  if (cached) return cached.tmdb_id
+  const cached = await getCached<{ tmdb_id: number; type: 'movie' | 'tv' }>(cacheKey)
+  if (cached) return cached
 
   try {
     const response = await axios.get(`${CONFIG.TMDB_BASE_URL}/find/${imdbId}`, {
@@ -140,10 +140,20 @@ async function findTmdbId(imdbId: string): Promise<number | null> {
       },
     })
 
-    const tmdbId = response.data.movie_results?.[0]?.id
-    if (tmdbId) {
-      await setCache(cacheKey, { tmdb_id: tmdbId })
-      return tmdbId
+    // Check for movies first
+    const movieId = response.data.movie_results?.[0]?.id
+    if (movieId) {
+      const result = { tmdb_id: movieId, type: 'movie' as const }
+      await setCache(cacheKey, result)
+      return result
+    }
+
+    // Check for TV shows
+    const tvId = response.data.tv_results?.[0]?.id
+    if (tvId) {
+      const result = { tmdb_id: tvId, type: 'tv' as const }
+      await setCache(cacheKey, result)
+      return result
     }
   } catch (error: any) {
     console.error(`  ❌ TMDb find failed: ${error.message}`)
@@ -152,13 +162,14 @@ async function findTmdbId(imdbId: string): Promise<number | null> {
   return null
 }
 
-async function fetchTmdbMovie(tmdbId: number): Promise<any> {
-  const cacheKey = `tmdb_movie_${tmdbId}`
+async function fetchTmdbMovie(tmdbId: number, type: 'movie' | 'tv' = 'movie'): Promise<any> {
+  const cacheKey = `tmdb_${type}_${tmdbId}`
   const cached = await getCached<any>(cacheKey)
   if (cached) return cached
 
   try {
-    const response = await axios.get(`${CONFIG.TMDB_BASE_URL}/movie/${tmdbId}`, {
+    const endpoint = type === 'tv' ? 'tv' : 'movie'
+    const response = await axios.get(`${CONFIG.TMDB_BASE_URL}/${endpoint}/${tmdbId}`, {
       params: {
         api_key: CONFIG.TMDB_API_KEY,
         append_to_response: 'videos,external_ids',
@@ -337,94 +348,6 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
 }
 
 // ============================================================================
-// Wikipedia Fallback
-// ============================================================================
-
-async function scrapeWikipediaLocations(title: string, year: number): Promise<ScrapedLocation[]> {
-  const cacheKey = `wikipedia_${title.replace(/\s+/g, '_')}_${year}`
-  const cached = await getCached<ScrapedLocation[]>(cacheKey)
-  if (cached) {
-    console.log(`  💾 Using cached Wikipedia data`)
-    return cached
-  }
-
-  try {
-    console.log(`  📚 Trying Wikipedia fallback...`)
-
-    // Search for the Wikipedia page
-    const searchUrl = 'https://en.wikipedia.org/w/api.php'
-    const searchResponse = await axios.get(searchUrl, {
-      params: {
-        action: 'query',
-        list: 'search',
-        srsearch: `${title} ${year} film`,
-        format: 'json',
-        srlimit: 1
-      }
-    })
-
-    if (searchResponse.data.query.search.length === 0) {
-      console.log(`  ℹ️  No Wikipedia page found`)
-      return []
-    }
-
-    const pageTitle = searchResponse.data.query.search[0].title
-
-    // Get page content
-    const contentResponse = await axios.get(searchUrl, {
-      params: {
-        action: 'query',
-        prop: 'extracts',
-        titles: pageTitle,
-        format: 'json',
-        explaintext: true
-      }
-    })
-
-    const pages = contentResponse.data.query.pages
-    const pageId = Object.keys(pages)[0]
-    const content = pages[pageId]?.extract || ''
-
-    // Look for filming section
-    const productionMatch = content.match(/(?:Production|Filming|Principal photography)[\s\S]{0,2000}/i)
-
-    if (!productionMatch) {
-      console.log(`  ℹ️  No filming section found in Wikipedia`)
-      return []
-    }
-
-    const productionText = productionMatch[0]
-
-    // Extract location mentions (simple regex - finds city, state/country patterns)
-    const locationRegex = /(?:filmed|shot|took place|location[s]?|set)\s+(?:in|at|on)\s+([A-Z][a-zA-Z\s,]+(?:,\s*[A-Z][a-zA-Z\s]+)?)/gi
-    const matches = [...productionText.matchAll(locationRegex)]
-
-    const locations: ScrapedLocation[] = []
-    const seen = new Set<string>()
-
-    matches.forEach(match => {
-      const place = match[1].trim().replace(/\.$/, '')
-      if (place.length > 3 && !seen.has(place)) {
-        seen.add(place)
-        locations.push({ place, details: '' })
-      }
-    })
-
-    if (locations.length > 0) {
-      console.log(`  ✅ Found ${locations.length} locations from Wikipedia`)
-      await setCache(cacheKey, locations)
-    }
-
-    await sleep(500) // Be nice to Wikipedia
-    return locations
-
-  } catch (error: any) {
-    console.error(`  ❌ Wikipedia scraping failed: ${error.message}`)
-    return []
-  }
-}
-
-// ============================================================================
 // Geocoding
 // ============================================================================
 
@@ -480,16 +403,19 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
 
     // Get TMDb ID
     let tmdbId = input.tmdb_id
+    let contentType: 'movie' | 'tv' = 'movie'
     const imdbId = input.imdb_id || ''
 
     if (!tmdbId && imdbId) {
       console.log(`  🔍 Finding TMDb ID for ${imdbId}...`)
-      const foundId = await findTmdbId(imdbId)
-      if (!foundId) {
+      const foundResult = await findTmdbId(imdbId)
+      if (!foundResult) {
         console.error(`  ❌ Could not find TMDb ID`)
         return null
       }
-      tmdbId = foundId
+      tmdbId = foundResult.tmdb_id
+      contentType = foundResult.type
+      console.log(`  ✓ Found as ${contentType === 'tv' ? 'TV Show' : 'Movie'}: ${tmdbId}`)
     }
 
     if (!tmdbId) {
@@ -499,40 +425,22 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
 
     // Fetch TMDb data
     console.log(`  📊 Fetching TMDb data...`)
-    const tmdbData = await fetchTmdbMovie(tmdbId)
+    const tmdbData = await fetchTmdbMovie(tmdbId, contentType)
 
     const movieId = imdbId || tmdbData.external_ids?.imdb_id || `tmdb_${tmdbId}`
-    const title = tmdbData.title
-    const year = parseInt(tmdbData.release_date?.split('-')[0] || '0')
+    const title = tmdbData.title || tmdbData.name
+    const year = parseInt((tmdbData.release_date || tmdbData.first_air_date)?.split('-')[0] || '0')
 
     console.log(`\n  🎬 ${title} (${year})`)
     console.log(`  📍 IMDb: ${movieId}`)
 
-    // Scrape IMDb locations
-    let scrapedLocations = await scrapeIMDbLocations(movieId)
-
-    // Fallback to Wikipedia if IMDb has no data
-    if (scrapedLocations.length === 0) {
-      console.log(`  🔄 IMDb empty, trying Wikipedia...`)
-      scrapedLocations = await scrapeWikipediaLocations(title, year)
-    }
+    // Scrape IMDb locations (ONLY - no fallbacks)
+    const scrapedLocations = await scrapeIMDbLocations(movieId)
 
     if (scrapedLocations.length === 0) {
-      console.log(`  ⚠️  No locations found anywhere, skipping`)
-      // Still save the movie with empty locations
-      return {
-        movie_id: movieId,
-        title,
-        original_title: tmdbData.original_title,
-        year,
-        imdb_id: movieId,
-        tmdb_id: tmdbId,
-        genres: tmdbData.genres?.map((g: any) => g.name) || [],
-        poster: tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : '',
-        trailer: extractTrailerId(tmdbData.videos) || '',
-        imdb_rating: tmdbData.vote_average || 0,
-        locations: []
-      }
+      console.log(`  ⚠️  No filming locations found on IMDb, skipping`)
+      // Don't save movies without IMDb filming locations
+      return null
     }
 
     // Display scraped locations
@@ -632,6 +540,11 @@ async function main() {
     console.log(`📝 No existing database found - starting fresh`)
   }
 
+  // Create Map of existing movies for location checking
+  const existingMoviesMap = new Map(
+    existingMovies.map(m => [m.imdb_id, m])
+  )
+
   // Create Set of existing IMDb IDs for fast lookup
   const existingImdbIds = new Set(
     existingMovies.map(m => m.imdb_id).filter((id): id is string => !!id)
@@ -647,11 +560,16 @@ async function main() {
     const inputMovie = inputMovies[i]
     const imdb_id = inputMovie.imdb_id
 
-    // Check for duplicates
+    // Check for duplicates - skip if already exists AND has locations
     if (imdb_id && existingImdbIds.has(imdb_id)) {
-      console.log(`⏭️  [${i + 1}/${inputMovies.length}] Skipping ${imdb_id} - already in database`)
-      skippedCount++
-      continue
+      const existingMovie = existingMoviesMap.get(imdb_id)
+      if (existingMovie && existingMovie.locations && existingMovie.locations.length > 0) {
+        console.log(`⏭️  [${i + 1}/${inputMovies.length}] Skipping ${imdb_id} - already in database with locations`)
+        skippedCount++
+        continue
+      }
+      // If it exists but has no locations, re-process it
+      console.log(`🔄 [${i + 1}/${inputMovies.length}] Re-processing ${imdb_id} - exists but no locations found`)
     }
 
     const movie = await processMovie(inputMovie, i, inputMovies.length)

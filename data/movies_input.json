@@ -2706,5 +2706,905 @@
   {
     "imdb_id": "tt6966692",
     "title": "Green Book"
+  },
+  {
+    "imdb_id": "tt0108778",
+    "title": "Friends",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt1190634",
+    "title": "The Boys",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt3032476",
+    "title": "Better Call Saul",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt2442560",
+    "title": "Peaky Blinders",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt10919420",
+    "title": "Squid Game",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt3581920",
+    "title": "The Last of Us",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0455275",
+    "title": "Prison Break",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt8111088",
+    "title": "The Mandalorian",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt2306299",
+    "title": "Vikings",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt5180504",
+    "title": "The Witcher",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt6468322",
+    "title": "Money Heist",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt1856010",
+    "title": "House of Cards",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0475784",
+    "title": "Westworld",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0141842",
+    "title": "The Sopranos",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt1442437",
+    "title": "Modern Family",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt1632701",
+    "title": "Suits",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt2707408",
+    "title": "Narcos",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt11198330",
+    "title": "House of the Dragon",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt13443470",
+    "title": "Wednesday",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0096697",
+    "title": "The Simpsons",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt9140554",
+    "title": "Loki",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt2193021",
+    "title": "Arrow",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt2802850",
+    "title": "Fargo",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0877057",
+    "title": "Death Note",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt7631058",
+    "title": "The Lord of the Rings: The Rings of Power",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt10986410",
+    "title": "Ted Lasso",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0417299",
+    "title": "Avatar: The Last Airbender",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt11126994",
+    "title": "Arcane",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt0306414",
+    "title": "The Wire",
+    "year": 2025,
+    "type": "movie"
+  },
+  {
+    "imdb_id": "tt5491994",
+    "title": "Planet Earth II",
+    "year": 2016,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0795176",
+    "title": "Planet Earth",
+    "year": 2006,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0185906",
+    "title": "Band of Brothers",
+    "year": 2001,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt7366338",
+    "title": "Chernobyl",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt6769208",
+    "title": "Blue Planet II",
+    "year": 2017,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2395695",
+    "title": "Cosmos: A Spacetime Odyssey",
+    "year": 2014,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0081846",
+    "title": "Cosmos",
+    "year": 1980,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt9253866",
+    "title": "Our Planet",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt7678620",
+    "title": "Bluey",
+    "year": 2018,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0071075",
+    "title": "The World at War",
+    "year": 1973,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1355642",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2009,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1533395",
+    "title": "Life",
+    "year": 2009,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt8420184",
+    "title": "The Last Dance",
+    "year": 2020,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0052520",
+    "title": "The Twilight Zone",
+    "year": 1959,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1877514",
+    "title": "The Vietnam War",
+    "year": 2017,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0103359",
+    "title": "Batman: The Animated Series",
+    "year": 1992,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt33043892",
+    "title": "Dexter: Resurrection",
+    "year": 2025,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0296310",
+    "title": "The Blue Planet",
+    "year": 2001,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt10541088",
+    "title": "Clarkson's Farm",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt12392504",
+    "title": "Scam 1992: The Harshad Mehta Story",
+    "year": 2020,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2098220",
+    "title": "Hunter x Hunter",
+    "year": 2011,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2092588",
+    "title": "Frozen Planet",
+    "year": 2011,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1806234",
+    "title": "Human Planet",
+    "year": 2011,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0081912",
+    "title": "Only Fools and Horses",
+    "year": 1981,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0303461",
+    "title": "Firefly",
+    "year": 2002,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0098769",
+    "title": "The Civil War",
+    "year": 1990,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1865718",
+    "title": "Gravity Falls",
+    "year": 2012,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt13675832",
+    "title": "As If",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt31938062",
+    "title": "The Pitt",
+    "year": 2025,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0098904",
+    "title": "Seinfeld",
+    "year": 1989,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0092337",
+    "title": "Dekalog",
+    "year": 1989,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt9735318",
+    "title": "The Beatles: Get Back",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0213338",
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2297757",
+    "title": "Nathan for You",
+    "year": 2013,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt4934214",
+    "title": "Taskmaster",
+    "year": 2015,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt22248376",
+    "title": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt7920978",
+    "title": "Persona",
+    "year": 2018,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1508238",
+    "title": "Apocalypse: The Second World War",
+    "year": 2009,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2571774",
+    "title": "Africa",
+    "year": 2013,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt7137906",
+    "title": "When They See Us",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0200276",
+    "title": "The West Wing",
+    "year": 1999,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0472954",
+    "title": "It's Always Sunny in Philadelphia",
+    "year": 2005,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt3530232",
+    "title": "Last Week Tonight with John Oliver",
+    "year": 2014,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0388629",
+    "title": "One Piece",
+    "year": 1999,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt4742876",
+    "title": "TVF Pitchers",
+    "year": 2015,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0264235",
+    "title": "Curb Your Enthusiasm",
+    "year": 2000,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0063929",
+    "title": "Monty Python's Flying Circus",
+    "year": 1969,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0081834",
+    "title": "Das Boot",
+    "year": 1985,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt3398228",
+    "title": "BoJack Horseman",
+    "year": 2014,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0072500",
+    "title": "Fawlty Towers",
+    "year": 1975,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt14986406",
+    "title": "Bleach: Thousand-Year Blood War",
+    "year": 2022,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt12004706",
+    "title": "Panchayat",
+    "year": 2020,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt26471411",
+    "title": "When Life Gives You Tangerines",
+    "year": 2025,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0214341",
+    "title": "Dragon Ball Z",
+    "year": 1996,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0096548",
+    "title": "Blackadder Goes Forth",
+    "year": 1989,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt5622316",
+    "title": "The Chosen",
+    "year": 2017,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt10233448",
+    "title": "Vinland Saga",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0121220",
+    "title": "Dragon Ball Z",
+    "year": 1989,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0193676",
+    "title": "Freaks and Geeks",
+    "year": 1999,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt10530900",
+    "title": "Gullak",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0112130",
+    "title": "Pride and Prejudice",
+    "year": 1995,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0098936",
+    "title": "Twin Peaks",
+    "year": 1990,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0353049",
+    "title": "Chappelle's Show",
+    "year": 2003,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0074006",
+    "title": "I, Claudius",
+    "year": 1976,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt5182866",
+    "title": "Reply 1988",
+    "year": 2015,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt9432978",
+    "title": "Kota Factory",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt3718778",
+    "title": "Over the Garden Wall",
+    "year": 2014,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1910272",
+    "title": "Steins;Gate",
+    "year": 2011,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt7923710",
+    "title": "My Mister",
+    "year": 2018,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0318871",
+    "title": "Berserk",
+    "year": 1997,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0248654",
+    "title": "Six Feet Under",
+    "year": 2001,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0384766",
+    "title": "Rome",
+    "year": 2005,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0118421",
+    "title": "Oz",
+    "year": 1997,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt16026746",
+    "title": "X-Men '97",
+    "year": 2024,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0286486",
+    "title": "The Shield",
+    "year": 2002,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt5687612",
+    "title": "Fleabag",
+    "year": 2016,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1606375",
+    "title": "Downton Abbey",
+    "year": 2010,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt5712554",
+    "title": "The Grand Tour",
+    "year": 2016,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0434706",
+    "title": "Monster",
+    "year": 2004,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0281491",
+    "title": "Still Game",
+    "year": 2002,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0988824",
+    "title": "Naruto: Shippuden",
+    "year": 2007,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0387764",
+    "title": "Peep Show",
+    "year": 2003,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt6741278",
+    "title": "Invincible",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0092455",
+    "title": "Star Trek: The Next Generation",
+    "year": 1987,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt13309742",
+    "title": "Blue Eye Samurai",
+    "year": 2023,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt11280740",
+    "title": "Severance",
+    "year": 2022,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt6025022",
+    "title": "Justice League Unlimited",
+    "year": 2004,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0086661",
+    "title": "The Adventures of Sherlock Holmes",
+    "year": 1984,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0158417",
+    "title": "Mahabharat",
+    "year": 1988,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2303687",
+    "title": "Line of Duty",
+    "year": 2012,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0758745",
+    "title": "Friday Night Lights",
+    "year": 2006,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt4508902",
+    "title": "One Punch Man",
+    "year": 2015,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt5788792",
+    "title": "The Marvelous Mrs. Maisel",
+    "year": 2017,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt10801534",
+    "title": "How to with John Wilson",
+    "year": 2020,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0459159",
+    "title": "The Thick of It",
+    "year": 2005,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt5555260",
+    "title": "This Is Us",
+    "year": 2016,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt14392248",
+    "title": "Aspirants",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0994314",
+    "title": "Code Geass",
+    "year": 2006,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0111958",
+    "title": "Father Ted",
+    "year": 1995,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1795096",
+    "title": "Behzat Ç: An Ankara Detective Story",
+    "year": 2010,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0268093",
+    "title": "Ramayan",
+    "year": 1987,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt13991232",
+    "title": "1883",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1305826",
+    "title": "Adventure Time",
+    "year": 2010,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0481256",
+    "title": "Fighting Spirit",
+    "year": 2000,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt7472896",
+    "title": "Mr Inbetween",
+    "year": 2018,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt4288182",
+    "title": "Atlanta",
+    "year": 2016,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1518542",
+    "title": "Sarabhai V/S Sarabhai",
+    "year": 2004,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0348914",
+    "title": "Deadwood",
+    "year": 2004,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt4786824",
+    "title": "The Crown",
+    "year": 2016,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt9140342",
+    "title": "It's a Sin",
+    "year": 2021,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt1733785",
+    "title": "The Bridge",
+    "year": 2011,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0094525",
+    "title": "Poirot",
+    "year": 1989,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt10332508",
+    "title": "Primal",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0088484",
+    "title": "Blackadder II",
+    "year": 1986,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0096639",
+    "title": "Lonesome Dove",
+    "year": 1989,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0096657",
+    "title": "Mr. Bean",
+    "year": 1990,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt2788316",
+    "title": "Shōgun",
+    "year": 2024,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt3398540",
+    "title": "Haikyu!!",
+    "year": 2014,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt13111040",
+    "title": "The Offer",
+    "year": 2022,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt10850932",
+    "title": "Crash Landing on You",
+    "year": 2019,
+    "type": "tvshow"
+  },
+  {
+    "imdb_id": "tt0090509",
+    "title": "The Return of Sherlock Holmes",
+    "year": 1986,
+    "type": "tvshow"
   }
 ]
