@@ -28,6 +28,7 @@ export interface Location {
 export interface Movie {
   readonly movie_id: string;
   readonly title: string;
+  readonly original_title?: string; // Original title if different
   readonly year: number;
   readonly imdb_id: string;
   readonly tmdb_id: string;

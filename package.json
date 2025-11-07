@@ -1,15 +1,21 @@
 {
   "name": "cinemap",
-  "version": "1.0.0",
-  "type": "module",
+  "version": "2.0.0",
   "private": true,
   "description": "Interactive 3D/2.5D world map showing where films and TV shows were filmed",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
+    "dev": "next dev",
+    "build": "npm run prebuild && next build",
+    "prebuild": "npm run build:slugs",
+    "build:slugs": "tsx scripts/generate-slugs.ts",
+    "postbuild": "echo '✅ Build complete with sitemap and slugs'",
+    "start": "next start",
+    "lint": "next lint",
+    "preview": "next start",
     "fetch": "tsx scripts/fetchAndTransform.ts",
-    "download:posters": "tsx scripts/downloadPosters.ts"
+    "download:posters": "tsx scripts/downloadPosters.ts",
+    "dev:vite": "vite",
+    "build:vite": "tsc && vite build"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.35",
@@ -17,6 +23,7 @@
     "clsx": "^2.1.1",
     "fuse.js": "^7.0.0",
     "maplibre-gl": "^5.11.0",
+    "next": "^14.2.18",
     "puppeteer": "^24.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

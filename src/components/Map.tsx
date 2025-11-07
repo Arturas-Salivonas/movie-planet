@@ -1,5 +1,8 @@
+'use client'
+
 /**
  * Map Component - MapLibre GL JS map with globe projection and multi-location support
+ * Updated for Next.js - no hash routing, uses localStorage for map state
  */
 
 import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from 'react'
@@ -178,7 +181,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       style: 'https://api.maptiler.com/maps/basic-v2/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
       zoom: 2.88,
       center: [0.35, 43], // Centered on Europe
-      hash: true
+      // hash: true // Removed for Next.js - using localStorage for clean URLs
     })
 
     // Globe rotation animation
@@ -218,9 +221,41 @@ const Map = forwardRef<MapRef, MapProps>(({
           type: 'globe',
         })
 
+        // Restore map position from localStorage (clean URLs)
+        if (typeof window !== 'undefined') {
+          const savedState = localStorage.getItem('cinemap_view')
+          if (savedState) {
+            try {
+              const { lat, lng, zoom } = JSON.parse(savedState)
+              map.current.setCenter([lng, lat])
+              map.current.setZoom(zoom)
+            } catch (e) {
+              // Ignore invalid stored state
+            }
+          }
+        }
+
         // Start rotation after map loads
         setTimeout(startRotation, 1000)
       }
+    })
+
+    // Save map position to localStorage on movement (debounced)
+    let saveTimeout: NodeJS.Timeout | null = null
+    const saveMapState = () => {
+      if (!map.current || typeof window === 'undefined') return
+      const center = map.current.getCenter()
+      const zoom = map.current.getZoom()
+      localStorage.setItem('cinemap_view', JSON.stringify({
+        lat: center.lat,
+        lng: center.lng,
+        zoom: zoom
+      }))
+    }
+
+    map.current.on('moveend', () => {
+      if (saveTimeout) clearTimeout(saveTimeout)
+      saveTimeout = setTimeout(saveMapState, 500)
     })
 
     // Stop rotation on any user interaction
@@ -681,7 +716,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       <div className="stars-background" />
 
       {/* Map container */}
-      <div ref={mapContainer} style={{ width: '100%', height: '100%' }} />
+      <div ref={mapContainer} style={{ width: '100%', height: '100%', position: 'relative', zIndex: 1 }} />
 
       {/* Loading Screen Overlay */}
       {loadingState.isLoading && (

@@ -12,5 +12,5 @@
     "esModuleInterop": true,
     "types": ["node"]
   },
-  "include": ["vite.config.ts", "scripts"]
+  "include": ["vite.config.ts", "scripts", "lib", "next.config.js"]
 }
