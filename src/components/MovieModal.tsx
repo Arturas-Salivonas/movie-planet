@@ -152,7 +152,7 @@ export default function MovieModal({
                   onClick={onShowAllLocations}
                   className="px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-semibold transition-colors flex items-center gap-2 justify-center sm:justify-start"
                 >
-                  <span>🗺️</span>
+
                   <span>Show All on Map</span>
                 </button>
               )}

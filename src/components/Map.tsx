@@ -292,7 +292,8 @@ const Map = forwardRef<MapRef, MapProps>(({
       // Performance optimizations for smooth 60fps
       maxPitch: 85, // Limit pitch for better performance
       refreshExpiredTiles: false, // Don't reload tiles unnecessarily
-      fadeDuration: 150 // Faster fade for smoother feel (default 300ms)
+      fadeDuration: 150, // Faster fade for smoother feel (default 300ms)
+      renderWorldCopies: false // Prevent duplicate circles on wrapped globe views
     })
 
     map.current.on('style.load', () => {
@@ -668,19 +669,175 @@ const Map = forwardRef<MapRef, MapProps>(({
           'text-color': '#FFD700',
           'text-halo-color': '#000000',
           'text-halo-width': 2,
-          'text-halo-blur': 1,
-          // Performance: Only show text when zoomed in (completely hidden below zoom 3)
-          'text-opacity': [
-            'interpolate',
-            ['linear'],
-            ['zoom'],
-            1, 0,     // Completely hidden when zoomed out
-            3, 0,     // Still hidden
-            4, 0.5,   // Start fading in
-            5, 1      // Full opacity when zoomed in close
-          ]
+          'icon-opacity': 1.0
         }
       })
+
+      // ✨ ADD CLICKABLE REGIONS (e.g., London) - Circle BEFORE markers so it appears behind
+      try {
+        const regionsResponse = await fetch('/geo/clickable-regions.geojson')
+        const regionsData = await regionsResponse.json()
+
+        map.current!.addSource('clickable-regions', {
+          type: 'geojson',
+          data: regionsData,
+          // Prevent rendering copies on wrapped world views
+          tolerance: 0
+        })
+
+        // Add circle layer (grey glow that appears when zoomed in) - NO STROKE
+        map.current!.addLayer({
+          id: 'region-circles',
+          type: 'circle',
+          source: 'clickable-regions',
+          paint: {
+            'circle-radius': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              2, 15,    // Small when zoomed out
+              4, 60,    // Medium
+              6, 100,   // Much larger when zoomed in
+              10, 300   // Very large at street level
+            ],
+            'circle-color': '#9ca3afa4', // Grey color (Tailwind gray-400)
+            'circle-opacity': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              2, 0,      // Invisible when zoomed out
+              3.5, 0,    // Start appearing
+              4, 0.15,   // Visible when zoomed in
+              6, ['case', ['boolean', ['feature-state', 'hover'], false], 0.35, 0.25]  // More visible up close
+            ]
+          }
+        }, 'movie-markers') // Insert BEFORE movie-markers so it's underneath
+
+        // Add hover effect to show popup on mousemove
+        let hoveredRegionId: string | number | null = null
+        let currentPopup: maplibregl.Popup | null = null
+
+        map.current!.on('mousemove', 'region-circles', (e: any) => {
+          // Check if there's a movie marker at this position (higher priority)
+          const movieFeatures = map.current!.queryRenderedFeatures(e.point, { layers: ['movie-markers'] })
+          if (movieFeatures && movieFeatures.length > 0) {
+            // There's a movie marker here, don't show region popup
+            if (currentPopup) {
+              currentPopup.remove()
+              currentPopup = null
+            }
+            if (hoveredRegionId !== null) {
+              map.current!.setFeatureState(
+                { source: 'clickable-regions', id: hoveredRegionId as string | number },
+                { hover: false }
+              )
+              hoveredRegionId = null
+            }
+            return
+          }
+
+          if (e.features && e.features.length > 0) {
+            map.current!.getCanvas().style.cursor = 'pointer'
+
+            const feature = e.features[0]
+            const name = feature.properties.name
+            const movieCount = feature.properties.movieCount
+
+            // Update hover state
+            if (hoveredRegionId !== e.features[0].id) {
+              if (hoveredRegionId !== null) {
+                map.current!.setFeatureState(
+                  { source: 'clickable-regions', id: hoveredRegionId as string | number },
+                  { hover: false }
+                )
+              }
+              hoveredRegionId = e.features[0].id
+              map.current!.setFeatureState(
+                { source: 'clickable-regions', id: hoveredRegionId as string | number },
+                { hover: true }
+              )
+            }
+
+            // Show popup on hover (if not already shown for this region)
+            if (!currentPopup || currentPopup.getLngLat().lng !== e.lngLat.lng) {
+              // Remove existing popup
+              if (currentPopup) {
+                currentPopup.remove()
+              }
+
+              // Create new popup without close button
+              currentPopup = new maplibregl.Popup({
+                closeButton: false,
+                closeOnClick: false,
+                className: 'region-popup',
+                maxWidth: '300px'
+              })
+                .setLngLat(e.lngLat)
+                .setHTML(`
+                  <div style="
+                    padding: 20px;
+                    text-align: center;
+                    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+                    border-radius: 12px;
+                  ">
+                    <h3 style="margin: 0 0 8px 0; font-size: 20px; font-weight: bold; color: #fff;">
+                      📍 ${name}
+                    </h3>
+                    <p style="margin: 0; color: #d1d5db; font-size: 14px;">
+                      ${movieCount} movies filmed here
+                    </p>
+                    <p style="   color: #FFD700;
+                  font-size: 11px;
+                  font-weight: bold;
+                  padding-top: 10px;
+                  border-top: 1px solid #444;
+                  text-align: center;">
+                      Click to see full list
+                    </p>
+                  </div>
+                `)
+                .addTo(map.current!)
+            }
+          }
+        })
+
+        map.current!.on('mouseleave', 'region-circles', () => {
+          if (hoveredRegionId !== null) {
+            map.current!.setFeatureState(
+              { source: 'clickable-regions', id: hoveredRegionId as string | number },
+              { hover: false }
+            )
+          }
+          hoveredRegionId = null
+          map.current!.getCanvas().style.cursor = ''
+
+          // Remove popup when mouse leaves
+          if (currentPopup) {
+            currentPopup.remove()
+            currentPopup = null
+          }
+        })
+
+        // Click handler to navigate to location page
+        map.current!.on('click', 'region-circles', (e: any) => {
+          // Check if there's a movie marker at this position (higher priority)
+          const movieFeatures = map.current!.queryRenderedFeatures(e.point, { layers: ['movie-markers'] })
+          if (movieFeatures && movieFeatures.length > 0) {
+            // There's a movie marker here, let the movie click handler take over
+            return
+          }
+
+          if (e.features && e.features.length > 0) {
+            const feature = e.features[0]
+            const slug = feature.properties.slug
+
+            // Navigate to location page
+            window.location.href = `/location/${slug}`
+          }
+        })
+      } catch (error) {
+        console.error('Failed to load clickable regions:', error)
+      }
 
       // ✨ STEP 4: Hide loading screen immediately - globe is now visible with skeleton markers!
       if (!initializedRef.current) {

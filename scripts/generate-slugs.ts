@@ -135,22 +135,6 @@ async function generateSlugs() {
   console.log(`   With year suffix: ${stats.withYearSuffix} (${((stats.withYearSuffix / stats.total) * 100).toFixed(1)}%)`)
   console.log(`   Duplicates found: ${stats.duplicatesFound}`)
   console.log(`   Invalid slugs: ${stats.invalidSlugs}`)
-
-  console.log('\n📁 Output files:')
-  console.log(`   ${outputPath}`)
-  console.log(`   ${reverseOutputPath}`)
-
-  // Show examples
-  console.log('\n🎬 Example slugs:')
-  const examples = Object.entries(slugMap).slice(0, 5)
-  examples.forEach(([slug, movieId]) => {
-    const movie = movies.find(m => m.movie_id === movieId)
-    if (movie) {
-      console.log(`   "${movie.title}" → /movie/${slug}`)
-    }
-  })
-
-  console.log('')
 }
 
 // Run the script

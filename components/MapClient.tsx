@@ -13,6 +13,7 @@ import type { MapRef } from '../src/components/Map'
 const SearchBar = lazy(() => import('../src/components/SearchBar'))
 const Filters = lazy(() => import('../src/components/Filters'))
 const MovieModal = lazy(() => import('../src/components/MovieModal'))
+const PartnershipModal = lazy(() => import('./PartnershipModal'))
 
 interface MapProps {
   selectedMovie: Movie | null
@@ -65,6 +66,7 @@ export default function MapClient({
   const [focusedMovieId, setFocusedMovieId] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState<string>('')
   const [isLocationViewed, setIsLocationViewed] = useState<boolean>(false)
+  const [isPartnershipModalOpen, setIsPartnershipModalOpen] = useState<boolean>(false)
   const [filters, setFilters] = useState<FilterState>({
     genres: [],
     decades: [1980, 2030],
@@ -260,10 +262,17 @@ export default function MapClient({
     <div className="relative w-full h-full z-10">
       {/* Logo/Brand - Top Left */}
       <div className="absolute top-4 left-4 z-10 text-white px-2 sm:px-6 py-2 sm:py-3">
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col gap-2">
           <div>
             <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="h-8 sm:h-auto" />
           </div>
+          <button
+            onClick={() => setIsPartnershipModalOpen(true)}
+            className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1 group"
+          >
+            <span>🤝</span>
+            <span className="group-hover:underline">Partners</span>
+          </button>
         </div>
       </div>
 
@@ -383,6 +392,14 @@ export default function MapClient({
           <span className="hidden sm:inline">Arturas Salivonas</span>
         </a>
       </div>
+
+      {/* Partnership Modal */}
+      <Suspense fallback={null}>
+        <PartnershipModal
+          isOpen={isPartnershipModalOpen}
+          onClose={() => setIsPartnershipModalOpen(false)}
+        />
+      </Suspense>
     </div>
   )
 }

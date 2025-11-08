@@ -1,8 +1,29 @@
 import { MetadataRoute } from 'next'
 import { getAllMovieSlugs } from '../lib/movies'
+import * as fs from 'fs'
+import * as path from 'path'
 
 /**
- * Generate sitemap for all movies
+ * Get all location slugs from data directory
+ */
+function getAllLocationSlugs(): string[] {
+  try {
+    const dataDir = path.join(process.cwd(), 'data')
+    const files = fs.readdirSync(dataDir)
+
+    // Find all location_*.json files
+    const locationFiles = files.filter(f => f.startsWith('location_') && f.endsWith('.json'))
+
+    // Extract slugs from filenames
+    return locationFiles.map(f => f.replace('location_', '').replace('.json', ''))
+  } catch (error) {
+    console.error('Error reading location files:', error)
+    return []
+  }
+}
+
+/**
+ * Generate sitemap for all movies and locations
  * Optimized for 10k+ movies with proper priority and change frequency
  */
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -30,9 +51,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  console.log(`✅ Sitemap generated: ${moviePages.length + 1} URLs`)
+  // Location pages
+  const locationSlugs = getAllLocationSlugs()
 
-  return [homepage, ...moviePages]
+  console.log(`📍 Adding ${locationSlugs.length} location pages...`)
+
+  const locationPages: MetadataRoute.Sitemap = locationSlugs.map((slug) => ({
+    url: `${baseUrl}/location/${slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.9, // High priority for location landing pages
+  }))
+
+  console.log(`✅ Sitemap generated: ${moviePages.length + locationPages.length + 1} URLs`)
+
+  return [homepage, ...locationPages, ...moviePages]
 }
 
 // For very large sitemaps (10k+ pages), you can split into multiple sitemaps:

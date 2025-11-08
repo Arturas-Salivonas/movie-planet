@@ -11,8 +11,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run prebuild && next build",
-    "prebuild": "npm run transform:geojson && npm run build:slugs",
+    "prebuild": "npm run transform:geojson && npm run build:slugs && npm run generate:stats",
     "build:slugs": "tsx scripts/generate-slugs.ts",
+    "generate:stats": "tsx scripts/generateSiteStats.ts",
     "postbuild": "echo '✅ Build complete with sitemap and slugs'",
     "start": "next start",
     "lint": "next lint",
