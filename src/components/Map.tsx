@@ -38,6 +38,8 @@ interface GeoJSONFeature {
     title: string
     year: number
     poster: string | null
+    thumbnail_52?: string | null // Optimized 52x52 thumbnail
+    banner_1280?: string | null // 1280x720 banner
     trailer: string | null
     top_genre: string | null
     genres?: string[]
@@ -721,11 +723,12 @@ const Map = forwardRef<MapRef, MapProps>(({
           const feature = allFeatures.find(f => f.properties.movie_id === movieId)
           if (!feature) return null
 
-          const posterPath = feature.properties.poster
+          // Use optimized thumbnail if available, fallback to poster
+          const imagePath = feature.properties.thumbnail_52 || feature.properties.poster
           const isMultiLocation = feature.properties.locations_count > 1
 
           try {
-            const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
+            const posterIcon = await createPosterIcon(imagePath, movieId, isMultiLocation)
             if (map.current && !map.current.hasImage(iconName)) {
               map.current.addImage(iconName, posterIcon)
               loadedImagesRef.current.add(iconName)

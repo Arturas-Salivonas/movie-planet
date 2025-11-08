@@ -26,6 +26,7 @@
     "scrape:reset": "tsx scripts/manageScraping.ts reset",
     "scrape:status": "tsx scripts/manageScraping.ts status",
     "download:posters": "tsx scripts/downloadPosters.ts",
+    "generate:thumbnails": "tsx scripts/generateThumbnails.ts",
     "dev:vite": "vite",
     "build:vite": "tsc && vite build"
   },

@@ -64,6 +64,20 @@ export default function MoviePage({ movie, slug: _slug, relatedMovies = [] }: Mo
         </button>
       </div>
 
+      {/* Banner Hero Image */}
+      {(movie as any).banner_1280 && (
+        <div className="w-full h-96 overflow-hidden relative mb-8">
+          <img
+            src={(movie as any).banner_1280}
+            alt={`${movie.title} backdrop`}
+            className="w-full h-full object-cover"
+            loading="eager"
+          />
+          {/* Gradient overlay for better text readability */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray-900" />
+        </div>
+      )}
+
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-20">
         {/* Hero Section */}

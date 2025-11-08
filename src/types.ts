@@ -35,6 +35,8 @@ export interface Movie {
   readonly type?: 'movie' | 'tv'; // Content type - movie or TV show
   readonly genres: readonly string[];
   readonly poster?: string;
+  readonly thumbnail_52?: string; // Optimized 52x52 thumbnail for map markers
+  readonly banner_1280?: string; // 1280x720 banner for movie page hero
   readonly trailer?: string;
   readonly streaming?: readonly string[];
   readonly imdb_rating?: number;

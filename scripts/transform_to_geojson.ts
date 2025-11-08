@@ -53,6 +53,8 @@ interface GeoJSONFeature {
     year: number
     type?: 'movie' | 'tv'
     poster: string | null
+    thumbnail_52?: string | null // Optimized 52x52 thumbnail
+    banner_1280?: string | null // 1280x720 banner
     trailer: string | null
     top_genre: string | null
     genres: string[]
@@ -218,6 +220,8 @@ function transformMovieToFeature(movie: EnrichedMovie): GeoJSONFeature | null {
       year: movie.year,
       type: (movie as any).type || 'movie',
       poster: movie.poster || getTmdbImageUrl(movie.poster_path) || null,
+      thumbnail_52: (movie as any).thumbnail_52 || null, // Optimized 52x52 thumbnail
+      banner_1280: (movie as any).banner_1280 || null, // 1280x720 banner for modal
       trailer: movie.trailer || movie.trailer_url || null,
       top_genre: movie.genres && movie.genres.length > 0 ? movie.genres[0] : null,
       genres: movie.genres ? movie.genres.slice(0, 3) : [],
