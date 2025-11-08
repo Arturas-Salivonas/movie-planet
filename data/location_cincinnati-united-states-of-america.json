@@ -1,0 +1,98 @@
+{
+  "location": {
+    "city": "Cincinnati",
+    "country": "United States of America",
+    "slug": "cincinnati-united-states-of-america",
+    "coordinates": {
+      "lat": 39.10975714285714,
+      "lng": -84.50212964285716
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0095953",
+      "title": "Rain Man",
+      "year": 1988,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0095953.webp",
+      "thumbnail_52": "/images/thumbnails/tt0095953.webp",
+      "imdb_rating": 7.751,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5950044",
+      "title": "Superman",
+      "year": 2025,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt5950044.webp",
+      "thumbnail_52": "/images/thumbnails/tt5950044.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181865",
+      "title": "Traffic",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0181865.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181865.webp",
+      "imdb_rating": 7.08,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5715874",
+      "title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt5715874.webp",
+      "thumbnail_52": "/images/thumbnails/tt5715874.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1124035",
+      "title": "The Ides of March",
+      "year": 2011,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1124035.webp",
+      "thumbnail_52": "/images/thumbnails/tt1124035.webp",
+      "imdb_rating": 6.674,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 7,
+    "genres": {
+      "Drama": 4,
+      "Science Fiction": 1,
+      "Adventure": 1,
+      "Action": 1,
+      "Thriller": 2,
+      "Crime": 1,
+      "Mystery": 1
+    },
+    "decades": {
+      "1980s": 1,
+      "2020s": 1,
+      "2010s": 2,
+      "2000s": 1
+    }
+  }
+}

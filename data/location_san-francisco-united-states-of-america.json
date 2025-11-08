@@ -1,0 +1,694 @@
+{
+  "location": {
+    "city": "San Francisco",
+    "country": "United States of America",
+    "slug": "san-francisco-united-states-of-america",
+    "coordinates": {
+      "lat": 37.786429131081114,
+      "lng": -122.42480247027032
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1942683",
+      "title": "The Amazing World of Gumball",
+      "year": 2011,
+      "genres": [
+        "Animation",
+        "Family",
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1942683.webp",
+      "thumbnail_52": "/images/thumbnails/tt1942683.webp",
+      "imdb_rating": 8.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2395695",
+      "title": "Cosmos",
+      "year": 2014,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "/images/posters/tt2395695.webp",
+      "thumbnail_52": "/images/thumbnails/tt2395695.webp",
+      "imdb_rating": 8.482,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0133093",
+      "title": "The Matrix",
+      "year": 1999,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0133093.webp",
+      "thumbnail_52": "/images/thumbnails/tt0133093.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0052357",
+      "title": "Vertigo",
+      "year": 1958,
+      "genres": [
+        "Mystery",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0052357.webp",
+      "thumbnail_52": "/images/thumbnails/tt0052357.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0312109",
+      "title": "Codename: Kids Next Door",
+      "year": 2002,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Kids",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0312109.webp",
+      "thumbnail_52": "/images/thumbnails/tt0312109.webp",
+      "imdb_rating": 8.171,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0042192",
+      "title": "All About Eve",
+      "year": 1950,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0042192.webp",
+      "thumbnail_52": "/images/thumbnails/tt0042192.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11743610",
+      "title": "The Terminal List",
+      "year": 2022,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11743610.webp",
+      "thumbnail_52": "/images/thumbnails/tt11743610.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0312172",
+      "title": "Monk",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0312172.webp",
+      "thumbnail_52": "/images/thumbnails/tt0312172.webp",
+      "imdb_rating": 7.956,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0454921",
+      "title": "The Pursuit of Happyness",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0454921.webp",
+      "thumbnail_52": "/images/thumbnails/tt0454921.webp",
+      "imdb_rating": 7.891,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0033870",
+      "title": "The Maltese Falcon",
+      "year": 1941,
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0033870.webp",
+      "thumbnail_52": "/images/thumbnails/tt0033870.webp",
+      "imdb_rating": 7.708,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0061722",
+      "title": "The Graduate",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0061722.webp",
+      "thumbnail_52": "/images/thumbnails/tt0061722.webp",
+      "imdb_rating": 7.634,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112167",
+      "title": "Sliders",
+      "year": 1995,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0112167.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112167.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119174",
+      "title": "The Game",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0119174.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119174.webp",
+      "imdb_rating": 7.567,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0092359",
+      "title": "Full House",
+      "year": 1987,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0092359.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092359.webp",
+      "imdb_rating": 7.561,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt10314462",
+      "title": "Zoey's Extraordinary Playlist",
+      "year": 2020,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10314462.webp",
+      "thumbnail_52": "/images/thumbnails/tt10314462.webp",
+      "imdb_rating": 7.532,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0056869",
+      "title": "The Birds",
+      "year": 1963,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0056869.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056869.webp",
+      "imdb_rating": 7.519,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4635282",
+      "title": "The OA",
+      "year": 2016,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4635282.webp",
+      "thumbnail_52": "/images/thumbnails/tt4635282.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt26670955",
+      "title": "A Man on the Inside",
+      "year": 2024,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt26670955.webp",
+      "thumbnail_52": "/images/thumbnails/tt26670955.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3986586",
+      "title": "Fuller House",
+      "year": 2016,
+      "genres": [
+        "Family",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3986586.webp",
+      "thumbnail_52": "/images/thumbnails/tt3986586.webp",
+      "imdb_rating": 7.408,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0084726",
+      "title": "Star Trek II: The Wrath of Khan",
+      "year": 1982,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0084726.webp",
+      "thumbnail_52": "/images/thumbnails/tt0084726.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2581458",
+      "title": "Looking",
+      "year": 2014,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2581458.webp",
+      "thumbnail_52": "/images/thumbnails/tt2581458.webp",
+      "imdb_rating": 7.348,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2103281",
+      "title": "Dawn of the Planet of the Apes",
+      "year": 2014,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2103281.webp",
+      "thumbnail_52": "/images/thumbnails/tt2103281.webp",
+      "imdb_rating": 7.334,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2361509",
+      "title": "The Intern",
+      "year": 2015,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2361509.webp",
+      "thumbnail_52": "/images/thumbnails/tt2361509.webp",
+      "imdb_rating": 7.225,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0090728",
+      "title": "Big Trouble in Little China",
+      "year": 1986,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0090728.webp",
+      "thumbnail_52": "/images/thumbnails/tt0090728.webp",
+      "imdb_rating": 7.211,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0107614",
+      "title": "Mrs. Doubtfire",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0107614.webp",
+      "thumbnail_52": "/images/thumbnails/tt0107614.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0300865",
+      "title": "That's So Raven",
+      "year": 2003,
+      "genres": [
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0300865.webp",
+      "thumbnail_52": "/images/thumbnails/tt0300865.webp",
+      "imdb_rating": 7.171,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0113870",
+      "title": "Murder in the First",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0113870.webp",
+      "thumbnail_52": "/images/thumbnails/tt0113870.webp",
+      "imdb_rating": 7.147,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0117500",
+      "title": "The Rock",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0117500.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117500.webp",
+      "imdb_rating": 7.137,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1560747",
+      "title": "The Master",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1560747.webp",
+      "thumbnail_52": "/images/thumbnails/tt1560747.webp",
+      "imdb_rating": 7.117,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0478970",
+      "title": "Ant-Man",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0478970.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478970.webp",
+      "imdb_rating": 7.067,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0072308",
+      "title": "The Towering Inferno",
+      "year": 1974,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0072308.webp",
+      "thumbnail_52": "/images/thumbnails/tt0072308.webp",
+      "imdb_rating": 7.005,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt2334873",
+      "title": "Blue Jasmine",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2334873.webp",
+      "thumbnail_52": "/images/thumbnails/tt2334873.webp",
+      "imdb_rating": 6.983,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0103772",
+      "title": "Basic Instinct",
+      "year": 1992,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0103772.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103772.webp",
+      "imdb_rating": 6.925,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt5095030",
+      "title": "Ant-Man and the Wasp",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt5095030.webp",
+      "thumbnail_52": "/images/thumbnails/tt5095030.webp",
+      "imdb_rating": 6.912,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1270797",
+      "title": "Venom",
+      "year": 2018,
+      "genres": [
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1270797.webp",
+      "thumbnail_52": "/images/thumbnails/tt1270797.webp",
+      "imdb_rating": 6.827,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt13745850",
+      "title": "The Last Thing He Told Me",
+      "year": 2023,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13745850.webp",
+      "thumbnail_52": "/images/thumbnails/tt13745850.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1598778",
+      "title": "Contagion",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1598778.webp",
+      "thumbnail_52": "/images/thumbnails/tt1598778.webp",
+      "imdb_rating": 6.644,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5706996",
+      "title": "Girlboss",
+      "year": 2017,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt5706996.webp",
+      "thumbnail_52": "/images/thumbnails/tt5706996.webp",
+      "imdb_rating": 6.64,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0376994",
+      "title": "X-Men: The Last Stand",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0376994.webp",
+      "thumbnail_52": "/images/thumbnails/tt0376994.webp",
+      "imdb_rating": 6.413,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118303",
+      "title": "Dharma & Greg",
+      "year": 1997,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0118303.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118303.webp",
+      "imdb_rating": 6.391,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10838180",
+      "title": "The Matrix Resurrections",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt10838180.webp",
+      "thumbnail_52": "/images/thumbnails/tt10838180.webp",
+      "imdb_rating": 6.359,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1728102",
+      "title": "Alcatraz",
+      "year": 2012,
+      "genres": [
+        "Mystery",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1728102.webp",
+      "thumbnail_52": "/images/thumbnails/tt1728102.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0100403",
+      "title": "Predator 2",
+      "year": 1990,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0100403.webp",
+      "thumbnail_52": "/images/thumbnails/tt0100403.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2126355",
+      "title": "San Andreas",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2126355.webp",
+      "thumbnail_52": "/images/thumbnails/tt2126355.webp",
+      "imdb_rating": 6.245,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2234155",
+      "title": "The Internship",
+      "year": 2013,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2234155.webp",
+      "thumbnail_52": "/images/thumbnails/tt2234155.webp",
+      "imdb_rating": 6.24,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108174",
+      "title": "So I Married an Axe Murderer",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108174.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108174.webp",
+      "imdb_rating": 6.088,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1340138",
+      "title": "Terminator Genisys",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1340138.webp",
+      "thumbnail_52": "/images/thumbnails/tt1340138.webp",
+      "imdb_rating": 5.945,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 48,
+    "totalLocations": 74,
+    "genres": {
+      "Action": 14,
+      "Science Fiction": 11,
+      "Drama": 19,
+      "Romance": 3,
+      "Comedy": 18,
+      "Adventure": 8,
+      "Thriller": 14,
+      "Fantasy": 1,
+      "Crime": 5,
+      "Documentary": 1,
+      "Mystery": 7,
+      "Family": 5,
+      "Sci-Fi & Fantasy": 5,
+      "Action & Adventure": 4,
+      "Animation": 2,
+      "Horror": 1,
+      "Kids": 1
+    },
+    "decades": {
+      "1990s": 10,
+      "1960s": 2,
+      "2000s": 6,
+      "2010s": 18,
+      "1970s": 1,
+      "1980s": 3,
+      "2020s": 5,
+      "1950s": 2,
+      "1940s": 1
+    }
+  }
+}

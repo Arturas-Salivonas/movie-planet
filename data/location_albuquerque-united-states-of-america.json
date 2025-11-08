@@ -1,0 +1,381 @@
+{
+  "location": {
+    "city": "Albuquerque",
+    "country": "United States of America",
+    "slug": "albuquerque-united-states-of-america",
+    "coordinates": {
+      "lat": 35.0938375948718,
+      "lng": -106.63801158717956
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0903747",
+      "title": "Breaking Bad",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0903747.webp",
+      "thumbnail_52": "/images/thumbnails/tt0903747.webp",
+      "imdb_rating": 8.926,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt3032476",
+      "title": "Better Call Saul",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3032476.webp",
+      "thumbnail_52": "/images/thumbnails/tt3032476.webp",
+      "imdb_rating": 8.697,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0043338",
+      "title": "Ace in the Hole",
+      "year": 1951,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0043338.webp",
+      "thumbnail_52": "/images/thumbnails/tt0043338.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0851851",
+      "title": "Terminator: The Sarah Connor Chronicles",
+      "year": 2008,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0851851.webp",
+      "thumbnail_52": "/images/thumbnails/tt0851851.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14269590",
+      "title": "Poker Face",
+      "year": 2023,
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt14269590.webp",
+      "thumbnail_52": "/images/thumbnails/tt14269590.webp",
+      "imdb_rating": 7.465,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1091191",
+      "title": "Lone Survivor",
+      "year": 2013,
+      "genres": [
+        "War",
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1091191.webp",
+      "thumbnail_52": "/images/thumbnails/tt1091191.webp",
+      "imdb_rating": 7.431,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3397884",
+      "title": "Sicario",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt3397884.webp",
+      "thumbnail_52": "/images/thumbnails/tt3397884.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0315733",
+      "title": "21 Grams",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0315733.webp",
+      "thumbnail_52": "/images/thumbnails/tt0315733.webp",
+      "imdb_rating": 7.324,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9179552",
+      "title": "Dr. Death",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt9179552.webp",
+      "thumbnail_52": "/images/thumbnails/tt9179552.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11794642",
+      "title": "Big Sky",
+      "year": 2020,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt11794642.webp",
+      "thumbnail_52": "/images/thumbnails/tt11794642.webp",
+      "imdb_rating": 7.254,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0110632",
+      "title": "Natural Born Killers",
+      "year": 1994,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0110632.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110632.webp",
+      "imdb_rating": 7.049,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8755226",
+      "title": "Daybreak",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt8755226.webp",
+      "thumbnail_52": "/images/thumbnails/tt8755226.webp",
+      "imdb_rating": 7.017,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt11097240",
+      "title": "Obliterated",
+      "year": 2023,
+      "genres": [
+        "Comedy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11097240.webp",
+      "thumbnail_52": "/images/thumbnails/tt11097240.webp",
+      "imdb_rating": 7.013,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9243946",
+      "title": "El Camino: A Breaking Bad Movie",
+      "year": 2019,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt9243946.webp",
+      "thumbnail_52": "/images/thumbnails/tt9243946.webp",
+      "imdb_rating": 6.966,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt11685912",
+      "title": "Outer Range",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt11685912.webp",
+      "thumbnail_52": "/images/thumbnails/tt11685912.webp",
+      "imdb_rating": 6.917,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1723121",
+      "title": "We're the Millers",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1723121.webp",
+      "thumbnail_52": "/images/thumbnails/tt1723121.webp",
+      "imdb_rating": 6.838,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1037705",
+      "title": "The Book of Eli",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1037705.webp",
+      "thumbnail_52": "/images/thumbnails/tt1037705.webp",
+      "imdb_rating": 6.796,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4046784",
+      "title": "Maze Runner: The Scorch Trials",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt4046784.webp",
+      "thumbnail_52": "/images/thumbnails/tt4046784.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1272878",
+      "title": "2 Guns",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1272878.webp",
+      "thumbnail_52": "/images/thumbnails/tt1272878.webp",
+      "imdb_rating": 6.536,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0993840",
+      "title": "Army of the Dead",
+      "year": 2021,
+      "genres": [
+        "Crime",
+        "Action",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0993840.webp",
+      "thumbnail_52": "/images/thumbnails/tt0993840.webp",
+      "imdb_rating": 6.227,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0438488",
+      "title": "Terminator Salvation",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0438488.webp",
+      "thumbnail_52": "/images/thumbnails/tt0438488.webp",
+      "imdb_rating": 6.071,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2209764",
+      "title": "Transcendence",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2209764.webp",
+      "thumbnail_52": "/images/thumbnails/tt2209764.webp",
+      "imdb_rating": 6.058,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2910814",
+      "title": "The Signal",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2910814.webp",
+      "thumbnail_52": "/images/thumbnails/tt2910814.webp",
+      "imdb_rating": 6.016,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0424993",
+      "title": "Employee of the Month",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0424993.webp",
+      "thumbnail_52": "/images/thumbnails/tt0424993.webp",
+      "imdb_rating": 5.603,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1628841",
+      "title": "Independence Day: Resurgence",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1628841.webp",
+      "thumbnail_52": "/images/thumbnails/tt1628841.webp",
+      "imdb_rating": 5.349,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 25,
+    "totalLocations": 39,
+    "genres": {
+      "Drama": 13,
+      "Comedy": 4,
+      "Romance": 1,
+      "Thriller": 9,
+      "Science Fiction": 6,
+      "Mystery": 4,
+      "Crime": 12,
+      "Action": 8,
+      "War": 1,
+      "Adventure": 2,
+      "Sci-Fi & Fantasy": 3,
+      "Action & Adventure": 3,
+      "Horror": 1
+    },
+    "decades": {
+      "1950s": 1,
+      "2000s": 5,
+      "2010s": 12,
+      "1990s": 1,
+      "2020s": 6
+    }
+  }
+}

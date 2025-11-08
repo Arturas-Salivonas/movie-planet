@@ -1,0 +1,443 @@
+{
+  "location": {
+    "city": "Iver Heath",
+    "country": "United Kingdom",
+    "slug": "iver-heath-united-kingdom",
+    "coordinates": {
+      "lat": 51.54681695000002,
+      "lng": -0.5319077249999999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt9140554",
+      "title": "Loki",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt9140554.webp",
+      "thumbnail_52": "/images/thumbnails/tt9140554.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4934214",
+      "title": "Taskmaster",
+      "year": 2015,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt4934214.webp",
+      "thumbnail_52": "/images/thumbnails/tt4934214.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0094535",
+      "title": "Red Dwarf",
+      "year": 1988,
+      "genres": [
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0094535.webp",
+      "thumbnail_52": "/images/thumbnails/tt0094535.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0090605",
+      "title": "Aliens",
+      "year": 1986,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0090605.webp",
+      "thumbnail_52": "/images/thumbnails/tt0090605.webp",
+      "imdb_rating": 7.953,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1170358",
+      "title": "The Hobbit: The Desolation of Smaug",
+      "year": 2013,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1170358.webp",
+      "thumbnail_52": "/images/thumbnails/tt1170358.webp",
+      "imdb_rating": 7.573,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6263850",
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6263850.webp",
+      "thumbnail_52": "/images/thumbnails/tt6263850.webp",
+      "imdb_rating": 7.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2713180",
+      "title": "Fury",
+      "year": 2014,
+      "genres": [
+        "War",
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt2713180.webp",
+      "thumbnail_52": "/images/thumbnails/tt2713180.webp",
+      "imdb_rating": 7.539,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13622776",
+      "title": "Ahsoka",
+      "year": 2023,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13622776.webp",
+      "thumbnail_52": "/images/thumbnails/tt13622776.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0903624",
+      "title": "The Hobbit: An Unexpected Journey",
+      "year": 2012,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0903624.webp",
+      "thumbnail_52": "/images/thumbnails/tt0903624.webp",
+      "imdb_rating": 7.364,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2310332",
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt2310332.webp",
+      "thumbnail_52": "/images/thumbnails/tt2310332.webp",
+      "imdb_rating": 7.327,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0096895",
+      "title": "Batman",
+      "year": 1989,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0096895.webp",
+      "thumbnail_52": "/images/thumbnails/tt0096895.webp",
+      "imdb_rating": 7.235,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0289043",
+      "title": "28 Days Later",
+      "year": 2002,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0289043.webp",
+      "thumbnail_52": "/images/thumbnails/tt0289043.webp",
+      "imdb_rating": 7.232,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0408236",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0408236.webp",
+      "thumbnail_52": "/images/thumbnails/tt0408236.webp",
+      "imdb_rating": 7.179,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1454468",
+      "title": "Gravity",
+      "year": 2013,
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1454468.webp",
+      "thumbnail_52": "/images/thumbnails/tt1454468.webp",
+      "imdb_rating": 7.163,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1587310",
+      "title": "Maleficent",
+      "year": 2014,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Action",
+        "Family",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1587310.webp",
+      "thumbnail_52": "/images/thumbnails/tt1587310.webp",
+      "imdb_rating": 7.088,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11858890",
+      "title": "The Creator",
+      "year": 2023,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt11858890.webp",
+      "thumbnail_52": "/images/thumbnails/tt11858890.webp",
+      "imdb_rating": 7.024,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0435625",
+      "title": "The Descent",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0435625.webp",
+      "thumbnail_52": "/images/thumbnails/tt0435625.webp",
+      "imdb_rating": 6.975,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1661199",
+      "title": "Cinderella",
+      "year": 2015,
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Family",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1661199.webp",
+      "thumbnail_52": "/images/thumbnails/tt1661199.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9032400",
+      "title": "Eternals",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt9032400.webp",
+      "thumbnail_52": "/images/thumbnails/tt9032400.webp",
+      "imdb_rating": 6.793,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3778644",
+      "title": "Solo: A Star Wars Story",
+      "year": 2018,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt3778644.webp",
+      "thumbnail_52": "/images/thumbnails/tt3778644.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119081",
+      "title": "Event Horizon",
+      "year": 1997,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0119081.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119081.webp",
+      "imdb_rating": 6.564,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4881806",
+      "title": "Jurassic World: Fallen Kingdom",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4881806.webp",
+      "thumbnail_52": "/images/thumbnails/tt4881806.webp",
+      "imdb_rating": 6.537,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1650554",
+      "title": "Kick-Ass 2",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1650554.webp",
+      "thumbnail_52": "/images/thumbnails/tt1650554.webp",
+      "imdb_rating": 6.401,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0103644",
+      "title": "Alien³",
+      "year": 1992,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0103644.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103644.webp",
+      "imdb_rating": 6.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2527338",
+      "title": "Star Wars: The Rise of Skywalker",
+      "year": 2019,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2527338.webp",
+      "thumbnail_52": "/images/thumbnails/tt2527338.webp",
+      "imdb_rating": 6.281,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10954600",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt10954600.webp",
+      "thumbnail_52": "/images/thumbnails/tt10954600.webp",
+      "imdb_rating": 6.259,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1077368",
+      "title": "Dark Shadows",
+      "year": 2012,
+      "genres": [
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1077368.webp",
+      "thumbnail_52": "/images/thumbnails/tt1077368.webp",
+      "imdb_rating": 6.096,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5108870",
+      "title": "Morbius",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt5108870.webp",
+      "thumbnail_52": "/images/thumbnails/tt5108870.webp",
+      "imdb_rating": 5.9,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt6208148",
+      "title": "Snow White",
+      "year": 2025,
+      "genres": [
+        "Family",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt6208148.webp",
+      "thumbnail_52": "/images/thumbnails/tt6208148.webp",
+      "imdb_rating": 4.296,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 29,
+    "totalLocations": 32,
+    "genres": {
+      "Action": 17,
+      "Thriller": 4,
+      "Science Fiction": 13,
+      "Sci-Fi & Fantasy": 3,
+      "Action & Adventure": 1,
+      "Drama": 6,
+      "Adventure": 12,
+      "Horror": 5,
+      "Fantasy": 9,
+      "Crime": 2,
+      "Comedy": 4,
+      "War": 1,
+      "Family": 3,
+      "Romance": 2,
+      "Mystery": 1
+    },
+    "decades": {
+      "1980s": 3,
+      "2020s": 8,
+      "2000s": 3,
+      "2010s": 13,
+      "1990s": 2
+    }
+  }
+}

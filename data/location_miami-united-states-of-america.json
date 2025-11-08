@@ -1,0 +1,278 @@
+{
+  "location": {
+    "city": "Miami",
+    "country": "United States of America",
+    "slug": "miami-united-states-of-america",
+    "coordinates": {
+      "lat": 25.77674504285715,
+      "lng": -80.18592267142856
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0773262",
+      "title": "Dexter",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0773262.webp",
+      "thumbnail_52": "/images/thumbnails/tt0773262.webp",
+      "imdb_rating": 8.224,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt32252772",
+      "title": "Dexter: Original Sin",
+      "year": 2024,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt32252772.webp",
+      "thumbnail_52": "/images/thumbnails/tt32252772.webp",
+      "imdb_rating": 8.193,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0313043",
+      "title": "CSI: Miami",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0313043.webp",
+      "thumbnail_52": "/images/thumbnails/tt0313043.webp",
+      "imdb_rating": 7.714,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9777666",
+      "title": "The Tomorrow War",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt9777666.webp",
+      "thumbnail_52": "/images/thumbnails/tt9777666.webp",
+      "imdb_rating": 7.488,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086759",
+      "title": "Miami Vice",
+      "year": 1984,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086759.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086759.webp",
+      "imdb_rating": 7.47,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0810788",
+      "title": "Burn Notice",
+      "year": 2007,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0810788.webp",
+      "thumbnail_52": "/images/thumbnails/tt0810788.webp",
+      "imdb_rating": 7.461,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4975722",
+      "title": "Moonlight",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4975722.webp",
+      "thumbnail_52": "/images/thumbnails/tt4975722.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt15203646",
+      "title": "Bad Monkey",
+      "year": 2024,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt15203646.webp",
+      "thumbnail_52": "/images/thumbnails/tt15203646.webp",
+      "imdb_rating": 7.273,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2393813",
+      "title": "Graceland",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2393813.webp",
+      "thumbnail_52": "/images/thumbnails/tt2393813.webp",
+      "imdb_rating": 7.164,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1502397",
+      "title": "Bad Boys for Life",
+      "year": 2020,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1502397.webp",
+      "thumbnail_52": "/images/thumbnails/tt1502397.webp",
+      "imdb_rating": 7.129,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2883512",
+      "title": "Chef",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2883512.webp",
+      "thumbnail_52": "/images/thumbnails/tt2883512.webp",
+      "imdb_rating": 7.114,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1943524",
+      "title": "The Finder",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1943524.webp",
+      "thumbnail_52": "/images/thumbnails/tt1943524.webp",
+      "imdb_rating": 7.067,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112442",
+      "title": "Bad Boys",
+      "year": 1995,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0112442.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112442.webp",
+      "imdb_rating": 6.825,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2891574",
+      "title": "Ballers",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2891574.webp",
+      "thumbnail_52": "/images/thumbnails/tt2891574.webp",
+      "imdb_rating": 6.782,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0109040",
+      "title": "Ace Ventura: Pet Detective",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0109040.webp",
+      "thumbnail_52": "/images/thumbnails/tt0109040.webp",
+      "imdb_rating": 6.567,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0388482",
+      "title": "Transporter 2",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0388482.webp",
+      "thumbnail_52": "/images/thumbnails/tt0388482.webp",
+      "imdb_rating": 6.318,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1980209",
+      "title": "Pain & Gain",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1980209.webp",
+      "thumbnail_52": "/images/thumbnails/tt1980209.webp",
+      "imdb_rating": 6.279,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0290002",
+      "title": "Meet the Fockers",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0290002.webp",
+      "thumbnail_52": "/images/thumbnails/tt0290002.webp",
+      "imdb_rating": 6.251,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 18,
+    "totalLocations": 21,
+    "genres": {
+      "Crime": 12,
+      "Drama": 9,
+      "Mystery": 3,
+      "Comedy": 7,
+      "Action": 5,
+      "Thriller": 3,
+      "Romance": 1,
+      "Action & Adventure": 2,
+      "Science Fiction": 1,
+      "Adventure": 1
+    },
+    "decades": {
+      "2000s": 5,
+      "2010s": 6,
+      "1990s": 2,
+      "2020s": 4,
+      "1980s": 1
+    }
+  }
+}

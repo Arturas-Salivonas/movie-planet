@@ -1,0 +1,217 @@
+{
+  "location": {
+    "city": "Melbourne",
+    "country": "Australia",
+    "slug": "melbourne-australia",
+    "coordinates": {
+      "lat": -37.85786216538462,
+      "lng": 144.9917838423077
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2433738",
+      "title": "Wentworth",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2433738.webp",
+      "thumbnail_52": "/images/thumbnails/tt2433738.webp",
+      "imdb_rating": 8.016,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0978762",
+      "title": "Mary and Max",
+      "year": 2009,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0978762.webp",
+      "thumbnail_52": "/images/thumbnails/tt0978762.webp",
+      "imdb_rating": 7.881,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1988386",
+      "title": "Miss Fisher's Murder Mysteries",
+      "year": 2012,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1988386.webp",
+      "thumbnail_52": "/images/thumbnails/tt1988386.webp",
+      "imdb_rating": 7.65,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2699128",
+      "title": "The Leftovers",
+      "year": 2014,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2699128.webp",
+      "thumbnail_52": "/images/thumbnails/tt2699128.webp",
+      "imdb_rating": 7.648,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2155025",
+      "title": "Please Like Me",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2155025.webp",
+      "thumbnail_52": "/images/thumbnails/tt2155025.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6499752",
+      "title": "Upgrade",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6499752.webp",
+      "thumbnail_52": "/images/thumbnails/tt6499752.webp",
+      "imdb_rating": 7.495,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt5016504",
+      "title": "Preacher",
+      "year": 2016,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5016504.webp",
+      "thumbnail_52": "/images/thumbnails/tt5016504.webp",
+      "imdb_rating": 7.454,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11640018",
+      "title": "La Brea",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt11640018.webp",
+      "thumbnail_52": "/images/thumbnails/tt11640018.webp",
+      "imdb_rating": 7.437,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt2397535",
+      "title": "Predestination",
+      "year": 2014,
+      "genres": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2397535.webp",
+      "thumbnail_52": "/images/thumbnails/tt2397535.webp",
+      "imdb_rating": 7.421,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0200465",
+      "title": "The Bank Job",
+      "year": 2008,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0200465.webp",
+      "thumbnail_52": "/images/thumbnails/tt0200465.webp",
+      "imdb_rating": 6.834,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0079501",
+      "title": "Mad Max",
+      "year": 1979,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0079501.webp",
+      "thumbnail_52": "/images/thumbnails/tt0079501.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0448011",
+      "title": "Knowing",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Mystery",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0448011.webp",
+      "thumbnail_52": "/images/thumbnails/tt0448011.webp",
+      "imdb_rating": 6.236,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0259324",
+      "title": "Ghost Rider",
+      "year": 2007,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0259324.webp",
+      "thumbnail_52": "/images/thumbnails/tt0259324.webp",
+      "imdb_rating": 5.6,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 13,
+    "totalLocations": 26,
+    "genres": {
+      "Adventure": 1,
+      "Action": 4,
+      "Thriller": 6,
+      "Science Fiction": 4,
+      "Animation": 1,
+      "Comedy": 2,
+      "Drama": 8,
+      "Sci-Fi & Fantasy": 3,
+      "Fantasy": 1,
+      "Mystery": 3,
+      "Crime": 3,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "1970s": 1,
+      "2000s": 4,
+      "2010s": 7,
+      "2020s": 1
+    }
+  }
+}

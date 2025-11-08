@@ -1,0 +1,228 @@
+{
+  "location": {
+    "city": "Mumbai",
+    "country": "India",
+    "slug": "mumbai-india",
+    "coordinates": {
+      "lat": 19.058633005882353,
+      "lng": 72.8569522764706
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt12392504",
+      "title": "Scam 1992: The Harshad Mehta Story",
+      "year": 2020,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt12392504.webp",
+      "thumbnail_52": "/images/thumbnails/tt12392504.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt23849204",
+      "title": "12th Fail",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt23849204.webp",
+      "thumbnail_52": "/images/thumbnails/tt23849204.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1187043",
+      "title": "3 Idiots",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1187043.webp",
+      "thumbnail_52": "/images/thumbnails/tt1187043.webp",
+      "imdb_rating": 7.996,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0986264",
+      "title": "Like Stars on Earth",
+      "year": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0986264.webp",
+      "thumbnail_52": "/images/thumbnails/tt0986264.webp",
+      "imdb_rating": 7.981,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt6077448",
+      "title": "Sacred Games",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt6077448.webp",
+      "thumbnail_52": "/images/thumbnails/tt6077448.webp",
+      "imdb_rating": 7.811,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9544034",
+      "title": "The Family Man",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt9544034.webp",
+      "thumbnail_52": "/images/thumbnails/tt9544034.webp",
+      "imdb_rating": 7.723,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1010048",
+      "title": "Slumdog Millionaire",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1010048.webp",
+      "thumbnail_52": "/images/thumbnails/tt1010048.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt12714854",
+      "title": "Mumbai Diaries",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt12714854.webp",
+      "thumbnail_52": "/images/thumbnails/tt12714854.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6723592",
+      "title": "Tenet",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6723592.webp",
+      "thumbnail_52": "/images/thumbnails/tt6723592.webp",
+      "imdb_rating": 7.175,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1229238",
+      "title": "Mission: Impossible - Ghost Protocol",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1229238.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229238.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt34683290",
+      "title": "The Ba***ds of Bollywood",
+      "year": 2025,
+      "genres": [
+        "Comedy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt34683290.webp",
+      "thumbnail_52": "/images/thumbnails/tt34683290.webp",
+      "imdb_rating": 6.781,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8242548",
+      "title": "Four More Shots Please!",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt8242548.webp",
+      "thumbnail_52": "/images/thumbnails/tt8242548.webp",
+      "imdb_rating": 5.786,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10308632",
+      "title": "Illegal",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt10308632.webp",
+      "thumbnail_52": "/images/thumbnails/tt10308632.webp",
+      "imdb_rating": 4.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt17444636",
+      "title": "Final Draft",
+      "year": 2022,
+      "genres": [],
+      "poster": "/images/posters/tt17444636.webp",
+      "thumbnail_52": "/images/thumbnails/tt17444636.webp",
+      "imdb_rating": 3,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 15,
+    "totalLocations": 17,
+    "genres": {
+      "Drama": 11,
+      "Comedy": 3,
+      "Action": 2,
+      "Thriller": 2,
+      "Adventure": 1,
+      "Romance": 1,
+      "Crime": 2,
+      "Action & Adventure": 3,
+      "Science Fiction": 1,
+      "Sci-Fi & Fantasy": 1,
+      "Mystery": 2
+    },
+    "decades": {
+      "2000s": 3,
+      "2010s": 5,
+      "2020s": 7
+    }
+  }
+}

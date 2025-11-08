@@ -1,0 +1,560 @@
+{
+  "location": {
+    "city": "Pasadena",
+    "country": "United States of America",
+    "slug": "pasadena-united-states-of-america",
+    "coordinates": {
+      "lat": 34.13484601627906,
+      "lng": -118.14176405581392
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0088763",
+      "title": "Back to the Future",
+      "year": 1985,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0088763.webp",
+      "thumbnail_52": "/images/thumbnails/tt0088763.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0032553",
+      "title": "The Great Dictator",
+      "year": 1940,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "poster": "/images/posters/tt0032553.webp",
+      "thumbnail_52": "/images/thumbnails/tt0032553.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0012349",
+      "title": "The Kid",
+      "year": 1921,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0012349.webp",
+      "thumbnail_52": "/images/thumbnails/tt0012349.webp",
+      "imdb_rating": 8.147,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0804503",
+      "title": "Mad Men",
+      "year": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0804503.webp",
+      "thumbnail_52": "/images/thumbnails/tt0804503.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1266020",
+      "title": "Parks and Recreation",
+      "year": 2009,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1266020.webp",
+      "thumbnail_52": "/images/thumbnails/tt1266020.webp",
+      "imdb_rating": 8.035,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0033467",
+      "title": "Citizen Kane",
+      "year": 1941,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0033467.webp",
+      "thumbnail_52": "/images/thumbnails/tt0033467.webp",
+      "imdb_rating": 8.001,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7908628",
+      "title": "What We Do in the Shadows",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt7908628.webp",
+      "thumbnail_52": "/images/thumbnails/tt7908628.webp",
+      "imdb_rating": 7.994,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0056592",
+      "title": "To Kill a Mockingbird",
+      "year": 1962,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0056592.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056592.webp",
+      "imdb_rating": 7.993,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0367279",
+      "title": "Arrested Development",
+      "year": 2003,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0367279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0367279.webp",
+      "imdb_rating": 7.931,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1415889",
+      "title": "Good Luck Charlie",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt1415889.webp",
+      "thumbnail_52": "/images/thumbnails/tt1415889.webp",
+      "imdb_rating": 7.898,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11379026",
+      "title": "Ghosts",
+      "year": 2021,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt11379026.webp",
+      "thumbnail_52": "/images/thumbnails/tt11379026.webp",
+      "imdb_rating": 7.892,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt17677860",
+      "title": "Presumed Innocent",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt17677860.webp",
+      "thumbnail_52": "/images/thumbnails/tt17677860.webp",
+      "imdb_rating": 7.89,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118715",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0118715.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118715.webp",
+      "imdb_rating": 7.84,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0814314",
+      "title": "Seven Pounds",
+      "year": 2008,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0814314.webp",
+      "thumbnail_52": "/images/thumbnails/tt0814314.webp",
+      "imdb_rating": 7.603,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108872",
+      "title": "My So-Called Life",
+      "year": 1994,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0108872.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108872.webp",
+      "imdb_rating": 7.603,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0077651",
+      "title": "Halloween",
+      "year": 1978,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0077651.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077651.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0120601",
+      "title": "Being John Malkovich",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0120601.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120601.webp",
+      "imdb_rating": 7.412,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1119646",
+      "title": "The Hangover",
+      "year": 2009,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1119646.webp",
+      "thumbnail_52": "/images/thumbnails/tt1119646.webp",
+      "imdb_rating": 7.328,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0023969",
+      "title": "Duck Soup",
+      "year": 1933,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "poster": "/images/posters/tt0023969.webp",
+      "thumbnail_52": "/images/thumbnails/tt0023969.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0955346",
+      "title": "Moonlight",
+      "year": 2007,
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0955346.webp",
+      "thumbnail_52": "/images/thumbnails/tt0955346.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112022",
+      "title": "JAG",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0112022.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112022.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1189340",
+      "title": "The Lincoln Lawyer",
+      "year": 2011,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1189340.webp",
+      "thumbnail_52": "/images/thumbnails/tt1189340.webp",
+      "imdb_rating": 7.199,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt3487356",
+      "title": "black-ish",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3487356.webp",
+      "thumbnail_52": "/images/thumbnails/tt3487356.webp",
+      "imdb_rating": 7.13,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758737",
+      "title": "Brothers and Sisters",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758737.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758737.webp",
+      "imdb_rating": 7.113,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0433309",
+      "title": "Numb3rs",
+      "year": 2005,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0433309.webp",
+      "thumbnail_52": "/images/thumbnails/tt0433309.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0117705",
+      "title": "Space Jam",
+      "year": 1996,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0117705.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117705.webp",
+      "imdb_rating": 6.812,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0337563",
+      "title": "13 Going on 30",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0337563.webp",
+      "thumbnail_52": "/images/thumbnails/tt0337563.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0106697",
+      "title": "Demolition Man",
+      "year": 1993,
+      "genres": [
+        "Crime",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0106697.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106697.webp",
+      "imdb_rating": 6.748,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0265208",
+      "title": "The Girl Next Door",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0265208.webp",
+      "thumbnail_52": "/images/thumbnails/tt0265208.webp",
+      "imdb_rating": 6.732,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0119528",
+      "title": "Liar Liar",
+      "year": 1997,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0119528.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119528.webp",
+      "imdb_rating": 6.702,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0486822",
+      "title": "Disturbia",
+      "year": 2007,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0486822.webp",
+      "thumbnail_52": "/images/thumbnails/tt0486822.webp",
+      "imdb_rating": 6.689,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0356910",
+      "title": "Mr. & Mrs. Smith",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0356910.webp",
+      "thumbnail_52": "/images/thumbnails/tt0356910.webp",
+      "imdb_rating": 6.685,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1013752",
+      "title": "Fast & Furious",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1013752.webp",
+      "thumbnail_52": "/images/thumbnails/tt1013752.webp",
+      "imdb_rating": 6.685,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0302886",
+      "title": "Old School",
+      "year": 2003,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0302886.webp",
+      "thumbnail_52": "/images/thumbnails/tt0302886.webp",
+      "imdb_rating": 6.607,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0430922",
+      "title": "Role Models",
+      "year": 2008,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0430922.webp",
+      "thumbnail_52": "/images/thumbnails/tt0430922.webp",
+      "imdb_rating": 6.487,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0481369",
+      "title": "The Number 23",
+      "year": 2007,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0481369.webp",
+      "thumbnail_52": "/images/thumbnails/tt0481369.webp",
+      "imdb_rating": 6.419,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0175142",
+      "title": "Scary Movie",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0175142.webp",
+      "thumbnail_52": "/images/thumbnails/tt0175142.webp",
+      "imdb_rating": 6.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0290002",
+      "title": "Meet the Fockers",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0290002.webp",
+      "thumbnail_52": "/images/thumbnails/tt0290002.webp",
+      "imdb_rating": 6.251,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0252866",
+      "title": "American Pie 2",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0252866.webp",
+      "thumbnail_52": "/images/thumbnails/tt0252866.webp",
+      "imdb_rating": 6.249,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 39,
+    "totalLocations": 30,
+    "genres": {
+      "Adventure": 1,
+      "Comedy": 24,
+      "Science Fiction": 3,
+      "War": 2,
+      "Drama": 16,
+      "Crime": 8,
+      "Fantasy": 2,
+      "Horror": 1,
+      "Thriller": 6,
+      "Animation": 1,
+      "Family": 2,
+      "Sci-Fi & Fantasy": 2,
+      "Action": 3,
+      "Romance": 4,
+      "Mystery": 6,
+      "Kids": 1,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "1980s": 1,
+      "1940s": 2,
+      "1920s": 1,
+      "1990s": 7,
+      "2000s": 19,
+      "1930s": 1,
+      "1970s": 1,
+      "2010s": 4,
+      "2020s": 2,
+      "1960s": 1
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "location": {
+    "city": "Bristol",
+    "country": "United Kingdom",
+    "slug": "bristol-united-kingdom",
+    "coordinates": {
+      "lat": 51.455878162500014,
+      "lng": -2.59728068125
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0840196",
+      "title": "Skins",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0840196.webp",
+      "thumbnail_52": "/images/thumbnails/tt0840196.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081912",
+      "title": "Only Fools and Horses",
+      "year": 1981,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0081912.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081912.webp",
+      "imdb_rating": 8.021,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2249364",
+      "title": "Broadchurch",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2249364.webp",
+      "thumbnail_52": "/images/thumbnails/tt2249364.webp",
+      "imdb_rating": 7.927,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2177461",
+      "title": "A Discovery of Witches",
+      "year": 2018,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2177461.webp",
+      "thumbnail_52": "/images/thumbnails/tt2177461.webp",
+      "imdb_rating": 7.833,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8685324",
+      "title": "Sanditon",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8685324.webp",
+      "thumbnail_52": "/images/thumbnails/tt8685324.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt28118211",
+      "title": "A Good Girl's Guide to Murder",
+      "year": 2024,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt28118211.webp",
+      "thumbnail_52": "/images/thumbnails/tt28118211.webp",
+      "imdb_rating": 7.403,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt11646832",
+      "title": "The Outlaws",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11646832.webp",
+      "thumbnail_52": "/images/thumbnails/tt11646832.webp",
+      "imdb_rating": 7.367,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0485301",
+      "title": "Torchwood",
+      "year": 2006,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0485301.webp",
+      "thumbnail_52": "/images/thumbnails/tt0485301.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9686194",
+      "title": "War of the Worlds",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9686194.webp",
+      "thumbnail_52": "/images/thumbnails/tt9686194.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1349938",
+      "title": "Being Human",
+      "year": 2009,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1349938.webp",
+      "thumbnail_52": "/images/thumbnails/tt1349938.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3498622",
+      "title": "Fortitude",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt3498622.webp",
+      "thumbnail_52": "/images/thumbnails/tt3498622.webp",
+      "imdb_rating": 6.845,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120630",
+      "title": "Chicken Run",
+      "year": 2000,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0120630.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120630.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 12,
+    "totalLocations": 16,
+    "genres": {
+      "Comedy": 4,
+      "Crime": 4,
+      "Drama": 10,
+      "Mystery": 4,
+      "Sci-Fi & Fantasy": 5,
+      "Action & Adventure": 2,
+      "Animation": 1,
+      "Family": 1
+    },
+    "decades": {
+      "1980s": 1,
+      "2010s": 5,
+      "2000s": 4,
+      "2020s": 2
+    }
+  }
+}

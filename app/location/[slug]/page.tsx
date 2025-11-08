@@ -27,11 +27,6 @@ interface LocationData {
     totalLocations: number
     genres: Record<string, number>
     decades: Record<string, number>
-    topRated: Array<{
-      title: string
-      year: number
-      rating?: number
-    }>
   }
 }
 
@@ -128,7 +123,13 @@ async function getLocationData(slug: string): Promise<LocationData | null> {
 
 // Generate JSON-LD schema for location page
 function generateLocationSchema(locationData: LocationData) {
-  const { location, stats } = locationData
+  const { location, stats, movies } = locationData
+
+  // Get top 5 movies by rating for schema
+  const topMovies = movies
+    .filter(m => m.imdb_rating)
+    .sort((a, b) => (b.imdb_rating || 0) - (a.imdb_rating || 0))
+    .slice(0, 5)
 
   return {
     '@context': 'https://schema.org',
@@ -141,12 +142,12 @@ function generateLocationSchema(locationData: LocationData) {
       longitude: location.coordinates.lng,
     },
     touristType: 'Film Tourism',
-    includesAttraction: stats.topRated.slice(0, 5).map(movie => ({
+    includesAttraction: topMovies.map(movie => ({
       '@type': 'MovieTheater',
       name: movie.title,
-      aggregateRating: movie.rating ? {
+      aggregateRating: movie.imdb_rating ? {
         '@type': 'AggregateRating',
-        ratingValue: movie.rating,
+        ratingValue: movie.imdb_rating,
         bestRating: 10,
       } : undefined,
     })),

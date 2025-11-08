@@ -226,30 +226,6 @@ export default function MovieModal({
             </div>
           )}
 
-          {/* External Links */}
-          <div className="flex gap-3 pt-4 border-t border-gray-200 dark:border-gray-700">
-            {movie.imdb_id && (
-              <a
-                href={`https://www.imdb.com/title/${movie.imdb_id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg font-semibold transition-colors"
-              >
-                View on IMDb
-              </a>
-            )}
-            {movie.tmdb_id && (
-              <a
-                href={`https://www.themoviedb.org/movie/${movie.tmdb_id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-colors"
-              >
-                View on TMDB
-              </a>
-            )}
-          </div>
-
           {/* Related Movies */}
           {relatedMovies.length > 0 && (
             <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">

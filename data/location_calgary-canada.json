@@ -1,0 +1,286 @@
+{
+  "location": {
+    "city": "Calgary",
+    "country": "Canada",
+    "slug": "calgary-canada",
+    "coordinates": {
+      "lat": 51.04491337142857,
+      "lng": -114.06459969047617
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0816692",
+      "title": "Interstellar",
+      "year": 2014,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0816692.webp",
+      "thumbnail_52": "/images/thumbnails/tt0816692.webp",
+      "imdb_rating": 8.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3581920",
+      "title": "The Last of Us",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3581920.webp",
+      "thumbnail_52": "/images/thumbnails/tt3581920.webp",
+      "imdb_rating": 8.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0403778",
+      "title": "Long Way Round",
+      "year": 2004,
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0403778.webp",
+      "thumbnail_52": "/images/thumbnails/tt0403778.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1094229",
+      "title": "Heartland",
+      "year": 2007,
+      "genres": [
+        "Family",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1094229.webp",
+      "thumbnail_52": "/images/thumbnails/tt1094229.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2802850",
+      "title": "Fargo",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2802850.webp",
+      "thumbnail_52": "/images/thumbnails/tt2802850.webp",
+      "imdb_rating": 8.295,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0105695",
+      "title": "Unforgiven",
+      "year": 1992,
+      "genres": [
+        "Western"
+      ],
+      "poster": "/images/posters/tt0105695.webp",
+      "thumbnail_52": "/images/thumbnails/tt0105695.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4878326",
+      "title": "Wynonna Earp",
+      "year": 2016,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Western"
+      ],
+      "poster": "/images/posters/tt4878326.webp",
+      "thumbnail_52": "/images/thumbnails/tt4878326.webp",
+      "imdb_rating": 7.88,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0388795",
+      "title": "Brokeback Mountain",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0388795.webp",
+      "thumbnail_52": "/images/thumbnails/tt0388795.webp",
+      "imdb_rating": 7.786,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8323628",
+      "title": "My Life with the Walter Boys",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8323628.webp",
+      "thumbnail_52": "/images/thumbnails/tt8323628.webp",
+      "imdb_rating": 7.735,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11866324",
+      "title": "Prey",
+      "year": 2022,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt11866324.webp",
+      "thumbnail_52": "/images/thumbnails/tt11866324.webp",
+      "imdb_rating": 7.672,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1699748",
+      "title": "Hell on Wheels",
+      "year": 2011,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Western"
+      ],
+      "poster": "/images/posters/tt1699748.webp",
+      "thumbnail_52": "/images/thumbnails/tt1699748.webp",
+      "imdb_rating": 7.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0110322",
+      "title": "Legends of the Fall",
+      "year": 1994,
+      "genres": [
+        "Drama",
+        "Western",
+        "Romance",
+        "War",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0110322.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110322.webp",
+      "imdb_rating": 7.384,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4513678",
+      "title": "Ghostbusters: Afterlife",
+      "year": 2021,
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt4513678.webp",
+      "thumbnail_52": "/images/thumbnails/tt4513678.webp",
+      "imdb_rating": 7.335,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0443680",
+      "title": "The Assassination of Jesse James by the Coward Robert Ford",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "poster": "/images/posters/tt0443680.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443680.webp",
+      "imdb_rating": 7.047,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8923854",
+      "title": "Black Summer",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt8923854.webp",
+      "thumbnail_52": "/images/thumbnails/tt8923854.webp",
+      "imdb_rating": 6.988,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7975244",
+      "title": "Jumanji: The Next Level",
+      "year": 2019,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt7975244.webp",
+      "thumbnail_52": "/images/thumbnails/tt7975244.webp",
+      "imdb_rating": 6.886,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081573",
+      "title": "Superman II",
+      "year": 1980,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0081573.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081573.webp",
+      "imdb_rating": 6.744,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1194173",
+      "title": "The Bourne Legacy",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1194173.webp",
+      "thumbnail_52": "/images/thumbnails/tt1194173.webp",
+      "imdb_rating": 6.237,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 18,
+    "totalLocations": 21,
+    "genres": {
+      "Adventure": 4,
+      "Drama": 10,
+      "Science Fiction": 4,
+      "Thriller": 2,
+      "Action": 4,
+      "Comedy": 3,
+      "Fantasy": 2,
+      "Documentary": 1,
+      "Reality": 1,
+      "Crime": 1,
+      "Romance": 2,
+      "Action & Adventure": 3,
+      "Western": 5,
+      "Sci-Fi & Fantasy": 2,
+      "War": 1,
+      "Family": 1
+    },
+    "decades": {
+      "2010s": 7,
+      "2020s": 4,
+      "1980s": 1,
+      "2000s": 4,
+      "1990s": 2
+    }
+  }
+}

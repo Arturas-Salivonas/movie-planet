@@ -368,45 +368,10 @@ const Map = forwardRef<MapRef, MapProps>(({
 
       // If no poster, create fallback icon
       if (!posterPath) {
-        // Add outer glow/shadow effect
-        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
-        ctx.shadowBlur = 8
-        ctx.shadowOffsetX = 0
-        ctx.shadowOffsetY = 4
+        // Just show the film icon on transparent background (no circle, no shadow)
+        ctx.clearRect(0, 0, size, size) // Ensure transparent background
 
-        // Create circular background with gradient
-        const gradient = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2)
-        gradient.addColorStop(0, '#2a2a2a')
-        gradient.addColorStop(1, '#1a1a1a')
-
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
-        ctx.fillStyle = gradient
-        ctx.fill()
-
-        // Reset shadow for border
-        ctx.shadowColor = 'transparent'
-        ctx.shadowBlur = 0
-
-        // Gold border with slight glow
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#FFD700'
-        ctx.lineWidth = 3
-        ctx.stroke()
-
-        // Inner gold glow
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 4, 0, Math.PI * 2)
-        ctx.strokeStyle = 'rgba(255, 215, 0, 0.3)'
-        ctx.lineWidth = 2
-        ctx.stroke()
-
-        // Film icon
-        ctx.fillStyle = '#FFD700'
-        ctx.font = 'bold 24px Arial Unicode MS Bold'
-        ctx.textAlign = 'center'
-        ctx.textBaseline = 'middle'
+        // Film icon only
         ctx.fillText('🎬', size / 2, size / 2)
 
         resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
@@ -420,10 +385,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // FAST PATH: Reuse cached image with minimal canvas operations
         ctx.save()
 
-        // Add shadow
-        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
-        ctx.shadowBlur = 8
-        ctx.shadowOffsetY = 4
+
 
         // Clip and draw
         ctx.beginPath()
@@ -432,12 +394,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         ctx.drawImage(cachedImg, 0, 0, size, size)
         ctx.restore()
 
-        // Border (no shadow for speed)
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#FFD700'
-        ctx.lineWidth = 3
-        ctx.stroke()
+
 
         resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
         return
@@ -448,11 +405,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Cache the loaded image for reuse
         imageCacheRef.current[movieId] = img
 
-        // Add outer shadow effect
-        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
-        ctx.shadowBlur = 8
-        ctx.shadowOffsetX = 0
-        ctx.shadowOffsetY = 4
+
 
         // Create circular clipping mask
         ctx.save()
@@ -464,67 +417,20 @@ const Map = forwardRef<MapRef, MapProps>(({
         ctx.drawImage(img, 0, 0, size, size)
         ctx.restore()
 
-        // Reset shadow for border
-        ctx.shadowColor = 'transparent'
-        ctx.shadowBlur = 0
 
-        // Gold border around circle
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#FFD700'
-        ctx.lineWidth = 3
-        ctx.stroke()
 
-        // Inner gold glow for depth
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 4, 0, Math.PI * 2)
-        ctx.strokeStyle = 'rgba(255, 215, 0, 0.4)'
-        ctx.lineWidth = 1
-        ctx.stroke()
+
+
+
 
         resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
       }
 
       img.onerror = () => {
-        // Add outer glow/shadow effect
-        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
-        ctx.shadowBlur = 8
-        ctx.shadowOffsetX = 0
-        ctx.shadowOffsetY = 4
-
-        // Fallback on error - circular icon with gradient
-        const gradient = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2)
-        gradient.addColorStop(0, '#2a2a2a')
-        gradient.addColorStop(1, '#1a1a1a')
-
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
-        ctx.fillStyle = gradient
-        ctx.fill()
-
-        // Reset shadow
-        ctx.shadowColor = 'transparent'
-        ctx.shadowBlur = 0
-
-        // Gold border
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#FFD700'
-        ctx.lineWidth = 3
-        ctx.stroke()
-
-        // Inner glow
-        ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2 - 4, 0, Math.PI * 2)
-        ctx.strokeStyle = 'rgba(255, 215, 0, 0.3)'
-        ctx.lineWidth = 2
-        ctx.stroke()
+        // Fallback on error - just show the film icon (no circle, no shadow)
+        ctx.clearRect(0, 0, size, size) // Ensure transparent background
 
         // Film icon fallback
-        ctx.fillStyle = '#FFD700'
-        ctx.font = 'bold 22px Arial Unicode MS Bold'
-        ctx.textAlign = 'center'
-        ctx.textBaseline = 'middle'
         ctx.fillText('🎬', size / 2, size / 2)
 
         resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
@@ -657,8 +563,8 @@ const Map = forwardRef<MapRef, MapProps>(({
           'icon-size': 0.9,
           'icon-allow-overlap': true,
           'text-field': ['get', 'title'],
-          'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-          'text-size': 14,
+          'text-font': ['Arial Unicode MS Bold', 'Arial Unicode MS Regular'],
+          'text-size': 16,
           'text-offset': [0, 2.0],
           'text-anchor': 'top',
           'text-max-width': 12,
@@ -666,9 +572,9 @@ const Map = forwardRef<MapRef, MapProps>(({
           'text-optional': true
         },
         paint: {
-          'text-color': '#FFD700',
-          'text-halo-color': '#000000',
-          'text-halo-width': 2,
+          'text-color': '#000',
+          'text-halo-color': '#fff',
+          'text-halo-width': 0.5,
           'icon-opacity': 1.0
         }
       })
@@ -678,12 +584,14 @@ const Map = forwardRef<MapRef, MapProps>(({
         const regionsResponse = await fetch('/geo/clickable-regions.geojson')
         const regionsData = await regionsResponse.json()
 
+
         map.current!.addSource('clickable-regions', {
           type: 'geojson',
           data: regionsData,
           // Prevent rendering copies on wrapped world views
           tolerance: 0
         })
+
 
         // Add circle layer (grey glow that appears when zoomed in) - NO STROKE
         map.current!.addLayer({
@@ -695,23 +603,25 @@ const Map = forwardRef<MapRef, MapProps>(({
               'interpolate',
               ['linear'],
               ['zoom'],
-              2, 15,    // Small when zoomed out
-              4, 60,    // Medium
-              6, 100,   // Much larger when zoomed in
-              10, 300   // Very large at street level
+              2, 8,    // Visible when zoomed out
+              3, 16,    // Getting bigger
+              4, 40,    // Medium
+              6, 80,   // Much larger when zoomed in
+              10, 200   // Very large at street level
             ],
-            'circle-color': '#9ca3afa4', // Grey color (Tailwind gray-400)
+            'circle-color': '#9ca3af9c', // Grey color (Tailwind gray-400) - remove alpha channel
             'circle-opacity': [
               'interpolate',
               ['linear'],
               ['zoom'],
-              2, 0,      // Invisible when zoomed out
-              3.5, 0,    // Start appearing
-              4, 0.15,   // Visible when zoomed in
-              6, ['case', ['boolean', ['feature-state', 'hover'], false], 0.35, 0.25]  // More visible up close
+              2, 0.2,    // More visible when zoomed out
+              3, 0.25,   // Getting more visible
+              4, 0.3,    // Visible when zoomed in
+              6, ['case', ['boolean', ['feature-state', 'hover'], false], 0.5, 0.35]  // More visible up close
             ]
           }
         }, 'movie-markers') // Insert BEFORE movie-markers so it's underneath
+
 
         // Add hover effect to show popup on mousemove
         let hoveredRegionId: string | number | null = null

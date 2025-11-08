@@ -1,0 +1,281 @@
+{
+  "location": {
+    "city": "Wilmington",
+    "country": "United States of America",
+    "slug": "wilmington-united-states-of-america",
+    "coordinates": {
+      "lat": 34.22666432173912,
+      "lng": -77.93176786956518
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt10293938",
+      "title": "Outer Banks",
+      "year": 2020,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt10293938.webp",
+      "thumbnail_52": "/images/thumbnails/tt10293938.webp",
+      "imdb_rating": 8.316,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14016500",
+      "title": "The Summer I Turned Pretty",
+      "year": 2022,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14016500.webp",
+      "thumbnail_52": "/images/thumbnails/tt14016500.webp",
+      "imdb_rating": 8.12,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0368530",
+      "title": "One Tree Hill",
+      "year": 2003,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0368530.webp",
+      "thumbnail_52": "/images/thumbnails/tt0368530.webp",
+      "imdb_rating": 7.767,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0281358",
+      "title": "A Walk to Remember",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0281358.webp",
+      "thumbnail_52": "/images/thumbnails/tt0281358.webp",
+      "imdb_rating": 7.757,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0090756",
+      "title": "Blue Velvet",
+      "year": 1986,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0090756.webp",
+      "thumbnail_52": "/images/thumbnails/tt0090756.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7144666",
+      "title": "The Black Phone",
+      "year": 2022,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt7144666.webp",
+      "thumbnail_52": "/images/thumbnails/tt7144666.webp",
+      "imdb_rating": 7.55,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1457767",
+      "title": "The Conjuring",
+      "year": 2013,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1457767.webp",
+      "thumbnail_52": "/images/thumbnails/tt1457767.webp",
+      "imdb_rating": 7.539,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0109506",
+      "title": "The Crow",
+      "year": 1994,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0109506.webp",
+      "thumbnail_52": "/images/thumbnails/tt0109506.webp",
+      "imdb_rating": 7.518,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0092991",
+      "title": "Evil Dead II",
+      "year": 1987,
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0092991.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092991.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2647544",
+      "title": "Sleepy Hollow",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt2647544.webp",
+      "thumbnail_52": "/images/thumbnails/tt2647544.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8362852",
+      "title": "Swamp Thing",
+      "year": 2019,
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8362852.webp",
+      "thumbnail_52": "/images/thumbnails/tt8362852.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0866442",
+      "title": "Eastbound & Down",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0866442.webp",
+      "thumbnail_52": "/images/thumbnails/tt0866442.webp",
+      "imdb_rating": 7.395,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118300",
+      "title": "Dawson's Creek",
+      "year": 1998,
+      "genres": [
+        "Drama",
+        "Soap"
+      ],
+      "poster": "/images/posters/tt0118300.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118300.webp",
+      "imdb_rating": 7.342,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt2288064",
+      "title": "Witches of East End",
+      "year": 2013,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2288064.webp",
+      "thumbnail_52": "/images/thumbnails/tt2288064.webp",
+      "imdb_rating": 7.296,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1553656",
+      "title": "Under the Dome",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1553656.webp",
+      "thumbnail_52": "/images/thumbnails/tt1553656.webp",
+      "imdb_rating": 7.157,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1300854",
+      "title": "Iron Man 3",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1300854.webp",
+      "thumbnail_52": "/images/thumbnails/tt1300854.webp",
+      "imdb_rating": 6.93,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1723121",
+      "title": "We're the Millers",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1723121.webp",
+      "thumbnail_52": "/images/thumbnails/tt1723121.webp",
+      "imdb_rating": 6.838,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2070791",
+      "title": "Revolution",
+      "year": 2012,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2070791.webp",
+      "thumbnail_52": "/images/thumbnails/tt2070791.webp",
+      "imdb_rating": 6.398,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 18,
+    "totalLocations": 23,
+    "genres": {
+      "Mystery": 5,
+      "Thriller": 4,
+      "Crime": 2,
+      "Drama": 12,
+      "Horror": 3,
+      "Comedy": 3,
+      "Fantasy": 2,
+      "Sci-Fi & Fantasy": 5,
+      "Action": 2,
+      "Adventure": 1,
+      "Science Fiction": 1,
+      "Action & Adventure": 1,
+      "Soap": 1,
+      "Romance": 1
+    },
+    "decades": {
+      "1980s": 2,
+      "2010s": 8,
+      "2020s": 3,
+      "2000s": 3,
+      "1990s": 2
+    }
+  }
+}

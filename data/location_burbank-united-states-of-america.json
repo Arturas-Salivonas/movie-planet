@@ -1,0 +1,385 @@
+{
+  "location": {
+    "city": "Burbank",
+    "country": "United States of America",
+    "slug": "burbank-united-states-of-america",
+    "coordinates": {
+      "lat": 34.17914792692308,
+      "lng": -118.31059027307695
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt7879820",
+      "title": "On My Block",
+      "year": 2018,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7879820.webp",
+      "thumbnail_52": "/images/thumbnails/tt7879820.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1604099",
+      "title": "Victorious",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt1604099.webp",
+      "thumbnail_52": "/images/thumbnails/tt1604099.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0209144",
+      "title": "Memento",
+      "year": 2000,
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0209144.webp",
+      "thumbnail_52": "/images/thumbnails/tt0209144.webp",
+      "imdb_rating": 8.177,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0312109",
+      "title": "Codename: Kids Next Door",
+      "year": 2002,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Kids",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0312109.webp",
+      "thumbnail_52": "/images/thumbnails/tt0312109.webp",
+      "imdb_rating": 8.171,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0285403",
+      "title": "Scrubs",
+      "year": 2001,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0285403.webp",
+      "thumbnail_52": "/images/thumbnails/tt0285403.webp",
+      "imdb_rating": 8.01,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0169547",
+      "title": "American Beauty",
+      "year": 1999,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0169547.webp",
+      "thumbnail_52": "/images/thumbnails/tt0169547.webp",
+      "imdb_rating": 8.003,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0419326",
+      "title": "Foster's Home for Imaginary Friends",
+      "year": 2004,
+      "genres": [
+        "Kids",
+        "Animation",
+        "Family",
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0419326.webp",
+      "thumbnail_52": "/images/thumbnails/tt0419326.webp",
+      "imdb_rating": 7.816,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112178",
+      "title": "Star Trek: Voyager",
+      "year": 1995,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0112178.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112178.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0246578",
+      "title": "Donnie Darko",
+      "year": 2001,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0246578.webp",
+      "thumbnail_52": "/images/thumbnails/tt0246578.webp",
+      "imdb_rating": 7.766,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0206512",
+      "title": "SpongeBob SquarePants",
+      "year": 1999,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0206512.webp",
+      "thumbnail_52": "/images/thumbnails/tt0206512.webp",
+      "imdb_rating": 7.694,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0115157",
+      "title": "Dexter's Laboratory",
+      "year": 1996,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0115157.webp",
+      "thumbnail_52": "/images/thumbnails/tt0115157.webp",
+      "imdb_rating": 7.664,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108399",
+      "title": "True Romance",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108399.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108399.webp",
+      "imdb_rating": 7.542,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0175058",
+      "title": "The Powerpuff Girls",
+      "year": 1998,
+      "genres": [
+        "Action & Adventure",
+        "Animation",
+        "Comedy",
+        "Kids",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0175058.webp",
+      "thumbnail_52": "/images/thumbnails/tt0175058.webp",
+      "imdb_rating": 7.538,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0083437",
+      "title": "Knight Rider",
+      "year": 1982,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0083437.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083437.webp",
+      "imdb_rating": 7.532,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1610527",
+      "title": "Workaholics",
+      "year": 2011,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1610527.webp",
+      "thumbnail_52": "/images/thumbnails/tt1610527.webp",
+      "imdb_rating": 7.409,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0101120",
+      "title": "Home Improvement",
+      "year": 1991,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0101120.webp",
+      "thumbnail_52": "/images/thumbnails/tt0101120.webp",
+      "imdb_rating": 7.403,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118360",
+      "title": "Johnny Bravo",
+      "year": 1997,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0118360.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118360.webp",
+      "imdb_rating": 7.302,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5164196",
+      "title": "Lethal Weapon",
+      "year": 2016,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt5164196.webp",
+      "thumbnail_52": "/images/thumbnails/tt5164196.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0075860",
+      "title": "Close Encounters of the Third Kind",
+      "year": 1977,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0075860.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075860.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086770",
+      "title": "Night Court",
+      "year": 1984,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0086770.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086770.webp",
+      "imdb_rating": 7.295,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1832979",
+      "title": "Hart of Dixie",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1832979.webp",
+      "thumbnail_52": "/images/thumbnails/tt1832979.webp",
+      "imdb_rating": 7.275,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2294629",
+      "title": "Frozen",
+      "year": 2013,
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt2294629.webp",
+      "thumbnail_52": "/images/thumbnails/tt2294629.webp",
+      "imdb_rating": 7.249,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0029583",
+      "title": "Snow White and the Seven Dwarfs",
+      "year": 1938,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0029583.webp",
+      "thumbnail_52": "/images/thumbnails/tt0029583.webp",
+      "imdb_rating": 7.124,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0437005",
+      "title": "Hell's Kitchen",
+      "year": 2005,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0437005.webp",
+      "thumbnail_52": "/images/thumbnails/tt0437005.webp",
+      "imdb_rating": 6.794,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1001508",
+      "title": "He's Just Not That Into You",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1001508.webp",
+      "thumbnail_52": "/images/thumbnails/tt1001508.webp",
+      "imdb_rating": 6.614,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 25,
+    "totalLocations": 26,
+    "genres": {
+      "Mystery": 2,
+      "Thriller": 1,
+      "Fantasy": 3,
+      "Animation": 8,
+      "Family": 7,
+      "Comedy": 15,
+      "Adventure": 1,
+      "Action": 1,
+      "Crime": 3,
+      "Romance": 2,
+      "Sci-Fi & Fantasy": 5,
+      "Drama": 8,
+      "Action & Adventure": 5,
+      "Kids": 4,
+      "Science Fiction": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2000s": 7,
+      "1930s": 1,
+      "2010s": 6,
+      "1990s": 8,
+      "1980s": 2,
+      "1970s": 1
+    }
+  }
+}

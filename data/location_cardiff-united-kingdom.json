@@ -1,0 +1,106 @@
+{
+  "location": {
+    "city": "Cardiff",
+    "country": "United Kingdom",
+    "slug": "cardiff-united-kingdom",
+    "coordinates": {
+      "lat": 51.478028344444446,
+      "lng": -3.1732247888888887
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt5607976",
+      "title": "His Dark Materials",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5607976.webp",
+      "thumbnail_52": "/images/thumbnails/tt5607976.webp",
+      "imdb_rating": 7.863,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2177461",
+      "title": "A Discovery of Witches",
+      "year": 2018,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2177461.webp",
+      "thumbnail_52": "/images/thumbnails/tt2177461.webp",
+      "imdb_rating": 7.833,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0436992",
+      "title": "Doctor Who",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0436992.webp",
+      "thumbnail_52": "/images/thumbnails/tt0436992.webp",
+      "imdb_rating": 7.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0485301",
+      "title": "Torchwood",
+      "year": 2006,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0485301.webp",
+      "thumbnail_52": "/images/thumbnails/tt0485301.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9686194",
+      "title": "War of the Worlds",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9686194.webp",
+      "thumbnail_52": "/images/thumbnails/tt9686194.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7671070",
+      "title": "Industry",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7671070.webp",
+      "thumbnail_52": "/images/thumbnails/tt7671070.webp",
+      "imdb_rating": 6.828,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 9,
+    "genres": {
+      "Action & Adventure": 2,
+      "Drama": 6,
+      "Sci-Fi & Fantasy": 5
+    },
+    "decades": {
+      "2000s": 2,
+      "2010s": 3,
+      "2020s": 1
+    }
+  }
+}

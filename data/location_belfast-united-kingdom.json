@@ -1,0 +1,127 @@
+{
+  "location": {
+    "city": "Belfast",
+    "country": "United Kingdom",
+    "slug": "belfast-united-kingdom",
+    "coordinates": {
+      "lat": 54.59804286,
+      "lng": -5.945863180000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1124373",
+      "title": "Sons of Anarchy",
+      "year": 2008,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1124373.webp",
+      "thumbnail_52": "/images/thumbnails/tt1124373.webp",
+      "imdb_rating": 8.417,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2303687",
+      "title": "Line of Duty",
+      "year": 2012,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2303687.webp",
+      "thumbnail_52": "/images/thumbnails/tt2303687.webp",
+      "imdb_rating": 8.249,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7120662",
+      "title": "Derry Girls",
+      "year": 2018,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7120662.webp",
+      "thumbnail_52": "/images/thumbnails/tt7120662.webp",
+      "imdb_rating": 8.088,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt2294189",
+      "title": "The Fall",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2294189.webp",
+      "thumbnail_52": "/images/thumbnails/tt2294189.webp",
+      "imdb_rating": 7.67,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt14466018",
+      "title": "Blue Lights",
+      "year": 2023,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14466018.webp",
+      "thumbnail_52": "/images/thumbnails/tt14466018.webp",
+      "imdb_rating": 7.404,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4276624",
+      "title": "Krypton",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt4276624.webp",
+      "thumbnail_52": "/images/thumbnails/tt4276624.webp",
+      "imdb_rating": 7.103,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0829150",
+      "title": "Dracula Untold",
+      "year": 2014,
+      "genres": [
+        "Horror",
+        "Action",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0829150.webp",
+      "thumbnail_52": "/images/thumbnails/tt0829150.webp",
+      "imdb_rating": 6.447,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 10,
+    "genres": {
+      "Crime": 4,
+      "Drama": 6,
+      "Mystery": 1,
+      "Comedy": 1,
+      "Horror": 1,
+      "Action": 1,
+      "Fantasy": 1,
+      "Action & Adventure": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2010s": 5,
+      "2000s": 1,
+      "2020s": 1
+    }
+  }
+}

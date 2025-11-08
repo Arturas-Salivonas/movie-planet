@@ -1,0 +1,477 @@
+{
+  "location": {
+    "city": "Sydney",
+    "country": "Australia",
+    "slug": "sydney-australia",
+    "coordinates": {
+      "lat": -33.868760956578946,
+      "lng": 151.1827491842105
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0133093",
+      "title": "The Matrix",
+      "year": 1999,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0133093.webp",
+      "thumbnail_52": "/images/thumbnails/tt0133093.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7472896",
+      "title": "Mr Inbetween",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7472896.webp",
+      "thumbnail_52": "/images/thumbnails/tt7472896.webp",
+      "imdb_rating": 8.218,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2119532",
+      "title": "Hacksaw Ridge",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt2119532.webp",
+      "thumbnail_52": "/images/thumbnails/tt2119532.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt10168312",
+      "title": "What If...?",
+      "year": 2021,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt10168312.webp",
+      "thumbnail_52": "/images/thumbnails/tt10168312.webp",
+      "imdb_rating": 8.077,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0187636",
+      "title": "Farscape",
+      "year": 1999,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0187636.webp",
+      "thumbnail_52": "/images/thumbnails/tt0187636.webp",
+      "imdb_rating": 7.875,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt7203552",
+      "title": "The Morning Show",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7203552.webp",
+      "thumbnail_52": "/images/thumbnails/tt7203552.webp",
+      "imdb_rating": 7.758,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1392190",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1392190.webp",
+      "thumbnail_52": "/images/thumbnails/tt1392190.webp",
+      "imdb_rating": 7.627,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0203009",
+      "title": "Moulin Rouge!",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Music"
+      ],
+      "poster": "/images/posters/tt0203009.webp",
+      "thumbnail_52": "/images/thumbnails/tt0203009.webp",
+      "imdb_rating": 7.541,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9376612",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt9376612.webp",
+      "thumbnail_52": "/images/thumbnails/tt9376612.webp",
+      "imdb_rating": 7.505,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt12037194",
+      "title": "Furiosa: A Mad Max Saga",
+      "year": 2024,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt12037194.webp",
+      "thumbnail_52": "/images/thumbnails/tt12037194.webp",
+      "imdb_rating": 7.46,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1809398",
+      "title": "Unbroken",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt1809398.webp",
+      "thumbnail_52": "/images/thumbnails/tt1809398.webp",
+      "imdb_rating": 7.426,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1490017",
+      "title": "The Lego Movie",
+      "year": 2014,
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1490017.webp",
+      "thumbnail_52": "/images/thumbnails/tt1490017.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1343092",
+      "title": "The Great Gatsby",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1343092.webp",
+      "thumbnail_52": "/images/thumbnails/tt1343092.webp",
+      "imdb_rating": 7.36,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0118929",
+      "title": "Dark City",
+      "year": 1998,
+      "genres": [
+        "Mystery",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0118929.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118929.webp",
+      "imdb_rating": 7.329,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1051906",
+      "title": "The Invisible Man",
+      "year": 2020,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt1051906.webp",
+      "thumbnail_52": "/images/thumbnails/tt1051906.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0234215",
+      "title": "The Matrix Reloaded",
+      "year": 2003,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0234215.webp",
+      "thumbnail_52": "/images/thumbnails/tt0234215.webp",
+      "imdb_rating": 7.066,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2103085",
+      "title": "Top of the Lake",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2103085.webp",
+      "thumbnail_52": "/images/thumbnails/tt2103085.webp",
+      "imdb_rating": 7.054,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1684562",
+      "title": "The Fall Guy",
+      "year": 2024,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1684562.webp",
+      "thumbnail_52": "/images/thumbnails/tt1684562.webp",
+      "imdb_rating": 6.986,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0448134",
+      "title": "Sunshine",
+      "year": 2007,
+      "genres": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0448134.webp",
+      "thumbnail_52": "/images/thumbnails/tt0448134.webp",
+      "imdb_rating": 6.965,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8760932",
+      "title": "Nine Perfect Strangers",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt8760932.webp",
+      "thumbnail_52": "/images/thumbnails/tt8760932.webp",
+      "imdb_rating": 6.947,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3513498",
+      "title": "The Lego Movie 2: The Second Part",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt3513498.webp",
+      "thumbnail_52": "/images/thumbnails/tt3513498.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0242653",
+      "title": "The Matrix Revolutions",
+      "year": 2003,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0242653.webp",
+      "thumbnail_52": "/images/thumbnails/tt0242653.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1430132",
+      "title": "The Wolverine",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1430132.webp",
+      "thumbnail_52": "/images/thumbnails/tt1430132.webp",
+      "imdb_rating": 6.4,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt10648342",
+      "title": "Thor: Love and Thunder",
+      "year": 2022,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt10648342.webp",
+      "thumbnail_52": "/images/thumbnails/tt10648342.webp",
+      "imdb_rating": 6.392,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0458525",
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0458525.webp",
+      "thumbnail_52": "/images/thumbnails/tt0458525.webp",
+      "imdb_rating": 6.278,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0366548",
+      "title": "Happy Feet",
+      "year": 2006,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0366548.webp",
+      "thumbnail_52": "/images/thumbnails/tt0366548.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2316204",
+      "title": "Alien: Covenant",
+      "year": 2017,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2316204.webp",
+      "thumbnail_52": "/images/thumbnails/tt2316204.webp",
+      "imdb_rating": 6.16,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0120755",
+      "title": "Mission: Impossible II",
+      "year": 2000,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0120755.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120755.webp",
+      "imdb_rating": 6.1,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0348150",
+      "title": "Superman Returns",
+      "year": 2006,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0348150.webp",
+      "thumbnail_52": "/images/thumbnails/tt0348150.webp",
+      "imdb_rating": 5.793,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0098141",
+      "title": "The Punisher",
+      "year": 1989,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0098141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098141.webp",
+      "imdb_rating": 5.769,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0133152",
+      "title": "Planet of the Apes",
+      "year": 2001,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0133152.webp",
+      "thumbnail_52": "/images/thumbnails/tt0133152.webp",
+      "imdb_rating": 5.762,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 31,
+    "totalLocations": 76,
+    "genres": {
+      "Action": 15,
+      "Science Fiction": 13,
+      "Adventure": 12,
+      "Fantasy": 3,
+      "Comedy": 5,
+      "Thriller": 8,
+      "Drama": 10,
+      "History": 1,
+      "War": 2,
+      "Crime": 3,
+      "Romance": 3,
+      "Animation": 4,
+      "Family": 3,
+      "Action & Adventure": 2,
+      "Sci-Fi & Fantasy": 2,
+      "Horror": 2,
+      "Music": 1,
+      "Mystery": 3
+    },
+    "decades": {
+      "1990s": 3,
+      "2010s": 11,
+      "2020s": 7,
+      "2000s": 9,
+      "1980s": 1
+    }
+  }
+}

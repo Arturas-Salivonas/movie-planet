@@ -1,0 +1,195 @@
+{
+  "location": {
+    "city": "Hollywood",
+    "country": "United States of America",
+    "slug": "hollywood-united-states-of-america",
+    "coordinates": {
+      "lat": 34.0904133,
+      "lng": -118.36392912307691
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0051201",
+      "title": "Witness for the Prosecution",
+      "year": 1957,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0051201.webp",
+      "thumbnail_52": "/images/thumbnails/tt0051201.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0053604",
+      "title": "The Apartment",
+      "year": 1960,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0053604.webp",
+      "thumbnail_52": "/images/thumbnails/tt0053604.webp",
+      "imdb_rating": 8.196,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0053291",
+      "title": "Some Like It Hot",
+      "year": 1959,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0053291.webp",
+      "thumbnail_52": "/images/thumbnails/tt0053291.webp",
+      "imdb_rating": 8.092,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0119488",
+      "title": "L.A. Confidential",
+      "year": 1997,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0119488.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119488.webp",
+      "imdb_rating": 7.803,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0075686",
+      "title": "Annie Hall",
+      "year": 1977,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0075686.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075686.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0077651",
+      "title": "Halloween",
+      "year": 1978,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0077651.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077651.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt2249007",
+      "title": "Ray Donovan",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2249007.webp",
+      "thumbnail_52": "/images/thumbnails/tt2249007.webp",
+      "imdb_rating": 7.489,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0387199",
+      "title": "Entourage",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0387199.webp",
+      "thumbnail_52": "/images/thumbnails/tt0387199.webp",
+      "imdb_rating": 7.357,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0087800",
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0087800.webp",
+      "thumbnail_52": "/images/thumbnails/tt0087800.webp",
+      "imdb_rating": 7.341,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt2066051",
+      "title": "Rocketman",
+      "year": 2019,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2066051.webp",
+      "thumbnail_52": "/images/thumbnails/tt2066051.webp",
+      "imdb_rating": 7.314,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt7971476",
+      "title": "The Politician",
+      "year": 2019,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7971476.webp",
+      "thumbnail_52": "/images/thumbnails/tt7971476.webp",
+      "imdb_rating": 6.986,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt14954666",
+      "title": "The Idol",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14954666.webp",
+      "thumbnail_52": "/images/thumbnails/tt14954666.webp",
+      "imdb_rating": 5.391,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 12,
+    "totalLocations": 0,
+    "genres": {
+      "Drama": 8,
+      "Mystery": 2,
+      "Crime": 3,
+      "Horror": 2,
+      "Thriller": 2,
+      "Comedy": 5,
+      "Romance": 3,
+      "Music": 1
+    },
+    "decades": {
+      "1950s": 2,
+      "1970s": 2,
+      "1980s": 1,
+      "2000s": 1,
+      "2020s": 1,
+      "2010s": 3,
+      "1960s": 1,
+      "1990s": 1
+    }
+  }
+}

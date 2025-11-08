@@ -1,0 +1,194 @@
+{
+  "location": {
+    "city": "Baltimore",
+    "country": "United States of America",
+    "slug": "baltimore-united-states-of-america",
+    "coordinates": {
+      "lat": 39.29229993125,
+      "lng": -76.60883354375001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0306414",
+      "title": "The Wire",
+      "year": 2002,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0306414.webp",
+      "thumbnail_52": "/images/thumbnails/tt0306414.webp",
+      "imdb_rating": 8.604,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106028",
+      "title": "Homicide: Life on the Street",
+      "year": 1993,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106028.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106028.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1856010",
+      "title": "House of Cards",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1856010.webp",
+      "thumbnail_52": "/images/thumbnails/tt1856010.webp",
+      "imdb_rating": 8.013,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt13111078",
+      "title": "Lioness",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt13111078.webp",
+      "thumbnail_52": "/images/thumbnails/tt13111078.webp",
+      "imdb_rating": 8.012,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1759761",
+      "title": "Veep",
+      "year": 2012,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1759761.webp",
+      "thumbnail_52": "/images/thumbnails/tt1759761.webp",
+      "imdb_rating": 7.463,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120660",
+      "title": "Enemy of the State",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0120660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120660.webp",
+      "imdb_rating": 7.057,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0289765",
+      "title": "Red Dragon",
+      "year": 2002,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0289765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0289765.webp",
+      "imdb_rating": 7.032,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108160",
+      "title": "Sleepless in Seattle",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108160.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108160.webp",
+      "imdb_rating": 6.738,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0337978",
+      "title": "Live Free or Die Hard",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0337978.webp",
+      "thumbnail_52": "/images/thumbnails/tt0337978.webp",
+      "imdb_rating": 6.633,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758774",
+      "title": "Body of Lies",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0758774.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758774.webp",
+      "imdb_rating": 6.628,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0129387",
+      "title": "There's Something About Mary",
+      "year": 1998,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0129387.webp",
+      "thumbnail_52": "/images/thumbnails/tt0129387.webp",
+      "imdb_rating": 6.618,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1001508",
+      "title": "He's Just Not That Into You",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1001508.webp",
+      "thumbnail_52": "/images/thumbnails/tt1001508.webp",
+      "imdb_rating": 6.614,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 12,
+    "totalLocations": 16,
+    "genres": {
+      "Action": 3,
+      "Drama": 8,
+      "Thriller": 4,
+      "Crime": 3,
+      "Mystery": 1,
+      "Romance": 3,
+      "Comedy": 4,
+      "Horror": 1,
+      "War & Politics": 1
+    },
+    "decades": {
+      "1990s": 4,
+      "2010s": 2,
+      "2000s": 5,
+      "2020s": 1
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "location": {
+    "city": "Cleveland",
+    "country": "United States of America",
+    "slug": "cleveland-united-states-of-america",
+    "coordinates": {
+      "lat": 41.4942207,
+      "lng": -81.68323493999999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0848228",
+      "title": "The Avengers",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0848228.webp",
+      "thumbnail_52": "/images/thumbnails/tt0848228.webp",
+      "imdb_rating": 7.842,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1843866",
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1843866.webp",
+      "thumbnail_52": "/images/thumbnails/tt1843866.webp",
+      "imdb_rating": 7.655,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt5950044",
+      "title": "Superman",
+      "year": 2025,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt5950044.webp",
+      "thumbnail_52": "/images/thumbnails/tt5950044.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0085334",
+      "title": "A Christmas Story",
+      "year": 1983,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0085334.webp",
+      "thumbnail_52": "/images/thumbnails/tt0085334.webp",
+      "imdb_rating": 7.214,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4630562",
+      "title": "The Fate of the Furious",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4630562.webp",
+      "thumbnail_52": "/images/thumbnails/tt4630562.webp",
+      "imdb_rating": 6.861,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0111945",
+      "title": "The Drew Carey Show",
+      "year": 1995,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0111945.webp",
+      "thumbnail_52": "/images/thumbnails/tt0111945.webp",
+      "imdb_rating": 6.503,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0118571",
+      "title": "Air Force One",
+      "year": 1997,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0118571.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118571.webp",
+      "imdb_rating": 6.479,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0413300",
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0413300.webp",
+      "thumbnail_52": "/images/thumbnails/tt0413300.webp",
+      "imdb_rating": 6.447,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2910814",
+      "title": "The Signal",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2910814.webp",
+      "thumbnail_52": "/images/thumbnails/tt2910814.webp",
+      "imdb_rating": 6.016,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 9,
+    "totalLocations": 15,
+    "genres": {
+      "Science Fiction": 5,
+      "Action": 6,
+      "Adventure": 4,
+      "Comedy": 2,
+      "Family": 1,
+      "Thriller": 3,
+      "Crime": 1
+    },
+    "decades": {
+      "2010s": 4,
+      "1980s": 1,
+      "1990s": 2,
+      "2000s": 1,
+      "2020s": 1
+    }
+  }
+}

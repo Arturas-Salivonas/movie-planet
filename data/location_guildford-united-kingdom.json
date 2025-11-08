@@ -1,0 +1,99 @@
+{
+  "location": {
+    "city": "Guildford",
+    "country": "United Kingdom",
+    "slug": "guildford-united-kingdom",
+    "coordinates": {
+      "lat": 51.229096566666676,
+      "lng": -0.5030803333333332
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt13210838",
+      "title": "The Gentlemen",
+      "year": 2024,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt13210838.webp",
+      "thumbnail_52": "/images/thumbnails/tt13210838.webp",
+      "imdb_rating": 7.878,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8594324",
+      "title": "Ghosts",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt8594324.webp",
+      "thumbnail_52": "/images/thumbnails/tt8594324.webp",
+      "imdb_rating": 7.86,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0118401",
+      "title": "Midsomer Murders",
+      "year": 1997,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0118401.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118401.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0457939",
+      "title": "The Holiday",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0457939.webp",
+      "thumbnail_52": "/images/thumbnails/tt0457939.webp",
+      "imdb_rating": 7.09,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0109831",
+      "title": "Four Weddings and a Funeral",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0109831.webp",
+      "thumbnail_52": "/images/thumbnails/tt0109831.webp",
+      "imdb_rating": 6.771,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 6,
+    "genres": {
+      "Comedy": 4,
+      "Drama": 3,
+      "Romance": 2,
+      "Crime": 2,
+      "Mystery": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "1990s": 2,
+      "2020s": 1,
+      "2000s": 1,
+      "2010s": 1
+    }
+  }
+}

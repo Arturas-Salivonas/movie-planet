@@ -1,0 +1,299 @@
+{
+  "location": {
+    "city": "San Diego",
+    "country": "United States of America",
+    "slug": "san-diego-united-states-of-america",
+    "coordinates": {
+      "lat": 32.76685322222222,
+      "lng": -117.16253944814815
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0033467",
+      "title": "Citizen Kane",
+      "year": 1941,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0033467.webp",
+      "thumbnail_52": "/images/thumbnails/tt0033467.webp",
+      "imdb_rating": 8.001,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11743610",
+      "title": "The Terminal List",
+      "year": 2022,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11743610.webp",
+      "thumbnail_52": "/images/thumbnails/tt11743610.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0412253",
+      "title": "Veronica Mars",
+      "year": 2004,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0412253.webp",
+      "thumbnail_52": "/images/thumbnails/tt0412253.webp",
+      "imdb_rating": 7.817,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt30144839",
+      "title": "One Battle After Another",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt30144839.webp",
+      "thumbnail_52": "/images/thumbnails/tt30144839.webp",
+      "imdb_rating": 7.712,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181875",
+      "title": "Almost Famous",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "poster": "/images/posters/tt0181875.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181875.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0375063",
+      "title": "Sideways",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0375063.webp",
+      "thumbnail_52": "/images/thumbnails/tt0375063.webp",
+      "imdb_rating": 7.111,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181865",
+      "title": "Traffic",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0181865.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181865.webp",
+      "imdb_rating": 7.08,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0092099",
+      "title": "Top Gun",
+      "year": 1986,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0092099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092099.webp",
+      "imdb_rating": 7.061,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4649466",
+      "title": "Kingsman: The Golden Circle",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4649466.webp",
+      "thumbnail_52": "/images/thumbnails/tt4649466.webp",
+      "imdb_rating": 6.952,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0094012",
+      "title": "Spaceballs",
+      "year": 1987,
+      "genres": [
+        "Comedy",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0094012.webp",
+      "thumbnail_52": "/images/thumbnails/tt0094012.webp",
+      "imdb_rating": 6.858,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2402207",
+      "title": "The Last Ship",
+      "year": 2014,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt2402207.webp",
+      "thumbnail_52": "/images/thumbnails/tt2402207.webp",
+      "imdb_rating": 6.843,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0800369",
+      "title": "Thor",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0800369.webp",
+      "thumbnail_52": "/images/thumbnails/tt0800369.webp",
+      "imdb_rating": 6.768,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106697",
+      "title": "Demolition Man",
+      "year": 1993,
+      "genres": [
+        "Crime",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0106697.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106697.webp",
+      "imdb_rating": 6.748,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0357413",
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "year": 2004,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0357413.webp",
+      "thumbnail_52": "/images/thumbnails/tt0357413.webp",
+      "imdb_rating": 6.701,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2231461",
+      "title": "Rampage",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2231461.webp",
+      "thumbnail_52": "/images/thumbnails/tt2231461.webp",
+      "imdb_rating": 6.456,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1229340",
+      "title": "Anchorman 2: The Legend Continues",
+      "year": 2013,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1229340.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229340.webp",
+      "imdb_rating": 6.136,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1179904",
+      "title": "Paranormal Activity",
+      "year": 2007,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1179904.webp",
+      "thumbnail_52": "/images/thumbnails/tt1179904.webp",
+      "imdb_rating": 6.034,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0095989",
+      "title": "Return of the Killer Tomatoes!",
+      "year": 1988,
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0095989.webp",
+      "thumbnail_52": "/images/thumbnails/tt0095989.webp",
+      "imdb_rating": 5.676,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1133985",
+      "title": "Green Lantern",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1133985.webp",
+      "thumbnail_52": "/images/thumbnails/tt1133985.webp",
+      "imdb_rating": 5.176,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 19,
+    "totalLocations": 27,
+    "genres": {
+      "Adventure": 4,
+      "Fantasy": 1,
+      "Action": 7,
+      "Comedy": 7,
+      "Horror": 2,
+      "Science Fiction": 5,
+      "Thriller": 3,
+      "Crime": 4,
+      "Drama": 8,
+      "Music": 1,
+      "Mystery": 3,
+      "Action & Adventure": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Romance": 1
+    },
+    "decades": {
+      "2010s": 6,
+      "1980s": 3,
+      "2020s": 2,
+      "2000s": 6,
+      "1940s": 1,
+      "1990s": 1
+    }
+  }
+}

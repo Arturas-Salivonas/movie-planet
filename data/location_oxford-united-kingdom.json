@@ -1,0 +1,128 @@
+{
+  "location": {
+    "city": "Oxford",
+    "country": "United Kingdom",
+    "slug": "oxford-united-kingdom",
+    "coordinates": {
+      "lat": 51.7533503,
+      "lng": -1.2521667857142857
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt27792190",
+      "title": "Maxton Hall - The World Between Us",
+      "year": 2024,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt27792190.webp",
+      "thumbnail_52": "/images/thumbnails/tt27792190.webp",
+      "imdb_rating": 8.369,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5607976",
+      "title": "His Dark Materials",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5607976.webp",
+      "thumbnail_52": "/images/thumbnails/tt5607976.webp",
+      "imdb_rating": 7.863,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0330373",
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0330373.webp",
+      "thumbnail_52": "/images/thumbnails/tt0330373.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0295297.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295297.webp",
+      "imdb_rating": 7.705,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5083738",
+      "title": "The Favourite",
+      "year": 2018,
+      "genres": [
+        "History",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5083738.webp",
+      "thumbnail_52": "/images/thumbnails/tt5083738.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt17351924",
+      "title": "Saltburn",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt17351924.webp",
+      "thumbnail_52": "/images/thumbnails/tt17351924.webp",
+      "imdb_rating": 6.966,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2345759",
+      "title": "The Mummy",
+      "year": 2017,
+      "genres": [
+        "Fantasy",
+        "Thriller",
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt2345759.webp",
+      "thumbnail_52": "/images/thumbnails/tt2345759.webp",
+      "imdb_rating": 5.5,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 7,
+    "genres": {
+      "Fantasy": 3,
+      "Thriller": 2,
+      "Action": 1,
+      "Adventure": 3,
+      "Horror": 1,
+      "Drama": 4,
+      "Comedy": 2,
+      "History": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2010s": 3,
+      "2000s": 2,
+      "2020s": 2
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "location": {
+    "city": "Santa Monica",
+    "country": "United States of America",
+    "slug": "santa-monica-united-states-of-america",
+    "coordinates": {
+      "lat": 34.015209320833335,
+      "lng": -118.49256461666668
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2758770",
+      "title": "Star vs. the Forces of Evil",
+      "year": 2015,
+      "genres": [
+        "Action & Adventure",
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt2758770.webp",
+      "thumbnail_52": "/images/thumbnails/tt2758770.webp",
+      "imdb_rating": 8.349,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264235",
+      "title": "Curb Your Enthusiasm",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264235.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264235.webp",
+      "imdb_rating": 8.022,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0904208",
+      "title": "Californication",
+      "year": 2007,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0904208.webp",
+      "thumbnail_52": "/images/thumbnails/tt0904208.webp",
+      "imdb_rating": 7.641,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0330251",
+      "title": "The L Word",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Soap"
+      ],
+      "poster": "/images/posters/tt0330251.webp",
+      "thumbnail_52": "/images/thumbnails/tt0330251.webp",
+      "imdb_rating": 7.638,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0075596",
+      "title": "Three's Company",
+      "year": 1977,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0075596.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075596.webp",
+      "imdb_rating": 7.63,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7423538",
+      "title": "Ratched",
+      "year": 2020,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7423538.webp",
+      "thumbnail_52": "/images/thumbnails/tt7423538.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4687880",
+      "title": "Goliath",
+      "year": 2016,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4687880.webp",
+      "thumbnail_52": "/images/thumbnails/tt4687880.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1182345",
+      "title": "Moon",
+      "year": 2009,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1182345.webp",
+      "thumbnail_52": "/images/thumbnails/tt1182345.webp",
+      "imdb_rating": 7.565,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0972412",
+      "title": "Private Practice",
+      "year": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0972412.webp",
+      "thumbnail_52": "/images/thumbnails/tt0972412.webp",
+      "imdb_rating": 7.544,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108399",
+      "title": "True Romance",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108399.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108399.webp",
+      "imdb_rating": 7.542,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt16419074",
+      "title": "Air",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt16419074.webp",
+      "thumbnail_52": "/images/thumbnails/tt16419074.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1210166",
+      "title": "Moneyball",
+      "year": 2011,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1210166.webp",
+      "thumbnail_52": "/images/thumbnails/tt1210166.webp",
+      "imdb_rating": 7.282,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0488120",
+      "title": "Fracture",
+      "year": 2007,
+      "genres": [
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0488120.webp",
+      "thumbnail_52": "/images/thumbnails/tt0488120.webp",
+      "imdb_rating": 7.264,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0427944",
+      "title": "Thank You for Smoking",
+      "year": 2005,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0427944.webp",
+      "thumbnail_52": "/images/thumbnails/tt0427944.webp",
+      "imdb_rating": 7.189,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1517268",
+      "title": "Barbie",
+      "year": 2023,
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1517268.webp",
+      "thumbnail_52": "/images/thumbnails/tt1517268.webp",
+      "imdb_rating": 6.949,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0084602",
+      "title": "Rocky III",
+      "year": 1982,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0084602.webp",
+      "thumbnail_52": "/images/thumbnails/tt0084602.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1564367",
+      "title": "Just Go with It",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1564367.webp",
+      "thumbnail_52": "/images/thumbnails/tt1564367.webp",
+      "imdb_rating": 6.705,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0115083",
+      "title": "7th Heaven",
+      "year": 1996,
+      "genres": [
+        "Family",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0115083.webp",
+      "thumbnail_52": "/images/thumbnails/tt0115083.webp",
+      "imdb_rating": 6.431,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0448157",
+      "title": "Hancock",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0448157.webp",
+      "thumbnail_52": "/images/thumbnails/tt0448157.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0478311",
+      "title": "Knocked Up",
+      "year": 2007,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0478311.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478311.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0335559",
+      "title": "Win a Date with Tad Hamilton!",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0335559.webp",
+      "thumbnail_52": "/images/thumbnails/tt0335559.webp",
+      "imdb_rating": 5.714,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 21,
+    "totalLocations": 24,
+    "genres": {
+      "Comedy": 10,
+      "Romance": 4,
+      "Adventure": 1,
+      "Fantasy": 1,
+      "Action": 2,
+      "Drama": 12,
+      "Science Fiction": 1,
+      "Crime": 3,
+      "Mystery": 1,
+      "Soap": 1,
+      "Family": 2,
+      "Thriller": 1,
+      "History": 1,
+      "Action & Adventure": 1,
+      "Animation": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2000s": 10,
+      "2020s": 3,
+      "2010s": 4,
+      "1990s": 2,
+      "1980s": 1,
+      "1970s": 1
+    }
+  }
+}

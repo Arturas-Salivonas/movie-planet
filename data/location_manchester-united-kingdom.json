@@ -1,0 +1,197 @@
+{
+  "location": {
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "slug": "manchester-united-kingdom",
+    "coordinates": {
+      "lat": 53.477384083333334,
+      "lng": -2.2378165583333334
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt9140342",
+      "title": "It's a Sin",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9140342.webp",
+      "thumbnail_52": "/images/thumbnails/tt9140342.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0478942",
+      "title": "Life on Mars",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0478942.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478942.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13542714",
+      "title": "House of Guinness",
+      "year": 2025,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13542714.webp",
+      "thumbnail_52": "/images/thumbnails/tt13542714.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4192812",
+      "title": "Unforgotten",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4192812.webp",
+      "thumbnail_52": "/images/thumbnails/tt4192812.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0377260",
+      "title": "Shameless",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0377260.webp",
+      "thumbnail_52": "/images/thumbnails/tt0377260.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4555426",
+      "title": "Darkest Hour",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt4555426.webp",
+      "thumbnail_52": "/images/thumbnails/tt4555426.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2183641",
+      "title": "Ripper Street",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2183641.webp",
+      "thumbnail_52": "/images/thumbnails/tt2183641.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0988045",
+      "title": "Sherlock Holmes",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0988045.webp",
+      "thumbnail_52": "/images/thumbnails/tt0988045.webp",
+      "imdb_rating": 7.216,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9737326",
+      "title": "Invasion",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9737326.webp",
+      "thumbnail_52": "/images/thumbnails/tt9737326.webp",
+      "imdb_rating": 7.165,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2058303",
+      "title": "Fresh Meat",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2058303.webp",
+      "thumbnail_52": "/images/thumbnails/tt2058303.webp",
+      "imdb_rating": 7.14,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0458339",
+      "title": "Captain America: The First Avenger",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0458339.webp",
+      "thumbnail_52": "/images/thumbnails/tt0458339.webp",
+      "imdb_rating": 7.004,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5108870",
+      "title": "Morbius",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt5108870.webp",
+      "thumbnail_52": "/images/thumbnails/tt5108870.webp",
+      "imdb_rating": 5.9,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 12,
+    "totalLocations": 12,
+    "genres": {
+      "Action": 3,
+      "Adventure": 2,
+      "Science Fiction": 2,
+      "Fantasy": 1,
+      "Comedy": 3,
+      "Drama": 9,
+      "Crime": 4,
+      "Mystery": 4,
+      "Sci-Fi & Fantasy": 2,
+      "History": 1
+    },
+    "decades": {
+      "2010s": 5,
+      "2020s": 4,
+      "2000s": 3
+    }
+  }
+}

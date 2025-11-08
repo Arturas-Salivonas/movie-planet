@@ -1,0 +1,152 @@
+{
+  "location": {
+    "city": "Dallas",
+    "country": "United States of America",
+    "slug": "dallas-united-states-of-america",
+    "coordinates": {
+      "lat": 33.00738757999999,
+      "lng": -94.40633118999997
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt8722888",
+      "title": "DC's Stargirl",
+      "year": 2020,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8722888.webp",
+      "thumbnail_52": "/images/thumbnails/tt8722888.webp",
+      "imdb_rating": 7.715,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4396630",
+      "title": "The Gifted",
+      "year": 2017,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4396630.webp",
+      "thumbnail_52": "/images/thumbnails/tt4396630.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1064899",
+      "title": "Queen of the South",
+      "year": 2016,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1064899.webp",
+      "thumbnail_52": "/images/thumbnails/tt1064899.webp",
+      "imdb_rating": 7.584,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11083696",
+      "title": "Cruel Summer",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt11083696.webp",
+      "thumbnail_52": "/images/thumbnails/tt11083696.webp",
+      "imdb_rating": 7.434,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0320808",
+      "title": "The Adventures of Jimmy Neutron: Boy Genius",
+      "year": 2002,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt0320808.webp",
+      "thumbnail_52": "/images/thumbnails/tt0320808.webp",
+      "imdb_rating": 7.416,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0093870",
+      "title": "RoboCop",
+      "year": 1987,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0093870.webp",
+      "thumbnail_52": "/images/thumbnails/tt0093870.webp",
+      "imdb_rating": 7.352,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0437086",
+      "title": "Alita: Battle Angel",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0437086.webp",
+      "thumbnail_52": "/images/thumbnails/tt0437086.webp",
+      "imdb_rating": 7.243,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0077000",
+      "title": "Dallas",
+      "year": 1978,
+      "genres": [
+        "Soap",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0077000.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077000.webp",
+      "imdb_rating": 6.842,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 10,
+    "genres": {
+      "Action": 2,
+      "Science Fiction": 2,
+      "Adventure": 1,
+      "Thriller": 1,
+      "Sci-Fi & Fantasy": 3,
+      "Action & Adventure": 3,
+      "Drama": 5,
+      "Crime": 1,
+      "Animation": 1,
+      "Comedy": 1,
+      "Kids": 1,
+      "Mystery": 1,
+      "Soap": 1,
+      "Family": 1
+    },
+    "decades": {
+      "2010s": 3,
+      "1980s": 1,
+      "2000s": 1,
+      "2020s": 2,
+      "1970s": 1
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "location": {
+    "city": "York",
+    "country": "United Kingdom",
+    "slug": "york-united-kingdom",
+    "coordinates": {
+      "lat": 54.056559820000004,
+      "lng": -0.97660318
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2235759",
+      "title": "The Great",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2235759.webp",
+      "thumbnail_52": "/images/thumbnails/tt2235759.webp",
+      "imdb_rating": 8.09,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8740790",
+      "title": "Bridgerton",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8740790.webp",
+      "thumbnail_52": "/images/thumbnails/tt8740790.webp",
+      "imdb_rating": 8.079,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2384811",
+      "title": "Utopia",
+      "year": 2013,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2384811.webp",
+      "thumbnail_52": "/images/thumbnails/tt2384811.webp",
+      "imdb_rating": 7.985,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5137338",
+      "title": "Victoria",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5137338.webp",
+      "thumbnail_52": "/images/thumbnails/tt5137338.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0367594",
+      "title": "Charlie and the Chocolate Factory",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0367594.webp",
+      "thumbnail_52": "/images/thumbnails/tt0367594.webp",
+      "imdb_rating": 7.04,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 5,
+    "genres": {
+      "Adventure": 1,
+      "Comedy": 3,
+      "Family": 1,
+      "Fantasy": 1,
+      "Drama": 4,
+      "Mystery": 1,
+      "Sci-Fi & Fantasy": 1,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "2000s": 1,
+      "2020s": 2,
+      "2010s": 2
+    }
+  }
+}

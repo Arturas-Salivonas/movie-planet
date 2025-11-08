@@ -1,0 +1,111 @@
+{
+  "location": {
+    "city": "Houston",
+    "country": "United States of America",
+    "slug": "houston-united-states-of-america",
+    "coordinates": {
+      "lat": 29.746636062499995,
+      "lng": -95.3389156375
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1065073",
+      "title": "Boyhood",
+      "year": 2014,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1065073.webp",
+      "thumbnail_52": "/images/thumbnails/tt1065073.webp",
+      "imdb_rating": 7.493,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112384",
+      "title": "Apollo 13",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0112384.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112384.webp",
+      "imdb_rating": 7.449,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0128445",
+      "title": "Rushmore",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0128445.webp",
+      "thumbnail_52": "/images/thumbnails/tt0128445.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt15875168",
+      "title": "Mo",
+      "year": 2022,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt15875168.webp",
+      "thumbnail_52": "/images/thumbnails/tt15875168.webp",
+      "imdb_rating": 7.056,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120591",
+      "title": "Armageddon",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120591.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120591.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0478304",
+      "title": "The Tree of Life",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0478304.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478304.webp",
+      "imdb_rating": 6.737,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 8,
+    "genres": {
+      "Action": 1,
+      "Thriller": 1,
+      "Science Fiction": 1,
+      "Adventure": 1,
+      "Drama": 5,
+      "History": 1,
+      "Comedy": 2,
+      "Fantasy": 1
+    },
+    "decades": {
+      "1990s": 3,
+      "2010s": 2,
+      "2020s": 1
+    }
+  }
+}

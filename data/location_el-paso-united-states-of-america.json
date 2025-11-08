@@ -1,0 +1,124 @@
+{
+  "location": {
+    "city": "El Paso",
+    "country": "United States of America",
+    "slug": "el-paso-united-states-of-america",
+    "coordinates": {
+      "lat": 31.76011640000001,
+      "lng": -106.48704039999998
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt30144839",
+      "title": "One Battle After Another",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt30144839.webp",
+      "thumbnail_52": "/images/thumbnails/tt30144839.webp",
+      "imdb_rating": 7.712,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0328107",
+      "title": "Man on Fire",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0328107.webp",
+      "thumbnail_52": "/images/thumbnails/tt0328107.webp",
+      "imdb_rating": 7.456,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3397884",
+      "title": "Sicario",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt3397884.webp",
+      "thumbnail_52": "/images/thumbnails/tt3397884.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0307901",
+      "title": "25th Hour",
+      "year": 2002,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0307901.webp",
+      "thumbnail_52": "/images/thumbnails/tt0307901.webp",
+      "imdb_rating": 7.32,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181865",
+      "title": "Traffic",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0181865.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181865.webp",
+      "imdb_rating": 7.08,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2406376",
+      "title": "The Bridge",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2406376.webp",
+      "thumbnail_52": "/images/thumbnails/tt2406376.webp",
+      "imdb_rating": 6.631,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1231583",
+      "title": "Due Date",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1231583.webp",
+      "thumbnail_52": "/images/thumbnails/tt1231583.webp",
+      "imdb_rating": 6.386,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 7,
+    "genres": {
+      "Action": 3,
+      "Thriller": 4,
+      "Crime": 5,
+      "Drama": 5,
+      "Comedy": 1
+    },
+    "decades": {
+      "2020s": 1,
+      "2010s": 3,
+      "2000s": 3
+    }
+  }
+}

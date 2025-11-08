@@ -1,0 +1,185 @@
+{
+  "location": {
+    "city": "Watford",
+    "country": "United Kingdom",
+    "slug": "watford-united-kingdom",
+    "coordinates": {
+      "lat": 51.69095070000002,
+      "lng": -0.4183162000000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt12361974",
+      "title": "Zack Snyder's Justice League",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt12361974.webp",
+      "thumbnail_52": "/images/thumbnails/tt12361974.webp",
+      "imdb_rating": 8.103,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1631867",
+      "title": "Edge of Tomorrow",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1631867.webp",
+      "thumbnail_52": "/images/thumbnails/tt1631867.webp",
+      "imdb_rating": 7.631,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3183660",
+      "title": "Fantastic Beasts and Where to Find Them",
+      "year": 2016,
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt3183660.webp",
+      "thumbnail_52": "/images/thumbnails/tt3183660.webp",
+      "imdb_rating": 7.31,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0162661",
+      "title": "Sleepy Hollow",
+      "year": 1999,
+      "genres": [
+        "Fantasy",
+        "Thriller",
+        "Mystery",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0162661.webp",
+      "thumbnail_52": "/images/thumbnails/tt0162661.webp",
+      "imdb_rating": 7.187,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1517268",
+      "title": "Barbie",
+      "year": 2023,
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1517268.webp",
+      "thumbnail_52": "/images/thumbnails/tt1517268.webp",
+      "imdb_rating": 6.949,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5884052",
+      "title": "Pokémon Detective Pikachu",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt5884052.webp",
+      "thumbnail_52": "/images/thumbnails/tt5884052.webp",
+      "imdb_rating": 6.911,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt12299608",
+      "title": "Mickey 17",
+      "year": 2025,
+      "genres": [
+        "Science Fiction",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt12299608.webp",
+      "thumbnail_52": "/images/thumbnails/tt12299608.webp",
+      "imdb_rating": 6.858,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7097896",
+      "title": "Venom: Let There Be Carnage",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt7097896.webp",
+      "thumbnail_52": "/images/thumbnails/tt7097896.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0439572",
+      "title": "The Flash",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0439572.webp",
+      "thumbnail_52": "/images/thumbnails/tt0439572.webp",
+      "imdb_rating": 6.619,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0974015",
+      "title": "Justice League",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0974015.webp",
+      "thumbnail_52": "/images/thumbnails/tt0974015.webp",
+      "imdb_rating": 6.073,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0918940",
+      "title": "The Legend of Tarzan",
+      "year": 2016,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0918940.webp",
+      "thumbnail_52": "/images/thumbnails/tt0918940.webp",
+      "imdb_rating": 5.914,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 11,
+    "totalLocations": 11,
+    "genres": {
+      "Fantasy": 5,
+      "Adventure": 8,
+      "Science Fiction": 5,
+      "Action": 7,
+      "Comedy": 2,
+      "Thriller": 1,
+      "Mystery": 1,
+      "Horror": 1,
+      "Drama": 1
+    },
+    "decades": {
+      "2010s": 5,
+      "2020s": 5,
+      "1990s": 1
+    }
+  }
+}

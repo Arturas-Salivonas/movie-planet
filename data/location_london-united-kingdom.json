@@ -2,10 +2,10 @@
   "location": {
     "city": "London",
     "country": "United Kingdom",
-    "slug": "london-uk",
+    "slug": "london-united-kingdom",
     "coordinates": {
-      "lat": 51.5074,
-      "lng": -0.1278
+      "lat": 51.50263247045453,
+      "lng": -0.1350731174242425
     }
   },
   "movies": [
@@ -34,7 +34,7 @@
       "poster": "/images/posters/tt0468569.webp",
       "thumbnail_52": "/images/thumbnails/tt0468569.webp",
       "imdb_rating": 8.524,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt1475582",
@@ -48,7 +48,7 @@
       "poster": "/images/posters/tt1475582.webp",
       "thumbnail_52": "/images/thumbnails/tt1475582.webp",
       "imdb_rating": 8.514,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt11691774",
@@ -113,19 +113,6 @@
       "thumbnail_52": "/images/thumbnails/tt10986410.webp",
       "imdb_rating": 8.362,
       "londonLocationCount": 2
-    },
-    {
-      "movie_id": "tt0080306",
-      "title": "Yes Minister",
-      "year": 1980,
-      "genres": [
-        "Comedy",
-        "War & Politics"
-      ],
-      "poster": "/images/posters/tt0080306.webp",
-      "thumbnail_52": "/images/thumbnails/tt0080306.webp",
-      "imdb_rating": 8.3,
-      "londonLocationCount": 1
     },
     {
       "movie_id": "tt2085059",
@@ -205,7 +192,7 @@
       "poster": "/images/posters/tt0094525.webp",
       "thumbnail_52": "/images/thumbnails/tt0094525.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 3
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt4786824",
@@ -284,19 +271,6 @@
       "londonLocationCount": 3
     },
     {
-      "movie_id": "tt7120662",
-      "title": "Derry Girls",
-      "year": 2018,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "/images/posters/tt7120662.webp",
-      "thumbnail_52": "/images/thumbnails/tt7120662.webp",
-      "imdb_rating": 8.088,
-      "londonLocationCount": 1
-    },
-    {
       "movie_id": "tt1201607",
       "title": "Harry Potter and the Deathly Hallows: Part 2",
       "year": 2011,
@@ -332,7 +306,7 @@
       "poster": "/images/posters/tt0080678.webp",
       "thumbnail_52": "/images/thumbnails/tt0080678.webp",
       "imdb_rating": 8.049,
-      "londonLocationCount": 3
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0387764",
@@ -347,18 +321,6 @@
       "londonLocationCount": 4
     },
     {
-      "movie_id": "tt0459159",
-      "title": "The Thick of It",
-      "year": 2005,
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "/images/posters/tt0459159.webp",
-      "thumbnail_52": "/images/thumbnails/tt0459159.webp",
-      "imdb_rating": 8,
-      "londonLocationCount": 2
-    },
-    {
       "movie_id": "tt0304141",
       "title": "Harry Potter and the Prisoner of Azkaban",
       "year": 2004,
@@ -369,7 +331,7 @@
       "poster": "/images/posters/tt0304141.webp",
       "thumbnail_52": "/images/thumbnails/tt0304141.webp",
       "imdb_rating": 8,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt2084970",
@@ -543,7 +505,7 @@
       "poster": "/images/posters/tt2015381.webp",
       "thumbnail_52": "/images/thumbnails/tt2015381.webp",
       "imdb_rating": 7.905,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0380136",
@@ -609,7 +571,7 @@
       "poster": "/images/posters/tt0056751.webp",
       "thumbnail_52": "/images/thumbnails/tt0056751.webp",
       "imdb_rating": 7.9,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0107207",
@@ -621,7 +583,7 @@
       "poster": "/images/posters/tt0107207.webp",
       "thumbnail_52": "/images/thumbnails/tt0107207.webp",
       "imdb_rating": 7.9,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt5074352",
@@ -649,19 +611,6 @@
       "thumbnail_52": "/images/thumbnails/tt3647998.webp",
       "imdb_rating": 7.891,
       "londonLocationCount": 2
-    },
-    {
-      "movie_id": "tt8594324",
-      "title": "Ghosts",
-      "year": 2019,
-      "genres": [
-        "Comedy",
-        "Sci-Fi & Fantasy"
-      ],
-      "poster": "/images/posters/tt8594324.webp",
-      "thumbnail_52": "/images/thumbnails/tt8594324.webp",
-      "imdb_rating": 7.86,
-      "londonLocationCount": 1
     },
     {
       "movie_id": "tt8425532",
@@ -798,20 +747,7 @@
       "poster": "/images/posters/tt7493974.webp",
       "thumbnail_52": "/images/thumbnails/tt7493974.webp",
       "imdb_rating": 7.766,
-      "londonLocationCount": 5
-    },
-    {
-      "movie_id": "tt0926084",
-      "title": "Harry Potter and the Deathly Hallows: Part 1",
-      "year": 2010,
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "poster": "/images/posters/tt0926084.webp",
-      "thumbnail_52": "/images/thumbnails/tt0926084.webp",
-      "imdb_rating": 7.738,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt1504320",
@@ -947,19 +883,6 @@
       "londonLocationCount": 2
     },
     {
-      "movie_id": "tt1631867",
-      "title": "Edge of Tomorrow",
-      "year": 2014,
-      "genres": [
-        "Action",
-        "Science Fiction"
-      ],
-      "poster": "/images/posters/tt1631867.webp",
-      "thumbnail_52": "/images/thumbnails/tt1631867.webp",
-      "imdb_rating": 7.631,
-      "londonLocationCount": 1
-    },
-    {
       "movie_id": "tt2802144",
       "title": "Kingsman: The Secret Service",
       "year": 2015,
@@ -1053,7 +976,7 @@
       "poster": "/images/posters/tt1677720.webp",
       "thumbnail_52": "/images/thumbnails/tt1677720.webp",
       "imdb_rating": 7.585,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0121164",
@@ -1230,7 +1153,7 @@
       "poster": "/images/posters/tt4912910.webp",
       "thumbnail_52": "/images/thumbnails/tt4912910.webp",
       "imdb_rating": 7.443,
-      "londonLocationCount": 1
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0440963",
@@ -1406,7 +1329,7 @@
       "poster": "/images/posters/tt9639470.webp",
       "thumbnail_52": "/images/thumbnails/tt9639470.webp",
       "imdb_rating": 7.3,
-      "londonLocationCount": 4
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9686194",
@@ -1591,7 +1514,7 @@
       "poster": "/images/posters/tt7556122.webp",
       "thumbnail_52": "/images/thumbnails/tt7556122.webp",
       "imdb_rating": 7.117,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt27995113",
@@ -1735,7 +1658,7 @@
       "poster": "/images/posters/tt1032755.webp",
       "thumbnail_52": "/images/thumbnails/tt1032755.webp",
       "imdb_rating": 6.947,
-      "londonLocationCount": 3
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt1262426",
@@ -1890,7 +1813,7 @@
       "poster": "/images/posters/tt0200465.webp",
       "thumbnail_52": "/images/thumbnails/tt0200465.webp",
       "imdb_rating": 6.834,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt7671070",
@@ -2025,7 +1948,7 @@
       "poster": "/images/posters/tt9032400.webp",
       "thumbnail_52": "/images/thumbnails/tt9032400.webp",
       "imdb_rating": 6.793,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0243155",
@@ -2107,7 +2030,7 @@
       "poster": "/images/posters/tt0439572.webp",
       "thumbnail_52": "/images/thumbnails/tt0439572.webp",
       "imdb_rating": 6.619,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt1340800",
@@ -2149,7 +2072,7 @@
       "poster": "/images/posters/tt0463854.webp",
       "thumbnail_52": "/images/thumbnails/tt0463854.webp",
       "imdb_rating": 6.603,
-      "londonLocationCount": 3
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt9252156",
@@ -2245,21 +2168,6 @@
       "poster": "/images/posters/tt0209163.webp",
       "thumbnail_52": "/images/thumbnails/tt0209163.webp",
       "imdb_rating": 6.384,
-      "londonLocationCount": 1
-    },
-    {
-      "movie_id": "tt0145660",
-      "title": "Austin Powers: The Spy Who Shagged Me",
-      "year": 1999,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Crime",
-        "Science Fiction"
-      ],
-      "poster": "/images/posters/tt0145660.webp",
-      "thumbnail_52": "/images/thumbnails/tt0145660.webp",
-      "imdb_rating": 6.294,
       "londonLocationCount": 1
     },
     {
@@ -2487,92 +2395,40 @@
     }
   ],
   "stats": {
-    "totalMovies": 184,
-    "totalLocations": 280,
+    "totalMovies": 177,
+    "totalLocations": 251,
     "genres": {
-      "Drama": 91,
-      "Action": 37,
-      "Crime": 42,
+      "Drama": 90,
+      "Action": 36,
+      "Crime": 41,
       "Thriller": 25,
+      "Music": 3,
       "Mystery": 25,
-      "Comedy": 58,
-      "War & Politics": 4,
-      "Sci-Fi & Fantasy": 17,
+      "Fantasy": 23,
+      "Adventure": 37,
+      "Science Fiction": 19,
+      "Family": 12,
+      "Comedy": 53,
+      "Romance": 16,
+      "Horror": 9,
+      "History": 7,
+      "Sci-Fi & Fantasy": 16,
       "Action & Adventure": 12,
       "War": 4,
-      "Fantasy": 24,
-      "Adventure": 39,
-      "History": 7,
-      "Music": 3,
-      "Science Fiction": 21,
-      "Romance": 16,
       "Talk": 1,
-      "Family": 12,
+      "War & Politics": 3,
       "Animation": 4,
-      "Horror": 9,
       "Reality": 1
     },
     "decades": {
-      "1940": 1,
-      "1960": 1,
-      "1970": 2,
-      "1980": 8,
-      "1990": 16,
-      "2000": 42,
-      "2010": 68,
-      "2020": 46
-    },
-    "topRated": [
-      {
-        "title": "Heartstopper",
-        "year": 2022,
-        "rating": 8.579
-      },
-      {
-        "title": "The Dark Knight",
-        "year": 2008,
-        "rating": 8.524
-      },
-      {
-        "title": "Sherlock",
-        "year": 2010,
-        "rating": 8.514
-      },
-      {
-        "title": "Only Murders in the Building",
-        "year": 2021,
-        "rating": 8.499
-      },
-      {
-        "title": "MobLand",
-        "year": 2025,
-        "rating": 8.444
-      },
-      {
-        "title": "Friends",
-        "year": 1994,
-        "rating": 8.4
-      },
-      {
-        "title": "Maxton Hall - The World Between Us",
-        "year": 2024,
-        "rating": 8.369
-      },
-      {
-        "title": "Ted Lasso",
-        "year": 2020,
-        "rating": 8.362
-      },
-      {
-        "title": "Yes Minister",
-        "year": 1980,
-        "rating": 8.3
-      },
-      {
-        "title": "Black Mirror",
-        "year": 2011,
-        "rating": 8.285
-      }
-    ]
+      "2000s": 41,
+      "1980s": 7,
+      "2010s": 64,
+      "2020s": 46,
+      "1940s": 1,
+      "1970s": 2,
+      "1990s": 15,
+      "1960s": 1
+    }
   }
 }

@@ -1,0 +1,137 @@
+{
+  "location": {
+    "city": "Charleston",
+    "country": "United States of America",
+    "slug": "charleston-united-states-of-america",
+    "coordinates": {
+      "lat": 33.3578893,
+      "lng": -80.11624180999999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt10293938",
+      "title": "Outer Banks",
+      "year": 2020,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt10293938.webp",
+      "thumbnail_52": "/images/thumbnails/tt10293938.webp",
+      "imdb_rating": 8.316,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0332280",
+      "title": "The Notebook",
+      "year": 2004,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0332280.webp",
+      "thumbnail_52": "/images/thumbnails/tt0332280.webp",
+      "imdb_rating": 7.891,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6048596",
+      "title": "The Sinner",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6048596.webp",
+      "thumbnail_52": "/images/thumbnails/tt6048596.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8634332",
+      "title": "The Righteous Gemstones",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8634332.webp",
+      "thumbnail_52": "/images/thumbnails/tt8634332.webp",
+      "imdb_rating": 7.402,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3766376",
+      "title": "Vice Principals",
+      "year": 2016,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3766376.webp",
+      "thumbnail_52": "/images/thumbnails/tt3766376.webp",
+      "imdb_rating": 7.177,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4354880",
+      "title": "Mr. Mercedes",
+      "year": 2017,
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4354880.webp",
+      "thumbnail_52": "/images/thumbnails/tt4354880.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0241088",
+      "title": "Da Ali G Show",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Talk"
+      ],
+      "poster": "/images/posters/tt0241088.webp",
+      "thumbnail_52": "/images/thumbnails/tt0241088.webp",
+      "imdb_rating": 6.884,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0335559",
+      "title": "Win a Date with Tad Hamilton!",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0335559.webp",
+      "thumbnail_52": "/images/thumbnails/tt0335559.webp",
+      "imdb_rating": 5.714,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 8,
+    "genres": {
+      "Comedy": 4,
+      "Romance": 2,
+      "Crime": 1,
+      "Drama": 5,
+      "Action & Adventure": 1,
+      "Mystery": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Talk": 1
+    },
+    "decades": {
+      "2000s": 3,
+      "2010s": 4,
+      "2020s": 1
+    }
+  }
+}

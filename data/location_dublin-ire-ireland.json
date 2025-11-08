@@ -1,0 +1,166 @@
+{
+  "location": {
+    "city": "Dublin",
+    "country": "Éire / Ireland",
+    "slug": "dublin-ire-ireland",
+    "coordinates": {
+      "lat": 53.34665201249999,
+      "lng": -6.2697253437499985
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt8179402",
+      "title": "Fate: The Winx Saga",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8179402.webp",
+      "thumbnail_52": "/images/thumbnails/tt8179402.webp",
+      "imdb_rating": 7.991,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0107207",
+      "title": "In the Name of the Father",
+      "year": 1993,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0107207.webp",
+      "thumbnail_52": "/images/thumbnails/tt0107207.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2628232",
+      "title": "Penny Dreadful",
+      "year": 2014,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2628232.webp",
+      "thumbnail_52": "/images/thumbnails/tt2628232.webp",
+      "imdb_rating": 7.829,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0758790",
+      "title": "The Tudors",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0758790.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758790.webp",
+      "imdb_rating": 7.793,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt11311302",
+      "title": "Vikings: Valhalla",
+      "year": 2022,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt11311302.webp",
+      "thumbnail_52": "/images/thumbnails/tt11311302.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13444408",
+      "title": "Kin",
+      "year": 2021,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13444408.webp",
+      "thumbnail_52": "/images/thumbnails/tt13444408.webp",
+      "imdb_rating": 7.648,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13542714",
+      "title": "House of Guinness",
+      "year": 2025,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13542714.webp",
+      "thumbnail_52": "/images/thumbnails/tt13542714.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2183641",
+      "title": "Ripper Street",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2183641.webp",
+      "thumbnail_52": "/images/thumbnails/tt2183641.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3464902",
+      "title": "The Lobster",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt3464902.webp",
+      "thumbnail_52": "/images/thumbnails/tt3464902.webp",
+      "imdb_rating": 7.038,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt21072112",
+      "title": "Bodkin",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt21072112.webp",
+      "thumbnail_52": "/images/thumbnails/tt21072112.webp",
+      "imdb_rating": 6.317,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 10,
+    "totalLocations": 16,
+    "genres": {
+      "Comedy": 1,
+      "Drama": 10,
+      "Romance": 2,
+      "Sci-Fi & Fantasy": 2,
+      "Mystery": 3,
+      "Action & Adventure": 2,
+      "War & Politics": 1,
+      "Crime": 2
+    },
+    "decades": {
+      "2010s": 3,
+      "2000s": 1,
+      "2020s": 5,
+      "1990s": 1
+    }
+  }
+}

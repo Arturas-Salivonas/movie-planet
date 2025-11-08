@@ -1,0 +1,317 @@
+{
+  "location": {
+    "city": "Glendale",
+    "country": "United States of America",
+    "slug": "glendale-united-states-of-america",
+    "coordinates": {
+      "lat": 34.11883416999999,
+      "lng": -117.95810449499996
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0110912",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0110912.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110912.webp",
+      "imdb_rating": 8.487,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0452046",
+      "title": "Criminal Minds",
+      "year": 2005,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0452046.webp",
+      "thumbnail_52": "/images/thumbnails/tt0452046.webp",
+      "imdb_rating": 8.307,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0209144",
+      "title": "Memento",
+      "year": 2000,
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0209144.webp",
+      "thumbnail_52": "/images/thumbnails/tt0209144.webp",
+      "imdb_rating": 8.177,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0015324",
+      "title": "Sherlock Jr.",
+      "year": 1924,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0015324.webp",
+      "thumbnail_52": "/images/thumbnails/tt0015324.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1398426",
+      "title": "Straight Outta Compton",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Music",
+        "History"
+      ],
+      "poster": "/images/posters/tt1398426.webp",
+      "thumbnail_52": "/images/thumbnails/tt1398426.webp",
+      "imdb_rating": 7.783,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0126029",
+      "title": "Shrek",
+      "year": 2001,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Fantasy",
+        "Adventure",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0126029.webp",
+      "thumbnail_52": "/images/thumbnails/tt0126029.webp",
+      "imdb_rating": 7.752,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0441773",
+      "title": "Kung Fu Panda",
+      "year": 2008,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0441773.webp",
+      "thumbnail_52": "/images/thumbnails/tt0441773.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0829482",
+      "title": "Superbad",
+      "year": 2007,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0829482.webp",
+      "thumbnail_52": "/images/thumbnails/tt0829482.webp",
+      "imdb_rating": 7.259,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1302011",
+      "title": "Kung Fu Panda 2",
+      "year": 2011,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1302011.webp",
+      "thumbnail_52": "/images/thumbnails/tt1302011.webp",
+      "imdb_rating": 7.05,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0351283",
+      "title": "Madagascar",
+      "year": 2005,
+      "genres": [
+        "Family",
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0351283.webp",
+      "thumbnail_52": "/images/thumbnails/tt0351283.webp",
+      "imdb_rating": 6.916,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7945720",
+      "title": "Dirty John",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7945720.webp",
+      "thumbnail_52": "/images/thumbnails/tt7945720.webp",
+      "imdb_rating": 6.866,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1327801",
+      "title": "Glee",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1327801.webp",
+      "thumbnail_52": "/images/thumbnails/tt1327801.webp",
+      "imdb_rating": 6.768,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0265208",
+      "title": "The Girl Next Door",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0265208.webp",
+      "thumbnail_52": "/images/thumbnails/tt0265208.webp",
+      "imdb_rating": 6.732,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0910936",
+      "title": "Pineapple Express",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0910936.webp",
+      "thumbnail_52": "/images/thumbnails/tt0910936.webp",
+      "imdb_rating": 6.643,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1277953",
+      "title": "Madagascar 3: Europe's Most Wanted",
+      "year": 2012,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1277953.webp",
+      "thumbnail_52": "/images/thumbnails/tt1277953.webp",
+      "imdb_rating": 6.62,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0302886",
+      "title": "Old School",
+      "year": 2003,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0302886.webp",
+      "thumbnail_52": "/images/thumbnails/tt0302886.webp",
+      "imdb_rating": 6.607,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1499658",
+      "title": "Horrible Bosses",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1499658.webp",
+      "thumbnail_52": "/images/thumbnails/tt1499658.webp",
+      "imdb_rating": 6.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0479952",
+      "title": "Madagascar: Escape 2 Africa",
+      "year": 2008,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0479952.webp",
+      "thumbnail_52": "/images/thumbnails/tt0479952.webp",
+      "imdb_rating": 6.52,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0389860",
+      "title": "Click",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0389860.webp",
+      "thumbnail_52": "/images/thumbnails/tt0389860.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3371366",
+      "title": "Transformers: The Last Knight",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3371366.webp",
+      "thumbnail_52": "/images/thumbnails/tt3371366.webp",
+      "imdb_rating": 6.055,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 20,
+    "totalLocations": 20,
+    "genres": {
+      "Thriller": 2,
+      "Crime": 5,
+      "Comedy": 15,
+      "Mystery": 3,
+      "Action": 4,
+      "Adventure": 6,
+      "Science Fiction": 1,
+      "Animation": 6,
+      "Fantasy": 2,
+      "Family": 6,
+      "Drama": 5,
+      "Romance": 1,
+      "Music": 1,
+      "History": 1
+    },
+    "decades": {
+      "1990s": 1,
+      "2000s": 12,
+      "2010s": 6,
+      "1920s": 1
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "location": {
+    "city": "Austin",
+    "country": "United States of America",
+    "slug": "austin-united-states-of-america",
+    "coordinates": {
+      "lat": 30.28291527096774,
+      "lng": -97.74239479354837
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt10323338",
+      "title": "9-1-1: Lone Star",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt10323338.webp",
+      "thumbnail_52": "/images/thumbnails/tt10323338.webp",
+      "imdb_rating": 8.024,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758745",
+      "title": "Friday Night Lights",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758745.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758745.webp",
+      "imdb_rating": 7.98,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0266697",
+      "title": "Kill Bill: Vol. 1",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0266697.webp",
+      "thumbnail_52": "/images/thumbnails/tt0266697.webp",
+      "imdb_rating": 7.97,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5074352",
+      "title": "Dangal",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Family",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt5074352.webp",
+      "thumbnail_52": "/images/thumbnails/tt5074352.webp",
+      "imdb_rating": 7.896,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108550",
+      "title": "What's Eating Gilbert Grape",
+      "year": 1993,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0108550.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108550.webp",
+      "imdb_rating": 7.662,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2699128",
+      "title": "The Leftovers",
+      "year": 2014,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2699128.webp",
+      "thumbnail_52": "/images/thumbnails/tt2699128.webp",
+      "imdb_rating": 7.648,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1065073",
+      "title": "Boyhood",
+      "year": 2014,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1065073.webp",
+      "thumbnail_52": "/images/thumbnails/tt1065073.webp",
+      "imdb_rating": 7.493,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0401792",
+      "title": "Sin City",
+      "year": 2005,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0401792.webp",
+      "thumbnail_52": "/images/thumbnails/tt0401792.webp",
+      "imdb_rating": 7.461,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0151804",
+      "title": "Office Space",
+      "year": 1999,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0151804.webp",
+      "thumbnail_52": "/images/thumbnails/tt0151804.webp",
+      "imdb_rating": 7.372,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0307901",
+      "title": "25th Hour",
+      "year": 2002,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0307901.webp",
+      "thumbnail_52": "/images/thumbnails/tt0307901.webp",
+      "imdb_rating": 7.32,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106677",
+      "title": "Dazed and Confused",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0106677.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106677.webp",
+      "imdb_rating": 7.316,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1403865",
+      "title": "True Grit",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Western"
+      ],
+      "poster": "/images/posters/tt1403865.webp",
+      "thumbnail_52": "/images/thumbnails/tt1403865.webp",
+      "imdb_rating": 7.308,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0437086",
+      "title": "Alita: Battle Angel",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0437086.webp",
+      "thumbnail_52": "/images/thumbnails/tt0437086.webp",
+      "imdb_rating": 7.243,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2883512",
+      "title": "Chef",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2883512.webp",
+      "thumbnail_52": "/images/thumbnails/tt2883512.webp",
+      "imdb_rating": 7.114,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0462322",
+      "title": "Grindhouse",
+      "year": 2007,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0462322.webp",
+      "thumbnail_52": "/images/thumbnails/tt0462322.webp",
+      "imdb_rating": 6.988,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106168",
+      "title": "Walker, Texas Ranger",
+      "year": 1993,
+      "genres": [
+        "Drama",
+        "Western",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106168.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106168.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1028528",
+      "title": "Death Proof",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1028528.webp",
+      "thumbnail_52": "/images/thumbnails/tt1028528.webp",
+      "imdb_rating": 6.835,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt13745850",
+      "title": "The Last Thing He Told Me",
+      "year": 2023,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13745850.webp",
+      "thumbnail_52": "/images/thumbnails/tt13745850.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0478304",
+      "title": "The Tree of Life",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0478304.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478304.webp",
+      "imdb_rating": 6.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1077258",
+      "title": "Planet Terror",
+      "year": 2007,
+      "genres": [
+        "Horror",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1077258.webp",
+      "thumbnail_52": "/images/thumbnails/tt1077258.webp",
+      "imdb_rating": 6.684,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0212346",
+      "title": "Miss Congeniality",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0212346.webp",
+      "thumbnail_52": "/images/thumbnails/tt0212346.webp",
+      "imdb_rating": 6.537,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3337194",
+      "title": "From Dusk Till Dawn: The Series",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3337194.webp",
+      "thumbnail_52": "/images/thumbnails/tt3337194.webp",
+      "imdb_rating": 6.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2070791",
+      "title": "Revolution",
+      "year": 2012,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2070791.webp",
+      "thumbnail_52": "/images/thumbnails/tt2070791.webp",
+      "imdb_rating": 6.398,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0387808",
+      "title": "Idiocracy",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0387808.webp",
+      "thumbnail_52": "/images/thumbnails/tt0387808.webp",
+      "imdb_rating": 6.354,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0985694",
+      "title": "Machete",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0985694.webp",
+      "thumbnail_52": "/images/thumbnails/tt0985694.webp",
+      "imdb_rating": 6.335,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 25,
+    "totalLocations": 31,
+    "genres": {
+      "Crime": 7,
+      "Thriller": 5,
+      "Drama": 14,
+      "Family": 1,
+      "Comedy": 7,
+      "Sci-Fi & Fantasy": 3,
+      "Adventure": 3,
+      "Western": 2,
+      "Action": 7,
+      "Science Fiction": 2,
+      "Romance": 1,
+      "Horror": 2,
+      "Fantasy": 1,
+      "Action & Adventure": 1,
+      "Mystery": 1
+    },
+    "decades": {
+      "2000s": 9,
+      "2010s": 10,
+      "1990s": 4,
+      "2020s": 2
+    }
+  }
+}

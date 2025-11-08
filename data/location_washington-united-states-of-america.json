@@ -1,0 +1,378 @@
+{
+  "location": {
+    "city": "Washington",
+    "country": "United States of America",
+    "slug": "washington-united-states-of-america",
+    "coordinates": {
+      "lat": 38.89754940384615,
+      "lng": -77.03955610769229
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0200276",
+      "title": "The West Wing",
+      "year": 1999,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0200276.webp",
+      "thumbnail_52": "/images/thumbnails/tt0200276.webp",
+      "imdb_rating": 8.267,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0460627",
+      "title": "Bones",
+      "year": 2005,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0460627.webp",
+      "thumbnail_52": "/images/thumbnails/tt0460627.webp",
+      "imdb_rating": 8.207,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106028",
+      "title": "Homicide: Life on the Street",
+      "year": 1993,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106028.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106028.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0353049",
+      "title": "Chappelle's Show",
+      "year": 2003,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0353049.webp",
+      "thumbnail_52": "/images/thumbnails/tt0353049.webp",
+      "imdb_rating": 8.099,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13111078",
+      "title": "Lioness",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt13111078.webp",
+      "thumbnail_52": "/images/thumbnails/tt13111078.webp",
+      "imdb_rating": 8.012,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0098878",
+      "title": "Northern Exposure",
+      "year": 1990,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0098878.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098878.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0031679",
+      "title": "Mr. Smith Goes to Washington",
+      "year": 1939,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0031679.webp",
+      "thumbnail_52": "/images/thumbnails/tt0031679.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13918776",
+      "title": "The Night Agent",
+      "year": 2023,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt13918776.webp",
+      "thumbnail_52": "/images/thumbnails/tt13918776.webp",
+      "imdb_rating": 7.759,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0070047",
+      "title": "The Exorcist",
+      "year": 1973,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0070047.webp",
+      "thumbnail_52": "/images/thumbnails/tt0070047.webp",
+      "imdb_rating": 7.739,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0102138",
+      "title": "JFK",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt0102138.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102138.webp",
+      "imdb_rating": 7.604,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0078841",
+      "title": "Being There",
+      "year": 1979,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0078841.webp",
+      "thumbnail_52": "/images/thumbnails/tt0078841.webp",
+      "imdb_rating": 7.598,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0104257",
+      "title": "A Few Good Men",
+      "year": 1992,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0104257.webp",
+      "thumbnail_52": "/images/thumbnails/tt0104257.webp",
+      "imdb_rating": 7.544,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5673782",
+      "title": "Genius",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5673782.webp",
+      "thumbnail_52": "/images/thumbnails/tt5673782.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181689",
+      "title": "Minority Report",
+      "year": 2002,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0181689.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181689.webp",
+      "imdb_rating": 7.349,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7671598",
+      "title": "Messiah",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7671598.webp",
+      "thumbnail_52": "/images/thumbnails/tt7671598.webp",
+      "imdb_rating": 7.248,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0427944",
+      "title": "Thank You for Smoking",
+      "year": 2005,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0427944.webp",
+      "thumbnail_52": "/images/thumbnails/tt0427944.webp",
+      "imdb_rating": 7.189,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120660",
+      "title": "Enemy of the State",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0120660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120660.webp",
+      "imdb_rating": 7.057,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0368891",
+      "title": "National Treasure",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0368891.webp",
+      "thumbnail_52": "/images/thumbnails/tt0368891.webp",
+      "imdb_rating": 6.644,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1599348",
+      "title": "Safe House",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1599348.webp",
+      "thumbnail_52": "/images/thumbnails/tt1599348.webp",
+      "imdb_rating": 6.484,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2334879",
+      "title": "White House Down",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2334879.webp",
+      "thumbnail_52": "/images/thumbnails/tt2334879.webp",
+      "imdb_rating": 6.465,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7126948",
+      "title": "Wonder Woman 1984",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt7126948.webp",
+      "thumbnail_52": "/images/thumbnails/tt7126948.webp",
+      "imdb_rating": 6.392,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120647",
+      "title": "Deep Impact",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120647.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120647.webp",
+      "imdb_rating": 6.231,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1078912",
+      "title": "Night at the Museum: Battle of the Smithsonian",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Action",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt1078912.webp",
+      "thumbnail_52": "/images/thumbnails/tt1078912.webp",
+      "imdb_rating": 6.147,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14513804",
+      "title": "Captain America: Brave New World",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt14513804.webp",
+      "thumbnail_52": "/images/thumbnails/tt14513804.webp",
+      "imdb_rating": 6.018,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3393786",
+      "title": "Jack Reacher: Never Go Back",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt3393786.webp",
+      "thumbnail_52": "/images/thumbnails/tt3393786.webp",
+      "imdb_rating": 5.992,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 25,
+    "totalLocations": 26,
+    "genres": {
+      "Horror": 1,
+      "Action": 10,
+      "Drama": 17,
+      "Thriller": 8,
+      "Comedy": 6,
+      "History": 1,
+      "Science Fiction": 3,
+      "Mystery": 3,
+      "Crime": 3,
+      "Action & Adventure": 1,
+      "Adventure": 3,
+      "Fantasy": 2,
+      "War & Politics": 1,
+      "Family": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "1970s": 2,
+      "1990s": 7,
+      "1930s": 1,
+      "2010s": 4,
+      "2020s": 5,
+      "2000s": 6
+    }
+  }
+}

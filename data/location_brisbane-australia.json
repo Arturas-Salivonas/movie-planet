@@ -1,0 +1,117 @@
+{
+  "location": {
+    "city": "Brisbane",
+    "country": "Australia",
+    "slug": "brisbane-australia",
+    "coordinates": {
+      "lat": -27.47043397142857,
+      "lng": 153.02301182857144
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt5034838",
+      "title": "Godzilla vs. Kong",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt5034838.webp",
+      "thumbnail_52": "/images/thumbnails/tt5034838.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt3501632",
+      "title": "Thor: Ragnarok",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3501632.webp",
+      "thumbnail_52": "/images/thumbnails/tt3501632.webp",
+      "imdb_rating": 7.583,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt11639952",
+      "title": "Young Rock",
+      "year": 2021,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt11639952.webp",
+      "thumbnail_52": "/images/thumbnails/tt11639952.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1641349",
+      "title": "Terra Nova",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1641349.webp",
+      "thumbnail_52": "/images/thumbnails/tt1641349.webp",
+      "imdb_rating": 6.771,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt2126355",
+      "title": "San Andreas",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2126355.webp",
+      "thumbnail_52": "/images/thumbnails/tt2126355.webp",
+      "imdb_rating": 6.245,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0098141",
+      "title": "The Punisher",
+      "year": 1989,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0098141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098141.webp",
+      "imdb_rating": 5.769,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 0,
+    "genres": {
+      "Action": 4,
+      "Adventure": 2,
+      "Science Fiction": 2,
+      "Crime": 1,
+      "Drama": 2,
+      "Thriller": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Mystery": 1,
+      "Action & Adventure": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "2010s": 3,
+      "1980s": 1,
+      "2020s": 2
+    }
+  }
+}

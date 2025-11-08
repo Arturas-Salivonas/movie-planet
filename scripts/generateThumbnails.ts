@@ -4,7 +4,7 @@
  * This script:
  * 1. Reads movie data from movies_enriched.json
  * 2. Downloads posters/backdrops from TMDb
- * 3. Generates 52x52px WebP thumbnails with gold border (~3 KB each)
+ * 3. Generates 52x52px WebP thumbnails with circular crop (~3 KB each)
  * 4. Generates 1280x720px WebP banners for movie modal (~60 KB each)
  * 5. Updates movies_enriched.json with new local paths
  * 6. Safe to run multiple times - skips existing files
@@ -133,7 +133,7 @@ function getBackdropSource(movie: Movie): { type: 'local' | 'tmdb' | 'none'; pat
 }
 
 /**
- * Generate 52x52px thumbnail with gold border and circular crop
+ * Generate 52x52px thumbnail with circular crop (no border)
  */
 async function generateThumbnail(
   imageBuffer: Buffer,
@@ -149,28 +149,7 @@ async function generateThumbnail(
 
     const size = THUMBNAIL_SIZE
 
-    // Create SVG for circular mask with gold border
-    const svgMask = `
-      <svg width="${size}" height="${size}">
-        <defs>
-          <clipPath id="circle">
-            <circle cx="${size / 2}" cy="${size / 2}" r="${size / 2 - 3}" />
-          </clipPath>
-        </defs>
-        <!-- Circular clipped image will be composited here -->
-        <!-- Gold border -->
-        <circle
-          cx="${size / 2}"
-          cy="${size / 2}"
-          r="${size / 2 - 2}"
-          fill="none"
-          stroke="#FFD700"
-          stroke-width="3"
-        />
-      </svg>
-    `
-
-    // Process image: resize, circular crop, add gold border
+    // Process image: resize and circular crop only (no border)
     const processedImage = await sharp(imageBuffer)
       .resize(size, size, {
         fit: 'cover',
@@ -181,16 +160,10 @@ async function generateThumbnail(
           // Apply circular mask
           input: Buffer.from(
             `<svg width="${size}" height="${size}">
-              <circle cx="${size / 2}" cy="${size / 2}" r="${size / 2 - 3}" />
+              <circle cx="${size / 2}" cy="${size / 2}" r="${size / 2}" />
             </svg>`
           ),
           blend: 'dest-in'
-        },
-        {
-          // Add gold border on top
-          input: Buffer.from(svgMask),
-          top: 0,
-          left: 0
         }
       ])
       .webp({ quality: 85, effort: 6 })

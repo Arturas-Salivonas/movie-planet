@@ -1,0 +1,256 @@
+{
+  "location": {
+    "city": "Seattle",
+    "country": "United States of America",
+    "slug": "seattle-united-states-of-america",
+    "coordinates": {
+      "lat": 47.61498137222222,
+      "lng": -122.3296385
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1865718",
+      "title": "Gravity Falls",
+      "year": 2012,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Kids",
+        "Action & Adventure",
+        "Family"
+      ],
+      "poster": "/images/posters/tt1865718.webp",
+      "thumbnail_52": "/images/thumbnails/tt1865718.webp",
+      "imdb_rating": 8.598,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0413573",
+      "title": "Grey's Anatomy",
+      "year": 2005,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0413573.webp",
+      "thumbnail_52": "/images/thumbnails/tt0413573.webp",
+      "imdb_rating": 8.213,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7053188",
+      "title": "Station 19",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt7053188.webp",
+      "thumbnail_52": "/images/thumbnails/tt7053188.webp",
+      "imdb_rating": 8.206,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0248654",
+      "title": "Six Feet Under",
+      "year": 2001,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0248654.webp",
+      "thumbnail_52": "/images/thumbnails/tt0248654.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106004",
+      "title": "Frasier",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0106004.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106004.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0147800",
+      "title": "10 Things I Hate About You",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0147800.webp",
+      "thumbnail_52": "/images/thumbnails/tt0147800.webp",
+      "imdb_rating": 7.589,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0204993",
+      "title": "Dark Angel",
+      "year": 2000,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0204993.webp",
+      "thumbnail_52": "/images/thumbnails/tt0204993.webp",
+      "imdb_rating": 7.528,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1740299",
+      "title": "The Man in the High Castle",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1740299.webp",
+      "thumbnail_52": "/images/thumbnails/tt1740299.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0103442",
+      "title": "Highlander: The Series",
+      "year": 1992,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0103442.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103442.webp",
+      "imdb_rating": 7.38,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11212276",
+      "title": "The Sex Lives of College Girls",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11212276.webp",
+      "thumbnail_52": "/images/thumbnails/tt11212276.webp",
+      "imdb_rating": 7.203,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0799862",
+      "title": "Caprica",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0799862.webp",
+      "thumbnail_52": "/images/thumbnails/tt0799862.webp",
+      "imdb_rating": 6.943,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1706593",
+      "title": "Chronicle",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1706593.webp",
+      "thumbnail_52": "/images/thumbnails/tt1706593.webp",
+      "imdb_rating": 6.837,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108160",
+      "title": "Sleepless in Seattle",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108160.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108160.webp",
+      "imdb_rating": 6.738,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4477536",
+      "title": "Fifty Shades Freed",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt4477536.webp",
+      "thumbnail_52": "/images/thumbnails/tt4477536.webp",
+      "imdb_rating": 6.683,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1325004",
+      "title": "The Twilight Saga: Eclipse",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1325004.webp",
+      "thumbnail_52": "/images/thumbnails/tt1325004.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2322441",
+      "title": "Fifty Shades of Grey",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2322441.webp",
+      "thumbnail_52": "/images/thumbnails/tt2322441.webp",
+      "imdb_rating": 5.878,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 16,
+    "totalLocations": 18,
+    "genres": {
+      "Drama": 14,
+      "Romance": 5,
+      "Animation": 1,
+      "Comedy": 5,
+      "Mystery": 1,
+      "Sci-Fi & Fantasy": 4,
+      "Kids": 1,
+      "Action & Adventure": 4,
+      "Family": 2,
+      "Thriller": 2,
+      "Adventure": 1,
+      "Fantasy": 1,
+      "Science Fiction": 1
+    },
+    "decades": {
+      "2010s": 8,
+      "2000s": 3,
+      "1990s": 4,
+      "2020s": 1
+    }
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "location": {
+    "city": "Long Beach",
+    "country": "United States of America",
+    "slug": "long-beach-united-states-of-america",
+    "coordinates": {
+      "lat": 33.7801794,
+      "lng": -118.18259970285719
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0452046",
+      "title": "Criminal Minds",
+      "year": 2005,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0452046.webp",
+      "thumbnail_52": "/images/thumbnails/tt0452046.webp",
+      "imdb_rating": 8.307,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0773262",
+      "title": "Dexter",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0773262.webp",
+      "thumbnail_52": "/images/thumbnails/tt0773262.webp",
+      "imdb_rating": 8.224,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt32252772",
+      "title": "Dexter: Original Sin",
+      "year": 2024,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt32252772.webp",
+      "thumbnail_52": "/images/thumbnails/tt32252772.webp",
+      "imdb_rating": 8.193,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0248654",
+      "title": "Six Feet Under",
+      "year": 2001,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0248654.webp",
+      "thumbnail_52": "/images/thumbnails/tt0248654.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0367279",
+      "title": "Arrested Development",
+      "year": 2003,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0367279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0367279.webp",
+      "imdb_rating": 7.931,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3783958",
+      "title": "La La Land",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt3783958.webp",
+      "thumbnail_52": "/images/thumbnails/tt3783958.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0246578",
+      "title": "Donnie Darko",
+      "year": 2001,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0246578.webp",
+      "thumbnail_52": "/images/thumbnails/tt0246578.webp",
+      "imdb_rating": 7.766,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0201391",
+      "title": "Roswell",
+      "year": 1999,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0201391.webp",
+      "thumbnail_52": "/images/thumbnails/tt0201391.webp",
+      "imdb_rating": 7.707,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2262532",
+      "title": "The Fosters",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2262532.webp",
+      "thumbnail_52": "/images/thumbnails/tt2262532.webp",
+      "imdb_rating": 7.539,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0119822",
+      "title": "As Good as It Gets",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0119822.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119822.webp",
+      "imdb_rating": 7.397,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0221027",
+      "title": "Blow",
+      "year": 2001,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0221027.webp",
+      "thumbnail_52": "/images/thumbnails/tt0221027.webp",
+      "imdb_rating": 7.355,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0093409",
+      "title": "Lethal Weapon",
+      "year": 1987,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Comedy",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0093409.webp",
+      "thumbnail_52": "/images/thumbnails/tt0093409.webp",
+      "imdb_rating": 7.285,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0373469",
+      "title": "Kiss Kiss Bang Bang",
+      "year": 2005,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0373469.webp",
+      "thumbnail_52": "/images/thumbnails/tt0373469.webp",
+      "imdb_rating": 7.159,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119094",
+      "title": "Face/Off",
+      "year": 1997,
+      "genres": [
+        "Action",
+        "Crime",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0119094.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119094.webp",
+      "imdb_rating": 7.05,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0289765",
+      "title": "Red Dragon",
+      "year": 2002,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0289765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0289765.webp",
+      "imdb_rating": 7.032,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0111282",
+      "title": "Stargate",
+      "year": 1994,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0111282.webp",
+      "thumbnail_52": "/images/thumbnails/tt0111282.webp",
+      "imdb_rating": 7.011,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0110475",
+      "title": "The Mask",
+      "year": 1994,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Crime",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0110475.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110475.webp",
+      "imdb_rating": 6.973,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1517268",
+      "title": "Barbie",
+      "year": 2023,
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1517268.webp",
+      "thumbnail_52": "/images/thumbnails/tt1517268.webp",
+      "imdb_rating": 6.949,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120611",
+      "title": "Blade",
+      "year": 1998,
+      "genres": [
+        "Horror",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0120611.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120611.webp",
+      "imdb_rating": 6.814,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0357413",
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "year": 2004,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0357413.webp",
+      "thumbnail_52": "/images/thumbnails/tt0357413.webp",
+      "imdb_rating": 6.701,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0398165",
+      "title": "The Longest Yard",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0398165.webp",
+      "thumbnail_52": "/images/thumbnails/tt0398165.webp",
+      "imdb_rating": 6.666,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0163651",
+      "title": "American Pie",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0163651.webp",
+      "thumbnail_52": "/images/thumbnails/tt0163651.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0293564",
+      "title": "Rush Hour 3",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0293564.webp",
+      "thumbnail_52": "/images/thumbnails/tt0293564.webp",
+      "imdb_rating": 6.483,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0187078",
+      "title": "Gone in Sixty Seconds",
+      "year": 2000,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0187078.webp",
+      "thumbnail_52": "/images/thumbnails/tt0187078.webp",
+      "imdb_rating": 6.448,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0364725",
+      "title": "DodgeBall: A True Underdog Story",
+      "year": 2004,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0364725.webp",
+      "thumbnail_52": "/images/thumbnails/tt0364725.webp",
+      "imdb_rating": 6.356,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0328828",
+      "title": "American Wedding",
+      "year": 2003,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0328828.webp",
+      "thumbnail_52": "/images/thumbnails/tt0328828.webp",
+      "imdb_rating": 6.216,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 26,
+    "totalLocations": 35,
+    "genres": {
+      "Action": 6,
+      "Crime": 12,
+      "Science Fiction": 2,
+      "Adventure": 3,
+      "Comedy": 13,
+      "Thriller": 4,
+      "Drama": 11,
+      "Romance": 5,
+      "Horror": 2,
+      "Mystery": 4,
+      "Fantasy": 2,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "1990s": 7,
+      "1980s": 1,
+      "2000s": 14,
+      "2010s": 2,
+      "2020s": 2
+    }
+  }
+}

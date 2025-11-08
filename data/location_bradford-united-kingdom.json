@@ -1,0 +1,111 @@
+{
+  "location": {
+    "city": "Bradford",
+    "country": "United Kingdom",
+    "slug": "bradford-united-kingdom",
+    "coordinates": {
+      "lat": 53.79916617500001,
+      "lng": -1.753641825
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2442560",
+      "title": "Peaky Blinders",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2442560.webp",
+      "thumbnail_52": "/images/thumbnails/tt2442560.webp",
+      "imdb_rating": 8.529,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0063929",
+      "title": "Monty Python's Flying Circus",
+      "year": 1969,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0063929.webp",
+      "thumbnail_52": "/images/thumbnails/tt0063929.webp",
+      "imdb_rating": 8.245,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10590066",
+      "title": "All Creatures Great & Small",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt10590066.webp",
+      "thumbnail_52": "/images/thumbnails/tt10590066.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2384811",
+      "title": "Utopia",
+      "year": 2013,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2384811.webp",
+      "thumbnail_52": "/images/thumbnails/tt2384811.webp",
+      "imdb_rating": 7.985,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3428912",
+      "title": "Happy Valley",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt3428912.webp",
+      "thumbnail_52": "/images/thumbnails/tt3428912.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8425532",
+      "title": "Pennyworth: The Origin of Batman's Butler",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt8425532.webp",
+      "thumbnail_52": "/images/thumbnails/tt8425532.webp",
+      "imdb_rating": 7.859,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 8,
+    "genres": {
+      "Drama": 5,
+      "Crime": 3,
+      "Comedy": 3,
+      "Mystery": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "2010s": 4,
+      "1960s": 1,
+      "2020s": 1
+    }
+  }
+}

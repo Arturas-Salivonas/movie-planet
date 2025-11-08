@@ -1,0 +1,224 @@
+{
+  "location": {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "slug": "cape-town-south-africa",
+    "coordinates": {
+      "lat": -33.96330120952382,
+      "lng": 18.518324357142852
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2085059",
+      "title": "Black Mirror",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2085059.webp",
+      "thumbnail_52": "/images/thumbnails/tt2085059.webp",
+      "imdb_rating": 8.285,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11737520",
+      "title": "ONE PIECE",
+      "year": 2023,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt11737520.webp",
+      "thumbnail_52": "/images/thumbnails/tt11737520.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5743796",
+      "title": "Warrior",
+      "year": 2019,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure",
+        "Western"
+      ],
+      "poster": "/images/posters/tt5743796.webp",
+      "thumbnail_52": "/images/thumbnails/tt5743796.webp",
+      "imdb_rating": 7.971,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1392190",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1392190.webp",
+      "thumbnail_52": "/images/thumbnails/tt1392190.webp",
+      "imdb_rating": 7.627,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt2375692",
+      "title": "Black Sails",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2375692.webp",
+      "thumbnail_52": "/images/thumbnails/tt2375692.webp",
+      "imdb_rating": 7.611,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0450259",
+      "title": "Blood Diamond",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0450259.webp",
+      "thumbnail_52": "/images/thumbnails/tt0450259.webp",
+      "imdb_rating": 7.551,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9170108",
+      "title": "Raised by Wolves",
+      "year": 2020,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9170108.webp",
+      "thumbnail_52": "/images/thumbnails/tt9170108.webp",
+      "imdb_rating": 7.52,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1343727",
+      "title": "Dredd",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1343727.webp",
+      "thumbnail_52": "/images/thumbnails/tt1343727.webp",
+      "imdb_rating": 6.852,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1706593",
+      "title": "Chronicle",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1706593.webp",
+      "thumbnail_52": "/images/thumbnails/tt1706593.webp",
+      "imdb_rating": 6.837,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3079768",
+      "title": "Dominion",
+      "year": 2014,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3079768.webp",
+      "thumbnail_52": "/images/thumbnails/tt3079768.webp",
+      "imdb_rating": 6.57,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1599348",
+      "title": "Safe House",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1599348.webp",
+      "thumbnail_52": "/images/thumbnails/tt1599348.webp",
+      "imdb_rating": 6.484,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1365519",
+      "title": "Tomb Raider",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1365519.webp",
+      "thumbnail_52": "/images/thumbnails/tt1365519.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9660182",
+      "title": "Resident Evil",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt9660182.webp",
+      "thumbnail_52": "/images/thumbnails/tt9660182.webp",
+      "imdb_rating": 5.613,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 14,
+    "totalLocations": 14,
+    "genres": {
+      "Action": 5,
+      "Adventure": 2,
+      "Science Fiction": 3,
+      "Sci-Fi & Fantasy": 5,
+      "Drama": 8,
+      "Mystery": 1,
+      "Thriller": 3,
+      "Action & Adventure": 3,
+      "Crime": 1,
+      "Western": 1,
+      "Fantasy": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2010s": 9,
+      "2000s": 2,
+      "2020s": 3
+    }
+  }
+}

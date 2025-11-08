@@ -1,0 +1,272 @@
+{
+  "location": {
+    "city": "Detroit",
+    "country": "United States of America",
+    "slug": "detroit-united-states-of-america",
+    "coordinates": {
+      "lat": 42.33214752222223,
+      "lng": -83.05628754444446
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1431045",
+      "title": "Deadpool",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1431045.webp",
+      "thumbnail_52": "/images/thumbnails/tt1431045.webp",
+      "imdb_rating": 7.623,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108399",
+      "title": "True Romance",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108399.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108399.webp",
+      "imdb_rating": 7.542,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0092991",
+      "title": "Evil Dead II",
+      "year": 1987,
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0092991.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092991.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3148266",
+      "title": "12 Monkeys",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3148266.webp",
+      "thumbnail_52": "/images/thumbnails/tt3148266.webp",
+      "imdb_rating": 7.401,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0093870",
+      "title": "RoboCop",
+      "year": 1987,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0093870.webp",
+      "thumbnail_52": "/images/thumbnails/tt0093870.webp",
+      "imdb_rating": 7.352,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0083907",
+      "title": "The Evil Dead",
+      "year": 1981,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0083907.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083907.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086960",
+      "title": "Beverly Hills Cop",
+      "year": 1984,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0086960.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086960.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0298203",
+      "title": "8 Mile",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "poster": "/images/posters/tt0298203.webp",
+      "thumbnail_52": "/images/thumbnails/tt0298203.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0433035",
+      "title": "Real Steel",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0433035.webp",
+      "thumbnail_52": "/images/thumbnails/tt0433035.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4160708",
+      "title": "Don't Breathe",
+      "year": 2016,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4160708.webp",
+      "thumbnail_52": "/images/thumbnails/tt4160708.webp",
+      "imdb_rating": 7.016,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt15791034",
+      "title": "Barbarian",
+      "year": 2022,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt15791034.webp",
+      "thumbnail_52": "/images/thumbnails/tt15791034.webp",
+      "imdb_rating": 6.84,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0399201",
+      "title": "The Island",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0399201.webp",
+      "thumbnail_52": "/images/thumbnails/tt0399201.webp",
+      "imdb_rating": 6.685,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1155076",
+      "title": "The Karate Kid",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt1155076.webp",
+      "thumbnail_52": "/images/thumbnails/tt1155076.webp",
+      "imdb_rating": 6.565,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1229413",
+      "title": "Hung",
+      "year": 2009,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1229413.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229413.webp",
+      "imdb_rating": 6.508,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1399103",
+      "title": "Transformers: Dark of the Moon",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1399103.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399103.webp",
+      "imdb_rating": 6.219,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2975590",
+      "title": "Batman v Superman: Dawn of Justice",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt2975590.webp",
+      "thumbnail_52": "/images/thumbnails/tt2975590.webp",
+      "imdb_rating": 5.987,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2109248",
+      "title": "Transformers: Age of Extinction",
+      "year": 2014,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2109248.webp",
+      "thumbnail_52": "/images/thumbnails/tt2109248.webp",
+      "imdb_rating": 5.951,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 17,
+    "totalLocations": 18,
+    "genres": {
+      "Horror": 4,
+      "Comedy": 4,
+      "Fantasy": 2,
+      "Action": 10,
+      "Science Fiction": 5,
+      "Adventure": 6,
+      "Drama": 4,
+      "Music": 1,
+      "Thriller": 4,
+      "Crime": 3,
+      "Romance": 1,
+      "Sci-Fi & Fantasy": 1,
+      "Family": 1
+    },
+    "decades": {
+      "1980s": 4,
+      "2010s": 8,
+      "2000s": 3,
+      "1990s": 1,
+      "2020s": 1
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "location": {
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "slug": "glasgow-united-kingdom",
+    "coordinates": {
+      "lat": 55.87227736666666,
+      "lng": -4.237385177777778
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt3006802",
+      "title": "Outlander",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt3006802.webp",
+      "thumbnail_52": "/images/thumbnails/tt3006802.webp",
+      "imdb_rating": 8.187,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8579674",
+      "title": "1917",
+      "year": 2019,
+      "genres": [
+        "War",
+        "History",
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt8579674.webp",
+      "thumbnail_52": "/images/thumbnails/tt8579674.webp",
+      "imdb_rating": 7.986,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0117951",
+      "title": "Trainspotting",
+      "year": 1996,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0117951.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117951.webp",
+      "imdb_rating": 7.96,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1877830",
+      "title": "The Batman",
+      "year": 2022,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1877830.webp",
+      "thumbnail_52": "/images/thumbnails/tt1877830.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11846996",
+      "title": "Vigil",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt11846996.webp",
+      "thumbnail_52": "/images/thumbnails/tt11846996.webp",
+      "imdb_rating": 7.158,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6806448",
+      "title": "Fast & Furious Presents: Hobbs & Shaw",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt6806448.webp",
+      "thumbnail_52": "/images/thumbnails/tt6806448.webp",
+      "imdb_rating": 6.846,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1905041",
+      "title": "Fast & Furious 6",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1905041.webp",
+      "thumbnail_52": "/images/thumbnails/tt1905041.webp",
+      "imdb_rating": 6.818,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0439572",
+      "title": "The Flash",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0439572.webp",
+      "thumbnail_52": "/images/thumbnails/tt0439572.webp",
+      "imdb_rating": 6.619,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1462764",
+      "title": "Indiana Jones and the Dial of Destiny",
+      "year": 2023,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1462764.webp",
+      "thumbnail_52": "/images/thumbnails/tt1462764.webp",
+      "imdb_rating": 6.531,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 9,
+    "totalLocations": 9,
+    "genres": {
+      "Crime": 4,
+      "Mystery": 1,
+      "Thriller": 2,
+      "War": 1,
+      "History": 1,
+      "Drama": 5,
+      "Action": 5,
+      "Sci-Fi & Fantasy": 1,
+      "Adventure": 2,
+      "Comedy": 1,
+      "Science Fiction": 1
+    },
+    "decades": {
+      "2020s": 4,
+      "2010s": 4,
+      "1990s": 1
+    }
+  }
+}

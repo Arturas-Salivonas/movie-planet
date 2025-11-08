@@ -1,0 +1,174 @@
+{
+  "location": {
+    "city": "Gold Coast",
+    "country": "Australia",
+    "slug": "gold-coast-australia",
+    "coordinates": {
+      "lat": -27.9686058,
+      "lng": 153.37085975714285
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0491603",
+      "title": "H2O: Just Add Water",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Family",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0491603.webp",
+      "thumbnail_52": "/images/thumbnails/tt0491603.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt8633062",
+      "title": "The Wilds",
+      "year": 2020,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8633062.webp",
+      "thumbnail_52": "/images/thumbnails/tt8633062.webp",
+      "imdb_rating": 7.662,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt5034838",
+      "title": "Godzilla vs. Kong",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt5034838.webp",
+      "thumbnail_52": "/images/thumbnails/tt5034838.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt3501632",
+      "title": "Thor: Ragnarok",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3501632.webp",
+      "thumbnail_52": "/images/thumbnails/tt3501632.webp",
+      "imdb_rating": 7.583,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt3704428",
+      "title": "Elvis",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Music",
+        "History"
+      ],
+      "poster": "/images/posters/tt3704428.webp",
+      "thumbnail_52": "/images/thumbnails/tt3704428.webp",
+      "imdb_rating": 7.479,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt11639952",
+      "title": "Young Rock",
+      "year": 2021,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt11639952.webp",
+      "thumbnail_52": "/images/thumbnails/tt11639952.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1477834",
+      "title": "Aquaman",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1477834.webp",
+      "thumbnail_52": "/images/thumbnails/tt1477834.webp",
+      "imdb_rating": 6.872,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1641349",
+      "title": "Terra Nova",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1641349.webp",
+      "thumbnail_52": "/images/thumbnails/tt1641349.webp",
+      "imdb_rating": 6.771,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1790809",
+      "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+      "year": 2017,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1790809.webp",
+      "thumbnail_52": "/images/thumbnails/tt1790809.webp",
+      "imdb_rating": 6.652,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt2126355",
+      "title": "San Andreas",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2126355.webp",
+      "thumbnail_52": "/images/thumbnails/tt2126355.webp",
+      "imdb_rating": 6.245,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 10,
+    "totalLocations": 0,
+    "genres": {
+      "Action": 5,
+      "Adventure": 4,
+      "Science Fiction": 2,
+      "Fantasy": 2,
+      "Drama": 4,
+      "Thriller": 1,
+      "Music": 1,
+      "History": 1,
+      "Sci-Fi & Fantasy": 2,
+      "Mystery": 2,
+      "Action & Adventure": 1,
+      "Comedy": 1,
+      "Family": 1
+    },
+    "decades": {
+      "2010s": 5,
+      "2020s": 4,
+      "2000s": 1
+    }
+  }
+}

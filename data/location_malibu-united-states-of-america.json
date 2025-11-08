@@ -1,0 +1,341 @@
+{
+  "location": {
+    "city": "Malibu",
+    "country": "United States of America",
+    "slug": "malibu-united-states-of-america",
+    "coordinates": {
+      "lat": 34.034160652,
+      "lng": -118.74157433999999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0415463",
+      "title": "Zoey 101",
+      "year": 2005,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0415463.webp",
+      "thumbnail_52": "/images/thumbnails/tt0415463.webp",
+      "imdb_rating": 8.108,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0056687",
+      "title": "What Ever Happened to Baby Jane?",
+      "year": 1962,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0056687.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056687.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3920596",
+      "title": "Big Little Lies",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3920596.webp",
+      "thumbnail_52": "/images/thumbnails/tt3920596.webp",
+      "imdb_rating": 7.889,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0362359",
+      "title": "The O.C.",
+      "year": 2003,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0362359.webp",
+      "thumbnail_52": "/images/thumbnails/tt0362359.webp",
+      "imdb_rating": 7.762,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11000902",
+      "title": "Our Flag Means Death",
+      "year": 2022,
+      "genres": [
+        "Comedy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11000902.webp",
+      "thumbnail_52": "/images/thumbnails/tt11000902.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13833978",
+      "title": "The Lincoln Lawyer",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt13833978.webp",
+      "thumbnail_52": "/images/thumbnails/tt13833978.webp",
+      "imdb_rating": 7.661,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0063442",
+      "title": "Planet of the Apes",
+      "year": 1968,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0063442.webp",
+      "thumbnail_52": "/images/thumbnails/tt0063442.webp",
+      "imdb_rating": 7.643,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0814314",
+      "title": "Seven Pounds",
+      "year": 2008,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0814314.webp",
+      "thumbnail_52": "/images/thumbnails/tt0814314.webp",
+      "imdb_rating": 7.603,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14208870",
+      "title": "The Fabelmans",
+      "year": 2022,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14208870.webp",
+      "thumbnail_52": "/images/thumbnails/tt14208870.webp",
+      "imdb_rating": 7.575,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0369179",
+      "title": "Two and a Half Men",
+      "year": 2003,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0369179.webp",
+      "thumbnail_52": "/images/thumbnails/tt0369179.webp",
+      "imdb_rating": 7.445,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4550098",
+      "title": "Nocturnal Animals",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4550098.webp",
+      "thumbnail_52": "/images/thumbnails/tt4550098.webp",
+      "imdb_rating": 7.42,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1596363",
+      "title": "The Big Short",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1596363.webp",
+      "thumbnail_52": "/images/thumbnails/tt1596363.webp",
+      "imdb_rating": 7.358,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1135300",
+      "title": "Dollhouse",
+      "year": 2009,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1135300.webp",
+      "thumbnail_52": "/images/thumbnails/tt1135300.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0102685",
+      "title": "Point Break",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0102685.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102685.webp",
+      "imdb_rating": 7.16,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0493093",
+      "title": "Hannah Montana",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0493093.webp",
+      "thumbnail_52": "/images/thumbnails/tt0493093.webp",
+      "imdb_rating": 7.147,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt26676904",
+      "title": "Ballard",
+      "year": 2025,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt26676904.webp",
+      "thumbnail_52": "/images/thumbnails/tt26676904.webp",
+      "imdb_rating": 7.053,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0232500",
+      "title": "The Fast and the Furious",
+      "year": 2001,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0232500.webp",
+      "thumbnail_52": "/images/thumbnails/tt0232500.webp",
+      "imdb_rating": 6.995,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1228705",
+      "title": "Iron Man 2",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1228705.webp",
+      "thumbnail_52": "/images/thumbnails/tt1228705.webp",
+      "imdb_rating": 6.848,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt15791034",
+      "title": "Barbarian",
+      "year": 2022,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt15791034.webp",
+      "thumbnail_52": "/images/thumbnails/tt15791034.webp",
+      "imdb_rating": 6.84,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1632708",
+      "title": "Friends with Benefits",
+      "year": 2011,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1632708.webp",
+      "thumbnail_52": "/images/thumbnails/tt1632708.webp",
+      "imdb_rating": 6.651,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1397280",
+      "title": "Taken 2",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1397280.webp",
+      "thumbnail_52": "/images/thumbnails/tt1397280.webp",
+      "imdb_rating": 6.365,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0252866",
+      "title": "American Pie 2",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0252866.webp",
+      "thumbnail_52": "/images/thumbnails/tt0252866.webp",
+      "imdb_rating": 6.249,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120647",
+      "title": "Deep Impact",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120647.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120647.webp",
+      "imdb_rating": 6.231,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 23,
+    "totalLocations": 25,
+    "genres": {
+      "Drama": 13,
+      "Adventure": 2,
+      "Action": 6,
+      "Science Fiction": 3,
+      "Thriller": 6,
+      "Horror": 2,
+      "Comedy": 7,
+      "Crime": 5,
+      "Romance": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Action & Adventure": 2,
+      "Family": 1
+    },
+    "decades": {
+      "2020s": 5,
+      "2010s": 6,
+      "1960s": 2,
+      "2000s": 8,
+      "1990s": 2
+    }
+  }
+}

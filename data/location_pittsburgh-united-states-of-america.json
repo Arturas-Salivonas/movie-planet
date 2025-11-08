@@ -1,0 +1,320 @@
+{
+  "location": {
+    "city": "Pittsburgh",
+    "country": "United States of America",
+    "slug": "pittsburgh-united-states-of-america",
+    "coordinates": {
+      "lat": 40.442632925925906,
+      "lng": -79.99131925925928
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt31938062",
+      "title": "The Pitt",
+      "year": 2025,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt31938062.webp",
+      "thumbnail_52": "/images/thumbnails/tt31938062.webp",
+      "imdb_rating": 8.645,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0102926",
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0102926.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102926.webp",
+      "imdb_rating": 8.346,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5290382",
+      "title": "MINDHUNTER",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt5290382.webp",
+      "thumbnail_52": "/images/thumbnails/tt5290382.webp",
+      "imdb_rating": 8.098,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9446688",
+      "title": "I Am Not Okay with This",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt9446688.webp",
+      "thumbnail_52": "/images/thumbnails/tt9446688.webp",
+      "imdb_rating": 8.016,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2017109",
+      "title": "Banshee",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2017109.webp",
+      "thumbnail_52": "/images/thumbnails/tt2017109.webp",
+      "imdb_rating": 7.974,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1489428",
+      "title": "Justified",
+      "year": 2010,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1489428.webp",
+      "thumbnail_52": "/images/thumbnails/tt1489428.webp",
+      "imdb_rating": 7.973,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11712058",
+      "title": "Mayor of Kingstown",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt11712058.webp",
+      "thumbnail_52": "/images/thumbnails/tt11712058.webp",
+      "imdb_rating": 7.853,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1291584",
+      "title": "Warrior",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1291584.webp",
+      "thumbnail_52": "/images/thumbnails/tt1291584.webp",
+      "imdb_rating": 7.846,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1659337",
+      "title": "The Perks of Being a Wallflower",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1659337.webp",
+      "thumbnail_52": "/images/thumbnails/tt1659337.webp",
+      "imdb_rating": 7.801,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1345836",
+      "title": "The Dark Knight Rises",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1345836.webp",
+      "thumbnail_52": "/images/thumbnails/tt1345836.webp",
+      "imdb_rating": 7.788,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7405458",
+      "title": "A Man Called Otto",
+      "year": 2022,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7405458.webp",
+      "thumbnail_52": "/images/thumbnails/tt7405458.webp",
+      "imdb_rating": 7.755,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2582846",
+      "title": "The Fault in Our Stars",
+      "year": 2014,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2582846.webp",
+      "thumbnail_52": "/images/thumbnails/tt2582846.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6264654",
+      "title": "Free Guy",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6264654.webp",
+      "thumbnail_52": "/images/thumbnails/tt6264654.webp",
+      "imdb_rating": 7.463,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1798684",
+      "title": "Southpaw",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1798684.webp",
+      "thumbnail_52": "/images/thumbnails/tt1798684.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13365348",
+      "title": "Archive 81",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt13365348.webp",
+      "thumbnail_52": "/images/thumbnails/tt13365348.webp",
+      "imdb_rating": 7.218,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1458175",
+      "title": "The Next Three Days",
+      "year": 2010,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1458175.webp",
+      "thumbnail_52": "/images/thumbnails/tt1458175.webp",
+      "imdb_rating": 7.082,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758752",
+      "title": "Love & Other Drugs",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0758752.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758752.webp",
+      "imdb_rating": 7.04,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120655",
+      "title": "Dogma",
+      "year": 1999,
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120655.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120655.webp",
+      "imdb_rating": 6.918,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt8226360",
+      "title": "A League of Their Own",
+      "year": 2022,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8226360.webp",
+      "thumbnail_52": "/images/thumbnails/tt8226360.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0790724",
+      "title": "Jack Reacher",
+      "year": 2012,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0790724.webp",
+      "thumbnail_52": "/images/thumbnails/tt0790724.webp",
+      "imdb_rating": 6.647,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1464540",
+      "title": "I Am Number Four",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1464540.webp",
+      "thumbnail_52": "/images/thumbnails/tt1464540.webp",
+      "imdb_rating": 6.179,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 21,
+    "totalLocations": 27,
+    "genres": {
+      "Crime": 8,
+      "Thriller": 5,
+      "Drama": 18,
+      "Action": 5,
+      "Fantasy": 1,
+      "Comedy": 6,
+      "Adventure": 3,
+      "Science Fiction": 2,
+      "Romance": 3,
+      "Sci-Fi & Fantasy": 2,
+      "Mystery": 1
+    },
+    "decades": {
+      "1990s": 2,
+      "2010s": 12,
+      "2020s": 7
+    }
+  }
+}

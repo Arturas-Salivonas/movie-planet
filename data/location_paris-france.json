@@ -1,0 +1,615 @@
+{
+  "location": {
+    "city": "Paris",
+    "country": "France",
+    "slug": "paris-france",
+    "coordinates": {
+      "lat": 48.86141809166666,
+      "lng": 2.327024475
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt10638036",
+      "title": "Heartstopper",
+      "year": 2022,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10638036.webp",
+      "thumbnail_52": "/images/thumbnails/tt10638036.webp",
+      "imdb_rating": 8.579,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0110413",
+      "title": "Léon: The Professional",
+      "year": 1994,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0110413.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110413.webp",
+      "imdb_rating": 8.299,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1675434",
+      "title": "The Intouchables",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1675434.webp",
+      "thumbnail_52": "/images/thumbnails/tt1675434.webp",
+      "imdb_rating": 8.272,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0361748",
+      "title": "Inglourious Basterds",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "poster": "/images/posters/tt0361748.webp",
+      "thumbnail_52": "/images/thumbnails/tt0361748.webp",
+      "imdb_rating": 8.214,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4063800",
+      "title": "The Bureau",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4063800.webp",
+      "thumbnail_52": "/images/thumbnails/tt4063800.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0113247",
+      "title": "La Haine",
+      "year": 1995,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0113247.webp",
+      "thumbnail_52": "/images/thumbnails/tt0113247.webp",
+      "imdb_rating": 8.083,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt13111078",
+      "title": "Lioness",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt13111078.webp",
+      "thumbnail_52": "/images/thumbnails/tt13111078.webp",
+      "imdb_rating": 8.012,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0053198",
+      "title": "The 400 Blows",
+      "year": 1959,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0053198.webp",
+      "thumbnail_52": "/images/thumbnails/tt0053198.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt2580046",
+      "title": "Miraculous: Tales of Ladybug & Cat Noir",
+      "year": 2015,
+      "genres": [
+        "Action & Adventure",
+        "Animation",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt2580046.webp",
+      "thumbnail_52": "/images/thumbnails/tt2580046.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt2674426",
+      "title": "Me Before You",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt2674426.webp",
+      "thumbnail_52": "/images/thumbnails/tt2674426.webp",
+      "imdb_rating": 7.926,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0211915",
+      "title": "Amélie",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0211915.webp",
+      "thumbnail_52": "/images/thumbnails/tt0211915.webp",
+      "imdb_rating": 7.913,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0381681",
+      "title": "Before Sunset",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0381681.webp",
+      "thumbnail_52": "/images/thumbnails/tt0381681.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0048021",
+      "title": "Rififi",
+      "year": 1955,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0048021.webp",
+      "thumbnail_52": "/images/thumbnails/tt0048021.webp",
+      "imdb_rating": 7.776,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt10366206",
+      "title": "John Wick: Chapter 4",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt10366206.webp",
+      "thumbnail_52": "/images/thumbnails/tt10366206.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2531336",
+      "title": "Lupin",
+      "year": 2021,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2531336.webp",
+      "thumbnail_52": "/images/thumbnails/tt2531336.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt4277922",
+      "title": "Call My Agent!",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4277922.webp",
+      "thumbnail_52": "/images/thumbnails/tt4277922.webp",
+      "imdb_rating": 7.667,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0108394",
+      "title": "Three Colors: Blue",
+      "year": 1993,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0108394.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108394.webp",
+      "imdb_rating": 7.645,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8962124",
+      "title": "Emily in Paris",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt8962124.webp",
+      "thumbnail_52": "/images/thumbnails/tt8962124.webp",
+      "imdb_rating": 7.624,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt6718170",
+      "title": "The Super Mario Bros. Movie",
+      "year": 2023,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Adventure",
+        "Animation",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt6718170.webp",
+      "thumbnail_52": "/images/thumbnails/tt6718170.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4145054",
+      "title": "Shadowhunters",
+      "year": 2016,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt4145054.webp",
+      "thumbnail_52": "/images/thumbnails/tt4145054.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4687882",
+      "title": "Patriot",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4687882.webp",
+      "thumbnail_52": "/images/thumbnails/tt4687882.webp",
+      "imdb_rating": 7.596,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt16288804",
+      "title": "Berlin",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt16288804.webp",
+      "thumbnail_52": "/images/thumbnails/tt16288804.webp",
+      "imdb_rating": 7.569,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt17491088",
+      "title": "The Diplomat",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt17491088.webp",
+      "thumbnail_52": "/images/thumbnails/tt17491088.webp",
+      "imdb_rating": 7.544,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1605783",
+      "title": "Midnight in Paris",
+      "year": 2011,
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1605783.webp",
+      "thumbnail_52": "/images/thumbnails/tt1605783.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0278866",
+      "title": "Kim Possible",
+      "year": 2002,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt0278866.webp",
+      "thumbnail_52": "/images/thumbnails/tt0278866.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108906",
+      "title": "The Kingdom",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0108906.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108906.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0258463",
+      "title": "The Bourne Identity",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0258463.webp",
+      "thumbnail_52": "/images/thumbnails/tt0258463.webp",
+      "imdb_rating": 7.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4912910",
+      "title": "Mission: Impossible - Fallout",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt4912910.webp",
+      "thumbnail_52": "/images/thumbnails/tt4912910.webp",
+      "imdb_rating": 7.443,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0936501",
+      "title": "Taken",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0936501.webp",
+      "thumbnail_52": "/images/thumbnails/tt0936501.webp",
+      "imdb_rating": 7.398,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0159206",
+      "title": "Sex and the City",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0159206.webp",
+      "thumbnail_52": "/images/thumbnails/tt0159206.webp",
+      "imdb_rating": 7.395,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0458352",
+      "title": "The Devil Wears Prada",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0458352.webp",
+      "thumbnail_52": "/images/thumbnails/tt0458352.webp",
+      "imdb_rating": 7.391,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0396171",
+      "title": "Perfume: The Story of a Murderer",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0396171.webp",
+      "thumbnail_52": "/images/thumbnails/tt0396171.webp",
+      "imdb_rating": 7.365,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0970179",
+      "title": "Hugo",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0970179.webp",
+      "thumbnail_52": "/images/thumbnails/tt0970179.webp",
+      "imdb_rating": 7.173,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1454468",
+      "title": "Gravity",
+      "year": 2013,
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1454468.webp",
+      "thumbnail_52": "/images/thumbnails/tt1454468.webp",
+      "imdb_rating": 7.163,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0122690",
+      "title": "Ronin",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0122690.webp",
+      "thumbnail_52": "/images/thumbnails/tt0122690.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7991608",
+      "title": "Red Notice",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7991608.webp",
+      "thumbnail_52": "/images/thumbnails/tt7991608.webp",
+      "imdb_rating": 6.753,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081573",
+      "title": "Superman II",
+      "year": 1980,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0081573.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081573.webp",
+      "imdb_rating": 6.744,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0382625",
+      "title": "The Da Vinci Code",
+      "year": 2006,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0382625.webp",
+      "thumbnail_52": "/images/thumbnails/tt0382625.webp",
+      "imdb_rating": 6.728,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2872732",
+      "title": "Lucy",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2872732.webp",
+      "thumbnail_52": "/images/thumbnails/tt2872732.webp",
+      "imdb_rating": 6.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0338526",
+      "title": "Van Helsing",
+      "year": 2004,
+      "genres": [
+        "Horror",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0338526.webp",
+      "thumbnail_52": "/images/thumbnails/tt0338526.webp",
+      "imdb_rating": 6.385,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0489099",
+      "title": "Jumper",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0489099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0489099.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1216475",
+      "title": "Cars 2",
+      "year": 2011,
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1216475.webp",
+      "thumbnail_52": "/images/thumbnails/tt1216475.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 42,
+    "totalLocations": 72,
+    "genres": {
+      "Crime": 9,
+      "Drama": 26,
+      "Action": 11,
+      "Thriller": 8,
+      "War": 1,
+      "Comedy": 13,
+      "Family": 3,
+      "Adventure": 7,
+      "Animation": 4,
+      "Fantasy": 3,
+      "Mystery": 4,
+      "Science Fiction": 4,
+      "Action & Adventure": 5,
+      "Romance": 4,
+      "Horror": 1,
+      "War & Politics": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Kids": 2
+    },
+    "decades": {
+      "1990s": 6,
+      "2000s": 11,
+      "2010s": 13,
+      "2020s": 9,
+      "1950s": 2,
+      "1980s": 1
+    }
+  }
+}

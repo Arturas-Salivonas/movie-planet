@@ -1,0 +1,100 @@
+{
+  "location": {
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "slug": "edinburgh-united-kingdom",
+    "coordinates": {
+      "lat": 55.95206891428571,
+      "lng": -3.1878137428571427
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4154756",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt4154756.webp",
+      "thumbnail_52": "/images/thumbnails/tt4154756.webp",
+      "imdb_rating": 8.235,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt27995114",
+      "title": "Dept. Q",
+      "year": 2025,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt27995114.webp",
+      "thumbnail_52": "/images/thumbnails/tt27995114.webp",
+      "imdb_rating": 8.016,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1869454",
+      "title": "Good Omens",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1869454.webp",
+      "thumbnail_52": "/images/thumbnails/tt1869454.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0117951",
+      "title": "Trainspotting",
+      "year": 1996,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0117951.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117951.webp",
+      "imdb_rating": 7.96,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1371111",
+      "title": "Cloud Atlas",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1371111.webp",
+      "thumbnail_52": "/images/thumbnails/tt1371111.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 0,
+    "genres": {
+      "Adventure": 1,
+      "Action": 1,
+      "Science Fiction": 2,
+      "Drama": 4,
+      "Sci-Fi & Fantasy": 1,
+      "Comedy": 1,
+      "Crime": 2,
+      "Mystery": 1
+    },
+    "decades": {
+      "2010s": 3,
+      "2020s": 1,
+      "1990s": 1
+    }
+  }
+}

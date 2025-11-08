@@ -1,0 +1,125 @@
+{
+  "location": {
+    "city": "Richmond",
+    "country": "United States of America",
+    "slug": "richmond-united-states-of-america",
+    "coordinates": {
+      "lat": 38.08853615,
+      "lng": -81.73514184999999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt9174558",
+      "title": "Dopesick",
+      "year": 2021,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9174558.webp",
+      "thumbnail_52": "/images/thumbnails/tt9174558.webp",
+      "imdb_rating": 7.994,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt10148174",
+      "title": "The Walking Dead: World Beyond",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt10148174.webp",
+      "thumbnail_52": "/images/thumbnails/tt10148174.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2543328",
+      "title": "TURN: Washington's Spies",
+      "year": 2014,
+      "genres": [
+        "War & Politics",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2543328.webp",
+      "thumbnail_52": "/images/thumbnails/tt2543328.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0443272",
+      "title": "Lincoln",
+      "year": 2012,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0443272.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443272.webp",
+      "imdb_rating": 6.856,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0317919",
+      "title": "Mission: Impossible III",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0317919.webp",
+      "thumbnail_52": "/images/thumbnails/tt0317919.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0374900",
+      "title": "Napoleon Dynamite",
+      "year": 2004,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0374900.webp",
+      "thumbnail_52": "/images/thumbnails/tt0374900.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0212985",
+      "title": "Hannibal",
+      "year": 2001,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0212985.webp",
+      "thumbnail_52": "/images/thumbnails/tt0212985.webp",
+      "imdb_rating": 6.766,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 8,
+    "genres": {
+      "Adventure": 1,
+      "Action": 1,
+      "Thriller": 2,
+      "Comedy": 1,
+      "Crime": 2,
+      "Drama": 5,
+      "History": 1,
+      "War & Politics": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2000s": 3,
+      "2020s": 2,
+      "2010s": 2
+    }
+  }
+}

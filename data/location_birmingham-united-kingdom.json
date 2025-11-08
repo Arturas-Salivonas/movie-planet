@@ -1,0 +1,104 @@
+{
+  "location": {
+    "city": "Birmingham",
+    "country": "United Kingdom",
+    "slug": "birmingham-united-kingdom",
+    "coordinates": {
+      "lat": 52.48016785714286,
+      "lng": -1.9005421000000002
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2303687",
+      "title": "Line of Duty",
+      "year": 2012,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2303687.webp",
+      "thumbnail_52": "/images/thumbnails/tt2303687.webp",
+      "imdb_rating": 8.249,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0379632",
+      "title": "Hustle",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0379632.webp",
+      "thumbnail_52": "/images/thumbnails/tt0379632.webp",
+      "imdb_rating": 7.673,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1677720",
+      "title": "Ready Player One",
+      "year": 2018,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1677720.webp",
+      "thumbnail_52": "/images/thumbnails/tt1677720.webp",
+      "imdb_rating": 7.585,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt9603212",
+      "title": "Mission: Impossible - Dead Reckoning Part One",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt9603212.webp",
+      "thumbnail_52": "/images/thumbnails/tt9603212.webp",
+      "imdb_rating": 7.519,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9794044",
+      "title": "Citadel",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt9794044.webp",
+      "thumbnail_52": "/images/thumbnails/tt9794044.webp",
+      "imdb_rating": 6.827,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 7,
+    "genres": {
+      "Action": 2,
+      "Adventure": 2,
+      "Thriller": 1,
+      "Crime": 3,
+      "Drama": 3,
+      "Mystery": 2,
+      "Science Fiction": 1,
+      "Action & Adventure": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "2020s": 2,
+      "2010s": 2,
+      "2000s": 1
+    }
+  }
+}

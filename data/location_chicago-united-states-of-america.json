@@ -1,0 +1,788 @@
+{
+  "location": {
+    "city": "Chicago",
+    "country": "United States of America",
+    "slug": "chicago-united-states-of-america",
+    "coordinates": {
+      "lat": 41.869169285714285,
+      "lng": -87.6414900988096
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0468569",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0468569.webp",
+      "thumbnail_52": "/images/thumbnails/tt0468569.webp",
+      "imdb_rating": 8.524,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2805096",
+      "title": "Chicago P.D.",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2805096.webp",
+      "thumbnail_52": "/images/thumbnails/tt2805096.webp",
+      "imdb_rating": 8.411,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt2261391",
+      "title": "Chicago Fire",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2261391.webp",
+      "thumbnail_52": "/images/thumbnails/tt2261391.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1405406",
+      "title": "The Vampire Diaries",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1405406.webp",
+      "thumbnail_52": "/images/thumbnails/tt1405406.webp",
+      "imdb_rating": 8.313,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4655480",
+      "title": "Chicago Med",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4655480.webp",
+      "thumbnail_52": "/images/thumbnails/tt4655480.webp",
+      "imdb_rating": 8.282,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8420184",
+      "title": "The Last Dance",
+      "year": 2020,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "/images/posters/tt8420184.webp",
+      "thumbnail_52": "/images/thumbnails/tt8420184.webp",
+      "imdb_rating": 8.249,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1586680",
+      "title": "Shameless",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1586680.webp",
+      "thumbnail_52": "/images/thumbnails/tt1586680.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt14452776",
+      "title": "The Bear",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt14452776.webp",
+      "thumbnail_52": "/images/thumbnails/tt14452776.webp",
+      "imdb_rating": 8.162,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0455275",
+      "title": "Prison Break",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0455275.webp",
+      "thumbnail_52": "/images/thumbnails/tt0455275.webp",
+      "imdb_rating": 8.078,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0053125",
+      "title": "North by Northwest",
+      "year": 1959,
+      "genres": [
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0053125.webp",
+      "thumbnail_52": "/images/thumbnails/tt0053125.webp",
+      "imdb_rating": 7.98,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108757",
+      "title": "ER",
+      "year": 1994,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0108757.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108757.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14833612",
+      "title": "Castlevania: Nocturne",
+      "year": 2023,
+      "genres": [
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14833612.webp",
+      "thumbnail_52": "/images/thumbnails/tt14833612.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt19231492",
+      "title": "Dark Matter",
+      "year": 2024,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt19231492.webp",
+      "thumbnail_52": "/images/thumbnails/tt19231492.webp",
+      "imdb_rating": 7.799,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0088847",
+      "title": "The Breakfast Club",
+      "year": 1985,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0088847.webp",
+      "thumbnail_52": "/images/thumbnails/tt0088847.webp",
+      "imdb_rating": 7.728,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0080455",
+      "title": "The Blues Brothers",
+      "year": 1980,
+      "genres": [
+        "Music",
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0080455.webp",
+      "thumbnail_52": "/images/thumbnails/tt0080455.webp",
+      "imdb_rating": 7.724,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0092400",
+      "title": "Married... with Children",
+      "year": 1987,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0092400.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092400.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1070874",
+      "title": "The Trial of the Chicago 7",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt1070874.webp",
+      "thumbnail_52": "/images/thumbnails/tt1070874.webp",
+      "imdb_rating": 7.67,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0117381",
+      "title": "Primal Fear",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0117381.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117381.webp",
+      "imdb_rating": 7.654,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1442462",
+      "title": "The Good Wife",
+      "year": 2009,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1442462.webp",
+      "thumbnail_52": "/images/thumbnails/tt1442462.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4687882",
+      "title": "Patriot",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4687882.webp",
+      "thumbnail_52": "/images/thumbnails/tt4687882.webp",
+      "imdb_rating": 7.596,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1103987",
+      "title": "Leverage",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1103987.webp",
+      "thumbnail_52": "/images/thumbnails/tt1103987.webp",
+      "imdb_rating": 7.581,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0083437",
+      "title": "Knight Rider",
+      "year": 1982,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0083437.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083437.webp",
+      "imdb_rating": 7.532,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2953250",
+      "title": "Shining Girls",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2953250.webp",
+      "thumbnail_52": "/images/thumbnails/tt2953250.webp",
+      "imdb_rating": 7.526,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106977",
+      "title": "The Fugitive",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0106977.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106977.webp",
+      "imdb_rating": 7.467,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0240772",
+      "title": "Ocean's Eleven",
+      "year": 2001,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0240772.webp",
+      "thumbnail_52": "/images/thumbnails/tt0240772.webp",
+      "imdb_rating": 7.451,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0098635",
+      "title": "When Harry Met Sally...",
+      "year": 1989,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0098635.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098635.webp",
+      "imdb_rating": 7.405,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0945513",
+      "title": "Source Code",
+      "year": 2011,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0945513.webp",
+      "thumbnail_52": "/images/thumbnails/tt0945513.webp",
+      "imdb_rating": 7.303,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5368542",
+      "title": "The Exorcist",
+      "year": 2016,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5368542.webp",
+      "thumbnail_52": "/images/thumbnails/tt5368542.webp",
+      "imdb_rating": 7.293,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0420223",
+      "title": "Stranger Than Fiction",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0420223.webp",
+      "thumbnail_52": "/images/thumbnails/tt0420223.webp",
+      "imdb_rating": 7.281,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0437086",
+      "title": "Alita: Battle Angel",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0437086.webp",
+      "thumbnail_52": "/images/thumbnails/tt0437086.webp",
+      "imdb_rating": 7.243,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1606389",
+      "title": "The Vow",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1606389.webp",
+      "thumbnail_52": "/images/thumbnails/tt1606389.webp",
+      "imdb_rating": 7.235,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0097958",
+      "title": "National Lampoon's Christmas Vacation",
+      "year": 1989,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0097958.webp",
+      "thumbnail_52": "/images/thumbnails/tt0097958.webp",
+      "imdb_rating": 7.231,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0104694",
+      "title": "A League of Their Own",
+      "year": 1992,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0104694.webp",
+      "thumbnail_52": "/images/thumbnails/tt0104694.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106052",
+      "title": "Late Night with Conan O'Brien",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Talk"
+      ],
+      "poster": "/images/posters/tt0106052.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106052.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1833285",
+      "title": "Boss",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1833285.webp",
+      "thumbnail_52": "/images/thumbnails/tt1833285.webp",
+      "imdb_rating": 7.196,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3228904",
+      "title": "Empire",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Soap"
+      ],
+      "poster": "/images/posters/tt3228904.webp",
+      "thumbnail_52": "/images/thumbnails/tt3228904.webp",
+      "imdb_rating": 7.122,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0146882",
+      "title": "High Fidelity",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance",
+        "Music"
+      ],
+      "poster": "/images/posters/tt0146882.webp",
+      "thumbnail_52": "/images/thumbnails/tt0146882.webp",
+      "imdb_rating": 7.115,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt6905686",
+      "title": "Lovecraft Country",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt6905686.webp",
+      "thumbnail_52": "/images/thumbnails/tt6905686.webp",
+      "imdb_rating": 7.112,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5711280",
+      "title": "Philip K. Dick's Electric Dreams",
+      "year": 2017,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5711280.webp",
+      "thumbnail_52": "/images/thumbnails/tt5711280.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106168",
+      "title": "Walker, Texas Ranger",
+      "year": 1993,
+      "genres": [
+        "Drama",
+        "Western",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106168.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106168.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0343818",
+      "title": "I, Robot",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0343818.webp",
+      "thumbnail_52": "/images/thumbnails/tt0343818.webp",
+      "imdb_rating": 6.956,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13361448",
+      "title": "Night Sky",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13361448.webp",
+      "thumbnail_52": "/images/thumbnails/tt13361448.webp",
+      "imdb_rating": 6.932,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1840309",
+      "title": "Divergent",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1840309.webp",
+      "thumbnail_52": "/images/thumbnails/tt1840309.webp",
+      "imdb_rating": 6.909,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0104431",
+      "title": "Home Alone 2: Lost in New York",
+      "year": 1992,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0104431.webp",
+      "thumbnail_52": "/images/thumbnails/tt0104431.webp",
+      "imdb_rating": 6.768,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0096579",
+      "title": "Family Matters",
+      "year": 1989,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0096579.webp",
+      "thumbnail_52": "/images/thumbnails/tt0096579.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0212338",
+      "title": "Meet the Parents",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0212338.webp",
+      "thumbnail_52": "/images/thumbnails/tt0212338.webp",
+      "imdb_rating": 6.686,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1136617",
+      "title": "The Killer",
+      "year": 2023,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1136617.webp",
+      "thumbnail_52": "/images/thumbnails/tt1136617.webp",
+      "imdb_rating": 6.581,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0493464",
+      "title": "Wanted",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0493464.webp",
+      "thumbnail_52": "/images/thumbnails/tt0493464.webp",
+      "imdb_rating": 6.52,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2231461",
+      "title": "Rampage",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2231461.webp",
+      "thumbnail_52": "/images/thumbnails/tt2231461.webp",
+      "imdb_rating": 6.456,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0413300",
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0413300.webp",
+      "thumbnail_52": "/images/thumbnails/tt0413300.webp",
+      "imdb_rating": 6.447,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0207201",
+      "title": "What Women Want",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0207201.webp",
+      "thumbnail_52": "/images/thumbnails/tt0207201.webp",
+      "imdb_rating": 6.443,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2908446",
+      "title": "Insurgent",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2908446.webp",
+      "thumbnail_52": "/images/thumbnails/tt2908446.webp",
+      "imdb_rating": 6.364,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0290002",
+      "title": "Meet the Fockers",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0290002.webp",
+      "thumbnail_52": "/images/thumbnails/tt0290002.webp",
+      "imdb_rating": 6.251,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1399103",
+      "title": "Transformers: Dark of the Moon",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1399103.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399103.webp",
+      "imdb_rating": 6.219,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2975590",
+      "title": "Batman v Superman: Dawn of Justice",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt2975590.webp",
+      "thumbnail_52": "/images/thumbnails/tt2975590.webp",
+      "imdb_rating": 5.987,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 55,
+    "totalLocations": 84,
+    "genres": {
+      "Drama": 32,
+      "Action": 12,
+      "Crime": 13,
+      "Thriller": 9,
+      "Mystery": 5,
+      "Science Fiction": 8,
+      "Adventure": 8,
+      "Comedy": 18,
+      "Fantasy": 2,
+      "Action & Adventure": 3,
+      "Documentary": 1,
+      "Sci-Fi & Fantasy": 7,
+      "Family": 2,
+      "Romance": 7,
+      "Soap": 1,
+      "Music": 2,
+      "History": 1,
+      "Animation": 1,
+      "Western": 1,
+      "Talk": 1,
+      "War & Politics": 1
+    },
+    "decades": {
+      "2000s": 14,
+      "1990s": 7,
+      "2010s": 17,
+      "2020s": 9,
+      "1980s": 7,
+      "1950s": 1
+    }
+  }
+}

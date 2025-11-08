@@ -1,0 +1,190 @@
+{
+  "location": {
+    "city": "Westminster",
+    "country": "United Kingdom",
+    "slug": "westminster-united-kingdom",
+    "coordinates": {
+      "lat": 51.50830328571429,
+      "lng": -0.13272750714285714
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0468569",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0468569.webp",
+      "thumbnail_52": "/images/thumbnails/tt0468569.webp",
+      "imdb_rating": 8.524,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0080306",
+      "title": "Yes Minister",
+      "year": 1980,
+      "genres": [
+        "Comedy",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt0080306.webp",
+      "thumbnail_52": "/images/thumbnails/tt0080306.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0459159",
+      "title": "The Thick of It",
+      "year": 2005,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0459159.webp",
+      "thumbnail_52": "/images/thumbnails/tt0459159.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt7493974",
+      "title": "Bodyguard",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama",
+        "War & Politics",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt7493974.webp",
+      "thumbnail_52": "/images/thumbnails/tt7493974.webp",
+      "imdb_rating": 7.766,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0926084",
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0926084.webp",
+      "thumbnail_52": "/images/thumbnails/tt0926084.webp",
+      "imdb_rating": 7.738,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1631867",
+      "title": "Edge of Tomorrow",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1631867.webp",
+      "thumbnail_52": "/images/thumbnails/tt1631867.webp",
+      "imdb_rating": 7.631,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt9639470",
+      "title": "Last Night in Soho",
+      "year": 2021,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt9639470.webp",
+      "thumbnail_52": "/images/thumbnails/tt9639470.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0200465",
+      "title": "The Bank Job",
+      "year": 2008,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0200465.webp",
+      "thumbnail_52": "/images/thumbnails/tt0200465.webp",
+      "imdb_rating": 6.834,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt9032400",
+      "title": "Eternals",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt9032400.webp",
+      "thumbnail_52": "/images/thumbnails/tt9032400.webp",
+      "imdb_rating": 6.793,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0463854",
+      "title": "28 Weeks Later",
+      "year": 2007,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0463854.webp",
+      "thumbnail_52": "/images/thumbnails/tt0463854.webp",
+      "imdb_rating": 6.603,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0145660",
+      "title": "Austin Powers: The Spy Who Shagged Me",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0145660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0145660.webp",
+      "imdb_rating": 6.294,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 11,
+    "totalLocations": 0,
+    "genres": {
+      "Drama": 4,
+      "Action": 3,
+      "Crime": 4,
+      "Thriller": 4,
+      "Science Fiction": 4,
+      "Adventure": 3,
+      "Comedy": 3,
+      "War & Politics": 2,
+      "Fantasy": 1,
+      "Mystery": 2,
+      "Horror": 2
+    },
+    "decades": {
+      "2000s": 4,
+      "2020s": 2,
+      "2010s": 3,
+      "1980s": 1,
+      "1990s": 1
+    }
+  }
+}

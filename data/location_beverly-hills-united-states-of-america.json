@@ -1,0 +1,134 @@
+{
+  "location": {
+    "city": "Beverly Hills",
+    "country": "United States of America",
+    "slug": "beverly-hills-united-states-of-america",
+    "coordinates": {
+      "lat": 34.075097574999994,
+      "lng": -118.3987382125
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0061722",
+      "title": "The Graduate",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0061722.webp",
+      "thumbnail_52": "/images/thumbnails/tt0061722.webp",
+      "imdb_rating": 7.634,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2788432",
+      "title": "American Crime Story",
+      "year": 2016,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2788432.webp",
+      "thumbnail_52": "/images/thumbnails/tt2788432.webp",
+      "imdb_rating": 7.568,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0100405",
+      "title": "Pretty Woman",
+      "year": 1990,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0100405.webp",
+      "thumbnail_52": "/images/thumbnails/tt0100405.webp",
+      "imdb_rating": 7.46,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112697",
+      "title": "Clueless",
+      "year": 1995,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0112697.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112697.webp",
+      "imdb_rating": 7.265,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1564367",
+      "title": "Just Go with It",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1564367.webp",
+      "thumbnail_52": "/images/thumbnails/tt1564367.webp",
+      "imdb_rating": 6.705,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1001508",
+      "title": "He's Just Not That Into You",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1001508.webp",
+      "thumbnail_52": "/images/thumbnails/tt1001508.webp",
+      "imdb_rating": 6.614,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1411238",
+      "title": "No Strings Attached",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1411238.webp",
+      "thumbnail_52": "/images/thumbnails/tt1411238.webp",
+      "imdb_rating": 6.297,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1225901",
+      "title": "90210",
+      "year": 2008,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1225901.webp",
+      "thumbnail_52": "/images/thumbnails/tt1225901.webp",
+      "imdb_rating": 5.743,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 8,
+    "genres": {
+      "Drama": 4,
+      "Romance": 6,
+      "Comedy": 6,
+      "Crime": 1
+    },
+    "decades": {
+      "1960s": 1,
+      "2010s": 3,
+      "1990s": 2,
+      "2000s": 2
+    }
+  }
+}
