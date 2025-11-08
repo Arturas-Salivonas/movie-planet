@@ -84,7 +84,7 @@ function App() {
 
       {/* Reset Focus Button - Shows when a movie is focused */}
       {focusedMovieId && (
-        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20">
           <button
             onClick={handleResetFocus}
             className="px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center gap-2"

@@ -354,7 +354,7 @@ export default function MapClient({
 
       {/* Reset Focus Button - Shows when a movie is focused */}
       {focusedMovieId && (
-        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20">
           <button
             onClick={handleResetFocus}
             className="px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center gap-2"
@@ -367,7 +367,7 @@ export default function MapClient({
 
       {/* Reset View Button - Shows when user has viewed a location */}
       {isLocationViewed && !focusedMovieId && (
-        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20">
           <button
             onClick={handleResetView}
             className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center gap-2"

@@ -206,7 +206,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Reset to default view (Europe centered)
         map.current.flyTo({
           center: [0.35, 43],
-          zoom: 2.88,
+          zoom: 2, // Match the default starting zoom
           duration: 1500,
           essential: true
         })
@@ -295,9 +295,10 @@ const Map = forwardRef<MapRef, MapProps>(({
 
     map.current = new maplibregl.Map({
       container: mapContainer.current,
-      // Use MapTiler basic style - free tier, works with globe
-      style: 'https://api.maptiler.com/maps/basic-v2/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-      zoom: 2.88,
+      // Use custom grey style for minimalist look
+      // Alternative: use '/styles/custom-grey.json' for full custom control
+      style: 'https://api.maptiler.com/maps/streets-v4/style.json?key=q4aOhsVX264foFexJ7ga',
+      zoom: 2, // Lower = more zoomed out (default starting zoom)
       center: [0.35, 43], // Centered on Europe
       // hash: true // Removed for Next.js - using localStorage for clean URLs
     })
@@ -309,14 +310,16 @@ const Map = forwardRef<MapRef, MapProps>(({
           type: 'globe',
         })
 
-        // Restore map position from localStorage (clean URLs)
+        // ⚠️ IMPORTANT: Don't restore zoom from localStorage on first load
+        // This was overriding the default zoom setting above
+        // Only restore center position if user wants to continue where they left off
         if (typeof window !== 'undefined') {
           const savedState = localStorage.getItem('filmingmap_view')
           if (savedState) {
             try {
-              const { lat, lng, zoom } = JSON.parse(savedState)
+              const { lat, lng } = JSON.parse(savedState)
+              // Only restore center, not zoom - let default zoom take effect
               map.current.setCenter([lng, lat])
-              map.current.setZoom(zoom)
             } catch (e) {
               // Ignore invalid stored state
             }
@@ -363,7 +366,7 @@ const Map = forwardRef<MapRef, MapProps>(({
    */
   const createPosterIcon = async (posterPath: string | null, _movieId: string, _isMultiLocation: boolean): Promise<{ width: number; height: number; data: Uint8ClampedArray }> => {
     return new Promise((resolve) => {
-      const size = 60 // Consistent size for all markers
+      const size = 45 // Consistent size for all markers
       const canvas = document.createElement('canvas')
       canvas.width = size
       canvas.height = size
@@ -378,7 +381,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         ctx.fill()
 
         // White border
-        ctx.strokeStyle = '#FFFFFF'
+        ctx.strokeStyle = '#ffffffff'
         ctx.lineWidth = 3
         ctx.stroke()
 
@@ -454,68 +457,7 @@ const Map = forwardRef<MapRef, MapProps>(({
     async function initializeMarkers() {
       if (!map.current) return
 
-      // Load ALL posters BEFORE adding map layer (prevents warnings)
-      const BATCH_SIZE = 20
-      let loadedCount = 0
       const allFeatures = geojsonFeatures
-
-      // Only show loading on initial setup, not on StrictMode re-mounts
-      if (!initializedRef.current) {
-        setLoadingState({
-          isLoading: true,
-          progress: 90,
-          stage: `Loading posters... 0/${allFeatures.length}`
-        })
-      }
-
-      // Load posters in batches and await completion
-      for (let i = 0; i < allFeatures.length; i += BATCH_SIZE) {
-        const batch = allFeatures.slice(i, i + BATCH_SIZE)
-
-        await Promise.all(
-          batch.map(async (feature) => {
-            const movieId = feature.properties.movie_id
-            const posterPath = feature.properties.poster
-            const isMultiLocation = feature.properties.locations_count > 1
-            const iconName = `poster-${movieId}`
-
-            if (!map.current!.hasImage(iconName)) {
-              try {
-                const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
-                map.current!.addImage(iconName, posterIcon)
-                loadedImagesRef.current.add(iconName) // Mark as loaded
-                loadedCount++
-              } catch (error) {
-                console.error(`Failed to add poster icon for ${movieId}:`, error)
-                // Add fallback icon on error
-                const fallbackIcon = await createPosterIcon(null, movieId, isMultiLocation)
-                map.current!.addImage(iconName, fallbackIcon)
-                loadedImagesRef.current.add(iconName) // Mark as loaded
-                loadedCount++
-              }
-            } else {
-              loadedCount++
-            }
-          })
-        )
-
-        // Update progress after each batch
-        const progress = Math.round((loadedCount / allFeatures.length) * 100)
-        setLoadingState({
-          isLoading: true,
-          progress: 90 + (progress * 0.09), // 90-99% range
-          stage: `Loading posters... ${loadedCount}/${allFeatures.length}`
-        })
-      }
-
-      // Show rendering stage only on initial setup
-      if (!initializedRef.current) {
-        setLoadingState({
-          isLoading: true,
-          progress: 99,
-          stage: 'Rendering markers...'
-        })
-      }
 
       // Convert MultiPoint features into individual Point features for each location
       const displayFeatures: any[] = []
@@ -546,21 +488,36 @@ const Map = forwardRef<MapRef, MapProps>(({
         features: displayFeatures as any
       }
 
-      // Add source - DISABLE clustering so markers stay visible
+      // ✨ STEP 1: Show loading state
+      if (!initializedRef.current) {
+        setLoadingState({
+          isLoading: true,
+          progress: 50,
+          stage: 'Preparing globe...'
+        })
+      }
+
+      // ✨ STEP 2: Create default fallback icon FIRST
+      const fallbackIconName = 'poster-fallback'
+      if (!map.current!.hasImage(fallbackIconName)) {
+        const fallbackIcon = await createPosterIcon(null, 'fallback', false)
+        map.current!.addImage(fallbackIconName, fallbackIcon)
+      }
+
+      // ✨ STEP 3: Add source and layer immediately with fallback icons
       map.current!.addSource('movies', {
         type: 'geojson',
         data: geojson,
-        // Clustering disabled - we want to see all markers
         cluster: false,
       })
 
-      // Add all movie markers layer (now each marker represents one actual location)
       map.current!.addLayer({
         id: 'movie-markers',
         type: 'symbol',
         source: 'movies',
         layout: {
-          'icon-image': ['concat', 'poster-', ['get', 'movie_id']],
+          // Start with fallback icon for all markers
+          'icon-image': fallbackIconName,
           'icon-size': 0.85,
           'icon-allow-overlap': true,
           'text-field': ['get', 'title'],
@@ -579,13 +536,79 @@ const Map = forwardRef<MapRef, MapProps>(({
         }
       })
 
-      // All done - hide loading screen only on initial setup
+      // ✨ STEP 4: Hide loading screen immediately - globe is now visible with skeleton markers!
       if (!initializedRef.current) {
         setTimeout(() => {
           setLoadingState({ isLoading: false, progress: 100, stage: 'Complete' })
           initializedRef.current = true
-        }, 300) // Small delay for smooth transition
+        }, 300)
       }
+
+      // ✨ STEP 5: Load real posters in background (async, non-blocking)
+      const BATCH_SIZE = 50 // Larger batches for faster loading
+      let loadedCount = 0
+      const loadedMovieIds = new Set<string>()
+
+      // Load posters in background without blocking UI
+      setTimeout(async () => {
+        console.log('🎬 Starting background poster loading...')
+
+        for (let i = 0; i < allFeatures.length; i += BATCH_SIZE) {
+          const batch = allFeatures.slice(i, i + BATCH_SIZE)
+
+          // Process batch without awaiting individual images
+          await Promise.allSettled(
+            batch.map(async (feature) => {
+              const movieId = feature.properties.movie_id
+              const posterPath = feature.properties.poster
+              const isMultiLocation = feature.properties.locations_count > 1
+              const iconName = `poster-${movieId}`
+
+              if (!map.current!.hasImage(iconName) && !loadedImagesRef.current.has(iconName)) {
+                try {
+                  const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
+                  if (map.current) {
+                    map.current!.addImage(iconName, posterIcon)
+                    loadedImagesRef.current.add(iconName)
+                    loadedMovieIds.add(movieId)
+                    loadedCount++
+
+                    // Update icon-image expression every 10 posters to show progress
+                    if (loadedCount % 10 === 0 && map.current.getLayer('movie-markers')) {
+                      // Build dynamic expression that uses real poster if available, fallback otherwise
+                      const iconExpression: any = [
+                        'case',
+                        ['in', ['get', 'movie_id'], ['literal', Array.from(loadedMovieIds)]],
+                        ['concat', 'poster-', ['get', 'movie_id']],
+                        fallbackIconName
+                      ]
+                      map.current.setLayoutProperty('movie-markers', 'icon-image', iconExpression)
+                    }
+                  }
+                } catch (error) {
+                  console.error(`Failed to load poster for ${movieId}`, error)
+                }
+              }
+            })
+          )
+
+          // Small delay between batches to keep UI responsive
+          await new Promise(resolve => setTimeout(resolve, 100))
+        }
+
+        console.log(`✅ Finished loading ${loadedCount} movie posters in background`)
+
+        // Final update with all loaded posters
+        if (map.current && map.current.getLayer('movie-markers')) {
+          const iconExpression: any = [
+            'case',
+            ['in', ['get', 'movie_id'], ['literal', Array.from(loadedMovieIds)]],
+            ['concat', 'poster-', ['get', 'movie_id']],
+            fallbackIconName
+          ]
+          map.current.setLayoutProperty('movie-markers', 'icon-image', iconExpression)
+        }
+      }, 500) // Start loading posters 500ms after globe is visible
 
       // Add unified click handler for all movie markers
       const handleMarkerClick = (e: any) => {
