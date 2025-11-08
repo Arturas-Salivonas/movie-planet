@@ -259,17 +259,16 @@ export default function MapClient({
   return (
     <div className="relative w-full h-full z-10">
       {/* Logo/Brand - Top Left */}
-      <div className="absolute top-4 left-4 z-10 text-white px-6 py-3">
+      <div className="absolute top-4 left-4 z-10 text-white px-2 sm:px-6 py-2 sm:py-3">
         <div className="flex items-center gap-3">
-
           <div>
-        <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="" />
+            <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="h-8 sm:h-auto" />
           </div>
         </div>
       </div>
 
       {/* Search Bar - Top Center */}
-      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 w-96">
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 w-11/12 sm:w-96 max-w-md">
         <Suspense fallback={
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
             <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
@@ -282,8 +281,8 @@ export default function MapClient({
         </Suspense>
       </div>
 
-      {/* Filters Panel - Top Right */}
-      <div className="absolute top-4 right-4 z-10 w-80">
+      {/* Filters Panel - Top Right (Hidden on Mobile) */}
+      <div className="hidden lg:block absolute top-4 right-4 z-10 w-80">
         <Suspense fallback={
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
             <div className="space-y-3">
@@ -354,12 +353,11 @@ export default function MapClient({
 
       {/* Reset Focus Button - Shows when a movie is focused */}
       {focusedMovieId && (
-        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
           <button
             onClick={handleResetFocus}
-            className="px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center gap-2"
+            className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
           >
-
             <span>Show All Movies</span>
           </button>
         </div>
@@ -367,21 +365,23 @@ export default function MapClient({
 
       {/* Reset View Button - Shows when user has viewed a location */}
       {isLocationViewed && !focusedMovieId && (
-        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
           <button
             onClick={handleResetView}
-            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center gap-2"
+            className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base"
           >
-
             <span>Reset View</span>
           </button>
         </div>
       )}
 
       {/* Footer - Attribution */}
-      <div className="absolute bottom-4 left-4 z-10 text-xs text-gray-600 dark:text-gray-400 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm px-3 py-1 rounded">
-        Created with ❤️ by <a href="https://github.com/Arturas-Salivonas" target="_blank" rel="noopener noreferrer" className="hover:underline">Arturas Salivonas</a>
-
+      <div className="absolute bottom-4 left-4 z-10 text-xs text-gray-600 dark:text-gray-400 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm px-2 sm:px-3 py-1 rounded max-w-[calc(100vw-2rem)] sm:max-w-none">
+        <span className="hidden sm:inline">Created with ❤️ by </span>
+        <a href="https://github.com/Arturas-Salivonas" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <span className="sm:hidden">AS</span>
+          <span className="hidden sm:inline">Arturas Salivonas</span>
+        </a>
       </div>
     </div>
   )

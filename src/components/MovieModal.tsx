@@ -143,14 +143,14 @@ export default function MovieModal({
 
           {/* Filming Locations */}
           <div className="mb-6">
-            <div className="flex items-center justify-between mb-3">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-3">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                 Filming Locations ({movie.locations.length})
               </h3>
               {movie.locations.length > 1 && onShowAllLocations && (
                 <button
                   onClick={onShowAllLocations}
-                  className="px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                  className="px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-semibold transition-colors flex items-center gap-2 justify-center sm:justify-start"
                 >
                   <span>🗺️</span>
                   <span>Show All on Map</span>

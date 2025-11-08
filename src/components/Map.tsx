@@ -1032,14 +1032,8 @@ const Map = forwardRef<MapRef, MapProps>(({
                 padding-bottom: 8px;
                 border-bottom: 2px solid #FF6B6B;
               ">
-                <span>📍 ${features.length} Movies Here!</span>
-                <span style="
-                  background: #FF6B6B;
-                  color: white;
-                  padding: 2px 8px;
-                  border-radius: 12px;
-                  font-size: 12px;
-                ">×${features.length}</span>
+                <span>📍 ${features.length} Movies in this Location!</span>
+
               </div>
               <div style="max-height: 300px; overflow-y: auto;">
                 ${movieList}
@@ -1058,16 +1052,16 @@ const Map = forwardRef<MapRef, MapProps>(({
                 ` : ''}
               </div>
               <div style="
-                color: #06b82a;
+                 color: #FFD700;
                 font-size: 12px;
                 font-weight: bold;
                 padding-top: 12px;
                 margin-top: 12px;
                 border-top: 2px solid #444;
                 text-align: center;
-                animation: pulse 2s infinite;
+
               ">
-                👆 Click repeatedly to cycle through all movies →
+               Zoom in to see all movies
               </div>
             </div>
           `
@@ -1219,8 +1213,8 @@ const Map = forwardRef<MapRef, MapProps>(({
         </div>
       )}
 
-      {/* Instructions - Left Side */}
-      <div className="absolute top-24 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+      {/* Instructions - Left Side (Hidden on Mobile) */}
+      <div className="hidden lg:block absolute top-24 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
         <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
           <span>ℹ️</span> How to Use
         </h3>
@@ -1232,8 +1226,8 @@ const Map = forwardRef<MapRef, MapProps>(({
         </ul>
       </div>
 
-      {/* Movie Statistics - Top Right */}
-      <div className="absolute top-24 right-4 z-10 flex gap-3">
+      {/* Movie Statistics - Top Right (Hidden on Mobile) */}
+      <div className="hidden lg:flex absolute top-24 right-4 z-10 gap-3">
         <div className="bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🎬</span>
