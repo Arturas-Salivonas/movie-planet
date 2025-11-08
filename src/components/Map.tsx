@@ -145,7 +145,7 @@ const Map = forwardRef<MapRef, MapProps>(({
           type: 'line',
           source: 'connecting-line',
           paint: {
-            'line-color': '#F59E0B',
+            'line-color': '#06b82aff',
             'line-width': 4,
             'line-opacity': 0.9,
             'line-blur': 1
@@ -377,7 +377,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Create circular background
         ctx.beginPath()
         ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#FFD700'
+        ctx.fillStyle = '#06b82aff'
         ctx.fill()
 
         // White border
@@ -387,7 +387,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
         // Film icon
         ctx.fillStyle = '#FFFFFF'
-        ctx.font = 'bold 24px __GeistSans_fb8f2c'
+        ctx.font = 'bold 24px Arial Unicode MS Bold'
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText('🎬', size / 2, size / 2)
@@ -413,7 +413,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // White border around circle
         ctx.beginPath()
         ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#FFD700'
+        ctx.strokeStyle = '#06b82aff'
         ctx.lineWidth = 3
         ctx.stroke()
 
@@ -424,7 +424,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Fallback on error - circular icon
         ctx.beginPath()
         ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#FFD700'
+        ctx.fillStyle = '#06b82aff'
         ctx.fill()
         ctx.strokeStyle = '#FFFFFF'
         ctx.lineWidth = 3
@@ -432,7 +432,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
         // Film icon fallback
         ctx.fillStyle = '#FFFFFF'
-        ctx.font = 'bold 20px __GeistSans_fb8f2c'
+        ctx.font = 'bold 20px Arial Unicode MS Bold'
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText('🎬', size / 2, size / 2)
@@ -521,7 +521,7 @@ const Map = forwardRef<MapRef, MapProps>(({
           'icon-size': 0.85,
           'icon-allow-overlap': true,
           'text-field': ['get', 'title'],
-          'text-font': ['__GeistSans_fb8f2c', 'Arial Unicode MS Bold'],
+          'text-font': ['Arial Unicode MS Bold', 'Arial Unicode MS Bold'],
           'text-size': 16,
           'text-offset': [0, 1.8],
           'text-anchor': 'top',
@@ -529,9 +529,9 @@ const Map = forwardRef<MapRef, MapProps>(({
           'text-allow-overlap': false
         },
         paint: {
-          'text-color': '#FFD700',
+          'text-color': '#06b82aff',
           'text-halo-color': '#000000ff',
-          'text-halo-width': 3,
+          'text-halo-width': 1,
           'text-halo-blur': 0
         }
       })
@@ -780,14 +780,11 @@ const Map = forwardRef<MapRef, MapProps>(({
         <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
           <div className="text-center space-y-6 px-8">
             {/* Movie emoji animation */}
-            <div className="text-7xl animate-bounce">
-              🎬
+            <div className="text-xl animate-bounce">
+              <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="" />
             </div>
 
-            {/* Title */}
-            <h2 className="text-3xl font-bold text-white">
-              filmingmap
-            </h2>
+
 
             {/* Loading stage text */}
             <p className="text-xl text-gray-300">

@@ -159,7 +159,7 @@ export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
           onFocus={() => query && results.length > 0 && setIsOpen(true)}
-          placeholder="Search movies, actors, cities..."
+          placeholder="Search..."
           aria-label="Search movies"
           className="w-full px-4 py-3 pl-12 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
         />
