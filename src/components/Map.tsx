@@ -311,7 +311,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
         // Restore map position from localStorage (clean URLs)
         if (typeof window !== 'undefined') {
-          const savedState = localStorage.getItem('cinemap_view')
+          const savedState = localStorage.getItem('filmingmap_view')
           if (savedState) {
             try {
               const { lat, lng, zoom } = JSON.parse(savedState)
@@ -331,7 +331,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       if (!map.current || typeof window === 'undefined') return
       const center = map.current.getCenter()
       const zoom = map.current.getZoom()
-      localStorage.setItem('cinemap_view', JSON.stringify({
+      localStorage.setItem('filmingmap_view', JSON.stringify({
         lat: center.lat,
         lng: center.lng,
         zoom: zoom
@@ -374,7 +374,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Create circular background
         ctx.beginPath()
         ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#3B82F6'
+        ctx.fillStyle = '#FFD700'
         ctx.fill()
 
         // White border
@@ -384,7 +384,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
         // Film icon
         ctx.fillStyle = '#FFFFFF'
-        ctx.font = 'bold 24px Arial'
+        ctx.font = 'bold 24px __GeistSans_fb8f2c'
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText('🎬', size / 2, size / 2)
@@ -410,7 +410,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // White border around circle
         ctx.beginPath()
         ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#10be50ff'
+        ctx.strokeStyle = '#FFD700'
         ctx.lineWidth = 3
         ctx.stroke()
 
@@ -421,7 +421,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Fallback on error - circular icon
         ctx.beginPath()
         ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#3B82F6'
+        ctx.fillStyle = '#FFD700'
         ctx.fill()
         ctx.strokeStyle = '#FFFFFF'
         ctx.lineWidth = 3
@@ -429,7 +429,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
         // Film icon fallback
         ctx.fillStyle = '#FFFFFF'
-        ctx.font = 'bold 20px Arial'
+        ctx.font = 'bold 20px __GeistSans_fb8f2c'
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText('🎬', size / 2, size / 2)
@@ -561,21 +561,21 @@ const Map = forwardRef<MapRef, MapProps>(({
         source: 'movies',
         layout: {
           'icon-image': ['concat', 'poster-', ['get', 'movie_id']],
-          'icon-size': 0.7,
+          'icon-size': 0.85,
           'icon-allow-overlap': true,
           'text-field': ['get', 'title'],
-          'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-          'text-size': 14,
-          'text-offset': [0, 2.8],
+          'text-font': ['__GeistSans_fb8f2c', 'Arial Unicode MS Bold'],
+          'text-size': 16,
+          'text-offset': [0, 1.8],
           'text-anchor': 'top',
           'text-max-width': 12,
           'text-allow-overlap': false
         },
         paint: {
-          'text-color': '#10be50ff',
-          'text-halo-color': '#1F2937',
-          'text-halo-width': 2.5,
-          'text-halo-blur': 1
+          'text-color': '#FFD700',
+          'text-halo-color': '#000000ff',
+          'text-halo-width': 3,
+          'text-halo-blur': 0
         }
       })
 
@@ -763,7 +763,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
             {/* Title */}
             <h2 className="text-3xl font-bold text-white">
-              CineMap
+              filmingmap
             </h2>
 
             {/* Loading stage text */}
@@ -801,7 +801,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       </div>
 
       {/* Movie Statistics - Top Right */}
-      <div className="absolute top-24 right-4 z-10 flex flex-col gap-3">
+      <div className="absolute top-24 right-4 z-10 flex gap-3">
         <div className="bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🎬</span>

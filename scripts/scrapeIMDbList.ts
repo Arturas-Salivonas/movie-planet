@@ -53,11 +53,9 @@ const CONFIG = {
   IMDB_URLS: {
     movies: [
       'https://www.imdb.com/search/title/?title_type=feature&sort=num_votes,desc&start=', // Popular movies
-      'https://www.imdb.com/chart/top/?ref_=nv_mv_250', // Top 250
     ],
     tvshows: [
       'https://www.imdb.com/search/title/?title_type=tv_series&sort=num_votes,desc&start=', // Popular TV shows
-      'https://www.imdb.com/chart/toptv/?ref_=nv_tvv_250', // Top 250 TV
     ],
     all: [
       'https://www.imdb.com/search/title/?title_type=feature,tv_series&sort=num_votes,desc&start=',
@@ -65,6 +63,7 @@ const CONFIG = {
   },
 
   ITEMS_PER_PAGE: 50, // IMDb shows 50 items per page
+  MAX_ITEMS_PER_URL: 1000, // Maximum items to load from a single URL (via "Load More")
   REQUEST_DELAY: 2000, // 2 seconds between requests
   MAX_RETRIES: 3,
   HEADLESS: true,
@@ -144,11 +143,81 @@ async function addItemsToInput(newItems: IMDbItem[]): Promise<void> {
 // Scraping Functions
 // ============================================================================
 
-async function scrapeIMDbSearchPage(page: Page, url: string): Promise<IMDbItem[]> {
+async function scrapeIMDbSearchPage(page: Page, url: string, maxItems: number = 500): Promise<IMDbItem[]> {
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 })
 
   // Wait for the content to load
   await page.waitForSelector('.lister-item, .ipc-metadata-list-summary-item', { timeout: 10000 })
+
+  // Check if we're on the new IMDb design with "Load More" button
+  const hasLoadMoreButton = await page.$('.ipc-see-more__button')
+
+  if (hasLoadMoreButton) {
+    console.log(`   🔄 New IMDb design detected - using "Load More" strategy`)    // Keep clicking "Load More" until we have enough items or button disappears
+    let previousCount = 0
+    let stuckCount = 0
+
+    while (stuckCount < 3) {
+      const currentCount = await page.evaluate(() => {
+        return document.querySelectorAll('.ipc-metadata-list-summary-item').length
+      })
+
+      console.log(`   📊 Loaded ${currentCount} items so far...`)
+
+      if (currentCount >= maxItems) {
+        console.log(`   ✅ Reached target of ${maxItems} items`)
+        break
+      }
+
+      // Check if we're stuck (no new items loaded)
+      if (currentCount === previousCount) {
+        stuckCount++
+        console.log(`   ⏳ Waiting for more items... (${stuckCount}/3)`)
+      } else {
+        stuckCount = 0
+      }
+      previousCount = currentCount
+
+      // Try to find and click the "Load More" button
+      try {
+        // Find and click button using page.evaluate (more reliable)
+        const buttonClicked = await page.evaluate(() => {
+          const selectors = [
+            'button.ipc-see-more__button',
+            'button[class*="ipc-see-more"]',
+            '.ipc-see-more button'
+          ]
+
+          for (const selector of selectors) {
+            const buttons = document.querySelectorAll(selector)
+            for (const btn of buttons) {
+              const text = btn.textContent || ''
+              if (text.toLowerCase().includes('more')) {
+                (btn as HTMLButtonElement).scrollIntoView({ behavior: 'smooth', block: 'center' })
+                setTimeout(() => (btn as HTMLButtonElement).click(), 300)
+                return true
+              }
+            }
+          }
+          return false
+        })
+
+        if (!buttonClicked) {
+          console.log(`   ℹ️  No more "Load More" button found`)
+          break
+        }
+
+        // Wait for new content to load
+        await new Promise(resolve => setTimeout(resolve, 2000)) // Give it time to load
+
+      } catch (error: any) {
+        console.log(`   ⚠️  Could not click "Load More": ${error.message}`)
+        break
+      }
+    }
+
+    console.log(`   ✅ Finished loading items via "Load More" button`)
+  }
 
   const items = await page.evaluate(() => {
     const results: IMDbItem[] = []
@@ -406,18 +475,20 @@ async function scrapeContent(
           if (scrapedItems.length >= targetCount) break
 
         } else {
-          // Handle paginated search results
+          // Handle paginated search results (new design uses "Load More" button)
           const startIndex = currentPage * CONFIG.ITEMS_PER_PAGE + 1
           const url = `${baseUrl}${startIndex}`
 
           console.log(`📄 Page ${currentPage + 1}: ${url}`)
+          console.log(`   🎯 Will attempt to load up to ${CONFIG.MAX_ITEMS_PER_URL} items from this URL`)
 
           let retries = 0
           let items: IMDbItem[] = []
 
           while (retries < CONFIG.MAX_RETRIES) {
             try {
-              items = await scrapeIMDbSearchPage(page, url)
+              // Pass the max items we want to load from this URL
+              items = await scrapeIMDbSearchPage(page, url, CONFIG.MAX_ITEMS_PER_URL)
               break
             } catch (error: any) {
               retries++

@@ -1,5 +1,5 @@
 /**
- * CineMap - Type Definitions
+ * filmingmap - Type Definitions
  * Adapted to match the data schema from Stage 2
  */
 

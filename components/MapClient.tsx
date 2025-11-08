@@ -36,7 +36,7 @@ const Map = forwardRef<MapRef, MapProps>((props, ref) => {
       <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
         <div className="text-center space-y-6 px-8">
           <div className="text-7xl animate-bounce">🎬</div>
-          <h2 className="text-3xl font-bold text-white">CineMap</h2>
+          <h2 className="text-3xl font-bold text-white">filmingmap</h2>
           <p className="text-xl text-gray-300">Loading globe...</p>
         </div>
       </div>
@@ -259,14 +259,11 @@ export default function MapClient({
   return (
     <div className="relative w-full h-full z-10">
       {/* Logo/Brand - Top Left */}
-      <div className="absolute top-4 left-4 z-10 bg-black/80 backdrop-blur-sm text-white px-6 py-3 rounded-xl shadow-2xl border border-white/20">
+      <div className="absolute top-4 left-4 z-10 text-white px-6 py-3">
         <div className="flex items-center gap-3">
-          <span className="text-3xl">🌍</span>
+
           <div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              CineMap
-            </h1>
-            <p className="text-[10px] text-gray-400 tracking-wider">EXPLORE MOVIE FILMING LOCATIONS</p>
+        <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="" />
           </div>
         </div>
       </div>
@@ -362,7 +359,7 @@ export default function MapClient({
             onClick={handleResetFocus}
             className="px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center gap-2"
           >
-            <span>↩️</span>
+
             <span>Show All Movies</span>
           </button>
         </div>
@@ -375,7 +372,7 @@ export default function MapClient({
             onClick={handleResetView}
             className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center gap-2"
           >
-            <span className="text-xl">🌍</span>
+
             <span>Reset View</span>
           </button>
         </div>
@@ -383,23 +380,8 @@ export default function MapClient({
 
       {/* Footer - Attribution */}
       <div className="absolute bottom-4 left-4 z-10 text-xs text-gray-600 dark:text-gray-400 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm px-3 py-1 rounded">
-        <a
-          href="https://www.openstreetmap.org/copyright"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          © OpenStreetMap contributors
-        </a>
-        {' | '}
-        <a
-          href="https://carto.com/attributions"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          © CARTO
-        </a>
+        Created with ❤️ by <a href="https://github.com/Arturas-Salivonas" target="_blank" rel="noopener noreferrer" className="hover:underline">Arturas Salivonas</a>
+
       </div>
     </div>
   )

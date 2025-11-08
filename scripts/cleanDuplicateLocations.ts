@@ -51,7 +51,7 @@ function deduplicateLocationsByCoordinates(locations: Location[]): Location[] {
 }
 
 async function main() {
-  console.log('\n🔧 CineMap - Clean Duplicate Locations')
+  console.log('\n🔧 filmingmap - Clean Duplicate Locations')
   console.log('=======================================\n')
 
   const enrichedPath = path.join(__dirname, '../data/movies_enriched.json')

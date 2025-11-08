@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!movie) {
     return {
-      title: 'Movie Not Found | CineMap',
+      title: 'Movie Not Found | filmingmap',
       description: 'The requested movie could not be found.',
     }
   }

@@ -1,4 +1,4 @@
-# CineMap 🎬🌍
+# filmingmap 🎬🌍
 
 > An interactive 3D globe visualization showing authentic filming locations from the world's greatest movies.
 
@@ -31,8 +31,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/cinemap.git
-   cd cinemap
+   git clone https://github.com/yourusername/filmingmap.git
+   cd filmingmap
    ```
 
 2. **Install dependencies**
@@ -64,7 +64,7 @@
 ## 📦 Project Structure
 
 ```
-cinemap/
+filmingmap/
 ├── src/
 │   ├── components/
 │   │   ├── Map.tsx           # 3D globe with MapLibre GL JS

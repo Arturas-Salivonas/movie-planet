@@ -6,7 +6,7 @@ import { getAllMovieSlugs } from '../lib/movies'
  * Optimized for 10k+ movies with proper priority and change frequency
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cinemap.com'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://filmingmap.com'
   const now = new Date()
 
   // Homepage

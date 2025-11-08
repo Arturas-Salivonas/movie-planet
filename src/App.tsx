@@ -89,7 +89,7 @@ function App() {
             onClick={handleResetFocus}
             className="px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center gap-2"
           >
-            <span>↩️</span>
+
             <span>Show All Movies</span>
           </button>
         </div>

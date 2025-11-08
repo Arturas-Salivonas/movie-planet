@@ -22,7 +22,7 @@ const __dirname = path.dirname(__filename)
 // Get target count from command line args
 const targetCount = parseInt(process.argv[2] || '50', 10)
 
-console.log('\n🎬 CineMap Automated Fetch & Transform')
+console.log('\n🎬 filmingmap Automated Fetch & Transform')
 console.log('========================================\n')
 console.log(`🎯 Target: Add ${targetCount} new movies to database\n`)
 
@@ -377,7 +377,7 @@ async function main() {
     console.log('🚀 Starting automated fetch...\n')
 
     try {
-      execSync('npm run fetch:auto', {
+      execSync('tsx scripts/fetchMoviesAuto.ts', {
         cwd: path.join(__dirname, '..'),
         stdio: 'inherit',
         env: {
@@ -398,17 +398,15 @@ async function main() {
       console.log(`🧹 Cleaned up temporary files\n`)
     } catch {}
 
-    // Step 7: Copy to production file
+    // Step 7: Verify the enriched file (no copy needed - fetchMoviesAuto writes directly)
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    console.log('📦 Copying to production file...\n')
+    console.log('📦 Verifying enriched database...\n')
 
-    const autoPath = path.join(__dirname, '../data/movies_enriched_auto.json')
     try {
-      await fs.copyFile(autoPath, enrichedPath)
       const finalData = JSON.parse(await fs.readFile(enrichedPath, 'utf-8'))
-      console.log(`✅ Updated movies_enriched.json (${finalData.length} movies)\n`)
+      console.log(`✅ Database contains ${finalData.length} movies\n`)
     } catch (error) {
-      console.error('❌ Error copying file:', error)
+      console.error('❌ Error reading database:', error)
       process.exit(1)
     }
 

@@ -4,7 +4,7 @@ import { MetadataRoute } from 'next'
  * Generate robots.txt for SEO crawler instructions
  */
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cinemap.com'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://filmingmap.com'
 
   return {
     rules: [
