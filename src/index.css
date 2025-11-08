@@ -110,8 +110,25 @@ body {
 /* MapLibre custom styles */
 .maplibregl-popup-content,
 .mapboxgl-popup-content {
-  @apply rounded-lg shadow-2xl p-0 bg-white dark:bg-gray-800;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  @apply rounded-lg shadow-2xl p-0 bg-transparent;
+  border: none;
+  background: transparent !important;
+}
+
+/* Remove padding and background for movie marker popups */
+.movie-marker-popup .maplibregl-popup-content,
+.movie-marker-popup .mapboxgl-popup-content {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Hide the popup arrow/tip for cleaner look */
+.movie-marker-popup .maplibregl-popup-tip,
+.movie-marker-popup .mapboxgl-popup-tip {
+  display: none !important;
 }
 
 .maplibregl-popup-close-button,

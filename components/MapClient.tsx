@@ -36,7 +36,7 @@ const Map = forwardRef<MapRef, MapProps>((props, ref) => {
       <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
         <div className="text-center space-y-6 px-8">
           <div className="text-7xl animate-bounce">🎬</div>
-          <h2 className="text-3xl font-bold text-white">filmingmap</h2>
+          <h2 className="text-3xl font-bold text-white">FilmingMap</h2>
           <p className="text-xl text-gray-300">Loading globe...</p>
         </div>
       </div>

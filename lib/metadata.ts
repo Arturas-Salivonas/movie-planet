@@ -5,7 +5,7 @@
 import type { Metadata } from 'next'
 import type { Movie } from './types'
 
-const SITE_NAME = 'filmingmap'
+const SITE_NAME = 'FilmingMap'
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://filmingmap.com'
 const SITE_DESCRIPTION = 'Explore filming locations of your favorite movies on an interactive 3D globe'
 
@@ -41,7 +41,7 @@ export function generateHomeMetadata(): Metadata {
       title: `${SITE_NAME} - Movie Filming Locations`,
       description: SITE_DESCRIPTION,
       images: [`${SITE_URL}/og-image.jpg`],
-      creator: '@filmingmap',
+      creator: '@FilmingMap',
     },
     robots: {
       index: true,
@@ -121,7 +121,7 @@ export function generateMovieMetadata(movie: Movie, slug: string): Metadata {
       title,
       description,
       images: [posterUrl],
-      creator: '@filmingmap',
+      creator: '@FilmingMap',
     },
     robots: {
       index: true,

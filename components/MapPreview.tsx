@@ -25,7 +25,7 @@ export default function MapPreview({ movie, selectedLocationIndex = 0 }: MapPrev
     map.current = new maplibregl.Map({
       container: mapContainer.current,
       style: 'https://api.maptiler.com/maps/basic-v2/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-      zoom: 2,
+      zoom: 3,
       center: [0, 20],
     })
 

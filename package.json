@@ -2,7 +2,12 @@
   "name": "filmingmap",
   "version": "2.0.0",
   "private": true,
-  "description": "Interactive 3D/2.5D world map showing where films and TV shows were filmed",
+  "description": "Explore filming locations of your favorite movies on an interactive 3D globe - filmingmap.com",
+  "homepage": "https://filmingmap.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arturas-Salivonas/filmingmap.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "npm run prebuild && next build",

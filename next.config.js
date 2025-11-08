@@ -7,6 +7,9 @@ const nextConfig = {
     domains: ['image.tmdb.org'],
     formats: ['image/webp', 'image/avif'],
     unoptimized: false, // Enable Next.js image optimization
+    minimumCacheTTL: 31536000, // Cache for 1 year
+    deviceSizes: [640, 750, 828, 1080, 1200],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
   // Optimize for 10k+ movies - enable static export

@@ -67,6 +67,9 @@ const Map = forwardRef<MapRef, MapProps>(({
   // Track which poster images have been loaded to prevent redundant loading
   const loadedImagesRef = useRef<Set<string>>(new Set())
 
+  // Cache loaded image elements in memory to avoid re-downloading on refresh
+  const imageCacheRef = useRef<{ [key: string]: HTMLImageElement }>({})
+
   // Loading state for progressive rendering
   const [loadingState, setLoadingState] = useState<{
     isLoading: boolean
@@ -81,30 +84,18 @@ const Map = forwardRef<MapRef, MapProps>(({
   // Expose methods to parent component
   useImperativeHandle(ref, () => ({
     showAllLocationsForMovie: (movie: Movie) => {
-      console.log('🗺️ Map.showAllLocationsForMovie called', {
-        movieId: movie.movie_id,
-        hasMap: !!map.current,
-        featuresLength: geojsonFeatures.length
-      })
-
       if (!map.current) {
-        console.error('❌ Map not initialized')
         return
       }
 
       const feature = geojsonFeatures.find(f => f.properties.movie_id === movie.movie_id)
       if (!feature) {
-        console.error('❌ Feature not found for movie', movie.movie_id)
         return
       }
-
-      console.log('✅ Feature found, drawing lines', feature)
 
       const coordinates = feature.geometry.type === 'MultiPoint'
         ? feature.geometry.coordinates as number[][]
         : [feature.geometry.coordinates as number[]]
-
-      console.log('📍 Coordinates:', coordinates)
 
       // Calculate bounds
       const bounds = new maplibregl.LngLatBounds()
@@ -127,7 +118,6 @@ const Map = forwardRef<MapRef, MapProps>(({
 
       // Draw connecting polyline for multi-location movies
       if (coordinates.length > 1) {
-        console.log('✅ Drawing line with', coordinates.length, 'points')
         map.current.addSource('connecting-line', {
           type: 'geojson',
           data: {
@@ -151,8 +141,6 @@ const Map = forwardRef<MapRef, MapProps>(({
             'line-blur': 1
           }
         })
-      } else {
-        console.log('ℹ️ Only 1 location, no line needed')
       }
     },
     flyToLocation: (lat: number, lng: number) => {
@@ -206,7 +194,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Reset to default view (Europe centered)
         map.current.flyTo({
           center: [0.35, 43],
-          zoom: 2, // Match the default starting zoom
+          zoom: 3, // Match the default starting zoom
           duration: 1500,
           essential: true
         })
@@ -278,8 +266,6 @@ const Map = forwardRef<MapRef, MapProps>(({
         // Convert all GeoJSON features to Movie objects
         const moviesFromGeoJSON: Movie[] = geojsonData.features.map(convertFeatureToMovie)
         setMovies(moviesFromGeoJSON)
-
-        console.log(`📊 Loaded ${geojsonData.features.length} movies for progressive rendering`)
       } catch (error) {
         console.error('Failed to load data:', error)
       }
@@ -298,9 +284,13 @@ const Map = forwardRef<MapRef, MapProps>(({
       // Use custom grey style for minimalist look
       // Alternative: use '/styles/custom-grey.json' for full custom control
       style: 'https://api.maptiler.com/maps/streets-v4/style.json?key=q4aOhsVX264foFexJ7ga',
-      zoom: 2, // Lower = more zoomed out (default starting zoom)
+      zoom: 3, // Lower = more zoomed out (default starting zoom)
       center: [0.35, 43], // Centered on Europe
       // hash: true // Removed for Next.js - using localStorage for clean URLs
+      // Performance optimizations for smooth 60fps
+      maxPitch: 85, // Limit pitch for better performance
+      refreshExpiredTiles: false, // Don't reload tiles unnecessarily
+      fadeDuration: 150 // Faster fade for smoother feel (default 300ms)
     })
 
     map.current.on('style.load', () => {
@@ -363,10 +353,11 @@ const Map = forwardRef<MapRef, MapProps>(({
 
   /**
    * Load and create poster image icon with movie badge
+   * NOW WITH BROWSER CACHE SUPPORT
    */
-  const createPosterIcon = async (posterPath: string | null, _movieId: string, _isMultiLocation: boolean): Promise<{ width: number; height: number; data: Uint8ClampedArray }> => {
+  const createPosterIcon = async (posterPath: string | null, movieId: string, _isMultiLocation: boolean): Promise<{ width: number; height: number; data: Uint8ClampedArray }> => {
     return new Promise((resolve) => {
-      const size = 45 // Consistent size for all markers
+      const size = 52 // Slightly larger for better visibility
       const canvas = document.createElement('canvas')
       canvas.width = size
       canvas.height = size
@@ -374,19 +365,42 @@ const Map = forwardRef<MapRef, MapProps>(({
 
       // If no poster, create fallback icon
       if (!posterPath) {
-        // Create circular background
+        // Add outer glow/shadow effect
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
+        ctx.shadowBlur = 8
+        ctx.shadowOffsetX = 0
+        ctx.shadowOffsetY = 4
+
+        // Create circular background with gradient
+        const gradient = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2)
+        gradient.addColorStop(0, '#2a2a2a')
+        gradient.addColorStop(1, '#1a1a1a')
+
         ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#06b82aff'
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.fillStyle = gradient
         ctx.fill()
 
-        // White border
-        ctx.strokeStyle = '#ffffffff'
+        // Reset shadow for border
+        ctx.shadowColor = 'transparent'
+        ctx.shadowBlur = 0
+
+        // Gold border with slight glow
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.strokeStyle = '#FFD700'
         ctx.lineWidth = 3
         ctx.stroke()
 
+        // Inner gold glow
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 4, 0, Math.PI * 2)
+        ctx.strokeStyle = 'rgba(255, 215, 0, 0.3)'
+        ctx.lineWidth = 2
+        ctx.stroke()
+
         // Film icon
-        ctx.fillStyle = '#FFFFFF'
+        ctx.fillStyle = '#FFD700'
         ctx.font = 'bold 24px Arial Unicode MS Bold'
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
@@ -396,43 +410,116 @@ const Map = forwardRef<MapRef, MapProps>(({
         return
       }
 
-      // Load poster image
+      // Check if image is already cached in memory
+      if (imageCacheRef.current[movieId]) {
+        const cachedImg = imageCacheRef.current[movieId]
+
+        // FAST PATH: Reuse cached image with minimal canvas operations
+        ctx.save()
+
+        // Add shadow
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
+        ctx.shadowBlur = 8
+        ctx.shadowOffsetY = 4
+
+        // Clip and draw
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.clip()
+        ctx.drawImage(cachedImg, 0, 0, size, size)
+        ctx.restore()
+
+        // Border (no shadow for speed)
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.strokeStyle = '#FFD700'
+        ctx.lineWidth = 3
+        ctx.stroke()
+
+        resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
+        return
+      }      // Load poster image with browser caching
       const img = new Image()
       img.crossOrigin = 'anonymous'
       img.onload = () => {
+        // Cache the loaded image for reuse
+        imageCacheRef.current[movieId] = img
+
+        // Add outer shadow effect
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
+        ctx.shadowBlur = 8
+        ctx.shadowOffsetX = 0
+        ctx.shadowOffsetY = 4
+
         // Create circular clipping mask
         ctx.save()
         ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
         ctx.clip()
 
         // Draw poster (centered and scaled)
         ctx.drawImage(img, 0, 0, size, size)
         ctx.restore()
 
-        // White border around circle
+        // Reset shadow for border
+        ctx.shadowColor = 'transparent'
+        ctx.shadowBlur = 0
+
+        // Gold border around circle
         ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.strokeStyle = '#06b82aff'
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.strokeStyle = '#FFD700'
         ctx.lineWidth = 3
+        ctx.stroke()
+
+        // Inner gold glow for depth
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 4, 0, Math.PI * 2)
+        ctx.strokeStyle = 'rgba(255, 215, 0, 0.4)'
+        ctx.lineWidth = 1
         ctx.stroke()
 
         resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
       }
 
       img.onerror = () => {
-        // Fallback on error - circular icon
+        // Add outer glow/shadow effect
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)'
+        ctx.shadowBlur = 8
+        ctx.shadowOffsetX = 0
+        ctx.shadowOffsetY = 4
+
+        // Fallback on error - circular icon with gradient
+        const gradient = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2)
+        gradient.addColorStop(0, '#2a2a2a')
+        gradient.addColorStop(1, '#1a1a1a')
+
         ctx.beginPath()
-        ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#06b82aff'
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.fillStyle = gradient
         ctx.fill()
-        ctx.strokeStyle = '#FFFFFF'
+
+        // Reset shadow
+        ctx.shadowColor = 'transparent'
+        ctx.shadowBlur = 0
+
+        // Gold border
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2)
+        ctx.strokeStyle = '#FFD700'
         ctx.lineWidth = 3
         ctx.stroke()
 
+        // Inner glow
+        ctx.beginPath()
+        ctx.arc(size / 2, size / 2, size / 2 - 4, 0, Math.PI * 2)
+        ctx.strokeStyle = 'rgba(255, 215, 0, 0.3)'
+        ctx.lineWidth = 2
+        ctx.stroke()
+
         // Film icon fallback
-        ctx.fillStyle = '#FFFFFF'
-        ctx.font = 'bold 20px Arial Unicode MS Bold'
+        ctx.fillStyle = '#FFD700'
+        ctx.font = 'bold 22px Arial Unicode MS Bold'
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText('🎬', size / 2, size / 2)
@@ -440,7 +527,7 @@ const Map = forwardRef<MapRef, MapProps>(({
         resolve({ width: size, height: size, data: ctx.getImageData(0, 0, size, size).data })
       }
 
-      // Use the full poster URL from the data
+      // Use the full poster URL from the data - browser will cache it
       img.src = posterPath
     })
   }
@@ -482,10 +569,56 @@ const Map = forwardRef<MapRef, MapProps>(({
         }
       })
 
-      // Create GeoJSON for display
+      // ✨ SMART OFFSET: Detect overlapping markers and apply spiral offset
+      const OVERLAP_THRESHOLD = 0.0005 // ~100m in degrees (adjust for sensitivity)
+      const locationGroups: { [key: string]: typeof displayFeatures } = {}
+
+      // Group features by approximate location
+      displayFeatures.forEach(feature => {
+        const [lng, lat] = feature.geometry.coordinates
+        const gridKey = `${Math.round(lng / OVERLAP_THRESHOLD)}_${Math.round(lat / OVERLAP_THRESHOLD)}`
+
+        if (!locationGroups[gridKey]) {
+          locationGroups[gridKey] = []
+        }
+        locationGroups[gridKey].push(feature)
+      })
+
+      // Apply spiral offset to overlapping markers
+      const processedFeatures: any[] = []
+      Object.values(locationGroups).forEach((group: typeof displayFeatures) => {
+        if (group.length === 1) {
+          // No overlap - keep original position
+          processedFeatures.push(group[0])
+        } else {
+          // Multiple markers at same location - apply spiral offset
+          group.forEach((feature: any, index: number) => {
+            const angle = (index / group.length) * 2 * Math.PI
+            const radius = 0.0005 + (Math.floor(index / 8) * 0.0003) // Spiral outward
+            const offsetLng = Math.cos(angle) * radius
+            const offsetLat = Math.sin(angle) * radius
+
+            const [lng, lat] = feature.geometry.coordinates
+            processedFeatures.push({
+              ...feature,
+              geometry: {
+                type: 'Point' as const,
+                coordinates: [lng + offsetLng, lat + offsetLat]
+              },
+              properties: {
+                ...feature.properties,
+                _overlapping_count: group.length, // Track overlap count
+                _overlap_index: index
+              }
+            })
+          })
+        }
+      })
+
+      // Create GeoJSON for display with offset markers
       const geojson: GeoJSON.FeatureCollection = {
         type: 'FeatureCollection',
-        features: displayFeatures as any
+        features: processedFeatures as any
       }
 
       // ✨ STEP 1: Show loading state
@@ -518,21 +651,32 @@ const Map = forwardRef<MapRef, MapProps>(({
         layout: {
           // Start with fallback icon for all markers
           'icon-image': fallbackIconName,
-          'icon-size': 0.85,
+          'icon-size': 0.9,
           'icon-allow-overlap': true,
           'text-field': ['get', 'title'],
-          'text-font': ['Arial Unicode MS Bold', 'Arial Unicode MS Bold'],
-          'text-size': 16,
-          'text-offset': [0, 1.8],
+          'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+          'text-size': 14,
+          'text-offset': [0, 2.0],
           'text-anchor': 'top',
           'text-max-width': 12,
-          'text-allow-overlap': false
+          'text-allow-overlap': false,
+          'text-optional': true
         },
         paint: {
-          'text-color': '#06b82aff',
-          'text-halo-color': '#000000ff',
-          'text-halo-width': 1,
-          'text-halo-blur': 0
+          'text-color': '#FFD700',
+          'text-halo-color': '#000000',
+          'text-halo-width': 2,
+          'text-halo-blur': 1,
+          // Performance: Only show text when zoomed in (completely hidden below zoom 3)
+          'text-opacity': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            1, 0,     // Completely hidden when zoomed out
+            3, 0,     // Still hidden
+            4, 0.5,   // Start fading in
+            5, 1      // Full opacity when zoomed in close
+          ]
         }
       })
 
@@ -544,62 +688,67 @@ const Map = forwardRef<MapRef, MapProps>(({
         }, 300)
       }
 
-      // ✨ STEP 5: Load real posters in background (async, non-blocking)
-      const BATCH_SIZE = 50 // Larger batches for faster loading
-      let loadedCount = 0
+      // ✨ STEP 5: SMART LAZY LOADING - Only load posters in viewport
+      // Smooth loading - single update to avoid flickering
       const loadedMovieIds = new Set<string>()
 
-      // Load posters in background without blocking UI
-      setTimeout(async () => {
-        console.log('🎬 Starting background poster loading...')
+      const loadVisiblePosters = async () => {
+        if (!map.current) return
 
-        for (let i = 0; i < allFeatures.length; i += BATCH_SIZE) {
-          const batch = allFeatures.slice(i, i + BATCH_SIZE)
+        // Get visible features on the map
+        const visibleFeatures = map.current.queryRenderedFeatures({ layers: ['movie-markers'] })
 
-          // Process batch without awaiting individual images
-          await Promise.allSettled(
-            batch.map(async (feature) => {
-              const movieId = feature.properties.movie_id
-              const posterPath = feature.properties.poster
-              const isMultiLocation = feature.properties.locations_count > 1
-              const iconName = `poster-${movieId}`
+        if (visibleFeatures.length === 0) return
 
-              if (!map.current!.hasImage(iconName) && !loadedImagesRef.current.has(iconName)) {
-                try {
-                  const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
-                  if (map.current) {
-                    map.current!.addImage(iconName, posterIcon)
-                    loadedImagesRef.current.add(iconName)
-                    loadedMovieIds.add(movieId)
-                    loadedCount++
+        // Deduplicate by movie_id
+        const uniqueMovieIds = new Set<string>()
+        visibleFeatures.forEach(f => {
+          if (f.properties?.movie_id) {
+            uniqueMovieIds.add(f.properties.movie_id)
+          }
+        })
 
-                    // Update icon-image expression every 10 posters to show progress
-                    if (loadedCount % 10 === 0 && map.current.getLayer('movie-markers')) {
-                      // Build dynamic expression that uses real poster if available, fallback otherwise
-                      const iconExpression: any = [
-                        'case',
-                        ['in', ['get', 'movie_id'], ['literal', Array.from(loadedMovieIds)]],
-                        ['concat', 'poster-', ['get', 'movie_id']],
-                        fallbackIconName
-                      ]
-                      map.current.setLayoutProperty('movie-markers', 'icon-image', iconExpression)
-                    }
-                  }
-                } catch (error) {
-                  console.error(`Failed to load poster for ${movieId}`, error)
-                }
-              }
-            })
-          )
+        // Load all visible posters in parallel (smooth, no flicker)
+        const loadPromises = Array.from(uniqueMovieIds).map(async (movieId) => {
+          const iconName = `poster-${movieId}`
 
-          // Small delay between batches to keep UI responsive
-          await new Promise(resolve => setTimeout(resolve, 100))
-        }
+          // Skip if already loaded
+          if (loadedImagesRef.current.has(iconName) || map.current!.hasImage(iconName)) {
+            return null
+          }
 
-        console.log(`✅ Finished loading ${loadedCount} movie posters in background`)
+          // Find the feature to get poster path
+          const feature = allFeatures.find(f => f.properties.movie_id === movieId)
+          if (!feature) return null
 
-        // Final update with all loaded posters
-        if (map.current && map.current.getLayer('movie-markers')) {
+          const posterPath = feature.properties.poster
+          const isMultiLocation = feature.properties.locations_count > 1
+
+          try {
+            const posterIcon = await createPosterIcon(posterPath, movieId, isMultiLocation)
+            if (map.current && !map.current.hasImage(iconName)) {
+              map.current.addImage(iconName, posterIcon)
+              loadedImagesRef.current.add(iconName)
+              return movieId
+            }
+          } catch (error) {
+            // Silently fail - will use fallback icon
+          }
+          return null
+        })
+
+        // Wait for all to complete
+        const results = await Promise.allSettled(loadPromises)
+
+        // Collect all successfully loaded IDs
+        results.forEach(result => {
+          if (result.status === 'fulfilled' && result.value) {
+            loadedMovieIds.add(result.value)
+          }
+        })
+
+        // Single smooth update after all posters loaded (no flickering!)
+        if (map.current && map.current.getLayer('movie-markers') && loadedMovieIds.size > 0) {
           const iconExpression: any = [
             'case',
             ['in', ['get', 'movie_id'], ['literal', Array.from(loadedMovieIds)]],
@@ -608,13 +757,54 @@ const Map = forwardRef<MapRef, MapProps>(({
           ]
           map.current.setLayoutProperty('movie-markers', 'icon-image', iconExpression)
         }
-      }, 500) // Start loading posters 500ms after globe is visible
+      }
 
-      // Add unified click handler for all movie markers
+      // Start loading visible posters immediately
+      loadVisiblePosters()
+
+      // Load more posters when user moves/zooms the map
+      // Use 'idle' event instead of 'moveend' for better performance (fires after animations complete)
+      let loadTimeout: NodeJS.Timeout
+      const handleMapIdle = () => {
+        clearTimeout(loadTimeout)
+        loadTimeout = setTimeout(() => {
+          loadVisiblePosters()
+        }, 100) // Quick debounce - just enough to avoid redundant calls
+      }
+
+      map.current!.on('idle', handleMapIdle)
+
+      // Add unified click handler for all movie markers with overlap detection
+      let lastClickedLocation: string | null = null
+      let clickCycleIndex = 0
+
       const handleMarkerClick = (e: any) => {
         if (!e.features || e.features.length === 0) return
 
-        const feature = e.features[0]
+        // Get all features at click point (overlapping markers)
+        const clickedFeatures = map.current!.queryRenderedFeatures(e.point, {
+          layers: ['movie-markers']
+        })
+
+        if (clickedFeatures.length === 0) return
+
+        // Create location key for this click
+        const firstFeature = clickedFeatures[0]
+        const [lng, lat] = firstFeature.geometry.type === 'Point'
+          ? (firstFeature.geometry as any).coordinates
+          : [0, 0]
+        const locationKey = `${lng.toFixed(4)}_${lat.toFixed(4)}`
+
+        // Check if clicking same location again (cycle through)
+        if (lastClickedLocation === locationKey && clickedFeatures.length > 1) {
+          clickCycleIndex = (clickCycleIndex + 1) % clickedFeatures.length
+        } else {
+          // New location - reset cycle
+          lastClickedLocation = locationKey
+          clickCycleIndex = 0
+        }
+
+        const feature = clickedFeatures[clickCycleIndex]
 
         // Try to find in geojsonFeatures by movie_id
         const featureByMovieId = geojsonFeatures.find(f => f.properties.movie_id === feature.properties.movie_id)
@@ -660,12 +850,231 @@ const Map = forwardRef<MapRef, MapProps>(({
 
       map.current!.on('click', handleMapClick)
 
-      // Change cursor on hover
-      map.current!.on('mouseenter', 'movie-markers', () => {
-        map.current!.getCanvas().style.cursor = 'pointer'
+      // Enhanced hover tooltip - ALWAYS shows, better styling, more intuitive
+      const popup = new maplibregl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+        offset: 25,
+        className: 'movie-marker-popup',
+        maxWidth: 'none' // Allow custom width
       })
+
+      map.current!.on('mouseenter', 'movie-markers', (e: any) => {
+        map.current!.getCanvas().style.cursor = 'pointer'
+
+        // Get ALL features at this point (overlapping markers)
+        const features = map.current!.queryRenderedFeatures(e.point, {
+          layers: ['movie-markers']
+        })
+
+        if (features.length === 0) return
+
+        const coordinates = (features[0].geometry as any).coordinates.slice()
+
+        // Always show tooltip, even for single movies
+        if (features.length === 1) {
+          // Single movie - show hero banner with poster
+          const movie = features[0].properties
+          const posterUrl = movie.poster || '/images/placeholder-poster.jpg'
+
+          const html = `
+            <style>
+              .movie-hover-card {
+                margin: 0 !important;
+                padding: 0 !important;
+              }
+            </style>
+            <div class="movie-hover-card" style="
+              background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+              border: 2px solid #FFD700;
+              border-radius: 12px;
+              overflow: hidden;
+              min-width: 280px;
+              max-width: 300px;
+              box-shadow: 0 8px 32px rgba(0,0,0,0.8);
+              margin: 0;
+              padding: 0;
+            ">
+              <!-- Hero Poster Banner -->
+              <div style="
+                width: 100%;
+                height: 140px;
+                background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)),
+                            url('${posterUrl}');
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                align-items: flex-end;
+                padding: 12px;
+                position: relative;
+              ">
+                <div style="
+                  background: rgba(0,0,0,0.8);
+                  backdrop-filter: blur(10px);
+                  padding: 8px 12px;
+                  border-radius: 8px;
+                  border: 1px solid rgba(255,215,0,0.3);
+                  width: 100%;
+                ">
+                  <div style="
+                    color: #FFD700;
+                    font-weight: bold;
+                    font-size: 15px;
+                    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                  ">
+                     ${movie.title}
+                  </div>
+                </div>
+              </div>
+
+              <!-- Movie Details -->
+              <div style="padding: 12px 14px;">
+                <div style="
+                  color: #e0e0e0;
+                  font-size: 13px;
+                  margin-bottom: 10px;
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  flex-wrap: wrap;
+                ">
+                  <span style="
+                    background: rgba(255,215,0,0.2);
+                    color: #FFD700;
+                    padding: 3px 8px;
+                    border-radius: 6px;
+                    font-size: 11px;
+                    font-weight: bold;
+                  ">📅 ${movie.year}</span>
+                  ${movie.top_genre ? `
+                    <span style="
+                      background: rgba(6,184,42,0.2);
+                      color: #06b82a;
+                      padding: 3px 8px;
+                      border-radius: 6px;
+                      font-size: 11px;
+                      font-weight: bold;
+                    ">${movie.top_genre}</span>
+                  ` : ''}
+                  ${movie.imdb_rating ? `
+                    <span style="
+                      background: rgba(255,215,0,0.2);
+                      color: #FFD700;
+                      padding: 3px 8px;
+                      border-radius: 6px;
+                      font-size: 11px;
+                      font-weight: bold;
+                    ">⭐ ${movie.imdb_rating}</span>
+                  ` : ''}
+                </div>
+                <div style="
+                  color: #FFD700;
+                  font-size: 11px;
+                  font-weight: bold;
+                  padding-top: 10px;
+                  border-top: 1px solid #444;
+                  text-align: center;
+                ">
+                   Click to view full details
+                </div>
+              </div>
+            </div>
+          `
+          popup.setLngLat(coordinates).setHTML(html).addTo(map.current!)
+        } else {
+          // Multiple movies - show list with enhanced styling
+          const movieList = features.slice(0, 6).map((f: any, idx: number) => {
+            const movie = f.properties
+            return `
+              <div style="
+                padding: 8px;
+                border-radius: 6px;
+                background: ${idx % 2 === 0 ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.2)'};
+                margin: 4px 0;
+                transition: background 0.2s;
+              ">
+                <div style="color: #FFD700; font-weight: bold; font-size: 12px;">
+                  ${idx + 1}. ${movie.title}
+                </div>
+                <div style="color: #999; font-size: 10px; margin-top: 2px;">
+                  ${movie.year} ${movie.top_genre ? `• ${movie.top_genre}` : ''}
+                </div>
+              </div>
+            `
+          }).join('')
+
+          const moreCount = features.length > 6 ? features.length - 6 : 0
+
+          const html = `
+            <div style="
+              background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+              border: 3px solid #FF6B6B;
+              border-radius: 12px;
+              padding: 14px;
+              min-width: 280px;
+              max-width: 320px;
+              box-shadow: 0 12px 48px rgba(255,107,107,0.4);
+            ">
+              <div style="
+                color: #FF6B6B;
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 8px;
+                border-bottom: 2px solid #FF6B6B;
+              ">
+                <span>📍 ${features.length} Movies Here!</span>
+                <span style="
+                  background: #FF6B6B;
+                  color: white;
+                  padding: 2px 8px;
+                  border-radius: 12px;
+                  font-size: 12px;
+                ">×${features.length}</span>
+              </div>
+              <div style="max-height: 300px; overflow-y: auto;">
+                ${movieList}
+                ${moreCount > 0 ? `
+                  <div style="
+                    text-align: center;
+                    color: #FFD700;
+                    font-style: italic;
+                    margin-top: 8px;
+                    padding: 8px;
+                    background: rgba(255,215,0,0.1);
+                    border-radius: 6px;
+                  ">
+                    ...and ${moreCount} more
+                  </div>
+                ` : ''}
+              </div>
+              <div style="
+                color: #06b82a;
+                font-size: 12px;
+                font-weight: bold;
+                padding-top: 12px;
+                margin-top: 12px;
+                border-top: 2px solid #444;
+                text-align: center;
+                animation: pulse 2s infinite;
+              ">
+                👆 Click repeatedly to cycle through all movies →
+              </div>
+            </div>
+          `
+          popup.setLngLat(coordinates).setHTML(html).addTo(map.current!)
+        }
+      })
+
       map.current!.on('mouseleave', 'movie-markers', () => {
         map.current!.getCanvas().style.cursor = ''
+        popup.remove()
       })
     }
 

@@ -63,7 +63,7 @@ const CONFIG = {
   },
 
   ITEMS_PER_PAGE: 50, // IMDb shows 50 items per page
-  MAX_ITEMS_PER_URL: 1000, // Maximum items to load from a single URL (via "Load More")
+  MAX_ITEMS_PER_URL: 15000, // Maximum items to load from a single URL (via "Load More")
   REQUEST_DELAY: 2000, // 2 seconds between requests
   MAX_RETRIES: 3,
   HEADLESS: true,
