@@ -25,6 +25,7 @@ function getAllLocationSlugs(): string[] {
 /**
  * Generate sitemap for all movies and locations
  * Optimized for 10k+ movies with proper priority and change frequency
+ * Last updated: 2025-11-09
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://filmingmap.com'
