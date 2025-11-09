@@ -9,7 +9,7 @@
  */
 export async function createPosterIcon(
   posterPath: string | null,
-  movieId: string,
+  _movieId: string,
   _isMultiLocation: boolean,
   imageCache: { [key: string]: HTMLImageElement }
 ): Promise<{ width: number; height: number; data: Uint8ClampedArray }> {
@@ -32,9 +32,10 @@ export async function createPosterIcon(
       return
     }
 
-    // Check if image is already cached in memory
-    if (imageCache[movieId]) {
-      const cachedImg = imageCache[movieId]
+    // Check if image is already cached by PATH (not movieId) to share across movies
+    const cacheKey = posterPath
+    if (imageCache[cacheKey]) {
+      const cachedImg = imageCache[cacheKey]
 
       // FAST PATH: Reuse cached image with minimal canvas operations
       ctx.save()
@@ -54,8 +55,8 @@ export async function createPosterIcon(
     const img = new Image()
     img.crossOrigin = 'anonymous'
     img.onload = () => {
-      // Cache the loaded image for reuse
-      imageCache[movieId] = img
+      // Cache by PATH so all movies with same poster reuse the same Image object
+      imageCache[cacheKey] = img
 
       // Create circular clipping mask
       ctx.save()

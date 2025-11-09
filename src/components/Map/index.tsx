@@ -224,7 +224,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       )}
 
       {/* Instructions - Left Side (Hidden on Mobile) */}
-      <div className="hidden lg:block absolute top-24 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+      <div className="hidden lg:block absolute top-4 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
         {/* Logo at Top */}
         <div className="mb-3 pb-3 border-b border-white/20">
           <img

@@ -1,19 +1,25 @@
 /**
  * Hook for managing movie navigation and URL sync
  * Handles URL params, slug mapping, and browser history
+ * OPTIMIZED: Caches GeoJSON data to prevent repeated fetches
  */
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import type { Movie } from '../types'
 
 interface UseMovieNavigationProps {
   initialMovie?: Movie | null
 }
 
+// Global cache for GeoJSON data (shared across component instances)
+let cachedGeoJSON: any = null
+let cachePromise: Promise<any> | null = null
+
 export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(initialMovie || null)
   const [slugMap, setSlugMap] = useState<Record<string, string>>({})
   const [reverseSlugMap, setReverseSlugMap] = useState<Record<string, string>>({})
+  const isFetchingRef = useRef(false)
 
   // Load slug mappings
   useEffect(() => {
@@ -28,6 +34,36 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
       .then(res => res.json())
       .then(data => setReverseSlugMap(data))
       .catch(err => console.error('Failed to load forward slug mapping:', err))
+  }, [])
+
+  /**
+   * Load GeoJSON data with caching
+   */
+  const loadGeoJSON = useCallback(async () => {
+    // Return cached data if available
+    if (cachedGeoJSON) {
+      return cachedGeoJSON
+    }
+
+    // Wait for existing fetch if in progress
+    if (cachePromise) {
+      return cachePromise
+    }
+
+    // Start new fetch
+    cachePromise = fetch('/geo/movies.geojson')
+      .then(res => res.json())
+      .then(data => {
+        cachedGeoJSON = data
+        cachePromise = null
+        return data
+      })
+      .catch(error => {
+        cachePromise = null
+        throw error
+      })
+
+    return cachePromise
   }, [])
 
   /**
@@ -69,15 +105,26 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
    */
   useEffect(() => {
     const handleUrlChange = async () => {
+      // Prevent duplicate fetches
+      if (isFetchingRef.current) {
+        return
+      }
+
       const params = new URLSearchParams(window.location.search)
       const movieSlug = params.get('movie')
 
       if (movieSlug && Object.keys(reverseSlugMap).length > 0) {
         const movieId = reverseSlugMap[movieSlug]
         if (movieId) {
+          // Only fetch if we don't already have this movie selected
+          if (selectedMovie?.movie_id === movieId) {
+            return
+          }
+
+          isFetchingRef.current = true
+
           try {
-            const response = await fetch('/geo/movies.geojson')
-            const geojsonData = await response.json()
+            const geojsonData = await loadGeoJSON()
             const feature = geojsonData.features.find((f: any) => f.properties.movie_id === movieId)
 
             if (feature) {
@@ -86,6 +133,8 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
             }
           } catch (error) {
             console.error('Failed to load movie:', error)
+          } finally {
+            isFetchingRef.current = false
           }
         }
       } else if (!movieSlug && selectedMovie) {
@@ -97,7 +146,7 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
 
     window.addEventListener('popstate', handleUrlChange)
     return () => window.removeEventListener('popstate', handleUrlChange)
-  }, [reverseSlugMap, selectedMovie, convertGeoJSONToMovie])
+  }, [reverseSlugMap, convertGeoJSONToMovie, loadGeoJSON]) // Removed selectedMovie from dependencies
 
   /**
    * Handle movie selection and URL updates

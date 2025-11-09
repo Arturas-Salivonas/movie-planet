@@ -12,7 +12,7 @@ import { useMovieNavigation } from '../src/hooks/useMovieNavigation'
 import { useRelatedMovies } from '../src/hooks/useRelatedMovies'
 
 // Lazy load components
-const SearchBar = lazy(() => import('../src/components/SearchBar'))
+const SearchBar = lazy(() => import('../src/components/SearchBarOptimized'))
 const Filters = lazy(() => import('../src/components/Filters'))
 const MovieModal = lazy(() => import('../src/components/MovieModal'))
 const PartnershipModal = lazy(() => import('./PartnershipModal'))

@@ -1,12 +1,18 @@
 /**
  * Hook for fetching and managing related movies
+ * OPTIMIZED: Caches GeoJSON data to prevent repeated fetches
  */
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef } from 'react'
 import type { Movie } from '../types'
+
+// Global cache for GeoJSON data (shared across component instances)
+let cachedGeoJSON: any = null
+let cachePromise: Promise<any> | null = null
 
 export function useRelatedMovies() {
   const [relatedMovies, setRelatedMovies] = useState<Movie[]>([])
+  const isFetchingRef = useRef(false)
 
   /**
    * Convert GeoJSON feature to Movie object
@@ -43,12 +49,48 @@ export function useRelatedMovies() {
   }
 
   /**
+   * Load GeoJSON data with caching
+   */
+  const loadGeoJSON = useCallback(async () => {
+    // Return cached data if available
+    if (cachedGeoJSON) {
+      return cachedGeoJSON
+    }
+
+    // Wait for existing fetch if in progress
+    if (cachePromise) {
+      return cachePromise
+    }
+
+    // Start new fetch
+    cachePromise = fetch('/geo/movies.geojson')
+      .then(res => res.json())
+      .then(data => {
+        cachedGeoJSON = data
+        cachePromise = null
+        return data
+      })
+      .catch(error => {
+        cachePromise = null
+        throw error
+      })
+
+    return cachePromise
+  }, [])
+
+  /**
    * Fetch related movies based on genre matching
    */
   const fetchRelatedMovies = useCallback(async (movie: Movie) => {
+    // Prevent duplicate fetches
+    if (isFetchingRef.current) {
+      return
+    }
+
+    isFetchingRef.current = true
+
     try {
-      const response = await fetch('/geo/movies.geojson')
-      const geojsonData = await response.json()
+      const geojsonData = await loadGeoJSON()
 
       // Convert to Movie objects
       const allMovies: Movie[] = geojsonData.features.map(convertFeatureToMovie)
@@ -68,8 +110,10 @@ export function useRelatedMovies() {
     } catch (error) {
       console.error('Failed to fetch related movies:', error)
       setRelatedMovies([])
+    } finally {
+      isFetchingRef.current = false
     }
-  }, [])
+  }, [loadGeoJSON])
 
   /**
    * Clear related movies

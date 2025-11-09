@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -216,19 +216,19 @@ html:has([data-location-page]) {
   animation: cluster-pulse 2s ease-in-out infinite;
 }
 
-/* Apply Geist font to MapLibre GL labels and controls */
+/* Apply system fonts to MapLibre GL labels and controls */
 .maplibregl-ctrl,
 .maplibregl-popup,
 .maplibregl-popup-content,
 .mapboxgl-ctrl,
 .mapboxgl-popup,
 .mapboxgl-popup-content {
-  font-family: var(--font-geist-sans), system-ui, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
 }
 
-/* Ensure all text elements use Geist */
+/* Ensure all text elements use system fonts */
 * {
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* Region popup styling with dark background */
