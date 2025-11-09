@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "los-angeles-united-states-of-america",
     "coordinates": {
-      "lat": 34.07037708210234,
-      "lng": -118.30894550582389
+      "lat": 34.07453990066587,
+      "lng": -118.31091074234357
     }
   },
   "movies": [
@@ -639,6 +639,47 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1604099",
+      "title": "Victorious",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt1604099.webp",
+      "thumbnail_52": "/images/thumbnails/tt1604099.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0051201",
+      "title": "Witness for the Prosecution",
+      "year": 1957,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0051201.webp",
+      "thumbnail_52": "/images/thumbnails/tt0051201.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0053604",
+      "title": "The Apartment",
+      "year": 1960,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0053604.webp",
+      "thumbnail_52": "/images/thumbnails/tt0053604.webp",
+      "imdb_rating": 8.196,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt32252772",
       "title": "Dexter: Original Sin",
       "year": 2024,
@@ -690,6 +731,23 @@
       "thumbnail_52": "/images/thumbnails/tt0114814.webp",
       "imdb_rating": 8.172,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0312109",
+      "title": "Codename: Kids Next Door",
+      "year": 2002,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Kids",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0312109.webp",
+      "thumbnail_52": "/images/thumbnails/tt0312109.webp",
+      "imdb_rating": 8.171,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0012349",
@@ -874,6 +932,20 @@
       "thumbnail_52": "/images/thumbnails/tt0036775.webp",
       "imdb_rating": 8.1,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0053291",
+      "title": "Some Like It Hot",
+      "year": 1959,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0053291.webp",
+      "thumbnail_52": "/images/thumbnails/tt0053291.webp",
+      "imdb_rating": 8.092,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt10062292",
@@ -1652,6 +1724,22 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0419326",
+      "title": "Foster's Home for Imaginary Friends",
+      "year": 2004,
+      "genres": [
+        "Kids",
+        "Animation",
+        "Family",
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0419326.webp",
+      "thumbnail_52": "/images/thumbnails/tt0419326.webp",
+      "imdb_rating": 7.816,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt0096694",
       "title": "Saved by the Bell",
       "year": 1989,
@@ -1769,6 +1857,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0112178",
+      "title": "Star Trek: Voyager",
+      "year": 1995,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0112178.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112178.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt12306692",
       "title": "American Horror Stories",
       "year": 2021,
@@ -1865,6 +1967,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0246578",
+      "title": "Donnie Darko",
+      "year": 2001,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0246578.webp",
+      "thumbnail_52": "/images/thumbnails/tt0246578.webp",
+      "imdb_rating": 7.766,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt13918776",
       "title": "The Night Agent",
       "year": 2023,
@@ -1916,6 +2032,20 @@
       "thumbnail_52": "/images/thumbnails/tt0100157.webp",
       "imdb_rating": 7.745,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0075686",
+      "title": "Annie Hall",
+      "year": 1977,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0075686.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075686.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt14403178",
@@ -2141,6 +2271,20 @@
       "thumbnail_52": "/images/thumbnails/tt0460091.webp",
       "imdb_rating": 7.664,
       "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0115157",
+      "title": "Dexter's Laboratory",
+      "year": 1996,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0115157.webp",
+      "thumbnail_52": "/images/thumbnails/tt0115157.webp",
+      "imdb_rating": 7.664,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt13833978",
@@ -2427,6 +2571,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0077651",
+      "title": "Halloween",
+      "year": 1978,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0077651.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077651.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt11083552",
       "title": "Wrath of Man",
       "year": 2021,
@@ -2612,6 +2769,22 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0175058",
+      "title": "The Powerpuff Girls",
+      "year": 1998,
+      "genres": [
+        "Action & Adventure",
+        "Animation",
+        "Comedy",
+        "Kids",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0175058.webp",
+      "thumbnail_52": "/images/thumbnails/tt0175058.webp",
+      "imdb_rating": 7.538,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt3475734",
       "title": "Marvel's Agent Carter",
       "year": 2015,
@@ -2638,6 +2811,21 @@
       "thumbnail_52": "/images/thumbnails/tt0096438.webp",
       "imdb_rating": 7.532,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0083437",
+      "title": "Knight Rider",
+      "year": 1982,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0083437.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083437.webp",
+      "imdb_rating": 7.532,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt4477976",
@@ -3244,6 +3432,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0101120",
+      "title": "Home Improvement",
+      "year": 1991,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0101120.webp",
+      "thumbnail_52": "/images/thumbnails/tt0101120.webp",
+      "imdb_rating": 7.403,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt0084726",
       "title": "Star Trek II: The Wrath of Khan",
       "year": 1982,
@@ -3589,6 +3789,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2066051",
+      "title": "Rocketman",
+      "year": 2019,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2066051.webp",
+      "thumbnail_52": "/images/thumbnails/tt2066051.webp",
+      "imdb_rating": 7.314,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt0080339",
       "title": "Airplane!",
       "year": 1980,
@@ -3625,6 +3838,20 @@
       "thumbnail_52": "/images/thumbnails/tt1399045.webp",
       "imdb_rating": 7.302,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118360",
+      "title": "Johnny Bravo",
+      "year": 1997,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0118360.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118360.webp",
+      "imdb_rating": 7.302,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0074285",
@@ -3737,6 +3964,19 @@
       "londonLocationCount": 5
     },
     {
+      "movie_id": "tt0075860",
+      "title": "Close Encounters of the Third Kind",
+      "year": 1977,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0075860.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075860.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt1022603",
       "title": "(500) Days of Summer",
       "year": 2009,
@@ -3763,6 +4003,18 @@
       "thumbnail_52": "/images/thumbnails/tt0316654.webp",
       "imdb_rating": 7.296,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086770",
+      "title": "Night Court",
+      "year": 1984,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0086770.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086770.webp",
+      "imdb_rating": 7.295,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt3065204",
@@ -3829,6 +4081,19 @@
       "thumbnail_52": "/images/thumbnails/tt8806524.webp",
       "imdb_rating": 7.279,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1832979",
+      "title": "Hart of Dixie",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1832979.webp",
+      "thumbnail_52": "/images/thumbnails/tt1832979.webp",
+      "imdb_rating": 7.275,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt1570728",
@@ -3933,6 +4198,21 @@
       "thumbnail_52": "/images/thumbnails/tt0106308.webp",
       "imdb_rating": 7.258,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2294629",
+      "title": "Frozen",
+      "year": 2013,
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt2294629.webp",
+      "thumbnail_52": "/images/thumbnails/tt2294629.webp",
+      "imdb_rating": 7.249,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0369339",
@@ -4370,6 +4650,20 @@
       "thumbnail_52": "/images/thumbnails/tt0363771.webp",
       "imdb_rating": 7.135,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0029583",
+      "title": "Snow White and the Seven Dwarfs",
+      "year": 1938,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0029583.webp",
+      "thumbnail_52": "/images/thumbnails/tt0029583.webp",
+      "imdb_rating": 7.124,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt0360486",
@@ -5550,6 +5844,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1001508",
+      "title": "He's Just Not That Into You",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1001508.webp",
+      "thumbnail_52": "/images/thumbnails/tt1001508.webp",
+      "imdb_rating": 6.614,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt1821681",
       "title": "Touch",
       "year": 2012,
@@ -6468,6 +6776,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1225901",
+      "title": "90210",
+      "year": 2008,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1225901.webp",
+      "thumbnail_52": "/images/thumbnails/tt1225901.webp",
+      "imdb_rating": 5.743,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt0379623",
       "title": "The Ellen DeGeneres Show",
       "year": 2003,
@@ -6573,46 +6893,46 @@
     }
   ],
   "stats": {
-    "totalMovies": 492,
+    "totalMovies": 515,
     "totalLocations": 704,
     "genres": {
-      "Thriller": 73,
-      "Crime": 109,
-      "Comedy": 235,
-      "Drama": 259,
-      "Mystery": 62,
-      "Romance": 36,
-      "Music": 3,
+      "Thriller": 74,
+      "Crime": 112,
+      "Comedy": 248,
+      "Drama": 270,
+      "Mystery": 64,
+      "Romance": 40,
+      "Music": 4,
       "Action": 67,
-      "Science Fiction": 44,
-      "Fantasy": 21,
-      "Adventure": 41,
-      "Sci-Fi & Fantasy": 48,
-      "Action & Adventure": 50,
-      "Horror": 18,
+      "Science Fiction": 45,
+      "Fantasy": 24,
+      "Adventure": 42,
+      "Sci-Fi & Fantasy": 53,
+      "Action & Adventure": 54,
+      "Horror": 19,
       "History": 4,
-      "Family": 38,
-      "Animation": 22,
+      "Family": 44,
+      "Animation": 29,
       "War": 4,
       "Reality": 4,
       "Western": 2,
       "News": 1,
-      "Kids": 5,
+      "Kids": 9,
       "War & Politics": 1,
       "Soap": 1,
       "Talk": 2
     },
     "decades": {
-      "1990s": 66,
-      "1930s": 3,
-      "2010s": 165,
-      "1950s": 5,
-      "2000s": 141,
-      "1960s": 7,
+      "1990s": 71,
+      "1930s": 4,
+      "2010s": 169,
+      "1950s": 7,
+      "2000s": 146,
+      "1960s": 8,
       "1920s": 3,
-      "1980s": 31,
+      "1980s": 33,
       "2020s": 60,
-      "1970s": 9,
+      "1970s": 12,
       "1940s": 2
     }
   }

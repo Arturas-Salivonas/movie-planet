@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "new-york-united-states-of-america",
     "coordinates": {
-      "lat": 40.72202474012863,
-      "lng": -73.97813703862677
+      "lat": 40.721954020126994,
+      "lng": -73.97909668686457
     }
   },
   "movies": [
@@ -2969,6 +2969,19 @@
       "londonLocationCount": 0
     },
     {
+      "movie_id": "tt15474916",
+      "title": "Smile",
+      "year": 2022,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt15474916.webp",
+      "thumbnail_52": "/images/thumbnails/tt15474916.webp",
+      "imdb_rating": 6.667,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt2699110",
       "title": "The Affair",
       "year": 2014,
@@ -3669,7 +3682,7 @@
     }
   ],
   "stats": {
-    "totalMovies": 273,
+    "totalMovies": 274,
     "totalLocations": 0,
     "genres": {
       "Drama": 176,
@@ -3683,8 +3696,8 @@
       "Fantasy": 14,
       "History": 6,
       "Music": 4,
-      "Horror": 5,
-      "Mystery": 34,
+      "Horror": 6,
+      "Mystery": 35,
       "Romance": 28,
       "Animation": 17,
       "Sci-Fi & Fantasy": 22,
@@ -3700,7 +3713,7 @@
       "1990s": 41,
       "2000s": 65,
       "2010s": 114,
-      "2020s": 27,
+      "2020s": 28,
       "1960s": 5,
       "1980s": 10,
       "0s": 1

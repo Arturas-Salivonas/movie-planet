@@ -41,6 +41,106 @@ function calculateCenter(locations: Location[]): { lat: number; lng: number } {
   return { lat, lng }
 }
 
+// Calculate distance between two coordinates in kilometers (Haversine formula)
+function calculateDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371 // Earth's radius in kilometers
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLng = (lng2 - lng1) * Math.PI / 180
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng / 2) * Math.sin(dLng / 2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+  return R * c
+}
+
+// Merge nearby cities that are too close together
+function mergeNearbyCities(
+  cities: Array<[string, { movies: Movie[]; locations: Location[]; country: string; originalCityName: string }]>,
+  proximityThresholdKm: number = 15 // Cities within 15km will be merged
+): Array<[string, { movies: Movie[]; locations: Location[]; country: string; originalCityName: string }]> {
+
+  // Calculate centers for all cities
+  const citiesWithCenters = cities.map(([name, data]) => ({
+    name,
+    data,
+    center: calculateCenter(data.locations)
+  }))
+
+  // Track which cities have been merged
+  const merged = new Set<number>()
+  const result: Array<[string, { movies: Movie[]; locations: Location[]; country: string; originalCityName: string }]> = []
+
+  for (let i = 0; i < citiesWithCenters.length; i++) {
+    if (merged.has(i)) continue
+
+    const city1 = citiesWithCenters[i]
+    let bestCity = { ...city1 }
+    const toMerge: number[] = []
+
+    // Find all cities within proximity threshold
+    for (let j = i + 1; j < citiesWithCenters.length; j++) {
+      if (merged.has(j)) continue
+
+      const city2 = citiesWithCenters[j]
+
+      // Only merge cities in the same country
+      if (city1.data.country !== city2.data.country) continue
+
+      const distance = calculateDistance(
+        city1.center.lat, city1.center.lng,
+        city2.center.lat, city2.center.lng
+      )
+
+      if (distance <= proximityThresholdKm) {
+        toMerge.push(j)
+        console.log(`  🔗 Merging: ${city2.name} (${city2.data.movies.length} movies) → ${city1.name} (${city1.data.movies.length} movies) [${distance.toFixed(1)}km apart]`)
+      }
+    }
+
+    // Merge all nearby cities into the one with most movies
+    if (toMerge.length > 0) {
+      const allCities = [{ index: i, ...city1 }, ...toMerge.map(idx => ({ index: idx, ...citiesWithCenters[idx] }))]
+
+      // Sort by movie count and pick the one with most movies
+      allCities.sort((a, b) => b.data.movies.length - a.data.movies.length)
+      const primaryCity = allCities[0]
+
+      // Merge all movies and locations from other cities into primary
+      const mergedMovies = new Map<string, Movie>()
+      const mergedLocations: Location[] = []
+
+      allCities.forEach(city => {
+        // Add all unique movies
+        city.data.movies.forEach(movie => {
+          mergedMovies.set(movie.movie_id, movie)
+        })
+        // Add all locations
+        mergedLocations.push(...city.data.locations)
+        // Mark as merged
+        merged.add(city.index)
+      })
+
+      bestCity = {
+        name: primaryCity.name,
+        data: {
+          movies: Array.from(mergedMovies.values()),
+          locations: mergedLocations,
+          country: primaryCity.data.country,
+          originalCityName: primaryCity.data.originalCityName
+        },
+        center: calculateCenter(mergedLocations)
+      }
+    } else {
+      merged.add(i)
+    }
+
+    result.push([bestCity.name, bestCity.data])
+  }
+
+  return result
+}
+
 // List of major cities to include (top cities per country)
 const MAJOR_CITIES: Record<string, string[]> = {
   'United States': [
@@ -409,13 +509,19 @@ async function generateLocationPages() {
     })
     .sort((a, b) => b[1].movies.length - a[1].movies.length) // Sort by movie count
 
-  console.log(`\n✅ Found ${qualifiedCities.length} major cities with 5+ movies:\n`)
+  console.log(`\n✅ Found ${qualifiedCities.length} major cities with 5+ movies`)
+  console.log(`🔍 Checking for overlapping cities within 15km...\n`)
+
+  // Merge nearby cities that are too close together (e.g., London + Westminster)
+  const mergedCities = mergeNearbyCities(qualifiedCities, 15)
+
+  console.log(`\n✅ After merging: ${mergedCities.length} unique regions\n`)
 
   const regionFeatures: any[] = []
   let generatedCount = 0
 
-  // Generate location page for each qualified city
-  for (const [cityName, data] of qualifiedCities) {
+  // Generate location page for each merged region
+  for (const [cityName, data] of mergedCities) {
     const city = cityName.split(', ')[0]
     const country = data.country
     const slug = slugify(`${city}-${country}`)

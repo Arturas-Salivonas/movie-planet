@@ -271,7 +271,7 @@ export default function MapClient({
             className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1 group"
           >
             <span>🤝</span>
-            <span className="group-hover:underline">Partners</span>
+            <span className="group-hover:underline">Partnership</span>
           </button>
         </div>
       </div>

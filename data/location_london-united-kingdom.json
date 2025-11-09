@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "london-united-kingdom",
     "coordinates": {
-      "lat": 51.50263247045453,
-      "lng": -0.1350731174242425
+      "lat": 51.502918051079135,
+      "lng": -0.13495499316546775
     }
   },
   "movies": [
@@ -113,6 +113,19 @@
       "thumbnail_52": "/images/thumbnails/tt10986410.webp",
       "imdb_rating": 8.362,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0080306",
+      "title": "Yes Minister",
+      "year": 1980,
+      "genres": [
+        "Comedy",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt0080306.webp",
+      "thumbnail_52": "/images/thumbnails/tt0080306.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt2085059",
@@ -330,6 +343,18 @@
       ],
       "poster": "/images/posters/tt0304141.webp",
       "thumbnail_52": "/images/thumbnails/tt0304141.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0459159",
+      "title": "The Thick of It",
+      "year": 2005,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0459159.webp",
+      "thumbnail_52": "/images/thumbnails/tt0459159.webp",
       "imdb_rating": 8,
       "londonLocationCount": 0
     },
@@ -750,6 +775,19 @@
       "londonLocationCount": 4
     },
     {
+      "movie_id": "tt0926084",
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0926084.webp",
+      "thumbnail_52": "/images/thumbnails/tt0926084.webp",
+      "imdb_rating": 7.738,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt1504320",
       "title": "The King's Speech",
       "year": 2010,
@@ -881,6 +919,19 @@
       "thumbnail_52": "/images/thumbnails/tt0041546.webp",
       "imdb_rating": 7.641,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1631867",
+      "title": "Edge of Tomorrow",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1631867.webp",
+      "thumbnail_52": "/images/thumbnails/tt1631867.webp",
+      "imdb_rating": 7.631,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt2802144",
@@ -2171,6 +2222,21 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0145660",
+      "title": "Austin Powers: The Spy Who Shagged Me",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0145660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0145660.webp",
+      "imdb_rating": 6.294,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt0143145",
       "title": "The World Is Not Enough",
       "year": 1999,
@@ -2395,20 +2461,20 @@
     }
   ],
   "stats": {
-    "totalMovies": 177,
+    "totalMovies": 182,
     "totalLocations": 251,
     "genres": {
       "Drama": 90,
-      "Action": 36,
-      "Crime": 41,
+      "Action": 37,
+      "Crime": 42,
       "Thriller": 25,
       "Music": 3,
       "Mystery": 25,
-      "Fantasy": 23,
-      "Adventure": 37,
-      "Science Fiction": 19,
+      "Fantasy": 24,
+      "Adventure": 39,
+      "Science Fiction": 21,
       "Family": 12,
-      "Comedy": 53,
+      "Comedy": 56,
       "Romance": 16,
       "Horror": 9,
       "History": 7,
@@ -2416,18 +2482,18 @@
       "Action & Adventure": 12,
       "War": 4,
       "Talk": 1,
-      "War & Politics": 3,
+      "War & Politics": 4,
       "Animation": 4,
       "Reality": 1
     },
     "decades": {
-      "2000s": 41,
-      "1980s": 7,
-      "2010s": 64,
+      "2000s": 42,
+      "1980s": 8,
+      "2010s": 66,
       "2020s": 46,
       "1940s": 1,
       "1970s": 2,
-      "1990s": 15,
+      "1990s": 16,
       "1960s": 1
     }
   }
