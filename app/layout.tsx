@@ -4,6 +4,7 @@ import '../src/index.css'
 import { generateHomeMetadata } from '../lib/metadata'
 import { GeistSans } from 'geist/font/sans'
 import { GA_MEASUREMENT_ID } from '../lib/analytics'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = generateHomeMetadata()
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       </head>
       <body className={`${GeistSans.variable} ${GeistSans.className} h-full antialiased`}>
         {children}
+        <Analytics />
 
         {/* Google Analytics - Only in production */}
         {GA_MEASUREMENT_ID && (
