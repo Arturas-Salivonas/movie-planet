@@ -136,20 +136,24 @@ function generateLocationSchema(locationData: LocationData) {
     '@type': 'TouristDestination',
     name: `${location.city}, ${location.country}`,
     description: `Explore ${stats.totalMovies} movies filmed in ${location.city}`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: location.city,
+      addressCountry: location.country,
+    },
     geo: {
       '@type': 'GeoCoordinates',
       latitude: location.coordinates.lat,
       longitude: location.coordinates.lng,
     },
     touristType: 'Film Tourism',
-    includesAttraction: topMovies.map(movie => ({
-      '@type': 'MovieTheater',
+    // List featured movies without aggregateRating to avoid review issues
+    about: topMovies.map(movie => ({
+      '@type': 'Movie',
       name: movie.title,
-      aggregateRating: movie.imdb_rating ? {
-        '@type': 'AggregateRating',
-        ratingValue: movie.imdb_rating,
-        bestRating: 10,
-      } : undefined,
+      datePublished: movie.year?.toString(),
+      genre: movie.genres,
+      contentRating: movie.imdb_rating ? `${movie.imdb_rating}/10` : undefined,
     })),
   }
 }
