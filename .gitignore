@@ -40,7 +40,7 @@ public/images/posters/*.webp
 
 # Data files (cache and enriched data)
 data/cache/
-data/movies_enriched.json
+# data/movies_enriched.json  # REMOVED - needed for Vercel build
 data/movies_enriched_auto.json
 data/movies_enriched_progress.json
 
