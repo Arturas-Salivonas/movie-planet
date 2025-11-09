@@ -5,8 +5,8 @@
  */
 
 import { forwardRef } from 'react'
-import Map from './Map'
-import type { MapRef } from './Map'
+import Map from './Map/index'
+import type { MapRef } from './Map/index'
 import type { Movie, FilterState } from '../types'
 
 interface MapProps {

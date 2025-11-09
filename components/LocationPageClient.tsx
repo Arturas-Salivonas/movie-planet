@@ -81,15 +81,6 @@ export default function LocationPageClient({ movies, location, stats }: Location
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white" data-location-page>
       {/* Header */}
       <div className="relative overflow-hidden">
-        {/* Background Image Overlay */}
-        <div
-          className="absolute inset-0 opacity-20 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(/images/banners/london-skyline.jpg)',
-            filter: 'blur(5px)',
-          }}
-        />
-
         <div className="relative container mx-auto px-4 py-16">
           {/* Back to Home */}
           <Link

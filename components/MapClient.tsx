@@ -2,12 +2,14 @@
 
 /**
  * MapClient - Client wrapper for the map component
- * Handles modal-based movie navigation with globe always visible
+ * Refactored for better modularity and maintainability
  */
 
 import { useState, lazy, Suspense, useEffect, useRef, forwardRef } from 'react'
 import type { Movie, FilterState } from '../lib/types'
 import type { MapRef } from '../src/components/Map'
+import { useMovieNavigation } from '../src/hooks/useMovieNavigation'
+import { useRelatedMovies } from '../src/hooks/useRelatedMovies'
 
 // Lazy load components
 const SearchBar = lazy(() => import('../src/components/SearchBar'))
@@ -61,8 +63,6 @@ export default function MapClient({
   initialRelatedMovies = []
 }: MapClientProps) {
   const mapRef = useRef<MapRef>(null)
-  const [selectedMovie, setSelectedMovie] = useState<Movie | null>(initialMovie || null)
-  const [relatedMovies, setRelatedMovies] = useState<Movie[]>(initialRelatedMovies)
   const [focusedMovieId, setFocusedMovieId] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState<string>('')
   const [isLocationViewed, setIsLocationViewed] = useState<boolean>(false)
@@ -73,181 +73,50 @@ export default function MapClient({
     streaming: [],
   })
 
-  // Load slug mapping on client side
-  const [slugMap, setSlugMap] = useState<Record<string, string>>({})
-  const [reverseSlugMap, setReverseSlugMap] = useState<Record<string, string>>({})
+  // Movie navigation hook
+  const { selectedMovie, handleMovieSelect, closeModal } = useMovieNavigation({
+    initialMovie
+  })
 
+  // Related movies hook
+  const { relatedMovies, fetchRelatedMovies, clearRelatedMovies } = useRelatedMovies()
+
+  // Initialize related movies if provided
   useEffect(() => {
-    // Load reverse slug mapping (movie_id -> slug)
-    fetch('/data/movies_slugs_reverse.json')
-      .then(res => res.json())
-      .then(data => setSlugMap(data))
-      .catch(err => console.error('Failed to load slug mapping:', err))
+    if (initialRelatedMovies.length > 0 && relatedMovies.length === 0) {
+      // Don't overwrite if already loaded
+      clearRelatedMovies()
+    }
+  }, [initialRelatedMovies, relatedMovies.length, clearRelatedMovies])
 
-    // Load forward slug mapping (slug -> movie_id)
-    fetch('/data/movies_slugs.json')
-      .then(res => res.json())
-      .then(data => setReverseSlugMap(data))
-      .catch(err => console.error('Failed to load forward slug mapping:', err))
-  }, [])
-
-  // Check URL for movie query param on mount and handle browser back/forward
+  // Fetch related movies when a movie is selected
   useEffect(() => {
-    const handleUrlChange = async () => {
-      const params = new URLSearchParams(window.location.search)
-      const movieSlug = params.get('movie')
-
-      if (movieSlug && Object.keys(reverseSlugMap).length > 0) {
-        // Get movie_id from slug
-        const movieId = reverseSlugMap[movieSlug]
-        if (movieId) {
-          // Fetch movie data
-          try {
-            const response = await fetch('/geo/movies.geojson')
-            const geojsonData = await response.json()
-            const feature = geojsonData.features.find((f: any) => f.properties.movie_id === movieId)
-
-            if (feature) {
-              // Convert to Movie object
-              const movie = convertGeoJSONToMovie(feature)
-              setSelectedMovie(movie)
-              fetchRelatedMovies(movie)
-            }
-          } catch (error) {
-            console.error('Failed to load movie:', error)
-          }
-        }
-      } else if (!movieSlug && selectedMovie) {
-        // No movie param but modal is open - close it
-        setSelectedMovie(null)
-        setRelatedMovies([])
-      }
-    }
-
-    handleUrlChange()
-
-    // Listen for browser back/forward
-    window.addEventListener('popstate', handleUrlChange)
-    return () => window.removeEventListener('popstate', handleUrlChange)
-  }, [reverseSlugMap, selectedMovie])
-
-  // Helper function to convert GeoJSON feature to Movie object
-  const convertGeoJSONToMovie = (feature: any): Movie => {
-    let locations = []
-    if (feature.geometry.type === 'Point') {
-      const [lng, lat] = feature.geometry.coordinates
-      locations = [{
-        lat, lng,
-        city: feature.properties.location_names[0]?.split(',')[0] || 'Unknown',
-        country: feature.properties.location_names[0]?.split(',')[1]?.trim() || 'Unknown',
-      }]
-    } else if (feature.geometry.type === 'MultiPoint') {
-      locations = feature.geometry.coordinates.map((coord: number[], idx: number) => {
-        const [lng, lat] = coord
-        const locationName = feature.properties.location_names[idx] || 'Unknown'
-        const [city, country] = locationName.split(',').map((s: string) => s.trim())
-        return { lat, lng, city: city || 'Unknown', country: country || 'Unknown' }
-      })
-    }
-
-    return {
-      movie_id: feature.properties.movie_id,
-      title: feature.properties.title,
-      year: feature.properties.year,
-      imdb_id: feature.properties.movie_id,
-      tmdb_id: String(feature.properties.tmdb_id),
-      genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
-      poster: feature.properties.poster || undefined,
-      imdb_rating: feature.properties.imdb_rating || undefined,
-      locations,
-    }
-  }
-
-  const handleMovieSelect = (movie: Movie | null) => {
-    if (movie) {
-      // Get slug for this movie
-      const slug = slugMap[movie.movie_id]
-      if (slug) {
-        // Update URL with search param instead of navigating
-        const url = new URL(window.location.href)
-        url.searchParams.set('movie', slug)
-        window.history.pushState({}, '', url.toString())
-
-        // Set selected movie to show modal
-        setSelectedMovie(movie)
-
-        // Fetch related movies
-        fetchRelatedMovies(movie)
-      } else {
-        console.error('No slug found for movie:', movie.movie_id)
-      }
+    if (selectedMovie) {
+      fetchRelatedMovies(selectedMovie)
     } else {
-      // Close modal and remove query param
-      setSelectedMovie(null)
-      setRelatedMovies([])
-      const url = new URL(window.location.href)
-      url.searchParams.delete('movie')
-      window.history.pushState({}, '', url.toString())
+      clearRelatedMovies()
     }
-  }
+  }, [selectedMovie, fetchRelatedMovies, clearRelatedMovies])
 
-  const fetchRelatedMovies = async (movie: Movie) => {
-    try {
-      // Fetch all movies to find related ones
-      const response = await fetch('/geo/movies.geojson')
-      const geojsonData = await response.json()
-
-      // Convert to Movie objects and find related movies
-      const allMovies: Movie[] = geojsonData.features.map((feature: any) => {
-        let locations = []
-        if (feature.geometry.type === 'Point') {
-          const [lng, lat] = feature.geometry.coordinates
-          locations = [{
-            lat, lng,
-            city: feature.properties.location_names[0]?.split(',')[0] || 'Unknown',
-            country: feature.properties.location_names[0]?.split(',')[1]?.trim() || 'Unknown',
-          }]
-        } else if (feature.geometry.type === 'MultiPoint') {
-          locations = feature.geometry.coordinates.map((coord: number[], idx: number) => {
-            const [lng, lat] = coord
-            const locationName = feature.properties.location_names[idx] || 'Unknown'
-            const [city, country] = locationName.split(',').map((s: string) => s.trim())
-            return { lat, lng, city: city || 'Unknown', country: country || 'Unknown' }
-          })
-        }
-
-        return {
-          movie_id: feature.properties.movie_id,
-          title: feature.properties.title,
-          year: feature.properties.year,
-          imdb_id: feature.properties.movie_id,
-          tmdb_id: String(feature.properties.tmdb_id),
-          genres: feature.properties.genres || (feature.properties.top_genre ? [feature.properties.top_genre] : []),
-          poster: feature.properties.poster || undefined,
-          imdb_rating: feature.properties.imdb_rating || undefined,
-          locations,
-        }
-      })
-
-      // Find movies with matching genres (exclude current movie)
-      const related = allMovies
-        .filter(m => m.movie_id !== movie.movie_id)
-        .filter(m => {
-          const movieGenres = movie.genres || []
-          const otherGenres = m.genres || []
-          return movieGenres.some(g => otherGenres.includes(g))
-        })
-        .sort((a, b) => (b.imdb_rating || 0) - (a.imdb_rating || 0))
-        .slice(0, 6)
-
-      setRelatedMovies(related)
-    } catch (error) {
-      console.error('Failed to fetch related movies:', error)
+  // Listen for partnership modal open event from Map component
+  useEffect(() => {
+    const handleOpenPartnership = () => {
+      setIsPartnershipModalOpen(true)
     }
-  }
+    window.addEventListener('openPartnershipModal', handleOpenPartnership)
+    return () => window.removeEventListener('openPartnershipModal', handleOpenPartnership)
+  }, [])
 
   const handleResetFocus = () => {
     setFocusedMovieId(null)
+
+    // Show clickable regions again when clearing focus
+    if (mapRef.current) {
+      const mapInstance = mapRef.current.getMapInstance()
+      if (mapInstance && mapInstance.getLayer('region-circles')) {
+        mapInstance.setLayoutProperty('region-circles', 'visibility', 'visible')
+      }
+    }
   }
 
   const handleResetView = () => {
@@ -258,24 +127,38 @@ export default function MapClient({
     }
   }
 
+  const handleShowAllLocations = () => {
+    if (selectedMovie && mapRef.current) {
+      mapRef.current.showAllLocationsForMovie(selectedMovie)
+      setFocusedMovieId(selectedMovie.movie_id)
+      closeModal()
+      setIsLocationViewed(true)
+    }
+  }
+
+  const handleViewLocation = (location: any) => {
+    if (mapRef.current && selectedMovie) {
+      // Hide other markers by setting focused movie (same logic as "Show All on Map")
+      setFocusedMovieId(selectedMovie.movie_id)
+
+      // Fly to the specific location
+      mapRef.current.flyToLocation(location.lat, location.lng)
+      setIsLocationViewed(true)
+
+      // Hide clickable regions when viewing a specific location
+      const mapInstance = mapRef.current.getMapInstance()
+      if (mapInstance && mapInstance.getLayer('region-circles')) {
+        mapInstance.setLayoutProperty('region-circles', 'visibility', 'none')
+      }
+    }
+
+    setTimeout(() => {
+      closeModal()
+    }, 100)
+  }
+
   return (
     <div className="relative w-full h-full z-10">
-      {/* Logo/Brand - Top Left */}
-      <div className="absolute top-4 left-4 z-10 text-white px-2 sm:px-6 py-2 sm:py-3">
-        <div className="flex flex-col gap-2">
-          <div>
-            <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="h-8 sm:h-auto" />
-          </div>
-          <button
-            onClick={() => setIsPartnershipModalOpen(true)}
-            className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1 group"
-          >
-            <span>🤝</span>
-            <span className="group-hover:underline">Partnership</span>
-          </button>
-        </div>
-      </div>
-
       {/* Search Bar - Top Center */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 w-11/12 sm:w-96 max-w-md">
         <Suspense fallback={
@@ -325,37 +208,10 @@ export default function MapClient({
           <MovieModal
             movie={selectedMovie}
             relatedMovies={relatedMovies}
-            onClose={() => handleMovieSelect(null)}
+            onClose={closeModal}
             onRelatedMovieClick={handleMovieSelect}
-            onShowAllLocations={() => {
-              // Show all locations with connecting lines and close modal
-              if (selectedMovie && mapRef.current) {
-                mapRef.current.showAllLocationsForMovie(selectedMovie)
-                setFocusedMovieId(selectedMovie.movie_id)
-                setSelectedMovie(null) // Close modal so user can see the map
-                setIsLocationViewed(true)
-                // Update URL to remove movie param
-                const url = new URL(window.location.href)
-                url.searchParams.delete('movie')
-                window.history.pushState({}, '', url.toString())
-              }
-            }}
-            onViewLocation={(location) => {
-              // First, fly to the specific location
-              if (mapRef.current) {
-                mapRef.current.flyToLocation(location.lat, location.lng)
-                setIsLocationViewed(true)
-              }
-
-              // Then close modal with a small delay so the fly animation starts first
-              setTimeout(() => {
-                setSelectedMovie(null)
-                // Update URL to remove movie param
-                const url = new URL(window.location.href)
-                url.searchParams.delete('movie')
-                window.history.pushState({}, '', url.toString())
-              }, 100)
-            }}
+            onShowAllLocations={handleShowAllLocations}
+            onViewLocation={handleViewLocation}
           />
         </Suspense>
       )}
