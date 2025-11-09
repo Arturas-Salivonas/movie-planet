@@ -34,7 +34,6 @@ interface LocationPageClientProps {
 export default function LocationPageClient({ movies, location, stats }: LocationPageClientProps) {
   const [sortBy, setSortBy] = useState<'rating' | 'year' | 'title'>('rating')
   const [selectedGenre, setSelectedGenre] = useState<string>('all')
-  const [selectedDecade, setSelectedDecade] = useState<string>('all')
   const [slugMap, setSlugMap] = useState<Record<string, string>>({})
 
   // Load slug mapping on client side
@@ -50,11 +49,6 @@ export default function LocationPageClient({ movies, location, stats }: Location
 
   if (selectedGenre !== 'all') {
     filteredMovies = filteredMovies.filter(m => m.genres.includes(selectedGenre))
-  }
-
-  if (selectedDecade !== 'all') {
-    const decade = parseInt(selectedDecade)
-    filteredMovies = filteredMovies.filter(m => Math.floor(m.year / 10) * 10 === decade)
   }
 
   filteredMovies.sort((a, b) => {
@@ -73,9 +67,6 @@ export default function LocationPageClient({ movies, location, stats }: Location
   const topGenres = Object.entries(stats.genres)
     .sort(([, a], [, b]) => b - a)
     .slice(0, 10)
-
-  const decades = Object.keys(stats.decades)
-    .sort((a, b) => parseInt(b) - parseInt(a))
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white" data-location-page>
@@ -113,7 +104,7 @@ export default function LocationPageClient({ movies, location, stats }: Location
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10">
             <div className="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <div className="text-4xl font-bold text-primary-400 mb-2">{stats.totalMovies}</div>
               <div className="text-sm text-gray-400">Movies & Series</div>
@@ -125,10 +116,6 @@ export default function LocationPageClient({ movies, location, stats }: Location
             <div className="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <div className="text-4xl font-bold text-blue-400 mb-2">{topGenres.length}</div>
               <div className="text-sm text-gray-400">Different Genres</div>
-            </div>
-            <div className="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-4xl font-bold text-green-400 mb-2">{decades.length}</div>
-              <div className="text-sm text-gray-400">Decades Covered</div>
             </div>
           </div>
         </div>
@@ -165,23 +152,6 @@ export default function LocationPageClient({ movies, location, stats }: Location
                 {topGenres.map(([genre, count]) => (
                   <option key={genre} value={genre}>
                     {genre} ({count})
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* Filter by Decade */}
-            <div className="flex-1">
-              <label className="block text-sm font-semibold text-gray-400 mb-2">Decade</label>
-              <select
-                value={selectedDecade}
-                onChange={(e) => setSelectedDecade(e.target.value)}
-                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-primary-500"
-              >
-                <option value="all">All Decades</option>
-                {decades.map(decade => (
-                  <option key={decade} value={decade}>
-                    {decade}s ({stats.decades[decade]})
                   </option>
                 ))}
               </select>
