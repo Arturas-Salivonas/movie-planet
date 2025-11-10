@@ -38,6 +38,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   console.log('🔨 Building sitemap...')
   console.log('Base URL:', baseUrl)
   console.log('Working directory:', process.cwd())
+  console.log('Runtime:', typeof process !== 'undefined' ? 'nodejs' : 'edge')
+  
+  // Check if data directory exists
+  try {
+    const dataDir = path.join(process.cwd(), 'data')
+    console.log('Data directory:', dataDir)
+    console.log('Data directory exists:', fs.existsSync(dataDir))
+    if (fs.existsSync(dataDir)) {
+      const files = fs.readdirSync(dataDir).slice(0, 5)
+      console.log('First 5 files in data/:', files)
+    }
+  } catch (error) {
+    console.error('❌ Error checking data directory:', error)
+  }
 
   // Homepage
   const homepage: MetadataRoute.Sitemap[0] = {
@@ -52,6 +66,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   try {
     movieSlugs = getAllMovieSlugs()
     console.log(`📄 Found ${movieSlugs.length} movie slugs`)
+    if (movieSlugs.length === 0) {
+      console.error('⚠️ WARNING: No movie slugs found! Check data/movies_slugs.json')
+    }
   } catch (error) {
     console.error('❌ Error getting movie slugs:', error)
   }
@@ -69,6 +86,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   try {
     locationSlugs = getAllLocationSlugs()
     console.log(`📍 Found ${locationSlugs.length} location slugs`)
+    if (locationSlugs.length === 0) {
+      console.error('⚠️ WARNING: No location slugs found! Check data/location_*.json files')
+    }
   } catch (error) {
     console.error('❌ Error getting location slugs:', error)
   }
