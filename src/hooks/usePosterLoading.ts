@@ -41,10 +41,6 @@ export function usePosterLoading() {
       const response = await fetch('/images/sprite-metadata.json')
       if (response.ok) {
         spriteMetadataRef.current = await response.json()
-        console.log('✅ Loaded sprite metadata:', {
-          movies: spriteMetadataRef.current?.totalMovies,
-          sprites: spriteMetadataRef.current?.totalSprites,
-        })
       }
     } catch (error) {
       console.warn('⚠️ Failed to load sprite metadata:', error)
@@ -111,7 +107,6 @@ export function usePosterLoading() {
       }
 
       loadedSpritesRef.current.add(spriteName)
-      console.log(`✅ Loaded sprite: ${spriteName} (${moviesInSprite.length} icons)`)
     } catch (error) {
       console.error(`❌ Failed to load sprite ${spriteName}:`, error)
     }

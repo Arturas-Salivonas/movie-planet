@@ -52,7 +52,6 @@ export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
 
         if (response.ok) {
           const searchIndex: SearchIndex = await response.json()
-          console.log(`✅ Loaded search index: ${searchIndex.totalMovies} movies`)
 
           // Initialize Fuse.js with lightweight index
           const fuseInstance = new Fuse(searchIndex.index, {

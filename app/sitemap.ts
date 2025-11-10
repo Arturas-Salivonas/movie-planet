@@ -35,24 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://filmingmap.com'
   const now = new Date()
 
-  console.log('🔨 Building sitemap...')
-  console.log('Base URL:', baseUrl)
-  console.log('Working directory:', process.cwd())
-  console.log('Runtime:', typeof process !== 'undefined' ? 'nodejs' : 'edge')
-  
-  // Check if data directory exists
-  try {
-    const dataDir = path.join(process.cwd(), 'data')
-    console.log('Data directory:', dataDir)
-    console.log('Data directory exists:', fs.existsSync(dataDir))
-    if (fs.existsSync(dataDir)) {
-      const files = fs.readdirSync(dataDir).slice(0, 5)
-      console.log('First 5 files in data/:', files)
-    }
-  } catch (error) {
-    console.error('❌ Error checking data directory:', error)
-  }
-
   // Homepage
   const homepage: MetadataRoute.Sitemap[0] = {
     url: baseUrl,
@@ -62,16 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Get all movie slugs
-  let movieSlugs: string[] = []
-  try {
-    movieSlugs = getAllMovieSlugs()
-    console.log(`📄 Found ${movieSlugs.length} movie slugs`)
-    if (movieSlugs.length === 0) {
-      console.error('⚠️ WARNING: No movie slugs found! Check data/movies_slugs.json')
-    }
-  } catch (error) {
-    console.error('❌ Error getting movie slugs:', error)
-  }
+  const movieSlugs = getAllMovieSlugs()
 
   // Movie pages - batch process for better performance
   const moviePages: MetadataRoute.Sitemap = movieSlugs.map((slug) => ({
@@ -82,16 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // Location pages
-  let locationSlugs: string[] = []
-  try {
-    locationSlugs = getAllLocationSlugs()
-    console.log(`📍 Found ${locationSlugs.length} location slugs`)
-    if (locationSlugs.length === 0) {
-      console.error('⚠️ WARNING: No location slugs found! Check data/location_*.json files')
-    }
-  } catch (error) {
-    console.error('❌ Error getting location slugs:', error)
-  }
+  const locationSlugs = getAllLocationSlugs()
 
   const locationPages: MetadataRoute.Sitemap = locationSlugs.map((slug) => ({
     url: `${baseUrl}/location/${slug}`,
@@ -99,8 +63,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly',
     priority: 0.9, // High priority for location landing pages
   }))
-
-  console.log(`✅ Sitemap generated: ${moviePages.length + locationPages.length + 1} total URLs`)
 
   return [homepage, ...locationPages, ...moviePages]
 }
