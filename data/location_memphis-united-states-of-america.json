@@ -1,0 +1,69 @@
+{
+  "location": {
+    "city": "Memphis",
+    "country": "United States of America",
+    "slug": "memphis-united-states-of-america",
+    "coordinates": {
+      "lat": 35.1419293,
+      "lng": -90.01126076666667
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0162222",
+      "title": "Cast Away",
+      "year": 2000,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0162222.webp",
+      "thumbnail_52": "/images/thumbnails/tt0162222.webp",
+      "imdb_rating": 7.66,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0358273",
+      "title": "Walk the Line",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0358273.webp",
+      "thumbnail_52": "/images/thumbnails/tt0358273.webp",
+      "imdb_rating": 7.497,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0315733",
+      "title": "21 Grams",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0315733.webp",
+      "thumbnail_52": "/images/thumbnails/tt0315733.webp",
+      "imdb_rating": 7.324,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Adventure": 1,
+      "Drama": 3,
+      "Music": 1,
+      "Romance": 1,
+      "Crime": 1,
+      "Thriller": 1
+    },
+    "decades": {
+      "2000s": 3
+    }
+  }
+}

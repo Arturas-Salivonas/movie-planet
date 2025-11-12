@@ -223,45 +223,20 @@ const Map = forwardRef<MapRef, MapProps>(({
         </div>
       )}
 
-      {/* Instructions - Left Side (Hidden on Mobile) */}
+
       <div className="hidden lg:block absolute top-4 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
         {/* Logo at Top */}
-        <div className="mb-3 pb-3 border-b border-white/20">
+
           <img
             src="/images/logo/filmingmap-logo.webp"
             alt="filmingmap Logo"
             className="h-8"
           />
-        </div>
 
-        <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
-          <span>ℹ️</span> How to Use
-        </h3>
-        <ul className="text-xs text-gray-300 space-y-1 mb-3">
-          <li>🔍 Search for movies or locations</li>
-          <li>🗺️ Click markers to explore</li>
-          <li>🌐 Rotate & zoom the globe</li>
-          <li>🎬 Discover filming locations worldwide</li>
-        </ul>
-
-        {/* Partnership Link */}
-        <a
-          href="#partnership"
-          onClick={(e) => {
-            e.preventDefault()
-            // Trigger partnership modal from parent
-            const event = new CustomEvent('openPartnershipModal')
-            window.dispatchEvent(event)
-          }}
-          className="block mt-3 pt-3 border-t border-white/20 text-xs text-gray-300 hover:text-white transition-colors flex items-center gap-2 group"
-        >
-          <span>🤝</span>
-          <span className="group-hover:underline">Partnership with us</span>
-        </a>
       </div>
 
       {/* Movie Statistics - Top Right (Hidden on Mobile) */}
-      <div className="hidden lg:flex absolute top-24 right-4 z-10 gap-3">
+      <div className="hidden lg:flex absolute top-36 right-4 z-10 gap-3">
         <div className="bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🎬</span>
@@ -285,6 +260,22 @@ const Map = forwardRef<MapRef, MapProps>(({
           </div>
         </div>
       </div>
+
+            <div className="hidden lg:block absolute top-56 right-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+
+
+   {/* Instructions - Left Side (Hidden on Mobile) */}
+        <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
+          <span>ℹ️</span> How to Use
+        </h3>
+        <ul className="text-xs text-gray-300 space-y-1 mb-3">
+          <li>🔍 Search for movies or locations</li>
+          <li>🗺️ Click markers to explore</li>
+          <li>🌐 Rotate & zoom the globe</li>
+          <li>🎬 Discover filming locations worldwide</li>
+        </ul>
+      </div>
+
     </div>
   )
 })

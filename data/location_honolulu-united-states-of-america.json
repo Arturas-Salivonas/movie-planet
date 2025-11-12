@@ -1,0 +1,73 @@
+{
+  "location": {
+    "city": "Honolulu",
+    "country": "United States of America",
+    "slug": "honolulu-united-states-of-america",
+    "coordinates": {
+      "lat": 21.2971794,
+      "lng": -157.85021083333334
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0057751",
+      "title": "Gilligan's Island",
+      "year": 1964,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0057751.webp",
+      "thumbnail_52": "/images/thumbnails/tt0057751.webp",
+      "imdb_rating": 7.447,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2283362",
+      "title": "Jumanji: Welcome to the Jungle",
+      "year": 2017,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Action",
+        "Family"
+      ],
+      "poster": "/images/posters/tt2283362.webp",
+      "thumbnail_52": "/images/thumbnails/tt2283362.webp",
+      "imdb_rating": 6.819,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1190080",
+      "title": "2012",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1190080.webp",
+      "thumbnail_52": "/images/thumbnails/tt1190080.webp",
+      "imdb_rating": 5.863,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Adventure": 2,
+      "Comedy": 2,
+      "Fantasy": 1,
+      "Action": 2,
+      "Family": 2,
+      "Science Fiction": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2000s": 1,
+      "1960s": 1
+    }
+  }
+}

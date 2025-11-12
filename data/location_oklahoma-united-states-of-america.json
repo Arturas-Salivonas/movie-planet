@@ -1,0 +1,86 @@
+{
+  "location": {
+    "city": "Oklahoma",
+    "country": "United States of America",
+    "slug": "oklahoma-united-states-of-america",
+    "coordinates": {
+      "lat": 35.343511875,
+      "lng": -97.454891775
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt16358384",
+      "title": "Tulsa King",
+      "year": 2022,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt16358384.webp",
+      "thumbnail_52": "/images/thumbnails/tt16358384.webp",
+      "imdb_rating": 8.317,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt3315342",
+      "title": "Logan",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3315342.webp",
+      "thumbnail_52": "/images/thumbnails/tt3315342.webp",
+      "imdb_rating": 7.82,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1898069",
+      "title": "American Gods",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1898069.webp",
+      "thumbnail_52": "/images/thumbnails/tt1898069.webp",
+      "imdb_rating": 7.07,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt11823076",
+      "title": "Tiger King",
+      "year": 2020,
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt11823076.webp",
+      "thumbnail_52": "/images/thumbnails/tt11823076.webp",
+      "imdb_rating": 6.853,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 0,
+    "genres": {
+      "Action": 1,
+      "Drama": 3,
+      "Science Fiction": 1,
+      "Crime": 2,
+      "Comedy": 1,
+      "Mystery": 1,
+      "Sci-Fi & Fantasy": 1,
+      "Documentary": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2020s": 2
+    }
+  }
+}

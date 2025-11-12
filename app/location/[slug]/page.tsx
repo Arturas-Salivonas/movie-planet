@@ -122,8 +122,9 @@ async function getLocationData(slug: string): Promise<LocationData | null> {
 }
 
 // Generate JSON-LD schema for location page
-function generateLocationSchema(locationData: LocationData) {
+function generateLocationSchema(locationData: LocationData, slug: string) {
   const { location, stats, movies } = locationData
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://filmingmap.com'
 
   // Get top 5 movies by rating for schema
   const topMovies = movies
@@ -131,7 +132,34 @@ function generateLocationSchema(locationData: LocationData) {
     .sort((a, b) => (b.imdb_rating || 0) - (a.imdb_rating || 0))
     .slice(0, 5)
 
-  return {
+  // Breadcrumb schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: baseUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Locations',
+        item: `${baseUrl}/location`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: `${location.city}, ${location.country}`,
+        item: `${baseUrl}/location/${slug}`,
+      },
+    ],
+  }
+
+  // Location schema
+  const locationSchema = {
     '@context': 'https://schema.org',
     '@type': 'TouristDestination',
     name: `${location.city}, ${location.country}`,
@@ -156,6 +184,8 @@ function generateLocationSchema(locationData: LocationData) {
       contentRating: movie.imdb_rating ? `${movie.imdb_rating}/10` : undefined,
     })),
   }
+
+  return [breadcrumbSchema, locationSchema]
 }
 
 export default async function LocationPage({
@@ -169,15 +199,18 @@ export default async function LocationPage({
     notFound()
   }
 
-  const schema = generateLocationSchema(locationData)
+  const schemas = generateLocationSchema(locationData, params.slug)
 
   return (
     <>
       {/* JSON-LD for SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+      {schemas.map((schema, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
       {/* Client Component */}
       <LocationPageClient

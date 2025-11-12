@@ -43,6 +43,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   }
 
+  // Blog page
+  const blogPage: MetadataRoute.Sitemap[0] = {
+    url: `${baseUrl}/blog`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }
+
+  // Locations index page
+  const locationsIndex: MetadataRoute.Sitemap[0] = {
+    url: `${baseUrl}/location`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.95,
+  }
+
   // Get all movie slugs
   const movieSlugs = getAllMovieSlugs()
 
@@ -64,7 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9, // High priority for location landing pages
   }))
 
-  return [homepage, ...locationPages, ...moviePages]
+  return [homepage, blogPage, locationsIndex, ...locationPages, ...moviePages]
 }
 
 // For very large sitemaps (10k+ pages), you can split into multiple sitemaps:

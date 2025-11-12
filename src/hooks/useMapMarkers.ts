@@ -126,7 +126,7 @@ export function useMapMarkers({
       source: 'movies',
       layout: {
         'icon-image': fallbackIconName,
-        'icon-size': 0.9,
+        'icon-size': 0.7,
         'icon-allow-overlap': true,
         'text-field': ['get', 'title'],
         'text-font': ['Arial Unicode MS Bold', 'Arial Unicode MS Regular'],

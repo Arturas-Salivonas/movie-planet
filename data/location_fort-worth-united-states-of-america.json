@@ -1,0 +1,81 @@
+{
+  "location": {
+    "city": "Fort Worth",
+    "country": "United States of America",
+    "slug": "fort-worth-united-states-of-america",
+    "coordinates": {
+      "lat": 32.753177,
+      "lng": -97.3327459
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt13991232",
+      "title": "1883",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "poster": "/images/posters/tt13991232.webp",
+      "thumbnail_52": "/images/thumbnails/tt13991232.webp",
+      "imdb_rating": 8.268,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14186672",
+      "title": "Landman",
+      "year": 2024,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14186672.webp",
+      "thumbnail_52": "/images/thumbnails/tt14186672.webp",
+      "imdb_rating": 8.007,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0102138",
+      "title": "JFK",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt0102138.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102138.webp",
+      "imdb_rating": 7.604,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106168",
+      "title": "Walker, Texas Ranger",
+      "year": 1993,
+      "genres": [
+        "Drama",
+        "Western",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106168.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106168.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 4,
+    "genres": {
+      "Drama": 4,
+      "Thriller": 1,
+      "History": 1,
+      "Western": 2,
+      "Crime": 1
+    },
+    "decades": {
+      "1990s": 2,
+      "2020s": 2
+    }
+  }
+}

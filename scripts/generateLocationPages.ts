@@ -1,5 +1,5 @@
 /**
- * Generate location pages for areas with 5+ movies
+ * Generate location pages for areas with 3+ movies
  * Creates location_[slug].json files and clickable-regions.geojson
  */
 
@@ -32,6 +32,26 @@ function slugify(text: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
+}
+
+// Normalize country name to English
+function normalizeCountryName(country: string): string {
+  const countryMap: Record<string, string> = {
+    'Deutschland': 'Germany',
+    'Italia': 'Italy',
+    'España': 'Spain',
+    'France': 'France',
+    'République française': 'France',
+    'United States of America': 'United States of America',
+    'USA': 'United States of America',
+    'US': 'United States of America',
+    'United Kingdom': 'United Kingdom',
+    'UK': 'United Kingdom',
+    'Éire / Ireland': 'Ireland',
+    'Ireland': 'Ireland',
+  }
+
+  return countryMap[country.trim()] || country
 }
 
 // Calculate city center from multiple locations
@@ -386,6 +406,26 @@ function isMajorCity(city: string, country: string): boolean {
     normalizedCountry = 'Ireland'
   }
 
+  // Handle Germany variations
+  if (normalizedCountry === 'Deutschland' || normalizedCountry === 'Germany') {
+    normalizedCountry = 'Germany'
+  }
+
+  // Handle Italy variations
+  if (normalizedCountry === 'Italia' || normalizedCountry === 'Italy') {
+    normalizedCountry = 'Italy'
+  }
+
+  // Handle France variations
+  if (normalizedCountry === 'France' || normalizedCountry === 'République française') {
+    normalizedCountry = 'France'
+  }
+
+  // Handle Spain variations
+  if (normalizedCountry === 'España' || normalizedCountry === 'Spain') {
+    normalizedCountry = 'Spain'
+  }
+
   // Handle Australia variations
   if (normalizedCountry.includes('Australia')) {
     normalizedCountry = 'Australia'
@@ -443,7 +483,7 @@ function normalizeCity(city: string): string {
 }
 
 async function generateLocationPages() {
-  console.log('🎬 Generating location pages for MAJOR CITIES with 5+ movies...\n')
+  console.log('🎬 Generating location pages for MAJOR CITIES with 3+ movies...\n')
 
   // Clean up old location files first
   const dataDir = path.join(process.cwd(), 'data')
@@ -495,21 +535,21 @@ async function generateLocationPages() {
     })
   })
 
-  // Filter cities: must have 5+ movies AND be a major city
+  // Filter cities: must have 3+ movies AND be a major city
   const qualifiedCities = Object.entries(cityMovies)
     .filter(([cityName, data]) => {
       const city = cityName.split(', ')[0]
       const country = data.country
 
-      // Must have at least 5 movies
-      if (data.movies.length < 5) return false
+      // Must have at least 3 movies
+      if (data.movies.length < 3) return false
 
       // Must be a recognized major city
       return isMajorCity(city, country)
     })
     .sort((a, b) => b[1].movies.length - a[1].movies.length) // Sort by movie count
 
-  console.log(`\n✅ Found ${qualifiedCities.length} major cities with 5+ movies`)
+  console.log(`\n✅ Found ${qualifiedCities.length} major cities with 3+ movies`)
   console.log(`🔍 Checking for overlapping cities within 15km...\n`)
 
   // Merge nearby cities that are too close together (e.g., London + Westminster)
@@ -524,7 +564,8 @@ async function generateLocationPages() {
   for (const [cityName, data] of mergedCities) {
     const city = cityName.split(', ')[0]
     const country = data.country
-    const slug = slugify(`${city}-${country}`)
+    const normalizedCountry = normalizeCountryName(country) // Normalize for slug and display
+    const slug = slugify(`${city}-${normalizedCountry}`)
 
     console.log(`📍 ${cityName}: ${data.movies.length} movies`)
 
@@ -571,7 +612,7 @@ async function generateLocationPages() {
     const locationData = {
       location: {
         city,
-        country,
+        country: normalizedCountry, // Use normalized country name
         slug,
         coordinates: center
       },
@@ -602,7 +643,7 @@ async function generateLocationPages() {
       properties: {
         name: `${city} Area`,
         slug,
-        country,
+        country: normalizedCountry, // Use normalized country name
         movieCount: data.movies.length
       },
       geometry: {

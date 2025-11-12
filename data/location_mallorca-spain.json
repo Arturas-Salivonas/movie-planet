@@ -1,0 +1,68 @@
+{
+  "location": {
+    "city": "Mallorca",
+    "country": "Spain",
+    "slug": "mallorca-spain",
+    "coordinates": {
+      "lat": 39.613432,
+      "lng": 2.8829185
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt13111078",
+      "title": "Lioness",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt13111078.webp",
+      "thumbnail_52": "/images/thumbnails/tt13111078.webp",
+      "imdb_rating": 8.012,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1399664",
+      "title": "The Night Manager",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1399664.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399664.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt9073958",
+      "title": "White Lines",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt9073958.webp",
+      "thumbnail_52": "/images/thumbnails/tt9073958.webp",
+      "imdb_rating": 6.647,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 0,
+    "genres": {
+      "Drama": 3,
+      "Mystery": 2,
+      "Crime": 2,
+      "War & Politics": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2020s": 2
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "location": {
+    "city": "Nashville",
+    "country": "United States of America",
+    "slug": "nashville-united-states-of-america",
+    "coordinates": {
+      "lat": 36.17604566,
+      "lng": -86.77409512
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0133093",
+      "title": "The Matrix",
+      "year": 1999,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0133093.webp",
+      "thumbnail_52": "/images/thumbnails/tt0133093.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120885",
+      "title": "Wag the Dog",
+      "year": 1997,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0120885.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120885.webp",
+      "imdb_rating": 6.946,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2281375",
+      "title": "Nashville",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2281375.webp",
+      "thumbnail_52": "/images/thumbnails/tt2281375.webp",
+      "imdb_rating": 6.589,
+      "londonLocationCount": 3
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 5,
+    "genres": {
+      "Action": 1,
+      "Science Fiction": 1,
+      "Comedy": 1,
+      "Drama": 2
+    },
+    "decades": {
+      "1990s": 2,
+      "2010s": 1
+    }
+  }
+}

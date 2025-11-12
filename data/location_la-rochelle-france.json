@@ -1,0 +1,68 @@
+{
+  "location": {
+    "city": "La Rochelle",
+    "country": "France",
+    "slug": "la-rochelle-france",
+    "coordinates": {
+      "lat": 46.1618661,
+      "lng": -1.2133928
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0081834",
+      "title": "Das Boot",
+      "year": 1985,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt0081834.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081834.webp",
+      "imdb_rating": 8.575,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0082096",
+      "title": "Das Boot",
+      "year": 1981,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0082096.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082096.webp",
+      "imdb_rating": 8.087,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0082971",
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0082971.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082971.webp",
+      "imdb_rating": 7.923,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Adventure": 1,
+      "Action": 1,
+      "Drama": 2,
+      "War & Politics": 1,
+      "History": 1,
+      "War": 1
+    },
+    "decades": {
+      "1980s": 3
+    }
+  }
+}

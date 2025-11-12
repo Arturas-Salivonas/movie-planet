@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Breadcrumbs from './Breadcrumbs'
 
 interface LocationMovie {
   movie_id: string
@@ -69,20 +70,18 @@ export default function LocationPageClient({ movies, location, stats }: Location
     .slice(0, 10)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white" data-location-page>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white pt-20" data-location-page>
       {/* Header */}
       <div className="relative overflow-hidden">
         <div className="relative container mx-auto px-4 py-16">
-          {/* Back to Home */}
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-gray-300 hover:text-white mb-8 transition-colors"
-          >
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Back to Globe
-          </Link>
+          {/* Breadcrumbs */}
+          <Breadcrumbs
+            items={[
+              { name: 'Home', href: '/' },
+              { name: 'Locations', href: '/location' },
+              { name: `${location.city}, ${location.country}` },
+            ]}
+          />
 
           {/* Location Header */}
           <div className="max-w-4xl">

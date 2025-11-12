@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "new-york-united-states-of-america",
     "coordinates": {
-      "lat": 40.721954020126994,
-      "lng": -73.97909668686457
+      "lat": 40.72213048970576,
+      "lng": -73.9795177756304
     }
   },
   "movies": [
@@ -800,6 +800,20 @@
       "poster": "/images/posters/tt2149175.webp",
       "thumbnail_52": "/images/thumbnails/tt2149175.webp",
       "imdb_rating": 7.9,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0047296",
+      "title": "On the Waterfront",
+      "year": 1954,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0047296.webp",
+      "thumbnail_52": "/images/thumbnails/tt0047296.webp",
+      "imdb_rating": 7.882,
       "londonLocationCount": 0
     },
     {
@@ -3133,6 +3147,19 @@
       "londonLocationCount": 0
     },
     {
+      "movie_id": "tt0366551",
+      "title": "Harold & Kumar Go to White Castle",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0366551.webp",
+      "thumbnail_52": "/images/thumbnails/tt0366551.webp",
+      "imdb_rating": 6.541,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt0212346",
       "title": "Miss Congeniality",
       "year": 2000,
@@ -3682,23 +3709,23 @@
     }
   ],
   "stats": {
-    "totalMovies": 274,
+    "totalMovies": 276,
     "totalLocations": 0,
     "genres": {
-      "Drama": 176,
-      "Crime": 79,
+      "Drama": 177,
+      "Crime": 80,
       "Action": 34,
       "Thriller": 36,
-      "Comedy": 114,
+      "Comedy": 115,
       "Science Fiction": 20,
-      "Adventure": 20,
+      "Adventure": 21,
       "Family": 19,
       "Fantasy": 14,
       "History": 6,
       "Music": 4,
       "Horror": 6,
       "Mystery": 35,
-      "Romance": 28,
+      "Romance": 29,
       "Animation": 17,
       "Sci-Fi & Fantasy": 22,
       "Action & Adventure": 18,
@@ -3709,9 +3736,9 @@
     },
     "decades": {
       "1970s": 6,
-      "1950s": 4,
+      "1950s": 5,
       "1990s": 41,
-      "2000s": 65,
+      "2000s": 66,
       "2010s": 114,
       "2020s": 28,
       "1960s": 5,

@@ -1,0 +1,136 @@
+{
+  "location": {
+    "city": "Barcelona",
+    "country": "Spain",
+    "slug": "barcelona-spain",
+    "coordinates": {
+      "lat": 41.38982784545455,
+      "lng": 2.1720469
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0361862",
+      "title": "The Machinist",
+      "year": 2004,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0361862.webp",
+      "thumbnail_52": "/images/thumbnails/tt0361862.webp",
+      "imdb_rating": 7.526,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1649419",
+      "title": "The Impossible",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt1649419.webp",
+      "thumbnail_52": "/images/thumbnails/tt1649419.webp",
+      "imdb_rating": 7.369,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1038988",
+      "title": "[REC]",
+      "year": 2007,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1038988.webp",
+      "thumbnail_52": "/images/thumbnails/tt1038988.webp",
+      "imdb_rating": 7.217,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1464335",
+      "title": "Uncharted",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1464335.webp",
+      "thumbnail_52": "/images/thumbnails/tt1464335.webp",
+      "imdb_rating": 6.886,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0497465",
+      "title": "Vicky Cristina Barcelona",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0497465.webp",
+      "thumbnail_52": "/images/thumbnails/tt0497465.webp",
+      "imdb_rating": 6.794,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt2023587",
+      "title": "Mama",
+      "year": 2013,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt2023587.webp",
+      "thumbnail_52": "/images/thumbnails/tt2023587.webp",
+      "imdb_rating": 6.284,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1645170",
+      "title": "The Dictator",
+      "year": 2012,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1645170.webp",
+      "thumbnail_52": "/images/thumbnails/tt1645170.webp",
+      "imdb_rating": 6.212,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 11,
+    "genres": {
+      "Thriller": 2,
+      "Drama": 3,
+      "Comedy": 1,
+      "Action": 1,
+      "Adventure": 1,
+      "Romance": 1,
+      "History": 1,
+      "Horror": 2,
+      "Mystery": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2000s": 4,
+      "2010s": 3,
+      "2020s": 1
+    }
+  }
+}

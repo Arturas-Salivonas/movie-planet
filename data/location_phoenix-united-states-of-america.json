@@ -1,0 +1,86 @@
+{
+  "location": {
+    "city": "Phoenix",
+    "country": "United States of America",
+    "slug": "phoenix-united-states-of-america",
+    "coordinates": {
+      "lat": 33.4484367,
+      "lng": -112.074141
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0054215",
+      "title": "Psycho",
+      "year": 1960,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0054215.webp",
+      "thumbnail_52": "/images/thumbnails/tt0054215.webp",
+      "imdb_rating": 8.422,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4158110",
+      "title": "Mr. Robot",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4158110.webp",
+      "thumbnail_52": "/images/thumbnails/tt4158110.webp",
+      "imdb_rating": 8.251,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0449059",
+      "title": "Little Miss Sunshine",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0449059.webp",
+      "thumbnail_52": "/images/thumbnails/tt0449059.webp",
+      "imdb_rating": 7.692,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116695",
+      "title": "Jerry Maguire",
+      "year": 1996,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0116695.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116695.webp",
+      "imdb_rating": 6.974,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 4,
+    "genres": {
+      "Horror": 1,
+      "Thriller": 1,
+      "Mystery": 1,
+      "Comedy": 2,
+      "Drama": 3,
+      "Romance": 1,
+      "Crime": 1
+    },
+    "decades": {
+      "1960s": 1,
+      "1990s": 1,
+      "2010s": 1,
+      "2000s": 1
+    }
+  }
+}

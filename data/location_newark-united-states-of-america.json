@@ -1,0 +1,83 @@
+{
+  "location": {
+    "city": "Newark",
+    "country": "United States of America",
+    "slug": "newark-united-states-of-america",
+    "coordinates": {
+      "lat": 40.733880049999996,
+      "lng": -74.16158722499999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0268978",
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0268978.webp",
+      "thumbnail_52": "/images/thumbnails/tt0268978.webp",
+      "imdb_rating": 7.855,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1070874",
+      "title": "The Trial of the Chicago 7",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt1070874.webp",
+      "thumbnail_52": "/images/thumbnails/tt1070874.webp",
+      "imdb_rating": 7.67,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7456722",
+      "title": "Hunters",
+      "year": 2020,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7456722.webp",
+      "thumbnail_52": "/images/thumbnails/tt7456722.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0407304",
+      "title": "War of the Worlds",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0407304.webp",
+      "thumbnail_52": "/images/thumbnails/tt0407304.webp",
+      "imdb_rating": 6.526,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 4,
+    "genres": {
+      "Adventure": 1,
+      "Thriller": 1,
+      "Science Fiction": 1,
+      "Crime": 1,
+      "Drama": 3,
+      "Romance": 1,
+      "History": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "2020s": 2
+    }
+  }
+}

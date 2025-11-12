@@ -157,13 +157,13 @@ export default function MovieModal({
                 </button>
               )}
             </div>
-            <div className="grid gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {movie.locations.map((location, index) => (
                 <div
                   key={index}
                   className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
                 >
-                  <div className="flex items-start justify-between gap-3">
+                  <div className="flex flex-col gap-2">
                     <div className="flex-1">
                       <h4 className="font-semibold text-gray-900 dark:text-white">
                         📍 {location.city}, {location.country}
@@ -184,7 +184,7 @@ export default function MovieModal({
                           onClose() // Close modal after flying to location
                         }
                       }}
-                      className="px-3 py-1 text-sm bg-primary-500 hover:bg-primary-600 text-white rounded transition-colors"
+                      className="w-full px-3 py-1 text-sm bg-primary-500 hover:bg-primary-600 text-white rounded transition-colors"
                       aria-label={`View ${location.city} on map`}
                     >
                       View on Map

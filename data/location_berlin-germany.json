@@ -1,0 +1,551 @@
+{
+  "location": {
+    "city": "Berlin",
+    "country": "Germany",
+    "slug": "berlin-germany",
+    "coordinates": {
+      "lat": 52.513860810526296,
+      "lng": 13.373301454385972
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt10048342",
+      "title": "The Queen's Gambit",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10048342.webp",
+      "thumbnail_52": "/images/thumbnails/tt10048342.webp",
+      "imdb_rating": 8.455,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt27668559",
+      "title": "Queen of Tears",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt27668559.webp",
+      "thumbnail_52": "/images/thumbnails/tt27668559.webp",
+      "imdb_rating": 8.38,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt27792190",
+      "title": "Maxton Hall - The World Between Us",
+      "year": 2024,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt27792190.webp",
+      "thumbnail_52": "/images/thumbnails/tt27792190.webp",
+      "imdb_rating": 8.369,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0017136",
+      "title": "Metropolis",
+      "year": 1927,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0017136.webp",
+      "thumbnail_52": "/images/thumbnails/tt0017136.webp",
+      "imdb_rating": 8.099,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0022100",
+      "title": "M",
+      "year": 1931,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0022100.webp",
+      "thumbnail_52": "/images/thumbnails/tt0022100.webp",
+      "imdb_rating": 8.07,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0405094",
+      "title": "The Lives of Others",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0405094.webp",
+      "thumbnail_52": "/images/thumbnails/tt0405094.webp",
+      "imdb_rating": 8.037,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0055031",
+      "title": "Judgment at Nuremberg",
+      "year": 1961,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0055031.webp",
+      "thumbnail_52": "/images/thumbnails/tt0055031.webp",
+      "imdb_rating": 8.018,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0434409",
+      "title": "V for Vendetta",
+      "year": 2006,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0434409.webp",
+      "thumbnail_52": "/images/thumbnails/tt0434409.webp",
+      "imdb_rating": 7.899,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363163",
+      "title": "Downfall",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0363163.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363163.webp",
+      "imdb_rating": 7.854,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0485947",
+      "title": "Mr. Nobody",
+      "year": 2009,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0485947.webp",
+      "thumbnail_52": "/images/thumbnails/tt0485947.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4378376",
+      "title": "Babylon Berlin",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4378376.webp",
+      "thumbnail_52": "/images/thumbnails/tt4378376.webp",
+      "imdb_rating": 7.761,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10366206",
+      "title": "John Wick: Chapter 4",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt10366206.webp",
+      "thumbnail_52": "/images/thumbnails/tt10366206.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1796960",
+      "title": "Homeland",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1796960.webp",
+      "thumbnail_52": "/images/thumbnails/tt1796960.webp",
+      "imdb_rating": 7.579,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7431994",
+      "title": "The Pit",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7431994.webp",
+      "thumbnail_52": "/images/thumbnails/tt7431994.webp",
+      "imdb_rating": 7.576,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3498820",
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3498820.webp",
+      "thumbnail_52": "/images/thumbnails/tt3498820.webp",
+      "imdb_rating": 7.448,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4643084",
+      "title": "Counterpart",
+      "year": 2017,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4643084.webp",
+      "thumbnail_52": "/images/thumbnails/tt4643084.webp",
+      "imdb_rating": 7.441,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0372183",
+      "title": "The Bourne Supremacy",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0372183.webp",
+      "thumbnail_52": "/images/thumbnails/tt0372183.webp",
+      "imdb_rating": 7.323,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2250912",
+      "title": "Spider-Man: Homecoming",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2250912.webp",
+      "thumbnail_52": "/images/thumbnails/tt2250912.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0130827",
+      "title": "Run Lola Run",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0130827.webp",
+      "thumbnail_52": "/images/thumbnails/tt0130827.webp",
+      "imdb_rating": 7.292,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt3682448",
+      "title": "Bridge of Spies",
+      "year": 2015,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3682448.webp",
+      "thumbnail_52": "/images/thumbnails/tt3682448.webp",
+      "imdb_rating": 7.236,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt14444726",
+      "title": "TÁR",
+      "year": 2022,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14444726.webp",
+      "thumbnail_52": "/images/thumbnails/tt14444726.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0238380",
+      "title": "Equilibrium",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0238380.webp",
+      "thumbnail_52": "/images/thumbnails/tt0238380.webp",
+      "imdb_rating": 7.046,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt19395018",
+      "title": "Constellation",
+      "year": 2024,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt19395018.webp",
+      "thumbnail_52": "/images/thumbnails/tt19395018.webp",
+      "imdb_rating": 7.033,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0985699",
+      "title": "Valkyrie",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "poster": "/images/posters/tt0985699.webp",
+      "thumbnail_52": "/images/thumbnails/tt0985699.webp",
+      "imdb_rating": 6.945,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1951266",
+      "title": "The Hunger Games: Mockingjay - Part 2",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1951266.webp",
+      "thumbnail_52": "/images/thumbnails/tt1951266.webp",
+      "imdb_rating": 6.898,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1464335",
+      "title": "Uncharted",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1464335.webp",
+      "thumbnail_52": "/images/thumbnails/tt1464335.webp",
+      "imdb_rating": 6.886,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1951265",
+      "title": "The Hunger Games: Mockingjay - Part 1",
+      "year": 2014,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1951265.webp",
+      "thumbnail_52": "/images/thumbnails/tt1951265.webp",
+      "imdb_rating": 6.815,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1401152",
+      "title": "Unknown",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1401152.webp",
+      "thumbnail_52": "/images/thumbnails/tt1401152.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0993842",
+      "title": "Hanna",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0993842.webp",
+      "thumbnail_52": "/images/thumbnails/tt0993842.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3385516",
+      "title": "X-Men: Apocalypse",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt3385516.webp",
+      "thumbnail_52": "/images/thumbnails/tt3385516.webp",
+      "imdb_rating": 6.517,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2406566",
+      "title": "Atomic Blonde",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2406566.webp",
+      "thumbnail_52": "/images/thumbnails/tt2406566.webp",
+      "imdb_rating": 6.428,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4196776",
+      "title": "Jason Bourne",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4196776.webp",
+      "thumbnail_52": "/images/thumbnails/tt4196776.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10838180",
+      "title": "The Matrix Resurrections",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt10838180.webp",
+      "thumbnail_52": "/images/thumbnails/tt10838180.webp",
+      "imdb_rating": 6.359,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086034",
+      "title": "Octopussy",
+      "year": 1983,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0086034.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086034.webp",
+      "imdb_rating": 6.356,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0088811",
+      "title": "Angry Harvest",
+      "year": 1985,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0088811.webp",
+      "thumbnail_52": "/images/thumbnails/tt0088811.webp",
+      "imdb_rating": 6.167,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1428538",
+      "title": "Hansel & Gretel: Witch Hunters",
+      "year": 2013,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1428538.webp",
+      "thumbnail_52": "/images/thumbnails/tt1428538.webp",
+      "imdb_rating": 6.1,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 37,
+    "totalLocations": 57,
+    "genres": {
+      "Action": 17,
+      "Drama": 21,
+      "Thriller": 15,
+      "History": 2,
+      "War": 2,
+      "Science Fiction": 10,
+      "Music": 1,
+      "Adventure": 11,
+      "Fantasy": 2,
+      "Romance": 2,
+      "Crime": 5,
+      "War & Politics": 1,
+      "Sci-Fi & Fantasy": 3,
+      "Mystery": 3,
+      "Horror": 1,
+      "Comedy": 1,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "2000s": 7,
+      "2020s": 8,
+      "1920s": 1,
+      "2010s": 16,
+      "1980s": 2,
+      "1930s": 1,
+      "1960s": 1,
+      "1990s": 1
+    }
+  }
+}

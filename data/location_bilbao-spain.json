@@ -1,0 +1,71 @@
+{
+  "location": {
+    "city": "Bilbao",
+    "country": "Spain",
+    "slug": "bilbao-spain",
+    "coordinates": {
+      "lat": 43.2648107,
+      "lng": -2.9346897
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt8228288",
+      "title": "The Platform",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt8228288.webp",
+      "thumbnail_52": "/images/thumbnails/tt8228288.webp",
+      "imdb_rating": 6.969,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0143145",
+      "title": "The World Is Not Enough",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0143145.webp",
+      "thumbnail_52": "/images/thumbnails/tt0143145.webp",
+      "imdb_rating": 6.284,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1617661",
+      "title": "Jupiter Ascending",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1617661.webp",
+      "thumbnail_52": "/images/thumbnails/tt1617661.webp",
+      "imdb_rating": 5.5,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Drama": 1,
+      "Science Fiction": 2,
+      "Thriller": 2,
+      "Adventure": 1,
+      "Action": 2,
+      "Fantasy": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "1990s": 1
+    }
+  }
+}

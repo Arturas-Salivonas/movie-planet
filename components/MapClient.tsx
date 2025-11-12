@@ -16,6 +16,7 @@ const SearchBar = lazy(() => import('../src/components/SearchBarOptimized'))
 const Filters = lazy(() => import('../src/components/Filters'))
 const MovieModal = lazy(() => import('../src/components/MovieModal'))
 const PartnershipModal = lazy(() => import('./PartnershipModal'))
+const Navigation = lazy(() => import('./Navigation'))
 
 interface MapProps {
   selectedMovie: Movie | null
@@ -67,6 +68,7 @@ export default function MapClient({
   const [searchQuery, setSearchQuery] = useState<string>('')
   const [isLocationViewed, setIsLocationViewed] = useState<boolean>(false)
   const [isPartnershipModalOpen, setIsPartnershipModalOpen] = useState<boolean>(false)
+  const [isSearchOpen, setIsSearchOpen] = useState<boolean>(false)
   const [filters, setFilters] = useState<FilterState>({
     genres: [],
     decades: [1980, 2030],
@@ -159,8 +161,25 @@ export default function MapClient({
 
   return (
     <div className="relative w-full h-full z-10">
-      {/* Search Bar - Top Center */}
-      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 w-11/12 sm:w-96 max-w-md">
+      {/* Navigation - Full Width on Mobile, Centered on Desktop */}
+      <div className="absolute top-4 left-4 right-4 lg:left-1/2 lg:right-auto lg:transform lg:-translate-x-1/2 z-10 lg:w-auto">
+        <Suspense fallback={
+          <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-2">
+            <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+          </div>
+        }>
+          <Navigation
+            onPartnershipClick={() => setIsPartnershipModalOpen(true)}
+            onSearchClick={() => setIsSearchOpen(!isSearchOpen)}
+          />
+        </Suspense>
+      </div>
+
+      {/* Search Bar & Filters Panel - Hidden on Mobile by Default, Always Visible on Desktop */}
+      <div className={`absolute top-20 lg:top-4 right-4 z-10 w-[calc(100%-2rem)] sm:w-96 lg:w-80 space-y-3 transition-all duration-300 ${
+        isSearchOpen ? 'block' : 'hidden lg:block'
+      }`}>
+        {/* Search Bar */}
         <Suspense fallback={
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
             <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
@@ -168,27 +187,30 @@ export default function MapClient({
         }>
           <SearchBar
             onSearch={setSearchQuery}
-            onMovieSelect={handleMovieSelect}
+            onMovieSelect={(movie) => {
+              handleMovieSelect(movie)
+              setIsSearchOpen(false) // Close search on mobile after selection
+            }}
           />
         </Suspense>
-      </div>
 
-      {/* Filters Panel - Top Right (Hidden on Mobile) */}
-      <div className="hidden lg:block absolute top-4 right-4 z-10 w-80">
-        <Suspense fallback={
-          <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
-            <div className="space-y-3">
-              <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
-              <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
-              <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+        {/* Filters Panel (Hidden on Mobile) */}
+        <div className="hidden lg:block">
+          <Suspense fallback={
+            <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
+              <div className="space-y-3">
+                <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+                <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+                <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+              </div>
             </div>
-          </div>
-        }>
-          <Filters
-            filters={filters}
-            onFiltersChange={setFilters}
-          />
-        </Suspense>
+          }>
+            <Filters
+              filters={filters}
+              onFiltersChange={setFilters}
+            />
+          </Suspense>
+        </div>
       </div>
 
       {/* Main Map */}
@@ -218,7 +240,7 @@ export default function MapClient({
 
       {/* Reset Focus Button - Shows when a movie is focused */}
       {focusedMovieId && (
-        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
+        <div className="absolute top-24 lg:top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
           <button
             onClick={handleResetFocus}
             className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
@@ -230,7 +252,7 @@ export default function MapClient({
 
       {/* Reset View Button - Shows when user has viewed a location */}
       {isLocationViewed && !focusedMovieId && (
-        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
+        <div className="absolute top-24 lg:top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
           <button
             onClick={handleResetView}
             className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base"

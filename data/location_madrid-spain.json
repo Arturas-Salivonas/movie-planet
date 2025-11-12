@@ -1,0 +1,147 @@
+{
+  "location": {
+    "city": "Madrid",
+    "country": "Spain",
+    "slug": "madrid-spain",
+    "coordinates": {
+      "lat": 40.42050450000001,
+      "lng": -3.703356675
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt6468322",
+      "title": "Money Heist",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6468322.webp",
+      "thumbnail_52": "/images/thumbnails/tt6468322.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7134908",
+      "title": "Elite",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7134908.webp",
+      "thumbnail_52": "/images/thumbnails/tt7134908.webp",
+      "imdb_rating": 8.019,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4524056",
+      "title": "Locked Up",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4524056.webp",
+      "thumbnail_52": "/images/thumbnails/tt4524056.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0230600",
+      "title": "The Others",
+      "year": 2001,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0230600.webp",
+      "thumbnail_52": "/images/thumbnails/tt0230600.webp",
+      "imdb_rating": 7.615,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt16288804",
+      "title": "Berlin",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt16288804.webp",
+      "thumbnail_52": "/images/thumbnails/tt16288804.webp",
+      "imdb_rating": 7.569,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0203009",
+      "title": "Moulin Rouge!",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Music"
+      ],
+      "poster": "/images/posters/tt0203009.webp",
+      "thumbnail_52": "/images/thumbnails/tt0203009.webp",
+      "imdb_rating": 7.541,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0066206",
+      "title": "Patton",
+      "year": 1970,
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0066206.webp",
+      "thumbnail_52": "/images/thumbnails/tt0066206.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0440963",
+      "title": "The Bourne Ultimatum",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0440963.webp",
+      "thumbnail_52": "/images/thumbnails/tt0440963.webp",
+      "imdb_rating": 7.432,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 8,
+    "genres": {
+      "Action": 1,
+      "Drama": 7,
+      "Mystery": 3,
+      "Thriller": 2,
+      "War": 1,
+      "History": 1,
+      "Crime": 4,
+      "Horror": 1,
+      "Romance": 1,
+      "Music": 1,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "2000s": 3,
+      "1970s": 1,
+      "2010s": 3,
+      "2020s": 1
+    }
+  }
+}

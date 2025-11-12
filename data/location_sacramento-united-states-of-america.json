@@ -1,0 +1,84 @@
+{
+  "location": {
+    "city": "Sacramento",
+    "country": "United States of America",
+    "slug": "sacramento-united-states-of-america",
+    "coordinates": {
+      "lat": 38.583494683333335,
+      "lng": -121.48036824999998
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1196946",
+      "title": "The Mentalist",
+      "year": 2008,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1196946.webp",
+      "thumbnail_52": "/images/thumbnails/tt1196946.webp",
+      "imdb_rating": 8.359,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0169547",
+      "title": "American Beauty",
+      "year": 1999,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0169547.webp",
+      "thumbnail_52": "/images/thumbnails/tt0169547.webp",
+      "imdb_rating": 8.003,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt30144839",
+      "title": "One Battle After Another",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt30144839.webp",
+      "thumbnail_52": "/images/thumbnails/tt30144839.webp",
+      "imdb_rating": 7.712,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4925292",
+      "title": "Lady Bird",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt4925292.webp",
+      "thumbnail_52": "/images/thumbnails/tt4925292.webp",
+      "imdb_rating": 7.255,
+      "londonLocationCount": 3
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 6,
+    "genres": {
+      "Action": 1,
+      "Thriller": 1,
+      "Crime": 2,
+      "Drama": 3,
+      "Mystery": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "2020s": 1,
+      "2000s": 1,
+      "2010s": 1,
+      "1990s": 1
+    }
+  }
+}

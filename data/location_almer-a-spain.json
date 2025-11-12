@@ -1,0 +1,142 @@
+{
+  "location": {
+    "city": "Almería",
+    "country": "Spain",
+    "slug": "almer-a-spain",
+    "coordinates": {
+      "lat": 36.84064935555556,
+      "lng": -2.4620687555555554
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0059578",
+      "title": "For a Few Dollars More",
+      "year": 1965,
+      "genres": [
+        "Western"
+      ],
+      "poster": "/images/posters/tt0059578.webp",
+      "thumbnail_52": "/images/thumbnails/tt0059578.webp",
+      "imdb_rating": 8.017,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4524056",
+      "title": "Locked Up",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4524056.webp",
+      "thumbnail_52": "/images/thumbnails/tt4524056.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0058461",
+      "title": "A Fistful of Dollars",
+      "year": 1964,
+      "genres": [
+        "Western"
+      ],
+      "poster": "/images/posters/tt0058461.webp",
+      "thumbnail_52": "/images/thumbnails/tt0058461.webp",
+      "imdb_rating": 7.827,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0066206",
+      "title": "Patton",
+      "year": 1970,
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0066206.webp",
+      "thumbnail_52": "/images/thumbnails/tt0066206.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6932244",
+      "title": "Hanna",
+      "year": 2019,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6932244.webp",
+      "thumbnail_52": "/images/thumbnails/tt6932244.webp",
+      "imdb_rating": 7.45,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7649694",
+      "title": "Ramy",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7649694.webp",
+      "thumbnail_52": "/images/thumbnails/tt7649694.webp",
+      "imdb_rating": 7.294,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0082198",
+      "title": "Conan the Barbarian",
+      "year": 1982,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0082198.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082198.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9073958",
+      "title": "White Lines",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt9073958.webp",
+      "thumbnail_52": "/images/thumbnails/tt9073958.webp",
+      "imdb_rating": 6.647,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 9,
+    "genres": {
+      "War": 1,
+      "Drama": 5,
+      "History": 1,
+      "Adventure": 1,
+      "Fantasy": 1,
+      "Action": 1,
+      "Western": 2,
+      "Action & Adventure": 1,
+      "Crime": 2,
+      "Mystery": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "1970s": 1,
+      "1980s": 1,
+      "1960s": 2,
+      "2010s": 3,
+      "2020s": 1
+    }
+  }
+}

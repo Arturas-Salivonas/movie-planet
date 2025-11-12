@@ -1,0 +1,67 @@
+{
+  "location": {
+    "city": "Delhi",
+    "country": "India",
+    "slug": "delhi-india",
+    "coordinates": {
+      "lat": 28.64268922,
+      "lng": 77.22381936000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt9398466",
+      "title": "Delhi Crime",
+      "year": 2019,
+      "genres": [
+        "Crime"
+      ],
+      "poster": "/images/posters/tt9398466.webp",
+      "thumbnail_52": "/images/thumbnails/tt9398466.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5074352",
+      "title": "Dangal",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Family",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt5074352.webp",
+      "thumbnail_52": "/images/thumbnails/tt5074352.webp",
+      "imdb_rating": 7.896,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2338151",
+      "title": "PK",
+      "year": 2014,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2338151.webp",
+      "thumbnail_52": "/images/thumbnails/tt2338151.webp",
+      "imdb_rating": 7.702,
+      "londonLocationCount": 3
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 5,
+    "genres": {
+      "Drama": 2,
+      "Family": 1,
+      "Comedy": 2,
+      "Crime": 1,
+      "Science Fiction": 1
+    },
+    "decades": {
+      "2010s": 3
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "location": {
+    "city": "Milwaukee",
+    "country": "United States of America",
+    "slug": "milwaukee-united-states-of-america",
+    "coordinates": {
+      "lat": 43.03910033333333,
+      "lng": -87.91772408333334
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1152836",
+      "title": "Public Enemies",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1152836.webp",
+      "thumbnail_52": "/images/thumbnails/tt1152836.webp",
+      "imdb_rating": 6.688,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1478338",
+      "title": "Bridesmaids",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1478338.webp",
+      "thumbnail_52": "/images/thumbnails/tt1478338.webp",
+      "imdb_rating": 6.516,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1399103",
+      "title": "Transformers: Dark of the Moon",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1399103.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399103.webp",
+      "imdb_rating": 6.219,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 6,
+    "genres": {
+      "Action": 1,
+      "Science Fiction": 1,
+      "Adventure": 1,
+      "Crime": 1,
+      "History": 1,
+      "Drama": 1,
+      "Comedy": 1,
+      "Romance": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2000s": 1
+    }
+  }
+}

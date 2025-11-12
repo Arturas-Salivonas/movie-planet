@@ -1,0 +1,81 @@
+{
+  "location": {
+    "city": "Adelaide",
+    "country": "Australia",
+    "slug": "adelaide-australia",
+    "coordinates": {
+      "lat": -34.8943289,
+      "lng": 138.59646972999997
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt10638522",
+      "title": "Talk to Me",
+      "year": 2023,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt10638522.webp",
+      "thumbnail_52": "/images/thumbnails/tt10638522.webp",
+      "imdb_rating": 7.142,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0293429",
+      "title": "Mortal Kombat",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0293429.webp",
+      "thumbnail_52": "/images/thumbnails/tt0293429.webp",
+      "imdb_rating": 7.004,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt11847842",
+      "title": "The Tourist",
+      "year": 2022,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11847842.webp",
+      "thumbnail_52": "/images/thumbnails/tt11847842.webp",
+      "imdb_rating": 6.811,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2321549",
+      "title": "The Babadook",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt2321549.webp",
+      "thumbnail_52": "/images/thumbnails/tt2321549.webp",
+      "imdb_rating": 6.527,
+      "londonLocationCount": 4
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 10,
+    "genres": {
+      "Drama": 2,
+      "Horror": 2,
+      "Mystery": 1,
+      "Action": 1,
+      "Fantasy": 1,
+      "Adventure": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2020s": 3
+    }
+  }
+}

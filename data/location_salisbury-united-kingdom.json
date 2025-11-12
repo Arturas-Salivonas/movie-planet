@@ -1,0 +1,65 @@
+{
+  "location": {
+    "city": "Salisbury",
+    "country": "United Kingdom",
+    "slug": "salisbury-united-kingdom",
+    "coordinates": {
+      "lat": 51.0643234,
+      "lng": -1.8678624
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4786824",
+      "title": "The Crown",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4786824.webp",
+      "thumbnail_52": "/images/thumbnails/tt4786824.webp",
+      "imdb_rating": 8.197,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8740790",
+      "title": "Bridgerton",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8740790.webp",
+      "thumbnail_52": "/images/thumbnails/tt8740790.webp",
+      "imdb_rating": 8.079,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1365519",
+      "title": "Tomb Raider",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1365519.webp",
+      "thumbnail_52": "/images/thumbnails/tt1365519.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Drama": 2,
+      "Action": 1,
+      "Adventure": 1,
+      "Fantasy": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2020s": 1
+    }
+  }
+}

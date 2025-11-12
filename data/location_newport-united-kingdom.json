@@ -1,0 +1,83 @@
+{
+  "location": {
+    "city": "Newport",
+    "country": "United Kingdom",
+    "slug": "newport-united-kingdom",
+    "coordinates": {
+      "lat": 51.5748774,
+      "lng": -3.0129178000000003
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0436992",
+      "title": "Doctor Who",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0436992.webp",
+      "thumbnail_52": "/images/thumbnails/tt0436992.webp",
+      "imdb_rating": 7.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0485301",
+      "title": "Torchwood",
+      "year": 2006,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0485301.webp",
+      "thumbnail_52": "/images/thumbnails/tt0485301.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9686194",
+      "title": "War of the Worlds",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9686194.webp",
+      "thumbnail_52": "/images/thumbnails/tt9686194.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1349938",
+      "title": "Being Human",
+      "year": 2009,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1349938.webp",
+      "thumbnail_52": "/images/thumbnails/tt1349938.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 4,
+    "genres": {
+      "Action & Adventure": 3,
+      "Drama": 4,
+      "Sci-Fi & Fantasy": 4,
+      "Mystery": 1
+    },
+    "decades": {
+      "2000s": 3,
+      "2010s": 1
+    }
+  }
+}
