@@ -249,30 +249,30 @@ export default function MapClient({
 
       {/* Active Filters Display - Shows selected filters as removable chips */}
       {hasActiveFilters && (
-        <div className="absolute top-36 lg:top-36 right-4 z-10 w-[calc(100%-2rem)] sm:w-96 lg:w-80">
-          <div className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg shadow-lg p-3 border border-gray-200 dark:border-gray-700">
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-semibold text-gray-700 dark:text-gray-300">
+        <div className="absolute bottom-20 lg:top-36 left-4 right-4 lg:right-4 lg:left-auto z-10 lg:w-80">
+          <div className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg shadow-lg p-2 lg:p-3 border border-gray-200 dark:border-gray-700">
+            <div className="flex items-center justify-between mb-1.5 lg:mb-2">
+              <span className="text-[10px] lg:text-xs font-semibold text-gray-700 dark:text-gray-300">
                 Active Filters
               </span>
               <button
                 onClick={clearAllFilters}
-                className="text-xs text-red-600 dark:text-red-400 hover:underline font-medium"
+                className="text-[10px] lg:text-xs text-red-600 dark:text-red-400 hover:underline font-medium"
               >
                 Clear All
               </button>
             </div>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-1.5 lg:gap-2">
               {/* Genre filters */}
               {filters.genres.map((genre) => (
                 <button
                   key={genre}
                   onClick={() => removeGenreFilter(genre)}
-                  className="inline-flex items-center gap-1 px-2 py-1 bg-primary-100 dark:bg-primary-900/40 text-primary-800 dark:text-primary-300 text-xs rounded-full hover:bg-primary-200 dark:hover:bg-primary-900/60 transition-colors"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-primary-100 dark:bg-primary-900/40 text-primary-800 dark:text-primary-300 text-[10px] lg:text-xs rounded-full hover:bg-primary-200 dark:hover:bg-primary-900/60 transition-colors"
                   title="Click to remove"
                 >
                   <span>{genre}</span>
-                  <svg className="w-3 h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M6 18L18 6M6 6l12 12"></path>
                   </svg>
                 </button>
@@ -283,11 +283,11 @@ export default function MapClient({
                 <button
                   key={platform}
                   onClick={() => removeStreamingFilter(platform)}
-                  className="inline-flex items-center gap-1 px-2 py-1 bg-purple-100 dark:bg-purple-900/40 text-purple-800 dark:text-purple-300 text-xs rounded-full hover:bg-purple-200 dark:hover:bg-purple-900/60 transition-colors"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-purple-100 dark:bg-purple-900/40 text-purple-800 dark:text-purple-300 text-[10px] lg:text-xs rounded-full hover:bg-purple-200 dark:hover:bg-purple-900/60 transition-colors"
                   title="Click to remove"
                 >
                   <span>{platform}</span>
-                  <svg className="w-3 h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M6 18L18 6M6 6l12 12"></path>
                   </svg>
                 </button>
@@ -297,11 +297,11 @@ export default function MapClient({
               {(filters.starRating[0] !== 0 || filters.starRating[1] !== 10) && (
                 <button
                   onClick={removeStarRatingFilter}
-                  className="inline-flex items-center gap-1 px-2 py-1 bg-yellow-100 dark:bg-yellow-900/40 text-yellow-800 dark:text-yellow-300 text-xs rounded-full hover:bg-yellow-200 dark:hover:bg-yellow-900/60 transition-colors"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-yellow-100 dark:bg-yellow-900/40 text-yellow-800 dark:text-yellow-300 text-[10px] lg:text-xs rounded-full hover:bg-yellow-200 dark:hover:bg-yellow-900/60 transition-colors"
                   title="Click to remove"
                 >
                   <span>⭐ {filters.starRating[0].toFixed(1)}-{filters.starRating[1].toFixed(1)}</span>
-                  <svg className="w-3 h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M6 18L18 6M6 6l12 12"></path>
                   </svg>
                 </button>
@@ -311,11 +311,12 @@ export default function MapClient({
               {filters.topIMDB && (
                 <button
                   onClick={removeTopIMDBFilter}
-                  className="inline-flex items-center gap-1 px-2 py-1 bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 text-xs rounded-full hover:bg-amber-200 dark:hover:bg-amber-900/60 transition-colors font-semibold border-2 border-amber-400 dark:border-amber-600 animate-pulse-soft shadow-lg shadow-amber-200/50 dark:shadow-amber-500/20"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 text-[10px] lg:text-xs rounded-full hover:bg-amber-200 dark:hover:bg-amber-900/60 transition-colors font-semibold border lg:border-2 border-amber-400 dark:border-amber-600 animate-pulse-soft shadow-md lg:shadow-lg shadow-amber-200/50 dark:shadow-amber-500/20"
                   title="Click to remove"
                 >
-                  <span>🏆IMDB TOP 250</span>
-                  <svg className="w-3 h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <span className="hidden sm:inline">🏆IMDB TOP 250</span>
+                  <span className="sm:hidden">🏆TOP 250</span>
+                  <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M6 18L18 6M6 6l12 12"></path>
                   </svg>
                 </button>
