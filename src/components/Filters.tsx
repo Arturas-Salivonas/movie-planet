@@ -67,15 +67,6 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
   }
 
   /**
-   * Handle decade slider change
-   */
-  const handleDecadeChange = (index: 0 | 1, value: number) => {
-    const newDecades: [number, number] = [...filters.decades]
-    newDecades[index] = value
-    onFiltersChange({ ...filters, decades: newDecades })
-  }
-
-  /**
    * Reset all filters
    */
   const resetFilters = () => {
@@ -83,13 +74,16 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
       genres: [],
       decades: [1980, 2030],
       streaming: [],
+      starRating: [0, 10],
+      topIMDB: false,
     })
   }
 
   const activeFilterCount =
     filters.genres.length +
     filters.streaming.length +
-    (filters.decades[0] !== 1980 || filters.decades[1] !== 2030 ? 1 : 0)
+    (filters.starRating[0] !== 0 || filters.starRating[1] !== 10 ? 1 : 0) +
+    (filters.topIMDB ? 1 : 0)
 
   return (
     <div className="relative">
@@ -168,43 +162,95 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
             </div>
           </div>
 
-          {/* Decades */}
+          {/* Star Rating */}
           <div className="mb-6">
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-3">
-              Year Range
+            <h3 className="font-semibold text-gray-900 dark:text-white mb-3 flex items-center gap-2">
+              <span>⭐ IMDB Rating</span>
+              {(filters.starRating[0] !== 0 || filters.starRating[1] !== 10) && (
+                <button
+                  onClick={() => onFiltersChange({ ...filters, starRating: [0, 10] })}
+                  className="text-xs text-primary-600 dark:text-primary-400 hover:underline"
+                >
+                  Clear
+                </button>
+              )}
             </h3>
             <div className="space-y-4">
               <div>
                 <label className="text-sm text-gray-600 dark:text-gray-400 mb-1 block">
-                  From: {filters.decades[0]}
+                  Minimum: {filters.starRating[0].toFixed(1)} ⭐
                 </label>
                 <input
                   type="range"
-                  min="1980"
-                  max="2030"
-                  step="5"
-                  value={filters.decades[0]}
-                  onChange={(e) => handleDecadeChange(0, Number(e.target.value))}
-                  className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
-                  aria-label="Start year"
+                  min="0"
+                  max="10"
+                  step="0.5"
+                  value={filters.starRating[0]}
+                  onChange={(e) => {
+                    const newMin = Number(e.target.value)
+                    const newMax = Math.max(newMin, filters.starRating[1])
+                    onFiltersChange({ ...filters, starRating: [newMin, newMax] })
+                  }}
+                  className="w-full h-2 bg-gradient-to-r from-yellow-200 to-yellow-400 rounded-lg appearance-none cursor-pointer"
+                  aria-label="Minimum IMDB rating"
                 />
               </div>
               <div>
                 <label className="text-sm text-gray-600 dark:text-gray-400 mb-1 block">
-                  To: {filters.decades[1]}
+                  Maximum: {filters.starRating[1].toFixed(1)} ⭐
                 </label>
                 <input
                   type="range"
-                  min="1980"
-                  max="2030"
-                  step="5"
-                  value={filters.decades[1]}
-                  onChange={(e) => handleDecadeChange(1, Number(e.target.value))}
-                  className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
-                  aria-label="End year"
+                  min="0"
+                  max="10"
+                  step="0.5"
+                  value={filters.starRating[1]}
+                  onChange={(e) => {
+                    const newMax = Number(e.target.value)
+                    const newMin = Math.min(newMax, filters.starRating[0])
+                    onFiltersChange({ ...filters, starRating: [newMin, newMax] })
+                  }}
+                  className="w-full h-2 bg-gradient-to-r from-yellow-200 to-yellow-400 rounded-lg appearance-none cursor-pointer"
+                  aria-label="Maximum IMDB rating"
                 />
               </div>
+              <div className="flex justify-between items-center text-sm text-gray-600 dark:text-gray-400 pt-2 border-t border-gray-200 dark:border-gray-600">
+                <span>Range:</span>
+                <span className="font-semibold text-yellow-600 dark:text-yellow-400">
+                  {filters.starRating[0].toFixed(1)} - {filters.starRating[1].toFixed(1)} ⭐
+                </span>
+              </div>
             </div>
+          </div>
+
+          {/* TOP 250 IMDB */}
+          <div className={`mb-6 p-4 bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-yellow-900/20 dark:to-amber-900/20 rounded-lg border-2 transition-all duration-300 ${
+            filters.topIMDB
+              ? 'border-yellow-400 dark:border-yellow-500 shadow-lg shadow-yellow-200/50 dark:shadow-yellow-500/20 animate-pulse-soft'
+              : 'border-yellow-300 dark:border-yellow-700'
+          }`}>
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={filters.topIMDB}
+                onChange={(e) => onFiltersChange({ ...filters, topIMDB: e.target.checked })}
+                className="mt-1 w-5 h-5 text-yellow-600 bg-white border-yellow-400 rounded focus:ring-yellow-500 focus:ring-2 cursor-pointer"
+              />
+              <div className="flex-1">
+                <div className="font-bold text-gray-900 dark:text-white flex items-center gap-2">
+                  <span className={`text-xl ${filters.topIMDB ? 'animate-bounce-gentle' : ''}`}>🏆</span>
+                  <span>IMDB TOP 250</span>
+                  {filters.topIMDB && (
+                    <span className="ml-auto text-xs px-2 py-0.5 bg-yellow-400 dark:bg-yellow-600 text-yellow-900 dark:text-yellow-100 rounded-full font-semibold">
+                      ACTIVE
+                    </span>
+                  )}
+                </div>
+                <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                  Show only the highest-rated 250 movies/tv shows on IMDB by ranking
+                </p>
+              </div>
+            </label>
           </div>
 
           {/* Streaming Platforms */}

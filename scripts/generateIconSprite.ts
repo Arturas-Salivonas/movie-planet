@@ -93,7 +93,7 @@ async function generateSprites(movies: MovieData[]): Promise<void> {
 
   // Calculate sprite layout
   const totalSprites = Math.ceil(movies.length / maxMoviesPerSprite)
-  console.log(`📦 Creating ${totalSprites} sprite sheet(s)...`)
+
 
   const allMetadata: Record<string, SpritePosition & { sprite: string }> = {}
   const fallbackIconBuffer = await createFallbackIcon()

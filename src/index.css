@@ -216,6 +216,34 @@ html:has([data-location-page]) {
   animation: cluster-pulse 2s ease-in-out infinite;
 }
 
+/* Soft pulse animation for active TOP 250 filter */
+@keyframes pulse-soft {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(251, 191, 36, 0);
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gentle bounce animation for trophy emoji */
+@keyframes bounce-gentle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-4px) scale(1.05);
+  }
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 2s ease-in-out infinite;
+}
+
 /* Apply system fonts to MapLibre GL labels and controls */
 .maplibregl-ctrl,
 .maplibregl-popup,

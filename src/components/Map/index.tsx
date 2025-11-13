@@ -236,7 +236,7 @@ const Map = forwardRef<MapRef, MapProps>(({
       </div>
 
       {/* Movie Statistics - Top Right (Hidden on Mobile) */}
-      <div className="hidden lg:flex absolute top-36 right-4 z-10 gap-3">
+      {/* <div className="hidden lg:flex absolute top-36 right-4 z-10 gap-3">
         <div className="bg-black/70 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-white/10">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🎬</span>
@@ -259,21 +259,30 @@ const Map = forwardRef<MapRef, MapProps>(({
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-            <div className="hidden lg:block absolute top-56 right-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+            <div className="hidden mt-4 lg:block z-10 absolute top-16 left-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
 
 
    {/* Instructions - Left Side (Hidden on Mobile) */}
-        <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
-          <span>ℹ️</span> How to Use
+   <p className='text-xs text-gray-300'>This is an interactive 3D globe that lets you discover real-world filming locations from over {movies.filter(m => m.type !== 'tv').length}+ movies and {movies.filter(m => m.type === 'tv').length}+ TV shows.
+</p>
+{/* <p className='text-xs text-gray-300 space-y-1 mt-3'>  Use the 🔍 search or filters to find your favorites, 🗺️ click on markers to learn more about each location, and 🌐 rotate or zoom the globe to explore cinematic landscapes around the world.</p> */}
+        <h3 className="text-sm font-bold mb-2 mt-2 flex items-center gap-2">
+         How to Use
         </h3>
         <ul className="text-xs text-gray-300 space-y-1 mb-3">
-          <li>🔍 Search for movies or locations</li>
-          <li>🗺️ Click markers to explore</li>
-          <li>🌐 Rotate & zoom the globe</li>
-          <li>🎬 Discover filming locations worldwide</li>
+          <li>🔍 Use the search or filters to find your favorites</li>
+          <li>🗺️ Click on markers to learn more about movie</li>
+          <li>🌐 Rotate or zoom the globe to explore locations</li>
+
         </ul>
+             {/* <p className="text-xl font-bold">
+               movies {movies.filter(m => m.type !== 'tv').length}
+              </p>
+           <p className="text-xl font-bold">
+               tv shows {movies.filter(m => m.type === 'tv').length}
+              </p> */}
       </div>
 
     </div>

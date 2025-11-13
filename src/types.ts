@@ -113,6 +113,8 @@ export interface FilterState {
   genres: string[];
   decades: [number, number];
   streaming: string[];
+  starRating: [number, number]; // IMDB rating range [min, max] from 0 to 10
+  topIMDB: boolean; // Show only top 250 IMDB movies
 }
 
 /**

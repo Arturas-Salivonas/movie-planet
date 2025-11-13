@@ -154,7 +154,7 @@ export function usePosterLoading() {
 
     // Load sprites (this loads all icons in each sprite at once)
     if (spritesToLoad.size > 0) {
-      console.log(`📦 Loading ${spritesToLoad.size} sprite sheet(s)...`)
+
       await Promise.all(
         Array.from(spritesToLoad).map(spriteName =>
           loadSpriteSheet(map, spriteName, metadata)

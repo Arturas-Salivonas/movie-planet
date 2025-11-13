@@ -71,10 +71,13 @@ export function useMapMarkers({
    * Initialize markers on the map
    */
   const initializeMarkers = useCallback(async () => {
-    if (!map.current || geojsonFeatures.length === 0) return
+    if (!map.current || geojsonFeatures.length === 0 || movies.length === 0) return
     if (initializedRef.current || map.current.getSource('movies')) return
 
-    const allFeatures = geojsonFeatures
+    // Apply filters to initial data
+    const filteredMovies = filterMovies(movies, filters)
+    const filteredIds = new Set(filteredMovies.map(m => m.movie_id))
+    const allFeatures = geojsonFeatures.filter(f => filteredIds.has(f.properties.movie_id))
 
     // Convert MultiPoint features into individual Point features
     let displayFeatures = flattenMultiPointFeatures(allFeatures)
@@ -181,6 +184,8 @@ export function useMapMarkers({
   }, [
     map,
     geojsonFeatures,
+    movies,
+    filters,
     imageCacheRef,
     loadVisiblePosters,
     addClickableRegions,
@@ -194,7 +199,7 @@ export function useMapMarkers({
    * Initialize markers when data is loaded
    */
   useEffect(() => {
-    if (!map.current || geojsonFeatures.length === 0) return
+    if (!map.current || geojsonFeatures.length === 0 || movies.length === 0) return
 
     if (!map.current.isStyleLoaded()) {
       map.current.on('load', () => {
@@ -203,7 +208,7 @@ export function useMapMarkers({
     } else {
       initializeMarkers()
     }
-  }, [map, geojsonFeatures, initializeMarkers])
+  }, [map, geojsonFeatures, movies, initializeMarkers])
 
   /**
    * Update visible markers based on filters and focus
@@ -216,12 +221,15 @@ export function useMapMarkers({
     if (focusedMovieId) {
       filteredFeatures = geojsonFeatures.filter(f => f.properties.movie_id === focusedMovieId)
     } else {
-      const filteredMovies = filterMovies(movies, filters)
-      const filteredIds = new Set(filteredMovies.map(m => m.movie_id))
-
-      filteredFeatures = movies.length > 0
-        ? geojsonFeatures.filter(f => filteredIds.has(f.properties.movie_id))
-        : geojsonFeatures
+      // Only apply filters if movies have been loaded
+      if (movies.length > 0) {
+        const filteredMovies = filterMovies(movies, filters)
+        const filteredIds = new Set(filteredMovies.map(m => m.movie_id))
+        filteredFeatures = geojsonFeatures.filter(f => filteredIds.has(f.properties.movie_id))
+      } else {
+        // Movies not loaded yet, show empty array to avoid showing all markers
+        filteredFeatures = []
+      }
     }
 
     // Convert and update

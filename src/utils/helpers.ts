@@ -54,9 +54,11 @@ export const filterMovies = (
     genres: string[]
     decades: [number, number]
     streaming: string[]
+    starRating: [number, number]
+    topIMDB: boolean
   }
 ): Movie[] => {
-  return movies.filter(movie => {
+  let filtered = movies.filter(movie => {
     // Genre filter
     if (filters.genres.length > 0) {
       const hasMatchingGenre = movie.genres.some(genre =>
@@ -78,8 +80,29 @@ export const filterMovies = (
       if (!hasMatchingPlatform) return false
     }
 
+    // Star rating filter
+    if (movie.imdb_rating !== undefined) {
+      if (movie.imdb_rating < filters.starRating[0] || movie.imdb_rating > filters.starRating[1]) {
+        return false
+      }
+    } else if (filters.starRating[0] > 0) {
+      // If movie has no rating and minimum rating is set, exclude it
+      return false
+    }
+
     return true
   })
+
+  // TOP 250 IMDB filter - show only top 250 movies by rating
+  if (filters.topIMDB) {
+    // Sort by IMDB rating (descending) and take top 250
+    filtered = filtered
+      .filter(movie => movie.imdb_rating !== undefined)
+      .sort((a, b) => (b.imdb_rating || 0) - (a.imdb_rating || 0))
+      .slice(0, 250)
+  }
+
+  return filtered
 }
 
 /**
