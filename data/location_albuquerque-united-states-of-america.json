@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "albuquerque-united-states-of-america",
     "coordinates": {
-      "lat": 35.0938375948718,
-      "lng": -106.63801158717956
+      "lat": 35.08599450243902,
+      "lng": -106.62965080975613
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt0903747.webp",
       "thumbnail_52": "/images/thumbnails/tt0903747.webp",
       "imdb_rating": 8.926,
-      "londonLocationCount": 4
+      "londonLocationCount": 20
     },
     {
       "movie_id": "tt3032476",
@@ -33,7 +33,21 @@
       "poster": "/images/posters/tt3032476.webp",
       "thumbnail_52": "/images/thumbnails/tt3032476.webp",
       "imdb_rating": 8.697,
-      "londonLocationCount": 5
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt4574334",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4574334.webp",
+      "thumbnail_52": "/images/thumbnails/tt4574334.webp",
+      "imdb_rating": 8.593,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0043338",
@@ -48,6 +62,47 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0477348",
+      "title": "No Country for Old Men",
+      "year": 2007,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "poster": "/images/posters/tt0477348.webp",
+      "thumbnail_52": "/images/thumbnails/tt0477348.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3553976",
+      "title": "Captain Fantastic",
+      "year": 2016,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3553976.webp",
+      "thumbnail_52": "/images/thumbnails/tt3553976.webp",
+      "imdb_rating": 7.891,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0848228",
+      "title": "The Avengers",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0848228.webp",
+      "thumbnail_52": "/images/thumbnails/tt0848228.webp",
+      "imdb_rating": 7.842,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0851851",
       "title": "Terminator: The Sarah Connor Chronicles",
       "year": 2008,
@@ -59,7 +114,7 @@
       "poster": "/images/posters/tt0851851.webp",
       "thumbnail_52": "/images/thumbnails/tt0851851.webp",
       "imdb_rating": 7.5,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt14269590",
@@ -100,7 +155,7 @@
       "poster": "/images/posters/tt3397884.webp",
       "thumbnail_52": "/images/thumbnails/tt3397884.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0315733",
@@ -115,6 +170,20 @@
       "thumbnail_52": "/images/thumbnails/tt0315733.webp",
       "imdb_rating": 7.324,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2582782",
+      "title": "Hell or High Water",
+      "year": 2016,
+      "genres": [
+        "Western",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2582782.webp",
+      "thumbnail_52": "/images/thumbnails/tt2582782.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9179552",
@@ -141,6 +210,20 @@
       "poster": "/images/posters/tt11794642.webp",
       "thumbnail_52": "/images/thumbnails/tt11794642.webp",
       "imdb_rating": 7.254,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt5090568",
+      "title": "Transformers: Rise of the Beasts",
+      "year": 2023,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt5090568.webp",
+      "thumbnail_52": "/images/thumbnails/tt5090568.webp",
+      "imdb_rating": 7.2,
       "londonLocationCount": 1
     },
     {
@@ -226,6 +309,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0418279",
+      "title": "Transformers",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0418279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0418279.webp",
+      "imdb_rating": 6.82,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1037705",
       "title": "The Book of Eli",
       "year": 2010,
@@ -266,6 +363,19 @@
       "poster": "/images/posters/tt1272878.webp",
       "thumbnail_52": "/images/thumbnails/tt1272878.webp",
       "imdb_rating": 6.536,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1231583",
+      "title": "Due Date",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1231583.webp",
+      "thumbnail_52": "/images/thumbnails/tt1231583.webp",
+      "imdb_rating": 6.386,
       "londonLocationCount": 1
     },
     {
@@ -283,6 +393,20 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt1210819",
+      "title": "The Lone Ranger",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Western"
+      ],
+      "poster": "/images/posters/tt1210819.webp",
+      "thumbnail_52": "/images/thumbnails/tt1210819.webp",
+      "imdb_rating": 6.1,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0438488",
       "title": "Terminator Salvation",
       "year": 2009,
@@ -294,7 +418,7 @@
       "poster": "/images/posters/tt0438488.webp",
       "thumbnail_52": "/images/thumbnails/tt0438488.webp",
       "imdb_rating": 6.071,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt2209764",
@@ -353,29 +477,30 @@
     }
   ],
   "stats": {
-    "totalMovies": 25,
-    "totalLocations": 39,
+    "totalMovies": 34,
+    "totalLocations": 82,
     "genres": {
-      "Drama": 13,
-      "Comedy": 4,
+      "Drama": 17,
+      "Adventure": 7,
+      "Science Fiction": 9,
+      "Action": 12,
+      "Comedy": 5,
       "Romance": 1,
-      "Thriller": 9,
-      "Science Fiction": 6,
-      "Mystery": 4,
-      "Crime": 12,
-      "Action": 8,
+      "Thriller": 10,
+      "Mystery": 5,
+      "Crime": 14,
+      "Sci-Fi & Fantasy": 4,
       "War": 1,
-      "Adventure": 2,
-      "Sci-Fi & Fantasy": 3,
+      "Western": 3,
       "Action & Adventure": 3,
       "Horror": 1
     },
     "decades": {
       "1950s": 1,
-      "2000s": 5,
-      "2010s": 12,
-      "1990s": 1,
-      "2020s": 6
+      "2000s": 7,
+      "2010s": 18,
+      "2020s": 7,
+      "1990s": 1
     }
   }
 }

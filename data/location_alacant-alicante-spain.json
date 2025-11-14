@@ -1,0 +1,73 @@
+{
+  "location": {
+    "city": "Alacant / Alicante",
+    "country": "Spain",
+    "slug": "alacant-alicante-spain",
+    "coordinates": {
+      "lat": 38.330606020000005,
+      "lng": -0.5022124800000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4873118",
+      "title": "Guy Ritchie's The Covenant",
+      "year": 2023,
+      "genres": [
+        "War",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4873118.webp",
+      "thumbnail_52": "/images/thumbnails/tt4873118.webp",
+      "imdb_rating": 7.731,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1649419",
+      "title": "The Impossible",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt1649419.webp",
+      "thumbnail_52": "/images/thumbnails/tt1649419.webp",
+      "imdb_rating": 7.369,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1446714",
+      "title": "Prometheus",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1446714.webp",
+      "thumbnail_52": "/images/thumbnails/tt1446714.webp",
+      "imdb_rating": 6.584,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 5,
+    "genres": {
+      "Science Fiction": 1,
+      "Adventure": 1,
+      "Mystery": 1,
+      "Drama": 1,
+      "Thriller": 2,
+      "History": 1,
+      "War": 1,
+      "Action": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2020s": 1
+    }
+  }
+}

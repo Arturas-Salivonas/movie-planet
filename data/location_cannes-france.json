@@ -1,0 +1,72 @@
+{
+  "location": {
+    "city": "Cannes",
+    "country": "France",
+    "slug": "cannes-france",
+    "coordinates": {
+      "lat": 43.55024685,
+      "lng": 7.018358599999999
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2066051",
+      "title": "Rocketman",
+      "year": 2019,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2066051.webp",
+      "thumbnail_52": "/images/thumbnails/tt2066051.webp",
+      "imdb_rating": 7.314,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt17526714",
+      "title": "The Substance",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt17526714.webp",
+      "thumbnail_52": "/images/thumbnails/tt17526714.webp",
+      "imdb_rating": 7.144,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0293662",
+      "title": "The Transporter",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0293662.webp",
+      "thumbnail_52": "/images/thumbnails/tt0293662.webp",
+      "imdb_rating": 6.713,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 4,
+    "genres": {
+      "Drama": 2,
+      "Horror": 1,
+      "Science Fiction": 1,
+      "Action": 1,
+      "Crime": 1,
+      "Thriller": 1,
+      "Music": 1
+    },
+    "decades": {
+      "2020s": 1,
+      "2000s": 1,
+      "2010s": 1
+    }
+  }
+}

@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "pittsburgh-united-states-of-america",
     "coordinates": {
-      "lat": 40.442632925925906,
-      "lng": -79.99131925925928
+      "lat": 40.441796449999984,
+      "lng": -79.99197273055552
     }
   },
   "movies": [
@@ -33,6 +33,18 @@
       "poster": "/images/posters/tt0102926.webp",
       "thumbnail_52": "/images/thumbnails/tt0102926.webp",
       "imdb_rating": 8.346,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0200276",
+      "title": "The West Wing",
+      "year": 1999,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0200276.webp",
+      "thumbnail_52": "/images/thumbnails/tt0200276.webp",
+      "imdb_rating": 8.267,
       "londonLocationCount": 1
     },
     {
@@ -46,7 +58,7 @@
       "poster": "/images/posters/tt5290382.webp",
       "thumbnail_52": "/images/thumbnails/tt5290382.webp",
       "imdb_rating": 8.098,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9446688",
@@ -61,6 +73,19 @@
       "thumbnail_52": "/images/thumbnails/tt9446688.webp",
       "imdb_rating": 8.016,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0077416",
+      "title": "The Deer Hunter",
+      "year": 1978,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt0077416.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077416.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2017109",
@@ -112,7 +137,21 @@
       "poster": "/images/posters/tt1291584.webp",
       "thumbnail_52": "/images/thumbnails/tt1291584.webp",
       "imdb_rating": 7.846,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0848228",
+      "title": "The Avengers",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0848228.webp",
+      "thumbnail_52": "/images/thumbnails/tt0848228.webp",
+      "imdb_rating": 7.842,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt1659337",
@@ -124,7 +163,7 @@
       "poster": "/images/posters/tt1659337.webp",
       "thumbnail_52": "/images/thumbnails/tt1659337.webp",
       "imdb_rating": 7.801,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1345836",
@@ -139,7 +178,7 @@
       "poster": "/images/posters/tt1345836.webp",
       "thumbnail_52": "/images/thumbnails/tt1345836.webp",
       "imdb_rating": 7.788,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt7405458",
@@ -155,6 +194,21 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0107048",
+      "title": "Groundhog Day",
+      "year": 1993,
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0107048.webp",
+      "thumbnail_52": "/images/thumbnails/tt0107048.webp",
+      "imdb_rating": 7.616,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt2582846",
       "title": "The Fault in Our Stars",
       "year": 2014,
@@ -165,7 +219,7 @@
       "poster": "/images/posters/tt2582846.webp",
       "thumbnail_52": "/images/thumbnails/tt2582846.webp",
       "imdb_rating": 7.6,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt6264654",
@@ -182,6 +236,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0100405",
+      "title": "Pretty Woman",
+      "year": 1990,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0100405.webp",
+      "thumbnail_52": "/images/thumbnails/tt0100405.webp",
+      "imdb_rating": 7.46,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1798684",
       "title": "Southpaw",
       "year": 2015,
@@ -192,6 +259,20 @@
       "poster": "/images/posters/tt1798684.webp",
       "thumbnail_52": "/images/thumbnails/tt1798684.webp",
       "imdb_rating": 7.4,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0093870",
+      "title": "RoboCop",
+      "year": 1987,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0093870.webp",
+      "thumbnail_52": "/images/thumbnails/tt0093870.webp",
+      "imdb_rating": 7.352,
       "londonLocationCount": 1
     },
     {
@@ -224,6 +305,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2309295",
+      "title": "Hemlock Grove",
+      "year": 2013,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2309295.webp",
+      "thumbnail_52": "/images/thumbnails/tt2309295.webp",
+      "imdb_rating": 7.081,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0758752",
       "title": "Love & Other Drugs",
       "year": 2010,
@@ -238,6 +332,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0898367",
+      "title": "The Road",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0898367.webp",
+      "thumbnail_52": "/images/thumbnails/tt0898367.webp",
+      "imdb_rating": 7.016,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0120655",
       "title": "Dogma",
       "year": 1999,
@@ -249,7 +356,7 @@
       "poster": "/images/posters/tt0120655.webp",
       "thumbnail_52": "/images/thumbnails/tt0120655.webp",
       "imdb_rating": 6.918,
-      "londonLocationCount": 3
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt8226360",
@@ -265,6 +372,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0116629",
+      "title": "Independence Day",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116629.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116629.webp",
+      "imdb_rating": 6.897,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0790724",
       "title": "Jack Reacher",
       "year": 2012,
@@ -277,7 +398,20 @@
       "poster": "/images/posters/tt0790724.webp",
       "thumbnail_52": "/images/thumbnails/tt0790724.webp",
       "imdb_rating": 6.647,
-      "londonLocationCount": 1
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt0477080",
+      "title": "Unstoppable",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0477080.webp",
+      "thumbnail_52": "/images/thumbnails/tt0477080.webp",
+      "imdb_rating": 6.602,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1464540",
@@ -296,25 +430,29 @@
     }
   ],
   "stats": {
-    "totalMovies": 21,
-    "totalLocations": 27,
+    "totalMovies": 31,
+    "totalLocations": 72,
     "genres": {
       "Crime": 8,
-      "Thriller": 5,
-      "Drama": 18,
-      "Action": 5,
-      "Fantasy": 1,
-      "Comedy": 6,
-      "Adventure": 3,
-      "Science Fiction": 2,
-      "Romance": 3,
+      "Thriller": 7,
+      "Drama": 23,
+      "Romance": 5,
+      "Fantasy": 2,
+      "Comedy": 8,
+      "Action": 9,
+      "Adventure": 6,
+      "Science Fiction": 5,
       "Sci-Fi & Fantasy": 2,
-      "Mystery": 1
+      "Mystery": 2,
+      "War": 1
     },
     "decades": {
-      "1990s": 2,
-      "2010s": 12,
-      "2020s": 7
+      "1990s": 6,
+      "2010s": 15,
+      "2020s": 7,
+      "1980s": 1,
+      "2000s": 1,
+      "1970s": 1
     }
   }
 }

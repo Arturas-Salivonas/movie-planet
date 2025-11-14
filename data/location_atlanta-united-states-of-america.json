@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "atlanta-united-states-of-america",
     "coordinates": {
-      "lat": 33.75235236764702,
-      "lng": -84.48804021372555
+      "lat": 33.75683337857137,
+      "lng": -84.43099128865525
     }
   },
   "movies": [
@@ -36,7 +36,7 @@
       "poster": "/images/posters/tt4574334.webp",
       "thumbnail_52": "/images/thumbnails/tt4574334.webp",
       "imdb_rating": 8.593,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1567432",
@@ -50,7 +50,7 @@
       "poster": "/images/posters/tt1567432.webp",
       "thumbnail_52": "/images/thumbnails/tt1567432.webp",
       "imdb_rating": 8.462,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt6483832",
@@ -88,7 +88,7 @@
       "poster": "/images/posters/tt1405406.webp",
       "thumbnail_52": "/images/thumbnails/tt1405406.webp",
       "imdb_rating": 8.313,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt4154796",
@@ -102,7 +102,21 @@
       "poster": "/images/posters/tt4154796.webp",
       "thumbnail_52": "/images/thumbnails/tt4154796.webp",
       "imdb_rating": 8.237,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt4154756",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt4154756.webp",
+      "thumbnail_52": "/images/thumbnails/tt4154756.webp",
+      "imdb_rating": 8.235,
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt13146488",
@@ -130,6 +144,19 @@
       "poster": "/images/posters/tt7221388.webp",
       "thumbnail_52": "/images/thumbnails/tt7221388.webp",
       "imdb_rating": 8.21,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt5071412",
+      "title": "Ozark",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5071412.webp",
+      "thumbnail_52": "/images/thumbnails/tt5071412.webp",
+      "imdb_rating": 8.2,
       "londonLocationCount": 1
     },
     {
@@ -143,7 +170,7 @@
       "poster": "/images/posters/tt9140554.webp",
       "thumbnail_52": "/images/thumbnails/tt9140554.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt6763664",
@@ -156,7 +183,7 @@
       "poster": "/images/posters/tt6763664.webp",
       "thumbnail_52": "/images/thumbnails/tt6763664.webp",
       "imdb_rating": 8.115,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1520211",
@@ -197,7 +224,7 @@
       "poster": "/images/posters/tt1392214.webp",
       "thumbnail_52": "/images/thumbnails/tt1392214.webp",
       "imdb_rating": 8.099,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt4846340",
@@ -210,7 +237,7 @@
       "poster": "/images/posters/tt4846340.webp",
       "thumbnail_52": "/images/thumbnails/tt4846340.webp",
       "imdb_rating": 8.05,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt4288182",
@@ -251,7 +278,7 @@
       "poster": "/images/posters/tt10872600.webp",
       "thumbnail_52": "/images/thumbnails/tt10872600.webp",
       "imdb_rating": 7.937,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt6791350",
@@ -266,7 +293,7 @@
       "poster": "/images/posters/tt6791350.webp",
       "thumbnail_52": "/images/thumbnails/tt6791350.webp",
       "imdb_rating": 7.932,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2543312",
@@ -278,6 +305,20 @@
       "poster": "/images/posters/tt2543312.webp",
       "thumbnail_52": "/images/thumbnails/tt2543312.webp",
       "imdb_rating": 7.9,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt10160804",
+      "title": "Hawkeye",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt10160804.webp",
+      "thumbnail_52": "/images/thumbnails/tt10160804.webp",
+      "imdb_rating": 7.8,
       "londonLocationCount": 1
     },
     {
@@ -292,6 +333,19 @@
       "poster": "/images/posters/tt3489184.webp",
       "thumbnail_52": "/images/thumbnails/tt3489184.webp",
       "imdb_rating": 7.8,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0758758",
+      "title": "Into the Wild",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758758.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758758.webp",
+      "imdb_rating": 7.799,
       "londonLocationCount": 2
     },
     {
@@ -343,7 +397,7 @@
       "poster": "/images/posters/tt0878804.webp",
       "thumbnail_52": "/images/thumbnails/tt0878804.webp",
       "imdb_rating": 7.672,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0210945",
@@ -355,7 +409,7 @@
       "poster": "/images/posters/tt0210945.webp",
       "thumbnail_52": "/images/thumbnails/tt0210945.webp",
       "imdb_rating": 7.645,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3896198",
@@ -369,7 +423,7 @@
       "poster": "/images/posters/tt3896198.webp",
       "thumbnail_52": "/images/thumbnails/tt3896198.webp",
       "imdb_rating": 7.611,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt4396630",
@@ -423,7 +477,7 @@
       "poster": "/images/posters/tt9777666.webp",
       "thumbnail_52": "/images/thumbnails/tt9777666.webp",
       "imdb_rating": 7.488,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt6334354",
@@ -437,7 +491,7 @@
       "poster": "/images/posters/tt6334354.webp",
       "thumbnail_52": "/images/thumbnails/tt6334354.webp",
       "imdb_rating": 7.478,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt5580036",
@@ -464,7 +518,7 @@
       "poster": "/images/posters/tt3498820.webp",
       "thumbnail_52": "/images/thumbnails/tt3498820.webp",
       "imdb_rating": 7.448,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt3890160",
@@ -491,7 +545,7 @@
       "poster": "/images/posters/tt1951264.webp",
       "thumbnail_52": "/images/thumbnails/tt1951264.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 2
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt5950044",
@@ -505,7 +559,7 @@
       "poster": "/images/posters/tt5950044.webp",
       "thumbnail_52": "/images/thumbnails/tt5950044.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt17543592",
@@ -533,7 +587,7 @@
       "poster": "/images/posters/tt1825683.webp",
       "thumbnail_52": "/images/thumbnails/tt1825683.webp",
       "imdb_rating": 7.367,
-      "londonLocationCount": 3
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt7259746",
@@ -599,7 +653,7 @@
       "poster": "/images/posters/tt2250912.webp",
       "thumbnail_52": "/images/thumbnails/tt2250912.webp",
       "imdb_rating": 7.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt28256288",
@@ -626,7 +680,7 @@
       "poster": "/images/posters/tt1156398.webp",
       "thumbnail_52": "/images/thumbnails/tt1156398.webp",
       "imdb_rating": 7.258,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1596343",
@@ -654,7 +708,7 @@
       "poster": "/images/posters/tt2820852.webp",
       "thumbnail_52": "/images/thumbnails/tt2820852.webp",
       "imdb_rating": 7.223,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt3263904",
@@ -667,6 +721,20 @@
       "poster": "/images/posters/tt3263904.webp",
       "thumbnail_52": "/images/thumbnails/tt3263904.webp",
       "imdb_rating": 7.196,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3480822",
+      "title": "Black Widow",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3480822.webp",
+      "thumbnail_52": "/images/thumbnails/tt3480822.webp",
+      "imdb_rating": 7.189,
       "londonLocationCount": 1
     },
     {
@@ -680,7 +748,7 @@
       "poster": "/images/posters/tt5606664.webp",
       "thumbnail_52": "/images/thumbnails/tt5606664.webp",
       "imdb_rating": 7.143,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2140479",
@@ -694,7 +762,7 @@
       "poster": "/images/posters/tt2140479.webp",
       "thumbnail_52": "/images/thumbnails/tt2140479.webp",
       "imdb_rating": 7.129,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt1502397",
@@ -722,7 +790,21 @@
       "poster": "/images/posters/tt3799694.webp",
       "thumbnail_52": "/images/thumbnails/tt3799694.webp",
       "imdb_rating": 7.124,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt6905686",
+      "title": "Lovecraft Country",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt6905686.webp",
+      "thumbnail_52": "/images/thumbnails/tt6905686.webp",
+      "imdb_rating": 7.112,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt2226342",
@@ -735,7 +817,7 @@
       "poster": "/images/posters/tt2226342.webp",
       "thumbnail_52": "/images/thumbnails/tt2226342.webp",
       "imdb_rating": 7.1,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt4276820",
@@ -762,7 +844,20 @@
       "poster": "/images/posters/tt0478970.webp",
       "thumbnail_52": "/images/thumbnails/tt0478970.webp",
       "imdb_rating": 7.067,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0082340",
+      "title": "Escape from New York",
+      "year": 1981,
+      "genres": [
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0082340.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082340.webp",
+      "imdb_rating": 7.053,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9114286",
@@ -816,7 +911,7 @@
       "poster": "/images/posters/tt1355644.webp",
       "thumbnail_52": "/images/thumbnails/tt1355644.webp",
       "imdb_rating": 6.952,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt6045840",
@@ -847,6 +942,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2005151",
+      "title": "War Dogs",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2005151.webp",
+      "thumbnail_52": "/images/thumbnails/tt2005151.webp",
+      "imdb_rating": 6.926,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt5095030",
       "title": "Ant-Man and the Wasp",
       "year": 2018,
@@ -858,7 +967,21 @@
       "poster": "/images/posters/tt5095030.webp",
       "thumbnail_52": "/images/thumbnails/tt5095030.webp",
       "imdb_rating": 6.912,
-      "londonLocationCount": 1
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt1560220",
+      "title": "Zombieland: Double Tap",
+      "year": 2019,
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1560220.webp",
+      "thumbnail_52": "/images/thumbnails/tt1560220.webp",
+      "imdb_rating": 6.912,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3921180",
@@ -872,6 +995,20 @@
       "poster": "/images/posters/tt3921180.webp",
       "thumbnail_52": "/images/thumbnails/tt3921180.webp",
       "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1951266",
+      "title": "The Hunger Games: Mockingjay - Part 2",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1951266.webp",
+      "thumbnail_52": "/images/thumbnails/tt1951266.webp",
+      "imdb_rating": 6.898,
       "londonLocationCount": 1
     },
     {
@@ -890,6 +1027,34 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt7975244",
+      "title": "Jumanji: The Next Level",
+      "year": 2019,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt7975244.webp",
+      "thumbnail_52": "/images/thumbnails/tt7975244.webp",
+      "imdb_rating": 6.886,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt4630562",
+      "title": "The Fate of the Furious",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4630562.webp",
+      "thumbnail_52": "/images/thumbnails/tt4630562.webp",
+      "imdb_rating": 6.861,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1907668",
       "title": "Flight",
       "year": 2012,
@@ -899,7 +1064,7 @@
       "poster": "/images/posters/tt1907668.webp",
       "thumbnail_52": "/images/thumbnails/tt1907668.webp",
       "imdb_rating": 6.85,
-      "londonLocationCount": 2
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt17279496",
@@ -913,7 +1078,7 @@
       "poster": "/images/posters/tt17279496.webp",
       "thumbnail_52": "/images/thumbnails/tt17279496.webp",
       "imdb_rating": 6.849,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt2704998",
@@ -954,6 +1119,20 @@
       "poster": "/images/posters/tt1270797.webp",
       "thumbnail_52": "/images/thumbnails/tt1270797.webp",
       "imdb_rating": 6.827,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9794044",
+      "title": "Citadel",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt9794044.webp",
+      "thumbnail_52": "/images/thumbnails/tt9794044.webp",
+      "imdb_rating": 6.827,
       "londonLocationCount": 1
     },
     {
@@ -970,7 +1149,7 @@
       "poster": "/images/posters/tt2283362.webp",
       "thumbnail_52": "/images/thumbnails/tt2283362.webp",
       "imdb_rating": 6.819,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1951265",
@@ -984,7 +1163,7 @@
       "poster": "/images/posters/tt1951265.webp",
       "thumbnail_52": "/images/thumbnails/tt1951265.webp",
       "imdb_rating": 6.815,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt7529770",
@@ -1000,6 +1179,32 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0443453",
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0443453.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443453.webp",
+      "imdb_rating": 6.785,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7991608",
+      "title": "Red Notice",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7991608.webp",
+      "thumbnail_52": "/images/thumbnails/tt7991608.webp",
+      "imdb_rating": 6.753,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt3741700",
       "title": "Godzilla: King of the Monsters",
       "year": 2019,
@@ -1010,6 +1215,34 @@
       "poster": "/images/posters/tt3741700.webp",
       "thumbnail_52": "/images/thumbnails/tt3741700.webp",
       "imdb_rating": 6.7,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1598778",
+      "title": "Contagion",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1598778.webp",
+      "thumbnail_52": "/images/thumbnails/tt1598778.webp",
+      "imdb_rating": 6.644,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8041270",
+      "title": "Jurassic World Dominion",
+      "year": 2022,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt8041270.webp",
+      "thumbnail_52": "/images/thumbnails/tt8041270.webp",
+      "imdb_rating": 6.631,
       "londonLocationCount": 1
     },
     {
@@ -1027,6 +1260,33 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0120082",
+      "title": "Scream 2",
+      "year": 1997,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0120082.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120082.webp",
+      "imdb_rating": 6.505,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2231461",
+      "title": "Rampage",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2231461.webp",
+      "thumbnail_52": "/images/thumbnails/tt2231461.webp",
+      "imdb_rating": 6.456,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1489889",
       "title": "Central Intelligence",
       "year": 2016,
@@ -1037,6 +1297,19 @@
       "poster": "/images/posters/tt1489889.webp",
       "thumbnail_52": "/images/thumbnails/tt1489889.webp",
       "imdb_rating": 6.416,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1231583",
+      "title": "Due Date",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1231583.webp",
+      "thumbnail_52": "/images/thumbnails/tt1231583.webp",
+      "imdb_rating": 6.386,
       "londonLocationCount": 1
     },
     {
@@ -1051,7 +1324,7 @@
       "poster": "/images/posters/tt2908446.webp",
       "thumbnail_52": "/images/thumbnails/tt2908446.webp",
       "imdb_rating": 6.364,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1605630",
@@ -1102,7 +1375,7 @@
       "poster": "/images/posters/tt2234155.webp",
       "thumbnail_52": "/images/thumbnails/tt2234155.webp",
       "imdb_rating": 6.24,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt1399103",
@@ -1170,23 +1443,23 @@
     }
   ],
   "stats": {
-    "totalMovies": 86,
-    "totalLocations": 102,
+    "totalMovies": 106,
+    "totalLocations": 238,
     "genres": {
-      "Adventure": 22,
-      "Science Fiction": 25,
-      "Action": 33,
-      "Drama": 38,
-      "Thriller": 10,
-      "Crime": 12,
-      "Horror": 4,
+      "Adventure": 29,
+      "Drama": 46,
+      "Action": 42,
+      "Science Fiction": 32,
+      "Thriller": 12,
+      "Crime": 17,
+      "Horror": 6,
       "History": 4,
-      "Comedy": 23,
-      "Action & Adventure": 10,
-      "Sci-Fi & Fantasy": 13,
-      "Mystery": 7,
+      "Comedy": 30,
+      "Fantasy": 4,
+      "Action & Adventure": 12,
+      "Sci-Fi & Fantasy": 14,
+      "Mystery": 9,
       "Animation": 2,
-      "Fantasy": 3,
       "Family": 2,
       "Romance": 1,
       "War": 1,
@@ -1194,10 +1467,11 @@
       "Reality": 2
     },
     "decades": {
-      "2010s": 57,
-      "2020s": 20,
-      "2000s": 8,
-      "1980s": 1
+      "2000s": 10,
+      "2010s": 67,
+      "2020s": 26,
+      "1980s": 2,
+      "1990s": 1
     }
   }
 }

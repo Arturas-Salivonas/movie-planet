@@ -4,11 +4,24 @@
     "country": "United States of America",
     "slug": "salt-lake-united-states-of-america",
     "coordinates": {
-      "lat": 40.7602893,
-      "lng": -111.88968437999999
+      "lat": 40.760038237500005,
+      "lng": -111.8886016125
     }
   },
   "movies": [
+    {
+      "movie_id": "tt4236770",
+      "title": "Yellowstone",
+      "year": 2018,
+      "genres": [
+        "Western",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4236770.webp",
+      "thumbnail_52": "/images/thumbnails/tt4236770.webp",
+      "imdb_rating": 8.256,
+      "londonLocationCount": 0
+    },
     {
       "movie_id": "tt7784604",
       "title": "Hereditary",
@@ -77,20 +90,21 @@
     }
   ],
   "stats": {
-    "totalMovies": 5,
+    "totalMovies": 6,
     "totalLocations": 0,
     "genres": {
+      "Western": 1,
+      "Drama": 3,
       "Horror": 1,
       "Mystery": 1,
       "Thriller": 3,
       "Comedy": 1,
       "Adventure": 1,
-      "Drama": 2,
       "Action": 1,
       "Crime": 1
     },
     "decades": {
-      "2010s": 2,
+      "2010s": 3,
       "1990s": 2,
       "2000s": 1
     }

@@ -9,13 +9,23 @@ import { getUniqueGenres, getUniqueStreamingPlatforms } from '../utils/helpers'
 interface FiltersProps {
   filters: FilterState
   onFiltersChange: (filters: FilterState) => void
+  isOpen?: boolean
+  onOpenChange?: (isOpen: boolean) => void
 }
 
-export default function Filters({ filters, onFiltersChange }: FiltersProps) {
-  const [isOpen, setIsOpen] = useState(false)
+export default function Filters({ filters, onFiltersChange, isOpen: controlledIsOpen, onOpenChange }: FiltersProps) {
+  const [internalIsOpen, setInternalIsOpen] = useState(false)
   const [availableGenres, setAvailableGenres] = useState<string[]>([])
   const [availableStreaming, setAvailableStreaming] = useState<string[]>([])
 
+  // Use controlled or uncontrolled state
+  const isOpen = controlledIsOpen !== undefined ? controlledIsOpen : internalIsOpen
+  const setIsOpen = (value: boolean) => {
+    if (controlledIsOpen === undefined) {
+      setInternalIsOpen(value)
+    }
+    onOpenChange?.(value)
+  }
   /**
    * Load available filter options
    */
@@ -191,7 +201,7 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
                     const newMax = Math.max(newMin, filters.starRating[1])
                     onFiltersChange({ ...filters, starRating: [newMin, newMax] })
                   }}
-                  className="w-full h-2 bg-gradient-to-r from-yellow-200 to-yellow-400 rounded-lg appearance-none cursor-pointer"
+                  className="w-full h-2 bg-gradient-to-r from-accent-200 to-accent-400 rounded-lg appearance-none cursor-pointer"
                   aria-label="Minimum IMDB rating"
                 />
               </div>
@@ -210,13 +220,13 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
                     const newMin = Math.min(newMax, filters.starRating[0])
                     onFiltersChange({ ...filters, starRating: [newMin, newMax] })
                   }}
-                  className="w-full h-2 bg-gradient-to-r from-yellow-200 to-yellow-400 rounded-lg appearance-none cursor-pointer"
+                  className="w-full h-2 bg-gradient-to-r from-accent-200 to-accent-400 rounded-lg appearance-none cursor-pointer"
                   aria-label="Maximum IMDB rating"
                 />
               </div>
               <div className="flex justify-between items-center text-sm text-gray-600 dark:text-gray-400 pt-2 border-t border-gray-200 dark:border-gray-600">
                 <span>Range:</span>
-                <span className="font-semibold text-yellow-600 dark:text-yellow-400">
+                <span className="font-semibold text-accent-600 dark:text-accent-400">
                   {filters.starRating[0].toFixed(1)} - {filters.starRating[1].toFixed(1)} ⭐
                 </span>
               </div>
@@ -224,24 +234,24 @@ export default function Filters({ filters, onFiltersChange }: FiltersProps) {
           </div>
 
           {/* TOP 250 IMDB */}
-          <div className={`mb-6 p-4 bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-yellow-900/20 dark:to-amber-900/20 rounded-lg border-2 transition-all duration-300 ${
+          <div className={`mb-6 p-4 bg-gradient-to-br from-accent-50 to-accent-100 dark:from-accent-900/20 dark:to-accent-900/30 rounded-lg border-2 transition-all duration-300 ${
             filters.topIMDB
-              ? 'border-yellow-400 dark:border-yellow-500 shadow-lg shadow-yellow-200/50 dark:shadow-yellow-500/20 animate-pulse-soft'
-              : 'border-yellow-300 dark:border-yellow-700'
+              ? 'border-accent-400 dark:border-accent-500 shadow-lg shadow-accent-200/50 dark:shadow-accent-500/20 animate-pulse-soft'
+              : 'border-accent-300 dark:border-accent-700'
           }`}>
             <label className="flex items-start gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 checked={filters.topIMDB}
                 onChange={(e) => onFiltersChange({ ...filters, topIMDB: e.target.checked })}
-                className="mt-1 w-5 h-5 text-yellow-600 bg-white border-yellow-400 rounded focus:ring-yellow-500 focus:ring-2 cursor-pointer"
+                className="mt-1 w-5 h-5 text-accent-600 bg-white border-accent-400 rounded focus:ring-accent-500 focus:ring-2 cursor-pointer"
               />
               <div className="flex-1">
                 <div className="font-bold text-gray-900 dark:text-white flex items-center gap-2">
                   <span className={`text-xl ${filters.topIMDB ? 'animate-bounce-gentle' : ''}`}>🏆</span>
                   <span>IMDB TOP 250</span>
                   {filters.topIMDB && (
-                    <span className="ml-auto text-xs px-2 py-0.5 bg-yellow-400 dark:bg-yellow-600 text-yellow-900 dark:text-yellow-100 rounded-full font-semibold">
+                    <span className="ml-auto text-xs px-2 py-0.5 bg-accent-400 dark:bg-accent-500 text-gray-900 dark:text-gray-900 rounded-full font-semibold">
                       ACTIVE
                     </span>
                   )}

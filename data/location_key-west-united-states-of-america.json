@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "key-west-united-states-of-america",
     "coordinates": {
-      "lat": 24.559592866666666,
-      "lng": -81.78642566666666
+      "lat": 24.560188699999998,
+      "lng": -81.78446985
     }
   },
   "movies": [
@@ -35,6 +35,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0111503",
+      "title": "True Lies",
+      "year": 1994,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0111503.webp",
+      "thumbnail_52": "/images/thumbnails/tt0111503.webp",
+      "imdb_rating": 7.084,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0322259",
       "title": "2 Fast 2 Furious",
       "year": 2003,
@@ -50,17 +63,17 @@
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 4,
+    "totalLocations": 4,
     "genres": {
-      "Action": 1,
+      "Action": 2,
       "Crime": 2,
-      "Thriller": 1,
+      "Thriller": 2,
       "Comedy": 2
     },
     "decades": {
       "2000s": 1,
-      "1990s": 1,
+      "1990s": 2,
       "2020s": 1
     }
   }

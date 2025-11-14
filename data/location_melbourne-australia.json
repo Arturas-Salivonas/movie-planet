@@ -4,11 +4,23 @@
     "country": "Australia",
     "slug": "melbourne-australia",
     "coordinates": {
-      "lat": -37.85786216538462,
-      "lng": 144.9917838423077
+      "lat": -37.835802261333335,
+      "lng": 144.9614379533333
     }
   },
   "movies": [
+    {
+      "movie_id": "tt3741834",
+      "title": "Lion",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3741834.webp",
+      "thumbnail_52": "/images/thumbnails/tt3741834.webp",
+      "imdb_rating": 8.042,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt2433738",
       "title": "Wentworth",
@@ -158,6 +170,20 @@
       "poster": "/images/posters/tt0079501.webp",
       "thumbnail_52": "/images/thumbnails/tt0079501.webp",
       "imdb_rating": 6.7,
+      "londonLocationCount": 15
+    },
+    {
+      "movie_id": "tt0458525",
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0458525.webp",
+      "thumbnail_52": "/images/thumbnails/tt0458525.webp",
+      "imdb_rating": 6.278,
       "londonLocationCount": 1
     },
     {
@@ -173,7 +199,36 @@
       "poster": "/images/posters/tt0448011.webp",
       "thumbnail_52": "/images/thumbnails/tt0448011.webp",
       "imdb_rating": 6.236,
-      "londonLocationCount": 2
+      "londonLocationCount": 17
+    },
+    {
+      "movie_id": "tt0348150",
+      "title": "Superman Returns",
+      "year": 2006,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0348150.webp",
+      "thumbnail_52": "/images/thumbnails/tt0348150.webp",
+      "imdb_rating": 5.793,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0098141",
+      "title": "The Punisher",
+      "year": 1989,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0098141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098141.webp",
+      "imdb_rating": 5.769,
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0259324",
@@ -187,30 +242,31 @@
       "poster": "/images/posters/tt0259324.webp",
       "thumbnail_52": "/images/thumbnails/tt0259324.webp",
       "imdb_rating": 5.6,
-      "londonLocationCount": 2
+      "londonLocationCount": 13
     }
   ],
   "stats": {
-    "totalMovies": 13,
-    "totalLocations": 26,
+    "totalMovies": 17,
+    "totalLocations": 75,
     "genres": {
-      "Adventure": 1,
-      "Action": 4,
-      "Thriller": 6,
-      "Science Fiction": 4,
+      "Science Fiction": 6,
+      "Action": 7,
+      "Adventure": 3,
+      "Thriller": 7,
+      "Crime": 4,
+      "Drama": 10,
       "Animation": 1,
       "Comedy": 2,
-      "Drama": 8,
       "Sci-Fi & Fantasy": 3,
       "Fantasy": 1,
       "Mystery": 3,
-      "Crime": 3,
       "Action & Adventure": 1
     },
     "decades": {
+      "2000s": 6,
       "1970s": 1,
-      "2000s": 4,
-      "2010s": 7,
+      "1980s": 1,
+      "2010s": 8,
       "2020s": 1
     }
   }

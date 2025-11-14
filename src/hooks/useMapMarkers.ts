@@ -20,6 +20,7 @@ interface UseMapMarkersProps {
   filters: FilterState
   focusedMovieId?: string | null
   onClearFocus?: () => void
+  convertGeoJSONToMovie?: (feature: any) => Promise<Movie>
 }
 
 export function useMapMarkers({
@@ -27,7 +28,8 @@ export function useMapMarkers({
   onMovieSelect,
   filters,
   focusedMovieId,
-  onClearFocus
+  onClearFocus,
+  convertGeoJSONToMovie
 }: UseMapMarkersProps) {
   const [movies, setMovies] = useState<Movie[]>([])
   const [geojsonFeatures, setGeojsonFeatures] = useState<GeoJSONFeature[]>([])
@@ -44,7 +46,8 @@ export function useMapMarkers({
     geojsonFeatures,
     onMovieSelect,
     focusedMovieId,
-    onClearFocus
+    onClearFocus,
+    convertGeoJSONToMovie
   })
 
   /**
@@ -134,7 +137,7 @@ export function useMapMarkers({
         'text-field': ['get', 'title'],
         'text-font': ['Arial Unicode MS Bold', 'Arial Unicode MS Regular'],
         'text-size': 14,
-        'text-offset': [0, 2.0],
+        'text-offset': [0, 1.25],
         'text-anchor': 'top',
         'text-max-width': 12,
         'text-allow-overlap': false,

@@ -29,6 +29,7 @@ interface Location {
   city: string
   country: string
   description: string
+  scene_description?: string  // NEW: What was filmed at this location
 }
 
 interface Movie {
@@ -54,6 +55,7 @@ interface InputMovie {
 interface ScrapedLocation {
   place: string
   details?: string
+  scene?: string  // NEW: Scene description from IMDb
 }
 
 // ============================================================================
@@ -237,6 +239,71 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
     // Wait a bit for JavaScript to render
     await sleep(2000)
 
+    // ========================================================================
+    // STEP 1: Click "Show More" / "See All" buttons until all locations visible
+    // ========================================================================
+    console.log(`  🔄 Expanding all locations...`)
+
+    let clickCount = 0
+    let foundButton = true
+    const MAX_CLICK_ATTEMPTS = 5
+
+    while (foundButton && clickCount < MAX_CLICK_ATTEMPTS) {
+      try {
+        // Try to find "Show More" or "See all" button
+        const buttonSelectors = [
+          'button.ipc-see-more__button',
+          'button[class*="see-more"]',
+          '.single-page-see-more-button-flmg_locations button',
+          '.chained-see-more-button-flmg_locations button'
+        ]
+
+        let clicked = false
+
+        for (const selector of buttonSelectors) {
+          const buttons = await page.$$(selector)
+
+          for (const button of buttons) {
+            const buttonText = await page.evaluate(el => el.textContent, button)
+
+            // Check if it's a "Show More" or "See all" button
+            if (buttonText && (
+              buttonText.includes('more') ||
+              buttonText.includes('See all') ||
+              buttonText.includes('Show')
+            )) {
+              console.log(`     ✓ Clicking: "${buttonText.trim()}"`)
+
+              // Scroll button into view
+              await page.evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), button)
+              await sleep(500)
+
+              // Click the button
+              await button.click()
+              await sleep(2000) // Wait for content to load
+
+              clicked = true
+              clickCount++
+              break
+            }
+          }
+
+          if (clicked) break
+        }
+
+        if (!clicked) {
+          foundButton = false
+        }
+
+      } catch (e) {
+        foundButton = false
+      }
+    }
+
+    if (clickCount > 0) {
+      console.log(`     ✓ Expanded ${clickCount} time(s)`)
+    }
+
     // Save HTML for debugging (optional)
     if (process.env.DEBUG_HTML) {
       const html = await page.content()
@@ -245,10 +312,47 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
       console.log(`  💾 Saved HTML for debugging: debug_${imdbId}.html`)
     }
 
+    // ========================================================================
+    // STEP 2: Extract locations with scene descriptions from DOM
+    // ========================================================================
+
+    // ========================================================================
+    // STEP 2: Extract locations with scene descriptions from DOM
+    // ========================================================================
+
     // Extract locations - look for embedded JSON data
     const locations = await page.evaluate(() => {
-      const results: { place: string; details: string }[] = []
+      const results: { place: string; details: string; scene: string }[] = []
 
+      // FIRST: Try to extract from DOM cards (most reliable for scenes)
+      const locationCards = document.querySelectorAll('[data-testid="item-id"]')
+
+      if (locationCards.length > 0) {
+        for (const card of Array.from(locationCards)) {
+          // Extract location name from the link
+          const locationLink = card.querySelector('a[data-testid="item-text-with-link"]')
+          const locationText = locationLink?.textContent?.trim() || ''
+
+          // Extract scene description from attributes
+          const sceneElement = card.querySelector('[data-testid="item-attributes"]')
+          const sceneText = sceneElement?.textContent?.trim() || ''
+
+          if (locationText) {
+            results.push({
+              place: locationText,
+              details: '',
+              scene: sceneText
+            })
+          }
+        }
+      }
+
+      // If DOM extraction worked, return results
+      if (results.length > 0) {
+        return results
+      }
+
+      // FALLBACK: Try embedded JSON data (older method, doesn't have scenes)
       // IMDb embeds the data in a JSON object within a script tag
       // Look for the filmingLocations JSON data
       const scriptTags = document.querySelectorAll('script[type="application/json"]')
@@ -268,7 +372,8 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
                   if (item.cardText) {
                     results.push({
                       place: item.cardText,
-                      details: item.attributes || ''
+                      details: item.attributes || '',
+                      scene: '' // JSON data doesn't contain scenes
                     })
                   }
                 }
@@ -284,7 +389,8 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
                   place: edge.node.location,
                   details: edge.node.displayableProperty?.qualifiersInMarkdownList
                     ?.map((q: any) => q.markdown)
-                    .join(', ') || ''
+                    .join(', ') || '',
+                  scene: '' // JSON data doesn't contain scenes
                 })
               }
             }
@@ -320,7 +426,7 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
                 !text.includes('IMDbPro') &&
                 !text.includes('See full') &&
                 !text.includes('All topics')) {
-              results.push({ place: text, details: '' })
+              results.push({ place: text, details: '', scene: '' })
             }
           }
         }
@@ -348,49 +454,137 @@ async function scrapeIMDbLocations(imdbId: string): Promise<ScrapedLocation[]> {
 }
 
 // ============================================================================
-// Geocoding
+// Geocoding with Smart Fallback
 // ============================================================================
 
+/**
+ * Enhanced geocoding with multiple fallback strategies
+ * Tries progressively simpler queries until a match is found
+ */
 async function geocodeLocation(locationName: string): Promise<{ lat: number; lng: number; city: string; country: string } | null> {
-  const cacheKey = `geocode_${locationName.toLowerCase().replace(/[^a-z0-9]/g, '_')}`
-  const cached = await getCached<any>(cacheKey)
-  if (cached) return cached
+  // Try to geocode with progressively simpler queries
+  const queries = generateGeocodingQueries(locationName)
 
-  try {
-    const response = await axios.get(`${CONFIG.NOMINATIM_BASE_URL}/search`, {
-      params: {
-        q: locationName,
-        format: 'json',
-        limit: 1,
-        addressdetails: 1
-      },
-      headers: {
-        'User-Agent': 'filmingmap/1.0 (Movie Filming Location Mapper)'
+  for (let i = 0; i < queries.length; i++) {
+    const query = queries[i]
+    const cacheKey = `geocode_${query.toLowerCase().replace(/[^a-z0-9]/g, '_')}`
+
+    // Check cache first
+    const cached = await getCached<any>(cacheKey)
+    if (cached) {
+      if (i > 0) {
+        console.log(`     💾 Cached (simplified: "${query}")`)
       }
-    })
-
-    if (response.data.length === 0) {
-      return null
+      return cached
     }
 
-    const result = response.data[0]
-    const address = result.address || {}
+    try {
+      const response = await axios.get(`${CONFIG.NOMINATIM_BASE_URL}/search`, {
+        params: {
+          q: query,
+          format: 'json',
+          limit: 1,
+          addressdetails: 1
+        },
+        headers: {
+          'User-Agent': 'filmingmap/2.0 (Movie Filming Location Mapper)'
+        }
+      })
 
-    const geocoded = {
-      lat: parseFloat(result.lat),
-      lng: parseFloat(result.lon),
-      city: address.city || address.town || address.village || address.county || locationName,
-      country: address.country || ''
+      if (response.data.length > 0) {
+        const result = response.data[0]
+        const address = result.address || {}
+
+        const geocoded = {
+          lat: parseFloat(result.lat),
+          lng: parseFloat(result.lon),
+          city: address.city || address.town || address.village || address.county || address.state || locationName.split(',')[0].trim(),
+          country: address.country || ''
+        }
+
+        // Cache the result
+        await setCache(cacheKey, geocoded)
+        await sleep(CONFIG.RATE_LIMIT_DELAY)
+
+        if (i > 0) {
+          console.log(`     ✓ Found using simplified query: "${query}"`)
+        }
+
+        return geocoded
+      }
+
+      // No result, try next query
+      await sleep(CONFIG.RATE_LIMIT_DELAY)
+
+    } catch (error: any) {
+      console.error(`     ⚠ Query failed: "${query}" - ${error.message}`)
+      await sleep(CONFIG.RATE_LIMIT_DELAY)
     }
-
-    await setCache(cacheKey, geocoded)
-    await sleep(CONFIG.RATE_LIMIT_DELAY) // Nominatim requires 1 req/sec
-    return geocoded
-
-  } catch (error: any) {
-    console.error(`  ❌ Geocoding failed for "${locationName}": ${error.message}`)
-    return null
   }
+
+  // All queries failed
+  console.error(`     ❌ All geocoding attempts failed for: "${locationName}"`)
+  return null
+}
+
+/**
+ * Generate progressively simpler geocoding queries
+ * Example: "Alnwick Castle, Alnwick, Northumberland, England, UK"
+ * Returns: [
+ *   "Alnwick Castle, Alnwick, Northumberland, England, UK",  // Full
+ *   "Alnwick, Northumberland, England, UK",                   // Without building
+ *   "Alnwick, Northumberland, UK",                            // Without region
+ *   "Alnwick, UK",                                            // City + Country
+ *   "Northumberland, UK"                                      // Region + Country
+ * ]
+ */
+function generateGeocodingQueries(location: string): string[] {
+  const queries: string[] = []
+
+  // Original query
+  queries.push(location)
+
+  // Split by comma
+  const parts = location.split(',').map(p => p.trim())
+
+  if (parts.length <= 1) {
+    return queries
+  }
+
+  // Strategy 1: Remove first part (usually building/street name)
+  if (parts.length >= 3) {
+    queries.push(parts.slice(1).join(', '))
+  }
+
+  // Strategy 2: City + Country (last part is usually country)
+  if (parts.length >= 2) {
+    const country = parts[parts.length - 1]
+    const city = parts[0]
+    queries.push(`${city}, ${country}`)
+  }
+
+  // Strategy 3: Take last 3 parts (region, sub-region, country)
+  if (parts.length >= 4) {
+    queries.push(parts.slice(-3).join(', '))
+  }
+
+  // Strategy 4: Take last 2 parts (region, country)
+  if (parts.length >= 3) {
+    queries.push(parts.slice(-2).join(', '))
+  }
+
+  // Strategy 5: Just the city name
+  if (parts.length >= 2) {
+    queries.push(parts[0])
+  }
+
+  // Strategy 6: Second part (often the main city)
+  if (parts.length >= 3) {
+    queries.push(parts[1])
+  }
+
+  // Remove duplicates while preserving order
+  return [...new Set(queries)]
 }
 
 // ============================================================================
@@ -445,8 +639,15 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
 
     // Display scraped locations
     console.log(`\n  📍 Found ${scrapedLocations.length} locations:`)
+    const locationsWithScenes = scrapedLocations.filter(loc => loc.scene && loc.scene.length > 0).length
+    if (locationsWithScenes > 0) {
+      console.log(`  🎬 ${locationsWithScenes} location(s) with scene descriptions`)
+    }
     scrapedLocations.slice(0, 5).forEach(loc => {
       console.log(`     - ${loc.place}`)
+      if (loc.scene) {
+        console.log(`       🎬 ${loc.scene.substring(0, 60)}${loc.scene.length > 60 ? '...' : ''}`)
+      }
     })
     if (scrapedLocations.length > 5) {
       console.log(`     ... and ${scrapedLocations.length - 5} more`)
@@ -465,7 +666,8 @@ async function processMovie(input: InputMovie, index: number, total: number): Pr
           lng: geocoded.lng,
           city: geocoded.city,
           country: geocoded.country,
-          description: scraped.place
+          description: scraped.place,
+          scene_description: scraped.scene || undefined  // NEW: Add scene description
         })
         console.log(`     ✅ ${geocoded.city}, ${geocoded.country}`)
       } else {

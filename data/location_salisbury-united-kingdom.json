@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "salisbury-united-kingdom",
     "coordinates": {
-      "lat": 51.0643234,
-      "lng": -1.8678624
+      "lat": 51.06357412352942,
+      "lng": -1.8252242470588236
     }
   },
   "movies": [
@@ -19,6 +19,19 @@
       "poster": "/images/posters/tt4786824.webp",
       "thumbnail_52": "/images/thumbnails/tt4786824.webp",
       "imdb_rating": 8.197,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0414387",
+      "title": "Pride & Prejudice",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0414387.webp",
+      "thumbnail_52": "/images/thumbnails/tt0414387.webp",
+      "imdb_rating": 8.1,
       "londonLocationCount": 1
     },
     {
@@ -31,6 +44,74 @@
       "poster": "/images/posters/tt8740790.webp",
       "thumbnail_52": "/images/thumbnails/tt8740790.webp",
       "imdb_rating": 8.079,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081912",
+      "title": "Only Fools and Horses",
+      "year": 1981,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0081912.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081912.webp",
+      "imdb_rating": 8.021,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0072684",
+      "title": "Barry Lyndon",
+      "year": 1975,
+      "genres": [
+        "Drama",
+        "Romance",
+        "War",
+        "History"
+      ],
+      "poster": "/images/posters/tt0072684.webp",
+      "thumbnail_52": "/images/thumbnails/tt0072684.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0114388",
+      "title": "Sense and Sensibility",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0114388.webp",
+      "thumbnail_52": "/images/thumbnails/tt0114388.webp",
+      "imdb_rating": 7.418,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0289043",
+      "title": "28 Days Later",
+      "year": 2002,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0289043.webp",
+      "thumbnail_52": "/images/thumbnails/tt0289043.webp",
+      "imdb_rating": 7.232,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0102798",
+      "title": "Robin Hood: Prince of Thieves",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0102798.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102798.webp",
+      "imdb_rating": 6.9,
       "londonLocationCount": 1
     },
     {
@@ -49,15 +130,26 @@
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 9,
+    "totalLocations": 17,
     "genres": {
-      "Drama": 2,
-      "Action": 1,
-      "Adventure": 1,
+      "Drama": 6,
+      "Romance": 3,
+      "War": 1,
+      "History": 1,
+      "Horror": 1,
+      "Thriller": 1,
+      "Science Fiction": 1,
+      "Comedy": 1,
+      "Action": 2,
+      "Adventure": 2,
       "Fantasy": 1
     },
     "decades": {
+      "1970s": 1,
+      "2000s": 2,
+      "1990s": 2,
+      "1980s": 1,
       "2010s": 2,
       "2020s": 1
     }

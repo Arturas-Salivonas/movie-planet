@@ -11,6 +11,7 @@ import { debounce } from '../utils/helpers'
 interface SearchBarProps {
   onSearch: (query: string) => void
   onMovieSelect: (movie: Movie | null) => void
+  onSearchFocus?: () => void
 }
 
 interface SearchIndexEntry {
@@ -32,7 +33,7 @@ interface SearchIndex {
   index: SearchIndexEntry[]
 }
 
-export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
+export default function SearchBar({ onSearch, onMovieSelect, onSearchFocus }: SearchBarProps) {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchIndexEntry[]>([])
   const [isOpen, setIsOpen] = useState(false)
@@ -278,10 +279,13 @@ export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
           value={query}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
-          onFocus={() => query && results.length > 0 && setIsOpen(true)}
+          onFocus={() => {
+            if (query && results.length > 0) setIsOpen(true)
+            onSearchFocus?.()
+          }}
           placeholder="Search movies..."
           aria-label="Search movies"
-          className="w-full px-4 py-3 pl-12 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
+          className="w-full px-4 py-3 pl-12 pr-12 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
           disabled={loadingChunks}
         />
         <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
@@ -355,12 +359,16 @@ export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
                     </h4>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       {entry.year} • {entry.genres.slice(0, 2).join(', ')}
+                      {entry.rating && (
+                        <span className="ml-2 text-yellow-500 font-semibold">
+                          ⭐ {entry.rating.toFixed(1)}
+                        </span>
+                      )}
                     </p>
-                    <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-                      {entry.locations.length} location
-                      {entry.locations.length !== 1 ? 's' : ''}
-                      {' • '}
-                      {entry.locations.slice(0, 3).join(', ')}
+                    <p className="text-xs mt-1">
+                      <span className="text-yellow-500 dark:text-yellow-400 font-semibold">
+                        {entry.locations.length} location{entry.locations.length !== 1 ? 's' : ''}
+                      </span>
                     </p>
                   </div>
                 </div>

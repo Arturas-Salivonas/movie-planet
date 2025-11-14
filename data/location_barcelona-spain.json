@@ -4,11 +4,50 @@
     "country": "Spain",
     "slug": "barcelona-spain",
     "coordinates": {
-      "lat": 41.38982784545455,
-      "lng": 2.1720469
+      "lat": 41.38914902083334,
+      "lng": 2.170429779166667
     }
   },
   "movies": [
+    {
+      "movie_id": "tt4786824",
+      "title": "The Crown",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4786824.webp",
+      "thumbnail_52": "/images/thumbnails/tt4786824.webp",
+      "imdb_rating": 8.197,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7016936",
+      "title": "Killing Eve",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7016936.webp",
+      "thumbnail_52": "/images/thumbnails/tt7016936.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1399664",
+      "title": "The Night Manager",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1399664.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399664.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt0361862",
       "title": "The Machinist",
@@ -21,6 +60,34 @@
       "thumbnail_52": "/images/thumbnails/tt0361862.webp",
       "imdb_rating": 7.526,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0258463",
+      "title": "The Bourne Identity",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0258463.webp",
+      "thumbnail_52": "/images/thumbnails/tt0258463.webp",
+      "imdb_rating": 7.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6932244",
+      "title": "Hanna",
+      "year": 2019,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6932244.webp",
+      "thumbnail_52": "/images/thumbnails/tt6932244.webp",
+      "imdb_rating": 7.45,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt1649419",
@@ -37,6 +104,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0396171",
+      "title": "Perfume: The Story of a Murderer",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0396171.webp",
+      "thumbnail_52": "/images/thumbnails/tt0396171.webp",
+      "imdb_rating": 7.365,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1038988",
       "title": "[REC]",
       "year": 2007,
@@ -47,6 +128,19 @@
       "poster": "/images/posters/tt1038988.webp",
       "thumbnail_52": "/images/thumbnails/tt1038988.webp",
       "imdb_rating": 7.217,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2316411",
+      "title": "Enemy",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2316411.webp",
+      "thumbnail_52": "/images/thumbnails/tt2316411.webp",
+      "imdb_rating": 6.9,
       "londonLocationCount": 1
     },
     {
@@ -73,7 +167,7 @@
       "poster": "/images/posters/tt0497465.webp",
       "thumbnail_52": "/images/thumbnails/tt0497465.webp",
       "imdb_rating": 6.794,
-      "londonLocationCount": 3
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt2023587",
@@ -113,23 +207,26 @@
     }
   ],
   "stats": {
-    "totalMovies": 8,
-    "totalLocations": 11,
+    "totalMovies": 15,
+    "totalLocations": 24,
     "genres": {
-      "Thriller": 2,
-      "Drama": 3,
+      "Drama": 9,
+      "Action": 2,
+      "Mystery": 4,
+      "Thriller": 4,
+      "Crime": 3,
       "Comedy": 1,
-      "Action": 1,
       "Adventure": 1,
       "Romance": 1,
+      "Fantasy": 1,
       "History": 1,
+      "Action & Adventure": 1,
       "Horror": 2,
-      "Mystery": 1,
       "Reality": 1
     },
     "decades": {
-      "2000s": 4,
-      "2010s": 3,
+      "2010s": 8,
+      "2000s": 6,
       "2020s": 1
     }
   }

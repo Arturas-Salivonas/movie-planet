@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { STYLES } from '../lib/constants/theme'
 
 export default function BlogClient() {
   return (
@@ -19,7 +20,7 @@ export default function BlogClient() {
         }
       `}</style>
 
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 pt-20">
+      <div className="min-h-screen pt-20" style={STYLES.spaceBackground}>
         {/* Header */}
         <header className="bg-white/10 backdrop-blur-sm border-b border-white/20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -57,7 +58,7 @@ export default function BlogClient() {
               </div>
             </div>
 
-            <h2 className="text-5xl sm:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600">
+            <h2 className="text-5xl sm:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 via-accent-400 to-primary-500">
               Coming Soon
             </h2>
 
@@ -94,7 +95,7 @@ export default function BlogClient() {
             </div>
 
             {/* CTA */}
-            <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-purple-400/30 rounded-xl p-8">
+            <div className="bg-gradient-to-r from-primary-500/20 to-accent-500/20 backdrop-blur-sm border border-primary-400/30 rounded-xl p-8">
               <h3 className="text-2xl font-bold text-white mb-4">
                 Stay Tuned! 🎉
               </h3>
@@ -103,7 +104,7 @@ export default function BlogClient() {
               </p>
               <Link
                 href="/"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white rounded-lg font-semibold transition-all hover:scale-105 shadow-lg"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white rounded-lg font-semibold transition-all hover:scale-105 shadow-lg"
               >
                 <span>🌍</span>
                 <span>Explore the Map</span>

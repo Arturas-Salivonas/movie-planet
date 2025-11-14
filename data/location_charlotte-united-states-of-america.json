@@ -4,11 +4,24 @@
     "country": "United States of America",
     "slug": "charlotte-united-states-of-america",
     "coordinates": {
-      "lat": 35.2272086,
-      "lng": -80.8430827
+      "lat": 35.24095686249999,
+      "lng": -80.8416332875
     }
   },
   "movies": [
+    {
+      "movie_id": "tt2017109",
+      "title": "Banshee",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2017109.webp",
+      "thumbnail_52": "/images/thumbnails/tt2017109.webp",
+      "imdb_rating": 7.974,
+      "londonLocationCount": 2
+    },
     {
       "movie_id": "tt1796960",
       "title": "Homeland",
@@ -36,7 +49,7 @@
       "poster": "/images/posters/tt1392170.webp",
       "thumbnail_52": "/images/thumbnails/tt1392170.webp",
       "imdb_rating": 7.219,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3263904",
@@ -65,13 +78,13 @@
     }
   ],
   "stats": {
-    "totalMovies": 4,
-    "totalLocations": 4,
+    "totalMovies": 5,
+    "totalLocations": 8,
     "genres": {
-      "Drama": 2,
+      "Drama": 3,
       "History": 1,
       "War & Politics": 1,
-      "Crime": 1,
+      "Crime": 2,
       "Science Fiction": 1,
       "Adventure": 1,
       "Action": 1,
@@ -79,7 +92,7 @@
       "Comedy": 1
     },
     "decades": {
-      "2010s": 3,
+      "2010s": 4,
       "2000s": 1
     }
   }

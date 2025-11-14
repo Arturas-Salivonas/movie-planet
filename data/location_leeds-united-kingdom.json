@@ -1,0 +1,112 @@
+{
+  "location": {
+    "city": "Leeds",
+    "country": "United Kingdom",
+    "slug": "leeds-united-kingdom",
+    "coordinates": {
+      "lat": 53.8169065909091,
+      "lng": -1.5109861636363637
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2442560",
+      "title": "Peaky Blinders",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2442560.webp",
+      "thumbnail_52": "/images/thumbnails/tt2442560.webp",
+      "imdb_rating": 8.529,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0066921",
+      "title": "A Clockwork Orange",
+      "year": 1971,
+      "genres": [
+        "Science Fiction",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0066921.webp",
+      "thumbnail_52": "/images/thumbnails/tt0066921.webp",
+      "imdb_rating": 8.183,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086659",
+      "title": "'Allo 'Allo!",
+      "year": 1984,
+      "genres": [
+        "Comedy",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt0086659.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086659.webp",
+      "imdb_rating": 7.773,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1504320",
+      "title": "The King's Speech",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt1504320.webp",
+      "thumbnail_52": "/images/thumbnails/tt1504320.webp",
+      "imdb_rating": 7.736,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt5137338",
+      "title": "Victoria",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5137338.webp",
+      "thumbnail_52": "/images/thumbnails/tt5137338.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0143145",
+      "title": "The World Is Not Enough",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0143145.webp",
+      "thumbnail_52": "/images/thumbnails/tt0143145.webp",
+      "imdb_rating": 6.284,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 11,
+    "genres": {
+      "Drama": 3,
+      "History": 1,
+      "Crime": 2,
+      "Comedy": 1,
+      "War & Politics": 1,
+      "Science Fiction": 1,
+      "Adventure": 1,
+      "Action": 1,
+      "Thriller": 1
+    },
+    "decades": {
+      "2010s": 3,
+      "1980s": 1,
+      "1970s": 1,
+      "1990s": 1
+    }
+  }
+}

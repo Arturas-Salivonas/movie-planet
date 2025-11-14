@@ -75,9 +75,9 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
             <Link
               href="/"
               onClick={closeMenu}
-              className={`px-4 py-3 rounded-md text-base font-medium transition-colors ${
+              className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
                 isActive('/')
-                  ? 'bg-gradient-to-r from-primary-500 to-purple-600 text-white'
+                  ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 border-l-4 border-primary-600 shadow-sm'
                   : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
               }`}
             >
@@ -86,9 +86,9 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
             <Link
               href="/blog"
               onClick={closeMenu}
-              className={`px-4 py-3 rounded-md text-base font-medium transition-colors ${
+              className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
                 isActive('/blog')
-                  ? 'bg-gradient-to-r from-primary-500 to-purple-600 text-white'
+                  ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 border-l-4 border-primary-600 shadow-sm'
                   : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
               }`}
             >
@@ -97,9 +97,9 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
             <Link
               href="/location"
               onClick={closeMenu}
-              className={`px-4 py-3 rounded-md text-base font-medium transition-colors ${
+              className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
                 isActive('/location') && pathname === '/location'
-                  ? 'bg-gradient-to-r from-primary-500 to-purple-600 text-white'
+                  ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 border-l-4 border-primary-600 shadow-sm'
                   : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
               }`}
             >
@@ -122,9 +122,9 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
       <div className="hidden lg:flex items-center justify-center gap-2 p-2">
         <Link
           href="/"
-          className={`px-4 py-2 rounded-md text-base font-medium transition-colors ${
+          className={`px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 ${
             isActive('/')
-              ? 'bg-gradient-to-r from-primary-500 to-purple-600 text-white'
+              ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 shadow-sm ring-2 ring-primary-200 dark:ring-primary-800'
               : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -132,9 +132,9 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
         </Link>
         <Link
           href="/blog"
-          className={`px-4 py-2 rounded-md text-base font-medium transition-colors ${
+          className={`px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 ${
             isActive('/blog')
-              ? 'bg-gradient-to-r from-primary-500 to-purple-600 text-white'
+              ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 shadow-sm ring-2 ring-primary-200 dark:ring-primary-800'
               : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -142,9 +142,9 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
         </Link>
         <Link
           href="/location"
-          className={`px-4 py-2 rounded-md text-base font-medium transition-colors ${
+          className={`px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 ${
             isActive('/location') && pathname === '/location'
-              ? 'bg-gradient-to-r from-primary-500 to-purple-600 text-white'
+              ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 shadow-sm ring-2 ring-primary-200 dark:ring-primary-800'
               : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -152,7 +152,7 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
         </Link>
         <button
           onClick={onPartnershipClick}
-          className="px-4 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+          className="px-5 py-2.5 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
         >
           Partnership
         </button>

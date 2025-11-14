@@ -62,7 +62,7 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
         <div className="p-8 md:p-12">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="inline-flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gradient-to-br from-primary-500 to-purple-600">
+            <div className="inline-flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gradient-to-br from-primary-500 to-primary-600">
               <span className="text-3xl">🤝</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
@@ -82,7 +82,7 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
               <div className="text-sm text-gray-400">Movies & TV Series</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-400 mb-1">
+              <div className="text-3xl font-bold text-accent-400 mb-1">
                 {stats ? `${stats.totalLocations.toLocaleString()}+` : '8,164+'}
               </div>
               <div className="text-sm text-gray-400">Filming Locations</div>
@@ -113,7 +113,7 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
             </div>
 
             {/* Tourism Boards */}
-            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-purple-500 transition-all">
+            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-primary-500 transition-all">
               <div className="flex items-start gap-4">
                 <div className="text-4xl">🏨</div>
                 <div className="flex-1">
@@ -121,13 +121,13 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
                   <p className="text-gray-300 mb-3">
                     Promote destinations through movies filmed in your region. Featured "Visit this location" CTAs and sponsored location guides.
                   </p>
-                  <div className="text-purple-400 font-semibold">Contact to discuss</div>
+                  <div className="text-primary-400 font-semibold">Contact to discuss</div>
                 </div>
               </div>
             </div>
 
             {/* Production Companies */}
-            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-blue-500 transition-all">
+            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-primary-500 transition-all">
               <div className="flex items-start gap-4">
                 <div className="text-4xl">🎥</div>
                 <div className="flex-1">
@@ -135,13 +135,13 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
                   <p className="text-gray-300 mb-3">
                     Promote new releases with featured homepage placement, exclusive behind-the-scenes content, and location spotlights.
                   </p>
-                  <div className="text-blue-400 font-semibold">Contact to discuss</div>
+                  <div className="text-primary-400 font-semibold">Contact to discuss</div>
                 </div>
               </div>
             </div>
 
             {/* Banner Advertising */}
-            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-green-500 transition-all">
+            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-accent-500 transition-all">
               <div className="flex items-start gap-4">
                 <div className="text-4xl">📺</div>
                 <div className="flex-1">
@@ -149,13 +149,13 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
                   <p className="text-gray-300 mb-3">
                     Premium placement above the fold with geo-targeted campaigns focused on movie and travel industry audiences.
                   </p>
-                  <div className="text-green-400 font-semibold">Contact to discuss</div>
+                  <div className="text-accent-400 font-semibold">Contact to discuss</div>
                 </div>
               </div>
             </div>
 
             {/* Affiliate Programs */}
-            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-yellow-500 transition-all">
+            <div className="p-6 bg-black/20 rounded-xl border border-gray-700 hover:border-accent-500 transition-all">
               <div className="flex items-start gap-4">
                 <div className="text-4xl">🛒</div>
                 <div className="flex-1">
@@ -163,14 +163,14 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
                   <p className="text-gray-300 mb-3">
                     Partner for movie tickets, travel bookings, merchandise, and more. Commission-based revenue sharing model.
                   </p>
-                  <div className="text-yellow-400 font-semibold">Contact to discuss</div>
+                  <div className="text-accent-400 font-semibold">Contact to discuss</div>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Why Partner Section */}
-          <div className="mb-10 p-6 bg-gradient-to-r from-primary-500/10 to-purple-500/10 rounded-xl border border-primary-500/20">
+          <div className="mb-10 p-6 bg-gradient-to-r from-primary-500/10 to-primary-600/10 rounded-xl border border-primary-500/20">
             <h3 className="text-xl font-bold text-white mb-4">Why Partner with FilmingMap.com?</h3>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start gap-3">
@@ -197,7 +197,7 @@ export default function PartnershipModal({ isOpen, onClose }: PartnershipModalPr
           </div>
 
           {/* Contact Section */}
-          <div className="text-center p-8 bg-gradient-to-br from-primary-600 to-purple-700 rounded-xl">
+          <div className="text-center p-8 bg-gradient-to-br from-primary-600 to-primary-700 rounded-xl">
             <h3 className="text-2xl font-bold text-white mb-4">Let's Talk</h3>
             <p className="text-white/90 mb-6 max-w-xl mx-auto">
               Ready to explore partnership opportunities? Get in touch to discuss how we can work together.

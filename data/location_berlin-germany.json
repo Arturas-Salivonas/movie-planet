@@ -4,11 +4,25 @@
     "country": "Germany",
     "slug": "berlin-germany",
     "coordinates": {
-      "lat": 52.513860810526296,
-      "lng": 13.373301454385972
+      "lat": 52.5110714245834,
+      "lng": 13.373903820416654
     }
   },
   "movies": [
+    {
+      "movie_id": "tt4574334",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4574334.webp",
+      "thumbnail_52": "/images/thumbnails/tt4574334.webp",
+      "imdb_rating": 8.593,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt10048342",
       "title": "The Queen's Gambit",
@@ -19,7 +33,7 @@
       "poster": "/images/posters/tt10048342.webp",
       "thumbnail_52": "/images/thumbnails/tt10048342.webp",
       "imdb_rating": 8.455,
-      "londonLocationCount": 2
+      "londonLocationCount": 35
     },
     {
       "movie_id": "tt27668559",
@@ -45,6 +59,20 @@
       "thumbnail_52": "/images/thumbnails/tt27792190.webp",
       "imdb_rating": 8.369,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0361748",
+      "title": "Inglourious Basterds",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "poster": "/images/posters/tt0361748.webp",
+      "thumbnail_52": "/images/thumbnails/tt0361748.webp",
+      "imdb_rating": 8.214,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0017136",
@@ -84,7 +112,7 @@
       "poster": "/images/posters/tt0405094.webp",
       "thumbnail_52": "/images/thumbnails/tt0405094.webp",
       "imdb_rating": 8.037,
-      "londonLocationCount": 5
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt0055031",
@@ -98,6 +126,19 @@
       "thumbnail_52": "/images/thumbnails/tt0055031.webp",
       "imdb_rating": 8.018,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7016936",
+      "title": "Killing Eve",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7016936.webp",
+      "thumbnail_52": "/images/thumbnails/tt7016936.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0434409",
@@ -139,7 +180,7 @@
       "poster": "/images/posters/tt0485947.webp",
       "thumbnail_52": "/images/thumbnails/tt0485947.webp",
       "imdb_rating": 7.8,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt4378376",
@@ -169,6 +210,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0804484",
+      "title": "Foundation",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0804484.webp",
+      "thumbnail_52": "/images/thumbnails/tt0804484.webp",
+      "imdb_rating": 7.734,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt10366206",
       "title": "John Wick: Chapter 4",
       "year": 2023,
@@ -180,7 +234,7 @@
       "poster": "/images/posters/tt10366206.webp",
       "thumbnail_52": "/images/thumbnails/tt10366206.webp",
       "imdb_rating": 7.7,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt1796960",
@@ -194,7 +248,7 @@
       "poster": "/images/posters/tt1796960.webp",
       "thumbnail_52": "/images/thumbnails/tt1796960.webp",
       "imdb_rating": 7.579,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt7431994",
@@ -211,6 +265,19 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt0976051",
+      "title": "The Reader",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0976051.webp",
+      "thumbnail_52": "/images/thumbnails/tt0976051.webp",
+      "imdb_rating": 7.471,
+      "londonLocationCount": 4
+    },
+    {
       "movie_id": "tt3498820",
       "title": "Captain America: Civil War",
       "year": 2016,
@@ -222,7 +289,7 @@
       "poster": "/images/posters/tt3498820.webp",
       "thumbnail_52": "/images/thumbnails/tt3498820.webp",
       "imdb_rating": 7.448,
-      "londonLocationCount": 1
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt4643084",
@@ -238,6 +305,35 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0440963",
+      "title": "The Bourne Ultimatum",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0440963.webp",
+      "thumbnail_52": "/images/thumbnails/tt0440963.webp",
+      "imdb_rating": 7.432,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt6320628",
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6320628.webp",
+      "thumbnail_52": "/images/thumbnails/tt6320628.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0372183",
       "title": "The Bourne Supremacy",
       "year": 2004,
@@ -249,7 +345,7 @@
       "poster": "/images/posters/tt0372183.webp",
       "thumbnail_52": "/images/thumbnails/tt0372183.webp",
       "imdb_rating": 7.323,
-      "londonLocationCount": 1
+      "londonLocationCount": 25
     },
     {
       "movie_id": "tt2250912",
@@ -277,7 +373,7 @@
       "poster": "/images/posters/tt0130827.webp",
       "thumbnail_52": "/images/thumbnails/tt0130827.webp",
       "imdb_rating": 7.292,
-      "londonLocationCount": 4
+      "londonLocationCount": 14
     },
     {
       "movie_id": "tt3682448",
@@ -290,7 +386,7 @@
       "poster": "/images/posters/tt3682448.webp",
       "thumbnail_52": "/images/thumbnails/tt3682448.webp",
       "imdb_rating": 7.236,
-      "londonLocationCount": 2
+      "londonLocationCount": 13
     },
     {
       "movie_id": "tt14444726",
@@ -302,6 +398,20 @@
       ],
       "poster": "/images/posters/tt14444726.webp",
       "thumbnail_52": "/images/thumbnails/tt14444726.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt7569576",
+      "title": "The Flight Attendant",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7569576.webp",
+      "thumbnail_52": "/images/thumbnails/tt7569576.webp",
       "imdb_rating": 7.1,
       "londonLocationCount": 1
     },
@@ -317,7 +427,7 @@
       "poster": "/images/posters/tt0238380.webp",
       "thumbnail_52": "/images/thumbnails/tt0238380.webp",
       "imdb_rating": 7.046,
-      "londonLocationCount": 2
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt19395018",
@@ -345,7 +455,20 @@
       "poster": "/images/posters/tt0985699.webp",
       "thumbnail_52": "/images/thumbnails/tt0985699.webp",
       "imdb_rating": 6.945,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1371111",
+      "title": "Cloud Atlas",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1371111.webp",
+      "thumbnail_52": "/images/thumbnails/tt1371111.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1951266",
@@ -359,7 +482,7 @@
       "poster": "/images/posters/tt1951266.webp",
       "thumbnail_52": "/images/thumbnails/tt1951266.webp",
       "imdb_rating": 6.898,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1464335",
@@ -372,6 +495,20 @@
       "poster": "/images/posters/tt1464335.webp",
       "thumbnail_52": "/images/thumbnails/tt1464335.webp",
       "imdb_rating": 6.886,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4630562",
+      "title": "The Fate of the Furious",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4630562.webp",
+      "thumbnail_52": "/images/thumbnails/tt4630562.webp",
+      "imdb_rating": 6.861,
       "londonLocationCount": 1
     },
     {
@@ -386,6 +523,20 @@
       "poster": "/images/posters/tt1951265.webp",
       "thumbnail_52": "/images/thumbnails/tt1951265.webp",
       "imdb_rating": 6.815,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0317919",
+      "title": "Mission: Impossible III",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0317919.webp",
+      "thumbnail_52": "/images/thumbnails/tt0317919.webp",
+      "imdb_rating": 6.8,
       "londonLocationCount": 1
     },
     {
@@ -400,7 +551,33 @@
       "poster": "/images/posters/tt1401152.webp",
       "thumbnail_52": "/images/thumbnails/tt1401152.webp",
       "imdb_rating": 6.7,
-      "londonLocationCount": 3
+      "londonLocationCount": 25
+    },
+    {
+      "movie_id": "tt0120804",
+      "title": "Resident Evil",
+      "year": 2002,
+      "genres": [
+        "Horror",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120804.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120804.webp",
+      "imdb_rating": 6.648,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0993842",
@@ -432,6 +609,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2872732",
+      "title": "Lucy",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2872732.webp",
+      "thumbnail_52": "/images/thumbnails/tt2872732.webp",
+      "imdb_rating": 6.469,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt2406566",
       "title": "Atomic Blonde",
       "year": 2017,
@@ -443,7 +633,7 @@
       "poster": "/images/posters/tt2406566.webp",
       "thumbnail_52": "/images/thumbnails/tt2406566.webp",
       "imdb_rating": 6.428,
-      "londonLocationCount": 1
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt4196776",
@@ -457,7 +647,7 @@
       "poster": "/images/posters/tt4196776.webp",
       "thumbnail_52": "/images/thumbnails/tt4196776.webp",
       "imdb_rating": 6.366,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt10838180",
@@ -484,6 +674,20 @@
       ],
       "poster": "/images/posters/tt0086034.webp",
       "thumbnail_52": "/images/thumbnails/tt0086034.webp",
+      "imdb_rating": 6.356,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0318627",
+      "title": "Resident Evil: Apocalypse",
+      "year": 2004,
+      "genres": [
+        "Horror",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0318627.webp",
+      "thumbnail_52": "/images/thumbnails/tt0318627.webp",
       "imdb_rating": 6.356,
       "londonLocationCount": 1
     },
@@ -516,32 +720,32 @@
     }
   ],
   "stats": {
-    "totalMovies": 37,
-    "totalLocations": 57,
+    "totalMovies": 52,
+    "totalLocations": 240,
     "genres": {
-      "Action": 17,
-      "Drama": 21,
-      "Thriller": 15,
+      "Action": 24,
+      "Drama": 29,
+      "Thriller": 19,
+      "Mystery": 6,
       "History": 2,
-      "War": 2,
-      "Science Fiction": 10,
+      "War": 3,
+      "Science Fiction": 15,
       "Music": 1,
-      "Adventure": 11,
+      "Adventure": 13,
       "Fantasy": 2,
-      "Romance": 2,
-      "Crime": 5,
+      "Romance": 3,
+      "Crime": 7,
+      "Sci-Fi & Fantasy": 5,
       "War & Politics": 1,
-      "Sci-Fi & Fantasy": 3,
-      "Mystery": 3,
-      "Horror": 1,
-      "Comedy": 1,
+      "Horror": 3,
+      "Comedy": 3,
       "Action & Adventure": 1
     },
     "decades": {
-      "2000s": 7,
-      "2020s": 8,
+      "2000s": 14,
+      "2020s": 10,
       "1920s": 1,
-      "2010s": 16,
+      "2010s": 22,
       "1980s": 2,
       "1930s": 1,
       "1960s": 1,

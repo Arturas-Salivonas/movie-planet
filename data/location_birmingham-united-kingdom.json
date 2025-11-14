@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "birmingham-united-kingdom",
     "coordinates": {
-      "lat": 52.48016785714286,
-      "lng": -1.9005421000000002
+      "lat": 52.48389834705884,
+      "lng": -1.8941762235294115
     }
   },
   "movies": [
@@ -50,7 +50,7 @@
       "poster": "/images/posters/tt1677720.webp",
       "thumbnail_52": "/images/thumbnails/tt1677720.webp",
       "imdb_rating": 7.585,
-      "londonLocationCount": 3
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt9603212",
@@ -64,7 +64,22 @@
       "poster": "/images/posters/tt9603212.webp",
       "thumbnail_52": "/images/thumbnails/tt9603212.webp",
       "imdb_rating": 7.519,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt4649466",
+      "title": "Kingsman: The Golden Circle",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4649466.webp",
+      "thumbnail_52": "/images/thumbnails/tt4649466.webp",
+      "imdb_rating": 6.952,
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt9794044",
@@ -82,22 +97,22 @@
     }
   ],
   "stats": {
-    "totalMovies": 5,
-    "totalLocations": 7,
+    "totalMovies": 6,
+    "totalLocations": 17,
     "genres": {
-      "Action": 2,
-      "Adventure": 2,
+      "Action": 3,
+      "Adventure": 3,
       "Thriller": 1,
-      "Crime": 3,
+      "Crime": 4,
       "Drama": 3,
       "Mystery": 2,
       "Science Fiction": 1,
-      "Action & Adventure": 1,
-      "Comedy": 1
+      "Comedy": 2,
+      "Action & Adventure": 1
     },
     "decades": {
       "2020s": 2,
-      "2010s": 2,
+      "2010s": 3,
       "2000s": 1
     }
   }

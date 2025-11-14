@@ -1,0 +1,69 @@
+{
+  "location": {
+    "city": "Matera",
+    "country": "Italy",
+    "slug": "matera-italy",
+    "coordinates": {
+      "lat": 40.57260945714286,
+      "lng": 16.551598728571427
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0335345",
+      "title": "The Passion of the Christ",
+      "year": 2004,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0335345.webp",
+      "thumbnail_52": "/images/thumbnails/tt0335345.webp",
+      "imdb_rating": 7.519,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2382320",
+      "title": "No Time to Die",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2382320.webp",
+      "thumbnail_52": "/images/thumbnails/tt2382320.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 12
+    },
+    {
+      "movie_id": "tt0451279",
+      "title": "Wonder Woman",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0451279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0451279.webp",
+      "imdb_rating": 7.214,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 14,
+    "genres": {
+      "Action": 2,
+      "Adventure": 2,
+      "Fantasy": 1,
+      "Thriller": 1,
+      "Drama": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2020s": 1,
+      "2000s": 1
+    }
+  }
+}

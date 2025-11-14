@@ -1,0 +1,82 @@
+{
+  "location": {
+    "city": "Fort Lauderdale",
+    "country": "United States of America",
+    "slug": "fort-lauderdale-united-states-of-america",
+    "coordinates": {
+      "lat": 26.112250120000006,
+      "lng": -80.14490222
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0119008",
+      "title": "Donnie Brasco",
+      "year": 1997,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0119008.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119008.webp",
+      "imdb_rating": 7.534,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0101540",
+      "title": "Cape Fear",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0101540.webp",
+      "thumbnail_52": "/images/thumbnails/tt0101540.webp",
+      "imdb_rating": 7.247,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2393813",
+      "title": "Graceland",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2393813.webp",
+      "thumbnail_52": "/images/thumbnails/tt2393813.webp",
+      "imdb_rating": 7.164,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0115685",
+      "title": "The Birdcage",
+      "year": 1996,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0115685.webp",
+      "thumbnail_52": "/images/thumbnails/tt0115685.webp",
+      "imdb_rating": 7.038,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 5,
+    "genres": {
+      "Comedy": 1,
+      "Crime": 3,
+      "Drama": 3,
+      "Thriller": 2,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "1990s": 3,
+      "2010s": 1
+    }
+  }
+}

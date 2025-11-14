@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "york-united-kingdom",
     "coordinates": {
-      "lat": 54.056559820000004,
-      "lng": -0.97660318
+      "lat": 54.031609288888895,
+      "lng": -1.004020211111111
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt2235759.webp",
       "thumbnail_52": "/images/thumbnails/tt2235759.webp",
       "imdb_rating": 8.09,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt8740790",
@@ -32,6 +32,21 @@
       "poster": "/images/posters/tt8740790.webp",
       "thumbnail_52": "/images/thumbnails/tt8740790.webp",
       "imdb_rating": 8.079,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0072684",
+      "title": "Barry Lyndon",
+      "year": 1975,
+      "genres": [
+        "Drama",
+        "Romance",
+        "War",
+        "History"
+      ],
+      "poster": "/images/posters/tt0072684.webp",
+      "thumbnail_52": "/images/thumbnails/tt0072684.webp",
+      "imdb_rating": 8,
       "londonLocationCount": 1
     },
     {
@@ -60,7 +75,7 @@
       "poster": "/images/posters/tt5137338.webp",
       "thumbnail_52": "/images/thumbnails/tt5137338.webp",
       "imdb_rating": 7.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0367594",
@@ -76,25 +91,45 @@
       "thumbnail_52": "/images/thumbnails/tt0367594.webp",
       "imdb_rating": 7.04,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3371366",
+      "title": "Transformers: The Last Knight",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3371366.webp",
+      "thumbnail_52": "/images/thumbnails/tt3371366.webp",
+      "imdb_rating": 6.055,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 5,
-    "totalLocations": 5,
+    "totalMovies": 7,
+    "totalLocations": 9,
     "genres": {
-      "Adventure": 1,
+      "Drama": 5,
+      "Romance": 1,
+      "War": 1,
+      "History": 1,
+      "Action": 1,
+      "Adventure": 2,
+      "Science Fiction": 1,
       "Comedy": 3,
       "Family": 1,
       "Fantasy": 1,
-      "Drama": 4,
       "Mystery": 1,
       "Sci-Fi & Fantasy": 1,
       "Action & Adventure": 1
     },
     "decades": {
+      "1970s": 1,
+      "2010s": 3,
       "2000s": 1,
-      "2020s": 2,
-      "2010s": 2
+      "2020s": 2
     }
   }
 }

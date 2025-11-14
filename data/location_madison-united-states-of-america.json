@@ -1,0 +1,70 @@
+{
+  "location": {
+    "city": "Madison",
+    "country": "United States of America",
+    "slug": "madison-united-states-of-america",
+    "coordinates": {
+      "lat": 41.531445133333335,
+      "lng": -79.40612010000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0268978",
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0268978.webp",
+      "thumbnail_52": "/images/thumbnails/tt0268978.webp",
+      "imdb_rating": 7.855,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1152836",
+      "title": "Public Enemies",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1152836.webp",
+      "thumbnail_52": "/images/thumbnails/tt1152836.webp",
+      "imdb_rating": 6.688,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0800080",
+      "title": "The Incredible Hulk",
+      "year": 2008,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0800080.webp",
+      "thumbnail_52": "/images/thumbnails/tt0800080.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Science Fiction": 1,
+      "Action": 1,
+      "Adventure": 1,
+      "Crime": 1,
+      "History": 1,
+      "Drama": 2,
+      "Romance": 1
+    },
+    "decades": {
+      "2000s": 3
+    }
+  }
+}

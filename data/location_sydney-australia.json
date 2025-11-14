@@ -4,8 +4,8 @@
     "country": "Australia",
     "slug": "sydney-australia",
     "coordinates": {
-      "lat": -33.868760956578946,
-      "lng": 151.1827491842105
+      "lat": -33.87057625232069,
+      "lng": 151.19171432658217
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt0133093.webp",
       "thumbnail_52": "/images/thumbnails/tt0133093.webp",
       "imdb_rating": 8.234,
-      "londonLocationCount": 2
+      "londonLocationCount": 20
     },
     {
       "movie_id": "tt7472896",
@@ -47,7 +47,7 @@
       "poster": "/images/posters/tt2119532.webp",
       "thumbnail_52": "/images/thumbnails/tt2119532.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt10168312",
@@ -61,6 +61,18 @@
       "poster": "/images/posters/tt10168312.webp",
       "thumbnail_52": "/images/thumbnails/tt10168312.webp",
       "imdb_rating": 8.077,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0986264",
+      "title": "Like Stars on Earth",
+      "year": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0986264.webp",
+      "thumbnail_52": "/images/thumbnails/tt0986264.webp",
+      "imdb_rating": 7.981,
       "londonLocationCount": 1
     },
     {
@@ -101,7 +113,7 @@
       "poster": "/images/posters/tt1392190.webp",
       "thumbnail_52": "/images/thumbnails/tt1392190.webp",
       "imdb_rating": 7.627,
-      "londonLocationCount": 2
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0203009",
@@ -129,7 +141,21 @@
       "poster": "/images/posters/tt9376612.webp",
       "thumbnail_52": "/images/thumbnails/tt9376612.webp",
       "imdb_rating": 7.505,
-      "londonLocationCount": 5
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0121766",
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0121766.webp",
+      "thumbnail_52": "/images/thumbnails/tt0121766.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt12037194",
@@ -143,7 +169,7 @@
       "poster": "/images/posters/tt12037194.webp",
       "thumbnail_52": "/images/thumbnails/tt12037194.webp",
       "imdb_rating": 7.46,
-      "londonLocationCount": 4
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1809398",
@@ -185,7 +211,7 @@
       "poster": "/images/posters/tt1343092.webp",
       "thumbnail_52": "/images/thumbnails/tt1343092.webp",
       "imdb_rating": 7.36,
-      "londonLocationCount": 5
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt0118929",
@@ -198,7 +224,7 @@
       "poster": "/images/posters/tt0118929.webp",
       "thumbnail_52": "/images/thumbnails/tt0118929.webp",
       "imdb_rating": 7.329,
-      "londonLocationCount": 3
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt1051906",
@@ -212,7 +238,7 @@
       "poster": "/images/posters/tt1051906.webp",
       "thumbnail_52": "/images/thumbnails/tt1051906.webp",
       "imdb_rating": 7.1,
-      "londonLocationCount": 3
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt0234215",
@@ -227,7 +253,7 @@
       "poster": "/images/posters/tt0234215.webp",
       "thumbnail_52": "/images/thumbnails/tt0234215.webp",
       "imdb_rating": 7.066,
-      "londonLocationCount": 2
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt2103085",
@@ -255,7 +281,7 @@
       "poster": "/images/posters/tt1684562.webp",
       "thumbnail_52": "/images/thumbnails/tt1684562.webp",
       "imdb_rating": 6.986,
-      "londonLocationCount": 5
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt0448134",
@@ -268,7 +294,7 @@
       "poster": "/images/posters/tt0448134.webp",
       "thumbnail_52": "/images/thumbnails/tt0448134.webp",
       "imdb_rating": 6.965,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt8760932",
@@ -282,6 +308,35 @@
       "thumbnail_52": "/images/thumbnails/tt8760932.webp",
       "imdb_rating": 6.947,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116629",
+      "title": "Independence Day",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116629.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116629.webp",
+      "imdb_rating": 6.897,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0079501",
+      "title": "Mad Max",
+      "year": 1979,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0079501.webp",
+      "thumbnail_52": "/images/thumbnails/tt0079501.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt3513498",
@@ -312,7 +367,34 @@
       "poster": "/images/posters/tt0242653.webp",
       "thumbnail_52": "/images/thumbnails/tt0242653.webp",
       "imdb_rating": 6.7,
-      "londonLocationCount": 3
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0121765",
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0121765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0121765.webp",
+      "imdb_rating": 6.586,
+      "londonLocationCount": 11
+    },
+    {
+      "movie_id": "tt2321549",
+      "title": "The Babadook",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt2321549.webp",
+      "thumbnail_52": "/images/thumbnails/tt2321549.webp",
+      "imdb_rating": 6.527,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt1430132",
@@ -326,7 +408,7 @@
       "poster": "/images/posters/tt1430132.webp",
       "thumbnail_52": "/images/thumbnails/tt1430132.webp",
       "imdb_rating": 6.4,
-      "londonLocationCount": 3
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt10648342",
@@ -340,7 +422,7 @@
       "poster": "/images/posters/tt10648342.webp",
       "thumbnail_52": "/images/thumbnails/tt10648342.webp",
       "imdb_rating": 6.392,
-      "londonLocationCount": 4
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0458525",
@@ -354,7 +436,7 @@
       "poster": "/images/posters/tt0458525.webp",
       "thumbnail_52": "/images/thumbnails/tt0458525.webp",
       "imdb_rating": 6.278,
-      "londonLocationCount": 1
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0366548",
@@ -382,7 +464,7 @@
       "poster": "/images/posters/tt2316204.webp",
       "thumbnail_52": "/images/thumbnails/tt2316204.webp",
       "imdb_rating": 6.16,
-      "londonLocationCount": 2
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0120755",
@@ -396,7 +478,7 @@
       "poster": "/images/posters/tt0120755.webp",
       "thumbnail_52": "/images/thumbnails/tt0120755.webp",
       "imdb_rating": 6.1,
-      "londonLocationCount": 2
+      "londonLocationCount": 15
     },
     {
       "movie_id": "tt0348150",
@@ -410,7 +492,7 @@
       "poster": "/images/posters/tt0348150.webp",
       "thumbnail_52": "/images/thumbnails/tt0348150.webp",
       "imdb_rating": 5.793,
-      "londonLocationCount": 1
+      "londonLocationCount": 14
     },
     {
       "movie_id": "tt0098141",
@@ -425,7 +507,7 @@
       "poster": "/images/posters/tt0098141.webp",
       "thumbnail_52": "/images/thumbnails/tt0098141.webp",
       "imdb_rating": 5.769,
-      "londonLocationCount": 2
+      "londonLocationCount": 37
     },
     {
       "movie_id": "tt0133152",
@@ -444,16 +526,16 @@
     }
   ],
   "stats": {
-    "totalMovies": 31,
-    "totalLocations": 76,
+    "totalMovies": 37,
+    "totalLocations": 237,
     "genres": {
-      "Action": 15,
-      "Science Fiction": 13,
-      "Adventure": 12,
+      "Action": 19,
+      "Science Fiction": 17,
+      "Adventure": 16,
       "Fantasy": 3,
       "Comedy": 5,
-      "Thriller": 8,
-      "Drama": 10,
+      "Thriller": 9,
+      "Drama": 12,
       "History": 1,
       "War": 2,
       "Crime": 3,
@@ -462,15 +544,16 @@
       "Family": 3,
       "Action & Adventure": 2,
       "Sci-Fi & Fantasy": 2,
-      "Horror": 2,
+      "Horror": 3,
       "Music": 1,
       "Mystery": 3
     },
     "decades": {
-      "1990s": 3,
-      "2010s": 11,
+      "1990s": 4,
+      "2010s": 12,
       "2020s": 7,
-      "2000s": 9,
+      "2000s": 12,
+      "1970s": 1,
       "1980s": 1
     }
   }

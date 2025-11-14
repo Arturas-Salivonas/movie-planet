@@ -230,12 +230,16 @@ export default function SearchBar({ onSearch, onMovieSelect }: SearchBarProps) {
                     </h4>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       {movie.year} • {movie.genres.slice(0, 2).join(', ')}
+                      {movie.imdb_rating && (
+                        <span className="ml-2 text-yellow-500 font-semibold">
+                          ⭐ {movie.imdb_rating.toFixed(1)}
+                        </span>
+                      )}
                     </p>
-                    <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-                      {movie.locations.length} location
-                      {movie.locations.length !== 1 ? 's' : ''}
-                      {' • '}
-                      {movie.locations.map((l) => l.country).join(', ')}
+                    <p className="text-xs mt-1">
+                      <span className="text-yellow-500 dark:text-yellow-400 font-semibold">
+                        {movie.locations.length} location{movie.locations.length !== 1 ? 's' : ''}
+                      </span>
                     </p>
                   </div>
                 </div>

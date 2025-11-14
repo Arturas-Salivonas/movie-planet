@@ -16,6 +16,7 @@ interface MapProps {
   filters: FilterState
   focusedMovieId?: string | null
   onClearFocus?: () => void
+  convertGeoJSONToMovie?: (feature: any) => Promise<Movie>
 }
 
 const MapWrapper = forwardRef<MapRef, MapProps>((props, ref) => {

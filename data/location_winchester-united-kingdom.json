@@ -1,0 +1,70 @@
+{
+  "location": {
+    "city": "Winchester",
+    "country": "United Kingdom",
+    "slug": "winchester-united-kingdom",
+    "coordinates": {
+      "lat": 51.0678637,
+      "lng": -1.2699680571428573
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0206634",
+      "title": "Children of Men",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0206634.webp",
+      "thumbnail_52": "/images/thumbnails/tt0206634.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1707386",
+      "title": "Les Misérables",
+      "year": 2012,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1707386.webp",
+      "thumbnail_52": "/images/thumbnails/tt1707386.webp",
+      "imdb_rating": 7.315,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0382625",
+      "title": "The Da Vinci Code",
+      "year": 2006,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0382625.webp",
+      "thumbnail_52": "/images/thumbnails/tt0382625.webp",
+      "imdb_rating": 6.728,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 7,
+    "genres": {
+      "Thriller": 2,
+      "Mystery": 1,
+      "Drama": 2,
+      "Action": 1,
+      "Science Fiction": 1,
+      "History": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "2010s": 1
+    }
+  }
+}

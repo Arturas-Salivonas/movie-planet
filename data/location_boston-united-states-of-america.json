@@ -4,11 +4,25 @@
     "country": "United States of America",
     "slug": "boston-united-states-of-america",
     "coordinates": {
-      "lat": 42.35336979166668,
-      "lng": -71.06320604722222
+      "lat": 42.34933753766235,
+      "lng": -71.06357310389609
     }
   },
   "movies": [
+    {
+      "movie_id": "tt1130884",
+      "title": "Shutter Island",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1130884.webp",
+      "thumbnail_52": "/images/thumbnails/tt1130884.webp",
+      "imdb_rating": 8.201,
+      "londonLocationCount": 4
+    },
     {
       "movie_id": "tt0119217",
       "title": "Good Will Hunting",
@@ -19,7 +33,7 @@
       "poster": "/images/posters/tt0119217.webp",
       "thumbnail_52": "/images/thumbnails/tt0119217.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 1
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt0407887",
@@ -33,7 +47,21 @@
       "poster": "/images/posters/tt0407887.webp",
       "thumbnail_52": "/images/thumbnails/tt0407887.webp",
       "imdb_rating": 8.159,
-      "londonLocationCount": 2
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt3281548",
+      "title": "Little Women",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Romance",
+        "History"
+      ],
+      "poster": "/images/posters/tt3281548.webp",
+      "thumbnail_52": "/images/thumbnails/tt3281548.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1895587",
@@ -46,7 +74,7 @@
       "poster": "/images/posters/tt1895587.webp",
       "thumbnail_52": "/images/thumbnails/tt1895587.webp",
       "imdb_rating": 7.813,
-      "londonLocationCount": 1
+      "londonLocationCount": 11
     },
     {
       "movie_id": "tt0115341",
@@ -60,6 +88,20 @@
       "poster": "/images/posters/tt0115341.webp",
       "thumbnail_52": "/images/thumbnails/tt0115341.webp",
       "imdb_rating": 7.803,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8946378",
+      "title": "Knives Out",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt8946378.webp",
+      "thumbnail_52": "/images/thumbnails/tt8946378.webp",
+      "imdb_rating": 7.8,
       "londonLocationCount": 1
     },
     {
@@ -75,7 +117,20 @@
       "poster": "/images/posters/tt0327056.webp",
       "thumbnail_52": "/images/thumbnails/tt0327056.webp",
       "imdb_rating": 7.742,
-      "londonLocationCount": 3
+      "londonLocationCount": 18
+    },
+    {
+      "movie_id": "tt1010048",
+      "title": "Slumdog Millionaire",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1010048.webp",
+      "thumbnail_52": "/images/thumbnails/tt1010048.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0083399",
@@ -90,6 +145,34 @@
       "londonLocationCount": 3
     },
     {
+      "movie_id": "tt1535109",
+      "title": "Captain Phillips",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1535109.webp",
+      "thumbnail_52": "/images/thumbnails/tt1535109.webp",
+      "imdb_rating": 7.538,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0097441",
+      "title": "Glory",
+      "year": 1989,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0097441.webp",
+      "thumbnail_52": "/images/thumbnails/tt0097441.webp",
+      "imdb_rating": 7.474,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt6264654",
       "title": "Free Guy",
       "year": 2021,
@@ -101,6 +184,30 @@
       "poster": "/images/posters/tt6264654.webp",
       "thumbnail_52": "/images/thumbnails/tt6264654.webp",
       "imdb_rating": 7.463,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt1285016",
+      "title": "The Social Network",
+      "year": 2010,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1285016.webp",
+      "thumbnail_52": "/images/thumbnails/tt1285016.webp",
+      "imdb_rating": 7.371,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1872194",
+      "title": "The Judge",
+      "year": 2014,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1872194.webp",
+      "thumbnail_52": "/images/thumbnails/tt1872194.webp",
+      "imdb_rating": 7.329,
       "londonLocationCount": 1
     },
     {
@@ -129,7 +236,7 @@
       "poster": "/images/posters/tt0452623.webp",
       "thumbnail_52": "/images/thumbnails/tt0452623.webp",
       "imdb_rating": 7.304,
-      "londonLocationCount": 2
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt0455944",
@@ -143,7 +250,7 @@
       "poster": "/images/posters/tt0455944.webp",
       "thumbnail_52": "/images/thumbnails/tt0455944.webp",
       "imdb_rating": 7.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1210166",
@@ -169,7 +276,23 @@
       "poster": "/images/posters/tt0144117.webp",
       "thumbnail_52": "/images/thumbnails/tt0144117.webp",
       "imdb_rating": 7.25,
-      "londonLocationCount": 4
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0099653",
+      "title": "Ghost",
+      "year": 1990,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Thriller",
+        "Mystery",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0099653.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099653.webp",
+      "imdb_rating": 7.225,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0840361",
@@ -183,7 +306,21 @@
       "poster": "/images/posters/tt0840361.webp",
       "thumbnail_52": "/images/thumbnails/tt0840361.webp",
       "imdb_rating": 7.218,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt1041829",
+      "title": "The Proposal",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1041829.webp",
+      "thumbnail_52": "/images/thumbnails/tt1041829.webp",
+      "imdb_rating": 7.152,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt11286314",
@@ -199,6 +336,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1951266",
+      "title": "The Hunger Games: Mockingjay - Part 2",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1951266.webp",
+      "thumbnail_52": "/images/thumbnails/tt1951266.webp",
+      "imdb_rating": 6.898,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1800241",
       "title": "American Hustle",
       "year": 2013,
@@ -209,6 +360,47 @@
       "poster": "/images/posters/tt1800241.webp",
       "thumbnail_52": "/images/thumbnails/tt1800241.webp",
       "imdb_rating": 6.854,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0418279",
+      "title": "Transformers",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0418279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0418279.webp",
+      "imdb_rating": 6.82,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1951265",
+      "title": "The Hunger Games: Mockingjay - Part 1",
+      "year": 2014,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1951265.webp",
+      "thumbnail_52": "/images/thumbnails/tt1951265.webp",
+      "imdb_rating": 6.815,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0250494",
+      "title": "Legally Blonde",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0250494.webp",
+      "thumbnail_52": "/images/thumbnails/tt0250494.webp",
+      "imdb_rating": 6.807,
       "londonLocationCount": 1
     },
     {
@@ -223,7 +415,7 @@
       "poster": "/images/posters/tt3766354.webp",
       "thumbnail_52": "/images/thumbnails/tt3766354.webp",
       "imdb_rating": 6.778,
-      "londonLocationCount": 1
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt11514868",
@@ -238,6 +430,19 @@
       "thumbnail_52": "/images/thumbnails/tt11514868.webp",
       "imdb_rating": 6.731,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0478087",
+      "title": "21",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0478087.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478087.webp",
+      "imdb_rating": 6.694,
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt0118254",
@@ -263,7 +468,7 @@
       "poster": "/images/posters/tt1637725.webp",
       "thumbnail_52": "/images/thumbnails/tt1637725.webp",
       "imdb_rating": 6.448,
-      "londonLocationCount": 3
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt1489889",
@@ -279,6 +484,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1375670",
+      "title": "Grown Ups",
+      "year": 2010,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1375670.webp",
+      "thumbnail_52": "/images/thumbnails/tt1375670.webp",
+      "imdb_rating": 6.401,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt2637276",
       "title": "Ted 2",
       "year": 2015,
@@ -289,7 +506,35 @@
       "poster": "/images/posters/tt2637276.webp",
       "thumbnail_52": "/images/thumbnails/tt2637276.webp",
       "imdb_rating": 6.315,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0448011",
+      "title": "Knowing",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Mystery",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0448011.webp",
+      "thumbnail_52": "/images/thumbnails/tt0448011.webp",
+      "imdb_rating": 6.236,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1013743",
+      "title": "Knight and Day",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1013743.webp",
+      "thumbnail_52": "/images/thumbnails/tt1013743.webp",
+      "imdb_rating": 6.225,
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1289401",
@@ -303,7 +548,7 @@
       "poster": "/images/posters/tt1289401.webp",
       "thumbnail_52": "/images/thumbnails/tt1289401.webp",
       "imdb_rating": 5.348,
-      "londonLocationCount": 1
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt11057302",
@@ -332,29 +577,31 @@
     }
   ],
   "stats": {
-    "totalMovies": 24,
-    "totalLocations": 36,
+    "totalMovies": 42,
+    "totalLocations": 154,
     "genres": {
-      "Drama": 11,
-      "Thriller": 6,
-      "Crime": 9,
-      "History": 1,
-      "Action": 6,
-      "Fantasy": 4,
-      "Comedy": 9,
-      "Science Fiction": 2,
-      "Mystery": 4,
-      "Adventure": 1,
+      "Drama": 21,
+      "Thriller": 11,
+      "Crime": 11,
+      "Mystery": 8,
+      "Adventure": 4,
+      "Science Fiction": 6,
+      "Action": 11,
+      "Comedy": 14,
+      "History": 3,
+      "War": 1,
+      "Fantasy": 5,
+      "Romance": 5,
       "Family": 1,
       "Sci-Fi & Fantasy": 2,
       "Reality": 1
     },
     "decades": {
-      "2000s": 5,
-      "2010s": 10,
-      "2020s": 4,
-      "1990s": 4,
-      "1980s": 1
+      "2000s": 11,
+      "2010s": 20,
+      "1980s": 2,
+      "1990s": 5,
+      "2020s": 4
     }
   }
 }

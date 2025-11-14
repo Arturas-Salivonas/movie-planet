@@ -1,0 +1,75 @@
+{
+  "location": {
+    "city": "Nottingham",
+    "country": "United Kingdom",
+    "slug": "nottingham-united-kingdom",
+    "coordinates": {
+      "lat": 52.951410425,
+      "lng": -1.1309687
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0056751",
+      "title": "Doctor Who",
+      "year": 1963,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0056751.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056751.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1345836",
+      "title": "The Dark Knight Rises",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1345836.webp",
+      "thumbnail_52": "/images/thumbnails/tt1345836.webp",
+      "imdb_rating": 7.788,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1515091",
+      "title": "Sherlock Holmes: A Game of Shadows",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1515091.webp",
+      "thumbnail_52": "/images/thumbnails/tt1515091.webp",
+      "imdb_rating": 7.141,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 0,
+    "genres": {
+      "Action": 2,
+      "Crime": 2,
+      "Drama": 2,
+      "Thriller": 1,
+      "Adventure": 1,
+      "Mystery": 1,
+      "Action & Adventure": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "1960s": 1
+    }
+  }
+}

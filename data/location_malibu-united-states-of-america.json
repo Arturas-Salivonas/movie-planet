@@ -4,11 +4,118 @@
     "country": "United States of America",
     "slug": "malibu-united-states-of-america",
     "coordinates": {
-      "lat": 34.034160652,
-      "lng": -118.74157433999999
+      "lat": 34.0373016487805,
+      "lng": -118.73273966341455
     }
   },
   "movies": [
+    {
+      "movie_id": "tt4574334",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4574334.webp",
+      "thumbnail_52": "/images/thumbnails/tt4574334.webp",
+      "imdb_rating": 8.593,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1375666",
+      "title": "Inception",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1375666.webp",
+      "thumbnail_52": "/images/thumbnails/tt1375666.webp",
+      "imdb_rating": 8.37,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0032553",
+      "title": "The Great Dictator",
+      "year": 1940,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "poster": "/images/posters/tt0032553.webp",
+      "thumbnail_52": "/images/thumbnails/tt0032553.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0098936",
+      "title": "Twin Peaks",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0098936.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098936.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt8772296",
+      "title": "Euphoria",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8772296.webp",
+      "thumbnail_52": "/images/thumbnails/tt8772296.webp",
+      "imdb_rating": 8.288,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2356777",
+      "title": "True Detective",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2356777.webp",
+      "thumbnail_52": "/images/thumbnails/tt2356777.webp",
+      "imdb_rating": 8.283,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0114814",
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0114814.webp",
+      "thumbnail_52": "/images/thumbnails/tt0114814.webp",
+      "imdb_rating": 8.172,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0103064",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0103064.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103064.webp",
+      "imdb_rating": 8.134,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt0415463",
       "title": "Zoey 101",
@@ -19,6 +126,33 @@
       "poster": "/images/posters/tt0415463.webp",
       "thumbnail_52": "/images/thumbnails/tt0415463.webp",
       "imdb_rating": 8.108,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0033467",
+      "title": "Citizen Kane",
+      "year": 1941,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0033467.webp",
+      "thumbnail_52": "/images/thumbnails/tt0033467.webp",
+      "imdb_rating": 8.001,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0113277",
+      "title": "Heat",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0113277.webp",
+      "thumbnail_52": "/images/thumbnails/tt0113277.webp",
+      "imdb_rating": 7.922,
       "londonLocationCount": 1
     },
     {
@@ -45,7 +179,34 @@
       "poster": "/images/posters/tt3920596.webp",
       "thumbnail_52": "/images/thumbnails/tt3920596.webp",
       "imdb_rating": 7.889,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0118715",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0118715.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118715.webp",
+      "imdb_rating": 7.84,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0285331",
+      "title": "24",
+      "year": 2001,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0285331.webp",
+      "thumbnail_52": "/images/thumbnails/tt0285331.webp",
+      "imdb_rating": 7.794,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0362359",
@@ -58,6 +219,19 @@
       "thumbnail_52": "/images/thumbnails/tt0362359.webp",
       "imdb_rating": 7.762,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14403178",
+      "title": "BEEF",
+      "year": 2023,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14403178.webp",
+      "thumbnail_52": "/images/thumbnails/tt14403178.webp",
+      "imdb_rating": 7.735,
+      "londonLocationCount": 0
     },
     {
       "movie_id": "tt11000902",
@@ -87,6 +261,33 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0162222",
+      "title": "Cast Away",
+      "year": 2000,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0162222.webp",
+      "thumbnail_52": "/images/thumbnails/tt0162222.webp",
+      "imdb_rating": 7.66,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0371746",
+      "title": "Iron Man",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0371746.webp",
+      "thumbnail_52": "/images/thumbnails/tt0371746.webp",
+      "imdb_rating": 7.654,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0063442",
       "title": "Planet of the Apes",
       "year": 1968,
@@ -114,6 +315,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt7423538",
+      "title": "Ratched",
+      "year": 2020,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7423538.webp",
+      "thumbnail_52": "/images/thumbnails/tt7423538.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt14208870",
       "title": "The Fabelmans",
       "year": 2022,
@@ -123,6 +338,59 @@
       "poster": "/images/posters/tt14208870.webp",
       "thumbnail_52": "/images/thumbnails/tt14208870.webp",
       "imdb_rating": 7.575,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1837642",
+      "title": "Revenge",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1837642.webp",
+      "thumbnail_52": "/images/thumbnails/tt1837642.webp",
+      "imdb_rating": 7.558,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108399",
+      "title": "True Romance",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108399.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108399.webp",
+      "imdb_rating": 7.542,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2249007",
+      "title": "Ray Donovan",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2249007.webp",
+      "thumbnail_52": "/images/thumbnails/tt2249007.webp",
+      "imdb_rating": 7.489,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0084967",
+      "title": "The A-Team",
+      "year": 1983,
+      "genres": [
+        "Action & Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0084967.webp",
+      "thumbnail_52": "/images/thumbnails/tt0084967.webp",
+      "imdb_rating": 7.47,
       "londonLocationCount": 1
     },
     {
@@ -138,6 +406,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt7131622",
+      "title": "Once Upon a Time... in Hollywood",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt7131622.webp",
+      "thumbnail_52": "/images/thumbnails/tt7131622.webp",
+      "imdb_rating": 7.426,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt4550098",
       "title": "Nocturnal Animals",
       "year": 2016,
@@ -151,6 +433,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0077631",
+      "title": "Grease",
+      "year": 1978,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0077631.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077631.webp",
+      "imdb_rating": 7.374,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt1596363",
       "title": "The Big Short",
       "year": 2015,
@@ -162,6 +457,60 @@
       "thumbnail_52": "/images/thumbnails/tt1596363.webp",
       "imdb_rating": 7.358,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0387199",
+      "title": "Entourage",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0387199.webp",
+      "thumbnail_52": "/images/thumbnails/tt0387199.webp",
+      "imdb_rating": 7.357,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0080339",
+      "title": "Airplane!",
+      "year": 1980,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0080339.webp",
+      "thumbnail_52": "/images/thumbnails/tt0080339.webp",
+      "imdb_rating": 7.309,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2820852",
+      "title": "Furious 7",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2820852.webp",
+      "thumbnail_52": "/images/thumbnails/tt2820852.webp",
+      "imdb_rating": 7.223,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0087538",
+      "title": "The Karate Kid",
+      "year": 1984,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0087538.webp",
+      "thumbnail_52": "/images/thumbnails/tt0087538.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt1135300",
@@ -189,7 +538,7 @@
       "poster": "/images/posters/tt0102685.webp",
       "thumbnail_52": "/images/thumbnails/tt0102685.webp",
       "imdb_rating": 7.16,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0493093",
@@ -202,6 +551,21 @@
       "poster": "/images/posters/tt0493093.webp",
       "thumbnail_52": "/images/thumbnails/tt0493093.webp",
       "imdb_rating": 7.147,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120201",
+      "title": "Starship Troopers",
+      "year": 1997,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120201.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120201.webp",
+      "imdb_rating": 7.087,
       "londonLocationCount": 1
     },
     {
@@ -218,6 +582,34 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0119094",
+      "title": "Face/Off",
+      "year": 1997,
+      "genres": [
+        "Action",
+        "Crime",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0119094.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119094.webp",
+      "imdb_rating": 7.05,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120903",
+      "title": "X-Men",
+      "year": 2000,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120903.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120903.webp",
+      "imdb_rating": 7.006,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0232500",
       "title": "The Fast and the Furious",
       "year": 2001,
@@ -229,6 +621,33 @@
       "poster": "/images/posters/tt0232500.webp",
       "thumbnail_52": "/images/thumbnails/tt0232500.webp",
       "imdb_rating": 6.995,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1300854",
+      "title": "Iron Man 3",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1300854.webp",
+      "thumbnail_52": "/images/thumbnails/tt1300854.webp",
+      "imdb_rating": 6.93,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0343660",
+      "title": "50 First Dates",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0343660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0343660.webp",
+      "imdb_rating": 6.87,
       "londonLocationCount": 1
     },
     {
@@ -272,6 +691,34 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0120082",
+      "title": "Scream 2",
+      "year": 1997,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0120082.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120082.webp",
+      "imdb_rating": 6.505,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1321870",
+      "title": "Gangster Squad",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1321870.webp",
+      "thumbnail_52": "/images/thumbnails/tt1321870.webp",
+      "imdb_rating": 6.4,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1397280",
       "title": "Taken 2",
       "year": 2012,
@@ -286,6 +733,19 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt0448157",
+      "title": "Hancock",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0448157.webp",
+      "thumbnail_52": "/images/thumbnails/tt0448157.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0252866",
       "title": "American Pie 2",
       "year": 2001,
@@ -296,7 +756,7 @@
       "poster": "/images/posters/tt0252866.webp",
       "thumbnail_52": "/images/thumbnails/tt0252866.webp",
       "imdb_rating": 6.249,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0120647",
@@ -311,31 +771,65 @@
       "thumbnail_52": "/images/thumbnails/tt0120647.webp",
       "imdb_rating": 6.231,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1013743",
+      "title": "Knight and Day",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1013743.webp",
+      "thumbnail_52": "/images/thumbnails/tt1013743.webp",
+      "imdb_rating": 6.225,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086856",
+      "title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+      "year": 1984,
+      "genres": [
+        "Science Fiction",
+        "Comedy",
+        "Adventure",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0086856.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086856.webp",
+      "imdb_rating": 5.988,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 23,
-    "totalLocations": 25,
+    "totalMovies": 59,
+    "totalLocations": 77,
     "genres": {
-      "Drama": 13,
-      "Adventure": 2,
-      "Action": 6,
-      "Science Fiction": 3,
-      "Thriller": 6,
-      "Horror": 2,
-      "Comedy": 7,
-      "Crime": 5,
-      "Romance": 2,
-      "Sci-Fi & Fantasy": 1,
-      "Action & Adventure": 2,
-      "Family": 1
+      "Action": 20,
+      "Science Fiction": 11,
+      "Adventure": 10,
+      "Drama": 30,
+      "Crime": 15,
+      "Thriller": 12,
+      "Comedy": 18,
+      "Horror": 3,
+      "Romance": 6,
+      "Family": 2,
+      "Sci-Fi & Fantasy": 2,
+      "Mystery": 7,
+      "Action & Adventure": 4,
+      "Fantasy": 1,
+      "War": 1
     },
     "decades": {
-      "2020s": 5,
-      "2010s": 6,
+      "2010s": 17,
+      "1990s": 11,
+      "2000s": 15,
+      "2020s": 7,
       "1960s": 2,
-      "2000s": 8,
-      "1990s": 2
+      "1980s": 4,
+      "1970s": 1,
+      "1940s": 2
     }
   }
 }

@@ -1,0 +1,77 @@
+{
+  "location": {
+    "city": "Chichester",
+    "country": "United Kingdom",
+    "slug": "chichester-united-kingdom",
+    "coordinates": {
+      "lat": 50.957283600000004,
+      "lng": -0.6514814000000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0072684",
+      "title": "Barry Lyndon",
+      "year": 1975,
+      "genres": [
+        "Drama",
+        "Romance",
+        "War",
+        "History"
+      ],
+      "poster": "/images/posters/tt0072684.webp",
+      "thumbnail_52": "/images/thumbnails/tt0072684.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1587310",
+      "title": "Maleficent",
+      "year": 2014,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Action",
+        "Family",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1587310.webp",
+      "thumbnail_52": "/images/thumbnails/tt1587310.webp",
+      "imdb_rating": 7.088,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1638355",
+      "title": "The Man from U.N.C.L.E.",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1638355.webp",
+      "thumbnail_52": "/images/thumbnails/tt1638355.webp",
+      "imdb_rating": 7.082,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 6,
+    "genres": {
+      "Drama": 1,
+      "Romance": 2,
+      "War": 1,
+      "History": 1,
+      "Fantasy": 1,
+      "Adventure": 2,
+      "Action": 2,
+      "Family": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "1970s": 1,
+      "2010s": 2
+    }
+  }
+}

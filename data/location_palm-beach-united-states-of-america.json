@@ -1,0 +1,85 @@
+{
+  "location": {
+    "city": "Palm Beach",
+    "country": "United States of America",
+    "slug": "palm-beach-united-states-of-america",
+    "coordinates": {
+      "lat": 26.742635775,
+      "lng": -80.06587475
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1302006",
+      "title": "The Irishman",
+      "year": 2019,
+      "genres": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt1302006.webp",
+      "thumbnail_52": "/images/thumbnails/tt1302006.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0119008",
+      "title": "Donnie Brasco",
+      "year": 1997,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0119008.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119008.webp",
+      "imdb_rating": 7.534,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0418763",
+      "title": "Jarhead",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt0418763.webp",
+      "thumbnail_52": "/images/thumbnails/tt0418763.webp",
+      "imdb_rating": 6.673,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0322259",
+      "title": "2 Fast 2 Furious",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0322259.webp",
+      "thumbnail_52": "/images/thumbnails/tt0322259.webp",
+      "imdb_rating": 6.51,
+      "londonLocationCount": 0
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 0,
+    "genres": {
+      "Crime": 3,
+      "Drama": 3,
+      "History": 1,
+      "Thriller": 2,
+      "Action": 1,
+      "War": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "1990s": 1,
+      "2000s": 2
+    }
+  }
+}

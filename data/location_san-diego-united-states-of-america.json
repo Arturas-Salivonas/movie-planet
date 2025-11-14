@@ -4,11 +4,52 @@
     "country": "United States of America",
     "slug": "san-diego-united-states-of-america",
     "coordinates": {
-      "lat": 32.76685322222222,
-      "lng": -117.16253944814815
+      "lat": 32.74242593417725,
+      "lng": -117.16512814936702
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0106179",
+      "title": "The X-Files",
+      "year": 1993,
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106179.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106179.webp",
+      "imdb_rating": 8.379,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1745960",
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1745960.webp",
+      "thumbnail_52": "/images/thumbnails/tt1745960.webp",
+      "imdb_rating": 8.166,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0086250",
+      "title": "Scarface",
+      "year": 1983,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086250.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086250.webp",
+      "imdb_rating": 8.158,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt0033467",
       "title": "Citizen Kane",
@@ -20,7 +61,7 @@
       "poster": "/images/posters/tt0033467.webp",
       "thumbnail_52": "/images/thumbnails/tt0033467.webp",
       "imdb_rating": 8.001,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt11743610",
@@ -36,6 +77,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1489428",
+      "title": "Justified",
+      "year": 2010,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1489428.webp",
+      "thumbnail_52": "/images/thumbnails/tt1489428.webp",
+      "imdb_rating": 7.973,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0412253",
       "title": "Veronica Mars",
       "year": 2004,
@@ -47,7 +101,7 @@
       "poster": "/images/posters/tt0412253.webp",
       "thumbnail_52": "/images/thumbnails/tt0412253.webp",
       "imdb_rating": 7.817,
-      "londonLocationCount": 3
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt30144839",
@@ -61,6 +115,21 @@
       "poster": "/images/posters/tt30144839.webp",
       "thumbnail_52": "/images/thumbnails/tt30144839.webp",
       "imdb_rating": 7.712,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0119177",
+      "title": "Gattaca",
+      "year": 1997,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Mystery",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0119177.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119177.webp",
+      "imdb_rating": 7.561,
       "londonLocationCount": 1
     },
     {
@@ -74,7 +143,97 @@
       "poster": "/images/posters/tt0181875.webp",
       "thumbnail_52": "/images/thumbnails/tt0181875.webp",
       "imdb_rating": 7.5,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0112384",
+      "title": "Apollo 13",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0112384.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112384.webp",
+      "imdb_rating": 7.449,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0099810",
+      "title": "The Hunt for Red October",
+      "year": 1990,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0099810.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099810.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0095705",
+      "title": "The Naked Gun: From the Files of Police Squad!",
+      "year": 1988,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0095705.webp",
+      "thumbnail_52": "/images/thumbnails/tt0095705.webp",
+      "imdb_rating": 7.266,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0338751",
+      "title": "The Aviator",
+      "year": 2004,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0338751.webp",
+      "thumbnail_52": "/images/thumbnails/tt0338751.webp",
+      "imdb_rating": 7.219,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0449467",
+      "title": "Babel",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0449467.webp",
+      "thumbnail_52": "/images/thumbnails/tt0449467.webp",
+      "imdb_rating": 7.2,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0361217",
+      "title": "Nip/Tuck",
+      "year": 2003,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0361217.webp",
+      "thumbnail_52": "/images/thumbnails/tt0361217.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0311113",
+      "title": "Master and Commander: The Far Side of the World",
+      "year": 2003,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt0311113.webp",
+      "thumbnail_52": "/images/thumbnails/tt0311113.webp",
+      "imdb_rating": 7.172,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0375063",
@@ -91,6 +250,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0111503",
+      "title": "True Lies",
+      "year": 1994,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0111503.webp",
+      "thumbnail_52": "/images/thumbnails/tt0111503.webp",
+      "imdb_rating": 7.084,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0181865",
       "title": "Traffic",
       "year": 2000,
@@ -102,7 +274,7 @@
       "poster": "/images/posters/tt0181865.webp",
       "thumbnail_52": "/images/thumbnails/tt0181865.webp",
       "imdb_rating": 7.08,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt0092099",
@@ -115,7 +287,7 @@
       "poster": "/images/posters/tt0092099.webp",
       "thumbnail_52": "/images/thumbnails/tt0092099.webp",
       "imdb_rating": 7.061,
-      "londonLocationCount": 1
+      "londonLocationCount": 14
     },
     {
       "movie_id": "tt4649466",
@@ -130,6 +302,21 @@
       "poster": "/images/posters/tt4649466.webp",
       "thumbnail_52": "/images/thumbnails/tt4649466.webp",
       "imdb_rating": 6.952,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0213149",
+      "title": "Pearl Harbor",
+      "year": 2001,
+      "genres": [
+        "War",
+        "Romance",
+        "History",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0213149.webp",
+      "thumbnail_52": "/images/thumbnails/tt0213149.webp",
+      "imdb_rating": 6.941,
       "londonLocationCount": 1
     },
     {
@@ -157,6 +344,20 @@
       "poster": "/images/posters/tt2402207.webp",
       "thumbnail_52": "/images/thumbnails/tt2402207.webp",
       "imdb_rating": 6.843,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0418279",
+      "title": "Transformers",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0418279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0418279.webp",
+      "imdb_rating": 6.82,
       "londonLocationCount": 1
     },
     {
@@ -188,6 +389,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0315327",
+      "title": "Bruce Almighty",
+      "year": 2003,
+      "genres": [
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0315327.webp",
+      "thumbnail_52": "/images/thumbnails/tt0315327.webp",
+      "imdb_rating": 6.722,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0357413",
       "title": "Anchorman: The Legend of Ron Burgundy",
       "year": 2004,
@@ -198,6 +412,58 @@
       "thumbnail_52": "/images/thumbnails/tt0357413.webp",
       "imdb_rating": 6.701,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1298650",
+      "title": "Pirates of the Caribbean: On Stranger Tides",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1298650.webp",
+      "thumbnail_52": "/images/thumbnails/tt1298650.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0838283",
+      "title": "Step Brothers",
+      "year": 2008,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0838283.webp",
+      "thumbnail_52": "/images/thumbnails/tt0838283.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119567",
+      "title": "The Lost World: Jurassic Park",
+      "year": 1997,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0119567.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119567.webp",
+      "imdb_rating": 6.559,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0430922",
+      "title": "Role Models",
+      "year": 2008,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0430922.webp",
+      "thumbnail_52": "/images/thumbnails/tt0430922.webp",
+      "imdb_rating": 6.487,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt2231461",
@@ -214,6 +480,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1055369",
+      "title": "Transformers: Revenge of the Fallen",
+      "year": 2009,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1055369.webp",
+      "thumbnail_52": "/images/thumbnails/tt1055369.webp",
+      "imdb_rating": 6.209,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1229340",
       "title": "Anchorman 2: The Legend Continues",
       "year": 2013,
@@ -223,6 +503,20 @@
       "poster": "/images/posters/tt1229340.webp",
       "thumbnail_52": "/images/thumbnails/tt1229340.webp",
       "imdb_rating": 6.136,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3371366",
+      "title": "Transformers: The Last Knight",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3371366.webp",
+      "thumbnail_52": "/images/thumbnails/tt3371366.webp",
+      "imdb_rating": 6.055,
       "londonLocationCount": 1
     },
     {
@@ -237,6 +531,21 @@
       "thumbnail_52": "/images/thumbnails/tt1179904.webp",
       "imdb_rating": 6.034,
       "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1440129",
+      "title": "Battleship",
+      "year": 2012,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1440129.webp",
+      "thumbnail_52": "/images/thumbnails/tt1440129.webp",
+      "imdb_rating": 5.879,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0095989",
@@ -269,31 +578,33 @@
     }
   ],
   "stats": {
-    "totalMovies": 19,
-    "totalLocations": 27,
+    "totalMovies": 42,
+    "totalLocations": 79,
     "genres": {
-      "Adventure": 4,
-      "Fantasy": 1,
-      "Action": 7,
-      "Comedy": 7,
+      "Action": 18,
+      "Drama": 16,
+      "Crime": 8,
+      "Adventure": 12,
+      "Science Fiction": 11,
+      "Fantasy": 3,
+      "Comedy": 11,
       "Horror": 2,
-      "Science Fiction": 5,
-      "Thriller": 3,
-      "Crime": 4,
-      "Drama": 8,
+      "Mystery": 5,
+      "Sci-Fi & Fantasy": 2,
+      "Thriller": 7,
+      "Romance": 3,
+      "War": 2,
+      "History": 2,
       "Music": 1,
-      "Mystery": 3,
-      "Action & Adventure": 2,
-      "Sci-Fi & Fantasy": 1,
-      "Romance": 1
+      "Action & Adventure": 2
     },
     "decades": {
-      "2010s": 6,
-      "1980s": 3,
-      "2020s": 2,
-      "2000s": 6,
-      "1940s": 1,
-      "1990s": 1
+      "2020s": 3,
+      "1980s": 5,
+      "1990s": 7,
+      "2000s": 16,
+      "2010s": 10,
+      "1940s": 1
     }
   }
 }

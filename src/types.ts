@@ -19,7 +19,8 @@ export interface Location {
   readonly lng: number;
   readonly city: string;
   readonly country: string;
-  readonly description?: string; // Scene description
+  readonly description?: string; // Location description/name
+  readonly scene_description?: string; // NEW: What was filmed here (scene details)
 }
 
 /**
@@ -42,6 +43,7 @@ export interface Movie {
   readonly imdb_rating?: number;
   readonly locations: readonly Location[];
   readonly trivia?: string;
+  readonly clickedLocationIndex?: number; // Index of the location that was clicked on the map
 }
 
 /**

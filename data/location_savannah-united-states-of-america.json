@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "savannah-united-states-of-america",
     "coordinates": {
-      "lat": 32.078655366666666,
-      "lng": -81.09224490000001
+      "lat": 32.07792976,
+      "lng": -81.09257543000001
     }
   },
   "movies": [
@@ -62,7 +62,7 @@
       "poster": "/images/posters/tt0097441.webp",
       "thumbnail_52": "/images/thumbnails/tt0097441.webp",
       "imdb_rating": 7.474,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0101540",
@@ -123,7 +123,7 @@
   ],
   "stats": {
     "totalMovies": 8,
-    "totalLocations": 9,
+    "totalLocations": 10,
     "genres": {
       "Comedy": 3,
       "Drama": 5,

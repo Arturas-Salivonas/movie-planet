@@ -1,0 +1,72 @@
+{
+  "location": {
+    "city": "Leipzig",
+    "country": "Germany",
+    "slug": "leipzig-germany",
+    "coordinates": {
+      "lat": 51.3406321,
+      "lng": 12.3747329
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0485947",
+      "title": "Mr. Nobody",
+      "year": 2009,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0485947.webp",
+      "thumbnail_52": "/images/thumbnails/tt0485947.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3498820",
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3498820.webp",
+      "thumbnail_52": "/images/thumbnails/tt3498820.webp",
+      "imdb_rating": 7.448,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1401152",
+      "title": "Unknown",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1401152.webp",
+      "thumbnail_52": "/images/thumbnails/tt1401152.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Adventure": 1,
+      "Action": 2,
+      "Science Fiction": 2,
+      "Mystery": 1,
+      "Thriller": 1,
+      "Drama": 1,
+      "Romance": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2000s": 1
+    }
+  }
+}

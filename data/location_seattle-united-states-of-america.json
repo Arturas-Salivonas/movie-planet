@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "seattle-united-states-of-america",
     "coordinates": {
-      "lat": 47.61498137222222,
-      "lng": -122.3296385
+      "lat": 47.61304931951223,
+      "lng": -122.33171346097559
     }
   },
   "movies": [
@@ -37,7 +37,7 @@
       "poster": "/images/posters/tt0413573.webp",
       "thumbnail_52": "/images/thumbnails/tt0413573.webp",
       "imdb_rating": 8.213,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt7053188",
@@ -65,6 +65,32 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0097576",
+      "title": "Indiana Jones and the Last Crusade",
+      "year": 1989,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0097576.webp",
+      "thumbnail_52": "/images/thumbnails/tt0097576.webp",
+      "imdb_rating": 7.848,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758758",
+      "title": "Into the Wild",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758758.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758758.webp",
+      "imdb_rating": 7.799,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0106004",
       "title": "Frasier",
       "year": 1993,
@@ -89,7 +115,7 @@
       "poster": "/images/posters/tt0147800.webp",
       "thumbnail_52": "/images/thumbnails/tt0147800.webp",
       "imdb_rating": 7.589,
-      "londonLocationCount": 3
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt0204993",
@@ -118,6 +144,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0813715",
+      "title": "Heroes",
+      "year": 2006,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0813715.webp",
+      "thumbnail_52": "/images/thumbnails/tt0813715.webp",
+      "imdb_rating": 7.453,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0103442",
       "title": "Highlander: The Series",
       "year": 1992,
@@ -142,6 +181,21 @@
       "poster": "/images/posters/tt11212276.webp",
       "thumbnail_52": "/images/thumbnails/tt11212276.webp",
       "imdb_rating": 7.203,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116367",
+      "title": "From Dusk Till Dawn",
+      "year": 1996,
+      "genres": [
+        "Horror",
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0116367.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116367.webp",
+      "imdb_rating": 7.029,
       "londonLocationCount": 1
     },
     {
@@ -186,6 +240,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0298130",
+      "title": "The Ring",
+      "year": 2002,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0298130.webp",
+      "thumbnail_52": "/images/thumbnails/tt0298130.webp",
+      "imdb_rating": 6.69,
+      "londonLocationCount": 6
+    },
+    {
       "movie_id": "tt4477536",
       "title": "Fifty Shades Freed",
       "year": 2018,
@@ -197,6 +264,34 @@
       "thumbnail_52": "/images/thumbnails/tt4477536.webp",
       "imdb_rating": 6.683,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0887883",
+      "title": "Burn After Reading",
+      "year": 2008,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0887883.webp",
+      "thumbnail_52": "/images/thumbnails/tt0887883.webp",
+      "imdb_rating": 6.667,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0145660",
+      "title": "Austin Powers: The Spy Who Shagged Me",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0145660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0145660.webp",
+      "imdb_rating": 6.294,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1325004",
@@ -211,6 +306,19 @@
       "poster": "/images/posters/tt1325004.webp",
       "thumbnail_52": "/images/thumbnails/tt1325004.webp",
       "imdb_rating": 6.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0367882",
+      "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "year": 2008,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0367882.webp",
+      "thumbnail_52": "/images/thumbnails/tt0367882.webp",
+      "imdb_rating": 6.019,
       "londonLocationCount": 1
     },
     {
@@ -229,28 +337,32 @@
     }
   ],
   "stats": {
-    "totalMovies": 16,
-    "totalLocations": 18,
+    "totalMovies": 24,
+    "totalLocations": 41,
     "genres": {
-      "Drama": 14,
+      "Adventure": 5,
+      "Drama": 17,
       "Romance": 5,
+      "Horror": 2,
+      "Action": 3,
+      "Thriller": 3,
+      "Crime": 2,
       "Animation": 1,
-      "Comedy": 5,
-      "Mystery": 1,
-      "Sci-Fi & Fantasy": 4,
+      "Comedy": 7,
+      "Mystery": 2,
+      "Sci-Fi & Fantasy": 5,
       "Kids": 1,
       "Action & Adventure": 4,
       "Family": 2,
-      "Thriller": 2,
-      "Adventure": 1,
       "Fantasy": 1,
-      "Science Fiction": 1
+      "Science Fiction": 2
     },
     "decades": {
+      "2000s": 8,
       "2010s": 8,
-      "2000s": 3,
-      "1990s": 4,
-      "2020s": 1
+      "1990s": 6,
+      "2020s": 1,
+      "1980s": 1
     }
   }
 }

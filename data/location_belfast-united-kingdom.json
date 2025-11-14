@@ -4,11 +4,25 @@
     "country": "United Kingdom",
     "slug": "belfast-united-kingdom",
     "coordinates": {
-      "lat": 54.59804286,
-      "lng": -5.945863180000001
+      "lat": 54.60130454285714,
+      "lng": -5.94362095357143
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0944947",
+      "title": "Game of Thrones",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0944947.webp",
+      "thumbnail_52": "/images/thumbnails/tt0944947.webp",
+      "imdb_rating": 8.458,
+      "londonLocationCount": 3
+    },
     {
       "movie_id": "tt1124373",
       "title": "Sons of Anarchy",
@@ -60,7 +74,7 @@
       "poster": "/images/posters/tt2294189.webp",
       "thumbnail_52": "/images/thumbnails/tt2294189.webp",
       "imdb_rating": 7.67,
-      "londonLocationCount": 2
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt14466018",
@@ -73,6 +87,20 @@
       "poster": "/images/posters/tt14466018.webp",
       "thumbnail_52": "/images/thumbnails/tt14466018.webp",
       "imdb_rating": 7.404,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2906216",
+      "title": "Dungeons & Dragons: Honor Among Thieves",
+      "year": 2023,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2906216.webp",
+      "thumbnail_52": "/images/thumbnails/tt2906216.webp",
+      "imdb_rating": 7.332,
       "londonLocationCount": 1
     },
     {
@@ -90,6 +118,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt11138512",
+      "title": "The Northman",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt11138512.webp",
+      "thumbnail_52": "/images/thumbnails/tt11138512.webp",
+      "imdb_rating": 7.034,
+      "londonLocationCount": 3
+    },
+    {
       "movie_id": "tt0829150",
       "title": "Dracula Untold",
       "year": 2014,
@@ -101,27 +143,28 @@
       "poster": "/images/posters/tt0829150.webp",
       "thumbnail_52": "/images/thumbnails/tt0829150.webp",
       "imdb_rating": 6.447,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     }
   ],
   "stats": {
-    "totalMovies": 7,
-    "totalLocations": 10,
+    "totalMovies": 10,
+    "totalLocations": 28,
     "genres": {
+      "Sci-Fi & Fantasy": 2,
+      "Drama": 7,
+      "Action & Adventure": 2,
+      "Action": 2,
+      "Adventure": 2,
+      "Fantasy": 3,
       "Crime": 4,
-      "Drama": 6,
       "Mystery": 1,
-      "Comedy": 1,
-      "Horror": 1,
-      "Action": 1,
-      "Fantasy": 1,
-      "Action & Adventure": 1,
-      "Sci-Fi & Fantasy": 1
+      "Comedy": 2,
+      "Horror": 1
     },
     "decades": {
-      "2010s": 5,
-      "2000s": 1,
-      "2020s": 1
+      "2010s": 6,
+      "2020s": 3,
+      "2000s": 1
     }
   }
 }

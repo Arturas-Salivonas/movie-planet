@@ -1,0 +1,140 @@
+{
+  "location": {
+    "city": "Liverpool",
+    "country": "United Kingdom",
+    "slug": "liverpool-united-kingdom",
+    "coordinates": {
+      "lat": 53.414174523529425,
+      "lng": -2.985237388235294
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2442560",
+      "title": "Peaky Blinders",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2442560.webp",
+      "thumbnail_52": "/images/thumbnails/tt2442560.webp",
+      "imdb_rating": 8.529,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0107207",
+      "title": "In the Name of the Father",
+      "year": 1993,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0107207.webp",
+      "thumbnail_52": "/images/thumbnails/tt0107207.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0926084",
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0926084.webp",
+      "thumbnail_52": "/images/thumbnails/tt0926084.webp",
+      "imdb_rating": 7.738,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1877830",
+      "title": "The Batman",
+      "year": 2022,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1877830.webp",
+      "thumbnail_52": "/images/thumbnails/tt1877830.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt3076658",
+      "title": "Creed",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt3076658.webp",
+      "thumbnail_52": "/images/thumbnails/tt3076658.webp",
+      "imdb_rating": 7.408,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3183660",
+      "title": "Fantastic Beasts and Where to Find Them",
+      "year": 2016,
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt3183660.webp",
+      "thumbnail_52": "/images/thumbnails/tt3183660.webp",
+      "imdb_rating": 7.31,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0988045",
+      "title": "Sherlock Holmes",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0988045.webp",
+      "thumbnail_52": "/images/thumbnails/tt0988045.webp",
+      "imdb_rating": 7.216,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0458339",
+      "title": "Captain America: The First Avenger",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0458339.webp",
+      "thumbnail_52": "/images/thumbnails/tt0458339.webp",
+      "imdb_rating": 7.004,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 17,
+    "genres": {
+      "Crime": 3,
+      "Mystery": 2,
+      "Thriller": 1,
+      "Action": 3,
+      "Adventure": 4,
+      "Science Fiction": 1,
+      "Fantasy": 2,
+      "Drama": 3
+    },
+    "decades": {
+      "2020s": 1,
+      "2010s": 5,
+      "2000s": 1,
+      "1990s": 1
+    }
+  }
+}

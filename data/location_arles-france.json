@@ -1,0 +1,71 @@
+{
+  "location": {
+    "city": "Arles",
+    "country": "France",
+    "slug": "arles-france",
+    "coordinates": {
+      "lat": 43.67458886666666,
+      "lng": 4.5727062
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0046268",
+      "title": "The Wages of Fear",
+      "year": 1953,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0046268.webp",
+      "thumbnail_52": "/images/thumbnails/tt0046268.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0122690",
+      "title": "Ronin",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0122690.webp",
+      "thumbnail_52": "/images/thumbnails/tt0122690.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2872732",
+      "title": "Lucy",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2872732.webp",
+      "thumbnail_52": "/images/thumbnails/tt2872732.webp",
+      "imdb_rating": 6.469,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Drama": 1,
+      "Thriller": 2,
+      "Adventure": 1,
+      "Action": 2,
+      "Science Fiction": 1,
+      "Crime": 1
+    },
+    "decades": {
+      "1950s": 1,
+      "2010s": 1,
+      "1990s": 1
+    }
+  }
+}

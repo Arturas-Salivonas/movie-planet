@@ -1,0 +1,68 @@
+{
+  "location": {
+    "city": "Port Washington",
+    "country": "United States of America",
+    "slug": "port-washington-united-states-of-america",
+    "coordinates": {
+      "lat": 40.839530874999994,
+      "lng": -73.69521795
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0993846",
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0993846.webp",
+      "thumbnail_52": "/images/thumbnails/tt0993846.webp",
+      "imdb_rating": 8.027,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt15671028",
+      "title": "No Hard Feelings",
+      "year": 2023,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt15671028.webp",
+      "thumbnail_52": "/images/thumbnails/tt15671028.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0212338",
+      "title": "Meet the Parents",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0212338.webp",
+      "thumbnail_52": "/images/thumbnails/tt0212338.webp",
+      "imdb_rating": 6.686,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 4,
+    "genres": {
+      "Crime": 1,
+      "Drama": 1,
+      "Comedy": 3,
+      "Romance": 2
+    },
+    "decades": {
+      "2010s": 1,
+      "2000s": 1,
+      "2020s": 1
+    }
+  }
+}

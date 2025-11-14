@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "cardiff-united-kingdom",
     "coordinates": {
-      "lat": 51.478028344444446,
-      "lng": -3.1732247888888887
+      "lat": 51.477375415,
+      "lng": -3.1762263700000006
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt5607976.webp",
       "thumbnail_52": "/images/thumbnails/tt5607976.webp",
       "imdb_rating": 7.863,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt2177461",
@@ -33,6 +33,18 @@
       "poster": "/images/posters/tt2177461.webp",
       "thumbnail_52": "/images/thumbnails/tt2177461.webp",
       "imdb_rating": 7.833,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3636060",
+      "title": "Poldark",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3636060.webp",
+      "thumbnail_52": "/images/thumbnails/tt3636060.webp",
+      "imdb_rating": 7.8,
       "londonLocationCount": 1
     },
     {
@@ -47,7 +59,7 @@
       "poster": "/images/posters/tt0436992.webp",
       "thumbnail_52": "/images/thumbnails/tt0436992.webp",
       "imdb_rating": 7.571,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt0485301",
@@ -61,7 +73,7 @@
       "poster": "/images/posters/tt0485301.webp",
       "thumbnail_52": "/images/thumbnails/tt0485301.webp",
       "imdb_rating": 7.3,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt9686194",
@@ -87,19 +99,36 @@
       "thumbnail_52": "/images/thumbnails/tt7671070.webp",
       "imdb_rating": 6.828,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0463854",
+      "title": "28 Weeks Later",
+      "year": 2007,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0463854.webp",
+      "thumbnail_52": "/images/thumbnails/tt0463854.webp",
+      "imdb_rating": 6.603,
+      "londonLocationCount": 3
     }
   ],
   "stats": {
-    "totalMovies": 6,
-    "totalLocations": 9,
+    "totalMovies": 8,
+    "totalLocations": 20,
     "genres": {
       "Action & Adventure": 2,
-      "Drama": 6,
-      "Sci-Fi & Fantasy": 5
+      "Drama": 7,
+      "Sci-Fi & Fantasy": 5,
+      "Horror": 1,
+      "Thriller": 1,
+      "Science Fiction": 1
     },
     "decades": {
-      "2000s": 2,
-      "2010s": 3,
+      "2000s": 3,
+      "2010s": 4,
       "2020s": 1
     }
   }

@@ -4,8 +4,8 @@
     "country": "India",
     "slug": "mumbai-india",
     "coordinates": {
-      "lat": 19.058633005882353,
-      "lng": 72.8569522764706
+      "lat": 19.047428545161285,
+      "lng": 72.85984620645159
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt12392504.webp",
       "thumbnail_52": "/images/thumbnails/tt12392504.webp",
       "imdb_rating": 8.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt23849204",
@@ -45,7 +45,7 @@
       "poster": "/images/posters/tt1187043.webp",
       "thumbnail_52": "/images/thumbnails/tt1187043.webp",
       "imdb_rating": 7.996,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0986264",
@@ -57,7 +57,7 @@
       "poster": "/images/posters/tt0986264.webp",
       "thumbnail_52": "/images/thumbnails/tt0986264.webp",
       "imdb_rating": 7.981,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt6077448",
@@ -110,7 +110,46 @@
       "poster": "/images/posters/tt1010048.webp",
       "thumbnail_52": "/images/thumbnails/tt1010048.webp",
       "imdb_rating": 7.7,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0083987",
+      "title": "Gandhi",
+      "year": 1982,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0083987.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083987.webp",
+      "imdb_rating": 7.555,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8936646",
+      "title": "Extraction",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt8936646.webp",
+      "thumbnail_52": "/images/thumbnails/tt8936646.webp",
+      "imdb_rating": 7.304,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0075860",
+      "title": "Close Encounters of the Third Kind",
+      "year": 1977,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0075860.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075860.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt12714854",
@@ -137,7 +176,7 @@
       "poster": "/images/posters/tt6723592.webp",
       "thumbnail_52": "/images/thumbnails/tt6723592.webp",
       "imdb_rating": 7.175,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1229238",
@@ -151,6 +190,18 @@
       "poster": "/images/posters/tt1229238.webp",
       "thumbnail_52": "/images/thumbnails/tt1229238.webp",
       "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2334873",
+      "title": "Blue Jasmine",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2334873.webp",
+      "thumbnail_52": "/images/thumbnails/tt2334873.webp",
+      "imdb_rating": 6.983,
       "londonLocationCount": 1
     },
     {
@@ -204,25 +255,28 @@
     }
   ],
   "stats": {
-    "totalMovies": 15,
-    "totalLocations": 17,
+    "totalMovies": 19,
+    "totalLocations": 31,
     "genres": {
-      "Drama": 11,
+      "Drama": 14,
       "Comedy": 3,
-      "Action": 2,
-      "Thriller": 2,
+      "Action": 3,
+      "Thriller": 3,
       "Adventure": 1,
       "Romance": 1,
       "Crime": 2,
       "Action & Adventure": 3,
-      "Science Fiction": 1,
+      "Science Fiction": 2,
       "Sci-Fi & Fantasy": 1,
-      "Mystery": 2
+      "Mystery": 2,
+      "History": 1
     },
     "decades": {
       "2000s": 3,
-      "2010s": 5,
-      "2020s": 7
+      "2010s": 6,
+      "2020s": 8,
+      "1980s": 1,
+      "1970s": 1
     }
   }
 }

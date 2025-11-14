@@ -67,9 +67,39 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
   }, [])
 
   /**
-   * Convert GeoJSON feature to Movie object
+   * Convert GeoJSON feature to Movie object with full location data
+   * ENHANCED: Loads full movie data from movies_enriched.json to get scene descriptions
    */
-  const convertGeoJSONToMovie = useCallback((feature: any): Movie => {
+  const convertGeoJSONToMovie = useCallback(async (feature: any): Promise<Movie> => {
+    // Try to load full movie data from movies_enriched.json
+    try {
+      const response = await fetch('/data/movies_enriched.json')
+      const allMovies = await response.json()
+      const fullMovie = allMovies.find((m: any) => m.imdb_id === feature.properties.movie_id)
+
+      if (fullMovie) {
+        // Return full movie data with all location details including scene_description
+        return {
+          movie_id: fullMovie.imdb_id,
+          title: fullMovie.title,
+          year: fullMovie.year,
+          imdb_id: fullMovie.imdb_id,
+          tmdb_id: String(fullMovie.tmdb_id),
+          type: fullMovie.type || 'movie',
+          genres: fullMovie.genres || [],
+          poster: fullMovie.poster || undefined,
+          thumbnail_52: fullMovie.thumbnail_52 || undefined,
+          banner_1280: fullMovie.banner_1280 || undefined,
+          trailer: fullMovie.trailer || undefined,
+          imdb_rating: fullMovie.imdb_rating || undefined,
+          locations: fullMovie.locations || [], // Full location data with scene_description
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load full movie data, falling back to GeoJSON:', error)
+    }
+
+    // Fallback to GeoJSON data (without scene descriptions)
     let locations = []
     if (feature.geometry.type === 'Point') {
       const [lng, lat] = feature.geometry.coordinates
@@ -128,7 +158,7 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
             const feature = geojsonData.features.find((f: any) => f.properties.movie_id === movieId)
 
             if (feature) {
-              const movie = convertGeoJSONToMovie(feature)
+              const movie = await convertGeoJSONToMovie(feature) // AWAIT here
               setSelectedMovie(movie)
             }
           } catch (error) {
@@ -151,14 +181,37 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
   /**
    * Handle movie selection and URL updates
    */
-  const handleMovieSelect = useCallback((movie: Movie | null) => {
+  const handleMovieSelect = useCallback(async (movie: Movie | null) => {
     if (movie) {
       const slug = slugMap[movie.movie_id]
       if (slug) {
         const url = new URL(window.location.href)
         url.searchParams.set('movie', slug)
         window.history.pushState({}, '', url.toString())
-        setSelectedMovie(movie)
+
+        // Load full movie data with scenes from movies_enriched.json
+        try {
+          const geojsonData = await loadGeoJSON()
+          const feature = geojsonData.features.find((f: any) => f.properties.movie_id === movie.movie_id)
+
+          if (feature) {
+            const fullMovie = await convertGeoJSONToMovie(feature)
+
+            // PRESERVE clickedLocationIndex from the original movie object
+            const movieWithClickedIndex = {
+              ...fullMovie,
+              clickedLocationIndex: movie.clickedLocationIndex
+            }
+
+            setSelectedMovie(movieWithClickedIndex)
+          } else {
+            // Fallback to provided movie if feature not found
+            setSelectedMovie(movie)
+          }
+        } catch (error) {
+          console.error('Failed to load full movie data in handleMovieSelect:', error)
+          setSelectedMovie(movie)
+        }
       } else {
         console.error('No slug found for movie:', movie.movie_id)
       }
@@ -168,7 +221,7 @@ export function useMovieNavigation({ initialMovie }: UseMovieNavigationProps) {
       url.searchParams.delete('movie')
       window.history.pushState({}, '', url.toString())
     }
-  }, [slugMap])
+  }, [slugMap, loadGeoJSON, convertGeoJSONToMovie])
 
   /**
    * Close modal and clear URL params

@@ -4,11 +4,38 @@
     "country": "United States of America",
     "slug": "honolulu-united-states-of-america",
     "coordinates": {
-      "lat": 21.2971794,
-      "lng": -157.85021083333334
+      "lat": 21.291148595,
+      "lng": -157.82460041999997
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0099685",
+      "title": "GoodFellas",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0099685.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099685.webp",
+      "imdb_rating": 8.454,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0411008",
+      "title": "Lost",
+      "year": 2004,
+      "genres": [
+        "Mystery",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0411008.webp",
+      "thumbnail_52": "/images/thumbnails/tt0411008.webp",
+      "imdb_rating": 7.947,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt0057751",
       "title": "Gilligan's Island",
@@ -21,6 +48,46 @@
       "thumbnail_52": "/images/thumbnails/tt0057751.webp",
       "imdb_rating": 7.447,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0045793",
+      "title": "From Here to Eternity",
+      "year": 1953,
+      "genres": [
+        "War",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0045793.webp",
+      "thumbnail_52": "/images/thumbnails/tt0045793.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0343660",
+      "title": "50 First Dates",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0343660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0343660.webp",
+      "imdb_rating": 6.87,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1033575",
+      "title": "The Descendants",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1033575.webp",
+      "thumbnail_52": "/images/thumbnails/tt1033575.webp",
+      "imdb_rating": 6.837,
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt2283362",
@@ -39,6 +106,63 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0369610",
+      "title": "Jurassic World",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0369610.webp",
+      "thumbnail_52": "/images/thumbnails/tt0369610.webp",
+      "imdb_rating": 6.699,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3731562",
+      "title": "Kong: Skull Island",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt3731562.webp",
+      "thumbnail_52": "/images/thumbnails/tt3731562.webp",
+      "imdb_rating": 6.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0831387",
+      "title": "Godzilla",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0831387.webp",
+      "thumbnail_52": "/images/thumbnails/tt0831387.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4154858",
+      "title": "Marvel's Inhumans",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt4154858.webp",
+      "thumbnail_52": "/images/thumbnails/tt4154858.webp",
+      "imdb_rating": 5.894,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1190080",
       "title": "2012",
       "year": 2009,
@@ -54,19 +178,29 @@
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 12,
+    "totalLocations": 15,
     "genres": {
-      "Adventure": 2,
-      "Comedy": 2,
-      "Fantasy": 1,
-      "Action": 2,
+      "Drama": 6,
+      "Crime": 1,
+      "War": 1,
+      "Romance": 2,
+      "Mystery": 1,
+      "Action & Adventure": 2,
+      "Action": 5,
+      "Adventure": 4,
+      "Science Fiction": 3,
+      "Thriller": 1,
+      "Comedy": 4,
+      "Fantasy": 2,
       "Family": 2,
-      "Science Fiction": 1
+      "Sci-Fi & Fantasy": 1
     },
     "decades": {
-      "2010s": 1,
-      "2000s": 1,
+      "1990s": 1,
+      "1950s": 1,
+      "2000s": 3,
+      "2010s": 6,
       "1960s": 1
     }
   }

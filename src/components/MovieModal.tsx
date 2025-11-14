@@ -51,7 +51,7 @@ export default function MovieModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm "
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -81,7 +81,7 @@ export default function MovieModal({
         </button>
 
         {/* Header with Poster */}
-        <div className="relative h-64 bg-gradient-to-br from-primary-600 to-purple-700">
+        <div className="relative h-64 bg-gradient-to-br from-primary-600 to-primary-700">
           {movie.poster && (
             <img
               src={movie.poster}
@@ -150,48 +150,82 @@ export default function MovieModal({
               {movie.locations.length > 1 && onShowAllLocations && (
                 <button
                   onClick={onShowAllLocations}
-                  className="px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-semibold transition-colors flex items-center gap-2 justify-center sm:justify-start"
+                  className="items-center gap-2 px-4 py-2 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105"
                 >
 
-                  <span>Show All on Map</span>
+                  <span>🌏 View All Filming Locations</span>
                 </button>
               )}
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {movie.locations.map((location, index) => (
-                <div
-                  key={index}
-                  className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
-                >
-                  <div className="flex flex-col gap-2">
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-gray-900 dark:text-white">
-                        📍 {location.city}, {location.country}
-                      </h4>
-                      {location.description && (
-                        <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-                          {location.description}
-                        </p>
-                      )}
-                      <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-                        {location.lat.toFixed(4)}°, {location.lng.toFixed(4)}°
-                      </p>
-                    </div>
-                    <button
-                      onClick={() => {
-                        if (onViewLocation) {
-                          onViewLocation({ lat: location.lat, lng: location.lng })
-                          onClose() // Close modal after flying to location
-                        }
-                      }}
-                      className="w-full px-3 py-1 text-sm bg-primary-500 hover:bg-primary-600 text-white rounded transition-colors"
-                      aria-label={`View ${location.city} on map`}
+              {(() => {
+                // Reorder locations to show clicked location first
+                const sortedLocations = [...movie.locations]
+                if (movie.clickedLocationIndex !== undefined && movie.clickedLocationIndex >= 0) {
+                  const clickedLocation = sortedLocations.splice(movie.clickedLocationIndex, 1)[0]
+                  sortedLocations.unshift(clickedLocation)
+                }
+
+                return sortedLocations.map((location, displayIndex) => {
+                  // First item is the clicked location if clickedLocationIndex was set
+                  const isClickedLocation = movie.clickedLocationIndex !== undefined && displayIndex === 0
+
+                  return (
+                    <div
+                      key={displayIndex}
+                      className={`p-4 rounded-lg transition-all ${
+                        isClickedLocation
+                          ? 'bg-yellow-50 dark:bg-yellow-900/30 border-2 border-yellow-400 shadow-lg ring-2 ring-yellow-400 ring-opacity-50'
+                          : 'bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600'
+                      }`}
                     >
-                      View on Map
-                    </button>
+                      {isClickedLocation && (
+                        <div className="mb-2 flex items-center gap-2 text-yellow-600 dark:text-yellow-400 font-semibold text-sm">
+                          <span className="animate-pulse">👆</span>
+                        <span>Your selected location</span>
+                      </div>
+                    )}
+                    <div className="flex flex-col gap-2">
+                      <div className="flex-1">
+                        <h4 className="font-semibold text-gray-900 dark:text-white">
+                         📍{location.city}, {location.country}
+                        </h4>
+                        {location.description && (
+                          <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                            {location.description}
+                          </p>
+                        )}
+                        {location.scene_description && (
+                          <div className="mt-3 p-3 bg-accent-100 dark:bg-accent-900/30 rounded-lg border-l-4 border-accent-400 shadow-sm">
+                            <p className="text-xs font-bold text-accent-900 dark:text-accent-200 mb-1.5 flex items-center gap-1">
+                              🎬 <span>Scene</span>
+                            </p>
+                            <p className="text-sm text-accent-800 dark:text-accent-300 italic leading-relaxed">
+                              {location.scene_description.replace(/^\(|\)$/g, '').trim()}
+                            </p>
+                          </div>
+                        )}
+                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                          {location.lat.toFixed(4)}°, {location.lng.toFixed(4)}°
+                        </p>
+                      </div>
+                      <button
+                        onClick={() => {
+                          if (onViewLocation) {
+                            onViewLocation({ lat: location.lat, lng: location.lng })
+                            onClose() // Close modal after flying to location
+                          }
+                        }}
+                        className="w-full px-3 py-1 text-sm bg-primary-50 hover:bg-primary-200 text-gray-900 rounded font-semibold transition-colors"
+                        aria-label={`View ${location.city} on map`}
+                      >
+                        View on Map
+                      </button>
+                    </div>
                   </div>
-                </div>
-              ))}
+                )
+              })
+              })()}
             </div>
           </div>
 

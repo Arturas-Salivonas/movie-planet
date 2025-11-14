@@ -34,6 +34,7 @@ interface EnrichedMovie {
     city: string
     country: string
     description: string
+    scene_description?: string
     start_date?: string
     end_date?: string
   }>
@@ -62,6 +63,7 @@ interface GeoJSONFeature {
     imdb_rating: number | null
     locations_count: number
     location_names: string[]
+    scene_descriptions?: (string | null)[]
     has_timeline: boolean
     centroid?: [number, number]
   }
@@ -190,6 +192,7 @@ function transformMovieToFeature(movie: EnrichedMovie): GeoJSONFeature | null {
   const locationNames = movie.locations.map((loc) =>
     `${loc.city}, ${loc.country}${loc.description ? ` (${loc.description})` : ''}`
   )
+  const sceneDescriptions = movie.locations.map((loc) => loc.scene_description || null)
 
   let geometry: GeoJSONFeature['geometry']
   let centroid: [number, number] | undefined
@@ -229,6 +232,7 @@ function transformMovieToFeature(movie: EnrichedMovie): GeoJSONFeature | null {
       imdb_rating: movie.imdb_rating || movie.vote_average || null,
       locations_count: movie.locations.length,
       location_names: locationNames,
+      scene_descriptions: sceneDescriptions,
       has_timeline: hasTimeline(movie.locations),
       centroid,
     },

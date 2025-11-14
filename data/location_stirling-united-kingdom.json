@@ -1,0 +1,70 @@
+{
+  "location": {
+    "city": "Stirling",
+    "country": "United Kingdom",
+    "slug": "stirling-united-kingdom",
+    "coordinates": {
+      "lat": 56.123934475,
+      "lng": -3.9320147
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt3006802",
+      "title": "Outlander",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt3006802.webp",
+      "thumbnail_52": "/images/thumbnails/tt3006802.webp",
+      "imdb_rating": 8.187,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0071853",
+      "title": "Monty Python and the Holy Grail",
+      "year": 1975,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0071853.webp",
+      "thumbnail_52": "/images/thumbnails/tt0071853.webp",
+      "imdb_rating": 7.803,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3464902",
+      "title": "The Lobster",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt3464902.webp",
+      "thumbnail_52": "/images/thumbnails/tt3464902.webp",
+      "imdb_rating": 7.038,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 4,
+    "genres": {
+      "Comedy": 2,
+      "Drama": 2,
+      "Romance": 1,
+      "Sci-Fi & Fantasy": 1,
+      "Adventure": 1,
+      "Fantasy": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "1970s": 1
+    }
+  }
+}

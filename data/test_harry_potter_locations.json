@@ -1,0 +1,247 @@
+{
+  "movie_id": "tt0241527",
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "year": 2001,
+  "imdb_id": "tt0241527",
+  "locations": [
+    {
+      "lat": 55.4154664,
+      "lng": -1.7064926,
+      "city": "Alnwick",
+      "country": "United Kingdom",
+      "description": "Alnwick Castle, Alnwick, Northumberland, England, UK",
+      "scene_description": "(broomstick flying lessons; Ron insults Hermione; Harry complaining that his scar keeps hurting)"
+    },
+    {
+      "lat": 51.5323954,
+      "lng": -0.1230224,
+      "city": "London",
+      "country": "United Kingdom",
+      "description": "Handyside Bridge, King's Cross Railway Station, Euston Road, King's Cross, London, Greater London, England, UK",
+      "scene_description": "(Hagrid passes ticket for Platform 9¾ to Harry, now located at Ropley Railway Station)"
+    },
+    {
+      "lat": 51.408624,
+      "lng": -0.7214076,
+      "city": "Bracknell",
+      "country": "United Kingdom",
+      "description": "12 Picket Post Close, Martin's Heron, Bracknell, Berkshire, England, UK",
+      "scene_description": "(Dursley house; exterior)"
+    },
+    {
+      "lat": 51.8673377,
+      "lng": -2.2467498,
+      "city": "Gloucester",
+      "country": "United Kingdom",
+      "description": "Gloucester Cathedral, 12 College Green, Gloucester, Gloucestershire, England, UK",
+      "scene_description": "(portrait entrance to Gryffindor common room; Harry and Ron realizing that Hermione doesn't know about the troll; Harry and Ron see the troll enter the girls' bathroom)"
+    },
+    {
+      "lat": 51.5128785,
+      "lng": -0.1155906,
+      "city": "London",
+      "country": "United Kingdom",
+      "description": "Australia House, Strand, Westminster, Greater London, England, UK",
+      "scene_description": "(Gringotts Bank: interior)"
+    },
+    {
+      "lat": 51.4149776,
+      "lng": -2.1225714,
+      "city": "Chippenham",
+      "country": "United Kingdom",
+      "description": "Lacock Abbey, Lacock, Chippenham, Wiltshire, England, UK",
+      "scene_description": "(Snape's classroom; Defense Against the Dark Arts classroom; mirror room)"
+    },
+    {
+      "lat": 54.4005905,
+      "lng": -0.7120943,
+      "city": "Goathland",
+      "country": "United Kingdom",
+      "description": "Goathland Railway Station, Cow Wath Bank, Goathland, Whitby, North Yorkshire, England, UK",
+      "scene_description": "(Hogsmeade station)"
+    },
+    {
+      "lat": 56.7861112,
+      "lng": -4.1140518,
+      "city": "Alba / Scotland",
+      "country": "United Kingdom",
+      "description": "West Highland Railway Line, Scotland, UK",
+      "scene_description": "(Train journey to Hogwarts)"
+    },
+    {
+      "lat": 51.543487,
+      "lng": -0.5529486,
+      "city": "Buckinghamshire",
+      "country": "United Kingdom",
+      "description": "Black Park Country Park, Black Park Road, Wexham, Buckinghamshire, England, UK",
+      "scene_description": "(dark forest)"
+    },
+    {
+      "lat": 51.5323954,
+      "lng": -0.1230224,
+      "city": "London",
+      "country": "United Kingdom",
+      "description": "King's Cross Railway Station, Euston Road, King's Cross, London, Greater London, England, UK",
+      "scene_description": "(Platform 9¾)"
+    },
+    {
+      "lat": 56.8102082,
+      "lng": -5.0793808,
+      "city": "Glen Nevis",
+      "country": "United Kingdom",
+      "description": "Glen Nevis, Fort William, Highland, Scotland, UK",
+      "scene_description": "(Quidditch scenes: background landscape)"
+    },
+    {
+      "lat": 51.5127276,
+      "lng": -0.0833953,
+      "city": "City of London",
+      "country": "United Kingdom",
+      "description": "Leadenhall Market, Gracechurch Street, City of London, England, UK",
+      "scene_description": "(The Leaky Cauldron)"
+    },
+    {
+      "lat": 51.750538,
+      "lng": -1.2569089,
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "description": "Christ Church College, St Aldate's, Oxford, Oxfordshire, England, UK",
+      "scene_description": "(staircase leading to Great Hall; Quidditch trophy corridor; Harry reunites with Ron and Hermione after recovery)"
+    },
+    {
+      "lat": 51.7548765,
+      "lng": -1.2552283,
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "description": "Duke Humfrey's Library, Bodleian Library, Broad Street, Oxford, Oxfordshire, England, UK",
+      "scene_description": "(Hogwarts library scenes)"
+    },
+    {
+      "lat": 54.773262,
+      "lng": -1.5763333,
+      "city": "Durham",
+      "country": "United Kingdom",
+      "description": "Durham Cathedral, The College, Durham, County Durham, England, UK",
+      "scene_description": "(Harry flies his owl)"
+    },
+    {
+      "lat": 51.7548765,
+      "lng": -1.2552283,
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "description": "Divinity School, Bodleian Library, Broad Street, Oxford, Oxfordshire, England, UK",
+      "scene_description": "(Hogwarts hospital scenes)"
+    },
+    {
+      "lat": 51.5714876,
+      "lng": -0.3311238,
+      "city": "London",
+      "country": "United Kingdom",
+      "description": "Harrow School - 5 High Street, Harrow on the Hill, Harrow, Greater London, England, UK",
+      "scene_description": "(\"Wingardium Leviosa\" scene)"
+    },
+    {
+      "lat": 51.4149776,
+      "lng": -2.1225714,
+      "city": "Chippenham",
+      "country": "United Kingdom",
+      "description": "20 Church Street, Lacock, Chippenham, Wiltshire, England, UK",
+      "scene_description": "(Potter cottage; exterior)"
+    },
+    {
+      "lat": 51.5236277,
+      "lng": -0.1466357,
+      "city": "City of Westminster",
+      "country": "United Kingdom",
+      "description": "London Zoo, Regent's Park, Marylebone, Westminster, Greater London, England, UK",
+      "scene_description": "(Harry releases the snake from the Reptile House)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "F Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Hut-on-the-Rock; train compartment scenes; moving marble staircases; Devil's Snare room)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Studio)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "D Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(interior of Dursley house; train compartment scenes)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "C Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Dudley falls into snake tank; Potter House at Godric's Hollow interior; forbidden room on third floor)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "Flight Shed/L Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Diagon Alley; Hagrid's hut interior; staircase underneath Devil's Snare; Key Room; Giant Chessboard; final battle)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "A Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Gringotts vaults; moving portraits; Gryffindor common room and boys dormitory; girls' bathroom; partial Quidditch scenes; Hermione sets Snape's cloak on fire)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "B Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Great Hall)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "H Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Harry discovers the dead unicorn in the forest)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "I Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Harry and Malfoy flying for the remembrall; partial Quidditch scenes)"
+    },
+    {
+      "lat": 51.6909507,
+      "lng": -0.4183162,
+      "city": "Watford",
+      "country": "United Kingdom",
+      "description": "G Stage, Warner Bros. Studios Leavesden, Warner Drive, Leavesden, Watford, Hertfordshire, England, UK",
+      "scene_description": "(Ollivander's Wand Shop; interior)"
+    },
+    {
+      "lat": 54.2471446,
+      "lng": -0.7782428,
+      "city": "Pickering",
+      "country": "United Kingdom",
+      "description": "North Yorkshire Moors Railway, 12 Park Street, Pickering, North Yorkshire, England, UK"
+    }
+  ]
+}

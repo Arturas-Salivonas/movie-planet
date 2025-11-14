@@ -4,8 +4,8 @@
     "country": "Australia",
     "slug": "adelaide-australia",
     "coordinates": {
-      "lat": -34.8943289,
-      "lng": 138.59646972999997
+      "lat": -34.91659550000001,
+      "lng": 138.59762854545454
     }
   },
   "movies": [
@@ -36,6 +36,20 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt0134847",
+      "title": "Pitch Black",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0134847.webp",
+      "thumbnail_52": "/images/thumbnails/tt0134847.webp",
+      "imdb_rating": 6.854,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt11847842",
       "title": "The Tourist",
       "year": 2022,
@@ -46,7 +60,7 @@
       "poster": "/images/posters/tt11847842.webp",
       "thumbnail_52": "/images/thumbnails/tt11847842.webp",
       "imdb_rating": 6.811,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt2321549",
@@ -59,22 +73,42 @@
       "poster": "/images/posters/tt2321549.webp",
       "thumbnail_52": "/images/thumbnails/tt2321549.webp",
       "imdb_rating": 6.527,
-      "londonLocationCount": 4
+      "londonLocationCount": 12
+    },
+    {
+      "movie_id": "tt0098141",
+      "title": "The Punisher",
+      "year": 1989,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0098141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098141.webp",
+      "imdb_rating": 5.769,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 4,
-    "totalLocations": 10,
+    "totalMovies": 6,
+    "totalLocations": 22,
     "genres": {
-      "Drama": 2,
+      "Action": 3,
+      "Crime": 1,
+      "Drama": 3,
+      "Thriller": 2,
       "Horror": 2,
+      "Science Fiction": 1,
       "Mystery": 1,
-      "Action": 1,
       "Fantasy": 1,
       "Adventure": 1
     },
     "decades": {
+      "1980s": 1,
       "2010s": 1,
+      "2000s": 1,
       "2020s": 3
     }
   }

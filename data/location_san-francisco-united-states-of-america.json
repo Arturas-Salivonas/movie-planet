@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "san-francisco-united-states-of-america",
     "coordinates": {
-      "lat": 37.786429131081114,
-      "lng": -122.42480247027032
+      "lat": 37.78377223148149,
+      "lng": -122.42196995000025
     }
   },
   "movies": [
@@ -37,6 +37,44 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt6470478",
+      "title": "The Good Doctor",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6470478.webp",
+      "thumbnail_52": "/images/thumbnails/tt6470478.webp",
+      "imdb_rating": 8.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108778",
+      "title": "Friends",
+      "year": 1994,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0108778.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108778.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0080684",
+      "title": "The Empire Strikes Back",
+      "year": 1980,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0080684.webp",
+      "thumbnail_52": "/images/thumbnails/tt0080684.webp",
+      "imdb_rating": 8.394,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0133093",
       "title": "The Matrix",
       "year": 1999,
@@ -61,7 +99,7 @@
       "poster": "/images/posters/tt0052357.webp",
       "thumbnail_52": "/images/thumbnails/tt0052357.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 2
+      "londonLocationCount": 25
     },
     {
       "movie_id": "tt0312109",
@@ -117,6 +155,46 @@
       "poster": "/images/posters/tt0312172.webp",
       "thumbnail_52": "/images/thumbnails/tt0312172.webp",
       "imdb_rating": 7.956,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0031381",
+      "title": "Gone with the Wind",
+      "year": 1939,
+      "genres": [
+        "Drama",
+        "War",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0031381.webp",
+      "thumbnail_52": "/images/thumbnails/tt0031381.webp",
+      "imdb_rating": 7.925,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0082971",
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0082971.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082971.webp",
+      "imdb_rating": 7.923,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120338",
+      "title": "Titanic",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0120338.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120338.webp",
+      "imdb_rating": 7.904,
       "londonLocationCount": 1
     },
     {
@@ -129,6 +207,45 @@
       "poster": "/images/posters/tt0454921.webp",
       "thumbnail_52": "/images/thumbnails/tt0454921.webp",
       "imdb_rating": 7.891,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0383126",
+      "title": "MythBusters",
+      "year": 2003,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "/images/posters/tt0383126.webp",
+      "thumbnail_52": "/images/thumbnails/tt0383126.webp",
+      "imdb_rating": 7.812,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0107688",
+      "title": "The Nightmare Before Christmas",
+      "year": 1993,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0107688.webp",
+      "thumbnail_52": "/images/thumbnails/tt0107688.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
       "londonLocationCount": 1
     },
     {
@@ -143,7 +260,7 @@
       "poster": "/images/posters/tt0033870.webp",
       "thumbnail_52": "/images/thumbnails/tt0033870.webp",
       "imdb_rating": 7.708,
-      "londonLocationCount": 3
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0061722",
@@ -184,7 +301,7 @@
       "poster": "/images/posters/tt0119174.webp",
       "thumbnail_52": "/images/thumbnails/tt0119174.webp",
       "imdb_rating": 7.567,
-      "londonLocationCount": 2
+      "londonLocationCount": 15
     },
     {
       "movie_id": "tt0092359",
@@ -197,7 +314,36 @@
       "poster": "/images/posters/tt0092359.webp",
       "thumbnail_52": "/images/thumbnails/tt0092359.webp",
       "imdb_rating": 7.561,
-      "londonLocationCount": 4
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0086765",
+      "title": "Murder, She Wrote",
+      "year": 1984,
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086765.webp",
+      "imdb_rating": 7.542,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0054331",
+      "title": "Spartacus",
+      "year": 1960,
+      "genres": [
+        "History",
+        "War",
+        "Drama",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0054331.webp",
+      "thumbnail_52": "/images/thumbnails/tt0054331.webp",
+      "imdb_rating": 7.535,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt10314462",
@@ -213,6 +359,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0443706",
+      "title": "Zodiac",
+      "year": 2007,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0443706.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443706.webp",
+      "imdb_rating": 7.526,
+      "londonLocationCount": 8
+    },
+    {
       "movie_id": "tt0056869",
       "title": "The Birds",
       "year": 1963,
@@ -223,7 +383,21 @@
       "poster": "/images/posters/tt0056869.webp",
       "thumbnail_52": "/images/thumbnails/tt0056869.webp",
       "imdb_rating": 7.519,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9376612",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt9376612.webp",
+      "thumbnail_52": "/images/thumbnails/tt9376612.webp",
+      "imdb_rating": 7.505,
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt4635282",
@@ -251,6 +425,33 @@
       "thumbnail_52": "/images/thumbnails/tt26670955.webp",
       "imdb_rating": 7.5,
       "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1655441",
+      "title": "The Age of Adaline",
+      "year": 2015,
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1655441.webp",
+      "thumbnail_52": "/images/thumbnails/tt1655441.webp",
+      "imdb_rating": 7.478,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0100405",
+      "title": "Pretty Woman",
+      "year": 1990,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0100405.webp",
+      "thumbnail_52": "/images/thumbnails/tt0100405.webp",
+      "imdb_rating": 7.46,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt3986586",
@@ -281,6 +482,20 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt0110148",
+      "title": "Interview with the Vampire",
+      "year": 1994,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0110148.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110148.webp",
+      "imdb_rating": 7.381,
+      "londonLocationCount": 6
+    },
+    {
       "movie_id": "tt2581458",
       "title": "Looking",
       "year": 2014,
@@ -292,6 +507,21 @@
       "thumbnail_52": "/images/thumbnails/tt2581458.webp",
       "imdb_rating": 7.348,
       "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1318514",
+      "title": "Rise of the Planet of the Apes",
+      "year": 2011,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1318514.webp",
+      "thumbnail_52": "/images/thumbnails/tt1318514.webp",
+      "imdb_rating": 7.337,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt2103281",
@@ -306,6 +536,20 @@
       "poster": "/images/posters/tt2103281.webp",
       "thumbnail_52": "/images/thumbnails/tt2103281.webp",
       "imdb_rating": 7.334,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1408101",
+      "title": "Star Trek Into Darkness",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1408101.webp",
+      "thumbnail_52": "/images/thumbnails/tt1408101.webp",
+      "imdb_rating": 7.3,
       "londonLocationCount": 1
     },
     {
@@ -333,7 +577,7 @@
       "poster": "/images/posters/tt0090728.webp",
       "thumbnail_52": "/images/thumbnails/tt0090728.webp",
       "imdb_rating": 7.211,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0107614",
@@ -347,7 +591,7 @@
       "poster": "/images/posters/tt0107614.webp",
       "thumbnail_52": "/images/thumbnails/tt0107614.webp",
       "imdb_rating": 7.2,
-      "londonLocationCount": 1
+      "londonLocationCount": 11
     },
     {
       "movie_id": "tt0300865",
@@ -373,7 +617,7 @@
       "poster": "/images/posters/tt0113870.webp",
       "thumbnail_52": "/images/thumbnails/tt0113870.webp",
       "imdb_rating": 7.147,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt0117500",
@@ -387,7 +631,7 @@
       "poster": "/images/posters/tt0117500.webp",
       "thumbnail_52": "/images/thumbnails/tt0117500.webp",
       "imdb_rating": 7.137,
-      "londonLocationCount": 2
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt1560747",
@@ -413,7 +657,7 @@
       "poster": "/images/posters/tt0478970.webp",
       "thumbnail_52": "/images/thumbnails/tt0478970.webp",
       "imdb_rating": 7.067,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt0072308",
@@ -427,7 +671,7 @@
       "poster": "/images/posters/tt0072308.webp",
       "thumbnail_52": "/images/thumbnails/tt0072308.webp",
       "imdb_rating": 7.005,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt2334873",
@@ -439,7 +683,20 @@
       "poster": "/images/posters/tt2334873.webp",
       "thumbnail_52": "/images/thumbnails/tt2334873.webp",
       "imdb_rating": 6.983,
-      "londonLocationCount": 2
+      "londonLocationCount": 21
+    },
+    {
+      "movie_id": "tt0099423",
+      "title": "Die Hard 2",
+      "year": 1990,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0099423.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099423.webp",
+      "imdb_rating": 6.96,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0103772",
@@ -452,7 +709,7 @@
       "poster": "/images/posters/tt0103772.webp",
       "thumbnail_52": "/images/thumbnails/tt0103772.webp",
       "imdb_rating": 6.925,
-      "londonLocationCount": 2
+      "londonLocationCount": 20
     },
     {
       "movie_id": "tt5095030",
@@ -466,6 +723,19 @@
       "poster": "/images/posters/tt5095030.webp",
       "thumbnail_52": "/images/thumbnails/tt5095030.webp",
       "imdb_rating": 6.912,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0343660",
+      "title": "50 First Dates",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0343660.webp",
+      "thumbnail_52": "/images/thumbnails/tt0343660.webp",
+      "imdb_rating": 6.87,
       "londonLocationCount": 2
     },
     {
@@ -479,7 +749,7 @@
       "poster": "/images/posters/tt1270797.webp",
       "thumbnail_52": "/images/thumbnails/tt1270797.webp",
       "imdb_rating": 6.827,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt13745850",
@@ -506,7 +776,7 @@
       "poster": "/images/posters/tt1598778.webp",
       "thumbnail_52": "/images/thumbnails/tt1598778.webp",
       "imdb_rating": 6.644,
-      "londonLocationCount": 1
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt5706996",
@@ -545,7 +815,7 @@
       "poster": "/images/posters/tt0376994.webp",
       "thumbnail_52": "/images/thumbnails/tt0376994.webp",
       "imdb_rating": 6.413,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0118303",
@@ -574,6 +844,20 @@
       "londonLocationCount": 3
     },
     {
+      "movie_id": "tt0831387",
+      "title": "Godzilla",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0831387.webp",
+      "thumbnail_52": "/images/thumbnails/tt0831387.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1728102",
       "title": "Alcatraz",
       "year": 2012,
@@ -585,7 +869,7 @@
       "poster": "/images/posters/tt1728102.webp",
       "thumbnail_52": "/images/thumbnails/tt1728102.webp",
       "imdb_rating": 6.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0100403",
@@ -600,6 +884,20 @@
       "thumbnail_52": "/images/thumbnails/tt0100403.webp",
       "imdb_rating": 6.3,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10954600",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt10954600.webp",
+      "thumbnail_52": "/images/thumbnails/tt10954600.webp",
+      "imdb_rating": 6.259,
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt2126355",
@@ -639,7 +937,7 @@
       "poster": "/images/posters/tt0108174.webp",
       "thumbnail_52": "/images/thumbnails/tt0108174.webp",
       "imdb_rating": 6.088,
-      "londonLocationCount": 1
+      "londonLocationCount": 20
     },
     {
       "movie_id": "tt1340138",
@@ -654,40 +952,57 @@
       "poster": "/images/posters/tt1340138.webp",
       "thumbnail_52": "/images/thumbnails/tt1340138.webp",
       "imdb_rating": 5.945,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0286716",
+      "title": "Hulk",
+      "year": 2003,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0286716.webp",
+      "thumbnail_52": "/images/thumbnails/tt0286716.webp",
+      "imdb_rating": 5.577,
+      "londonLocationCount": 5
     }
   ],
   "stats": {
-    "totalMovies": 48,
-    "totalLocations": 74,
+    "totalMovies": 71,
+    "totalLocations": 269,
     "genres": {
-      "Action": 14,
-      "Science Fiction": 11,
-      "Drama": 19,
-      "Romance": 3,
-      "Comedy": 18,
-      "Adventure": 8,
-      "Thriller": 14,
-      "Fantasy": 1,
-      "Crime": 5,
-      "Documentary": 1,
-      "Mystery": 7,
-      "Family": 5,
-      "Sci-Fi & Fantasy": 5,
+      "Adventure": 15,
+      "Action": 23,
+      "Science Fiction": 17,
+      "Drama": 29,
+      "Romance": 8,
+      "Comedy": 21,
+      "Thriller": 17,
+      "Fantasy": 5,
+      "History": 1,
+      "War": 2,
+      "Crime": 7,
+      "Documentary": 2,
+      "Mystery": 9,
+      "Sci-Fi & Fantasy": 6,
+      "Animation": 3,
+      "Family": 6,
+      "Horror": 2,
       "Action & Adventure": 4,
-      "Animation": 2,
-      "Horror": 1,
       "Kids": 1
     },
     "decades": {
-      "1990s": 10,
-      "1960s": 2,
-      "2000s": 6,
-      "2010s": 18,
+      "1980s": 6,
+      "1990s": 16,
+      "1960s": 3,
+      "2020s": 7,
+      "2000s": 10,
+      "2010s": 24,
       "1970s": 1,
-      "1980s": 3,
-      "2020s": 5,
       "1950s": 2,
+      "1930s": 1,
       "1940s": 1
     }
   }

@@ -4,8 +4,8 @@
     "country": "Australia",
     "slug": "gold-coast-australia",
     "coordinates": {
-      "lat": -27.9686058,
-      "lng": 153.37085975714285
+      "lat": -27.93841608846156,
+      "lng": 153.3393098294871
     }
   },
   "movies": [
@@ -21,6 +21,20 @@
       "poster": "/images/posters/tt0491603.webp",
       "thumbnail_52": "/images/thumbnails/tt0491603.webp",
       "imdb_rating": 7.8,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt17220216",
+      "title": "Monarch: Legacy of Monsters",
+      "year": 2023,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt17220216.webp",
+      "thumbnail_52": "/images/thumbnails/tt17220216.webp",
+      "imdb_rating": 7.733,
       "londonLocationCount": 0
     },
     {
@@ -105,6 +119,20 @@
       "londonLocationCount": 0
     },
     {
+      "movie_id": "tt0134847",
+      "title": "Pitch Black",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0134847.webp",
+      "thumbnail_52": "/images/thumbnails/tt0134847.webp",
+      "imdb_rating": 6.854,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt1641349",
       "title": "Terra Nova",
       "year": 2011,
@@ -133,6 +161,20 @@
       "londonLocationCount": 0
     },
     {
+      "movie_id": "tt3731562",
+      "title": "Kong: Skull Island",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt3731562.webp",
+      "thumbnail_52": "/images/thumbnails/tt3731562.webp",
+      "imdb_rating": 6.5,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt2126355",
       "title": "San Andreas",
       "year": 2015,
@@ -148,27 +190,27 @@
     }
   ],
   "stats": {
-    "totalMovies": 10,
+    "totalMovies": 13,
     "totalLocations": 0,
     "genres": {
-      "Action": 5,
-      "Adventure": 4,
-      "Science Fiction": 2,
-      "Fantasy": 2,
-      "Drama": 4,
-      "Thriller": 1,
+      "Action": 7,
+      "Adventure": 5,
+      "Science Fiction": 3,
+      "Fantasy": 3,
+      "Drama": 5,
+      "Thriller": 2,
       "Music": 1,
       "History": 1,
-      "Sci-Fi & Fantasy": 2,
+      "Sci-Fi & Fantasy": 3,
       "Mystery": 2,
-      "Action & Adventure": 1,
+      "Action & Adventure": 2,
       "Comedy": 1,
       "Family": 1
     },
     "decades": {
-      "2010s": 5,
-      "2020s": 4,
-      "2000s": 1
+      "2010s": 6,
+      "2020s": 5,
+      "2000s": 2
     }
   }
 }

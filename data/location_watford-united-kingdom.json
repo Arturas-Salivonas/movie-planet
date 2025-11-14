@@ -4,11 +4,66 @@
     "country": "United Kingdom",
     "slug": "watford-united-kingdom",
     "coordinates": {
-      "lat": 51.69095070000002,
-      "lng": -0.4183162000000001
+      "lat": 51.69301421521741,
+      "lng": -0.4110362442028982
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0468569",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0468569.webp",
+      "thumbnail_52": "/images/thumbnails/tt0468569.webp",
+      "imdb_rating": 8.524,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11198330",
+      "title": "House of the Dragon",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt11198330.webp",
+      "thumbnail_52": "/images/thumbnails/tt11198330.webp",
+      "imdb_rating": 8.31,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081505",
+      "title": "The Shining",
+      "year": 1980,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0081505.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081505.webp",
+      "imdb_rating": 8.208,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0066921",
+      "title": "A Clockwork Orange",
+      "year": 1971,
+      "genres": [
+        "Science Fiction",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0066921.webp",
+      "thumbnail_52": "/images/thumbnails/tt0066921.webp",
+      "imdb_rating": 8.183,
+      "londonLocationCount": 0
+    },
     {
       "movie_id": "tt12361974",
       "title": "Zack Snyder's Justice League",
@@ -24,6 +79,180 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1201607",
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1201607.webp",
+      "thumbnail_52": "/images/thumbnails/tt1201607.webp",
+      "imdb_rating": 8.084,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0304141",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0304141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0304141.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 12
+    },
+    {
+      "movie_id": "tt3228774",
+      "title": "Cruella",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt3228774.webp",
+      "thumbnail_52": "/images/thumbnails/tt3228774.webp",
+      "imdb_rating": 7.983,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0241527",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0241527.webp",
+      "thumbnail_52": "/images/thumbnails/tt0241527.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0310455",
+      "title": "Foyle's War",
+      "year": 2002,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0310455.webp",
+      "thumbnail_52": "/images/thumbnails/tt0310455.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt1751634",
+      "title": "The Sandman",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1751634.webp",
+      "thumbnail_52": "/images/thumbnails/tt1751634.webp",
+      "imdb_rating": 7.896,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0208092",
+      "title": "Snatch",
+      "year": 2000,
+      "genres": [
+        "Crime",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0208092.webp",
+      "thumbnail_52": "/images/thumbnails/tt0208092.webp",
+      "imdb_rating": 7.816,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0330373",
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0330373.webp",
+      "thumbnail_52": "/images/thumbnails/tt0330373.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt0926084",
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0926084.webp",
+      "thumbnail_52": "/images/thumbnails/tt0926084.webp",
+      "imdb_rating": 7.738,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0295297.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295297.webp",
+      "imdb_rating": 7.705,
+      "londonLocationCount": 11
+    },
+    {
+      "movie_id": "tt1877830",
+      "title": "The Batman",
+      "year": 2022,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1877830.webp",
+      "thumbnail_52": "/images/thumbnails/tt1877830.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0417741",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0417741.webp",
+      "thumbnail_52": "/images/thumbnails/tt0417741.webp",
+      "imdb_rating": 7.682,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0373889",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0373889.webp",
+      "thumbnail_52": "/images/thumbnails/tt0373889.webp",
+      "imdb_rating": 7.674,
+      "londonLocationCount": 11
+    },
+    {
       "movie_id": "tt1631867",
       "title": "Edge of Tomorrow",
       "year": 2014,
@@ -34,6 +263,89 @@
       "poster": "/images/posters/tt1631867.webp",
       "thumbnail_52": "/images/thumbnails/tt1631867.webp",
       "imdb_rating": 7.631,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2802144",
+      "title": "Kingsman: The Secret Service",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2802144.webp",
+      "thumbnail_52": "/images/thumbnails/tt2802144.webp",
+      "imdb_rating": 7.622,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1677720",
+      "title": "Ready Player One",
+      "year": 2018,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1677720.webp",
+      "thumbnail_52": "/images/thumbnails/tt1677720.webp",
+      "imdb_rating": 7.585,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt4122068",
+      "title": "Humans",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4122068.webp",
+      "thumbnail_52": "/images/thumbnails/tt4122068.webp",
+      "imdb_rating": 7.462,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt4912910",
+      "title": "Mission: Impossible - Fallout",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt4912910.webp",
+      "thumbnail_52": "/images/thumbnails/tt4912910.webp",
+      "imdb_rating": 7.443,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6320628",
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6320628.webp",
+      "thumbnail_52": "/images/thumbnails/tt6320628.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4555426",
+      "title": "Darkest Hour",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt4555426.webp",
+      "thumbnail_52": "/images/thumbnails/tt4555426.webp",
+      "imdb_rating": 7.4,
       "londonLocationCount": 1
     },
     {
@@ -50,6 +362,48 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2381249",
+      "title": "Mission: Impossible - Rogue Nation",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2381249.webp",
+      "thumbnail_52": "/images/thumbnails/tt2381249.webp",
+      "imdb_rating": 7.217,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0988045",
+      "title": "Sherlock Holmes",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0988045.webp",
+      "thumbnail_52": "/images/thumbnails/tt0988045.webp",
+      "imdb_rating": 7.216,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0451279",
+      "title": "Wonder Woman",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0451279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0451279.webp",
+      "imdb_rating": 7.214,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0162661",
       "title": "Sleepy Hollow",
       "year": 1999,
@@ -62,6 +416,21 @@
       "poster": "/images/posters/tt0162661.webp",
       "thumbnail_52": "/images/thumbnails/tt0162661.webp",
       "imdb_rating": 7.187,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4649466",
+      "title": "Kingsman: The Golden Circle",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4649466.webp",
+      "thumbnail_52": "/images/thumbnails/tt4649466.webp",
+      "imdb_rating": 6.952,
       "londonLocationCount": 1
     },
     {
@@ -92,6 +461,36 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0113189",
+      "title": "GoldenEye",
+      "year": 1995,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0113189.webp",
+      "thumbnail_52": "/images/thumbnails/tt0113189.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0082474",
+      "title": "The Great Muppet Caper",
+      "year": 1981,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Crime",
+        "Romance",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0082474.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082474.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt12299608",
       "title": "Mickey 17",
       "year": 2025,
@@ -103,6 +502,20 @@
       "poster": "/images/posters/tt12299608.webp",
       "thumbnail_52": "/images/thumbnails/tt12299608.webp",
       "imdb_rating": 6.858,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1213663",
+      "title": "The World's End",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1213663.webp",
+      "thumbnail_52": "/images/thumbnails/tt1213663.webp",
+      "imdb_rating": 6.809,
       "londonLocationCount": 1
     },
     {
@@ -134,6 +547,76 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0120915",
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120915.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120915.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt1972591",
+      "title": "King Arthur: Legend of the Sword",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1972591.webp",
+      "thumbnail_52": "/images/thumbnails/tt1972591.webp",
+      "imdb_rating": 6.548,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7126948",
+      "title": "Wonder Woman 1984",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt7126948.webp",
+      "thumbnail_52": "/images/thumbnails/tt7126948.webp",
+      "imdb_rating": 6.392,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4196776",
+      "title": "Jason Bourne",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4196776.webp",
+      "thumbnail_52": "/images/thumbnails/tt4196776.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1365519",
+      "title": "Tomb Raider",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt1365519.webp",
+      "thumbnail_52": "/images/thumbnails/tt1365519.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0974015",
       "title": "Justice League",
       "year": 2017,
@@ -145,6 +628,34 @@
       "poster": "/images/posters/tt0974015.webp",
       "thumbnail_52": "/images/thumbnails/tt0974015.webp",
       "imdb_rating": 6.073,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0295178",
+      "title": "Austin Powers in Goldmember",
+      "year": 2002,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0295178.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295178.webp",
+      "imdb_rating": 6.002,
+      "londonLocationCount": 0
+    },
+    {
+      "movie_id": "tt0246460",
+      "title": "Die Another Day",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0246460.webp",
+      "thumbnail_52": "/images/thumbnails/tt0246460.webp",
+      "imdb_rating": 5.996,
       "londonLocationCount": 1
     },
     {
@@ -160,26 +671,52 @@
       "thumbnail_52": "/images/thumbnails/tt0918940.webp",
       "imdb_rating": 5.914,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2345759",
+      "title": "The Mummy",
+      "year": 2017,
+      "genres": [
+        "Fantasy",
+        "Thriller",
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt2345759.webp",
+      "thumbnail_52": "/images/thumbnails/tt2345759.webp",
+      "imdb_rating": 5.5,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 11,
-    "totalLocations": 11,
+    "totalMovies": 49,
+    "totalLocations": 127,
     "genres": {
-      "Fantasy": 5,
-      "Adventure": 8,
-      "Science Fiction": 5,
-      "Action": 7,
-      "Comedy": 2,
-      "Thriller": 1,
-      "Mystery": 1,
-      "Horror": 1,
-      "Drama": 1
+      "Drama": 8,
+      "Action": 25,
+      "Crime": 11,
+      "Thriller": 8,
+      "Adventure": 32,
+      "Fantasy": 18,
+      "Mystery": 6,
+      "Horror": 3,
+      "Science Fiction": 11,
+      "Sci-Fi & Fantasy": 3,
+      "Action & Adventure": 2,
+      "Comedy": 9,
+      "History": 1,
+      "Family": 1,
+      "Romance": 1,
+      "War & Politics": 1
     },
     "decades": {
-      "2010s": 5,
-      "2020s": 5,
-      "1990s": 1
+      "2000s": 12,
+      "2010s": 21,
+      "2020s": 10,
+      "1990s": 3,
+      "1980s": 2,
+      "1970s": 1
     }
   }
 }

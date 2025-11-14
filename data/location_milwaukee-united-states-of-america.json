@@ -4,11 +4,80 @@
     "country": "United States of America",
     "slug": "milwaukee-united-states-of-america",
     "coordinates": {
-      "lat": 43.03910033333333,
-      "lng": -87.91772408333334
+      "lat": 43.03831457500001,
+      "lng": -87.91592567499998
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0403778",
+      "title": "Long Way Round",
+      "year": 2004,
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0403778.webp",
+      "thumbnail_52": "/images/thumbnails/tt0403778.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0080455",
+      "title": "The Blues Brothers",
+      "year": 1980,
+      "genres": [
+        "Music",
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0080455.webp",
+      "thumbnail_52": "/images/thumbnails/tt0080455.webp",
+      "imdb_rating": 7.724,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0947798",
+      "title": "Black Swan",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0947798.webp",
+      "thumbnail_52": "/images/thumbnails/tt0947798.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119396",
+      "title": "Jackie Brown",
+      "year": 1997,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0119396.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119396.webp",
+      "imdb_rating": 7.357,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0092099",
+      "title": "Top Gun",
+      "year": 1986,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0092099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092099.webp",
+      "imdb_rating": 7.061,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt1152836",
       "title": "Public Enemies",
@@ -48,25 +117,32 @@
       "poster": "/images/posters/tt1399103.webp",
       "thumbnail_52": "/images/thumbnails/tt1399103.webp",
       "imdb_rating": 6.219,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 6,
+    "totalMovies": 8,
+    "totalLocations": 12,
     "genres": {
-      "Action": 1,
+      "Action": 3,
       "Science Fiction": 1,
       "Adventure": 1,
-      "Crime": 1,
+      "Crime": 3,
+      "Drama": 4,
+      "Thriller": 2,
+      "Documentary": 1,
+      "Reality": 1,
+      "Horror": 1,
       "History": 1,
-      "Drama": 1,
-      "Comedy": 1,
-      "Romance": 1
+      "Comedy": 2,
+      "Romance": 1,
+      "Music": 1
     },
     "decades": {
-      "2010s": 2,
-      "2000s": 1
+      "2010s": 3,
+      "1990s": 1,
+      "2000s": 2,
+      "1980s": 2
     }
   }
 }

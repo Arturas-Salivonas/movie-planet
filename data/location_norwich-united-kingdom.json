@@ -1,0 +1,74 @@
+{
+  "location": {
+    "city": "Norwich",
+    "country": "United Kingdom",
+    "slug": "norwich-united-kingdom",
+    "coordinates": {
+      "lat": 52.6285481,
+      "lng": 1.28316782
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0486655",
+      "title": "Stardust",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Romance",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0486655.webp",
+      "thumbnail_52": "/images/thumbnails/tt0486655.webp",
+      "imdb_rating": 7.282,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2395427",
+      "title": "Avengers: Age of Ultron",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2395427.webp",
+      "thumbnail_52": "/images/thumbnails/tt2395427.webp",
+      "imdb_rating": 7.271,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt5645432",
+      "title": "The Old Man",
+      "year": 2022,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5645432.webp",
+      "thumbnail_52": "/images/thumbnails/tt5645432.webp",
+      "imdb_rating": 7.22,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 5,
+    "genres": {
+      "Action": 1,
+      "Adventure": 2,
+      "Science Fiction": 1,
+      "Fantasy": 1,
+      "Romance": 1,
+      "Family": 1,
+      "Action & Adventure": 1,
+      "Drama": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2000s": 1,
+      "2020s": 1
+    }
+  }
+}

@@ -4,11 +4,37 @@
     "country": "United Kingdom",
     "slug": "manchester-united-kingdom",
     "coordinates": {
-      "lat": 53.477384083333334,
-      "lng": -2.2378165583333334
+      "lat": 53.47892626956523,
+      "lng": -2.239341200000001
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0090509",
+      "title": "The Return of Sherlock Holmes",
+      "year": 1986,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0090509.webp",
+      "thumbnail_52": "/images/thumbnails/tt0090509.webp",
+      "imdb_rating": 9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086661",
+      "title": "Sherlock Holmes",
+      "year": 1984,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0086661.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086661.webp",
+      "imdb_rating": 8.124,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt9140342",
       "title": "It's a Sin",
@@ -87,7 +113,7 @@
       "poster": "/images/posters/tt4555426.webp",
       "thumbnail_52": "/images/thumbnails/tt4555426.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2183641",
@@ -116,7 +142,7 @@
       "poster": "/images/posters/tt0988045.webp",
       "thumbnail_52": "/images/thumbnails/tt0988045.webp",
       "imdb_rating": 7.216,
-      "londonLocationCount": 1
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt9737326",
@@ -156,6 +182,20 @@
       "poster": "/images/posters/tt0458339.webp",
       "thumbnail_52": "/images/thumbnails/tt0458339.webp",
       "imdb_rating": 7.004,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0243155",
+      "title": "Bridget Jones's Diary",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0243155.webp",
+      "thumbnail_52": "/images/thumbnails/tt0243155.webp",
+      "imdb_rating": 6.742,
       "londonLocationCount": 1
     },
     {
@@ -170,28 +210,30 @@
       "poster": "/images/posters/tt5108870.webp",
       "thumbnail_52": "/images/thumbnails/tt5108870.webp",
       "imdb_rating": 5.9,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 12,
-    "totalLocations": 12,
+    "totalMovies": 15,
+    "totalLocations": 23,
     "genres": {
       "Action": 3,
       "Adventure": 2,
       "Science Fiction": 2,
       "Fantasy": 1,
-      "Comedy": 3,
-      "Drama": 9,
-      "Crime": 4,
-      "Mystery": 4,
+      "Crime": 5,
+      "Drama": 12,
+      "Mystery": 5,
+      "Comedy": 4,
+      "Romance": 1,
       "Sci-Fi & Fantasy": 2,
       "History": 1
     },
     "decades": {
       "2010s": 5,
       "2020s": 4,
-      "2000s": 3
+      "1980s": 2,
+      "2000s": 4
     }
   }
 }

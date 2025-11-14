@@ -1,0 +1,88 @@
+{
+  "location": {
+    "city": "Siena",
+    "country": "Italy",
+    "slug": "siena-italy",
+    "coordinates": {
+      "lat": 43.13495178,
+      "lng": 11.48077094
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0172495",
+      "title": "Gladiator",
+      "year": 2000,
+      "genres": [
+        "Action",
+        "Drama",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0172495.webp",
+      "thumbnail_52": "/images/thumbnails/tt0172495.webp",
+      "imdb_rating": 8.22,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0346336",
+      "title": "The Best of Youth",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0346336.webp",
+      "thumbnail_52": "/images/thumbnails/tt0346336.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0830515",
+      "title": "Quantum of Solace",
+      "year": 2008,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0830515.webp",
+      "thumbnail_52": "/images/thumbnails/tt0830515.webp",
+      "imdb_rating": 6.335,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1259571",
+      "title": "The Twilight Saga: New Moon",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1259571.webp",
+      "thumbnail_52": "/images/thumbnails/tt1259571.webp",
+      "imdb_rating": 5.993,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 5,
+    "genres": {
+      "Drama": 3,
+      "History": 1,
+      "Romance": 2,
+      "Adventure": 3,
+      "Action": 2,
+      "Thriller": 1,
+      "Crime": 1,
+      "Fantasy": 1
+    },
+    "decades": {
+      "2000s": 4
+    }
+  }
+}

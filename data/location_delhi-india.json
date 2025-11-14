@@ -4,11 +4,24 @@
     "country": "India",
     "slug": "delhi-india",
     "coordinates": {
-      "lat": 28.64268922,
-      "lng": 77.22381936000001
+      "lat": 28.62654066666667,
+      "lng": 77.21519920000003
     }
   },
   "movies": [
+    {
+      "movie_id": "tt1187043",
+      "title": "3 Idiots",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1187043.webp",
+      "thumbnail_52": "/images/thumbnails/tt1187043.webp",
+      "imdb_rating": 7.996,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt9398466",
       "title": "Delhi Crime",
@@ -48,20 +61,71 @@
       "thumbnail_52": "/images/thumbnails/tt2338151.webp",
       "imdb_rating": 7.702,
       "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0083987",
+      "title": "Gandhi",
+      "year": 1982,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0083987.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083987.webp",
+      "imdb_rating": 7.555,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0405508",
+      "title": "Rang De Basanti",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0405508.webp",
+      "thumbnail_52": "/images/thumbnails/tt0405508.webp",
+      "imdb_rating": 7.106,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120591",
+      "title": "Armageddon",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120591.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120591.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 5,
+    "totalMovies": 7,
+    "totalLocations": 13,
     "genres": {
-      "Drama": 2,
+      "Comedy": 4,
+      "Drama": 5,
+      "History": 2,
+      "Romance": 1,
       "Family": 1,
-      "Comedy": 2,
-      "Crime": 1,
-      "Science Fiction": 1
+      "Action": 1,
+      "Thriller": 1,
+      "Science Fiction": 2,
+      "Adventure": 1,
+      "Crime": 1
     },
     "decades": {
-      "2010s": 3
+      "2000s": 2,
+      "2010s": 3,
+      "1990s": 1,
+      "1980s": 1
     }
   }
 }

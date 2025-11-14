@@ -1,0 +1,81 @@
+{
+  "location": {
+    "city": "Durham",
+    "country": "United Kingdom",
+    "slug": "durham-united-kingdom",
+    "coordinates": {
+      "lat": 54.77401238,
+      "lng": -1.57619074
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4154796",
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt4154796.webp",
+      "thumbnail_52": "/images/thumbnails/tt4154796.webp",
+      "imdb_rating": 8.237,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4154756",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt4154756.webp",
+      "thumbnail_52": "/images/thumbnails/tt4154756.webp",
+      "imdb_rating": 8.235,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0241527",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0241527.webp",
+      "thumbnail_52": "/images/thumbnails/tt0241527.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0295297.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295297.webp",
+      "imdb_rating": 7.705,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 5,
+    "genres": {
+      "Adventure": 4,
+      "Action": 2,
+      "Science Fiction": 2,
+      "Fantasy": 2
+    },
+    "decades": {
+      "2010s": 2,
+      "2000s": 2
+    }
+  }
+}

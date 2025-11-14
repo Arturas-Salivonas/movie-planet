@@ -4,11 +4,25 @@
     "country": "United States of America",
     "slug": "santa-monica-united-states-of-america",
     "coordinates": {
-      "lat": 34.015209320833335,
-      "lng": -118.49256461666668
+      "lat": 34.01781267555558,
+      "lng": -118.48993230222234
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0109830",
+      "title": "Forrest Gump",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0109830.webp",
+      "thumbnail_52": "/images/thumbnails/tt0109830.webp",
+      "imdb_rating": 8.464,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt2758770",
       "title": "Star vs. the Forces of Evil",
@@ -26,6 +40,48 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt6439752",
+      "title": "Snowfall",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt6439752.webp",
+      "thumbnail_52": "/images/thumbnails/tt6439752.webp",
+      "imdb_rating": 8.33,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0103064",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0103064.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103064.webp",
+      "imdb_rating": 8.134,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118276",
+      "title": "Buffy the Vampire Slayer",
+      "year": 1997,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Comedy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0118276.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118276.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0264235",
       "title": "Curb Your Enthusiasm",
       "year": 2000,
@@ -35,6 +91,155 @@
       "poster": "/images/posters/tt0264235.webp",
       "thumbnail_52": "/images/thumbnails/tt0264235.webp",
       "imdb_rating": 8.022,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0070735",
+      "title": "The Sting",
+      "year": 1973,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0070735.webp",
+      "thumbnail_52": "/images/thumbnails/tt0070735.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0113277",
+      "title": "Heat",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0113277.webp",
+      "thumbnail_52": "/images/thumbnails/tt0113277.webp",
+      "imdb_rating": 7.922,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0017925",
+      "title": "The General",
+      "year": 1926,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "War",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0017925.webp",
+      "thumbnail_52": "/images/thumbnails/tt0017925.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1798709",
+      "title": "Her",
+      "year": 2013,
+      "genres": [
+        "Romance",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1798709.webp",
+      "thumbnail_52": "/images/thumbnails/tt1798709.webp",
+      "imdb_rating": 7.846,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118715",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0118715.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118715.webp",
+      "imdb_rating": 7.84,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0075148",
+      "title": "Rocky",
+      "year": 1976,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0075148.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075148.webp",
+      "imdb_rating": 7.792,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0246578",
+      "title": "Donnie Darko",
+      "year": 2001,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0246578.webp",
+      "thumbnail_52": "/images/thumbnails/tt0246578.webp",
+      "imdb_rating": 7.766,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0095953",
+      "title": "Rain Man",
+      "year": 1988,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0095953.webp",
+      "thumbnail_52": "/images/thumbnails/tt0095953.webp",
+      "imdb_rating": 7.751,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6710474",
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6710474.webp",
+      "thumbnail_52": "/images/thumbnails/tt6710474.webp",
+      "imdb_rating": 7.729,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1984119",
+      "title": "FEUD",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1984119.webp",
+      "thumbnail_52": "/images/thumbnails/tt1984119.webp",
+      "imdb_rating": 7.658,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0371746",
+      "title": "Iron Man",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0371746.webp",
+      "thumbnail_52": "/images/thumbnails/tt0371746.webp",
+      "imdb_rating": 7.654,
       "londonLocationCount": 1
     },
     {
@@ -142,6 +347,97 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0443706",
+      "title": "Zodiac",
+      "year": 2007,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0443706.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443706.webp",
+      "imdb_rating": 7.526,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0181875",
+      "title": "Almost Famous",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "poster": "/images/posters/tt0181875.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181875.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2249007",
+      "title": "Ray Donovan",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2249007.webp",
+      "thumbnail_52": "/images/thumbnails/tt2249007.webp",
+      "imdb_rating": 7.489,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0240772",
+      "title": "Ocean's Eleven",
+      "year": 2001,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0240772.webp",
+      "thumbnail_52": "/images/thumbnails/tt0240772.webp",
+      "imdb_rating": 7.451,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119822",
+      "title": "As Good as It Gets",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0119822.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119822.webp",
+      "imdb_rating": 7.397,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1285016",
+      "title": "The Social Network",
+      "year": 2010,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1285016.webp",
+      "thumbnail_52": "/images/thumbnails/tt1285016.webp",
+      "imdb_rating": 7.371,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0145487",
+      "title": "Spider-Man",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0145487.webp",
+      "thumbnail_52": "/images/thumbnails/tt0145487.webp",
+      "imdb_rating": 7.316,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt16419074",
       "title": "Air",
       "year": 2023,
@@ -152,6 +448,22 @@
       "poster": "/images/posters/tt16419074.webp",
       "thumbnail_52": "/images/thumbnails/tt16419074.webp",
       "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0093409",
+      "title": "Lethal Weapon",
+      "year": 1987,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Comedy",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0093409.webp",
+      "thumbnail_52": "/images/thumbnails/tt0093409.webp",
+      "imdb_rating": 7.285,
       "londonLocationCount": 1
     },
     {
@@ -179,6 +491,46 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2488496",
+      "title": "Star Wars: The Force Awakens",
+      "year": 2015,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2488496.webp",
+      "thumbnail_52": "/images/thumbnails/tt2488496.webp",
+      "imdb_rating": 7.255,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0375679",
+      "title": "Crash",
+      "year": 2005,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0375679.webp",
+      "thumbnail_52": "/images/thumbnails/tt0375679.webp",
+      "imdb_rating": 7.212,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086960",
+      "title": "Beverly Hills Cop",
+      "year": 1984,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0086960.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086960.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0427944",
       "title": "Thank You for Smoking",
       "year": 2005,
@@ -192,6 +544,63 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0102685",
+      "title": "Point Break",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0102685.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102685.webp",
+      "imdb_rating": 7.16,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0373469",
+      "title": "Kiss Kiss Bang Bang",
+      "year": 2005,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0373469.webp",
+      "thumbnail_52": "/images/thumbnails/tt0373469.webp",
+      "imdb_rating": 7.159,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0111257",
+      "title": "Speed",
+      "year": 1994,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0111257.webp",
+      "thumbnail_52": "/images/thumbnails/tt0111257.webp",
+      "imdb_rating": 7.144,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3470600",
+      "title": "Sing",
+      "year": 2016,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Music",
+        "Animation"
+      ],
+      "poster": "/images/posters/tt3470600.webp",
+      "thumbnail_52": "/images/thumbnails/tt3470600.webp",
+      "imdb_rating": 7.12,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1517268",
       "title": "Barbie",
       "year": 2023,
@@ -202,7 +611,7 @@
       "poster": "/images/posters/tt1517268.webp",
       "thumbnail_52": "/images/thumbnails/tt1517268.webp",
       "imdb_rating": 6.949,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0084602",
@@ -214,7 +623,62 @@
       "poster": "/images/posters/tt0084602.webp",
       "thumbnail_52": "/images/thumbnails/tt0084602.webp",
       "imdb_rating": 6.9,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0116629",
+      "title": "Independence Day",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116629.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116629.webp",
+      "imdb_rating": 6.897,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120591",
+      "title": "Armageddon",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120591.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120591.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0250494",
+      "title": "Legally Blonde",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0250494.webp",
+      "thumbnail_52": "/images/thumbnails/tt0250494.webp",
+      "imdb_rating": 6.807,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0083929",
+      "title": "Fast Times at Ridgemont High",
+      "year": 1982,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0083929.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083929.webp",
+      "imdb_rating": 6.802,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt1564367",
@@ -230,6 +694,32 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0430922",
+      "title": "Role Models",
+      "year": 2008,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0430922.webp",
+      "thumbnail_52": "/images/thumbnails/tt0430922.webp",
+      "imdb_rating": 6.487,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0413300",
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0413300.webp",
+      "thumbnail_52": "/images/thumbnails/tt0413300.webp",
+      "imdb_rating": 6.447,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0115083",
       "title": "7th Heaven",
       "year": 1996,
@@ -241,7 +731,7 @@
       "poster": "/images/posters/tt0115083.webp",
       "thumbnail_52": "/images/thumbnails/tt0115083.webp",
       "imdb_rating": 6.431,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0448157",
@@ -254,7 +744,7 @@
       "poster": "/images/posters/tt0448157.webp",
       "thumbnail_52": "/images/thumbnails/tt0448157.webp",
       "imdb_rating": 6.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0478311",
@@ -268,7 +758,51 @@
       "poster": "/images/posters/tt0478311.webp",
       "thumbnail_52": "/images/thumbnails/tt0478311.webp",
       "imdb_rating": 6.3,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0974661",
+      "title": "17 Again",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0974661.webp",
+      "thumbnail_52": "/images/thumbnails/tt0974661.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0800080",
+      "title": "The Incredible Hulk",
+      "year": 2008,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0800080.webp",
+      "thumbnail_52": "/images/thumbnails/tt0800080.webp",
+      "imdb_rating": 6.2,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086856",
+      "title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+      "year": 1984,
+      "genres": [
+        "Science Fiction",
+        "Comedy",
+        "Adventure",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0086856.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086856.webp",
+      "imdb_rating": 5.988,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0335559",
@@ -285,33 +819,36 @@
     }
   ],
   "stats": {
-    "totalMovies": 21,
-    "totalLocations": 24,
+    "totalMovies": 60,
+    "totalLocations": 90,
     "genres": {
-      "Comedy": 10,
-      "Romance": 4,
-      "Adventure": 1,
-      "Fantasy": 1,
-      "Action": 2,
-      "Drama": 12,
-      "Science Fiction": 1,
-      "Crime": 3,
-      "Mystery": 1,
+      "Comedy": 25,
+      "Drama": 28,
+      "Romance": 12,
+      "Action": 17,
+      "Thriller": 9,
+      "Science Fiction": 12,
+      "Crime": 13,
+      "Adventure": 11,
+      "Family": 3,
+      "Music": 2,
+      "Animation": 2,
+      "War": 1,
+      "Mystery": 4,
+      "Fantasy": 3,
+      "Sci-Fi & Fantasy": 2,
+      "Action & Adventure": 2,
       "Soap": 1,
-      "Family": 2,
-      "Thriller": 1,
-      "History": 1,
-      "Action & Adventure": 1,
-      "Animation": 1,
-      "Sci-Fi & Fantasy": 1
+      "History": 1
     },
     "decades": {
-      "2000s": 10,
-      "2020s": 3,
-      "2010s": 4,
-      "1990s": 2,
-      "1980s": 1,
-      "1970s": 1
+      "1990s": 12,
+      "2020s": 4,
+      "2000s": 23,
+      "2010s": 11,
+      "1980s": 6,
+      "1920s": 1,
+      "1970s": 3
     }
   }
 }

@@ -4,8 +4,8 @@
     "country": "South Africa",
     "slug": "cape-town-south-africa",
     "coordinates": {
-      "lat": -33.96330120952382,
-      "lng": 18.518324357142852
+      "lat": -33.95879836774195,
+      "lng": 18.505233435483866
     }
   },
   "movies": [
@@ -21,6 +21,19 @@
       "poster": "/images/posters/tt2085059.webp",
       "thumbnail_52": "/images/thumbnails/tt2085059.webp",
       "imdb_rating": 8.285,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3006802",
+      "title": "Outlander",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt3006802.webp",
+      "thumbnail_52": "/images/thumbnails/tt3006802.webp",
+      "imdb_rating": 8.187,
       "londonLocationCount": 1
     },
     {
@@ -52,6 +65,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt7462410",
+      "title": "The Wheel of Time",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7462410.webp",
+      "thumbnail_52": "/images/thumbnails/tt7462410.webp",
+      "imdb_rating": 7.636,
+      "londonLocationCount": 0
+    },
+    {
       "movie_id": "tt1392190",
       "title": "Mad Max: Fury Road",
       "year": 2015,
@@ -63,7 +89,7 @@
       "poster": "/images/posters/tt1392190.webp",
       "thumbnail_52": "/images/thumbnails/tt1392190.webp",
       "imdb_rating": 7.627,
-      "londonLocationCount": 0
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt2375692",
@@ -76,6 +102,20 @@
       "poster": "/images/posters/tt2375692.webp",
       "thumbnail_52": "/images/thumbnails/tt2375692.webp",
       "imdb_rating": 7.611,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1796960",
+      "title": "Homeland",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1796960.webp",
+      "thumbnail_52": "/images/thumbnails/tt1796960.webp",
+      "imdb_rating": 7.579,
       "londonLocationCount": 1
     },
     {
@@ -103,6 +143,33 @@
       "poster": "/images/posters/tt9170108.webp",
       "thumbnail_52": "/images/thumbnails/tt9170108.webp",
       "imdb_rating": 7.52,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt16294384",
+      "title": "Disclaimer",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt16294384.webp",
+      "thumbnail_52": "/images/thumbnails/tt16294384.webp",
+      "imdb_rating": 7.399,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0399295",
+      "title": "Lord of War",
+      "year": 2005,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0399295.webp",
+      "thumbnail_52": "/images/thumbnails/tt0399295.webp",
+      "imdb_rating": 7.335,
       "londonLocationCount": 1
     },
     {
@@ -130,7 +197,7 @@
       "poster": "/images/posters/tt1706593.webp",
       "thumbnail_52": "/images/thumbnails/tt1706593.webp",
       "imdb_rating": 6.837,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt3079768",
@@ -170,7 +237,7 @@
       "poster": "/images/posters/tt1365519.webp",
       "thumbnail_52": "/images/thumbnails/tt1365519.webp",
       "imdb_rating": 6.366,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9660182",
@@ -199,26 +266,27 @@
     }
   ],
   "stats": {
-    "totalMovies": 14,
-    "totalLocations": 14,
+    "totalMovies": 19,
+    "totalLocations": 22,
     "genres": {
       "Action": 5,
       "Adventure": 2,
       "Science Fiction": 3,
-      "Sci-Fi & Fantasy": 5,
-      "Drama": 8,
-      "Mystery": 1,
-      "Thriller": 3,
+      "Crime": 3,
+      "Drama": 13,
+      "Thriller": 4,
+      "Sci-Fi & Fantasy": 7,
+      "Mystery": 2,
+      "War & Politics": 1,
       "Action & Adventure": 3,
-      "Crime": 1,
       "Western": 1,
       "Fantasy": 1,
       "Reality": 1
     },
     "decades": {
-      "2010s": 9,
-      "2000s": 2,
-      "2020s": 3
+      "2010s": 11,
+      "2000s": 3,
+      "2020s": 5
     }
   }
 }

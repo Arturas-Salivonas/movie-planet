@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState, useMemo } from 'react'
 import { LocationData } from '../lib/locations'
+import { STYLES } from '../lib/constants/theme'
 
 interface LocationsListClientProps {
   locations: LocationData[]
@@ -46,7 +47,7 @@ export default function LocationsListClient({ locations }: LocationsListClientPr
   }, [filteredLocations])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+    <div className="min-h-screen" style={STYLES.spaceBackground}>
 
       {/* Header */}
       <header className="bg-white/10 backdrop-blur-sm border-b border-white/20 pt-20">
@@ -77,7 +78,7 @@ export default function LocationsListClient({ locations }: LocationsListClientPr
               placeholder="Search locations..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+              className="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500"
             />
           </div>
 
@@ -85,7 +86,7 @@ export default function LocationsListClient({ locations }: LocationsListClientPr
           <select
             value={selectedCountry}
             onChange={(e) => setSelectedCountry(e.target.value)}
-            className="px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 min-w-[200px]"
+            className="px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-primary-500 min-w-[200px]"
           >
             <option value="all" className="bg-gray-900">All Countries ({locations.length})</option>
             {countries.map(country => {
@@ -123,14 +124,14 @@ export default function LocationsListClient({ locations }: LocationsListClientPr
                   <Link
                     key={location.slug}
                     href={`/location/${location.slug}`}
-                    className="group bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 hover:bg-white/20 hover:border-purple-400 transition-all hover:scale-105 hover:shadow-xl"
+                    className="group bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 hover:bg-white/20 hover:border-primary-400 transition-all hover:scale-105 hover:shadow-xl"
                   >
                     <div className="flex items-start justify-between mb-2">
-                      <h3 className="text-lg font-semibold text-white group-hover:text-purple-300 transition-colors">
+                      <h3 className="text-lg font-semibold text-white group-hover:text-primary-300 transition-colors">
                         {location.city}
                       </h3>
                       <svg
-                        className="w-5 h-5 text-gray-400 group-hover:text-purple-300 transition-colors"
+                        className="w-5 h-5 text-gray-400 group-hover:text-primary-300 transition-colors"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

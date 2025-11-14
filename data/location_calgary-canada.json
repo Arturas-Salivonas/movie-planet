@@ -4,8 +4,8 @@
     "country": "Canada",
     "slug": "calgary-canada",
     "coordinates": {
-      "lat": 51.04491337142857,
-      "lng": -114.06459969047617
+      "lat": 51.03620303513514,
+      "lng": -114.0475696702703
     }
   },
   "movies": [
@@ -33,7 +33,7 @@
       "poster": "/images/posters/tt3581920.webp",
       "thumbnail_52": "/images/thumbnails/tt3581920.webp",
       "imdb_rating": 8.469,
-      "londonLocationCount": 1
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0403778",
@@ -73,7 +73,21 @@
       "poster": "/images/posters/tt2802850.webp",
       "thumbnail_52": "/images/thumbnails/tt2802850.webp",
       "imdb_rating": 8.295,
-      "londonLocationCount": 3
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0314979",
+      "title": "Battlestar Galactica",
+      "year": 2003,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0314979.webp",
+      "thumbnail_52": "/images/thumbnails/tt0314979.webp",
+      "imdb_rating": 8.203,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0105695",
@@ -141,6 +155,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0348913",
+      "title": "Dead Like Me",
+      "year": 2003,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0348913.webp",
+      "thumbnail_52": "/images/thumbnails/tt0348913.webp",
+      "imdb_rating": 7.636,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1699748",
       "title": "Hell on Wheels",
       "year": 2011,
@@ -152,6 +180,20 @@
       "poster": "/images/posters/tt1699748.webp",
       "thumbnail_52": "/images/thumbnails/tt1699748.webp",
       "imdb_rating": 7.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1663202",
+      "title": "The Revenant",
+      "year": 2015,
+      "genres": [
+        "Western",
+        "Drama",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1663202.webp",
+      "thumbnail_52": "/images/thumbnails/tt1663202.webp",
+      "imdb_rating": 7.537,
       "londonLocationCount": 1
     },
     {
@@ -171,6 +213,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1843230",
+      "title": "Once Upon a Time",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1843230.webp",
+      "thumbnail_52": "/images/thumbnails/tt1843230.webp",
+      "imdb_rating": 7.379,
+      "londonLocationCount": 3
+    },
+    {
       "movie_id": "tt4513678",
       "title": "Ghostbusters: Afterlife",
       "year": 2021,
@@ -183,7 +238,7 @@
       "poster": "/images/posters/tt4513678.webp",
       "thumbnail_52": "/images/thumbnails/tt4513678.webp",
       "imdb_rating": 7.335,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0443680",
@@ -255,31 +310,31 @@
     }
   ],
   "stats": {
-    "totalMovies": 18,
-    "totalLocations": 21,
+    "totalMovies": 22,
+    "totalLocations": 37,
     "genres": {
-      "Adventure": 4,
-      "Drama": 10,
+      "Adventure": 5,
+      "Drama": 14,
       "Science Fiction": 4,
       "Thriller": 2,
       "Action": 4,
-      "Comedy": 3,
+      "Comedy": 4,
       "Fantasy": 2,
       "Documentary": 1,
       "Reality": 1,
       "Crime": 1,
+      "Action & Adventure": 4,
+      "Sci-Fi & Fantasy": 5,
+      "Western": 6,
       "Romance": 2,
-      "Action & Adventure": 3,
-      "Western": 5,
-      "Sci-Fi & Fantasy": 2,
       "War": 1,
       "Family": 1
     },
     "decades": {
-      "2010s": 7,
+      "2010s": 9,
       "2020s": 4,
       "1980s": 1,
-      "2000s": 4,
+      "2000s": 6,
       "1990s": 2
     }
   }

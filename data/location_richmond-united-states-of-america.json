@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "richmond-united-states-of-america",
     "coordinates": {
-      "lat": 38.08853615,
-      "lng": -81.73514184999999
+      "lat": 38.327777552173906,
+      "lng": -78.54751913043475
     }
   },
   "movies": [
@@ -20,7 +20,21 @@
       "poster": "/images/posters/tt9174558.webp",
       "thumbnail_52": "/images/thumbnails/tt9174558.webp",
       "imdb_rating": 7.994,
-      "londonLocationCount": 2
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt1796960",
+      "title": "Homeland",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1796960.webp",
+      "thumbnail_52": "/images/thumbnails/tt1796960.webp",
+      "imdb_rating": 7.579,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt10148174",
@@ -59,7 +73,7 @@
       "poster": "/images/posters/tt0443272.webp",
       "thumbnail_52": "/images/thumbnails/tt0443272.webp",
       "imdb_rating": 6.856,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt0317919",
@@ -73,7 +87,7 @@
       "poster": "/images/posters/tt0317919.webp",
       "thumbnail_52": "/images/thumbnails/tt0317919.webp",
       "imdb_rating": 6.8,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0374900",
@@ -100,26 +114,38 @@
       "thumbnail_52": "/images/thumbnails/tt0212985.webp",
       "imdb_rating": 6.766,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0183505",
+      "title": "Me, Myself & Irene",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0183505.webp",
+      "thumbnail_52": "/images/thumbnails/tt0183505.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 7,
-    "totalLocations": 8,
+    "totalMovies": 9,
+    "totalLocations": 23,
     "genres": {
       "Adventure": 1,
       "Action": 1,
       "Thriller": 2,
-      "Comedy": 1,
-      "Crime": 2,
-      "Drama": 5,
+      "Drama": 6,
+      "War & Politics": 2,
+      "Crime": 3,
+      "Comedy": 2,
       "History": 1,
-      "War & Politics": 1,
       "Sci-Fi & Fantasy": 1
     },
     "decades": {
-      "2000s": 3,
-      "2020s": 2,
-      "2010s": 2
+      "2000s": 4,
+      "2010s": 3,
+      "2020s": 2
     }
   }
 }

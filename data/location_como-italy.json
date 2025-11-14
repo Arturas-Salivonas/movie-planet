@@ -1,0 +1,70 @@
+{
+  "location": {
+    "city": "Como",
+    "country": "Italy",
+    "slug": "como-italy",
+    "coordinates": {
+      "lat": 45.9917589,
+      "lng": 9.264881
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0087843",
+      "title": "Once Upon a Time in America",
+      "year": 1984,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0087843.webp",
+      "thumbnail_52": "/images/thumbnails/tt0087843.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0381061",
+      "title": "Casino Royale",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0381061.webp",
+      "thumbnail_52": "/images/thumbnails/tt0381061.webp",
+      "imdb_rating": 7.565,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0121765",
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0121765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0121765.webp",
+      "imdb_rating": 6.586,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 4,
+    "genres": {
+      "Adventure": 2,
+      "Action": 2,
+      "Science Fiction": 1,
+      "Thriller": 1,
+      "Drama": 1,
+      "Crime": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "1980s": 1
+    }
+  }
+}

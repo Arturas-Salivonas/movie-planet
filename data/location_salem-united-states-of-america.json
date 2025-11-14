@@ -1,0 +1,110 @@
+{
+  "location": {
+    "city": "Salem",
+    "country": "United States of America",
+    "slug": "salem-united-states-of-america",
+    "coordinates": {
+      "lat": 42.48659948333334,
+      "lng": -80.34509687499998
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0073486",
+      "title": "One Flew Over the Cuckoo's Nest",
+      "year": 1975,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0073486.webp",
+      "thumbnail_52": "/images/thumbnails/tt0073486.webp",
+      "imdb_rating": 8.413,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4034228",
+      "title": "Manchester by the Sea",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4034228.webp",
+      "thumbnail_52": "/images/thumbnails/tt4034228.webp",
+      "imdb_rating": 7.547,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0045793",
+      "title": "From Here to Eternity",
+      "year": 1953,
+      "genres": [
+        "War",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0045793.webp",
+      "thumbnail_52": "/images/thumbnails/tt0045793.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0107120",
+      "title": "Hocus Pocus",
+      "year": 1993,
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0107120.webp",
+      "thumbnail_52": "/images/thumbnails/tt0107120.webp",
+      "imdb_rating": 7.04,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1800241",
+      "title": "American Hustle",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1800241.webp",
+      "thumbnail_52": "/images/thumbnails/tt1800241.webp",
+      "imdb_rating": 6.854,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0443453",
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0443453.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443453.webp",
+      "imdb_rating": 6.785,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 12,
+    "genres": {
+      "Drama": 4,
+      "War": 1,
+      "Romance": 1,
+      "Fantasy": 1,
+      "Comedy": 2,
+      "Family": 1,
+      "Crime": 1
+    },
+    "decades": {
+      "1970s": 1,
+      "1950s": 1,
+      "1990s": 1,
+      "2010s": 2,
+      "2000s": 1
+    }
+  }
+}

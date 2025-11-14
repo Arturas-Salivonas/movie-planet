@@ -4,8 +4,8 @@
     "country": "France",
     "slug": "la-rochelle-france",
     "coordinates": {
-      "lat": 46.1618661,
-      "lng": -1.2133928
+      "lat": 46.161012459999995,
+      "lng": -1.1886737200000002
     }
   },
   "movies": [
@@ -34,7 +34,7 @@
       "poster": "/images/posters/tt0082096.webp",
       "thumbnail_52": "/images/thumbnails/tt0082096.webp",
       "imdb_rating": 8.087,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0082971",
@@ -47,12 +47,12 @@
       "poster": "/images/posters/tt0082971.webp",
       "thumbnail_52": "/images/thumbnails/tt0082971.webp",
       "imdb_rating": 7.923,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     }
   ],
   "stats": {
     "totalMovies": 3,
-    "totalLocations": 3,
+    "totalLocations": 5,
     "genres": {
       "Adventure": 1,
       "Action": 1,

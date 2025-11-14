@@ -4,8 +4,8 @@
     "country": "Spain",
     "slug": "bilbao-spain",
     "coordinates": {
-      "lat": 43.2648107,
-      "lng": -2.9346897
+      "lat": 43.26455228571428,
+      "lng": -2.9347345857142857
     }
   },
   "movies": [
@@ -24,6 +24,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2316411",
+      "title": "Enemy",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2316411.webp",
+      "thumbnail_52": "/images/thumbnails/tt2316411.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0143145",
       "title": "The World Is Not Enough",
       "year": 1999,
@@ -35,7 +48,7 @@
       "poster": "/images/posters/tt0143145.webp",
       "thumbnail_52": "/images/thumbnails/tt0143145.webp",
       "imdb_rating": 6.284,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt1617661",
@@ -53,18 +66,19 @@
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 4,
+    "totalLocations": 7,
     "genres": {
       "Drama": 1,
       "Science Fiction": 2,
-      "Thriller": 2,
+      "Thriller": 3,
+      "Mystery": 1,
       "Adventure": 1,
       "Action": 2,
       "Fantasy": 1
     },
     "decades": {
-      "2010s": 2,
+      "2010s": 3,
       "1990s": 1
     }
   }

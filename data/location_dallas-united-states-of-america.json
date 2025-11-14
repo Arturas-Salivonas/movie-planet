@@ -4,11 +4,37 @@
     "country": "United States of America",
     "slug": "dallas-united-states-of-america",
     "coordinates": {
-      "lat": 33.00738757999999,
-      "lng": -94.40633118999997
+      "lat": 32.90062730731708,
+      "lng": -95.63123502195123
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0455275",
+      "title": "Prison Break",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0455275.webp",
+      "thumbnail_52": "/images/thumbnails/tt0455275.webp",
+      "imdb_rating": 8.078,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758745",
+      "title": "Friday Night Lights",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758745.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758745.webp",
+      "imdb_rating": 7.98,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt8722888",
       "title": "DC's Stargirl",
@@ -21,6 +47,32 @@
       "poster": "/images/posters/tt8722888.webp",
       "thumbnail_52": "/images/thumbnails/tt8722888.webp",
       "imdb_rating": 7.715,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0210945",
+      "title": "Remember the Titans",
+      "year": 2000,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0210945.webp",
+      "thumbnail_52": "/images/thumbnails/tt0210945.webp",
+      "imdb_rating": 7.645,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0102138",
+      "title": "JFK",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt0102138.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102138.webp",
+      "imdb_rating": 7.604,
       "londonLocationCount": 2
     },
     {
@@ -80,6 +132,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0151804",
+      "title": "Office Space",
+      "year": 1999,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0151804.webp",
+      "thumbnail_52": "/images/thumbnails/tt0151804.webp",
+      "imdb_rating": 7.372,
+      "londonLocationCount": 3
+    },
+    {
       "movie_id": "tt0093870",
       "title": "RoboCop",
       "year": 1987,
@@ -91,7 +155,7 @@
       "poster": "/images/posters/tt0093870.webp",
       "thumbnail_52": "/images/thumbnails/tt0093870.webp",
       "imdb_rating": 7.352,
-      "londonLocationCount": 2
+      "londonLocationCount": 19
     },
     {
       "movie_id": "tt0437086",
@@ -108,6 +172,48 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0369339",
+      "title": "Collateral",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0369339.webp",
+      "thumbnail_52": "/images/thumbnails/tt0369339.webp",
+      "imdb_rating": 7.235,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6723592",
+      "title": "Tenet",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6723592.webp",
+      "thumbnail_52": "/images/thumbnails/tt6723592.webp",
+      "imdb_rating": 7.175,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116629",
+      "title": "Independence Day",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116629.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116629.webp",
+      "imdb_rating": 6.897,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0077000",
       "title": "Dallas",
       "year": 1978,
@@ -120,32 +226,46 @@
       "thumbnail_52": "/images/thumbnails/tt0077000.webp",
       "imdb_rating": 6.842,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0443453",
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0443453.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443453.webp",
+      "imdb_rating": 6.785,
+      "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 8,
-    "totalLocations": 10,
+    "totalMovies": 17,
+    "totalLocations": 41,
     "genres": {
-      "Action": 2,
-      "Science Fiction": 2,
-      "Adventure": 1,
-      "Thriller": 1,
+      "Action": 4,
+      "Adventure": 2,
+      "Science Fiction": 4,
+      "Drama": 10,
+      "Thriller": 4,
+      "History": 1,
+      "Action & Adventure": 4,
+      "Crime": 3,
+      "Comedy": 3,
       "Sci-Fi & Fantasy": 3,
-      "Action & Adventure": 3,
-      "Drama": 5,
-      "Crime": 1,
       "Animation": 1,
-      "Comedy": 1,
       "Kids": 1,
       "Mystery": 1,
       "Soap": 1,
       "Family": 1
     },
     "decades": {
+      "1990s": 3,
+      "2000s": 6,
+      "2020s": 3,
       "2010s": 3,
       "1980s": 1,
-      "2000s": 1,
-      "2020s": 2,
       "1970s": 1
     }
   }

@@ -1,0 +1,72 @@
+{
+  "location": {
+    "city": "Aurora",
+    "country": "United States of America",
+    "slug": "aurora-united-states-of-america",
+    "coordinates": {
+      "lat": 41.7679123,
+      "lng": -88.33525036666667
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0257044",
+      "title": "Road to Perdition",
+      "year": 2002,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0257044.webp",
+      "thumbnail_52": "/images/thumbnails/tt0257044.webp",
+      "imdb_rating": 7.349,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1152836",
+      "title": "Public Enemies",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1152836.webp",
+      "thumbnail_52": "/images/thumbnails/tt1152836.webp",
+      "imdb_rating": 6.688,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0770828",
+      "title": "Man of Steel",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0770828.webp",
+      "thumbnail_52": "/images/thumbnails/tt0770828.webp",
+      "imdb_rating": 6.639,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Action": 1,
+      "Adventure": 1,
+      "Science Fiction": 1,
+      "Crime": 2,
+      "History": 1,
+      "Drama": 2,
+      "Thriller": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2000s": 2
+    }
+  }
+}

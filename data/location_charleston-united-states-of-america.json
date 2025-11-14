@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "charleston-united-states-of-america",
     "coordinates": {
-      "lat": 33.3578893,
-      "lng": -80.11624180999999
+      "lat": 33.086851873684225,
+      "lng": -80.0321179526316
     }
   },
   "movies": [
@@ -24,6 +24,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1856010",
+      "title": "House of Cards",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1856010.webp",
+      "thumbnail_52": "/images/thumbnails/tt1856010.webp",
+      "imdb_rating": 8.013,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0332280",
       "title": "The Notebook",
       "year": 2004,
@@ -34,7 +46,7 @@
       "poster": "/images/posters/tt0332280.webp",
       "thumbnail_52": "/images/thumbnails/tt0332280.webp",
       "imdb_rating": 7.891,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt6048596",
@@ -61,6 +73,34 @@
       "thumbnail_52": "/images/thumbnails/tt8634332.webp",
       "imdb_rating": 7.402,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112864",
+      "title": "Die Hard: With a Vengeance",
+      "year": 1995,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0112864.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112864.webp",
+      "imdb_rating": 7.274,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0187393",
+      "title": "The Patriot",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "History",
+        "War",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0187393.webp",
+      "thumbnail_52": "/images/thumbnails/tt0187393.webp",
+      "imdb_rating": 7.183,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3766376",
@@ -102,6 +142,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0112281",
+      "title": "Ace Ventura: When Nature Calls",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0112281.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112281.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0335559",
       "title": "Win a Date with Tad Hamilton!",
       "year": 2004,
@@ -116,21 +170,27 @@
     }
   ],
   "stats": {
-    "totalMovies": 8,
-    "totalLocations": 8,
+    "totalMovies": 12,
+    "totalLocations": 17,
     "genres": {
-      "Comedy": 4,
+      "Comedy": 5,
       "Romance": 2,
-      "Crime": 1,
-      "Drama": 5,
+      "Crime": 2,
+      "Drama": 7,
+      "Action": 2,
+      "Thriller": 1,
+      "History": 1,
+      "War": 1,
       "Action & Adventure": 1,
       "Mystery": 2,
       "Sci-Fi & Fantasy": 1,
+      "Adventure": 1,
       "Talk": 1
     },
     "decades": {
-      "2000s": 3,
-      "2010s": 4,
+      "2000s": 4,
+      "2010s": 5,
+      "1990s": 2,
       "2020s": 1
     }
   }

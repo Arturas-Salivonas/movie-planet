@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "bristol-united-kingdom",
     "coordinates": {
-      "lat": 51.455878162500014,
-      "lng": -2.59728068125
+      "lat": 51.45305832592592,
+      "lng": -2.599804437037037
     }
   },
   "movies": [
@@ -23,6 +23,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt8740790",
+      "title": "Bridgerton",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8740790.webp",
+      "thumbnail_52": "/images/thumbnails/tt8740790.webp",
+      "imdb_rating": 8.079,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0081912",
       "title": "Only Fools and Horses",
       "year": 1981,
@@ -32,7 +44,7 @@
       "poster": "/images/posters/tt0081912.webp",
       "thumbnail_52": "/images/thumbnails/tt0081912.webp",
       "imdb_rating": 8.021,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt2249364",
@@ -49,6 +61,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt5607976",
+      "title": "His Dark Materials",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5607976.webp",
+      "thumbnail_52": "/images/thumbnails/tt5607976.webp",
+      "imdb_rating": 7.863,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt2177461",
       "title": "A Discovery of Witches",
       "year": 2018,
@@ -59,7 +84,19 @@
       "poster": "/images/posters/tt2177461.webp",
       "thumbnail_52": "/images/thumbnails/tt2177461.webp",
       "imdb_rating": 7.833,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3636060",
+      "title": "Poldark",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3636060.webp",
+      "thumbnail_52": "/images/thumbnails/tt3636060.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt8685324",
@@ -71,6 +108,20 @@
       "poster": "/images/posters/tt8685324.webp",
       "thumbnail_52": "/images/thumbnails/tt8685324.webp",
       "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120601",
+      "title": "Being John Malkovich",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0120601.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120601.webp",
+      "imdb_rating": 7.412,
       "londonLocationCount": 1
     },
     {
@@ -141,7 +192,7 @@
       "poster": "/images/posters/tt1349938.webp",
       "thumbnail_52": "/images/thumbnails/tt1349938.webp",
       "imdb_rating": 7.1,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt3498622",
@@ -174,23 +225,25 @@
     }
   ],
   "stats": {
-    "totalMovies": 12,
-    "totalLocations": 16,
+    "totalMovies": 16,
+    "totalLocations": 27,
     "genres": {
-      "Comedy": 4,
+      "Comedy": 5,
+      "Drama": 14,
+      "Fantasy": 1,
       "Crime": 4,
-      "Drama": 10,
       "Mystery": 4,
-      "Sci-Fi & Fantasy": 5,
+      "Sci-Fi & Fantasy": 6,
       "Action & Adventure": 2,
       "Animation": 1,
       "Family": 1
     },
     "decades": {
+      "1990s": 1,
       "1980s": 1,
-      "2010s": 5,
-      "2000s": 4,
-      "2020s": 2
+      "2020s": 3,
+      "2010s": 7,
+      "2000s": 4
     }
   }
 }

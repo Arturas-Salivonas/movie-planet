@@ -11,6 +11,7 @@ import type { MapRef } from '../src/components/Map'
 import { useMovieNavigation } from '../src/hooks/useMovieNavigation'
 import { useRelatedMovies } from '../src/hooks/useRelatedMovies'
 import { useFilterPersistence } from '../src/hooks/useFilterPersistence'
+import { STYLES } from '../lib/constants/theme'
 
 // Lazy load components
 const SearchBar = lazy(() => import('../src/components/SearchBarOptimized'))
@@ -26,6 +27,7 @@ interface MapProps {
   filters: FilterState
   focusedMovieId?: string | null
   onClearFocus?: () => void
+  convertGeoJSONToMovie?: (feature: any) => Promise<Movie>
 }
 
 // Dynamically import MapWrapper with proper ref forwarding
@@ -38,7 +40,7 @@ const Map = forwardRef<MapRef, MapProps>((props, ref) => {
 
   if (!MapComponent) {
     return (
-      <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+      <div className="absolute inset-0 z-50 flex items-center justify-center" style={STYLES.spaceBackground}>
         <div className="text-center space-y-6 px-8">
           <div className="text-7xl animate-bounce">🎬</div>
           <h2 className="text-3xl font-bold text-white">FilmingMap</h2>
@@ -70,12 +72,13 @@ export default function MapClient({
   const [isLocationViewed, setIsLocationViewed] = useState<boolean>(false)
   const [isPartnershipModalOpen, setIsPartnershipModalOpen] = useState<boolean>(false)
   const [isSearchOpen, setIsSearchOpen] = useState<boolean>(false)
+  const [isFiltersOpen, setIsFiltersOpen] = useState<boolean>(false)
 
   // Use filter persistence hook (localStorage)
   const { filters, setFilters } = useFilterPersistence()
 
   // Movie navigation hook
-  const { selectedMovie, handleMovieSelect, closeModal } = useMovieNavigation({
+  const { selectedMovie, handleMovieSelect, closeModal, convertGeoJSONToMovie } = useMovieNavigation({
     initialMovie
   })
 
@@ -108,23 +111,20 @@ export default function MapClient({
     return () => window.removeEventListener('openPartnershipModal', handleOpenPartnership)
   }, [])
 
-  const handleResetFocus = () => {
+  const handleResetView = () => {
+    // Reset focused movie (show all markers again)
     setFocusedMovieId(null)
 
-    // Show clickable regions again when clearing focus
+    // Reset map view to default
     if (mapRef.current) {
+      mapRef.current.resetView()
+      setIsLocationViewed(false)
+
+      // Show clickable regions again when clearing focus
       const mapInstance = mapRef.current.getMapInstance()
       if (mapInstance && mapInstance.getLayer('region-circles')) {
         mapInstance.setLayoutProperty('region-circles', 'visibility', 'visible')
       }
-    }
-  }
-
-  const handleResetView = () => {
-    if (mapRef.current) {
-      mapRef.current.resetView()
-      setIsLocationViewed(false)
-      setFocusedMovieId(null)
     }
   }
 
@@ -196,7 +196,12 @@ export default function MapClient({
   return (
     <div className="relative w-full h-full z-10">
       {/* Navigation - Full Width on Mobile, Centered on Desktop */}
-      <div className="absolute top-4 left-4 right-4 lg:left-1/2 lg:right-auto lg:transform lg:-translate-x-1/2 z-10 lg:w-auto">
+      <div
+        className="absolute top-4 left-4 right-4 lg:left-1/2 lg:right-auto lg:transform lg:-translate-x-1/2 z-10 lg:w-auto select-none"
+        onMouseDown={(e) => e.stopPropagation()}
+        onTouchStart={(e) => e.stopPropagation()}
+        draggable={false}
+      >
         <Suspense fallback={
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-2">
             <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
@@ -210,9 +215,14 @@ export default function MapClient({
       </div>
 
       {/* Search Bar & Filters Panel - Hidden on Mobile by Default, Always Visible on Desktop */}
-      <div className={`absolute top-20 lg:top-4 right-4 z-20 w-[calc(100%-2rem)] sm:w-96 lg:w-80 space-y-3 transition-all duration-300 ${
-        isSearchOpen ? 'block' : 'hidden lg:block'
-      }`}>
+      <div
+        className={`absolute top-20 lg:top-4 right-4 z-20 w-[calc(100%-2rem)] sm:w-96 lg:w-80 space-y-3 transition-all duration-300 select-none ${
+          isSearchOpen ? 'block' : 'hidden lg:block'
+        }`}
+        onMouseDown={(e) => e.stopPropagation()}
+        onTouchStart={(e) => e.stopPropagation()}
+        draggable={false}
+      >
         {/* Search Bar */}
         <Suspense fallback={
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-lg p-4">
@@ -225,6 +235,7 @@ export default function MapClient({
               handleMovieSelect(movie)
               setIsSearchOpen(false) // Close search on mobile after selection
             }}
+            onSearchFocus={() => setIsFiltersOpen(false)}
           />
         </Suspense>
 
@@ -242,6 +253,8 @@ export default function MapClient({
             <Filters
               filters={filters}
               onFiltersChange={setFilters}
+              isOpen={isFiltersOpen}
+              onOpenChange={setIsFiltersOpen}
             />
           </Suspense>
         </div>
@@ -249,7 +262,12 @@ export default function MapClient({
 
       {/* Active Filters Display - Shows selected filters as removable chips */}
       {hasActiveFilters && (
-        <div className="absolute bottom-20 lg:top-36 left-4 right-4 lg:right-4 lg:left-auto z-10 lg:w-80">
+        <div
+          className="absolute bottom-20 lg:top-36 left-4 right-4 lg:right-4 lg:left-auto z-10 lg:w-80 select-none"
+          onMouseDown={(e) => e.stopPropagation()}
+          onTouchStart={(e) => e.stopPropagation()}
+          draggable={false}
+        >
           <div className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg shadow-lg p-2 lg:p-3 border border-gray-200 dark:border-gray-700">
             <div className="flex items-center justify-between mb-1.5 lg:mb-2">
               <span className="text-[10px] lg:text-xs font-semibold text-gray-700 dark:text-gray-300">
@@ -283,7 +301,7 @@ export default function MapClient({
                 <button
                   key={platform}
                   onClick={() => removeStreamingFilter(platform)}
-                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-purple-100 dark:bg-purple-900/40 text-purple-800 dark:text-purple-300 text-[10px] lg:text-xs rounded-full hover:bg-purple-200 dark:hover:bg-purple-900/60 transition-colors"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-primary-100 dark:bg-primary-900/40 text-primary-800 dark:text-primary-300 text-[10px] lg:text-xs rounded-full hover:bg-primary-200 dark:hover:bg-primary-900/60 transition-colors"
                   title="Click to remove"
                 >
                   <span>{platform}</span>
@@ -297,7 +315,7 @@ export default function MapClient({
               {(filters.starRating[0] !== 0 || filters.starRating[1] !== 10) && (
                 <button
                   onClick={removeStarRatingFilter}
-                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-yellow-100 dark:bg-yellow-900/40 text-yellow-800 dark:text-yellow-300 text-[10px] lg:text-xs rounded-full hover:bg-yellow-200 dark:hover:bg-yellow-900/60 transition-colors"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-accent-100 dark:bg-accent-900/40 text-accent-800 dark:text-accent-300 text-[10px] lg:text-xs rounded-full hover:bg-accent-200 dark:hover:bg-accent-900/60 transition-colors"
                   title="Click to remove"
                 >
                   <span>⭐ {filters.starRating[0].toFixed(1)}-{filters.starRating[1].toFixed(1)}</span>
@@ -311,7 +329,7 @@ export default function MapClient({
               {filters.topIMDB && (
                 <button
                   onClick={removeTopIMDBFilter}
-                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 text-[10px] lg:text-xs rounded-full hover:bg-amber-200 dark:hover:bg-amber-900/60 transition-colors font-semibold border lg:border-2 border-amber-400 dark:border-amber-600 animate-pulse-soft shadow-md lg:shadow-lg shadow-amber-200/50 dark:shadow-amber-500/20"
+                  className="inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-accent-100 dark:bg-accent-900/40 text-accent-800 dark:text-accent-300 text-[10px] lg:text-xs rounded-full hover:bg-accent-200 dark:hover:bg-accent-900/60 transition-colors font-semibold border lg:border-2 border-accent-400 dark:border-accent-600 animate-pulse-soft shadow-md lg:shadow-lg shadow-accent-200/50 dark:shadow-accent-500/20"
                   title="Click to remove"
                 >
                   <span className="hidden sm:inline">🏆IMDB TOP 250</span>
@@ -334,7 +352,8 @@ export default function MapClient({
         searchQuery={searchQuery}
         filters={filters}
         focusedMovieId={focusedMovieId}
-        onClearFocus={handleResetFocus}
+        onClearFocus={handleResetView}
+        convertGeoJSONToMovie={convertGeoJSONToMovie}
       />
 
       {/* Movie Modal */}
@@ -351,26 +370,17 @@ export default function MapClient({
         </Suspense>
       )}
 
-      {/* Reset Focus Button - Shows when a movie is focused */}
-      {focusedMovieId && (
-        <div className="absolute top-24 lg:top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
-          <button
-            onClick={handleResetFocus}
-            className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white rounded-lg font-semibold shadow-lg transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
-          >
-            <span>Show All Movies</span>
-          </button>
-        </div>
-      )}
-
-      {/* Reset View Button - Shows when user has viewed a location */}
-      {isLocationViewed && !focusedMovieId && (
+      {/* Reset View Button - Shows when a movie is focused OR a location is viewed */}
+      {(focusedMovieId || isLocationViewed) && (
         <div className="absolute top-24 lg:top-20 left-1/2 transform -translate-x-1/2 z-20 px-4 w-full max-w-xs sm:max-w-none sm:w-auto">
           <button
             onClick={handleResetView}
-            className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white rounded-lg font-semibold shadow-xl backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base"
+            className="w-full sm:w-auto px-5 sm:px-7 py-3 sm:py-3.5 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white rounded-xl font-bold shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 flex items-center justify-center gap-2 text-sm sm:text-base border-2 border-red-400"
           >
-            <span>Reset View</span>
+            <svg className="w-5 h-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+            </svg>
+            <span>Reset Map</span>
           </button>
         </div>
       )}

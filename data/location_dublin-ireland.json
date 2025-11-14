@@ -4,11 +4,65 @@
     "country": "Ireland",
     "slug": "dublin-ireland",
     "coordinates": {
-      "lat": 53.34665201249999,
-      "lng": -6.2697253437499985
+      "lat": 53.34709893684209,
+      "lng": -6.268160636842106
     }
   },
   "movies": [
+    {
+      "movie_id": "tt13443470",
+      "title": "Wednesday",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt13443470.webp",
+      "thumbnail_52": "/images/thumbnails/tt13443470.webp",
+      "imdb_rating": 8.375,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0017136",
+      "title": "Metropolis",
+      "year": 1927,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0017136.webp",
+      "thumbnail_52": "/images/thumbnails/tt0017136.webp",
+      "imdb_rating": 8.099,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2710394",
+      "title": "Reign",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2710394.webp",
+      "thumbnail_52": "/images/thumbnails/tt2710394.webp",
+      "imdb_rating": 8.042,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0072684",
+      "title": "Barry Lyndon",
+      "year": 1975,
+      "genres": [
+        "Drama",
+        "Romance",
+        "War",
+        "History"
+      ],
+      "poster": "/images/posters/tt0072684.webp",
+      "thumbnail_52": "/images/thumbnails/tt0072684.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt8179402",
       "title": "Fate: The Winx Saga",
@@ -20,6 +74,21 @@
       "poster": "/images/posters/tt8179402.webp",
       "thumbnail_52": "/images/thumbnails/tt8179402.webp",
       "imdb_rating": 7.991,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112573",
+      "title": "Braveheart",
+      "year": 1995,
+      "genres": [
+        "Action",
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0112573.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112573.webp",
+      "imdb_rating": 7.941,
       "londonLocationCount": 1
     },
     {
@@ -47,7 +116,7 @@
       "poster": "/images/posters/tt2628232.webp",
       "thumbnail_52": "/images/thumbnails/tt2628232.webp",
       "imdb_rating": 7.829,
-      "londonLocationCount": 3
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt0758790",
@@ -60,6 +129,19 @@
       "poster": "/images/posters/tt0758790.webp",
       "thumbnail_52": "/images/thumbnails/tt0758790.webp",
       "imdb_rating": 7.793,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0804484",
+      "title": "Foundation",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0804484.webp",
+      "thumbnail_52": "/images/thumbnails/tt0804484.webp",
+      "imdb_rating": 7.734,
       "londonLocationCount": 2
     },
     {
@@ -116,6 +198,19 @@
       "londonLocationCount": 3
     },
     {
+      "movie_id": "tt0431308",
+      "title": "P.S. I Love You",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0431308.webp",
+      "thumbnail_52": "/images/thumbnails/tt0431308.webp",
+      "imdb_rating": 7.181,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt3464902",
       "title": "The Lobster",
       "year": 2015,
@@ -127,6 +222,19 @@
       "poster": "/images/posters/tt3464902.webp",
       "thumbnail_52": "/images/thumbnails/tt3464902.webp",
       "imdb_rating": 7.038,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt11847842",
+      "title": "The Tourist",
+      "year": 2022,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11847842.webp",
+      "thumbnail_52": "/images/thumbnails/tt11847842.webp",
+      "imdb_rating": 6.811,
       "londonLocationCount": 1
     },
     {
@@ -141,26 +249,47 @@
       "thumbnail_52": "/images/thumbnails/tt21072112.webp",
       "imdb_rating": 6.317,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3371366",
+      "title": "Transformers: The Last Knight",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3371366.webp",
+      "thumbnail_52": "/images/thumbnails/tt3371366.webp",
+      "imdb_rating": 6.055,
+      "londonLocationCount": 4
     }
   ],
   "stats": {
-    "totalMovies": 10,
-    "totalLocations": 16,
+    "totalMovies": 19,
+    "totalLocations": 38,
     "genres": {
-      "Comedy": 1,
-      "Drama": 10,
-      "Romance": 2,
-      "Sci-Fi & Fantasy": 2,
-      "Mystery": 3,
+      "Drama": 17,
+      "Science Fiction": 2,
+      "Romance": 4,
+      "War": 2,
+      "History": 2,
+      "Action": 2,
+      "Adventure": 1,
+      "Comedy": 2,
+      "Sci-Fi & Fantasy": 4,
+      "Mystery": 5,
       "Action & Adventure": 2,
       "War & Politics": 1,
       "Crime": 2
     },
     "decades": {
-      "2010s": 3,
-      "2000s": 1,
-      "2020s": 5,
-      "1990s": 1
+      "1920s": 1,
+      "1970s": 1,
+      "2010s": 5,
+      "2020s": 8,
+      "2000s": 2,
+      "1990s": 2
     }
   }
 }

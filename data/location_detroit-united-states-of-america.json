@@ -4,11 +4,50 @@
     "country": "United States of America",
     "slug": "detroit-united-states-of-america",
     "coordinates": {
-      "lat": 42.33214752222223,
-      "lng": -83.05628754444446
+      "lat": 42.337466665573764,
+      "lng": -83.05848648524591
     }
   },
   "movies": [
+    {
+      "movie_id": "tt1205489",
+      "title": "Gran Torino",
+      "year": 2008,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1205489.webp",
+      "thumbnail_52": "/images/thumbnails/tt1205489.webp",
+      "imdb_rating": 7.989,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0372784",
+      "title": "Batman Begins",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0372784.webp",
+      "thumbnail_52": "/images/thumbnails/tt0372784.webp",
+      "imdb_rating": 7.718,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0044706",
+      "title": "High Noon",
+      "year": 1952,
+      "genres": [
+        "Western",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0044706.webp",
+      "thumbnail_52": "/images/thumbnails/tt0044706.webp",
+      "imdb_rating": 7.657,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt1431045",
       "title": "Deadpool",
@@ -35,7 +74,7 @@
       "poster": "/images/posters/tt0108399.webp",
       "thumbnail_52": "/images/thumbnails/tt0108399.webp",
       "imdb_rating": 7.542,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0092991",
@@ -49,6 +88,20 @@
       "poster": "/images/posters/tt0092991.webp",
       "thumbnail_52": "/images/thumbnails/tt0092991.webp",
       "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7131622",
+      "title": "Once Upon a Time... in Hollywood",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt7131622.webp",
+      "thumbnail_52": "/images/thumbnails/tt7131622.webp",
+      "imdb_rating": 7.426,
       "londonLocationCount": 1
     },
     {
@@ -102,7 +155,7 @@
       "poster": "/images/posters/tt0086960.webp",
       "thumbnail_52": "/images/thumbnails/tt0086960.webp",
       "imdb_rating": 7.2,
-      "londonLocationCount": 2
+      "londonLocationCount": 11
     },
     {
       "movie_id": "tt0298203",
@@ -115,7 +168,7 @@
       "poster": "/images/posters/tt0298203.webp",
       "thumbnail_52": "/images/thumbnails/tt0298203.webp",
       "imdb_rating": 7.1,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0433035",
@@ -129,7 +182,7 @@
       "poster": "/images/posters/tt0433035.webp",
       "thumbnail_52": "/images/thumbnails/tt0433035.webp",
       "imdb_rating": 7.1,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt4160708",
@@ -146,6 +199,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1193138",
+      "title": "Up in the Air",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1193138.webp",
+      "thumbnail_52": "/images/thumbnails/tt1193138.webp",
+      "imdb_rating": 6.882,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt15791034",
       "title": "Barbarian",
       "year": 2022,
@@ -156,6 +222,20 @@
       "poster": "/images/posters/tt15791034.webp",
       "thumbnail_52": "/images/thumbnails/tt15791034.webp",
       "imdb_rating": 6.84,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0418279",
+      "title": "Transformers",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0418279.webp",
+      "thumbnail_52": "/images/thumbnails/tt0418279.webp",
+      "imdb_rating": 6.82,
       "londonLocationCount": 1
     },
     {
@@ -171,7 +251,32 @@
       "poster": "/images/posters/tt0399201.webp",
       "thumbnail_52": "/images/thumbnails/tt0399201.webp",
       "imdb_rating": 6.685,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1124035",
+      "title": "The Ides of March",
+      "year": 2011,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1124035.webp",
+      "thumbnail_52": "/images/thumbnails/tt1124035.webp",
+      "imdb_rating": 6.674,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3235888",
+      "title": "It Follows",
+      "year": 2015,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt3235888.webp",
+      "thumbnail_52": "/images/thumbnails/tt3235888.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt1155076",
@@ -226,7 +331,7 @@
       "poster": "/images/posters/tt2975590.webp",
       "thumbnail_52": "/images/thumbnails/tt2975590.webp",
       "imdb_rating": 5.987,
-      "londonLocationCount": 1
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt2109248",
@@ -244,28 +349,31 @@
     }
   ],
   "stats": {
-    "totalMovies": 17,
-    "totalLocations": 18,
+    "totalMovies": 25,
+    "totalLocations": 61,
     "genres": {
-      "Horror": 4,
-      "Comedy": 4,
+      "Drama": 10,
+      "Horror": 5,
+      "Comedy": 5,
       "Fantasy": 2,
-      "Action": 10,
-      "Science Fiction": 5,
-      "Adventure": 6,
-      "Drama": 4,
+      "Adventure": 7,
+      "Science Fiction": 6,
+      "Action": 12,
+      "Thriller": 5,
       "Music": 1,
-      "Thriller": 4,
-      "Crime": 3,
-      "Romance": 1,
+      "Romance": 2,
+      "Crime": 4,
+      "Mystery": 1,
       "Sci-Fi & Fantasy": 1,
+      "Western": 1,
       "Family": 1
     },
     "decades": {
+      "2000s": 7,
       "1980s": 4,
-      "2010s": 8,
-      "2000s": 3,
+      "2010s": 11,
       "1990s": 1,
+      "1950s": 1,
       "2020s": 1
     }
   }

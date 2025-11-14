@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "oakland-united-states-of-america",
     "coordinates": {
-      "lat": 38.09579543636364,
-      "lng": -117.90542882727273
+      "lat": 37.908042499999986,
+      "lng": -120.71729148387104
     }
   },
   "movies": [
@@ -20,6 +20,86 @@
       "poster": "/images/posters/tt0032553.webp",
       "thumbnail_52": "/images/thumbnails/tt0032553.webp",
       "imdb_rating": 8.3,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0031381",
+      "title": "Gone with the Wind",
+      "year": 1939,
+      "genres": [
+        "Drama",
+        "War",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0031381.webp",
+      "thumbnail_52": "/images/thumbnails/tt0031381.webp",
+      "imdb_rating": 7.925,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0454921",
+      "title": "The Pursuit of Happyness",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0454921.webp",
+      "thumbnail_52": "/images/thumbnails/tt0454921.webp",
+      "imdb_rating": 7.891,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0383126",
+      "title": "MythBusters",
+      "year": 2003,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "/images/posters/tt0383126.webp",
+      "thumbnail_52": "/images/thumbnails/tt0383126.webp",
+      "imdb_rating": 7.812,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1843866",
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1843866.webp",
+      "thumbnail_52": "/images/thumbnails/tt1843866.webp",
+      "imdb_rating": 7.655,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1837492",
+      "title": "13 Reasons Why",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1837492.webp",
+      "thumbnail_52": "/images/thumbnails/tt1837492.webp",
+      "imdb_rating": 7.566,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0096438",
+      "title": "Who Framed Roger Rabbit",
+      "year": 1988,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0096438.webp",
+      "thumbnail_52": "/images/thumbnails/tt0096438.webp",
+      "imdb_rating": 7.532,
       "londonLocationCount": 1
     },
     {
@@ -58,7 +138,7 @@
       "poster": "/images/posters/tt1210166.webp",
       "thumbnail_52": "/images/thumbnails/tt1210166.webp",
       "imdb_rating": 7.282,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0107614",
@@ -87,7 +167,20 @@
       "poster": "/images/posters/tt0234215.webp",
       "thumbnail_52": "/images/thumbnails/tt0234215.webp",
       "imdb_rating": 7.066,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0092099",
+      "title": "Top Gun",
+      "year": 1986,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0092099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092099.webp",
+      "imdb_rating": 7.061,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0103772",
@@ -100,6 +193,20 @@
       "poster": "/images/posters/tt0103772.webp",
       "thumbnail_52": "/images/thumbnails/tt0103772.webp",
       "imdb_rating": 6.925,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt5095030",
+      "title": "Ant-Man and the Wasp",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt5095030.webp",
+      "thumbnail_52": "/images/thumbnails/tt5095030.webp",
+      "imdb_rating": 6.912,
       "londonLocationCount": 1
     },
     {
@@ -117,6 +224,21 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0242653",
+      "title": "The Matrix Revolutions",
+      "year": 2003,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0242653.webp",
+      "thumbnail_52": "/images/thumbnails/tt0242653.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0100403",
       "title": "Predator 2",
       "year": 1990,
@@ -129,28 +251,64 @@
       "thumbnail_52": "/images/thumbnails/tt0100403.webp",
       "imdb_rating": 6.3,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0108174",
+      "title": "So I Married an Axe Murderer",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108174.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108174.webp",
+      "imdb_rating": 6.088,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2209764",
+      "title": "Transcendence",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2209764.webp",
+      "thumbnail_52": "/images/thumbnails/tt2209764.webp",
+      "imdb_rating": 6.058,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 9,
-    "totalLocations": 11,
+    "totalMovies": 20,
+    "totalLocations": 31,
     "genres": {
-      "Comedy": 2,
-      "War": 1,
-      "Science Fiction": 4,
-      "Action": 4,
-      "Adventure": 3,
-      "Thriller": 3,
-      "Drama": 3,
+      "Comedy": 4,
+      "War": 2,
+      "Action": 8,
+      "Adventure": 6,
+      "Science Fiction": 8,
+      "Crime": 2,
+      "Romance": 2,
+      "Thriller": 5,
+      "Drama": 8,
+      "Mystery": 3,
       "Family": 1,
-      "Mystery": 1
+      "Documentary": 1,
+      "Fantasy": 1,
+      "Animation": 1
     },
     "decades": {
       "1940s": 1,
+      "2010s": 7,
+      "1990s": 4,
       "2020s": 1,
-      "2010s": 3,
-      "2000s": 1,
-      "1990s": 3
+      "2000s": 4,
+      "1980s": 2,
+      "1930s": 1
     }
   }
 }

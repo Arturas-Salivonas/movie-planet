@@ -4,11 +4,38 @@
     "country": "United States of America",
     "slug": "cincinnati-united-states-of-america",
     "coordinates": {
-      "lat": 39.10975714285714,
-      "lng": -84.50212964285716
+      "lat": 39.111156311764695,
+      "lng": -84.5019598764706
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0848228",
+      "title": "The Avengers",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0848228.webp",
+      "thumbnail_52": "/images/thumbnails/tt0848228.webp",
+      "imdb_rating": 7.842,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0036868",
+      "title": "The Best Years of Our Lives",
+      "year": 1946,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0036868.webp",
+      "thumbnail_52": "/images/thumbnails/tt0036868.webp",
+      "imdb_rating": 7.783,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt0095953",
       "title": "Rain Man",
@@ -19,6 +46,19 @@
       "poster": "/images/posters/tt0095953.webp",
       "thumbnail_52": "/images/thumbnails/tt0095953.webp",
       "imdb_rating": 7.751,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2582846",
+      "title": "The Fault in Our Stars",
+      "year": 2014,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2582846.webp",
+      "thumbnail_52": "/images/thumbnails/tt2582846.webp",
+      "imdb_rating": 7.6,
       "londonLocationCount": 1
     },
     {
@@ -33,6 +73,19 @@
       "poster": "/images/posters/tt5950044.webp",
       "thumbnail_52": "/images/thumbnails/tt5950044.webp",
       "imdb_rating": 7.4,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1396484",
+      "title": "It",
+      "year": 2017,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1396484.webp",
+      "thumbnail_52": "/images/thumbnails/tt1396484.webp",
+      "imdb_rating": 7.238,
       "londonLocationCount": 1
     },
     {
@@ -73,25 +126,28 @@
       "poster": "/images/posters/tt1124035.webp",
       "thumbnail_52": "/images/thumbnails/tt1124035.webp",
       "imdb_rating": 6.674,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     }
   ],
   "stats": {
-    "totalMovies": 5,
-    "totalLocations": 7,
+    "totalMovies": 9,
+    "totalLocations": 17,
     "genres": {
-      "Drama": 4,
-      "Science Fiction": 1,
-      "Adventure": 1,
-      "Action": 1,
-      "Thriller": 2,
+      "Science Fiction": 2,
+      "Action": 2,
+      "Adventure": 2,
+      "Drama": 6,
+      "Romance": 2,
+      "Horror": 1,
+      "Thriller": 3,
       "Crime": 1,
       "Mystery": 1
     },
     "decades": {
+      "2010s": 5,
+      "1940s": 1,
       "1980s": 1,
       "2020s": 1,
-      "2010s": 2,
       "2000s": 1
     }
   }

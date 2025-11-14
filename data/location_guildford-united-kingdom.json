@@ -4,11 +4,52 @@
     "country": "United Kingdom",
     "slug": "guildford-united-kingdom",
     "coordinates": {
-      "lat": 51.229096566666676,
-      "lng": -0.5030803333333332
+      "lat": 51.231078141176475,
+      "lng": -0.5107399294117646
     }
   },
   "movies": [
+    {
+      "movie_id": "tt4786824",
+      "title": "The Crown",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4786824.webp",
+      "thumbnail_52": "/images/thumbnails/tt4786824.webp",
+      "imdb_rating": 8.197,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0310455",
+      "title": "Foyle's War",
+      "year": 2002,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0310455.webp",
+      "thumbnail_52": "/images/thumbnails/tt0310455.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1751634",
+      "title": "The Sandman",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1751634.webp",
+      "thumbnail_52": "/images/thumbnails/tt1751634.webp",
+      "imdb_rating": 7.896,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt13210838",
       "title": "The Gentlemen",
@@ -34,7 +75,7 @@
       "poster": "/images/posters/tt8594324.webp",
       "thumbnail_52": "/images/thumbnails/tt8594324.webp",
       "imdb_rating": 7.86,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt0118401",
@@ -48,6 +89,20 @@
       "poster": "/images/posters/tt0118401.webp",
       "thumbnail_52": "/images/thumbnails/tt0118401.webp",
       "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7846844",
+      "title": "Enola Holmes",
+      "year": 2020,
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7846844.webp",
+      "thumbnail_52": "/images/thumbnails/tt7846844.webp",
+      "imdb_rating": 7.242,
       "londonLocationCount": 1
     },
     {
@@ -75,25 +130,62 @@
       "poster": "/images/posters/tt0109831.webp",
       "thumbnail_52": "/images/thumbnails/tt0109831.webp",
       "imdb_rating": 6.771,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0243155",
+      "title": "Bridget Jones's Diary",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0243155.webp",
+      "thumbnail_52": "/images/thumbnails/tt0243155.webp",
+      "imdb_rating": 6.742,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2345759",
+      "title": "The Mummy",
+      "year": 2017,
+      "genres": [
+        "Fantasy",
+        "Thriller",
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt2345759.webp",
+      "thumbnail_52": "/images/thumbnails/tt2345759.webp",
+      "imdb_rating": 5.5,
       "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 5,
-    "totalLocations": 6,
+    "totalMovies": 11,
+    "totalLocations": 17,
     "genres": {
-      "Comedy": 4,
-      "Drama": 3,
-      "Romance": 2,
-      "Crime": 2,
-      "Mystery": 1,
-      "Sci-Fi & Fantasy": 1
+      "Comedy": 5,
+      "Drama": 7,
+      "Romance": 3,
+      "Fantasy": 1,
+      "Thriller": 1,
+      "Action": 1,
+      "Adventure": 2,
+      "Horror": 1,
+      "Mystery": 3,
+      "War & Politics": 1,
+      "Crime": 4,
+      "Sci-Fi & Fantasy": 2,
+      "Action & Adventure": 1
     },
     "decades": {
       "1990s": 2,
-      "2020s": 1,
-      "2000s": 1,
-      "2010s": 1
+      "2010s": 3,
+      "2000s": 3,
+      "2020s": 3
     }
   }
 }

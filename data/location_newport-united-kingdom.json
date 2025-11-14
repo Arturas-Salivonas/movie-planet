@@ -4,11 +4,24 @@
     "country": "United Kingdom",
     "slug": "newport-united-kingdom",
     "coordinates": {
-      "lat": 51.5748774,
-      "lng": -3.0129178000000003
+      "lat": 51.584661849999996,
+      "lng": -2.9994426749999996
     }
   },
   "movies": [
+    {
+      "movie_id": "tt7767422",
+      "title": "Sex Education",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7767422.webp",
+      "thumbnail_52": "/images/thumbnails/tt7767422.webp",
+      "imdb_rating": 8.219,
+      "londonLocationCount": 2
+    },
     {
       "movie_id": "tt0436992",
       "title": "Doctor Who",
@@ -21,7 +34,7 @@
       "poster": "/images/posters/tt0436992.webp",
       "thumbnail_52": "/images/thumbnails/tt0436992.webp",
       "imdb_rating": 7.571,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0485301",
@@ -63,21 +76,22 @@
       "poster": "/images/posters/tt1349938.webp",
       "thumbnail_52": "/images/thumbnails/tt1349938.webp",
       "imdb_rating": 7.1,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 4,
-    "totalLocations": 4,
+    "totalMovies": 5,
+    "totalLocations": 8,
     "genres": {
       "Action & Adventure": 3,
-      "Drama": 4,
+      "Drama": 5,
       "Sci-Fi & Fantasy": 4,
+      "Comedy": 1,
       "Mystery": 1
     },
     "decades": {
       "2000s": 3,
-      "2010s": 1
+      "2010s": 2
     }
   }
 }

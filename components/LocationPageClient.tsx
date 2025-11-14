@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from './Breadcrumbs'
+import { STYLES } from '../lib/constants/theme'
 
 interface LocationMovie {
   movie_id: string
@@ -70,7 +71,7 @@ export default function LocationPageClient({ movies, location, stats }: Location
     .slice(0, 10)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white pt-20" data-location-page>
+    <div className="min-h-screen text-white pt-20" style={STYLES.spaceBackground} data-location-page>
       {/* Header */}
       <div className="relative overflow-hidden">
         <div className="relative container mx-auto px-4 py-16">
@@ -109,11 +110,11 @@ export default function LocationPageClient({ movies, location, stats }: Location
               <div className="text-sm text-gray-400">Movies & Series</div>
             </div>
             <div className="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-4xl font-bold text-purple-400 mb-2">{stats.totalLocations}</div>
+              <div className="text-4xl font-bold text-accent-400 mb-2">{stats.totalLocations}</div>
               <div className="text-sm text-gray-400">Filming Locations</div>
             </div>
             <div className="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-4xl font-bold text-blue-400 mb-2">{topGenres.length}</div>
+              <div className="text-4xl font-bold text-primary-300 mb-2">{topGenres.length}</div>
               <div className="text-sm text-gray-400">Different Genres</div>
             </div>
           </div>
@@ -245,7 +246,7 @@ export default function LocationPageClient({ movies, location, stats }: Location
 
       {/* Bottom CTA */}
       <div className="container mx-auto px-4 py-16">
-        <div className="bg-gradient-to-r from-primary-600 to-purple-700 rounded-2xl p-8 md:p-12 text-center">
+        <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-2xl p-8 md:p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Explore More Filming Locations
           </h2>

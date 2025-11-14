@@ -1,0 +1,63 @@
+{
+  "location": {
+    "city": "Fort William",
+    "country": "United Kingdom",
+    "slug": "fort-william-united-kingdom",
+    "coordinates": {
+      "lat": 56.8178257,
+      "lng": -5.1109516
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0304141",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0304141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0304141.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0330373",
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0330373.webp",
+      "thumbnail_52": "/images/thumbnails/tt0330373.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0295297.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295297.webp",
+      "imdb_rating": 7.705,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 4,
+    "genres": {
+      "Adventure": 3,
+      "Fantasy": 3
+    },
+    "decades": {
+      "2000s": 3
+    }
+  }
+}

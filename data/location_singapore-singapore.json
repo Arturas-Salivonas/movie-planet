@@ -1,0 +1,84 @@
+{
+  "location": {
+    "city": "Singapore",
+    "country": "Singapore",
+    "slug": "singapore-singapore",
+    "coordinates": {
+      "lat": 1.32585414,
+      "lng": 103.75705066
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4574334",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4574334.webp",
+      "thumbnail_52": "/images/thumbnails/tt4574334.webp",
+      "imdb_rating": 8.593,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10293938",
+      "title": "Outer Banks",
+      "year": 2020,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt10293938.webp",
+      "thumbnail_52": "/images/thumbnails/tt10293938.webp",
+      "imdb_rating": 8.316,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11712058",
+      "title": "Mayor of Kingstown",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt11712058.webp",
+      "thumbnail_52": "/images/thumbnails/tt11712058.webp",
+      "imdb_rating": 7.853,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3104988",
+      "title": "Crazy Rich Asians",
+      "year": 2018,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt3104988.webp",
+      "thumbnail_52": "/images/thumbnails/tt3104988.webp",
+      "imdb_rating": 7.062,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 5,
+    "genres": {
+      "Drama": 3,
+      "Sci-Fi & Fantasy": 1,
+      "Mystery": 2,
+      "Action & Adventure": 1,
+      "Crime": 1,
+      "Comedy": 1,
+      "Romance": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2020s": 2
+    }
+  }
+}

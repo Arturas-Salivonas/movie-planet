@@ -10,6 +10,7 @@ import maplibregl from 'maplibre-gl'
 import type { Movie, FilterState } from '../../types'
 import { useMapInitialization } from '../../hooks/useMapInitialization'
 import { useMapMarkers } from '../../hooks/useMapMarkers'
+import { STYLES } from '../../../lib/constants/theme'
 
 interface MapProps {
   selectedMovie: Movie | null
@@ -18,6 +19,7 @@ interface MapProps {
   filters: FilterState
   focusedMovieId?: string | null
   onClearFocus?: () => void
+  convertGeoJSONToMovie?: (feature: any) => Promise<Movie>
 }
 
 export interface MapRef {
@@ -34,6 +36,7 @@ const Map = forwardRef<MapRef, MapProps>(({
   filters,
   focusedMovieId,
   onClearFocus,
+  convertGeoJSONToMovie,
 }, ref) => {
   const mapContainer = useRef<HTMLDivElement>(null)
 
@@ -41,12 +44,13 @@ const Map = forwardRef<MapRef, MapProps>(({
   const { map } = useMapInitialization({ mapContainer })
 
   // Manage markers, loading, and interactions
-  const { movies, geojsonFeatures, loadingState, initializedRef } = useMapMarkers({
+  const { geojsonFeatures, loadingState, initializedRef } = useMapMarkers({
     map,
     onMovieSelect,
     filters,
     focusedMovieId,
-    onClearFocus
+    onClearFocus,
+    convertGeoJSONToMovie
   })
 
   // Expose methods to parent component
@@ -195,15 +199,20 @@ const Map = forwardRef<MapRef, MapProps>(({
       <div className="stars-background" />
 
       {/* Map container */}
-      <div ref={mapContainer} style={{ width: '100%', height: '100%', position: 'relative', zIndex: 1 }} />
+      <div
+        ref={mapContainer}
+        style={{ width: '100%', height: '100%', position: 'relative', zIndex: 1 }}
+        onDragStart={(e) => e.preventDefault()}
+        className="select-none"
+      />
 
       {/* Loading Screen Overlay */}
       {loadingState.isLoading && !initializedRef.current && (
-        <div className="absolute inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+        <div className="absolute inset-0 z-50 flex items-center justify-center" style={STYLES.spaceBackground}>
           <div className="text-center space-y-6 px-8">
-            <div className="text-xl animate-bounce">
+            {/* <div className="text-xl animate-bounce">
               <img src="images/logo/filmingmap-logo.webp" alt="filmingmap Logo" className="" />
-            </div>
+            </div> */}
 
             <p className="text-xl text-gray-300">
               {loadingState.stage}
@@ -211,7 +220,7 @@ const Map = forwardRef<MapRef, MapProps>(({
 
             <div className="w-80 bg-gray-700 rounded-full h-3 overflow-hidden">
               <div
-                className="bg-gradient-to-r from-primary-500 to-purple-600 h-full transition-all duration-300 ease-out"
+                className="bg-gradient-to-r from-primary-500 to-accent-300 h-full transition-all duration-300 ease-out"
                 style={{ width: `${loadingState.progress}%` }}
               />
             </div>
@@ -261,15 +270,15 @@ const Map = forwardRef<MapRef, MapProps>(({
         </div>
       </div> */}
 
-            <div className="hidden mt-4 lg:block z-10 absolute top-16 left-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+            <div className="select-none hidden mt-4 lg:block z-10 absolute top-16 left-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
 
 
    {/* Instructions - Left Side (Hidden on Mobile) */}
-   <p className='text-xs text-gray-300'>This is an interactive 3D globe that lets you discover real-world filming locations from over {movies.filter(m => m.type !== 'tv').length}+ movies and {movies.filter(m => m.type === 'tv').length}+ TV shows.
+   <p className='text-xs text-gray-300'>Interactive globe that lets you discover filming locations from over <span className='font-bold italic'>2647+</span> movie &  TV shows.
 </p>
 {/* <p className='text-xs text-gray-300 space-y-1 mt-3'>  Use the 🔍 search or filters to find your favorites, 🗺️ click on markers to learn more about each location, and 🌐 rotate or zoom the globe to explore cinematic landscapes around the world.</p> */}
         <h3 className="text-sm font-bold mb-2 mt-2 flex items-center gap-2">
-         How to Use
+         How to Use:
         </h3>
         <ul className="text-xs text-gray-300 space-y-1 mb-3">
           <li>🔍 Use the search or filters to find your favorites</li>
@@ -277,6 +286,7 @@ const Map = forwardRef<MapRef, MapProps>(({
           <li>🌐 Rotate or zoom the globe to explore locations</li>
 
         </ul>
+        <p className='inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-accent-900 text-accent-800 dark:text-accent-300 text-[10px] lg:text-xs transition-colors font-semibold  shadow-md lg:shadow-lg shadow-accent-200/50 dark:shadow-accent-500/20'>Alpha v0.15</p>
              {/* <p className="text-xl font-bold">
                movies {movies.filter(m => m.type !== 'tv').length}
               </p>

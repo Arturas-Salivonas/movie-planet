@@ -4,8 +4,8 @@
     "country": "Canada",
     "slug": "toronto-canada",
     "coordinates": {
-      "lat": 43.6610185437159,
-      "lng": -79.38672898251353
+      "lat": 43.661894766843325,
+      "lng": -79.3854091090184
     }
   },
   "movies": [
@@ -65,6 +65,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0403778",
+      "title": "Long Way Round",
+      "year": 2004,
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0403778.webp",
+      "thumbnail_52": "/images/thumbnails/tt0403778.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt2243973",
       "title": "Hannibal",
       "year": 2013,
@@ -75,7 +88,7 @@
       "poster": "/images/posters/tt2243973.webp",
       "thumbnail_52": "/images/thumbnails/tt2243973.webp",
       "imdb_rating": 8.3,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2085059",
@@ -89,6 +102,18 @@
       "poster": "/images/posters/tt2085059.webp",
       "thumbnail_52": "/images/thumbnails/tt2085059.webp",
       "imdb_rating": 8.285,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0200276",
+      "title": "The West Wing",
+      "year": 1999,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0200276.webp",
+      "thumbnail_52": "/images/thumbnails/tt0200276.webp",
+      "imdb_rating": 8.267,
       "londonLocationCount": 1
     },
     {
@@ -139,7 +164,7 @@
       "poster": "/images/posters/tt0119217.webp",
       "thumbnail_52": "/images/thumbnails/tt0119217.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 3
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt5834204",
@@ -166,7 +191,7 @@
       "poster": "/images/posters/tt1119644.webp",
       "thumbnail_52": "/images/thumbnails/tt1119644.webp",
       "imdb_rating": 8.145,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt7949218",
@@ -235,7 +260,7 @@
       "poster": "/images/posters/tt10813940.webp",
       "thumbnail_52": "/images/thumbnails/tt10813940.webp",
       "imdb_rating": 8.047,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2710394",
@@ -247,6 +272,19 @@
       "poster": "/images/posters/tt2710394.webp",
       "thumbnail_52": "/images/thumbnails/tt2710394.webp",
       "imdb_rating": 8.042,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt11743610",
+      "title": "The Terminal List",
+      "year": 2022,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11743610.webp",
+      "thumbnail_52": "/images/thumbnails/tt11743610.webp",
+      "imdb_rating": 8,
       "londonLocationCount": 1
     },
     {
@@ -273,7 +311,7 @@
       "poster": "/images/posters/tt3170832.webp",
       "thumbnail_52": "/images/thumbnails/tt3170832.webp",
       "imdb_rating": 7.999,
-      "londonLocationCount": 3
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt7908628",
@@ -286,7 +324,7 @@
       "poster": "/images/posters/tt7908628.webp",
       "thumbnail_52": "/images/thumbnails/tt7908628.webp",
       "imdb_rating": 7.994,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0312172",
@@ -300,7 +338,7 @@
       "poster": "/images/posters/tt0312172.webp",
       "thumbnail_52": "/images/thumbnails/tt0312172.webp",
       "imdb_rating": 7.956,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0238784",
@@ -369,6 +407,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0074958",
+      "title": "Network",
+      "year": 1976,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0074958.webp",
+      "thumbnail_52": "/images/thumbnails/tt0074958.webp",
+      "imdb_rating": 7.814,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt2234222",
       "title": "Orphan Black",
       "year": 2013,
@@ -379,7 +429,7 @@
       "poster": "/images/posters/tt2234222.webp",
       "thumbnail_52": "/images/thumbnails/tt2234222.webp",
       "imdb_rating": 7.814,
-      "londonLocationCount": 3
+      "londonLocationCount": 20
     },
     {
       "movie_id": "tt1895587",
@@ -392,7 +442,21 @@
       "poster": "/images/posters/tt1895587.webp",
       "thumbnail_52": "/images/thumbnails/tt1895587.webp",
       "imdb_rating": 7.813,
-      "londonLocationCount": 3
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt10160804",
+      "title": "Hawkeye",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt10160804.webp",
+      "thumbnail_52": "/images/thumbnails/tt10160804.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0285331",
@@ -420,7 +484,7 @@
       "poster": "/images/posters/tt3007572.webp",
       "thumbnail_52": "/images/thumbnails/tt3007572.webp",
       "imdb_rating": 7.77,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3526078",
@@ -432,7 +496,7 @@
       "poster": "/images/posters/tt3526078.webp",
       "thumbnail_52": "/images/thumbnails/tt3526078.webp",
       "imdb_rating": 7.741,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt1429449",
@@ -487,7 +551,7 @@
       "poster": "/images/posters/tt1132290.webp",
       "thumbnail_52": "/images/thumbnails/tt1132290.webp",
       "imdb_rating": 7.7,
-      "londonLocationCount": 2
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt6116060",
@@ -596,7 +660,7 @@
       "poster": "/images/posters/tt0446029.webp",
       "thumbnail_52": "/images/thumbnails/tt0446029.webp",
       "imdb_rating": 7.487,
-      "londonLocationCount": 5
+      "londonLocationCount": 17
     },
     {
       "movie_id": "tt8415836",
@@ -623,7 +687,7 @@
       "poster": "/images/posters/tt0091064.webp",
       "thumbnail_52": "/images/thumbnails/tt0091064.webp",
       "imdb_rating": 7.422,
-      "londonLocationCount": 3
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt0144084",
@@ -637,7 +701,7 @@
       "poster": "/images/posters/tt0144084.webp",
       "thumbnail_52": "/images/thumbnails/tt0144084.webp",
       "imdb_rating": 7.408,
-      "londonLocationCount": 2
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt3148266",
@@ -757,7 +821,20 @@
       "poster": "/images/posters/tt5580390.webp",
       "thumbnail_52": "/images/thumbnails/tt5580390.webp",
       "imdb_rating": 7.24,
-      "londonLocationCount": 4
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt1396484",
+      "title": "It",
+      "year": 2017,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1396484.webp",
+      "thumbnail_52": "/images/thumbnails/tt1396484.webp",
+      "imdb_rating": 7.238,
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt1592154",
@@ -770,7 +847,7 @@
       "poster": "/images/posters/tt1592154.webp",
       "thumbnail_52": "/images/thumbnails/tt1592154.webp",
       "imdb_rating": 7.237,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt1606389",
@@ -810,7 +887,7 @@
       "poster": "/images/posters/tt0377092.webp",
       "thumbnail_52": "/images/thumbnails/tt0377092.webp",
       "imdb_rating": 7.222,
-      "londonLocationCount": 2
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt0085334",
@@ -823,7 +900,34 @@
       "poster": "/images/posters/tt0085334.webp",
       "thumbnail_52": "/images/thumbnails/tt0085334.webp",
       "imdb_rating": 7.214,
-      "londonLocationCount": 2
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0399146",
+      "title": "A History of Violence",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0399146.webp",
+      "thumbnail_52": "/images/thumbnails/tt0399146.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0389564",
+      "title": "The 4400",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0389564.webp",
+      "thumbnail_52": "/images/thumbnails/tt0389564.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0106052",
@@ -903,7 +1007,7 @@
       "poster": "/images/posters/tt0299658.webp",
       "thumbnail_52": "/images/thumbnails/tt0299658.webp",
       "imdb_rating": 7.124,
-      "londonLocationCount": 3
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt1250777",
@@ -916,7 +1020,7 @@
       "poster": "/images/posters/tt1250777.webp",
       "thumbnail_52": "/images/thumbnails/tt1250777.webp",
       "imdb_rating": 7.122,
-      "londonLocationCount": 1
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt27995113",
@@ -930,6 +1034,34 @@
       "poster": "/images/posters/tt27995113.webp",
       "thumbnail_52": "/images/thumbnails/tt27995113.webp",
       "imdb_rating": 7.113,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1051906",
+      "title": "The Invisible Man",
+      "year": 2020,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt1051906.webp",
+      "thumbnail_52": "/images/thumbnails/tt1051906.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1462059",
+      "title": "Falling Skies",
+      "year": 2011,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1462059.webp",
+      "thumbnail_52": "/images/thumbnails/tt1462059.webp",
+      "imdb_rating": 7.1,
       "londonLocationCount": 1
     },
     {
@@ -982,7 +1114,7 @@
       "poster": "/images/posters/tt0363547.webp",
       "thumbnail_52": "/images/thumbnails/tt0363547.webp",
       "imdb_rating": 7.052,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt6510950",
@@ -1009,7 +1141,7 @@
       "poster": "/images/posters/tt0120903.webp",
       "thumbnail_52": "/images/thumbnails/tt0120903.webp",
       "imdb_rating": 7.006,
-      "londonLocationCount": 3
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt7798634",
@@ -1049,7 +1181,7 @@
       "poster": "/images/posters/tt1148204.webp",
       "thumbnail_52": "/images/thumbnails/tt1148204.webp",
       "imdb_rating": 6.996,
-      "londonLocationCount": 3
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0448115",
@@ -1063,7 +1195,20 @@
       "poster": "/images/posters/tt0448115.webp",
       "thumbnail_52": "/images/thumbnails/tt0448115.webp",
       "imdb_rating": 6.985,
-      "londonLocationCount": 3
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt0799862",
+      "title": "Caprica",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0799862.webp",
+      "thumbnail_52": "/images/thumbnails/tt0799862.webp",
+      "imdb_rating": 6.943,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt5774002",
@@ -1092,7 +1237,7 @@
       "poster": "/images/posters/tt1663662.webp",
       "thumbnail_52": "/images/thumbnails/tt1663662.webp",
       "imdb_rating": 6.9,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt2316411",
@@ -1105,7 +1250,7 @@
       "poster": "/images/posters/tt2316411.webp",
       "thumbnail_52": "/images/thumbnails/tt2316411.webp",
       "imdb_rating": 6.9,
-      "londonLocationCount": 4
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt3952222",
@@ -1144,7 +1289,7 @@
       "poster": "/images/posters/tt7349950.webp",
       "thumbnail_52": "/images/thumbnails/tt7349950.webp",
       "imdb_rating": 6.837,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0123755",
@@ -1158,7 +1303,7 @@
       "poster": "/images/posters/tt0123755.webp",
       "thumbnail_52": "/images/thumbnails/tt0123755.webp",
       "imdb_rating": 6.807,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0251127",
@@ -1171,7 +1316,7 @@
       "poster": "/images/posters/tt0251127.webp",
       "thumbnail_52": "/images/thumbnails/tt0251127.webp",
       "imdb_rating": 6.8,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt1183865",
@@ -1188,6 +1333,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0139134",
+      "title": "Cruel Intentions",
+      "year": 1999,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0139134.webp",
+      "thumbnail_52": "/images/thumbnails/tt0139134.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0114694",
       "title": "Tommy Boy",
       "year": 1995,
@@ -1197,7 +1355,7 @@
       "poster": "/images/posters/tt0114694.webp",
       "thumbnail_52": "/images/thumbnails/tt0114694.webp",
       "imdb_rating": 6.792,
-      "londonLocationCount": 1
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt2189221",
@@ -1223,7 +1381,7 @@
       "poster": "/images/posters/tt4159076.webp",
       "thumbnail_52": "/images/thumbnails/tt4159076.webp",
       "imdb_rating": 6.744,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt5040012",
@@ -1252,7 +1410,7 @@
       "poster": "/images/posters/tt1245526.webp",
       "thumbnail_52": "/images/thumbnails/tt1245526.webp",
       "imdb_rating": 6.701,
-      "londonLocationCount": 4
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt13064902",
@@ -1305,7 +1463,21 @@
       "poster": "/images/posters/tt0384537.webp",
       "thumbnail_52": "/images/thumbnails/tt0384537.webp",
       "imdb_rating": 6.602,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1446714",
+      "title": "Prometheus",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1446714.webp",
+      "thumbnail_52": "/images/thumbnails/tt1446714.webp",
+      "imdb_rating": 6.584,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt6170874",
@@ -1401,6 +1573,20 @@
       "poster": "/images/posters/tt1650554.webp",
       "thumbnail_52": "/images/thumbnails/tt1650554.webp",
       "imdb_rating": 6.401,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1111422",
+      "title": "The Taking of Pelham 1 2 3",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1111422.webp",
+      "thumbnail_52": "/images/thumbnails/tt1111422.webp",
+      "imdb_rating": 6.4,
       "londonLocationCount": 2
     },
     {
@@ -1415,7 +1601,7 @@
       "poster": "/images/posters/tt0318627.webp",
       "thumbnail_52": "/images/thumbnails/tt0318627.webp",
       "imdb_rating": 6.356,
-      "londonLocationCount": 3
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt2023587",
@@ -1430,6 +1616,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0196229",
+      "title": "Zoolander",
+      "year": 2001,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0196229.webp",
+      "thumbnail_52": "/images/thumbnails/tt0196229.webp",
+      "imdb_rating": 6.207,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0800080",
       "title": "The Incredible Hulk",
       "year": 2008,
@@ -1440,6 +1638,20 @@
       ],
       "poster": "/images/posters/tt0800080.webp",
       "thumbnail_52": "/images/thumbnails/tt0800080.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt0489099",
+      "title": "Jumper",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0489099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0489099.webp",
       "imdb_rating": 6.2,
       "londonLocationCount": 3
     },
@@ -1468,7 +1680,7 @@
       "poster": "/images/posters/tt1386703.webp",
       "thumbnail_52": "/images/thumbnails/tt1386703.webp",
       "imdb_rating": 6.025,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt1386697",
@@ -1482,7 +1694,7 @@
       "poster": "/images/posters/tt1386697.webp",
       "thumbnail_52": "/images/thumbnails/tt1386697.webp",
       "imdb_rating": 5.92,
-      "londonLocationCount": 4
+      "londonLocationCount": 11
     },
     {
       "movie_id": "tt1234721",
@@ -1496,7 +1708,7 @@
       "poster": "/images/posters/tt1234721.webp",
       "thumbnail_52": "/images/thumbnails/tt1234721.webp",
       "imdb_rating": 5.882,
-      "londonLocationCount": 1
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0359013",
@@ -1528,35 +1740,38 @@
     }
   ],
   "stats": {
-    "totalMovies": 113,
-    "totalLocations": 183,
+    "totalMovies": 129,
+    "totalLocations": 377,
     "genres": {
-      "Science Fiction": 12,
-      "Thriller": 14,
-      "Adventure": 9,
-      "Action": 20,
-      "Comedy": 26,
+      "Drama": 74,
+      "Science Fiction": 15,
+      "Thriller": 18,
+      "Adventure": 11,
+      "Action": 22,
+      "Comedy": 28,
       "Fantasy": 7,
-      "Drama": 65,
       "History": 2,
       "Family": 2,
-      "Crime": 22,
-      "Horror": 14,
-      "Sci-Fi & Fantasy": 33,
-      "Mystery": 17,
-      "Action & Adventure": 21,
-      "Romance": 5,
+      "Crime": 24,
+      "Horror": 16,
+      "Sci-Fi & Fantasy": 36,
+      "Mystery": 18,
+      "Action & Adventure": 24,
+      "Documentary": 1,
+      "Reality": 1,
+      "Romance": 6,
       "War & Politics": 1,
       "Animation": 2,
       "Kids": 1,
       "Talk": 1
     },
     "decades": {
-      "2000s": 31,
-      "2010s": 56,
+      "1970s": 1,
+      "2000s": 37,
+      "2010s": 60,
       "1980s": 2,
-      "1990s": 7,
-      "2020s": 17
+      "1990s": 9,
+      "2020s": 20
     }
   }
 }

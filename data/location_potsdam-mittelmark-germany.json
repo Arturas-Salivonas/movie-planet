@@ -1,0 +1,69 @@
+{
+  "location": {
+    "city": "Potsdam-Mittelmark",
+    "country": "Germany",
+    "slug": "potsdam-mittelmark-germany",
+    "coordinates": {
+      "lat": 52.25361162499999,
+      "lng": 12.932674825
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0253474",
+      "title": "The Pianist",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt0253474.webp",
+      "thumbnail_52": "/images/thumbnails/tt0253474.webp",
+      "imdb_rating": 8.38,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt10366206",
+      "title": "John Wick: Chapter 4",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt10366206.webp",
+      "thumbnail_52": "/images/thumbnails/tt10366206.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0985699",
+      "title": "Valkyrie",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "poster": "/images/posters/tt0985699.webp",
+      "thumbnail_52": "/images/thumbnails/tt0985699.webp",
+      "imdb_rating": 6.945,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 4,
+    "genres": {
+      "Drama": 2,
+      "War": 2,
+      "Action": 1,
+      "Thriller": 2,
+      "Crime": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "2020s": 1
+    }
+  }
+}

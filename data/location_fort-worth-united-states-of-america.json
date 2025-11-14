@@ -23,6 +23,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0455275",
+      "title": "Prison Break",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0455275.webp",
+      "thumbnail_52": "/images/thumbnails/tt0455275.webp",
+      "imdb_rating": 8.078,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt14186672",
       "title": "Landman",
       "year": 2024,
@@ -64,17 +78,19 @@
     }
   ],
   "stats": {
-    "totalMovies": 4,
-    "totalLocations": 4,
+    "totalMovies": 5,
+    "totalLocations": 5,
     "genres": {
-      "Drama": 4,
+      "Drama": 5,
       "Thriller": 1,
       "History": 1,
-      "Western": 2,
-      "Crime": 1
+      "Action & Adventure": 1,
+      "Crime": 2,
+      "Western": 2
     },
     "decades": {
       "1990s": 2,
+      "2000s": 1,
       "2020s": 2
     }
   }

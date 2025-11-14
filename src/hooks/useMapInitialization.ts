@@ -18,7 +18,7 @@ export function useMapInitialization({ mapContainer }: UseMapInitializationProps
     map.current = new maplibregl.Map({
       container: mapContainer.current,
       style: 'https://api.maptiler.com/maps/streets-v4/style.json?key=q4aOhsVX264foFexJ7ga',
-      zoom: 3,
+      zoom: 2.5,
       center: [0.35, 43], // Centered on Europe
       maxPitch: 85,
       refreshExpiredTiles: false,

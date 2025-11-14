@@ -37,6 +37,22 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0320661",
+      "title": "Kingdom of Heaven",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Action",
+        "Adventure",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0320661.webp",
+      "thumbnail_52": "/images/thumbnails/tt0320661.webp",
+      "imdb_rating": 7.001,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0082198",
       "title": "Conan the Barbarian",
       "year": 1982,
@@ -52,20 +68,21 @@
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 4,
+    "totalLocations": 4,
     "genres": {
-      "Adventure": 1,
+      "Adventure": 2,
       "Fantasy": 2,
-      "Action": 1,
+      "Action": 2,
       "Sci-Fi & Fantasy": 1,
-      "Drama": 2,
-      "War": 1
+      "Drama": 3,
+      "History": 1,
+      "War": 2
     },
     "decades": {
       "1980s": 1,
       "2020s": 1,
-      "2000s": 1
+      "2000s": 2
     }
   }
 }

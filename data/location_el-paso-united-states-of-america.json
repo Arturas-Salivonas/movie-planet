@@ -21,7 +21,7 @@
       "poster": "/images/posters/tt30144839.webp",
       "thumbnail_52": "/images/thumbnails/tt30144839.webp",
       "imdb_rating": 7.712,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0328107",
@@ -76,7 +76,7 @@
       "poster": "/images/posters/tt0181865.webp",
       "thumbnail_52": "/images/thumbnails/tt0181865.webp",
       "imdb_rating": 7.08,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2406376",
@@ -89,6 +89,20 @@
       "poster": "/images/posters/tt2406376.webp",
       "thumbnail_52": "/images/thumbnails/tt2406376.webp",
       "imdb_rating": 6.631,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0319262",
+      "title": "The Day After Tomorrow",
+      "year": 2004,
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0319262.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319262.webp",
+      "imdb_rating": 6.545,
       "londonLocationCount": 1
     },
     {
@@ -106,19 +120,21 @@
     }
   ],
   "stats": {
-    "totalMovies": 7,
-    "totalLocations": 7,
+    "totalMovies": 8,
+    "totalLocations": 10,
     "genres": {
+      "Science Fiction": 1,
+      "Thriller": 5,
+      "Adventure": 1,
       "Action": 3,
-      "Thriller": 4,
       "Crime": 5,
       "Drama": 5,
       "Comedy": 1
     },
     "decades": {
+      "2000s": 4,
       "2020s": 1,
-      "2010s": 3,
-      "2000s": 3
+      "2010s": 3
     }
   }
 }

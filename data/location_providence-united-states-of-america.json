@@ -10,6 +10,19 @@
   },
   "movies": [
     {
+      "movie_id": "tt1028532",
+      "title": "Hachi: A Dog's Tale",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt1028532.webp",
+      "thumbnail_52": "/images/thumbnails/tt1028532.webp",
+      "imdb_rating": 8.012,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1587669",
       "title": "Body of Proof",
       "year": 2011,
@@ -51,16 +64,18 @@
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 4,
+    "totalLocations": 4,
     "genres": {
+      "Drama": 2,
+      "Family": 1,
       "Comedy": 3,
       "Romance": 1,
-      "Drama": 1,
       "Crime": 1,
       "Mystery": 1
     },
     "decades": {
+      "2000s": 1,
       "1990s": 2,
       "2010s": 1
     }

@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "portland-united-states-of-america",
     "coordinates": {
-      "lat": 45.51929142307692,
-      "lng": -122.67795589999997
+      "lat": 45.51820501153846,
+      "lng": -122.67005385769235
     }
   },
   "movies": [
@@ -21,7 +21,7 @@
       "poster": "/images/posters/tt1830617.webp",
       "thumbnail_52": "/images/thumbnails/tt1830617.webp",
       "imdb_rating": 8.3,
-      "londonLocationCount": 3
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0327597",
@@ -38,6 +38,32 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt3553976",
+      "title": "Captain Fantastic",
+      "year": 2016,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3553976.webp",
+      "thumbnail_52": "/images/thumbnails/tt3553976.webp",
+      "imdb_rating": 7.891,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758758",
+      "title": "Into the Wild",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758758.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758758.webp",
+      "imdb_rating": 7.799,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt3107288",
       "title": "The Flash",
       "year": 2014,
@@ -48,6 +74,20 @@
       "poster": "/images/posters/tt3107288.webp",
       "thumbnail_52": "/images/thumbnails/tt3107288.webp",
       "imdb_rating": 7.77,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0947798",
+      "title": "Black Swan",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0947798.webp",
+      "thumbnail_52": "/images/thumbnails/tt0947798.webp",
+      "imdb_rating": 7.7,
       "londonLocationCount": 1
     },
     {
@@ -104,6 +144,20 @@
       "poster": "/images/posters/tt6877772.webp",
       "thumbnail_52": "/images/thumbnails/tt6877772.webp",
       "imdb_rating": 7.416,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0099810",
+      "title": "The Hunt for Red October",
+      "year": 1990,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0099810.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099810.webp",
+      "imdb_rating": 7.4,
       "londonLocationCount": 1
     },
     {
@@ -146,6 +200,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1099212",
       "title": "Twilight",
       "year": 2008,
@@ -157,27 +223,32 @@
       "poster": "/images/posters/tt1099212.webp",
       "thumbnail_52": "/images/thumbnails/tt1099212.webp",
       "imdb_rating": 6.285,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     }
   ],
   "stats": {
-    "totalMovies": 11,
-    "totalLocations": 13,
+    "totalMovies": 16,
+    "totalLocations": 26,
     "genres": {
-      "Drama": 7,
+      "Adventure": 3,
+      "Drama": 10,
       "Sci-Fi & Fantasy": 3,
+      "Thriller": 2,
+      "Horror": 1,
       "Fantasy": 3,
       "Romance": 2,
       "Mystery": 2,
       "Animation": 2,
       "Family": 1,
-      "Comedy": 5,
+      "Comedy": 6,
       "Action & Adventure": 2,
-      "Crime": 2
+      "Crime": 2,
+      "Action": 1
     },
     "decades": {
-      "2010s": 7,
-      "2000s": 4
+      "2000s": 6,
+      "2010s": 9,
+      "1990s": 1
     }
   }
 }

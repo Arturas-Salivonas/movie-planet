@@ -113,18 +113,34 @@ export function flattenMultiPointFeatures(features: any[]): any[] {
       // Create a separate feature for each location
       const coords = feature.geometry.coordinates as number[][]
       coords.forEach((coord, index) => {
+        const locationName = feature.properties.location_names?.[index] || feature.properties.location_names?.[0] || 'Unknown'
+        const sceneDescription = feature.properties.scene_descriptions?.[index] || null
+
         displayFeatures.push({
           ...feature,
           id: `${feature.id}-loc-${index}`,
           geometry: {
             type: 'Point' as const,
             coordinates: coord
+          },
+          properties: {
+            ...feature.properties,
+            // Override location_names with just this location's name
+            location_names: [locationName],
+            scene_description: sceneDescription
           }
         })
       })
     } else {
-      // Single location - keep as is
-      displayFeatures.push(feature)
+      // Single location - keep as is, but extract scene_description from array if needed
+      const singleFeature = {
+        ...feature,
+        properties: {
+          ...feature.properties,
+          scene_description: feature.properties.scene_descriptions?.[0] || null
+        }
+      }
+      displayFeatures.push(singleFeature)
     }
   })
 

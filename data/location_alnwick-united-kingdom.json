@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "alnwick-united-kingdom",
     "coordinates": {
-      "lat": 55.41546640000001,
-      "lng": -1.7064926
+      "lat": 55.41520057500001,
+      "lng": -1.7065854500000002
     }
   },
   "movies": [
@@ -19,6 +19,19 @@
       "poster": "/images/posters/tt1606375.webp",
       "thumbnail_52": "/images/thumbnails/tt1606375.webp",
       "imdb_rating": 8.123,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0304141",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0304141.webp",
+      "thumbnail_52": "/images/thumbnails/tt0304141.webp",
+      "imdb_rating": 8,
       "londonLocationCount": 1
     },
     {
@@ -85,23 +98,23 @@
       "poster": "/images/posters/tt3371366.webp",
       "thumbnail_52": "/images/thumbnails/tt3371366.webp",
       "imdb_rating": 6.055,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 6,
-    "totalLocations": 6,
+    "totalMovies": 7,
+    "totalLocations": 8,
     "genres": {
       "Action": 2,
-      "Adventure": 4,
+      "Adventure": 5,
       "Science Fiction": 1,
       "Drama": 2,
-      "Fantasy": 2,
+      "Fantasy": 3,
       "Comedy": 1
     },
     "decades": {
       "2010s": 2,
-      "2000s": 2,
+      "2000s": 3,
       "1980s": 1,
       "1990s": 1
     }

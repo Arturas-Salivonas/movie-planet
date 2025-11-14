@@ -1,0 +1,77 @@
+{
+  "location": {
+    "city": "Lacock",
+    "country": "United Kingdom",
+    "slug": "lacock-united-kingdom",
+    "coordinates": {
+      "lat": 51.41623253333333,
+      "lng": -2.1199837111111113
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0112130",
+      "title": "Pride and Prejudice",
+      "year": 1995,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0112130.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112130.webp",
+      "imdb_rating": 8.224,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0295297.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295297.webp",
+      "imdb_rating": 7.705,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0417741",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0417741.webp",
+      "thumbnail_52": "/images/thumbnails/tt0417741.webp",
+      "imdb_rating": 7.682,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt3556920",
+      "title": "Wolf Hall",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3556920.webp",
+      "thumbnail_52": "/images/thumbnails/tt3556920.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 9,
+    "genres": {
+      "Drama": 2,
+      "Adventure": 2,
+      "Fantasy": 2
+    },
+    "decades": {
+      "1990s": 1,
+      "2000s": 2,
+      "2010s": 1
+    }
+  }
+}

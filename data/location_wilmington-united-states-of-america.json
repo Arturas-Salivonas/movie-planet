@@ -4,8 +4,8 @@
     "country": "United States of America",
     "slug": "wilmington-united-states-of-america",
     "coordinates": {
-      "lat": 34.22666432173912,
-      "lng": -77.93176786956518
+      "lat": 34.39296254848487,
+      "lng": -77.98741668030303
     }
   },
   "movies": [
@@ -36,6 +36,33 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt2017109",
+      "title": "Banshee",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2017109.webp",
+      "thumbnail_52": "/images/thumbnails/tt2017109.webp",
+      "imdb_rating": 7.974,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0848228",
+      "title": "The Avengers",
+      "year": 2012,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0848228.webp",
+      "thumbnail_52": "/images/thumbnails/tt0848228.webp",
+      "imdb_rating": 7.842,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0368530",
       "title": "One Tree Hill",
       "year": 2003,
@@ -45,7 +72,7 @@
       "poster": "/images/posters/tt0368530.webp",
       "thumbnail_52": "/images/thumbnails/tt0368530.webp",
       "imdb_rating": 7.767,
-      "londonLocationCount": 2
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0281358",
@@ -58,7 +85,7 @@
       "poster": "/images/posters/tt0281358.webp",
       "thumbnail_52": "/images/thumbnails/tt0281358.webp",
       "imdb_rating": 7.757,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0090756",
@@ -73,7 +100,20 @@
       "poster": "/images/posters/tt0090756.webp",
       "thumbnail_52": "/images/thumbnails/tt0090756.webp",
       "imdb_rating": 7.6,
-      "londonLocationCount": 2
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt2788432",
+      "title": "American Crime Story",
+      "year": 2016,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2788432.webp",
+      "thumbnail_52": "/images/thumbnails/tt2788432.webp",
+      "imdb_rating": 7.568,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt7144666",
@@ -113,7 +153,7 @@
       "poster": "/images/posters/tt0109506.webp",
       "thumbnail_52": "/images/thumbnails/tt0109506.webp",
       "imdb_rating": 7.518,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0092991",
@@ -127,7 +167,7 @@
       "poster": "/images/posters/tt0092991.webp",
       "thumbnail_52": "/images/thumbnails/tt0092991.webp",
       "imdb_rating": 7.5,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2647544",
@@ -141,7 +181,7 @@
       "poster": "/images/posters/tt2647544.webp",
       "thumbnail_52": "/images/thumbnails/tt2647544.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt8362852",
@@ -155,7 +195,7 @@
       "poster": "/images/posters/tt8362852.webp",
       "thumbnail_52": "/images/thumbnails/tt8362852.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0866442",
@@ -168,7 +208,7 @@
       "poster": "/images/posters/tt0866442.webp",
       "thumbnail_52": "/images/thumbnails/tt0866442.webp",
       "imdb_rating": 7.395,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0118300",
@@ -181,7 +221,7 @@
       "poster": "/images/posters/tt0118300.webp",
       "thumbnail_52": "/images/thumbnails/tt0118300.webp",
       "imdb_rating": 7.342,
-      "londonLocationCount": 3
+      "londonLocationCount": 22
     },
     {
       "movie_id": "tt2288064",
@@ -222,7 +262,7 @@
       "poster": "/images/posters/tt1300854.webp",
       "thumbnail_52": "/images/thumbnails/tt1300854.webp",
       "imdb_rating": 6.93,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt1723121",
@@ -235,7 +275,7 @@
       "poster": "/images/posters/tt1723121.webp",
       "thumbnail_52": "/images/thumbnails/tt1723121.webp",
       "imdb_rating": 6.838,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt2070791",
@@ -252,27 +292,27 @@
     }
   ],
   "stats": {
-    "totalMovies": 18,
-    "totalLocations": 23,
+    "totalMovies": 21,
+    "totalLocations": 66,
     "genres": {
       "Mystery": 5,
       "Thriller": 4,
-      "Crime": 2,
-      "Drama": 12,
+      "Crime": 4,
+      "Drama": 14,
       "Horror": 3,
       "Comedy": 3,
       "Fantasy": 2,
+      "Science Fiction": 2,
+      "Action": 3,
+      "Adventure": 2,
       "Sci-Fi & Fantasy": 5,
-      "Action": 2,
-      "Adventure": 1,
-      "Science Fiction": 1,
       "Action & Adventure": 1,
       "Soap": 1,
       "Romance": 1
     },
     "decades": {
       "1980s": 2,
-      "2010s": 8,
+      "2010s": 11,
       "2020s": 3,
       "2000s": 3,
       "1990s": 2

@@ -4,11 +4,54 @@
     "country": "United States of America",
     "slug": "memphis-united-states-of-america",
     "coordinates": {
-      "lat": 35.1419293,
-      "lng": -90.01126076666667
+      "lat": 35.11758617,
+      "lng": -90.03316544
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0092455",
+      "title": "Star Trek: The Next Generation",
+      "year": 1987,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0092455.webp",
+      "thumbnail_52": "/images/thumbnails/tt0092455.webp",
+      "imdb_rating": 8.367,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0102926",
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0102926.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102926.webp",
+      "imdb_rating": 8.346,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0071007",
+      "title": "Little House on the Prairie",
+      "year": 1974,
+      "genres": [
+        "Western",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0071007.webp",
+      "thumbnail_52": "/images/thumbnails/tt0071007.webp",
+      "imdb_rating": 7.925,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt0162222",
       "title": "Cast Away",
@@ -20,6 +63,33 @@
       "poster": "/images/posters/tt0162222.webp",
       "thumbnail_52": "/images/thumbnails/tt0162222.webp",
       "imdb_rating": 7.66,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0044706",
+      "title": "High Noon",
+      "year": 1952,
+      "genres": [
+        "Western",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0044706.webp",
+      "thumbnail_52": "/images/thumbnails/tt0044706.webp",
+      "imdb_rating": 7.657,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0325710",
+      "title": "The Last Samurai",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "Action",
+        "War"
+      ],
+      "poster": "/images/posters/tt0325710.webp",
+      "thumbnail_52": "/images/thumbnails/tt0325710.webp",
+      "imdb_rating": 7.595,
       "londonLocationCount": 1
     },
     {
@@ -49,21 +119,46 @@
       "thumbnail_52": "/images/thumbnails/tt0315733.webp",
       "imdb_rating": 7.324,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0117998",
+      "title": "Twister",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0117998.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117998.webp",
+      "imdb_rating": 6.544,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 3,
+    "totalMovies": 9,
+    "totalLocations": 10,
     "genres": {
-      "Adventure": 1,
-      "Drama": 3,
+      "Crime": 2,
+      "Thriller": 2,
+      "Drama": 9,
+      "Adventure": 2,
       "Music": 1,
       "Romance": 1,
-      "Crime": 1,
-      "Thriller": 1
+      "Sci-Fi & Fantasy": 1,
+      "Action & Adventure": 1,
+      "Mystery": 1,
+      "Action": 2,
+      "War": 1,
+      "Western": 2,
+      "Family": 1
     },
     "decades": {
-      "2000s": 3
+      "1990s": 2,
+      "2000s": 4,
+      "1980s": 1,
+      "1970s": 1,
+      "1950s": 1
     }
   }
 }

@@ -30,7 +30,9 @@ body {
   /* Space background */
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
-
+.min-h-screen {
+     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
 /* Allow scrolling on location pages */
 body:has([data-location-page]) {
   overflow: auto !important;
@@ -283,4 +285,44 @@ html:has([data-location-page]) {
 
 .region-popup .maplibregl-popup-tip {
   border-top-color: #111827 !important;
+}
+
+/* Prevent text selection and dragging on UI overlays to avoid interfering with map panning */
+.select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+/* Prevent dragging on images and links in UI overlays */
+.select-none img,
+.select-none a,
+.select-none button,
+.select-none span,
+.select-none div {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection only in specific interactive elements */
+input,
+textarea,
+[contenteditable="true"] {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
 }

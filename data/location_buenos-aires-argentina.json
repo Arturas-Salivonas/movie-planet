@@ -1,0 +1,72 @@
+{
+  "location": {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "slug": "buenos-aires-argentina",
+    "coordinates": {
+      "lat": -34.59253101,
+      "lng": -58.41920433
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1305806",
+      "title": "The Secret in Their Eyes",
+      "year": 2009,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1305806.webp",
+      "thumbnail_52": "/images/thumbnails/tt1305806.webp",
+      "imdb_rating": 7.972,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3011894",
+      "title": "Wild Tales",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3011894.webp",
+      "thumbnail_52": "/images/thumbnails/tt3011894.webp",
+      "imdb_rating": 7.865,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt27740241",
+      "title": "The Eternaut",
+      "year": 2025,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt27740241.webp",
+      "thumbnail_52": "/images/thumbnails/tt27740241.webp",
+      "imdb_rating": 7.528,
+      "londonLocationCount": 6
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 10,
+    "genres": {
+      "Mystery": 1,
+      "Thriller": 2,
+      "Drama": 3,
+      "Comedy": 1,
+      "Action & Adventure": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2000s": 1,
+      "2010s": 1,
+      "2020s": 1
+    }
+  }
+}

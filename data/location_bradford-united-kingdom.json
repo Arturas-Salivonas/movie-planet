@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "bradford-united-kingdom",
     "coordinates": {
-      "lat": 53.79916617500001,
-      "lng": -1.753641825
+      "lat": 53.82608754642856,
+      "lng": -1.8148758946428567
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt2442560.webp",
       "thumbnail_52": "/images/thumbnails/tt2442560.webp",
       "imdb_rating": 8.529,
-      "londonLocationCount": 1
+      "londonLocationCount": 11
     },
     {
       "movie_id": "tt0063929",
@@ -32,7 +32,7 @@
       "poster": "/images/posters/tt0063929.webp",
       "thumbnail_52": "/images/thumbnails/tt0063929.webp",
       "imdb_rating": 8.245,
-      "londonLocationCount": 1
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt10590066",
@@ -45,6 +45,18 @@
       "poster": "/images/posters/tt10590066.webp",
       "thumbnail_52": "/images/thumbnails/tt10590066.webp",
       "imdb_rating": 8.2,
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt4786824",
+      "title": "The Crown",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4786824.webp",
+      "thumbnail_52": "/images/thumbnails/tt4786824.webp",
+      "imdb_rating": 8.197,
       "londonLocationCount": 1
     },
     {
@@ -61,7 +73,20 @@
       "poster": "/images/posters/tt2384811.webp",
       "thumbnail_52": "/images/thumbnails/tt2384811.webp",
       "imdb_rating": 7.985,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0084503",
+      "title": "Pink Floyd: The Wall",
+      "year": 1982,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0084503.webp",
+      "thumbnail_52": "/images/thumbnails/tt0084503.webp",
+      "imdb_rating": 7.942,
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt3428912",
@@ -75,7 +100,7 @@
       "poster": "/images/posters/tt3428912.webp",
       "thumbnail_52": "/images/thumbnails/tt3428912.webp",
       "imdb_rating": 7.9,
-      "londonLocationCount": 2
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt8425532",
@@ -89,13 +114,55 @@
       "thumbnail_52": "/images/thumbnails/tt8425532.webp",
       "imdb_rating": 7.859,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1504320",
+      "title": "The King's Speech",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt1504320.webp",
+      "thumbnail_52": "/images/thumbnails/tt1504320.webp",
+      "imdb_rating": 7.736,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3183660",
+      "title": "Fantastic Beasts and Where to Find Them",
+      "year": 2016,
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt3183660.webp",
+      "thumbnail_52": "/images/thumbnails/tt3183660.webp",
+      "imdb_rating": 7.31,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5137338",
+      "title": "Victoria",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5137338.webp",
+      "thumbnail_52": "/images/thumbnails/tt5137338.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 3
     }
   ],
   "stats": {
-    "totalMovies": 6,
-    "totalLocations": 8,
+    "totalMovies": 11,
+    "totalLocations": 56,
     "genres": {
-      "Drama": 5,
+      "Music": 1,
+      "Drama": 9,
+      "History": 1,
+      "Fantasy": 1,
+      "Adventure": 1,
       "Crime": 3,
       "Comedy": 3,
       "Mystery": 2,
@@ -103,7 +170,8 @@
       "Action & Adventure": 1
     },
     "decades": {
-      "2010s": 4,
+      "1980s": 1,
+      "2010s": 8,
       "1960s": 1,
       "2020s": 1
     }

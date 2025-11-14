@@ -1,0 +1,143 @@
+{
+  "location": {
+    "city": "Basingstoke and Deane",
+    "country": "United Kingdom",
+    "slug": "basingstoke-and-deane-united-kingdom",
+    "coordinates": {
+      "lat": 51.304012320000005,
+      "lng": -1.18550019
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4786824",
+      "title": "The Crown",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4786824.webp",
+      "thumbnail_52": "/images/thumbnails/tt4786824.webp",
+      "imdb_rating": 8.197,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1606375",
+      "title": "Downton Abbey",
+      "year": 2010,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1606375.webp",
+      "thumbnail_52": "/images/thumbnails/tt1606375.webp",
+      "imdb_rating": 8.123,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3228774",
+      "title": "Cruella",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt3228774.webp",
+      "thumbnail_52": "/images/thumbnails/tt3228774.webp",
+      "imdb_rating": 7.983,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0056751",
+      "title": "Doctor Who",
+      "year": 1963,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0056751.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056751.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3748528",
+      "title": "Rogue One: A Star Wars Story",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3748528.webp",
+      "thumbnail_52": "/images/thumbnails/tt3748528.webp",
+      "imdb_rating": 7.502,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0120663",
+      "title": "Eyes Wide Shut",
+      "year": 1999,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0120663.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120663.webp",
+      "imdb_rating": 7.483,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2395427",
+      "title": "Avengers: Age of Ultron",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2395427.webp",
+      "thumbnail_52": "/images/thumbnails/tt2395427.webp",
+      "imdb_rating": 7.271,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0102798",
+      "title": "Robin Hood: Prince of Thieves",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0102798.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102798.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 10,
+    "genres": {
+      "Action": 3,
+      "Adventure": 4,
+      "Science Fiction": 2,
+      "Drama": 5,
+      "Thriller": 1,
+      "Mystery": 1,
+      "Comedy": 1,
+      "Crime": 1,
+      "Action & Adventure": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2010s": 4,
+      "1990s": 2,
+      "2020s": 1,
+      "1960s": 1
+    }
+  }
+}
