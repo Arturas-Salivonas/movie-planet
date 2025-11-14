@@ -1,278 +1,242 @@
-# filmingmap 🎬🌍
+# 🎬 FilmingMap
 
-> An interactive 3D globe visualization showing authentic filming locations from the world's greatest movies.
+> An interactive 3D globe visualization platform that maps authentic filming locations from thousands of movies and TV series worldwide.
 
-[![MapLibre GL JS](https://img.shields.io/badge/MapLibre-GL%20JS-blue)](https://maplibre.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev/)
+[![MapLibre GL](https://img.shields.io/badge/MapLibre-GL%20JS-blue)](https://maplibre.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8)](https://tailwindcss.com/)
 
-## ✨ Features
+🌐 **Live Site**: [filmingmap.com](https://filmingmap.com)
 
-- **🌍 Interactive 3D Globe** - Smooth rotating globe with MapLibre GL JS
-- **🎬 677+ Movies** - Curated collection with accurate filming locations
-- **📍 Verified Locations** - All locations scraped directly from IMDb
-- **🔍 Smart Filtering** - Search and filter by genre, year, rating
-- **🎯 Focus Mode** - Click "Show All on Map" to isolate a single movie's locations
-- **🎨 Beautiful UI** - Circular movie posters, amber connecting lines, cinematic design
-- **⚡ Fast & Responsive** - Progressive loading with smooth animated progress bar
-- **💾 Smart Caching** - PWA service worker caches everything (instant repeat visits)
-- **📦 Clean Data Structure** - Just 2 files: database + input library
-- **🔇 Zero Console Noise** - Clean loading with fallback handlers (no warnings)
+## 📖 About
 
-## 🚀 Quick Start
+FilmingMap is a comprehensive platform that connects film enthusiasts with the real-world locations where their favorite movies and TV shows were filmed. Using an interactive 3D globe, users can explore thousands of filming locations, discover behind-the-scenes details, and plan their own movie tourism adventures.
 
-### Prerequisites
+### What Makes FilmingMap Special
 
-- Node.js 18+ and npm
-- TMDb API key (free - [get one here](https://www.themoviedb.org/settings/api))
+- **Comprehensive Database**: 2,700+ movies and TV series with verified filming locations
+- **Authentic Data**: All filming locations scraped directly from IMDb with scene descriptions
+- **Interactive 3D Globe**: Smooth, rotating globe visualization powered by MapLibre GL JS
+- **Smart Search**: Fast, indexed search across movies, locations, and scenes
+- **Advanced Filtering**: Filter by genre, streaming platform, IMDB rating, and IMDB TOP 250
+- **Location Pages**: Dedicated pages for each filming location with all movies filmed there
+- **Movie Tourism**: Discover where Hollywood meets your favorite cities
 
-### Installation
+## 🛠️ Technologies & Tools
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/filmingmap.git
-   cd filmingmap
-   ```
+### Frontend Framework
+- **Next.js 14** - React framework with App Router and Server Components
+- **React 18** - UI library with hooks and modern patterns
+- **TypeScript 5** - Type-safe development with strict mode
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+### Mapping & Visualization
+- **MapLibre GL JS 5** - 3D globe rendering with WebGL
+- **GeoJSON** - Geographic data format for location markers
+- **OpenStreetMap** - Base map data
 
-3. **Set up environment variables**
-   ```bash
-   cp .env.example .env
-   ```
+### Styling & UI
+- **Tailwind CSS** - Utility-first CSS framework
+- **Custom Theme** - Space-themed design with cyan (#01affe) and gold (#fcd34d) accents
+- **Radial Gradients** - Deep space background aesthetic
+- **Responsive Design** - Mobile-first approach
 
-   Edit `.env` and add your TMDb API credentials:
-   ```env
-   TMDB_API_KEY=your_api_key_here
-   TMDB_API_READ_ACCESS_TOKEN=your_token_here
-   ```
+### Data Management
+- **Web Scraping** - Puppeteer for IMDb location extraction
+- **Geocoding** - Nominatim API for coordinate conversion
+- **Data Caching** - File-based caching system for API responses
+- **GeoJSON Transformation** - Automated pipeline for map data generation
 
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+### Search & Performance
+- **Optimized Search Index** - Chunked JSON files for fast client-side search
+- **Progressive Loading** - Lazy loading of components and images
+- **Image Optimization** - WebP format for movie posters
+- **Code Splitting** - Dynamic imports for better performance
 
-5. **Open your browser**
-   ```
-   http://localhost:3000
-   ```
+### Development Tools
+- **ESLint** - Code linting and quality enforcement
+- **Prettier** - Code formatting
+- **Git** - Version control
+- **Node.js Scripts** - Automated data pipeline
 
-## 📦 Project Structure
+## ✨ Key Features
 
-```
-filmingmap/
-├── src/
-│   ├── components/
-│   │   ├── Map.tsx           # 3D globe with MapLibre GL JS
-│   │   ├── Filters.tsx       # Search and filter controls
-│   │   ├── MovieModal.tsx    # Movie details popup
-│   │   └── SearchBar.tsx     # Movie search input
-│   ├── utils/
-│   │   ├── helpers.ts        # Filter and utility functions
-│   │   └── mapbox.ts         # Map styling utilities
-│   ├── types.ts              # TypeScript interfaces
-│   ├── App.tsx               # Main application
-│   └── main.tsx              # Entry point
-├── scripts/
-│   ├── fetchAndTransform.ts     # Main fetch workflow (orchestrates everything)
-│   ├── fetchMoviesAuto.ts       # IMDb scraper + geocoder (Puppeteer)
-│   ├── cleanDuplicateLocations.ts # Removes duplicate filming locations
-│   └── transform_to_geojson.ts  # Converts to GeoJSON for map
-├── data/
-│   ├── movies_input.json        # 📚 LIBRARY: IMDb IDs to fetch (677 movies)
-│   ├── movies_enriched.json     # 🗄️ DATABASE: Full movie data (loads into DOM)
-│   └── cache/                   # API response cache (TMDb + Geocoding)
-├── public/
-│   └── geo/
-│       └── movies.geojson       # Generated GeoJSON for map visualization
-└── package.json
-```
+### 🌍 Interactive 3D Globe
+- Smooth rotating globe on page load
+- Click and drag to explore
+- Zoom in/out for detail
+- Auto-rotation stops on user interaction
 
-### 📁 Data Files Explained
+### 🎬 Movie Discovery
+- Browse 2,700+ movies and TV series
+- View circular movie poster markers
+- Click markers to see movie details
+- "Show All Locations" mode displays all filming locations for a single movie
+- Amber connecting lines between locations
 
-**`movies_input.json`** - Movie Library (Input)
-- List of IMDb IDs to fetch
-- Add new movies here: `{"imdb_id": "tt1234567", "title": "Movie Name"}`
-- Currently: 677 unique movies (no duplicates)
+### 🔍 Advanced Search & Filtering
+- Fast indexed search across titles, locations, and scenes
+- Filter by genre (Action, Drama, Comedy, etc.)
+- Filter by streaming platform (Netflix, Amazon, Disney+, etc.)
+- Filter by IMDB rating range (0-10 stars)
+- Filter IMDB TOP 250 movies
+- Combine multiple filters
 
-**`movies_enriched.json`** - Movie Database (Output)
-- Complete movie data with locations, metadata, cast, etc.
-- Generated by `npm run fetch`
-- Loads into the DOM for visualization
-- Currently: 299 movies with filming locations
+### 📍 Location Intelligence
+- Verified filming locations from IMDb
+- Scene descriptions for context
+- Coordinates for precise mapping
+- Duplicate location detection (removes locations within 100m)
+- Clustering for areas with multiple filming spots
 
-**`cache/`** - API Response Cache
-- Stores TMDb and geocoding results
-- Prevents redundant API calls
-- Safe to delete (will be regenerated)
-
-## 🛠️ Available Scripts
-
-```bash
-# Development
-npm run dev              # Start dev server (http://localhost:3000)
-npm run build            # Production build
-npm run preview          # Preview production build
-
-# Data Management
-npm run fetch            # Fetch movies from movies_input.json (main command)
-npm run fetch 50         # Fetch 50 movies from the input library
-```
-
-### 📥 Adding New Movies
-
-1. **Add IMDb IDs** to `data/movies_input.json`:
-   ```json
-   [
-     {"imdb_id": "tt0111161", "title": "The Shawshank Redemption"},
-     {"imdb_id": "tt0068646", "title": "The Godfather"}
-   ]
-   ```
-
-2. **Run the fetcher**:
-   ```bash
-   npm run fetch 10    # Fetch 10 movies
-   ```
-
-3. **The script automatically**:
-   - ✅ Scrapes IMDb for filming locations (Puppeteer)
-   - ✅ Fetches movie metadata from TMDb
-   - ✅ Geocodes all locations (Nominatim)
-   - ✅ Removes duplicate locations
-   - ✅ Converts to GeoJSON
-   - ✅ Updates movies_enriched.json
-   - ✅ Rebuilds the visualization
-
-4. **Refresh your browser** - New movies appear instantly!
-
-## 📊 How It Works
-
-The entire workflow is automated through `npm run fetch`:
-
-```bash
-# Fetch 50 movies from movies_input.json
-npm run fetch 50
-```
-
-**What happens behind the scenes:**
-
-1. **🎯 Load Input Library** (`movies_input.json`)
-   - Reads IMDb IDs from your library
-   - Skips already-fetched movies
-
-2. **🕷️ Scrape IMDb** (Puppeteer + Headless Chrome)
-   - Opens each movie's filming locations page
-   - Extracts location names and descriptions
-   - Handles rate limits automatically
-
-3. **📽️ Fetch TMDb Metadata**
-   - Gets title, year, poster, rating, genres, cast
-   - Uses IMDb ID to find TMDb ID
-
-4. **🗺️ Geocode Locations** (Nominatim API)
-   - Converts location names to coordinates
-   - Caches all results locally
-   - Respects 1.1s rate limit
-
-5. **🧹 Clean Duplicates**
-   - Removes locations within 100m of each other
-   - Keeps the most detailed description
-
-6. **🔄 Transform to GeoJSON**
-   - Converts movies_enriched.json → movies.geojson
-   - Optimized for MapLibre GL JS
-
-7. **✅ Done!**
-   - Updates movies_enriched.json (database)
-   - Refreshes the map automatically
-
-## 🌟 Key Features
-
-### 🌐 Globe Rotation
-The globe automatically rotates slowly on page load. It stops when you interact with the map (drag, zoom, or click).
+### 🗺️ Location Pages
+- Dedicated page for each filming location
+- List of all movies filmed in that location
+- Statistics (total movies, total locations, genres)
+- Search and filter within location
+- Responsive grid layout
 
 ### 🎯 Focus Mode
-Click "Show All on Map" in any movie modal to:
-- Hide all other movie markers
-- Show only the selected movie's locations
-- Display amber connecting lines between locations
-- Center the map on those locations
+- Isolate a single movie's filming locations
+- Hide all other markers
+- Visual connecting lines between locations
+- Center map on selected movie locations
+- Red "Reset Map" button to return to full view
 
-### 📍 Circular Markers
-Movie posters are displayed as circular markers with:
-- 60px diameter
-- White borders
-- Clean, modern aesthetic
+### 📱 Responsive Design
+- Mobile-first approach
+- Touch-optimized controls
+- Adaptive layouts for all screen sizes
+- Mobile-friendly navigation
 
-### 💾 Smart Caching
-All API responses cached in `data/cache/`:
-- **TMDb data**: `tmdb_movie_*.json`
-- **IMDb locations**: `imdb_locations_*.json`
-- **Geocoding**: `geocode_*.json`
-- Prevents redundant API calls
-- Safe to delete (regenerates automatically)
+## 🏗️ Architecture
 
-## 🎬 Scaling to 1,000+ Movies
-
-The system is designed to handle large-scale data collection:
-
-**Current Status:**
-- 📚 Input Library: 677 unique movies (ready to fetch)
-- 🗄️ Database: 299 movies with locations (already fetched)
-- 🎯 Remaining: 378 movies to fetch
-
-**To fetch all remaining movies:**
-```bash
-npm run fetch 378
+### Project Structure
+```
+filmingmap/
+├── app/                      # Next.js App Router pages
+│   ├── page.tsx             # Home page (3D globe)
+│   ├── layout.tsx           # Root layout
+│   ├── blog/                # Blog pages
+│   ├── location/            # Location pages
+│   │   └── [slug]/          # Dynamic location routes
+│   └── movie/               # Movie pages (future)
+├── components/              # React components
+│   ├── MapClient.tsx        # Main map component
+│   ├── Navigation.tsx       # Site navigation
+│   ├── BlogClient.tsx       # Blog page component
+│   └── LocationPageClient.tsx # Location detail page
+├── src/
+│   ├── components/          # Core map components
+│   │   ├── Map/            # MapLibre GL integration
+│   │   ├── MovieModal.tsx  # Movie details modal
+│   │   ├── Filters.tsx     # Filter controls
+│   │   └── SearchBarOptimized.tsx # Search functionality
+│   ├── hooks/              # Custom React hooks
+│   │   ├── useMapMarkers.ts      # Marker management
+│   │   ├── useMarkerInteractions.ts # Click/hover handling
+│   │   └── useMovieNavigation.ts # Movie routing
+│   └── types/              # TypeScript type definitions
+├── lib/
+│   ├── constants/          # Theme colors and configuration
+│   ├── metadata.ts         # SEO metadata generation
+│   └── types.ts            # Shared TypeScript types
+├── data/                   # Movie database
+│   └── location_*.json     # Location-specific movie data
+├── public/
+│   ├── geo/                # GeoJSON data for map
+│   │   ├── movies.geojson  # All movie locations
+│   │   └── search/         # Search index chunks
+│   └── images/             # Movie posters and assets
+└── scripts/                # Data pipeline scripts
+    ├── fetchMoviesAuto.ts  # IMDb scraper
+    ├── transform_to_geojson.ts # GeoJSON generator
+    └── optimize_search.ts   # Search index builder
 ```
 
-**Performance:**
-- ~35-45 seconds per movie (IMDb scraping + geocoding)
-- Progress saved continuously (resumable on crashes)
-- All API calls cached (no redundant requests)
-- **Estimated time for 378 movies**: ~4-5 hours
+### Data Pipeline
 
-**To expand beyond 677:**
-1. Add more IMDb IDs to `movies_input.json`
-2. Run `npm run fetch <number>`
-3. Done!
+The project includes an automated data pipeline for scraping, processing, and optimizing movie location data:
 
-## 🔑 API Keys & Rate Limits
+1. **Web Scraping** (Puppeteer + IMDb)
+   - Extracts filming locations from IMDb
+   - Captures scene descriptions
+   - Handles pagination and rate limits
 
-### TMDb API (Required)
-- Free tier: 1,000 requests per day
-- Get your key: https://www.themoviedb.org/settings/api
-- Used for: Movie metadata (title, poster, year, rating)
+2. **Metadata Enrichment** (TMDb API)
+   - Fetches movie posters, ratings, genres
+   - Retrieves cast information
+   - Gets streaming availability
 
-### Nominatim Geocoding (Free)
-- Rate limit: 1 request per second (hardcoded in scraper)
-- No API key needed
-- Used for: Converting location names to coordinates
+3. **Geocoding** (Nominatim API)
+   - Converts location names to coordinates
+   - Handles country/city variations
+   - Caches results for performance
 
-### MapLibre GL JS (Free)
-- No API key required
-- Uses OpenStreetMap data
-- Completely free and open-source
+4. **Data Transformation**
+   - Removes duplicate locations (100m threshold)
+   - Generates GeoJSON for map visualization
+   - Creates optimized search index
+   - Builds location-specific JSON files
 
-## 🤝 Contributing
+5. **SEO Generation**
+   - Generates dynamic sitemaps
+   - Creates location slugs
+   - Builds metadata for all pages
 
-This is a personal project, but suggestions and improvements are welcome!
+## � Design System
+
+### Color Palette
+- **Primary**: #01affe (Cyan) - Main brand color for interactive elements
+- **Accent**: #fcd34d (Gold) - Secondary color for highlights and accents
+- **Background**: Radial gradient from #1b2735 to #090a0f (Deep space theme)
+
+### Typography
+- **Font Stack**: System fonts (-apple-system, Segoe UI, Roboto)
+- **No External Fonts**: Optimized for performance
+
+### Components
+- **Buttons**: Gradient backgrounds with hover effects
+- **Cards**: Glass-morphism effect with backdrop blur
+- **Modals**: Centered with overlay and animations
+- **Badges**: Rounded pills for tags and filters
+
+## 📊 Performance
+
+### Optimization Strategies
+- **Code Splitting**: Dynamic imports for large components
+- **Image Optimization**: WebP format, responsive images
+- **Search Index**: Chunked into 13 files for progressive loading
+- **Lazy Loading**: Components and images load on demand
+- **Caching**: Service Worker for offline capability
+- **Minimal Dependencies**: Carefully selected packages
+
+### Metrics
+- 2,700+ movies with minimal bundle size
+- Fast initial page load
+- Smooth 60fps globe rotation
+- Instant search results
+
+## 🔐 Data Sources
+
+- **IMDb** - Filming locations and scene descriptions
+- **TMDb** - Movie metadata, posters, and ratings
+- **OpenStreetMap** - Map tiles and geographic data
+- **Nominatim** - Geocoding service
 
 ## 📝 License
 
-MIT License
+MIT License - See LICENSE file for details
 
 ## 🙏 Acknowledgments
 
-- **IMDb** - Filming location data
-- **TMDb** - Movie metadata and posters
-- **OpenStreetMap** - Map data via MapLibre GL JS
-- **Nominatim** - Geocoding service
+Special thanks to:
+- IMDb for comprehensive filming location data
+- The Movie Database (TMDb) for movie metadata and posters
+- OpenStreetMap contributors for map data
+- MapLibre GL JS for the amazing 3D mapping library
 
 ---
 
-**Made with ❤️ for cinema and cartography**
+**Made with ❤️ for cinema and cartography by filmingmap.com**
