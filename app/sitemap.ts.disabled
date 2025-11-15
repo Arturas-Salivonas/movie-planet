@@ -35,7 +35,7 @@ function getAllLocationSlugs(): string[] {
     const locationFiles = files.filter(f => f.startsWith('location_') && f.endsWith('.json'))
 
     console.log(`✅ Found ${locationFiles.length} location files`)
-
+    
     if (locationFiles.length === 0) {
       console.error('⚠️  No location files found in data directory')
       console.error('   Data dir contents:', files.filter(f => f.endsWith('.json')).slice(0, 10))

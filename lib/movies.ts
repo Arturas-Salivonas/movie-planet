@@ -48,11 +48,19 @@ function getSlugMap(): Record<string, string> {
 
   try {
     const filePath = getDataPath('movies_slugs.json')
+
+    if (!fs.existsSync(filePath)) {
+      console.error('❌ movies_slugs.json does not exist at:', filePath)
+      console.error('   Current working directory:', process.cwd())
+      return {}
+    }
+
     const fileContent = fs.readFileSync(filePath, 'utf-8')
     slugMapCache = JSON.parse(fileContent)
+    console.log(`✅ Loaded ${Object.keys(slugMapCache!).length} movie slugs`)
     return slugMapCache!
   } catch (error) {
-    console.error('Failed to load slug map:', error)
+    console.error('❌ Failed to load slug map:', error)
     return {}
   }
 }
