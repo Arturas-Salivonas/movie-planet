@@ -72,9 +72,11 @@ function isValidLocation(location: Location): boolean {
 async function cleanInvalidLocations() {
   console.log('🧹 Cleaning invalid locations from movie data...\n')
 
-  const inputPath = path.join(process.cwd(), 'public', 'data', 'movies_enriched.json')
+  // Clean the SOURCE file in data/ (not public/data/)
+  // The build process copies from data/ to public/data/
+  const inputPath = path.join(process.cwd(), 'data', 'movies_enriched.json')
   const outputPath = inputPath // Overwrite the original file
-  const backupPath = path.join(process.cwd(), 'public', 'data', 'movies_enriched.backup.json')
+  const backupPath = path.join(process.cwd(), 'data', 'movies_enriched.backup.json')
 
   // Read the movie data
   console.log('📖 Reading movie data...')
@@ -94,7 +96,7 @@ async function cleanInvalidLocations() {
 
   // Clean each movie
   console.log('🔍 Analyzing locations...\n')
-  
+
   for (const movie of moviesData) {
     if (!movie.locations || movie.locations.length === 0) {
       continue
