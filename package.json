@@ -23,6 +23,8 @@
     "reverse-geocode": "tsx scripts/reverse_geocode_locations.ts",
     "reverse-geocode:test": "tsx scripts/reverse_geocode_locations.ts --test --limit=20",
     "validate:urls": "tsx scripts/validateUrls.ts",
+    "clean:locations": "tsx scripts/cleanInvalidLocations.ts",
+    "restore:backup": "node -e \"const fs = require('fs'); const path = require('path'); const backup = path.join('public', 'data', 'movies_enriched.backup.json'); const target = path.join('public', 'data', 'movies_enriched.json'); if (fs.existsSync(backup)) { fs.copyFileSync(backup, target); console.log('✅ Backup restored'); } else { console.error('❌ No backup found'); process.exit(1); }\"",
     "postbuild": "npm run generate:sitemap && echo '✅ Build complete with sitemap and slugs'",
     "start": "next start",
     "lint": "next lint",
