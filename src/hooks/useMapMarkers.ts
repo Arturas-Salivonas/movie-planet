@@ -10,7 +10,7 @@ import { convertFeatureToMovie, createGeoJSONCollection } from '../utils/map/geo
 import { applySpiralOffset, flattenMultiPointFeatures } from '../utils/map/coordinateUtils'
 import { createPosterIcon } from '../utils/map/markerCreation'
 import { usePosterLoading } from './usePosterLoading'
-import { useClickableRegions } from './useClickableRegions'
+// import { useClickableRegions } from './useClickableRegions' // DISABLED: Not showing regions on globe
 import { useMarkerInteractions } from './useMarkerInteractions'
 import { filterMovies } from '../utils/helpers'
 
@@ -41,7 +41,7 @@ export function useMapMarkers({
   const initializedRef = useRef<boolean>(false)
 
   const { loadVisiblePosters, imageCacheRef } = usePosterLoading()
-  const { addClickableRegions, setupRegionHover, setupRegionClick } = useClickableRegions()
+  // const { addClickableRegions, setupRegionHover, setupRegionClick } = useClickableRegions() // DISABLED
   const { setupMarkerClick, setupMarkerHover } = useMarkerInteractions({
     geojsonFeatures,
     onMovieSelect,
@@ -152,10 +152,10 @@ export function useMapMarkers({
       }
     })
 
-    // Add clickable regions
-    await addClickableRegions(map.current)
-    setupRegionHover(map.current)
-    setupRegionClick(map.current)
+    // Add clickable regions - DISABLED: Regions still exist but not displayed on globe
+    // await addClickableRegions(map.current)
+    // setupRegionHover(map.current)
+    // setupRegionClick(map.current)
 
     // Hide loading screen
     if (!initializedRef.current) {
@@ -191,9 +191,9 @@ export function useMapMarkers({
     filters,
     imageCacheRef,
     loadVisiblePosters,
-    addClickableRegions,
-    setupRegionHover,
-    setupRegionClick,
+    // addClickableRegions, // DISABLED
+    // setupRegionHover, // DISABLED
+    // setupRegionClick, // DISABLED
     setupMarkerClick,
     setupMarkerHover
   ])

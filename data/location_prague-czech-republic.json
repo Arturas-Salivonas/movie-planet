@@ -1,0 +1,647 @@
+{
+  "location": {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "slug": "prague-czech-republic",
+    "coordinates": {
+      "lat": 50.07492449839996,
+      "lng": 14.417040887999994
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt7587890",
+      "title": "The Rookie",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7587890.webp",
+      "thumbnail_52": "/images/thumbnails/tt7587890.webp",
+      "imdb_rating": 8.526,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0403778",
+      "title": "Long Way Round",
+      "year": 2004,
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0403778.webp",
+      "thumbnail_52": "/images/thumbnails/tt0403778.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3006802",
+      "title": "Outlander",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt3006802.webp",
+      "thumbnail_52": "/images/thumbnails/tt3006802.webp",
+      "imdb_rating": 8.187,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086879",
+      "title": "Amadeus",
+      "year": 1984,
+      "genres": [
+        "History",
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086879.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086879.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt2584384",
+      "title": "Jojo Rabbit",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "War",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2584384.webp",
+      "thumbnail_52": "/images/thumbnails/tt2584384.webp",
+      "imdb_rating": 7.996,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0804484",
+      "title": "Foundation",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0804484.webp",
+      "thumbnail_52": "/images/thumbnails/tt0804484.webp",
+      "imdb_rating": 7.734,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1016150",
+      "title": "All Quiet on the Western Front",
+      "year": 2022,
+      "genres": [
+        "War",
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1016150.webp",
+      "thumbnail_52": "/images/thumbnails/tt1016150.webp",
+      "imdb_rating": 7.723,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0489974",
+      "title": "Carnival Row",
+      "year": 2019,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0489974.webp",
+      "thumbnail_52": "/images/thumbnails/tt0489974.webp",
+      "imdb_rating": 7.701,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt5057054",
+      "title": "Tom Clancy's Jack Ryan",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5057054.webp",
+      "thumbnail_52": "/images/thumbnails/tt5057054.webp",
+      "imdb_rating": 7.679,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7462410",
+      "title": "The Wheel of Time",
+      "year": 2021,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7462410.webp",
+      "thumbnail_52": "/images/thumbnails/tt7462410.webp",
+      "imdb_rating": 7.636,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4687882",
+      "title": "Patriot",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4687882.webp",
+      "thumbnail_52": "/images/thumbnails/tt4687882.webp",
+      "imdb_rating": 7.596,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0381061",
+      "title": "Casino Royale",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0381061.webp",
+      "thumbnail_52": "/images/thumbnails/tt0381061.webp",
+      "imdb_rating": 7.565,
+      "londonLocationCount": 11
+    },
+    {
+      "movie_id": "tt5673782",
+      "title": "Genius",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5673782.webp",
+      "thumbnail_52": "/images/thumbnails/tt5673782.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0258463",
+      "title": "The Bourne Identity",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0258463.webp",
+      "thumbnail_52": "/images/thumbnails/tt0258463.webp",
+      "imdb_rating": 7.469,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt6932244",
+      "title": "Hanna",
+      "year": 2019,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6932244.webp",
+      "thumbnail_52": "/images/thumbnails/tt6932244.webp",
+      "imdb_rating": 7.45,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3148266",
+      "title": "12 Monkeys",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3148266.webp",
+      "thumbnail_52": "/images/thumbnails/tt3148266.webp",
+      "imdb_rating": 7.401,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6320628",
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6320628.webp",
+      "thumbnail_52": "/images/thumbnails/tt6320628.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt6271042",
+      "title": "McMafia",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6271042.webp",
+      "thumbnail_52": "/images/thumbnails/tt6271042.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0443543",
+      "title": "The Illusionist",
+      "year": 2006,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Thriller",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0443543.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443543.webp",
+      "imdb_rating": 7.295,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt7456722",
+      "title": "Hunters",
+      "year": 2020,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7456722.webp",
+      "thumbnail_52": "/images/thumbnails/tt7456722.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0363771",
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0363771.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363771.webp",
+      "imdb_rating": 7.135,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1229238",
+      "title": "Mission: Impossible - Ghost Protocol",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1229238.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229238.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0117060",
+      "title": "Mission: Impossible",
+      "year": 1996,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0117060.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117060.webp",
+      "imdb_rating": 7.013,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt4555364",
+      "title": "Knightfall",
+      "year": 2017,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4555364.webp",
+      "thumbnail_52": "/images/thumbnails/tt4555364.webp",
+      "imdb_rating": 6.995,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0462322",
+      "title": "Grindhouse",
+      "year": 2007,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0462322.webp",
+      "thumbnail_52": "/images/thumbnails/tt0462322.webp",
+      "imdb_rating": 6.988,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2733252",
+      "title": "The Musketeers",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2733252.webp",
+      "thumbnail_52": "/images/thumbnails/tt2733252.webp",
+      "imdb_rating": 6.981,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0985699",
+      "title": "Valkyrie",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "poster": "/images/posters/tt0985699.webp",
+      "thumbnail_52": "/images/thumbnails/tt0985699.webp",
+      "imdb_rating": 6.945,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1649418",
+      "title": "The Gray Man",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1649418.webp",
+      "thumbnail_52": "/images/thumbnails/tt1649418.webp",
+      "imdb_rating": 6.924,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1706620",
+      "title": "Snowpiercer",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1706620.webp",
+      "thumbnail_52": "/images/thumbnails/tt1706620.webp",
+      "imdb_rating": 6.908,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0183790",
+      "title": "A Knight's Tale",
+      "year": 2001,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Romance",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0183790.webp",
+      "thumbnail_52": "/images/thumbnails/tt0183790.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5040012",
+      "title": "Nosferatu",
+      "year": 2024,
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt5040012.webp",
+      "thumbnail_52": "/images/thumbnails/tt5040012.webp",
+      "imdb_rating": 6.702,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0167190",
+      "title": "Hellboy",
+      "year": 2004,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0167190.webp",
+      "thumbnail_52": "/images/thumbnails/tt0167190.webp",
+      "imdb_rating": 6.672,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0499448",
+      "title": "The Chronicles of Narnia: Prince Caspian",
+      "year": 2008,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0499448.webp",
+      "thumbnail_52": "/images/thumbnails/tt0499448.webp",
+      "imdb_rating": 6.627,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0356150",
+      "title": "EuroTrip",
+      "year": 2004,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0356150.webp",
+      "thumbnail_52": "/images/thumbnails/tt0356150.webp",
+      "imdb_rating": 6.607,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0187738",
+      "title": "Blade II",
+      "year": 2002,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0187738.webp",
+      "thumbnail_52": "/images/thumbnails/tt0187738.webp",
+      "imdb_rating": 6.557,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0493464",
+      "title": "Wanted",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0493464.webp",
+      "thumbnail_52": "/images/thumbnails/tt0493464.webp",
+      "imdb_rating": 6.52,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0338526",
+      "title": "Van Helsing",
+      "year": 2004,
+      "genres": [
+        "Horror",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0338526.webp",
+      "thumbnail_52": "/images/thumbnails/tt0338526.webp",
+      "imdb_rating": 6.385,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1734493",
+      "title": "Unlocked",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1734493.webp",
+      "thumbnail_52": "/images/thumbnails/tt1734493.webp",
+      "imdb_rating": 6.24,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0489099",
+      "title": "Jumper",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0489099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0489099.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0295701",
+      "title": "xXx",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0295701.webp",
+      "thumbnail_52": "/images/thumbnails/tt0295701.webp",
+      "imdb_rating": 6,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0311429",
+      "title": "The League of Extraordinary Gentlemen",
+      "year": 2003,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0311429.webp",
+      "thumbnail_52": "/images/thumbnails/tt0311429.webp",
+      "imdb_rating": 5.976,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0450278",
+      "title": "Hostel",
+      "year": 2006,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0450278.webp",
+      "thumbnail_52": "/images/thumbnails/tt0450278.webp",
+      "imdb_rating": 5.948,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0370263",
+      "title": "AVP: Alien vs. Predator",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0370263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0370263.webp",
+      "imdb_rating": 5.94,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1046173",
+      "title": "G.I. Joe: The Rise of Cobra",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1046173.webp",
+      "thumbnail_52": "/images/thumbnails/tt1046173.webp",
+      "imdb_rating": 5.789,
+      "londonLocationCount": 4
+    }
+  ],
+  "stats": {
+    "totalMovies": 44,
+    "totalLocations": 125,
+    "genres": {
+      "Action": 19,
+      "Thriller": 14,
+      "Adventure": 12,
+      "Fantasy": 7,
+      "Drama": 22,
+      "Romance": 2,
+      "Science Fiction": 6,
+      "Sci-Fi & Fantasy": 5,
+      "Documentary": 1,
+      "Reality": 1,
+      "Mystery": 1,
+      "Comedy": 4,
+      "War": 3,
+      "Action & Adventure": 4,
+      "Family": 2,
+      "Crime": 6,
+      "Horror": 6,
+      "History": 2,
+      "Music": 1
+    },
+    "decades": {
+      "2010s": 16,
+      "1990s": 1,
+      "2000s": 20,
+      "2020s": 6,
+      "1980s": 1
+    }
+  }
+}

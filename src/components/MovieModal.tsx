@@ -150,10 +150,10 @@ export default function MovieModal({
               {movie.locations.length > 1 && onShowAllLocations && (
                 <button
                   onClick={onShowAllLocations}
-                  className="items-center gap-2 px-4 py-2 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105"
+                  className="items-center gap-2 px-4 py-2 bg-white text-gray-900 rounded-lg font-semibold hover:bg-primary-100 transition-all transform hover:scale-105"
                 >
 
-                  <span>🌏 View All Filming Locations</span>
+                  <span>🌏 View All Locations</span>
                 </button>
               )}
             </div>
@@ -187,27 +187,19 @@ export default function MovieModal({
                     )}
                     <div className="flex flex-col gap-2">
                       <div className="flex-1">
-                        <h4 className="font-semibold text-gray-900 dark:text-white">
-                         📍{location.city}, {location.country}
-                        </h4>
-                        {location.description && (
-                          <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-                            {location.description}
-                          </p>
-                        )}
+                        <h5 className="font-semibold text-gray-900 dark:text-white">
+                         📍{location.display_name || `${location.city}, ${location.country}`}
+                        </h5>
                         {location.scene_description && (
-                          <div className="mt-3 p-3 bg-accent-100 dark:bg-accent-900/30 rounded-lg border-l-4 border-accent-400 shadow-sm">
+                          <div className="mt-3 p-3 bg-accent-100 dark:bg-accent-900/30 border-l-2 border-accent-400 shadow-sm">
                             <p className="text-xs font-bold text-accent-900 dark:text-accent-200 mb-1.5 flex items-center gap-1">
-                              🎬 <span>Scene</span>
+                              <span>Scene:</span>
                             </p>
                             <p className="text-sm text-accent-800 dark:text-accent-300 italic leading-relaxed">
                               {location.scene_description.replace(/^\(|\)$/g, '').trim()}
                             </p>
                           </div>
                         )}
-                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-                          {location.lat.toFixed(4)}°, {location.lng.toFixed(4)}°
-                        </p>
                       </div>
                       <button
                         onClick={() => {
@@ -217,7 +209,7 @@ export default function MovieModal({
                           }
                         }}
                         className="w-full px-3 py-1 text-sm bg-primary-50 hover:bg-primary-200 text-gray-900 rounded font-semibold transition-colors"
-                        aria-label={`View ${location.city} on map`}
+                        aria-label={`View ${location.display_name || location.city || 'location'} on map`}
                       >
                         View on Map
                       </button>

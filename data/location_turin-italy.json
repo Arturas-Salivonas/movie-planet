@@ -1,0 +1,104 @@
+{
+  "location": {
+    "city": "Turin",
+    "country": "Italy",
+    "slug": "turin-italy",
+    "coordinates": {
+      "lat": 43.39172352857143,
+      "lng": -5.497523271428571
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1520211",
+      "title": "The Walking Dead",
+      "year": 2010,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1520211.webp",
+      "thumbnail_52": "/images/thumbnails/tt1520211.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0346336",
+      "title": "The Best of Youth",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0346336.webp",
+      "thumbnail_52": "/images/thumbnails/tt0346336.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0076786",
+      "title": "Suspiria",
+      "year": 1977,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0076786.webp",
+      "thumbnail_52": "/images/thumbnails/tt0076786.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0440963",
+      "title": "The Bourne Ultimatum",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0440963.webp",
+      "thumbnail_52": "/images/thumbnails/tt0440963.webp",
+      "imdb_rating": 7.432,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6856242",
+      "title": "The King's Man",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt6856242.webp",
+      "thumbnail_52": "/images/thumbnails/tt6856242.webp",
+      "imdb_rating": 6.73,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 7,
+    "genres": {
+      "Action": 2,
+      "Drama": 3,
+      "Mystery": 1,
+      "Thriller": 2,
+      "Horror": 1,
+      "Action & Adventure": 1,
+      "Sci-Fi & Fantasy": 1,
+      "History": 1,
+      "Romance": 1,
+      "Adventure": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "1970s": 1,
+      "2010s": 1,
+      "2020s": 1
+    }
+  }
+}

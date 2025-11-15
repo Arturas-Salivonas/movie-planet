@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "manchester-united-kingdom",
     "coordinates": {
-      "lat": 53.47892626956523,
-      "lng": -2.239341200000001
+      "lat": 52.71511314074075,
+      "lng": -5.291121685185185
     }
   },
   "movies": [
@@ -33,6 +33,20 @@
       "poster": "/images/posters/tt0086661.webp",
       "thumbnail_52": "/images/thumbnails/tt0086661.webp",
       "imdb_rating": 8.124,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1520211",
+      "title": "The Walking Dead",
+      "year": 2010,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1520211.webp",
+      "thumbnail_52": "/images/thumbnails/tt1520211.webp",
+      "imdb_rating": 8.1,
       "londonLocationCount": 1
     },
     {
@@ -127,7 +141,7 @@
       "poster": "/images/posters/tt2183641.webp",
       "thumbnail_52": "/images/thumbnails/tt2183641.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0988045",
@@ -199,6 +213,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt9073958",
+      "title": "White Lines",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt9073958.webp",
+      "thumbnail_52": "/images/thumbnails/tt9073958.webp",
+      "imdb_rating": 6.647,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt5108870",
       "title": "Morbius",
       "year": 2022,
@@ -214,24 +242,25 @@
     }
   ],
   "stats": {
-    "totalMovies": 15,
-    "totalLocations": 23,
+    "totalMovies": 17,
+    "totalLocations": 27,
     "genres": {
       "Action": 3,
       "Adventure": 2,
       "Science Fiction": 2,
+      "Action & Adventure": 1,
+      "Drama": 14,
+      "Sci-Fi & Fantasy": 3,
       "Fantasy": 1,
-      "Crime": 5,
-      "Drama": 12,
-      "Mystery": 5,
+      "Crime": 6,
+      "Mystery": 6,
       "Comedy": 4,
       "Romance": 1,
-      "Sci-Fi & Fantasy": 2,
       "History": 1
     },
     "decades": {
-      "2010s": 5,
-      "2020s": 4,
+      "2010s": 6,
+      "2020s": 5,
       "1980s": 2,
       "2000s": 4
     }

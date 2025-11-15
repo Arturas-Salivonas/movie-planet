@@ -1,0 +1,874 @@
+{
+  "location": {
+    "city": "New Orleans",
+    "country": "United States",
+    "slug": "new-orleans-united-states",
+    "coordinates": {
+      "lat": 29.959323888799965,
+      "lng": -90.06247762879994
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2632424",
+      "title": "The Originals",
+      "year": 2013,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2632424.webp",
+      "thumbnail_52": "/images/thumbnails/tt2632424.webp",
+      "imdb_rating": 8.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2356777",
+      "title": "True Detective",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2356777.webp",
+      "thumbnail_52": "/images/thumbnails/tt2356777.webp",
+      "imdb_rating": 8.283,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt6966692",
+      "title": "Green Book",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "History"
+      ],
+      "poster": "/images/posters/tt6966692.webp",
+      "thumbnail_52": "/images/thumbnails/tt6966692.webp",
+      "imdb_rating": 8.225,
+      "londonLocationCount": 13
+    },
+    {
+      "movie_id": "tt1853728",
+      "title": "Django Unchained",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "poster": "/images/posters/tt1853728.webp",
+      "thumbnail_52": "/images/thumbnails/tt1853728.webp",
+      "imdb_rating": 8.185,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1844624",
+      "title": "American Horror Story",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1844624.webp",
+      "thumbnail_52": "/images/thumbnails/tt1844624.webp",
+      "imdb_rating": 8.102,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7440726",
+      "title": "Your Honor",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7440726.webp",
+      "thumbnail_52": "/images/thumbnails/tt7440726.webp",
+      "imdb_rating": 8.074,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt8749198",
+      "title": "Daisy Jones & the Six",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8749198.webp",
+      "thumbnail_52": "/images/thumbnails/tt8749198.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2024544",
+      "title": "12 Years a Slave",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt2024544.webp",
+      "thumbnail_52": "/images/thumbnails/tt2024544.webp",
+      "imdb_rating": 7.938,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0790636",
+      "title": "Dallas Buyers Club",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0790636.webp",
+      "thumbnail_52": "/images/thumbnails/tt0790636.webp",
+      "imdb_rating": 7.919,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4145384",
+      "title": "Scream Queens",
+      "year": 2015,
+      "genres": [
+        "Mystery",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt4145384.webp",
+      "thumbnail_52": "/images/thumbnails/tt4145384.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3315342",
+      "title": "Logan",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3315342.webp",
+      "thumbnail_52": "/images/thumbnails/tt3315342.webp",
+      "imdb_rating": 7.82,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt14261112",
+      "title": "Twisted Metal",
+      "year": 2023,
+      "genres": [
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt14261112.webp",
+      "thumbnail_52": "/images/thumbnails/tt14261112.webp",
+      "imdb_rating": 7.803,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3865236",
+      "title": "Into the Badlands",
+      "year": 2015,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3865236.webp",
+      "thumbnail_52": "/images/thumbnails/tt3865236.webp",
+      "imdb_rating": 7.606,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0102138",
+      "title": "JFK",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt0102138.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102138.webp",
+      "imdb_rating": 7.604,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4254242",
+      "title": "The Magicians",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt4254242.webp",
+      "thumbnail_52": "/images/thumbnails/tt4254242.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0421715",
+      "title": "The Curious Case of Benjamin Button",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0421715.webp",
+      "thumbnail_52": "/images/thumbnails/tt0421715.webp",
+      "imdb_rating": 7.594,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt31193180",
+      "title": "Sinners",
+      "year": 2025,
+      "genres": [
+        "Horror",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt31193180.webp",
+      "thumbnail_52": "/images/thumbnails/tt31193180.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt12197698",
+      "title": "Leverage: Redemption",
+      "year": 2021,
+      "genres": [
+        "Action & Adventure",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt12197698.webp",
+      "thumbnail_52": "/images/thumbnails/tt12197698.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3890160",
+      "title": "Baby Driver",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt3890160.webp",
+      "thumbnail_52": "/images/thumbnails/tt3890160.webp",
+      "imdb_rating": 7.445,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0110148",
+      "title": "Interview with the Vampire",
+      "year": 1994,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0110148.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110148.webp",
+      "imdb_rating": 7.381,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7259746",
+      "title": "Queer Eye",
+      "year": 2018,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt7259746.webp",
+      "thumbnail_52": "/images/thumbnails/tt7259746.webp",
+      "imdb_rating": 7.366,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1596363",
+      "title": "The Big Short",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1596363.webp",
+      "thumbnail_52": "/images/thumbnails/tt1596363.webp",
+      "imdb_rating": 7.358,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2103281",
+      "title": "Dawn of the Planet of the Apes",
+      "year": 2014,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2103281.webp",
+      "thumbnail_52": "/images/thumbnails/tt2103281.webp",
+      "imdb_rating": 7.334,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1670345",
+      "title": "Now You See Me",
+      "year": 2013,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1670345.webp",
+      "thumbnail_52": "/images/thumbnails/tt1670345.webp",
+      "imdb_rating": 7.332,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt15428778",
+      "title": "Mayfair Witches",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt15428778.webp",
+      "thumbnail_52": "/images/thumbnails/tt15428778.webp",
+      "imdb_rating": 7.326,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3560084",
+      "title": "NCIS: New Orleans",
+      "year": 2014,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3560084.webp",
+      "thumbnail_52": "/images/thumbnails/tt3560084.webp",
+      "imdb_rating": 7.289,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt5614844",
+      "title": "Marvel's Cloak & Dagger",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt5614844.webp",
+      "thumbnail_52": "/images/thumbnails/tt5614844.webp",
+      "imdb_rating": 7.131,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2883512",
+      "title": "Chef",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2883512.webp",
+      "thumbnail_52": "/images/thumbnails/tt2883512.webp",
+      "imdb_rating": 7.114,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0898367",
+      "title": "The Road",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0898367.webp",
+      "thumbnail_52": "/images/thumbnails/tt0898367.webp",
+      "imdb_rating": 7.016,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1179933",
+      "title": "10 Cloverfield Lane",
+      "year": 2016,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Drama",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt1179933.webp",
+      "thumbnail_52": "/images/thumbnails/tt1179933.webp",
+      "imdb_rating": 6.994,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0072562",
+      "title": "Saturday Night Live",
+      "year": 1975,
+      "genres": [
+        "Comedy",
+        "News"
+      ],
+      "poster": "/images/posters/tt0072562.webp",
+      "thumbnail_52": "/images/thumbnails/tt0072562.webp",
+      "imdb_rating": 6.956,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1276104",
+      "title": "Looper",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1276104.webp",
+      "thumbnail_52": "/images/thumbnails/tt1276104.webp",
+      "imdb_rating": 6.897,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3532216",
+      "title": "American Made",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3532216.webp",
+      "thumbnail_52": "/images/thumbnails/tt3532216.webp",
+      "imdb_rating": 6.895,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1232829",
+      "title": "21 Jump Street",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1232829.webp",
+      "thumbnail_52": "/images/thumbnails/tt1232829.webp",
+      "imdb_rating": 6.882,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2381941",
+      "title": "Focus",
+      "year": 2015,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2381941.webp",
+      "thumbnail_52": "/images/thumbnails/tt2381941.webp",
+      "imdb_rating": 6.871,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0453467",
+      "title": "Déjà Vu",
+      "year": 2006,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0453467.webp",
+      "thumbnail_52": "/images/thumbnails/tt0453467.webp",
+      "imdb_rating": 6.868,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt2294449",
+      "title": "22 Jump Street",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt2294449.webp",
+      "thumbnail_52": "/images/thumbnails/tt2294449.webp",
+      "imdb_rating": 6.83,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt2657262",
+      "title": "Star-Crossed",
+      "year": 2014,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2657262.webp",
+      "thumbnail_52": "/images/thumbnails/tt2657262.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4154664",
+      "title": "Captain Marvel",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt4154664.webp",
+      "thumbnail_52": "/images/thumbnails/tt4154664.webp",
+      "imdb_rating": 6.791,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3250026",
+      "title": "Zoo",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3250026.webp",
+      "thumbnail_52": "/images/thumbnails/tt3250026.webp",
+      "imdb_rating": 6.721,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1245526",
+      "title": "RED",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1245526.webp",
+      "thumbnail_52": "/images/thumbnails/tt1245526.webp",
+      "imdb_rating": 6.701,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt1211956",
+      "title": "Escape Plan",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1211956.webp",
+      "thumbnail_52": "/images/thumbnails/tt1211956.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0369610",
+      "title": "Jurassic World",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0369610.webp",
+      "thumbnail_52": "/images/thumbnails/tt0369610.webp",
+      "imdb_rating": 6.699,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1483013",
+      "title": "Oblivion",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1483013.webp",
+      "thumbnail_52": "/images/thumbnails/tt1483013.webp",
+      "imdb_rating": 6.662,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1731141",
+      "title": "Ender's Game",
+      "year": 2013,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1731141.webp",
+      "thumbnail_52": "/images/thumbnails/tt1731141.webp",
+      "imdb_rating": 6.582,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1136617",
+      "title": "The Killer",
+      "year": 2023,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1136617.webp",
+      "thumbnail_52": "/images/thumbnails/tt1136617.webp",
+      "imdb_rating": 6.581,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1272878",
+      "title": "2 Guns",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1272878.webp",
+      "thumbnail_52": "/images/thumbnails/tt1272878.webp",
+      "imdb_rating": 6.536,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2302755",
+      "title": "Olympus Has Fallen",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2302755.webp",
+      "thumbnail_52": "/images/thumbnails/tt2302755.webp",
+      "imdb_rating": 6.411,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1764651",
+      "title": "The Expendables 2",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1764651.webp",
+      "thumbnail_52": "/images/thumbnails/tt1764651.webp",
+      "imdb_rating": 6.351,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0477071",
+      "title": "Premonition",
+      "year": 2007,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0477071.webp",
+      "thumbnail_52": "/images/thumbnails/tt0477071.webp",
+      "imdb_rating": 6.278,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0458525",
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0458525.webp",
+      "thumbnail_52": "/images/thumbnails/tt0458525.webp",
+      "imdb_rating": 6.278,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1320253",
+      "title": "The Expendables",
+      "year": 2010,
+      "genres": [
+        "Thriller",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1320253.webp",
+      "thumbnail_52": "/images/thumbnails/tt1320253.webp",
+      "imdb_rating": 6.248,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1245492",
+      "title": "This Is the End",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1245492.webp",
+      "thumbnail_52": "/images/thumbnails/tt1245492.webp",
+      "imdb_rating": 6.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1229340",
+      "title": "Anchorman 2: The Legend Continues",
+      "year": 2013,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1229340.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229340.webp",
+      "imdb_rating": 6.136,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3393786",
+      "title": "Jack Reacher: Never Go Back",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt3393786.webp",
+      "thumbnail_52": "/images/thumbnails/tt3393786.webp",
+      "imdb_rating": 5.992,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt1340138",
+      "title": "Terminator Genisys",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1340138.webp",
+      "thumbnail_52": "/images/thumbnails/tt1340138.webp",
+      "imdb_rating": 5.945,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120667",
+      "title": "Fantastic Four",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0120667.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120667.webp",
+      "imdb_rating": 5.801,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1583421",
+      "title": "G.I. Joe: Retaliation",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1583421.webp",
+      "thumbnail_52": "/images/thumbnails/tt1583421.webp",
+      "imdb_rating": 5.648,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt2637294",
+      "title": "Hot Tub Time Machine 2",
+      "year": 2015,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2637294.webp",
+      "thumbnail_52": "/images/thumbnails/tt2637294.webp",
+      "imdb_rating": 5.199,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1133985",
+      "title": "Green Lantern",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1133985.webp",
+      "thumbnail_52": "/images/thumbnails/tt1133985.webp",
+      "imdb_rating": 5.176,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 61,
+    "totalLocations": 125,
+    "genres": {
+      "Drama": 28,
+      "Western": 1,
+      "History": 4,
+      "Action": 26,
+      "Science Fiction": 14,
+      "Thriller": 19,
+      "Mystery": 6,
+      "Comedy": 17,
+      "Crime": 11,
+      "Fantasy": 3,
+      "Romance": 2,
+      "Adventure": 12,
+      "Sci-Fi & Fantasy": 6,
+      "Horror": 3,
+      "News": 1,
+      "Action & Adventure": 5,
+      "Reality": 2
+    },
+    "decades": {
+      "2010s": 44,
+      "1990s": 2,
+      "2000s": 7,
+      "2020s": 7,
+      "1970s": 1
+    }
+  }
+}

@@ -8,9 +8,13 @@ import * as path from 'path'
 interface Movie {
   movie_id: string
   locations: Array<{
-    description: string
     lat: number
     lng: number
+    display_name?: string
+    city?: string
+    country?: string
+    description?: string
+    scene_description?: string
   }>
 }
 
@@ -30,10 +34,24 @@ async function generateStats() {
   const countries = new Set<string>()
   moviesData.forEach(movie => {
     movie.locations?.forEach(location => {
-      // Extract country from description (last part after comma)
-      const parts = location.description.split(',')
-      if (parts.length > 0) {
-        const country = parts[parts.length - 1].trim()
+      // Extract country from display_name (last part after last comma) or use country field
+      let country = location.country
+
+      if (!country && location.display_name) {
+        const parts = location.display_name.split(',')
+        if (parts.length > 0) {
+          country = parts[parts.length - 1].trim()
+        }
+      }
+
+      if (!country && location.description) {
+        const parts = location.description.split(',')
+        if (parts.length > 0) {
+          country = parts[parts.length - 1].trim()
+        }
+      }
+
+      if (country) {
         countries.add(country)
       }
     })

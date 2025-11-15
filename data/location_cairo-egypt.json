@@ -1,0 +1,98 @@
+{
+  "location": {
+    "city": "Cairo",
+    "country": "Egypt",
+    "slug": "cairo-egypt",
+    "coordinates": {
+      "lat": 30.044387899999997,
+      "lng": 31.2357257
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4063800",
+      "title": "The Bureau",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4063800.webp",
+      "thumbnail_52": "/images/thumbnails/tt4063800.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6271042",
+      "title": "McMafia",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6271042.webp",
+      "thumbnail_52": "/images/thumbnails/tt6271042.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt12411074",
+      "title": "Paranormal",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt12411074.webp",
+      "thumbnail_52": "/images/thumbnails/tt12411074.webp",
+      "imdb_rating": 7.092,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7991608",
+      "title": "Red Notice",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7991608.webp",
+      "thumbnail_52": "/images/thumbnails/tt7991608.webp",
+      "imdb_rating": 6.753,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7657566",
+      "title": "Death on the Nile",
+      "year": 2022,
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt7657566.webp",
+      "thumbnail_52": "/images/thumbnails/tt7657566.webp",
+      "imdb_rating": 6.422,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 5,
+    "genres": {
+      "Crime": 4,
+      "Drama": 3,
+      "Action": 1,
+      "Comedy": 1,
+      "Mystery": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Thriller": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2020s": 3
+    }
+  }
+}

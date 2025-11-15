@@ -1,0 +1,130 @@
+{
+  "location": {
+    "city": "San Antonio",
+    "country": "United States",
+    "slug": "san-antonio-united-states",
+    "coordinates": {
+      "lat": 29.444636862499998,
+      "lng": -98.52584610000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt18335752",
+      "title": "1923",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "poster": "/images/posters/tt18335752.webp",
+      "thumbnail_52": "/images/thumbnails/tt18335752.webp",
+      "imdb_rating": 8.203,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0369339",
+      "title": "Collateral",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0369339.webp",
+      "thumbnail_52": "/images/thumbnails/tt0369339.webp",
+      "imdb_rating": 7.235,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0212346",
+      "title": "Miss Congeniality",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0212346.webp",
+      "thumbnail_52": "/images/thumbnails/tt0212346.webp",
+      "imdb_rating": 6.537,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0112281",
+      "title": "Ace Ventura: When Nature Calls",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0112281.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112281.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181852",
+      "title": "Terminator 3: Rise of the Machines",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0181852.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181852.webp",
+      "imdb_rating": 6.176,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1440129",
+      "title": "Battleship",
+      "year": 2012,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1440129.webp",
+      "thumbnail_52": "/images/thumbnails/tt1440129.webp",
+      "imdb_rating": 5.879,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 8,
+    "genres": {
+      "Drama": 2,
+      "Crime": 3,
+      "Thriller": 3,
+      "Action": 3,
+      "Science Fiction": 2,
+      "Adventure": 2,
+      "Western": 1,
+      "Comedy": 2,
+      "Reality": 1
+    },
+    "decades": {
+      "2000s": 4,
+      "2010s": 1,
+      "2020s": 1,
+      "1990s": 1
+    }
+  }
+}

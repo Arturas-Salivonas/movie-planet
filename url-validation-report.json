@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-11-15T15:22:57.480Z",
+  "summary": {
+    "total": 2829,
+    "valid": 2827,
+    "broken": 2,
+    "locations": {
+      "valid": 80,
+      "broken": 0
+    },
+    "movies": {
+      "valid": 2747,
+      "broken": 2
+    }
+  },
+  "brokenUrls": [
+    {
+      "url": "/movie/dune-prophecy",
+      "type": "movie",
+      "reason": "Incomplete data (missing title or year) for movie: dune-prophecy (tt10466872) - might be a TV show"
+    },
+    {
+      "url": "/movie/the-better-sister",
+      "type": "movie",
+      "reason": "Incomplete data (missing title or year) for movie: the-better-sister (tt32260680) - might be a TV show"
+    }
+  ]
+}

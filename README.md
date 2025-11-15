@@ -1,4 +1,4 @@
-# 🎬 FilmingMap
+# 🎬 FilmingMap.com
 
 > An interactive 3D globe visualization platform that maps authentic filming locations from thousands of movies and TV series worldwide.
 

@@ -1,0 +1,550 @@
+{
+  "location": {
+    "city": "Miami",
+    "country": "United States",
+    "slug": "miami-united-states",
+    "coordinates": {
+      "lat": 25.777006393421036,
+      "lng": -80.19623371315788
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0071562",
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0071562.webp",
+      "thumbnail_52": "/images/thumbnails/tt0071562.webp",
+      "imdb_rating": 8.571,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0773262",
+      "title": "Dexter",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0773262.webp",
+      "thumbnail_52": "/images/thumbnails/tt0773262.webp",
+      "imdb_rating": 8.224,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081505",
+      "title": "The Shining",
+      "year": 1980,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0081505.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081505.webp",
+      "imdb_rating": 8.208,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt32252772",
+      "title": "Dexter: Original Sin",
+      "year": 2024,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt32252772.webp",
+      "thumbnail_52": "/images/thumbnails/tt32252772.webp",
+      "imdb_rating": 8.193,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086250",
+      "title": "Scarface",
+      "year": 1983,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086250.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086250.webp",
+      "imdb_rating": 8.158,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0455275",
+      "title": "Prison Break",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0455275.webp",
+      "thumbnail_52": "/images/thumbnails/tt0455275.webp",
+      "imdb_rating": 8.078,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0081912",
+      "title": "Only Fools and Horses",
+      "year": 1981,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0081912.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081912.webp",
+      "imdb_rating": 8.021,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0313043",
+      "title": "CSI: Miami",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0313043.webp",
+      "thumbnail_52": "/images/thumbnails/tt0313043.webp",
+      "imdb_rating": 7.714,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1302006",
+      "title": "The Irishman",
+      "year": 2019,
+      "genres": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt1302006.webp",
+      "thumbnail_52": "/images/thumbnails/tt1302006.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2788432",
+      "title": "American Crime Story",
+      "year": 2016,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2788432.webp",
+      "thumbnail_52": "/images/thumbnails/tt2788432.webp",
+      "imdb_rating": 7.568,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9777666",
+      "title": "The Tomorrow War",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt9777666.webp",
+      "thumbnail_52": "/images/thumbnails/tt9777666.webp",
+      "imdb_rating": 7.488,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086759",
+      "title": "Miami Vice",
+      "year": 1984,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086759.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086759.webp",
+      "imdb_rating": 7.47,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0810788",
+      "title": "Burn Notice",
+      "year": 2007,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0810788.webp",
+      "thumbnail_52": "/images/thumbnails/tt0810788.webp",
+      "imdb_rating": 7.461,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4975722",
+      "title": "Moonlight",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4975722.webp",
+      "thumbnail_52": "/images/thumbnails/tt4975722.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0058150",
+      "title": "Goldfinger",
+      "year": 1964,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0058150.webp",
+      "thumbnail_52": "/images/thumbnails/tt0058150.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt15203646",
+      "title": "Bad Monkey",
+      "year": 2024,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt15203646.webp",
+      "thumbnail_52": "/images/thumbnails/tt15203646.webp",
+      "imdb_rating": 7.273,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2393813",
+      "title": "Graceland",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2393813.webp",
+      "thumbnail_52": "/images/thumbnails/tt2393813.webp",
+      "imdb_rating": 7.164,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1502397",
+      "title": "Bad Boys for Life",
+      "year": 2020,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1502397.webp",
+      "thumbnail_52": "/images/thumbnails/tt1502397.webp",
+      "imdb_rating": 7.129,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2883512",
+      "title": "Chef",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2883512.webp",
+      "thumbnail_52": "/images/thumbnails/tt2883512.webp",
+      "imdb_rating": 7.114,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0111503",
+      "title": "True Lies",
+      "year": 1994,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0111503.webp",
+      "thumbnail_52": "/images/thumbnails/tt0111503.webp",
+      "imdb_rating": 7.084,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1943524",
+      "title": "The Finder",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1943524.webp",
+      "thumbnail_52": "/images/thumbnails/tt1943524.webp",
+      "imdb_rating": 7.067,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0115685",
+      "title": "The Birdcage",
+      "year": 1996,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0115685.webp",
+      "thumbnail_52": "/images/thumbnails/tt0115685.webp",
+      "imdb_rating": 7.038,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1300854",
+      "title": "Iron Man 3",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1300854.webp",
+      "thumbnail_52": "/images/thumbnails/tt1300854.webp",
+      "imdb_rating": 6.93,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2005151",
+      "title": "War Dogs",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2005151.webp",
+      "thumbnail_52": "/images/thumbnails/tt2005151.webp",
+      "imdb_rating": 6.926,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1193138",
+      "title": "Up in the Air",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1193138.webp",
+      "thumbnail_52": "/images/thumbnails/tt1193138.webp",
+      "imdb_rating": 6.882,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0112442",
+      "title": "Bad Boys",
+      "year": 1995,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0112442.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112442.webp",
+      "imdb_rating": 6.825,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2891574",
+      "title": "Ballers",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2891574.webp",
+      "thumbnail_52": "/images/thumbnails/tt2891574.webp",
+      "imdb_rating": 6.782,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1152836",
+      "title": "Public Enemies",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1152836.webp",
+      "thumbnail_52": "/images/thumbnails/tt1152836.webp",
+      "imdb_rating": 6.688,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0172156",
+      "title": "Bad Boys II",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Crime",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0172156.webp",
+      "thumbnail_52": "/images/thumbnails/tt0172156.webp",
+      "imdb_rating": 6.654,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0129387",
+      "title": "There's Something About Mary",
+      "year": 1998,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0129387.webp",
+      "thumbnail_52": "/images/thumbnails/tt0129387.webp",
+      "imdb_rating": 6.618,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0109040",
+      "title": "Ace Ventura: Pet Detective",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0109040.webp",
+      "thumbnail_52": "/images/thumbnails/tt0109040.webp",
+      "imdb_rating": 6.567,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0091541",
+      "title": "The Money Pit",
+      "year": 1986,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0091541.webp",
+      "thumbnail_52": "/images/thumbnails/tt0091541.webp",
+      "imdb_rating": 6.511,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0322259",
+      "title": "2 Fast 2 Furious",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0322259.webp",
+      "thumbnail_52": "/images/thumbnails/tt0322259.webp",
+      "imdb_rating": 6.51,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0388482",
+      "title": "Transporter 2",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0388482.webp",
+      "thumbnail_52": "/images/thumbnails/tt0388482.webp",
+      "imdb_rating": 6.318,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1980209",
+      "title": "Pain & Gain",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1980209.webp",
+      "thumbnail_52": "/images/thumbnails/tt1980209.webp",
+      "imdb_rating": 6.279,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0290002",
+      "title": "Meet the Fockers",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0290002.webp",
+      "thumbnail_52": "/images/thumbnails/tt0290002.webp",
+      "imdb_rating": 6.251,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1469304",
+      "title": "Baywatch",
+      "year": 2017,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1469304.webp",
+      "thumbnail_52": "/images/thumbnails/tt1469304.webp",
+      "imdb_rating": 6.092,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 38,
+    "totalLocations": 76,
+    "genres": {
+      "Drama": 17,
+      "Crime": 22,
+      "Horror": 1,
+      "Thriller": 7,
+      "History": 2,
+      "Action": 12,
+      "Comedy": 14,
+      "Romance": 4,
+      "Mystery": 3,
+      "Action & Adventure": 3,
+      "Adventure": 3,
+      "Science Fiction": 2,
+      "Reality": 1
+    },
+    "decades": {
+      "1970s": 1,
+      "1980s": 5,
+      "2010s": 11,
+      "1990s": 5,
+      "2000s": 11,
+      "2020s": 4,
+      "1960s": 1
+    }
+  }
+}

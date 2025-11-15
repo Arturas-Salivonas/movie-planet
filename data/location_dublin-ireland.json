@@ -4,8 +4,8 @@
     "country": "Ireland",
     "slug": "dublin-ireland",
     "coordinates": {
-      "lat": 53.34709893684209,
-      "lng": -6.268160636842106
+      "lat": 53.35125984999999,
+      "lng": -6.269207857142858
     }
   },
   "movies": [
@@ -61,7 +61,7 @@
       "poster": "/images/posters/tt0072684.webp",
       "thumbnail_52": "/images/thumbnails/tt0072684.webp",
       "imdb_rating": 8,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt8179402",
@@ -89,7 +89,7 @@
       "poster": "/images/posters/tt0112573.webp",
       "thumbnail_52": "/images/thumbnails/tt0112573.webp",
       "imdb_rating": 7.941,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0107207",
@@ -116,7 +116,7 @@
       "poster": "/images/posters/tt2628232.webp",
       "thumbnail_52": "/images/thumbnails/tt2628232.webp",
       "imdb_rating": 7.829,
-      "londonLocationCount": 5
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0758790",
@@ -195,7 +195,7 @@
       "poster": "/images/posters/tt2183641.webp",
       "thumbnail_52": "/images/thumbnails/tt2183641.webp",
       "imdb_rating": 7.4,
-      "londonLocationCount": 3
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0431308",
@@ -267,7 +267,7 @@
   ],
   "stats": {
     "totalMovies": 19,
-    "totalLocations": 38,
+    "totalLocations": 42,
     "genres": {
       "Drama": 17,
       "Science Fiction": 2,

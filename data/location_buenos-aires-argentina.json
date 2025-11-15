@@ -4,8 +4,8 @@
     "country": "Argentina",
     "slug": "buenos-aires-argentina",
     "coordinates": {
-      "lat": -34.59253101,
-      "lng": -58.41920433
+      "lat": -18.12035840909091,
+      "lng": -61.68355261212122
     }
   },
   "movies": [
@@ -21,7 +21,7 @@
       "poster": "/images/posters/tt1305806.webp",
       "thumbnail_52": "/images/thumbnails/tt1305806.webp",
       "imdb_rating": 7.972,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3011894",
@@ -35,6 +35,21 @@
       "poster": "/images/posters/tt3011894.webp",
       "thumbnail_52": "/images/thumbnails/tt3011894.webp",
       "imdb_rating": 7.865,
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt0206634",
+      "title": "Children of Men",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0206634.webp",
+      "thumbnail_52": "/images/thumbnails/tt0206634.webp",
+      "imdb_rating": 7.6,
       "londonLocationCount": 3
     },
     {
@@ -49,23 +64,71 @@
       "poster": "/images/posters/tt27740241.webp",
       "thumbnail_52": "/images/thumbnails/tt27740241.webp",
       "imdb_rating": 7.528,
-      "londonLocationCount": 6
+      "londonLocationCount": 16
+    },
+    {
+      "movie_id": "tt8404614",
+      "title": "The Two Popes",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt8404614.webp",
+      "thumbnail_52": "/images/thumbnails/tt8404614.webp",
+      "imdb_rating": 7.49,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2381941",
+      "title": "Focus",
+      "year": 2015,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt2381941.webp",
+      "thumbnail_52": "/images/thumbnails/tt2381941.webp",
+      "imdb_rating": 6.871,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116996",
+      "title": "Mars Attacks!",
+      "year": 1996,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116996.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116996.webp",
+      "imdb_rating": 6.4,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 3,
-    "totalLocations": 10,
+    "totalMovies": 7,
+    "totalLocations": 33,
     "genres": {
       "Mystery": 1,
-      "Thriller": 2,
-      "Drama": 3,
-      "Comedy": 1,
+      "Thriller": 3,
+      "Drama": 5,
+      "Action": 1,
+      "Science Fiction": 2,
+      "History": 1,
+      "Comedy": 3,
+      "Romance": 1,
+      "Crime": 1,
+      "Fantasy": 1,
       "Action & Adventure": 1,
       "Sci-Fi & Fantasy": 1
     },
     "decades": {
-      "2000s": 1,
-      "2010s": 1,
+      "2000s": 2,
+      "2010s": 3,
+      "1990s": 1,
       "2020s": 1
     }
   }

@@ -4,8 +4,8 @@
     "country": "Australia",
     "slug": "sydney-australia",
     "coordinates": {
-      "lat": -33.87057625232069,
-      "lng": 151.19171432658217
+      "lat": -33.873619734836076,
+      "lng": 151.18584497459003
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt0133093.webp",
       "thumbnail_52": "/images/thumbnails/tt0133093.webp",
       "imdb_rating": 8.234,
-      "londonLocationCount": 20
+      "londonLocationCount": 19
     },
     {
       "movie_id": "tt7472896",
@@ -47,7 +47,7 @@
       "poster": "/images/posters/tt2119532.webp",
       "thumbnail_52": "/images/thumbnails/tt2119532.webp",
       "imdb_rating": 8.2,
-      "londonLocationCount": 6
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt10168312",
@@ -182,7 +182,7 @@
       "poster": "/images/posters/tt1809398.webp",
       "thumbnail_52": "/images/thumbnails/tt1809398.webp",
       "imdb_rating": 7.426,
-      "londonLocationCount": 4
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt1490017",
@@ -227,6 +227,20 @@
       "londonLocationCount": 9
     },
     {
+      "movie_id": "tt0112022",
+      "title": "JAG",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0112022.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112022.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1051906",
       "title": "The Invisible Man",
       "year": 2020,
@@ -239,6 +253,20 @@
       "thumbnail_52": "/images/thumbnails/tt1051906.webp",
       "imdb_rating": 7.1,
       "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0106064",
+      "title": "Power Rangers",
+      "year": 1993,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt0106064.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106064.webp",
+      "imdb_rating": 7.093,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0234215",
@@ -436,7 +464,7 @@
       "poster": "/images/posters/tt0458525.webp",
       "thumbnail_52": "/images/thumbnails/tt0458525.webp",
       "imdb_rating": 6.278,
-      "londonLocationCount": 6
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt0366548",
@@ -523,11 +551,23 @@
       "thumbnail_52": "/images/thumbnails/tt0133152.webp",
       "imdb_rating": 5.762,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 37,
-    "totalLocations": 237,
+    "totalMovies": 40,
+    "totalLocations": 244,
     "genres": {
       "Action": 19,
       "Science Fiction": 17,
@@ -535,24 +575,26 @@
       "Fantasy": 3,
       "Comedy": 5,
       "Thriller": 9,
-      "Drama": 12,
+      "Drama": 13,
       "History": 1,
       "War": 2,
-      "Crime": 3,
+      "Crime": 4,
       "Romance": 3,
       "Animation": 4,
       "Family": 3,
-      "Action & Adventure": 2,
-      "Sci-Fi & Fantasy": 2,
+      "Action & Adventure": 4,
+      "Sci-Fi & Fantasy": 3,
       "Horror": 3,
       "Music": 1,
-      "Mystery": 3
+      "Mystery": 3,
+      "Kids": 1,
+      "Reality": 1
     },
     "decades": {
-      "1990s": 4,
+      "1990s": 6,
       "2010s": 12,
       "2020s": 7,
-      "2000s": 12,
+      "2000s": 13,
       "1970s": 1,
       "1980s": 1
     }

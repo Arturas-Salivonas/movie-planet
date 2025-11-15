@@ -1,0 +1,116 @@
+{
+  "location": {
+    "city": "Indianapolis",
+    "country": "United States",
+    "slug": "indianapolis-united-states",
+    "coordinates": {
+      "lat": 39.771746199999995,
+      "lng": -86.20752232857141
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0108399",
+      "title": "True Romance",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Crime",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0108399.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108399.webp",
+      "imdb_rating": 7.542,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0098635",
+      "title": "When Harry Met Sally...",
+      "year": 1989,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0098635.webp",
+      "thumbnail_52": "/images/thumbnails/tt0098635.webp",
+      "imdb_rating": 7.405,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0099785",
+      "title": "Home Alone",
+      "year": 1990,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0099785.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099785.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0075860",
+      "title": "Close Encounters of the Third Kind",
+      "year": 1977,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0075860.webp",
+      "thumbnail_52": "/images/thumbnails/tt0075860.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0086960",
+      "title": "Beverly Hills Cop",
+      "year": 1984,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0086960.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086960.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1059786",
+      "title": "Eagle Eye",
+      "year": 2008,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1059786.webp",
+      "thumbnail_52": "/images/thumbnails/tt1059786.webp",
+      "imdb_rating": 6.479,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 7,
+    "genres": {
+      "Comedy": 3,
+      "Family": 1,
+      "Romance": 2,
+      "Drama": 2,
+      "Action": 3,
+      "Crime": 2,
+      "Science Fiction": 1,
+      "Mystery": 1,
+      "Thriller": 1
+    },
+    "decades": {
+      "1990s": 2,
+      "1980s": 2,
+      "1970s": 1,
+      "2000s": 1
+    }
+  }
+}

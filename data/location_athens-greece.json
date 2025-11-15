@@ -1,0 +1,79 @@
+{
+  "location": {
+    "city": "Athens",
+    "country": "Greece",
+    "slug": "athens-greece",
+    "coordinates": {
+      "lat": 37.9755648,
+      "lng": 23.7348324
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt8749198",
+      "title": "Daisy Jones & the Six",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8749198.webp",
+      "thumbnail_52": "/images/thumbnails/tt8749198.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5057054",
+      "title": "Tom Clancy's Jack Ryan",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5057054.webp",
+      "thumbnail_52": "/images/thumbnails/tt5057054.webp",
+      "imdb_rating": 7.679,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10577736",
+      "title": "Tehran",
+      "year": 2020,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10577736.webp",
+      "thumbnail_52": "/images/thumbnails/tt10577736.webp",
+      "imdb_rating": 7.51,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4196776",
+      "title": "Jason Bourne",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4196776.webp",
+      "thumbnail_52": "/images/thumbnails/tt4196776.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 5,
+    "genres": {
+      "Action & Adventure": 1,
+      "Drama": 3,
+      "Action": 1,
+      "Adventure": 1,
+      "Thriller": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2020s": 2
+    }
+  }
+}

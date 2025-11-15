@@ -74,10 +74,12 @@ export function applySpiralOffset(features: any[], overlapThreshold: number = 0.
       // No overlap - keep original position
       processedFeatures.push(group[0])
     } else {
-      // Multiple markers at same location - apply spiral offset
+      // Multiple markers at same location - apply LARGER spiral offset for better visibility
       group.forEach((feature: any, index: number) => {
         const angle = (index / group.length) * 2 * Math.PI
-        const radius = 0.0005 + (Math.floor(index / 8) * 0.0003) // Spiral outward
+        // INCREASED radius significantly - from 0.0005 to 0.003 (about 333 meters)
+        // This makes overlapping markers much more visible and clickable
+        const radius = 0.003 + (Math.floor(index / 8) * 0.002) // Spiral outward more
         const offsetLng = Math.cos(angle) * radius
         const offsetLat = Math.sin(angle) * radius
 
@@ -91,7 +93,8 @@ export function applySpiralOffset(features: any[], overlapThreshold: number = 0.
           properties: {
             ...feature.properties,
             _overlapping_count: group.length, // Track overlap count
-            _overlap_index: index
+            _overlap_index: index,
+            _original_coordinates: [lng, lat] // Store original coordinates for reference
           }
         })
       })

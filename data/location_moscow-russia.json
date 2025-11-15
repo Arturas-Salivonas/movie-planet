@@ -1,0 +1,209 @@
+{
+  "location": {
+    "city": "Moscow",
+    "country": "Russia",
+    "slug": "moscow-russia",
+    "coordinates": {
+      "lat": 55.6744509882353,
+      "lng": 37.60200092941177
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt4063800",
+      "title": "The Bureau",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4063800.webp",
+      "thumbnail_52": "/images/thumbnails/tt4063800.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0071411",
+      "title": "Dersu Uzala",
+      "year": 1975,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0071411.webp",
+      "thumbnail_52": "/images/thumbnails/tt0071411.webp",
+      "imdb_rating": 7.903,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0069293",
+      "title": "Solaris",
+      "year": 1972,
+      "genres": [
+        "Drama",
+        "Science Fiction",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0069293.webp",
+      "thumbnail_52": "/images/thumbnails/tt0069293.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0162222",
+      "title": "Cast Away",
+      "year": 2000,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0162222.webp",
+      "thumbnail_52": "/images/thumbnails/tt0162222.webp",
+      "imdb_rating": 7.66,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0099810",
+      "title": "The Hunt for Red October",
+      "year": 1990,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0099810.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099810.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6271042",
+      "title": "McMafia",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6271042.webp",
+      "thumbnail_52": "/images/thumbnails/tt6271042.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0372183",
+      "title": "The Bourne Supremacy",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0372183.webp",
+      "thumbnail_52": "/images/thumbnails/tt0372183.webp",
+      "imdb_rating": 7.323,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1229238",
+      "title": "Mission: Impossible - Ghost Protocol",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1229238.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229238.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0120611",
+      "title": "Blade",
+      "year": 1998,
+      "genres": [
+        "Horror",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0120611.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120611.webp",
+      "imdb_rating": 6.814,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118571",
+      "title": "Air Force One",
+      "year": 1997,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0118571.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118571.webp",
+      "imdb_rating": 6.479,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1399103",
+      "title": "Transformers: Dark of the Moon",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1399103.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399103.webp",
+      "imdb_rating": 6.219,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0425061",
+      "title": "Get Smart",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0425061.webp",
+      "thumbnail_52": "/images/thumbnails/tt0425061.webp",
+      "imdb_rating": 6.201,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1606378",
+      "title": "A Good Day to Die Hard",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1606378.webp",
+      "thumbnail_52": "/images/thumbnails/tt1606378.webp",
+      "imdb_rating": 5.335,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 13,
+    "totalLocations": 17,
+    "genres": {
+      "Action": 8,
+      "Drama": 6,
+      "Thriller": 6,
+      "Adventure": 5,
+      "Science Fiction": 2,
+      "Mystery": 1,
+      "Horror": 1,
+      "Crime": 2,
+      "Comedy": 1
+    },
+    "decades": {
+      "2000s": 3,
+      "2010s": 5,
+      "1970s": 2,
+      "1990s": 3
+    }
+  }
+}

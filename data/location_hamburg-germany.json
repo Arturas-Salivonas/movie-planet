@@ -1,0 +1,72 @@
+{
+  "location": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "slug": "hamburg-germany",
+    "coordinates": {
+      "lat": 53.56813772499999,
+      "lng": 9.998676025
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0258463",
+      "title": "The Bourne Identity",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0258463.webp",
+      "thumbnail_52": "/images/thumbnails/tt0258463.webp",
+      "imdb_rating": 7.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0993842",
+      "title": "Hanna",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0993842.webp",
+      "thumbnail_52": "/images/thumbnails/tt0993842.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120347",
+      "title": "Tomorrow Never Dies",
+      "year": 1997,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0120347.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120347.webp",
+      "imdb_rating": 6.372,
+      "londonLocationCount": 10
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 12,
+    "genres": {
+      "Action": 3,
+      "Drama": 1,
+      "Mystery": 1,
+      "Thriller": 3,
+      "Adventure": 2
+    },
+    "decades": {
+      "2000s": 1,
+      "2010s": 1,
+      "1990s": 1
+    }
+  }
+}

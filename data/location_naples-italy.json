@@ -1,0 +1,185 @@
+{
+  "location": {
+    "city": "Naples",
+    "country": "Italy",
+    "slug": "naples-italy",
+    "coordinates": {
+      "lat": 39.31216318333333,
+      "lng": -6.387020654166665
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0773262",
+      "title": "Dexter",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0773262.webp",
+      "thumbnail_52": "/images/thumbnails/tt0773262.webp",
+      "imdb_rating": 8.224,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7278862",
+      "title": "My Brilliant Friend",
+      "year": 2018,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7278862.webp",
+      "thumbnail_52": "/images/thumbnails/tt7278862.webp",
+      "imdb_rating": 8.087,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0328107",
+      "title": "Man on Fire",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0328107.webp",
+      "thumbnail_52": "/images/thumbnails/tt0328107.webp",
+      "imdb_rating": 7.456,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0119822",
+      "title": "As Good as It Gets",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0119822.webp",
+      "thumbnail_52": "/images/thumbnails/tt0119822.webp",
+      "imdb_rating": 7.397,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0372183",
+      "title": "The Bourne Supremacy",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0372183.webp",
+      "thumbnail_52": "/images/thumbnails/tt0372183.webp",
+      "imdb_rating": 7.323,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0134119",
+      "title": "The Talented Mr. Ripley",
+      "year": 1999,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0134119.webp",
+      "thumbnail_52": "/images/thumbnails/tt0134119.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0362270",
+      "title": "The Life Aquatic with Steve Zissou",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0362270.webp",
+      "thumbnail_52": "/images/thumbnails/tt0362270.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1638355",
+      "title": "The Man from U.N.C.L.E.",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1638355.webp",
+      "thumbnail_52": "/images/thumbnails/tt1638355.webp",
+      "imdb_rating": 7.082,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0055928",
+      "title": "Dr. No",
+      "year": 1962,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0055928.webp",
+      "thumbnail_52": "/images/thumbnails/tt0055928.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8106534",
+      "title": "6 Underground",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt8106534.webp",
+      "thumbnail_52": "/images/thumbnails/tt8106534.webp",
+      "imdb_rating": 6.34,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 11,
+    "totalLocations": 24,
+    "genres": {
+      "Action": 5,
+      "Drama": 8,
+      "Thriller": 5,
+      "Adventure": 3,
+      "Comedy": 4,
+      "Romance": 1,
+      "Crime": 2,
+      "Mystery": 1,
+      "Sci-Fi & Fantasy": 1
+    },
+    "decades": {
+      "2000s": 4,
+      "1960s": 1,
+      "1990s": 2,
+      "2010s": 4
+    }
+  }
+}

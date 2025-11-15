@@ -1,0 +1,157 @@
+{
+  "location": {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "slug": "stockholm-sweden",
+    "coordinates": {
+      "lat": 59.323910900000016,
+      "lng": 18.059604940909093
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt14664414",
+      "title": "Young Royals",
+      "year": 2021,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14664414.webp",
+      "thumbnail_52": "/images/thumbnails/tt14664414.webp",
+      "imdb_rating": 8.534,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0083922",
+      "title": "Fanny and Alexander",
+      "year": 1982,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0083922.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083922.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1132620",
+      "title": "The Girl with the Dragon Tattoo",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1132620.webp",
+      "thumbnail_52": "/images/thumbnails/tt1132620.webp",
+      "imdb_rating": 7.53,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1139797",
+      "title": "Let the Right One In",
+      "year": 2008,
+      "genres": [
+        "Horror",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1139797.webp",
+      "thumbnail_52": "/images/thumbnails/tt1139797.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1568346",
+      "title": "The Girl with the Dragon Tattoo",
+      "year": 2011,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1568346.webp",
+      "thumbnail_52": "/images/thumbnails/tt1568346.webp",
+      "imdb_rating": 7.377,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt11398870",
+      "title": "Caliphate",
+      "year": 2020,
+      "genres": [
+        "War & Politics",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11398870.webp",
+      "thumbnail_52": "/images/thumbnails/tt11398870.webp",
+      "imdb_rating": 7.28,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0448134",
+      "title": "Sunshine",
+      "year": 2007,
+      "genres": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0448134.webp",
+      "thumbnail_52": "/images/thumbnails/tt0448134.webp",
+      "imdb_rating": 6.965,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0116629",
+      "title": "Independence Day",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116629.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116629.webp",
+      "imdb_rating": 6.897,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 9,
+    "totalLocations": 22,
+    "genres": {
+      "Action": 1,
+      "Adventure": 1,
+      "Science Fiction": 2,
+      "Thriller": 3,
+      "Crime": 2,
+      "Mystery": 3,
+      "Drama": 5,
+      "Comedy": 1,
+      "Fantasy": 1,
+      "Horror": 1,
+      "War & Politics": 1
+    },
+    "decades": {
+      "1990s": 1,
+      "2010s": 1,
+      "2000s": 4,
+      "2020s": 2,
+      "1980s": 1
+    }
+  }
+}

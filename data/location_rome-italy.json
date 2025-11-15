@@ -1,0 +1,753 @@
+{
+  "location": {
+    "city": "Rome",
+    "country": "Italy",
+    "slug": "rome-italy",
+    "coordinates": {
+      "lat": 41.679018785405376,
+      "lng": 9.85357698702702
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0081846",
+      "title": "Cosmos: A Personal Voyage",
+      "year": 1980,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "/images/posters/tt0081846.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081846.webp",
+      "imdb_rating": 8.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4574334",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4574334.webp",
+      "thumbnail_52": "/images/thumbnails/tt4574334.webp",
+      "imdb_rating": 8.593,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0060196",
+      "title": "The Good, the Bad and the Ugly",
+      "year": 1966,
+      "genres": [
+        "Western"
+      ],
+      "poster": "/images/posters/tt0060196.webp",
+      "thumbnail_52": "/images/thumbnails/tt0060196.webp",
+      "imdb_rating": 8.462,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0095765",
+      "title": "Cinema Paradiso",
+      "year": 1988,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0095765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0095765.webp",
+      "imdb_rating": 8.431,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0108778",
+      "title": "Friends",
+      "year": 1994,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0108778.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108778.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0087843",
+      "title": "Once Upon a Time in America",
+      "year": 1984,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0087843.webp",
+      "thumbnail_52": "/images/thumbnails/tt0087843.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0064116",
+      "title": "Once Upon a Time in the West",
+      "year": 1968,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "poster": "/images/posters/tt0064116.webp",
+      "thumbnail_52": "/images/thumbnails/tt0064116.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0384766",
+      "title": "Rome",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0384766.webp",
+      "thumbnail_52": "/images/thumbnails/tt0384766.webp",
+      "imdb_rating": 8.25,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0040522",
+      "title": "Bicycle Thieves",
+      "year": 1948,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0040522.webp",
+      "thumbnail_52": "/images/thumbnails/tt0040522.webp",
+      "imdb_rating": 8.174,
+      "londonLocationCount": 18
+    },
+    {
+      "movie_id": "tt0056801",
+      "title": "8½",
+      "year": 1963,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0056801.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056801.webp",
+      "imdb_rating": 8.123,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0346336",
+      "title": "The Best of Youth",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0346336.webp",
+      "thumbnail_52": "/images/thumbnails/tt0346336.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0059578",
+      "title": "For a Few Dollars More",
+      "year": 1965,
+      "genres": [
+        "Western"
+      ],
+      "poster": "/images/posters/tt0059578.webp",
+      "thumbnail_52": "/images/thumbnails/tt0059578.webp",
+      "imdb_rating": 8.017,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0050783",
+      "title": "Nights of Cabiria",
+      "year": 1957,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0050783.webp",
+      "thumbnail_52": "/images/thumbnails/tt0050783.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 16
+    },
+    {
+      "movie_id": "tt0047528",
+      "title": "La Strada",
+      "year": 1954,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0047528.webp",
+      "thumbnail_52": "/images/thumbnails/tt0047528.webp",
+      "imdb_rating": 7.909,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0052618",
+      "title": "Ben-Hur",
+      "year": 1959,
+      "genres": [
+        "History",
+        "Drama",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0052618.webp",
+      "thumbnail_52": "/images/thumbnails/tt0052618.webp",
+      "imdb_rating": 7.889,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0058461",
+      "title": "A Fistful of Dollars",
+      "year": 1964,
+      "genres": [
+        "Western"
+      ],
+      "poster": "/images/posters/tt0058461.webp",
+      "thumbnail_52": "/images/thumbnails/tt0058461.webp",
+      "imdb_rating": 7.827,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5057130",
+      "title": "Medici: Masters of Florence",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt5057130.webp",
+      "thumbnail_52": "/images/thumbnails/tt5057130.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0210945",
+      "title": "Remember the Titans",
+      "year": 2000,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0210945.webp",
+      "thumbnail_52": "/images/thumbnails/tt0210945.webp",
+      "imdb_rating": 7.645,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8962124",
+      "title": "Emily in Paris",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt8962124.webp",
+      "thumbnail_52": "/images/thumbnails/tt8962124.webp",
+      "imdb_rating": 7.624,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0065571",
+      "title": "The Conformist",
+      "year": 1971,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0065571.webp",
+      "thumbnail_52": "/images/thumbnails/tt0065571.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 14
+    },
+    {
+      "movie_id": "tt9603212",
+      "title": "Mission: Impossible - Dead Reckoning Part One",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt9603212.webp",
+      "thumbnail_52": "/images/thumbnails/tt9603212.webp",
+      "imdb_rating": 7.519,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0335345",
+      "title": "The Passion of the Christ",
+      "year": 2004,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0335345.webp",
+      "thumbnail_52": "/images/thumbnails/tt0335345.webp",
+      "imdb_rating": 7.519,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0076786",
+      "title": "Suspiria",
+      "year": 1977,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0076786.webp",
+      "thumbnail_52": "/images/thumbnails/tt0076786.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7197684",
+      "title": "Suburra: Blood on Rome",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7197684.webp",
+      "thumbnail_52": "/images/thumbnails/tt7197684.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8404614",
+      "title": "The Two Popes",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt8404614.webp",
+      "thumbnail_52": "/images/thumbnails/tt8404614.webp",
+      "imdb_rating": 7.49,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0258463",
+      "title": "The Bourne Identity",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0258463.webp",
+      "thumbnail_52": "/images/thumbnails/tt0258463.webp",
+      "imdb_rating": 7.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0099674",
+      "title": "The Godfather Part III",
+      "year": 1990,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0099674.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099674.webp",
+      "imdb_rating": 7.418,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt10569934",
+      "title": "Those About to Die",
+      "year": 2024,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10569934.webp",
+      "thumbnail_52": "/images/thumbnails/tt10569934.webp",
+      "imdb_rating": 7.412,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0217505",
+      "title": "Gangs of New York",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "History",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0217505.webp",
+      "thumbnail_52": "/images/thumbnails/tt0217505.webp",
+      "imdb_rating": 7.314,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4425200",
+      "title": "John Wick: Chapter 2",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4425200.webp",
+      "thumbnail_52": "/images/thumbnails/tt4425200.webp",
+      "imdb_rating": 7.3,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt20215234",
+      "title": "Conclave",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt20215234.webp",
+      "thumbnail_52": "/images/thumbnails/tt20215234.webp",
+      "imdb_rating": 7.202,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0060315",
+      "title": "Django",
+      "year": 1966,
+      "genres": [
+        "Action",
+        "Western"
+      ],
+      "poster": "/images/posters/tt0060315.webp",
+      "thumbnail_52": "/images/thumbnails/tt0060315.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0134119",
+      "title": "The Talented Mr. Ripley",
+      "year": 1999,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0134119.webp",
+      "thumbnail_52": "/images/thumbnails/tt0134119.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt3480822",
+      "title": "Black Widow",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3480822.webp",
+      "thumbnail_52": "/images/thumbnails/tt3480822.webp",
+      "imdb_rating": 7.189,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116209",
+      "title": "The English Patient",
+      "year": 1996,
+      "genres": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "poster": "/images/posters/tt0116209.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116209.webp",
+      "imdb_rating": 7.158,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt7569576",
+      "title": "The Flight Attendant",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7569576.webp",
+      "thumbnail_52": "/images/thumbnails/tt7569576.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0362270",
+      "title": "The Life Aquatic with Steve Zissou",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0362270.webp",
+      "thumbnail_52": "/images/thumbnails/tt0362270.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1638355",
+      "title": "The Man from U.N.C.L.E.",
+      "year": 2015,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1638355.webp",
+      "thumbnail_52": "/images/thumbnails/tt1638355.webp",
+      "imdb_rating": 7.082,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0238380",
+      "title": "Equilibrium",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0238380.webp",
+      "thumbnail_52": "/images/thumbnails/tt0238380.webp",
+      "imdb_rating": 7.046,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3079380",
+      "title": "Spy",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt3079380.webp",
+      "thumbnail_52": "/images/thumbnails/tt3079380.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2719848",
+      "title": "Everest",
+      "year": 2015,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt2719848.webp",
+      "thumbnail_52": "/images/thumbnails/tt2719848.webp",
+      "imdb_rating": 6.827,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0317919",
+      "title": "Mission: Impossible III",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0317919.webp",
+      "thumbnail_52": "/images/thumbnails/tt0317919.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt7991608",
+      "title": "Red Notice",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt7991608.webp",
+      "thumbnail_52": "/images/thumbnails/tt7991608.webp",
+      "imdb_rating": 6.753,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0478304",
+      "title": "The Tree of Life",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0478304.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478304.webp",
+      "imdb_rating": 6.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0808151",
+      "title": "Angels & Demons",
+      "year": 2009,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0808151.webp",
+      "thumbnail_52": "/images/thumbnails/tt0808151.webp",
+      "imdb_rating": 6.717,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0356910",
+      "title": "Mr. & Mrs. Smith",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0356910.webp",
+      "thumbnail_52": "/images/thumbnails/tt0356910.webp",
+      "imdb_rating": 6.685,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2379713",
+      "title": "Spectre",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2379713.webp",
+      "thumbnail_52": "/images/thumbnails/tt2379713.webp",
+      "imdb_rating": 6.564,
+      "londonLocationCount": 29
+    },
+    {
+      "movie_id": "tt0338526",
+      "title": "Van Helsing",
+      "year": 2004,
+      "genres": [
+        "Horror",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0338526.webp",
+      "thumbnail_52": "/images/thumbnails/tt0338526.webp",
+      "imdb_rating": 6.385,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4196776",
+      "title": "Jason Bourne",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4196776.webp",
+      "thumbnail_52": "/images/thumbnails/tt4196776.webp",
+      "imdb_rating": 6.366,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8106534",
+      "title": "6 Underground",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt8106534.webp",
+      "thumbnail_52": "/images/thumbnails/tt8106534.webp",
+      "imdb_rating": 6.34,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0489099",
+      "title": "Jumper",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0489099.webp",
+      "thumbnail_52": "/images/thumbnails/tt0489099.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0062711",
+      "title": "Barbarella",
+      "year": 1968,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0062711.webp",
+      "thumbnail_52": "/images/thumbnails/tt0062711.webp",
+      "imdb_rating": 6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 53,
+    "totalLocations": 185,
+    "genres": {
+      "Western": 5,
+      "Drama": 30,
+      "History": 5,
+      "Adventure": 12,
+      "Thriller": 13,
+      "Mystery": 4,
+      "Action": 17,
+      "Science Fiction": 4,
+      "Comedy": 10,
+      "Fantasy": 2,
+      "Horror": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Documentary": 1,
+      "Action & Adventure": 1,
+      "Romance": 3,
+      "Crime": 8,
+      "War": 1,
+      "War & Politics": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "1960s": 7,
+      "1950s": 3,
+      "2000s": 14,
+      "2020s": 7,
+      "1970s": 2,
+      "2010s": 12,
+      "1990s": 4,
+      "1980s": 3,
+      "1940s": 1
+    }
+  }
+}

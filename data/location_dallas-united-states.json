@@ -1,0 +1,314 @@
+{
+  "location": {
+    "city": "Dallas",
+    "country": "United States",
+    "slug": "dallas-united-states",
+    "coordinates": {
+      "lat": 32.87021612857143,
+      "lng": -95.94329224642861
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0455275",
+      "title": "Prison Break",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0455275.webp",
+      "thumbnail_52": "/images/thumbnails/tt0455275.webp",
+      "imdb_rating": 8.078,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758745",
+      "title": "Friday Night Lights",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758745.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758745.webp",
+      "imdb_rating": 7.98,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8722888",
+      "title": "DC's Stargirl",
+      "year": 2020,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8722888.webp",
+      "thumbnail_52": "/images/thumbnails/tt8722888.webp",
+      "imdb_rating": 7.715,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0210945",
+      "title": "Remember the Titans",
+      "year": 2000,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0210945.webp",
+      "thumbnail_52": "/images/thumbnails/tt0210945.webp",
+      "imdb_rating": 7.645,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0102138",
+      "title": "JFK",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "/images/posters/tt0102138.webp",
+      "thumbnail_52": "/images/thumbnails/tt0102138.webp",
+      "imdb_rating": 7.604,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt4396630",
+      "title": "The Gifted",
+      "year": 2017,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4396630.webp",
+      "thumbnail_52": "/images/thumbnails/tt4396630.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1064899",
+      "title": "Queen of the South",
+      "year": 2016,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1064899.webp",
+      "thumbnail_52": "/images/thumbnails/tt1064899.webp",
+      "imdb_rating": 7.584,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11083696",
+      "title": "Cruel Summer",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt11083696.webp",
+      "thumbnail_52": "/images/thumbnails/tt11083696.webp",
+      "imdb_rating": 7.434,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0320808",
+      "title": "The Adventures of Jimmy Neutron: Boy Genius",
+      "year": 2002,
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Kids"
+      ],
+      "poster": "/images/posters/tt0320808.webp",
+      "thumbnail_52": "/images/thumbnails/tt0320808.webp",
+      "imdb_rating": 7.416,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0151804",
+      "title": "Office Space",
+      "year": 1999,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0151804.webp",
+      "thumbnail_52": "/images/thumbnails/tt0151804.webp",
+      "imdb_rating": 7.372,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0093870",
+      "title": "RoboCop",
+      "year": 1987,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0093870.webp",
+      "thumbnail_52": "/images/thumbnails/tt0093870.webp",
+      "imdb_rating": 7.352,
+      "londonLocationCount": 19
+    },
+    {
+      "movie_id": "tt0437086",
+      "title": "Alita: Battle Angel",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0437086.webp",
+      "thumbnail_52": "/images/thumbnails/tt0437086.webp",
+      "imdb_rating": 7.243,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0369339",
+      "title": "Collateral",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0369339.webp",
+      "thumbnail_52": "/images/thumbnails/tt0369339.webp",
+      "imdb_rating": 7.235,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6723592",
+      "title": "Tenet",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6723592.webp",
+      "thumbnail_52": "/images/thumbnails/tt6723592.webp",
+      "imdb_rating": 7.175,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106168",
+      "title": "Walker, Texas Ranger",
+      "year": 1993,
+      "genres": [
+        "Drama",
+        "Western",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0106168.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106168.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116629",
+      "title": "Independence Day",
+      "year": 1996,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0116629.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116629.webp",
+      "imdb_rating": 6.897,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0077000",
+      "title": "Dallas",
+      "year": 1978,
+      "genres": [
+        "Soap",
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0077000.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077000.webp",
+      "imdb_rating": 6.842,
+      "londonLocationCount": 13
+    },
+    {
+      "movie_id": "tt0443453",
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0443453.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443453.webp",
+      "imdb_rating": 6.785,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0478304",
+      "title": "The Tree of Life",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0478304.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478304.webp",
+      "imdb_rating": 6.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 20,
+    "totalLocations": 56,
+    "genres": {
+      "Action": 4,
+      "Adventure": 2,
+      "Science Fiction": 4,
+      "Drama": 12,
+      "Thriller": 4,
+      "History": 1,
+      "Action & Adventure": 4,
+      "Crime": 4,
+      "Comedy": 3,
+      "Sci-Fi & Fantasy": 3,
+      "Fantasy": 1,
+      "Animation": 1,
+      "Kids": 1,
+      "Reality": 1,
+      "Mystery": 1,
+      "Western": 1,
+      "Soap": 1,
+      "Family": 1
+    },
+    "decades": {
+      "1990s": 4,
+      "2000s": 7,
+      "2020s": 3,
+      "2010s": 4,
+      "1980s": 1,
+      "1970s": 1
+    }
+  }
+}

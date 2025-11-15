@@ -4,8 +4,8 @@
     "country": "Spain",
     "slug": "madrid-spain",
     "coordinates": {
-      "lat": 40.419567740000005,
-      "lng": -3.704826145714286
+      "lat": 40.293620345,
+      "lng": -6.265689034999999
     }
   },
   "movies": [
@@ -217,6 +217,35 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1092026",
+      "title": "Paul",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1092026.webp",
+      "thumbnail_52": "/images/thumbnails/tt1092026.webp",
+      "imdb_rating": 6.733,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6450804",
+      "title": "Terminator: Dark Fate",
+      "year": 2019,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt6450804.webp",
+      "thumbnail_52": "/images/thumbnails/tt6450804.webp",
+      "imdb_rating": 6.415,
+      "londonLocationCount": 4
+    },
+    {
       "movie_id": "tt0830515",
       "title": "Quantum of Solace",
       "year": 2008,
@@ -247,32 +276,33 @@
     }
   ],
   "stats": {
-    "totalMovies": 17,
-    "totalLocations": 35,
+    "totalMovies": 19,
+    "totalLocations": 40,
     "genres": {
-      "Action": 4,
+      "Action": 5,
       "Drama": 11,
       "Mystery": 4,
-      "Thriller": 5,
+      "Thriller": 6,
       "History": 3,
       "War": 3,
-      "Adventure": 4,
+      "Adventure": 6,
       "Fantasy": 2,
       "Crime": 5,
       "Horror": 1,
       "Romance": 1,
       "Music": 1,
+      "Comedy": 1,
+      "Science Fiction": 3,
       "Western": 1,
       "Action & Adventure": 2,
-      "Sci-Fi & Fantasy": 1,
-      "Science Fiction": 1
+      "Sci-Fi & Fantasy": 1
     },
     "decades": {
       "2000s": 5,
       "1960s": 2,
       "1970s": 1,
       "1980s": 1,
-      "2010s": 6,
+      "2010s": 8,
       "2020s": 2
     }
   }

@@ -1,0 +1,184 @@
+{
+  "location": {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "slug": "bangkok-thailand",
+    "coordinates": {
+      "lat": 13.756747387500004,
+      "lng": 100.50433725833335
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt14452776",
+      "title": "The Bear",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt14452776.webp",
+      "thumbnail_52": "/images/thumbnails/tt14452776.webp",
+      "imdb_rating": 8.162,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118694",
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0118694.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118694.webp",
+      "imdb_rating": 8.094,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0077416",
+      "title": "The Deer Hunter",
+      "year": 1978,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt0077416.webp",
+      "thumbnail_52": "/images/thumbnails/tt0077416.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt13406094",
+      "title": "The White Lotus",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt13406094.webp",
+      "thumbnail_52": "/images/thumbnails/tt13406094.webp",
+      "imdb_rating": 7.622,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt14444726",
+      "title": "TÁR",
+      "year": 2022,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14444726.webp",
+      "thumbnail_52": "/images/thumbnails/tt14444726.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7569576",
+      "title": "The Flight Attendant",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7569576.webp",
+      "thumbnail_52": "/images/thumbnails/tt7569576.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11858890",
+      "title": "The Creator",
+      "year": 2023,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt11858890.webp",
+      "thumbnail_52": "/images/thumbnails/tt11858890.webp",
+      "imdb_rating": 7.024,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1411697",
+      "title": "The Hangover Part II",
+      "year": 2011,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1411697.webp",
+      "thumbnail_52": "/images/thumbnails/tt1411697.webp",
+      "imdb_rating": 6.497,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0163978",
+      "title": "The Beach",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0163978.webp",
+      "thumbnail_52": "/images/thumbnails/tt0163978.webp",
+      "imdb_rating": 6.484,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0120347",
+      "title": "Tomorrow Never Dies",
+      "year": 1997,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0120347.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120347.webp",
+      "imdb_rating": 6.372,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 11,
+    "totalLocations": 24,
+    "genres": {
+      "Music": 1,
+      "Drama": 7,
+      "Romance": 2,
+      "Adventure": 3,
+      "Thriller": 2,
+      "Comedy": 4,
+      "Mystery": 2,
+      "War": 1,
+      "Action": 2,
+      "Science Fiction": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2020s": 5,
+      "2000s": 3,
+      "2010s": 1,
+      "1970s": 1,
+      "1990s": 1
+    }
+  }
+}

@@ -4,8 +4,8 @@
     "country": "South Africa",
     "slug": "cape-town-south-africa",
     "coordinates": {
-      "lat": -33.95879836774195,
-      "lng": 18.505233435483866
+      "lat": -33.92910113636365,
+      "lng": 18.41744241818181
     }
   },
   "movies": [
@@ -63,19 +63,6 @@
       "thumbnail_52": "/images/thumbnails/tt5743796.webp",
       "imdb_rating": 7.971,
       "londonLocationCount": 1
-    },
-    {
-      "movie_id": "tt7462410",
-      "title": "The Wheel of Time",
-      "year": 2021,
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "poster": "/images/posters/tt7462410.webp",
-      "thumbnail_52": "/images/thumbnails/tt7462410.webp",
-      "imdb_rating": 7.636,
-      "londonLocationCount": 0
     },
     {
       "movie_id": "tt1392190",
@@ -266,16 +253,16 @@
     }
   ],
   "stats": {
-    "totalMovies": 19,
+    "totalMovies": 18,
     "totalLocations": 22,
     "genres": {
       "Action": 5,
       "Adventure": 2,
       "Science Fiction": 3,
       "Crime": 3,
-      "Drama": 13,
+      "Drama": 12,
       "Thriller": 4,
-      "Sci-Fi & Fantasy": 7,
+      "Sci-Fi & Fantasy": 6,
       "Mystery": 2,
       "War & Politics": 1,
       "Action & Adventure": 3,
@@ -286,7 +273,7 @@
     "decades": {
       "2010s": 11,
       "2000s": 3,
-      "2020s": 5
+      "2020s": 4
     }
   }
 }

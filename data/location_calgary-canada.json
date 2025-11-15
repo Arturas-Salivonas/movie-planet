@@ -4,8 +4,8 @@
     "country": "Canada",
     "slug": "calgary-canada",
     "coordinates": {
-      "lat": 51.03620303513514,
-      "lng": -114.0475696702703
+      "lat": 51.03614646666667,
+      "lng": -114.04925073809528
     }
   },
   "movies": [
@@ -138,7 +138,7 @@
       "poster": "/images/posters/tt8323628.webp",
       "thumbnail_52": "/images/thumbnails/tt8323628.webp",
       "imdb_rating": 7.735,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt11866324",
@@ -241,6 +241,20 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt0078346",
+      "title": "Superman",
+      "year": 1978,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0078346.webp",
+      "thumbnail_52": "/images/thumbnails/tt0078346.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0443680",
       "title": "The Assassination of Jesse James by the Coward Robert Ford",
       "year": 2007,
@@ -251,7 +265,7 @@
       "poster": "/images/posters/tt0443680.webp",
       "thumbnail_52": "/images/thumbnails/tt0443680.webp",
       "imdb_rating": 7.047,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt8923854",
@@ -307,19 +321,33 @@
       "thumbnail_52": "/images/thumbnails/tt1194173.webp",
       "imdb_rating": 6.237,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0814255",
+      "title": "Percy Jackson & the Olympians: The Lightning Thief",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0814255.webp",
+      "thumbnail_52": "/images/thumbnails/tt0814255.webp",
+      "imdb_rating": 6.208,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 22,
-    "totalLocations": 37,
+    "totalMovies": 24,
+    "totalLocations": 42,
     "genres": {
-      "Adventure": 5,
+      "Adventure": 7,
       "Drama": 14,
-      "Science Fiction": 4,
+      "Science Fiction": 5,
       "Thriller": 2,
-      "Action": 4,
+      "Action": 5,
       "Comedy": 4,
-      "Fantasy": 2,
+      "Fantasy": 3,
       "Documentary": 1,
       "Reality": 1,
       "Crime": 1,
@@ -327,15 +355,16 @@
       "Sci-Fi & Fantasy": 5,
       "Western": 6,
       "Romance": 2,
-      "War": 1,
-      "Family": 1
+      "Family": 2,
+      "War": 1
     },
     "decades": {
-      "2010s": 9,
+      "2010s": 10,
       "2020s": 4,
       "1980s": 1,
       "2000s": 6,
-      "1990s": 2
+      "1990s": 2,
+      "1970s": 1
     }
   }
 }

@@ -4,8 +4,8 @@
     "country": "Singapore",
     "slug": "singapore-singapore",
     "coordinates": {
-      "lat": 1.32585414,
-      "lng": 103.75705066
+      "lat": 1.3292442761904761,
+      "lng": 103.81201039047616
     }
   },
   "movies": [
@@ -21,6 +21,20 @@
       "poster": "/images/posters/tt4574334.webp",
       "thumbnail_52": "/images/thumbnails/tt4574334.webp",
       "imdb_rating": 8.593,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt13443470",
+      "title": "Wednesday",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt13443470.webp",
+      "thumbnail_52": "/images/thumbnails/tt13443470.webp",
+      "imdb_rating": 8.375,
       "londonLocationCount": 1
     },
     {
@@ -35,6 +49,44 @@
       "poster": "/images/posters/tt10293938.webp",
       "thumbnail_52": "/images/thumbnails/tt10293938.webp",
       "imdb_rating": 8.316,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt14452776",
+      "title": "The Bear",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt14452776.webp",
+      "thumbnail_52": "/images/thumbnails/tt14452776.webp",
+      "imdb_rating": 8.162,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0475784",
+      "title": "Westworld",
+      "year": 2016,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Western"
+      ],
+      "poster": "/images/posters/tt0475784.webp",
+      "thumbnail_52": "/images/thumbnails/tt0475784.webp",
+      "imdb_rating": 8.028,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9077530",
+      "title": "Virgin River",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt9077530.webp",
+      "thumbnail_52": "/images/thumbnails/tt9077530.webp",
+      "imdb_rating": 7.928,
       "londonLocationCount": 1
     },
     {
@@ -48,6 +100,18 @@
       "poster": "/images/posters/tt11712058.webp",
       "thumbnail_52": "/images/thumbnails/tt11712058.webp",
       "imdb_rating": 7.853,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7203552",
+      "title": "The Morning Show",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7203552.webp",
+      "thumbnail_52": "/images/thumbnails/tt7203552.webp",
+      "imdb_rating": 7.758,
       "londonLocationCount": 1
     },
     {
@@ -61,24 +125,42 @@
       "poster": "/images/posters/tt3104988.webp",
       "thumbnail_52": "/images/thumbnails/tt3104988.webp",
       "imdb_rating": 7.062,
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt1628841",
+      "title": "Independence Day: Resurgence",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1628841.webp",
+      "thumbnail_52": "/images/thumbnails/tt1628841.webp",
+      "imdb_rating": 5.349,
       "londonLocationCount": 2
     }
   ],
   "stats": {
-    "totalMovies": 4,
-    "totalLocations": 5,
+    "totalMovies": 10,
+    "totalLocations": 21,
     "genres": {
-      "Drama": 3,
-      "Sci-Fi & Fantasy": 1,
-      "Mystery": 2,
+      "Drama": 6,
+      "Sci-Fi & Fantasy": 3,
+      "Mystery": 3,
+      "Western": 1,
+      "Comedy": 3,
       "Action & Adventure": 1,
       "Crime": 1,
-      "Comedy": 1,
-      "Romance": 1
+      "Romance": 1,
+      "Action": 1,
+      "Adventure": 1,
+      "Science Fiction": 1
     },
     "decades": {
-      "2010s": 2,
-      "2020s": 2
+      "2010s": 6,
+      "2020s": 4
     }
   }
 }

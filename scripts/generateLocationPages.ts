@@ -1,5 +1,5 @@
 /**
- * Generate location pages for areas with 3+ movies
+ * Generate location pages for MAJOR CITIES ONLY with 3+ movies
  * Creates location_[slug].json files and clickable-regions.geojson
  */
 
@@ -9,9 +9,11 @@ import * as path from 'path'
 interface Location {
   lat: number
   lng: number
-  city: string
-  country: string
-  description: string
+  display_name?: string
+  city?: string
+  country?: string
+  description?: string
+  scene_description?: string
 }
 
 interface Movie {
@@ -26,32 +28,166 @@ interface Movie {
   locations: Location[]
 }
 
-// Slugify function
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
+// Major world cities mapping - LOCAL NAME -> ENGLISH NAME
+const MAJOR_CITIES: Record<string, { english: string; country: string }> = {
+  // United Kingdom
+  'London': { english: 'London', country: 'United Kingdom' },
+  'Greater London': { english: 'London', country: 'United Kingdom' },
+  'Birmingham': { english: 'Birmingham', country: 'United Kingdom' },
+  'Manchester': { english: 'Manchester', country: 'United Kingdom' },
+  'Glasgow': { english: 'Glasgow', country: 'United Kingdom' },
+  'Edinburgh': { english: 'Edinburgh', country: 'United Kingdom' },
+  'Liverpool': { english: 'Liverpool', country: 'United Kingdom' },
+  'Bristol': { english: 'Bristol', country: 'United Kingdom' },
+  'Cardiff': { english: 'Cardiff', country: 'United Kingdom' },
+  'Belfast': { english: 'Belfast', country: 'United Kingdom' },
+
+  // United States
+  'Los Angeles': { english: 'Los Angeles', country: 'United States' },
+  'New York': { english: 'New York', country: 'United States' },
+  'New York City': { english: 'New York', country: 'United States' },
+  'Chicago': { english: 'Chicago', country: 'United States' },
+  'Houston': { english: 'Houston', country: 'United States' },
+  'Phoenix': { english: 'Phoenix', country: 'United States' },
+  'Philadelphia': { english: 'Philadelphia', country: 'United States' },
+  'San Antonio': { english: 'San Antonio', country: 'United States' },
+  'San Diego': { english: 'San Diego', country: 'United States' },
+  'Dallas': { english: 'Dallas', country: 'United States' },
+  'San Jose': { english: 'San Jose', country: 'United States' },
+  'Austin': { english: 'Austin', country: 'United States' },
+  'Jacksonville': { english: 'Jacksonville', country: 'United States' },
+  'San Francisco': { english: 'San Francisco', country: 'United States' },
+  'Columbus': { english: 'Columbus', country: 'United States' },
+  'Indianapolis': { english: 'Indianapolis', country: 'United States' },
+  'Seattle': { english: 'Seattle', country: 'United States' },
+  'Denver': { english: 'Denver', country: 'United States' },
+  'Washington': { english: 'Washington', country: 'United States' },
+  'Boston': { english: 'Boston', country: 'United States' },
+  'Nashville': { english: 'Nashville', country: 'United States' },
+  'Detroit': { english: 'Detroit', country: 'United States' },
+  'Portland': { english: 'Portland', country: 'United States' },
+  'Las Vegas': { english: 'Las Vegas', country: 'United States' },
+  'Miami': { english: 'Miami', country: 'United States' },
+  'Atlanta': { english: 'Atlanta', country: 'United States' },
+  'New Orleans': { english: 'New Orleans', country: 'United States' },
+
+  // France
+  'Paris': { english: 'Paris', country: 'France' },
+  'Marseille': { english: 'Marseille', country: 'France' },
+  'Lyon': { english: 'Lyon', country: 'France' },
+  'Toulouse': { english: 'Toulouse', country: 'France' },
+  'Nice': { english: 'Nice', country: 'France' },
+
+  // Germany
+  'Berlin': { english: 'Berlin', country: 'Germany' },
+  'Hamburg': { english: 'Hamburg', country: 'Germany' },
+  'München': { english: 'Munich', country: 'Germany' },
+  'Munich': { english: 'Munich', country: 'Germany' },
+  'Köln': { english: 'Cologne', country: 'Germany' },
+  'Cologne': { english: 'Cologne', country: 'Germany' },
+  'Frankfurt': { english: 'Frankfurt', country: 'Germany' },
+
+  // Spain
+  'Madrid': { english: 'Madrid', country: 'Spain' },
+  'Barcelona': { english: 'Barcelona', country: 'Spain' },
+  'Valencia': { english: 'Valencia', country: 'Spain' },
+  'Sevilla': { english: 'Seville', country: 'Spain' },
+  'Seville': { english: 'Seville', country: 'Spain' },
+
+  // Italy
+  'Roma': { english: 'Rome', country: 'Italy' },
+  'Rome': { english: 'Rome', country: 'Italy' },
+  'Milano': { english: 'Milan', country: 'Italy' },
+  'Milan': { english: 'Milan', country: 'Italy' },
+  'Napoli': { english: 'Naples', country: 'Italy' },
+  'Naples': { english: 'Naples', country: 'Italy' },
+  'Torino': { english: 'Turin', country: 'Italy' },
+  'Turin': { english: 'Turin', country: 'Italy' },
+  'Firenze': { english: 'Florence', country: 'Italy' },
+  'Florence': { english: 'Florence', country: 'Italy' },
+  'Venezia': { english: 'Venice', country: 'Italy' },
+  'Venice': { english: 'Venice', country: 'Italy' },
+
+  // Canada
+  'Toronto': { english: 'Toronto', country: 'Canada' },
+  'Vancouver': { english: 'Vancouver', country: 'Canada' },
+  'Montreal': { english: 'Montreal', country: 'Canada' },
+  'Montréal': { english: 'Montreal', country: 'Canada' },
+  'Calgary': { english: 'Calgary', country: 'Canada' },
+  'Ottawa': { english: 'Ottawa', country: 'Canada' },
+
+  // Australia
+  'Sydney': { english: 'Sydney', country: 'Australia' },
+  'Melbourne': { english: 'Melbourne', country: 'Australia' },
+  'Brisbane': { english: 'Brisbane', country: 'Australia' },
+  'Perth': { english: 'Perth', country: 'Australia' },
+  'Adelaide': { english: 'Adelaide', country: 'Australia' },
+
+  // Other major cities
+  'Tokyo': { english: 'Tokyo', country: 'Japan' },
+  '東京': { english: 'Tokyo', country: 'Japan' },
+  'Hong Kong': { english: 'Hong Kong', country: 'China' },
+  '香港': { english: 'Hong Kong', country: 'China' },
+  'Singapore': { english: 'Singapore', country: 'Singapore' },
+  'Dubai': { english: 'Dubai', country: 'United Arab Emirates' },
+  'Mumbai': { english: 'Mumbai', country: 'India' },
+  'Delhi': { english: 'Delhi', country: 'India' },
+  'Istanbul': { english: 'Istanbul', country: 'Turkey' },
+  'İstanbul': { english: 'Istanbul', country: 'Turkey' },
+  'Moscow': { english: 'Moscow', country: 'Russia' },
+  'Москва': { english: 'Moscow', country: 'Russia' },
+  'Prague': { english: 'Prague', country: 'Czech Republic' },
+  'Praha': { english: 'Prague', country: 'Czech Republic' },
+  'Vienna': { english: 'Vienna', country: 'Austria' },
+  'Wien': { english: 'Vienna', country: 'Austria' },
+  'Amsterdam': { english: 'Amsterdam', country: 'Netherlands' },
+  'Brussels': { english: 'Brussels', country: 'Belgium' },
+  'Bruxelles': { english: 'Brussels', country: 'Belgium' },
+  'Brussel': { english: 'Brussels', country: 'Belgium' },
+  'Dublin': { english: 'Dublin', country: 'Ireland' },
+  'Copenhagen': { english: 'Copenhagen', country: 'Denmark' },
+  'København': { english: 'Copenhagen', country: 'Denmark' },
+  'Stockholm': { english: 'Stockholm', country: 'Sweden' },
+  'Oslo': { english: 'Oslo', country: 'Norway' },
+  'Helsinki': { english: 'Helsinki', country: 'Finland' },
+  'Warsaw': { english: 'Warsaw', country: 'Poland' },
+  'Warszawa': { english: 'Warsaw', country: 'Poland' },
+  'Budapest': { english: 'Budapest', country: 'Hungary' },
+  'Lisbon': { english: 'Lisbon', country: 'Portugal' },
+  'Lisboa': { english: 'Lisbon', country: 'Portugal' },
+  'Athens': { english: 'Athens', country: 'Greece' },
+  'Αθήνα': { english: 'Athens', country: 'Greece' },
+  'Athína': { english: 'Athens', country: 'Greece' },
+  'Vilnius': { english: 'Vilnius', country: 'Lithuania' },
+  'Riga': { english: 'Riga', country: 'Latvia' },
+  'Tallinn': { english: 'Tallinn', country: 'Estonia' },
+  'Bangkok': { english: 'Bangkok', country: 'Thailand' },
+  'กรุงเทพมหานคร': { english: 'Bangkok', country: 'Thailand' },
+  'Seoul': { english: 'Seoul', country: 'South Korea' },
+  '서울': { english: 'Seoul', country: 'South Korea' },
+  'Beijing': { english: 'Beijing', country: 'China' },
+  '北京': { english: 'Beijing', country: 'China' },
+  'Shanghai': { english: 'Shanghai', country: 'China' },
+  '上海': { english: 'Shanghai', country: 'China' },
+  'Mexico City': { english: 'Mexico City', country: 'Mexico' },
+  'Ciudad de México': { english: 'Mexico City', country: 'Mexico' },
+  'Buenos Aires': { english: 'Buenos Aires', country: 'Argentina' },
+  'São Paulo': { english: 'Sao Paulo', country: 'Brazil' },
+  'Rio de Janeiro': { english: 'Rio de Janeiro', country: 'Brazil' },
+  'Cairo': { english: 'Cairo', country: 'Egypt' },
+  'القاهرة': { english: 'Cairo', country: 'Egypt' },
+  'Cape Town': { english: 'Cape Town', country: 'South Africa' },
+  'Johannesburg': { english: 'Johannesburg', country: 'South Africa' },
 }
 
-// Normalize country name to English
-function normalizeCountryName(country: string): string {
-  const countryMap: Record<string, string> = {
-    'Deutschland': 'Germany',
-    'Italia': 'Italy',
-    'España': 'Spain',
-    'France': 'France',
-    'République française': 'France',
-    'United States of America': 'United States of America',
-    'USA': 'United States of America',
-    'US': 'United States of America',
-    'United Kingdom': 'United Kingdom',
-    'UK': 'United Kingdom',
-    'Éire / Ireland': 'Ireland',
-    'Ireland': 'Ireland',
-  }
-
-  return countryMap[country.trim()] || country
+// Simple slugify - only for English names
+function simpleSlugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') // Remove non-alphanumeric
+    .replace(/\s+/g, '-') // Spaces to dashes
+    .replace(/-+/g, '-') // Remove duplicate dashes
+    .replace(/^-+|-+$/g, '') // Trim dashes
 }
 
 // Calculate city center from multiple locations
@@ -61,429 +197,24 @@ function calculateCenter(locations: Location[]): { lat: number; lng: number } {
   return { lat, lng }
 }
 
-// Calculate distance between two coordinates in kilometers (Haversine formula)
-function calculateDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
-  const R = 6371 // Earth's radius in kilometers
-  const dLat = (lat2 - lat1) * Math.PI / 180
-  const dLng = (lng2 - lng1) * Math.PI / 180
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLng / 2) * Math.sin(dLng / 2)
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-  return R * c
-}
+// Find major city from display_name by checking against our list
+function findMajorCity(displayName: string): { city: string; country: string } | null {
+  if (!displayName) return null
 
-// Merge nearby cities that are too close together
-function mergeNearbyCities(
-  cities: Array<[string, { movies: Movie[]; locations: Location[]; country: string; originalCityName: string }]>,
-  proximityThresholdKm: number = 15 // Cities within 15km will be merged
-): Array<[string, { movies: Movie[]; locations: Location[]; country: string; originalCityName: string }]> {
+  const parts = displayName.split(',').map(p => p.trim())
 
-  // Calculate centers for all cities
-  const citiesWithCenters = cities.map(([name, data]) => ({
-    name,
-    data,
-    center: calculateCenter(data.locations)
-  }))
-
-  // Track which cities have been merged
-  const merged = new Set<number>()
-  const result: Array<[string, { movies: Movie[]; locations: Location[]; country: string; originalCityName: string }]> = []
-
-  for (let i = 0; i < citiesWithCenters.length; i++) {
-    if (merged.has(i)) continue
-
-    const city1 = citiesWithCenters[i]
-    let bestCity = { ...city1 }
-    const toMerge: number[] = []
-
-    // Find all cities within proximity threshold
-    for (let j = i + 1; j < citiesWithCenters.length; j++) {
-      if (merged.has(j)) continue
-
-      const city2 = citiesWithCenters[j]
-
-      // Only merge cities in the same country
-      if (city1.data.country !== city2.data.country) continue
-
-      const distance = calculateDistance(
-        city1.center.lat, city1.center.lng,
-        city2.center.lat, city2.center.lng
-      )
-
-      if (distance <= proximityThresholdKm) {
-        toMerge.push(j)
-        console.log(`  🔗 Merging: ${city2.name} (${city2.data.movies.length} movies) → ${city1.name} (${city1.data.movies.length} movies) [${distance.toFixed(1)}km apart]`)
-      }
-    }
-
-    // Merge all nearby cities into the one with most movies
-    if (toMerge.length > 0) {
-      const allCities = [{ index: i, ...city1 }, ...toMerge.map(idx => ({ index: idx, ...citiesWithCenters[idx] }))]
-
-      // Sort by movie count and pick the one with most movies
-      allCities.sort((a, b) => b.data.movies.length - a.data.movies.length)
-      const primaryCity = allCities[0]
-
-      // Merge all movies and locations from other cities into primary
-      const mergedMovies = new Map<string, Movie>()
-      const mergedLocations: Location[] = []
-
-      allCities.forEach(city => {
-        // Add all unique movies
-        city.data.movies.forEach(movie => {
-          mergedMovies.set(movie.movie_id, movie)
-        })
-        // Add all locations
-        mergedLocations.push(...city.data.locations)
-        // Mark as merged
-        merged.add(city.index)
-      })
-
-      bestCity = {
-        name: primaryCity.name,
-        data: {
-          movies: Array.from(mergedMovies.values()),
-          locations: mergedLocations,
-          country: primaryCity.data.country,
-          originalCityName: primaryCity.data.originalCityName
-        },
-        center: calculateCenter(mergedLocations)
-      }
-    } else {
-      merged.add(i)
-    }
-
-    result.push([bestCity.name, bestCity.data])
-  }
-
-  return result
-}
-
-// List of major cities to include (top cities per country)
-const MAJOR_CITIES: Record<string, string[]> = {
-  'United States': [
-    // Major Metro Areas
-    'New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose',
-    // Film Industry Hubs
-    'Hollywood', 'Beverly Hills', 'Burbank', 'Pasadena', 'Santa Monica', 'Malibu', 'Long Beach', 'Glendale',
-    // Major Cities
-    'San Francisco', 'Seattle', 'Boston', 'Miami', 'Atlanta', 'Washington', 'Denver', 'Las Vegas', 'Portland', 'Detroit',
-    // Tech & Culture Hubs
-    'Austin', 'Nashville', 'Minneapolis', 'Tampa', 'Orlando', 'Charlotte', 'Raleigh', 'Indianapolis', 'Columbus', 'Jacksonville',
-    // Historic & Film Locations
-    'New Orleans', 'Baltimore', 'Pittsburgh', 'Cincinnati', 'Cleveland', 'Kansas City', 'St. Louis', 'Milwaukee', 'Buffalo',
-    // West Coast
-    'Sacramento', 'Fresno', 'Oakland', 'Anaheim', 'Santa Barbara', 'San Bernardino', 'Riverside', 'Monterey', 'Santa Cruz',
-    // Southwest
-    'Albuquerque', 'Tucson', 'El Paso', 'Mesa', 'Scottsdale', 'Tempe',
-    // Northwest
-    'Spokane', 'Tacoma', 'Vancouver', 'Salem', 'Eugene', 'Boise',
-    // Mountain States
-    'Salt Lake City', 'Colorado Springs', 'Aurora', 'Boulder',
-    // East Coast
-    'Newark', 'Jersey City', 'Hoboken', 'Providence', 'Hartford', 'Stamford', 'Bridgeport',
-    // South
-    'Memphis', 'Louisville', 'Richmond', 'Virginia Beach', 'Savannah', 'Charleston', 'Wilmington',
-    // Florida
-    'Fort Lauderdale', 'West Palm Beach', 'Key West', 'Pensacola', 'Tallahassee',
-    // Texas
-    'Fort Worth', 'Arlington', 'Corpus Christi', 'Plano', 'Lubbock', 'Irving',
-    // Other Notable
-    'Honolulu', 'Anchorage', 'Madison', 'Des Moines', 'Omaha', 'Wichita', 'Tulsa', 'Oklahoma City'
-  ],
-  'United Kingdom': [
-    // England - Major Cities
-    'London', 'Birmingham', 'Manchester', 'Leeds', 'Liverpool', 'Sheffield', 'Bristol', 'Newcastle', 'Nottingham', 'Leicester',
-    // England - Film Locations & Historic
-    'Oxford', 'Cambridge', 'Bath', 'York', 'Canterbury', 'Winchester', 'Durham', 'Chester', 'Salisbury', 'Exeter',
-    // England - Coastal & Tourist
-    'Brighton', 'Portsmouth', 'Southampton', 'Plymouth', 'Bournemouth', 'Blackpool', 'Scarborough', 'Whitby',
-    // England - Greater London & Home Counties
-    'Westminster', 'Kensington', 'Camden', 'Greenwich', 'Richmond', 'Kingston', 'Croydon', 'Bromley', 'Brent', 'Ealing',
-    // England - Film Studios & Locations
-    'Iver Heath', 'Watford', 'Hertford', 'St Albans', 'Hatfield', 'Guildford', 'Slough', 'Reading', 'Windsor', 'Eton',
-    // England - North
-    'Bradford', 'Wakefield', 'Huddersfield', 'Halifax', 'Middlesbrough', 'Sunderland', 'Carlisle', 'Lancaster',
-    // England - Midlands
-    'Coventry', 'Derby', 'Stoke', 'Wolverhampton', 'Gloucester', 'Worcester', 'Lincoln', 'Northampton', 'Peterborough',
-    // England - East
-    'Norwich', 'Ipswich', 'Colchester', 'Chelmsford', 'Southend', 'Luton', 'Milton Keynes',
-    // England - South West
-    'Truro', 'Penzance', 'Newquay', 'Torquay', 'Taunton', 'Yeovil', 'Weymouth', 'Dorchester',
-    // Scotland
-    'Edinburgh', 'Glasgow', 'Aberdeen', 'Dundee', 'Inverness', 'Stirling', 'Perth', 'Fort William', 'St Andrews', 'Oban',
-    // Wales
-    'Cardiff', 'Swansea', 'Newport', 'Bangor', 'Wrexham', 'Aberystwyth', 'Caernarfon', 'Conwy', 'Llandudno',
-    // Northern Ireland
-    'Belfast', 'Derry', 'Lisburn', 'Newry', 'Armagh', 'Ballymena', 'Enniskillen',
-    // Film-Specific Locations
-    'Alnwick', 'Bamburgh', 'Lacock', 'Castle Combe', 'Rye', 'Ludlow', 'Stratford-upon-Avon'
-  ],
-  'England': [
-    // Alias for United Kingdom - England specifically
-    'London', 'Birmingham', 'Manchester', 'Leeds', 'Liverpool', 'Sheffield', 'Bristol', 'Newcastle', 'Nottingham', 'Leicester',
-    'Oxford', 'Cambridge', 'Bath', 'York', 'Brighton', 'Portsmouth', 'Southampton', 'Plymouth', 'Iver Heath', 'Watford'
-  ],
-  'Scotland': [
-    'Edinburgh', 'Glasgow', 'Aberdeen', 'Dundee', 'Inverness', 'Stirling', 'Perth', 'Fort William', 'St Andrews', 'Oban'
-  ],
-  'Wales': [
-    'Cardiff', 'Swansea', 'Newport', 'Bangor', 'Wrexham', 'Aberystwyth', 'Caernarfon', 'Conwy', 'Llandudno'
-  ],
-  'Northern Ireland': [
-    'Belfast', 'Derry', 'Lisburn', 'Newry', 'Armagh', 'Ballymena', 'Enniskillen'
-  ],
-  'France': [
-    // Major Cities
-    'Paris', 'Marseille', 'Lyon', 'Toulouse', 'Nice', 'Nantes', 'Strasbourg', 'Montpellier', 'Bordeaux', 'Lille',
-    // Film & Tourist Destinations
-    'Cannes', 'Monaco', 'Saint-Tropez', 'Antibes', 'Deauville', 'Biarritz', 'La Rochelle', 'Saint-Malo',
-    // Historic & Cultural
-    'Versailles', 'Fontainebleau', 'Orleans', 'Tours', 'Reims', 'Avignon', 'Arles', 'Carcassonne', 'Annecy',
-    // Alps & Mountains
-    'Grenoble', 'Chamonix', 'Albertville', 'Megève', 'Courchevel',
-    // Provence & Riviera
-    'Aix-en-Provence', 'Toulon', 'Grasse', 'Menton', 'Èze',
-    // Other Major
-    'Rennes', 'Dijon', 'Le Havre', 'Saint-Étienne', 'Clermont-Ferrand', 'Limoges', 'Amiens', 'Perpignan', 'Besançon', 'Brest'
-  ],
-  'Italy': [
-    // Major Cities
-    'Rome', 'Milan', 'Naples', 'Turin', 'Palermo', 'Genoa', 'Bologna', 'Florence', 'Bari', 'Catania',
-    // Tourist & Film Destinations
-    'Venice', 'Verona', 'Pisa', 'Siena', 'Perugia', 'Assisi', 'Padua', 'Mantua', 'Ravenna', 'Ferrara',
-    // Coastal & Islands
-    'Capri', 'Positano', 'Amalfi', 'Sorrento', 'Portofino', 'Cinque Terre', 'Taormina', 'Syracuse', 'Cagliari',
-    // Tuscany
-    'Lucca', 'Arezzo', 'Montepulciano', 'San Gimignano', 'Cortona', 'Volterra',
-    // North
-    'Trieste', 'Trento', 'Bolzano', 'Bergamo', 'Brescia', 'Como', 'Lecco',
-    // South
-    'Salerno', 'Lecce', 'Matera', 'Brindisi', 'Taranto', 'Reggio Calabria', 'Messina'
-  ],
-  'Spain': [
-    // Major Cities
-    'Madrid', 'Barcelona', 'Valencia', 'Seville', 'Zaragoza', 'Málaga', 'Murcia', 'Palma', 'Las Palmas', 'Bilbao',
-    // Tourist & Film Destinations
-    'Granada', 'Córdoba', 'Toledo', 'Segovia', 'Salamanca', 'Santiago de Compostela', 'San Sebastián',
-    // Coastal
-    'Alicante', 'Marbella', 'Ibiza', 'Mallorca', 'Menorca', 'Benidorm', 'Torremolinos', 'Cadiz', 'Tarragona',
-    // Historic
-    'Ávila', 'Cáceres', 'Cuenca', 'Ronda', 'Mérida', 'León', 'Burgos', 'Pamplona',
-    // Other Major
-    'Valladolid', 'Vigo', 'Gijón', 'A Coruña', 'Vitoria', 'Elche', 'Oviedo', 'Santander', 'Almería'
-  ],
-  'Germany': [
-    // Major Cities
-    'Berlin', 'Hamburg', 'Munich', 'Cologne', 'Frankfurt', 'Stuttgart', 'Düsseldorf', 'Dortmund', 'Essen', 'Leipzig',
-    // Historic & Film Locations
-    'Dresden', 'Nuremberg', 'Heidelberg', 'Rothenburg', 'Bamberg', 'Würzburg', 'Regensburg', 'Trier', 'Freiburg',
-    // Cultural Hubs
-    'Bremen', 'Hanover', 'Bonn', 'Münster', 'Karlsruhe', 'Mannheim', 'Augsburg', 'Wiesbaden', 'Göttingen',
-    // East Germany
-    'Potsdam', 'Weimar', 'Erfurt', 'Jena', 'Magdeburg', 'Halle', 'Rostock', 'Schwerin',
-    // Bavaria
-    'Garmisch-Partenkirchen', 'Berchtesgaden', 'Passau', 'Landshut', 'Ingolstadt',
-    // Other Notable
-    'Aachen', 'Kiel', 'Lübeck', 'Mainz', 'Saarbrücken', 'Ulm', 'Konstanz', 'Flensburg'
-  ],
-  'Canada': ['Toronto', 'Vancouver', 'Montreal', 'Calgary', 'Ottawa', 'Edmonton'],
-  'Australia': [
-    // Major Cities
-    'Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Gold Coast', 'Canberra', 'Newcastle', 'Wollongong', 'Hobart',
-    // New South Wales
-    'Parramatta', 'Penrith', 'Blacktown', 'Liverpool', 'Manly', 'Bondi', 'Cronulla', 'Byron Bay', 'Port Macquarie',
-    // Victoria
-    'Geelong', 'Ballarat', 'Bendigo', 'Shepparton', 'Mornington Peninsula', 'Dandenong', 'Frankston',
-    // Queensland
-    'Cairns', 'Townsville', 'Toowoomba', 'Mackay', 'Rockhampton', 'Bundaberg', 'Sunshine Coast', 'Surfers Paradise', 'Noosa',
-    // Western Australia
-    'Fremantle', 'Mandurah', 'Bunbury', 'Kalgoorlie', 'Broome', 'Albany',
-    // South Australia
-    'Mount Gambier', 'Whyalla', 'Murray Bridge', 'Port Lincoln', 'Barossa Valley',
-    // Tasmania
-    'Launceston', 'Devonport', 'Burnie', 'Port Arthur',
-    // Northern Territory
-    'Darwin', 'Alice Springs', 'Katherine',
-    // Australian Capital Territory
-    'Canberra'
-  ],
-  'Japan': ['Tokyo', 'Osaka', 'Kyoto', 'Yokohama', 'Nagoya', 'Sapporo'],
-  'China': ['Hong Kong', 'Shanghai', 'Beijing', 'Shenzhen', 'Guangzhou'],
-  'India': ['Mumbai', 'Delhi', 'Bangalore', 'Chennai', 'Kolkata', 'Hyderabad'],
-  'Mexico': ['Mexico City', 'Guadalajara', 'Monterrey', 'Tijuana'],
-  'Brazil': ['Rio de Janeiro', 'São Paulo', 'Brasília', 'Salvador'],
-  'Argentina': ['Buenos Aires', 'Córdoba', 'Rosario', 'Mendoza'],
-  'Netherlands': [
-    'Amsterdam', 'Rotterdam', 'The Hague', 'Utrecht', 'Eindhoven', 'Tilburg', 'Groningen', 'Almere', 'Breda', 'Nijmegen',
-    'Haarlem', 'Arnhem', 'Zaandam', 'Delft', 'Leiden', 'Maastricht', 'Dordrecht', 'Zwolle'
-  ],
-  'Belgium': [
-    'Brussels', 'Antwerp', 'Ghent', 'Bruges', 'Charleroi', 'Liège', 'Namur', 'Leuven', 'Mons', 'Mechelen', 'Ostend', 'Tournai'
-  ],
-  'Switzerland': [
-    'Zurich', 'Geneva', 'Bern', 'Basel', 'Lausanne', 'Lucerne', 'St. Gallen', 'Lugano', 'Interlaken', 'Zermatt', 'Montreux', 'Grindelwald'
-  ],
-  'Austria': [
-    'Vienna', 'Salzburg', 'Innsbruck', 'Graz', 'Linz', 'Klagenfurt', 'Hallstatt', 'Kitzbühel', 'St. Anton', 'Wachau'
-  ],
-  'Czech Republic': [
-    'Prague', 'Brno', 'Ostrava', 'Plzeň', 'Liberec', 'Olomouc', 'České Budějovice', 'Hradec Králové', 'Karlovy Vary', 'Český Krumlov'
-  ],
-  'Poland': [
-    'Warsaw', 'Krakow', 'Gdansk', 'Wroclaw', 'Poznan', 'Lodz', 'Szczecin', 'Katowice', 'Lublin', 'Bydgoszcz', 'Zakopane', 'Torun'
-  ],
-  'Russia': [
-    'Moscow', 'St. Petersburg', 'Kazan', 'Novosibirsk', 'Yekaterinburg', 'Nizhny Novgorod', 'Sochi', 'Vladivostok'
-  ],
-  'Turkey': [
-    'Istanbul', 'Ankara', 'Izmir', 'Antalya', 'Bursa', 'Adana', 'Gaziantep', 'Bodrum', 'Cappadocia', 'Pamukkale', 'Ephesus'
-  ],
-  'Greece': [
-    'Athens', 'Thessaloniki', 'Patras', 'Heraklion', 'Santorini', 'Mykonos', 'Rhodes', 'Corfu', 'Crete', 'Delphi', 'Meteora', 'Olympia'
-  ],
-  'Sweden': [
-    'Stockholm', 'Gothenburg', 'Malmö', 'Uppsala', 'Västerås', 'Örebro', 'Linköping', 'Helsingborg', 'Jönköping', 'Norrköping', 'Lund', 'Visby'
-  ],
-  'Norway': [
-    'Oslo', 'Bergen', 'Trondheim', 'Stavanger', 'Drammen', 'Kristiansand', 'Tromsø', 'Ålesund', 'Lillehammer', 'Bodø', 'Flåm'
-  ],
-  'Denmark': [
-    'Copenhagen', 'Aarhus', 'Odense', 'Aalborg', 'Esbjerg', 'Randers', 'Kolding', 'Horsens', 'Roskilde', 'Helsingør', 'Skagen'
-  ],
-  'Finland': [
-    'Helsinki', 'Espoo', 'Tampere', 'Vantaa', 'Oulu', 'Turku', 'Jyväskylä', 'Lahti', 'Kuopio', 'Rovaniemi', 'Lapland'
-  ],
-  'Portugal': [
-    'Lisbon', 'Porto', 'Faro', 'Braga', 'Coimbra', 'Funchal', 'Setúbal', 'Almada', 'Aveiro', 'Évora', 'Sintra', 'Cascais', 'Algarve'
-  ],
-  'Ireland': [
-    'Dublin', 'Cork', 'Galway', 'Limerick', 'Waterford', 'Drogheda', 'Dundalk', 'Kilkenny', 'Bray', 'Wexford', 'Sligo', 'Killarney', 'Dingle', 'Wicklow'
-  ],
-  'Éire / Ireland': [
-    'Dublin', 'Cork', 'Galway', 'Limerick', 'Waterford', 'Drogheda', 'Dundalk', 'Kilkenny', 'Bray', 'Wexford', 'Sligo', 'Killarney', 'Dingle', 'Wicklow'
-  ],
-  'Iceland': ['Reykjavik', 'Akureyri', 'Vik', 'Höfn', 'Selfoss'],
-  'New Zealand': ['Auckland', 'Wellington', 'Christchurch', 'Queenstown'],
-  'South Africa': ['Cape Town', 'Johannesburg', 'Durban', 'Pretoria'],
-  'Egypt': ['Cairo', 'Alexandria', 'Giza'],
-  'Morocco': ['Casablanca', 'Marrakech', 'Rabat'],
-  'Thailand': ['Bangkok', 'Chiang Mai', 'Phuket', 'Pattaya'],
-  'Singapore': ['Singapore'],
-  'Malaysia': ['Kuala Lumpur', 'Penang'],
-  'South Korea': ['Seoul', 'Busan', 'Incheon'],
-  'Taiwan': ['Taipei', 'Kaohsiung'],
-  'UAE': ['Dubai', 'Abu Dhabi'],
-  'Israel': ['Tel Aviv', 'Jerusalem', 'Haifa'],
-}
-
-// Check if a city is a major city
-function isMajorCity(city: string, country: string): boolean {
-  // Normalize country name to handle variations
-  let normalizedCountry = country.trim()
-
-  // Handle US variations
-  if (normalizedCountry.includes('United States') || normalizedCountry === 'USA' || normalizedCountry === 'US') {
-    normalizedCountry = 'United States'
-  }
-
-  // Handle UK variations
-  if (normalizedCountry.includes('United Kingdom') || normalizedCountry === 'UK' ||
-      normalizedCountry === 'England' || normalizedCountry === 'Scotland' ||
-      normalizedCountry === 'Wales' || normalizedCountry === 'Northern Ireland') {
-    // Try specific country first, then fall back to United Kingdom
-    if (MAJOR_CITIES[normalizedCountry]) {
-      // Keep specific (England, Scotland, Wales, Northern Ireland)
-    } else {
-      normalizedCountry = 'United Kingdom'
+  // Check each part against our major cities list
+  for (const part of parts) {
+    if (MAJOR_CITIES[part]) {
+      return { city: MAJOR_CITIES[part].english, country: MAJOR_CITIES[part].country }
     }
   }
 
-  // Handle Ireland variations
-  if (normalizedCountry.includes('Ireland') || normalizedCountry.includes('Éire')) {
-    normalizedCountry = 'Ireland'
-  }
-
-  // Handle Germany variations
-  if (normalizedCountry === 'Deutschland' || normalizedCountry === 'Germany') {
-    normalizedCountry = 'Germany'
-  }
-
-  // Handle Italy variations
-  if (normalizedCountry === 'Italia' || normalizedCountry === 'Italy') {
-    normalizedCountry = 'Italy'
-  }
-
-  // Handle France variations
-  if (normalizedCountry === 'France' || normalizedCountry === 'République française') {
-    normalizedCountry = 'France'
-  }
-
-  // Handle Spain variations
-  if (normalizedCountry === 'España' || normalizedCountry === 'Spain') {
-    normalizedCountry = 'Spain'
-  }
-
-  // Handle Australia variations
-  if (normalizedCountry.includes('Australia')) {
-    normalizedCountry = 'Australia'
-  }
-
-  const majorCitiesForCountry = MAJOR_CITIES[normalizedCountry]
-  if (!majorCitiesForCountry) return false  // Normalize city name for comparison (case-insensitive, trim)
-  let normalizedCity = city.trim().toLowerCase()
-
-  // Remove common prefixes like "City of", "Greater", "North/South/East/West"
-  normalizedCity = normalizedCity
-    .replace(/^city of\s+/i, '')
-    .replace(/^greater\s+/i, '')
-    .replace(/^(north|south|east|west)\s+/i, '')
-
-  // Remove state/province suffixes (e.g., "Brisbane, Queensland, Australia")
-  normalizedCity = normalizedCity.split(',')[0].trim()
-
-  // Exclude regions/counties/states that aren't cities (for US)
-  if (normalizedCountry === 'United States') {
-    const excludePatterns = ['shire', 'county', 'province', 'region', 'district', ', usa', 'usa']
-    if (excludePatterns.some(pattern => normalizedCity.includes(pattern))) {
-      return false
-    }
-  } else if (normalizedCountry === 'United Kingdom' || normalizedCountry === 'England' ||
-             normalizedCountry === 'Scotland' || normalizedCountry === 'Wales' ||
-             normalizedCountry === 'Northern Ireland') {
-    // For UK, exclude administrative districts, counties, boroughs that aren't cities
-    const excludePatterns = ['shire', 'county', 'borough', 'district', 'hatfield', 'hertsmere', 'dacorum', 'spelthorne', 'waverley']
-    if (excludePatterns.some(pattern => normalizedCity.includes(pattern))) {
-      return false
-    }
-  } else {
-    // For other countries, only check for shire
-    const excludePatterns = ['shire', 'county', 'province', 'region', 'district']
-    if (excludePatterns.some(pattern => normalizedCity.includes(pattern))) {
-      return false
-    }
-  }
-
-  return majorCitiesForCountry.some(majorCity =>
-    normalizedCity === majorCity.toLowerCase() ||
-    normalizedCity.includes(majorCity.toLowerCase()) ||
-    majorCity.toLowerCase().includes(normalizedCity)
-  )
-}// Normalize city name for grouping (removes prefixes, suffixes)
-function normalizeCity(city: string): string {
-  return city.trim()
-    .replace(/^city of\s+/i, '')
-    .replace(/^greater\s+/i, '')
-    .replace(/^(north|south|east|west)\s+/i, '')
-    .replace(/\s+city$/i, '') // Remove " City" suffix (e.g., "Gold Coast City" -> "Gold Coast")
-    .split(',')[0]
-    .trim()
+  return null
 }
 
 async function generateLocationPages() {
-  console.log('🎬 Generating location pages for MAJOR CITIES with 3+ movies...\n')
+  console.log('🎬 Generating location pages for MAJOR CITIES ONLY with 3+ movies...\n')
 
   // Clean up old location files first
   const dataDir = path.join(process.cwd(), 'data')
@@ -503,25 +234,36 @@ async function generateLocationPages() {
 
   console.log(`📊 Total movies: ${movies.length}`)
 
-  // Group movies by NORMALIZED city (merge North/South/East/West variants)
+  // Group movies by MAJOR CITY ONLY (from predefined list)
   const cityMovies: Record<string, {
     movies: Movie[]
     locations: Location[]
+    city: string
     country: string
-    originalCityName: string // Keep the most common city name
   }> = {}
+
+  let skipped = 0
+  let matched = 0
 
   movies.forEach(movie => {
     movie.locations.forEach(location => {
-      const normalizedCityName = normalizeCity(location.city)
-      const cityKey = `${normalizedCityName}, ${location.country}`
+      // Find major city from display_name
+      const majorCity = findMajorCity(location.display_name || '')
+
+      if (!majorCity) {
+        skipped++
+        return // Skip - not a major city
+      }
+
+      matched++
+      const cityKey = `${majorCity.city}-${majorCity.country}`
 
       if (!cityMovies[cityKey]) {
         cityMovies[cityKey] = {
           movies: [],
           locations: [],
-          country: location.country,
-          originalCityName: normalizedCityName
+          city: majorCity.city,
+          country: majorCity.country
         }
       }
 
@@ -535,39 +277,26 @@ async function generateLocationPages() {
     })
   })
 
-  // Filter cities: must have 3+ movies AND be a major city
+  console.log(`\n✅ Matched ${matched} locations to major cities`)
+  console.log(`⏭️  Skipped ${skipped} non-major city locations`)
+
+  // Filter cities: must have 3+ movies
   const qualifiedCities = Object.entries(cityMovies)
-    .filter(([cityName, data]) => {
-      const city = cityName.split(', ')[0]
-      const country = data.country
-
-      // Must have at least 3 movies
-      if (data.movies.length < 3) return false
-
-      // Must be a recognized major city
-      return isMajorCity(city, country)
-    })
+    .filter(([_, data]) => data.movies.length >= 3)
     .sort((a, b) => b[1].movies.length - a[1].movies.length) // Sort by movie count
 
-  console.log(`\n✅ Found ${qualifiedCities.length} major cities with 3+ movies`)
-  console.log(`🔍 Checking for overlapping cities within 15km...\n`)
-
-  // Merge nearby cities that are too close together (e.g., London + Westminster)
-  const mergedCities = mergeNearbyCities(qualifiedCities, 15)
-
-  console.log(`\n✅ After merging: ${mergedCities.length} unique regions\n`)
+  console.log(`\n✅ Found ${qualifiedCities.length} major cities with 3+ movies\n`)
 
   const regionFeatures: any[] = []
   let generatedCount = 0
 
-  // Generate location page for each merged region
-  for (const [cityName, data] of mergedCities) {
-    const city = cityName.split(', ')[0]
+  // Generate location page for each city
+  for (const [_, data] of qualifiedCities) {
+    const city = data.city
     const country = data.country
-    const normalizedCountry = normalizeCountryName(country) // Normalize for slug and display
-    const slug = slugify(`${city}-${normalizedCountry}`)
+    const slug = simpleSlugify(`${city}-${country}`)
 
-    console.log(`📍 ${cityName}: ${data.movies.length} movies`)
+    console.log(`📍 ${city}, ${country}: ${data.movies.length} movies`)
 
     // Calculate center coordinates
     const center = calculateCenter(data.locations)
@@ -582,9 +311,10 @@ async function generateLocationPages() {
       banner_1280: movie.banner_1280,
       thumbnail_52: movie.thumbnail_52,
       imdb_rating: movie.imdb_rating,
-      londonLocationCount: movie.locations.filter(loc =>
-        loc.city === city && loc.country === country
-      ).length
+      londonLocationCount: movie.locations.filter(loc => {
+        const locCity = findMajorCity(loc.display_name || '')
+        return locCity && locCity.city === city && locCity.country === country
+      }).length
     }))
 
     // Calculate stats
@@ -603,16 +333,17 @@ async function generateLocationPages() {
       decadeCounts[decade] = (decadeCounts[decade] || 0) + 1
 
       // Count locations in this city
-      totalLocations += movie.locations.filter(loc =>
-        loc.city === city && loc.country === country
-      ).length
+      totalLocations += movie.locations.filter(loc => {
+        const locCity = findMajorCity(loc.display_name || '')
+        return locCity && locCity.city === city && locCity.country === country
+      }).length
     })
 
     // Create location data file
     const locationData = {
       location: {
         city,
-        country: normalizedCountry, // Use normalized country name
+        country,
         slug,
         coordinates: center
       },
@@ -641,10 +372,10 @@ async function generateLocationPages() {
       type: 'Feature',
       id: generatedCount,
       properties: {
-        name: `${city} Area`,
+        name: `${city}, ${country}`,
         slug,
-        country: normalizedCountry, // Use normalized country name
-        movieCount: data.movies.length
+        movieCount: data.movies.length,
+        locationCount: totalLocations
       },
       geometry: {
         type: 'Point',
@@ -653,18 +384,20 @@ async function generateLocationPages() {
     })
   }
 
-  // Create clickable-regions.geojson
-  const regionsGeoJSON = {
+  // Create GeoJSON file
+  const geoJSON = {
     type: 'FeatureCollection',
     features: regionFeatures
   }
 
-  const geoJSONPath = path.join(process.cwd(), 'public', 'geo', 'clickable-regions.geojson')
-  fs.writeFileSync(geoJSONPath, JSON.stringify(regionsGeoJSON, null, 2))
+  const geoPath = path.join(process.cwd(), 'public', 'geo', 'clickable-regions.geojson')
+  fs.mkdirSync(path.dirname(geoPath), { recursive: true })
+  fs.writeFileSync(geoPath, JSON.stringify(geoJSON, null, 2))
 
   console.log(`\n✅ Generated ${generatedCount} location pages`)
-  console.log(`✅ Updated clickable-regions.geojson with ${regionFeatures.length} regions`)
-  console.log('\n🎉 Done!')
+  console.log(`✅ Created clickable-regions.geojson with ${regionFeatures.length} regions`)
+  console.log(`\nLocation pages saved to: data/location_*.json`)
+  console.log(`GeoJSON saved to: public/geo/clickable-regions.geojson`)
 }
 
 generateLocationPages().catch(console.error)

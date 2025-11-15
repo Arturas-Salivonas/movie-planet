@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
 interface NavigationProps {
-  onPartnershipClick: () => void
+  onPartnershipClick?: () => void
   onSearchClick?: () => void
 }
 
-export default function Navigation({ onPartnershipClick, onSearchClick }: NavigationProps) {
+export default function Navigation({ onSearchClick, onPartnershipClick }: NavigationProps) {
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -30,7 +30,7 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
                  <img
             src="/images/logo/filmingmap-logo.webp"
             alt="filmingmap Logo"
-            className="h-8"
+            className="h-6 px-4"
           />
         </Link>
 
@@ -83,6 +83,17 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
             >
               🗺️ 3D Map
             </Link>
+                        <Link
+              href="/location"
+              onClick={closeMenu}
+              className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
+                isActive('/location') && pathname === '/location'
+                  ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 border-l-4 border-primary-600 shadow-sm'
+                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+              }`}
+            >
+              📍 Locations
+            </Link>
             <Link
               href="/blog"
               onClick={closeMenu}
@@ -94,41 +105,54 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
             >
               📝 Blog
             </Link>
-            <Link
-              href="/location"
-              onClick={closeMenu}
-              className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
-                isActive('/location') && pathname === '/location'
-                  ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 border-l-4 border-primary-600 shadow-sm'
-                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-              }`}
-            >
-              📍 Locations
-            </Link>
-            <button
-              onClick={() => {
-                onPartnershipClick()
-                closeMenu()
-              }}
-              className="px-4 py-3 rounded-md text-base font-medium text-left text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-            >
-              🤝 Partnership
-            </button>
+
+            {onPartnershipClick && (
+              <button
+                onClick={() => {
+                  onPartnershipClick()
+                  closeMenu()
+                }}
+                className="px-4 py-3 rounded-md text-base font-medium text-left text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+              >
+                🤝 Partnership
+              </button>
+            )}
           </div>
         </div>
       )}
 
       {/* Desktop Menu */}
-      <div className="hidden lg:flex items-center justify-center gap-2 p-2">
-        <Link
-          href="/"
+      <div className="hidden lg:flex items-center justify-between gap-2 p-2 w-full">
+        {/* Logo */}
+        <Link href="/" className="flex-shrink-0 ml-2">
+          <img
+            src="/images/logo/filmingmap-logo.webp"
+            alt="FilmingMap Logo"
+            className="h-6 px-4"
+          />
+        </Link>
+
+        {/* Navigation Links */}
+        <div className="flex items-center justify-center gap-2 flex-1">
+          <Link
+            href="/"
+            className={`px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 ${
+              isActive('/')
+                ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 shadow-sm ring-2 ring-primary-200 dark:ring-primary-800'
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+            }`}
+          >
+            3D Map
+          </Link>
+          <Link
+          href="/location"
           className={`px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 ${
-            isActive('/')
+            isActive('/location') && pathname === '/location'
               ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 shadow-sm ring-2 ring-primary-200 dark:ring-primary-800'
               : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
-          3D Map
+          Locations
         </Link>
         <Link
           href="/blog"
@@ -140,22 +164,18 @@ export default function Navigation({ onPartnershipClick, onSearchClick }: Naviga
         >
           Blog
         </Link>
-        <Link
-          href="/location"
-          className={`px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 ${
-            isActive('/location') && pathname === '/location'
-              ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 shadow-sm ring-2 ring-primary-200 dark:ring-primary-800'
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-          }`}
-        >
-          Locations
-        </Link>
-        <button
-          onClick={onPartnershipClick}
-          className="px-5 py-2.5 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
-        >
-          Partnership
-        </button>
+        {onPartnershipClick && (
+          <button
+            onClick={onPartnershipClick}
+            className="px-5 py-2.5 rounded-lg text-base font-medium transition-all duration-200 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+          >
+            Partnership
+          </button>
+        )}
+        </div>
+
+        {/* Spacer for balance */}
+        {/* <div className="flex-shrink-0 w-[56px] mr-2"></div> */}
       </div>
     </nav>
   )

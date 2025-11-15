@@ -1,0 +1,184 @@
+{
+  "location": {
+    "city": "Vienna",
+    "country": "Austria",
+    "slug": "vienna-austria",
+    "coordinates": {
+      "lat": 48.20557806470589,
+      "lng": 16.379547667647056
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt24053860",
+      "title": "The Day of the Jackal",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt24053860.webp",
+      "thumbnail_52": "/images/thumbnails/tt24053860.webp",
+      "imdb_rating": 8.175,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0017136",
+      "title": "Metropolis",
+      "year": 1927,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0017136.webp",
+      "thumbnail_52": "/images/thumbnails/tt0017136.webp",
+      "imdb_rating": 8.099,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0086879",
+      "title": "Amadeus",
+      "year": 1984,
+      "genres": [
+        "History",
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0086879.webp",
+      "thumbnail_52": "/images/thumbnails/tt0086879.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112471",
+      "title": "Before Sunrise",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0112471.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112471.webp",
+      "imdb_rating": 7.965,
+      "londonLocationCount": 14
+    },
+    {
+      "movie_id": "tt0041959",
+      "title": "The Third Man",
+      "year": 1949,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0041959.webp",
+      "thumbnail_52": "/images/thumbnails/tt0041959.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 8
+    },
+    {
+      "movie_id": "tt1979320",
+      "title": "Rush",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1979320.webp",
+      "thumbnail_52": "/images/thumbnails/tt1979320.webp",
+      "imdb_rating": 7.727,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt5057054",
+      "title": "Tom Clancy's Jack Ryan",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5057054.webp",
+      "thumbnail_52": "/images/thumbnails/tt5057054.webp",
+      "imdb_rating": 7.679,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt16030542",
+      "title": "The Recruit",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt16030542.webp",
+      "thumbnail_52": "/images/thumbnails/tt16030542.webp",
+      "imdb_rating": 7.445,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2381249",
+      "title": "Mission: Impossible - Rogue Nation",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2381249.webp",
+      "thumbnail_52": "/images/thumbnails/tt2381249.webp",
+      "imdb_rating": 7.217,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1649418",
+      "title": "The Gray Man",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1649418.webp",
+      "thumbnail_52": "/images/thumbnails/tt1649418.webp",
+      "imdb_rating": 6.924,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2873282",
+      "title": "Red Sparrow",
+      "year": 2018,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2873282.webp",
+      "thumbnail_52": "/images/thumbnails/tt2873282.webp",
+      "imdb_rating": 6.533,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 11,
+    "totalLocations": 34,
+    "genres": {
+      "Drama": 7,
+      "Romance": 1,
+      "Science Fiction": 1,
+      "Action": 3,
+      "Adventure": 1,
+      "Action & Adventure": 3,
+      "Thriller": 3,
+      "Mystery": 3,
+      "Crime": 1,
+      "History": 1,
+      "Music": 1
+    },
+    "decades": {
+      "1990s": 1,
+      "1920s": 1,
+      "2010s": 4,
+      "2020s": 3,
+      "1980s": 1,
+      "1940s": 1
+    }
+  }
+}

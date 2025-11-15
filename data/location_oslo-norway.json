@@ -1,0 +1,112 @@
+{
+  "location": {
+    "city": "Oslo",
+    "country": "Norway",
+    "slug": "oslo-norway",
+    "coordinates": {
+      "lat": 59.92959191818182,
+      "lng": 10.752870727272729
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt5288312",
+      "title": "SKAM",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5288312.webp",
+      "thumbnail_52": "/images/thumbnails/tt5288312.webp",
+      "imdb_rating": 8.232,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10069398",
+      "title": "Home for Christmas",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10069398.webp",
+      "thumbnail_52": "/images/thumbnails/tt10069398.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2382320",
+      "title": "No Time to Die",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2382320.webp",
+      "thumbnail_52": "/images/thumbnails/tt2382320.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1958961",
+      "title": "Lilyhammer",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1958961.webp",
+      "thumbnail_52": "/images/thumbnails/tt1958961.webp",
+      "imdb_rating": 7.304,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6723592",
+      "title": "Tenet",
+      "year": 2020,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt6723592.webp",
+      "thumbnail_52": "/images/thumbnails/tt6723592.webp",
+      "imdb_rating": 7.175,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt11116912",
+      "title": "Troll",
+      "year": 2022,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt11116912.webp",
+      "thumbnail_52": "/images/thumbnails/tt11116912.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 6,
+    "totalLocations": 11,
+    "genres": {
+      "Fantasy": 1,
+      "Action": 3,
+      "Adventure": 2,
+      "Drama": 3,
+      "Thriller": 2,
+      "Science Fiction": 1,
+      "Comedy": 2,
+      "Crime": 1
+    },
+    "decades": {
+      "2020s": 3,
+      "2010s": 3
+    }
+  }
+}

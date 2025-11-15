@@ -1,0 +1,147 @@
+{
+  "location": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "slug": "copenhagen-denmark",
+    "coordinates": {
+      "lat": 55.679217733333324,
+      "lng": 12.58005288
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt6468322",
+      "title": "Money Heist",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6468322.webp",
+      "thumbnail_52": "/images/thumbnails/tt6468322.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1733785",
+      "title": "The Bridge",
+      "year": 2011,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1733785.webp",
+      "thumbnail_52": "/images/thumbnails/tt1733785.webp",
+      "imdb_rating": 8.084,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1526318",
+      "title": "Borgen",
+      "year": 2010,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1526318.webp",
+      "thumbnail_52": "/images/thumbnails/tt1526318.webp",
+      "imdb_rating": 8.019,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0826760",
+      "title": "The Killing",
+      "year": 2007,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0826760.webp",
+      "thumbnail_52": "/images/thumbnails/tt0826760.webp",
+      "imdb_rating": 7.968,
+      "londonLocationCount": 14
+    },
+    {
+      "movie_id": "tt10288566",
+      "title": "Another Round",
+      "year": 2020,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10288566.webp",
+      "thumbnail_52": "/images/thumbnails/tt10288566.webp",
+      "imdb_rating": 7.635,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0810819",
+      "title": "The Danish Girl",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0810819.webp",
+      "thumbnail_52": "/images/thumbnails/tt0810819.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0108906",
+      "title": "The Kingdom",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt0108906.webp",
+      "thumbnail_52": "/images/thumbnails/tt0108906.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt10834220",
+      "title": "The Chestnut Man",
+      "year": 2021,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt10834220.webp",
+      "thumbnail_52": "/images/thumbnails/tt10834220.webp",
+      "imdb_rating": 7.49,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 9,
+    "totalLocations": 30,
+    "genres": {
+      "Crime": 4,
+      "Drama": 8,
+      "Mystery": 4,
+      "Comedy": 3
+    },
+    "decades": {
+      "2010s": 4,
+      "2020s": 2,
+      "2000s": 2,
+      "1990s": 1
+    }
+  }
+}

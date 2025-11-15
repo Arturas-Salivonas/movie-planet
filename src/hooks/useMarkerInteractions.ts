@@ -463,7 +463,7 @@ export function useMarkerInteractions({
               ` : ''}
             </div>
             <div style="
-              color: #FFD700;
+              color: #01affe;
               font-size: 12px;
               font-weight: bold;
               padding-top: 12px;
@@ -475,8 +475,7 @@ export function useMarkerInteractions({
               justify-content: center;
               gap: 6px;
             ">
-
-              Zoom in to see more movies
+              ✨ Zoom closer to select a movie
             </div>
           </div>
         `

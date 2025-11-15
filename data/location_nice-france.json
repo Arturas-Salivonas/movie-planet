@@ -1,0 +1,126 @@
+{
+  "location": {
+    "city": "Nice",
+    "country": "France",
+    "slug": "nice-france",
+    "coordinates": {
+      "lat": 43.74117522222222,
+      "lng": 7.320454975
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0825232",
+      "title": "The Bucket List",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0825232.webp",
+      "thumbnail_52": "/images/thumbnails/tt0825232.webp",
+      "imdb_rating": 7.187,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0122690",
+      "title": "Ronin",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0122690.webp",
+      "thumbnail_52": "/images/thumbnails/tt0122690.webp",
+      "imdb_rating": 6.963,
+      "londonLocationCount": 26
+    },
+    {
+      "movie_id": "tt0113189",
+      "title": "GoldenEye",
+      "year": 1995,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0113189.webp",
+      "thumbnail_52": "/images/thumbnails/tt0113189.webp",
+      "imdb_rating": 6.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0293662",
+      "title": "The Transporter",
+      "year": 2002,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0293662.webp",
+      "thumbnail_52": "/images/thumbnails/tt0293662.webp",
+      "imdb_rating": 6.713,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt4477536",
+      "title": "Fifty Shades Freed",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt4477536.webp",
+      "thumbnail_52": "/images/thumbnails/tt4477536.webp",
+      "imdb_rating": 6.683,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0349903",
+      "title": "Ocean's Twelve",
+      "year": 2004,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0349903.webp",
+      "thumbnail_52": "/images/thumbnails/tt0349903.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0244244",
+      "title": "Swordfish",
+      "year": 2001,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0244244.webp",
+      "thumbnail_52": "/images/thumbnails/tt0244244.webp",
+      "imdb_rating": 6.249,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 36,
+    "genres": {
+      "Drama": 2,
+      "Romance": 1,
+      "Thriller": 5,
+      "Crime": 4,
+      "Action": 4,
+      "Adventure": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2000s": 4,
+      "1990s": 2
+    }
+  }
+}

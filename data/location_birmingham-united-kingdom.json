@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "birmingham-united-kingdom",
     "coordinates": {
-      "lat": 52.48389834705884,
-      "lng": -1.8941762235294115
+      "lat": 50.090716895,
+      "lng": -14.450859009999999
     }
   },
   "movies": [
@@ -94,26 +94,66 @@
       "thumbnail_52": "/images/thumbnails/tt9794044.webp",
       "imdb_rating": 6.827,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0443453",
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0443453.webp",
+      "thumbnail_52": "/images/thumbnails/tt0443453.webp",
+      "imdb_rating": 6.785,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2975590",
+      "title": "Batman v Superman: Dawn of Justice",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt2975590.webp",
+      "thumbnail_52": "/images/thumbnails/tt2975590.webp",
+      "imdb_rating": 5.987,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 6,
-    "totalLocations": 17,
+    "totalMovies": 9,
+    "totalLocations": 20,
     "genres": {
-      "Action": 3,
-      "Adventure": 3,
+      "Action": 4,
+      "Adventure": 4,
       "Thriller": 1,
+      "Fantasy": 1,
       "Crime": 4,
       "Drama": 3,
       "Mystery": 2,
       "Science Fiction": 1,
-      "Comedy": 2,
-      "Action & Adventure": 1
+      "Comedy": 3,
+      "Action & Adventure": 1,
+      "Reality": 1
     },
     "decades": {
       "2020s": 2,
-      "2010s": 3,
-      "2000s": 1
+      "2010s": 4,
+      "2000s": 3
     }
   }
 }

@@ -1,0 +1,637 @@
+{
+  "location": {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "slug": "istanbul-turkey",
+    "coordinates": {
+      "lat": 41.02403706857145,
+      "lng": 28.99887855714284
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt9861270",
+      "title": "Çılgın Dersane Üniversitede",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "",
+      "imdb_rating": 10,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11007006",
+      "title": "Azize",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt11007006.webp",
+      "thumbnail_52": "/images/thumbnails/tt11007006.webp",
+      "imdb_rating": 9.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9471962",
+      "title": "Halka",
+      "year": 2019,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt9471962.webp",
+      "thumbnail_52": "/images/thumbnails/tt9471962.webp",
+      "imdb_rating": 8.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13675832",
+      "title": "As If",
+      "year": 2021,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt13675832.webp",
+      "thumbnail_52": "/images/thumbnails/tt13675832.webp",
+      "imdb_rating": 8.508,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6162588",
+      "title": "Brave and Beautiful",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6162588.webp",
+      "thumbnail_52": "/images/thumbnails/tt6162588.webp",
+      "imdb_rating": 8.5,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt5152226",
+      "title": "Hayat Ağacı",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "poster": "/images/posters/tt5152226.webp",
+      "thumbnail_52": "/images/thumbnails/tt5152226.webp",
+      "imdb_rating": 8.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1534360",
+      "title": "Ezel",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1534360.webp",
+      "thumbnail_52": "/images/thumbnails/tt1534360.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5768632",
+      "title": "Love Doesn't Understand Words",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5768632.webp",
+      "thumbnail_52": "/images/thumbnails/tt5768632.webp",
+      "imdb_rating": 8.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3671754",
+      "title": "Kardeş Payı",
+      "year": 2014,
+      "genres": [
+        "Family",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3671754.webp",
+      "thumbnail_52": "/images/thumbnails/tt3671754.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt12439466",
+      "title": "Love Is in the Air",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt12439466.webp",
+      "thumbnail_52": "/images/thumbnails/tt12439466.webp",
+      "imdb_rating": 8.2,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt1831164",
+      "title": "Leyla and Mecnun",
+      "year": 2011,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1831164.webp",
+      "thumbnail_52": "/images/thumbnails/tt1831164.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1848220",
+      "title": "Magnificent Century",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1848220.webp",
+      "thumbnail_52": "/images/thumbnails/tt1848220.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7920978",
+      "title": "Persona",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt7920978.webp",
+      "thumbnail_52": "/images/thumbnails/tt7920978.webp",
+      "imdb_rating": 8.039,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt6051216",
+      "title": "Insider",
+      "year": 2016,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt6051216.webp",
+      "thumbnail_52": "/images/thumbnails/tt6051216.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt4320258",
+      "title": "Resurrection: Ertugrul",
+      "year": 2014,
+      "genres": [
+        "War & Politics",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4320258.webp",
+      "thumbnail_52": "/images/thumbnails/tt4320258.webp",
+      "imdb_rating": 7.851,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0252488",
+      "title": "The Chaos Class Failed the Class",
+      "year": 1975,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0252488.webp",
+      "thumbnail_52": "/images/thumbnails/tt0252488.webp",
+      "imdb_rating": 7.801,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1399664",
+      "title": "The Night Manager",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1399664.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399664.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2311418",
+      "title": "İşler Güçler",
+      "year": 2012,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt2311418.webp",
+      "thumbnail_52": "/images/thumbnails/tt2311418.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10516352",
+      "title": "Love 101",
+      "year": 2020,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt10516352.webp",
+      "thumbnail_52": "/images/thumbnails/tt10516352.webp",
+      "imdb_rating": 7.775,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1795096",
+      "title": "Behzat Ç.: An Ankara Policeman",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "War & Politics",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1795096.webp",
+      "thumbnail_52": "/images/thumbnails/tt1795096.webp",
+      "imdb_rating": 7.706,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4912412",
+      "title": "Sun's Daughters",
+      "year": 2015,
+      "genres": [
+        "Family",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4912412.webp",
+      "thumbnail_52": "/images/thumbnails/tt4912412.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt11301642",
+      "title": "Ethos",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt11301642.webp",
+      "thumbnail_52": "/images/thumbnails/tt11301642.webp",
+      "imdb_rating": 7.681,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14899624",
+      "title": "Another Self",
+      "year": 2022,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt14899624.webp",
+      "thumbnail_52": "/images/thumbnails/tt14899624.webp",
+      "imdb_rating": 7.67,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0421291",
+      "title": "The European Side",
+      "year": 2004,
+      "genres": [
+        "Family",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0421291.webp",
+      "thumbnail_52": "/images/thumbnails/tt0421291.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7431994",
+      "title": "The Pit",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7431994.webp",
+      "thumbnail_52": "/images/thumbnails/tt7431994.webp",
+      "imdb_rating": 7.576,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt9244578",
+      "title": "Rise of Empires: Ottoman",
+      "year": 2020,
+      "genres": [
+        "Documentary",
+        "War & Politics",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt9244578.webp",
+      "thumbnail_52": "/images/thumbnails/tt9244578.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0476735",
+      "title": "My Father and My Son",
+      "year": 2005,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0476735.webp",
+      "thumbnail_52": "/images/thumbnails/tt0476735.webp",
+      "imdb_rating": 7.437,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt22727518",
+      "title": "Another Love",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt22727518.webp",
+      "thumbnail_52": "/images/thumbnails/tt22727518.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7621364",
+      "title": "Siyah İnci",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7621364.webp",
+      "thumbnail_52": "/images/thumbnails/tt7621364.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10075318",
+      "title": "The Gift",
+      "year": 2019,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt10075318.webp",
+      "thumbnail_52": "/images/thumbnails/tt10075318.webp",
+      "imdb_rating": 7.383,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt6271042",
+      "title": "McMafia",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6271042.webp",
+      "thumbnail_52": "/images/thumbnails/tt6271042.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0116231",
+      "title": "The Bandit",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0116231.webp",
+      "thumbnail_52": "/images/thumbnails/tt0116231.webp",
+      "imdb_rating": 7.33,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1024648",
+      "title": "Argo",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1024648.webp",
+      "thumbnail_52": "/images/thumbnails/tt1024648.webp",
+      "imdb_rating": 7.28,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0421384",
+      "title": "The Valley of The Wolves",
+      "year": 2003,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0421384.webp",
+      "thumbnail_52": "/images/thumbnails/tt0421384.webp",
+      "imdb_rating": 7.279,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1074638",
+      "title": "Skyfall",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1074638.webp",
+      "thumbnail_52": "/images/thumbnails/tt1074638.webp",
+      "imdb_rating": 7.256,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt7668518",
+      "title": "The Protector",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt7668518.webp",
+      "thumbnail_52": "/images/thumbnails/tt7668518.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 16
+    },
+    {
+      "movie_id": "tt6724368",
+      "title": "Phi",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6724368.webp",
+      "thumbnail_52": "/images/thumbnails/tt6724368.webp",
+      "imdb_rating": 7.144,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt3150586",
+      "title": "Medcezir",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3150586.webp",
+      "thumbnail_52": "/images/thumbnails/tt3150586.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0120591",
+      "title": "Armageddon",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120591.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120591.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt13238304",
+      "title": "The Life and Movies of Erşan Kuneri",
+      "year": 2022,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt13238304.webp",
+      "thumbnail_52": "/images/thumbnails/tt13238304.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3402236",
+      "title": "Murder on the Orient Express",
+      "year": 2017,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt3402236.webp",
+      "thumbnail_52": "/images/thumbnails/tt3402236.webp",
+      "imdb_rating": 6.705,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1340800",
+      "title": "Tinker Tailor Soldier Spy",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1340800.webp",
+      "thumbnail_52": "/images/thumbnails/tt1340800.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1397280",
+      "title": "Taken 2",
+      "year": 2012,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1397280.webp",
+      "thumbnail_52": "/images/thumbnails/tt1397280.webp",
+      "imdb_rating": 6.365,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0143145",
+      "title": "The World Is Not Enough",
+      "year": 1999,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0143145.webp",
+      "thumbnail_52": "/images/thumbnails/tt0143145.webp",
+      "imdb_rating": 6.284,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt3062096",
+      "title": "Inferno",
+      "year": 2016,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt3062096.webp",
+      "thumbnail_52": "/images/thumbnails/tt3062096.webp",
+      "imdb_rating": 6.085,
+      "londonLocationCount": 3
+    }
+  ],
+  "stats": {
+    "totalMovies": 45,
+    "totalLocations": 105,
+    "genres": {
+      "Family": 5,
+      "Comedy": 12,
+      "Drama": 32,
+      "Sci-Fi & Fantasy": 3,
+      "Crime": 13,
+      "Mystery": 7,
+      "War & Politics": 4,
+      "Action & Adventure": 10,
+      "Action": 5,
+      "Adventure": 3,
+      "Thriller": 8,
+      "Science Fiction": 1,
+      "Documentary": 1
+    },
+    "decades": {
+      "2010s": 29,
+      "2020s": 8,
+      "1970s": 1,
+      "2000s": 4,
+      "1990s": 3
+    }
+  }
+}

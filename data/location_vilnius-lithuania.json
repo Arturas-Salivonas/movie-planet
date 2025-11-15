@@ -1,0 +1,65 @@
+{
+  "location": {
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "slug": "vilnius-lithuania",
+    "coordinates": {
+      "lat": 54.69442222857143,
+      "lng": 25.267260857142855
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt7366338",
+      "title": "Chernobyl",
+      "year": 2019,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7366338.webp",
+      "thumbnail_52": "/images/thumbnails/tt7366338.webp",
+      "imdb_rating": 8.69,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt4574334",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4574334.webp",
+      "thumbnail_52": "/images/thumbnails/tt4574334.webp",
+      "imdb_rating": 8.593,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 7,
+    "genres": {
+      "Drama": 2,
+      "Sci-Fi & Fantasy": 1,
+      "Mystery": 1,
+      "Comedy": 1
+    },
+    "decades": {
+      "2010s": 2,
+      "2000s": 1
+    }
+  }
+}

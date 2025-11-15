@@ -4,8 +4,8 @@
     "country": "France",
     "slug": "paris-france",
     "coordinates": {
-      "lat": 48.860529868402885,
-      "lng": 2.3364755444444416
+      "lat": 48.51101066048641,
+      "lng": -0.5932954644376903
     }
   },
   "movies": [
@@ -301,6 +301,19 @@
       "londonLocationCount": 6
     },
     {
+      "movie_id": "tt0449059",
+      "title": "Little Miss Sunshine",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0449059.webp",
+      "thumbnail_52": "/images/thumbnails/tt0449059.webp",
+      "imdb_rating": 7.692,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt5057054",
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
@@ -324,7 +337,7 @@
       "poster": "/images/posters/tt4277922.webp",
       "thumbnail_52": "/images/thumbnails/tt4277922.webp",
       "imdb_rating": 7.667,
-      "londonLocationCount": 3
+      "londonLocationCount": 14
     },
     {
       "movie_id": "tt0108394",
@@ -476,6 +489,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0105929",
+      "title": "Absolutely Fabulous",
+      "year": 1992,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0105929.webp",
+      "thumbnail_52": "/images/thumbnails/tt0105929.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0108906",
       "title": "The Kingdom",
       "year": 1994,
@@ -599,6 +624,20 @@
       "londonLocationCount": 4
     },
     {
+      "movie_id": "tt0103442",
+      "title": "Highlander: The Series",
+      "year": 1992,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0103442.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103442.webp",
+      "imdb_rating": 7.38,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0396171",
       "title": "Perfume: The Story of a Murderer",
       "year": 2006,
@@ -613,6 +652,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0268126",
+      "title": "Adaptation.",
+      "year": 2002,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0268126.webp",
+      "thumbnail_52": "/images/thumbnails/tt0268126.webp",
+      "imdb_rating": 7.35,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1670345",
       "title": "Now You See Me",
       "year": 2013,
@@ -623,6 +676,20 @@
       "poster": "/images/posters/tt1670345.webp",
       "thumbnail_52": "/images/thumbnails/tt1670345.webp",
       "imdb_rating": 7.332,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0106308",
+      "title": "Army of Darkness",
+      "year": 1992,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0106308.webp",
+      "thumbnail_52": "/images/thumbnails/tt0106308.webp",
+      "imdb_rating": 7.258,
       "londonLocationCount": 1
     },
     {
@@ -738,6 +805,18 @@
       "poster": "/images/posters/tt0122690.webp",
       "thumbnail_52": "/images/thumbnails/tt0122690.webp",
       "imdb_rating": 6.963,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0421030",
+      "title": "Big Love",
+      "year": 2006,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0421030.webp",
+      "thumbnail_52": "/images/thumbnails/tt0421030.webp",
+      "imdb_rating": 6.9,
       "londonLocationCount": 1
     },
     {
@@ -795,6 +874,33 @@
       "poster": "/images/posters/tt1951265.webp",
       "thumbnail_52": "/images/thumbnails/tt1951265.webp",
       "imdb_rating": 6.815,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10954984",
+      "title": "Nope",
+      "year": 2022,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt10954984.webp",
+      "thumbnail_52": "/images/thumbnails/tt10954984.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt13745850",
+      "title": "The Last Thing He Told Me",
+      "year": 2023,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13745850.webp",
+      "thumbnail_52": "/images/thumbnails/tt13745850.webp",
+      "imdb_rating": 6.8,
       "londonLocationCount": 1
     },
     {
@@ -866,6 +972,20 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt2239822",
+      "title": "Valerian and the City of a Thousand Planets",
+      "year": 2017,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt2239822.webp",
+      "thumbnail_52": "/images/thumbnails/tt2239822.webp",
+      "imdb_rating": 6.631,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0195714",
       "title": "Final Destination",
       "year": 2000,
@@ -917,6 +1037,20 @@
       "londonLocationCount": 3
     },
     {
+      "movie_id": "tt0142688",
+      "title": "The Ninth Gate",
+      "year": 1999,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0142688.webp",
+      "thumbnail_52": "/images/thumbnails/tt0142688.webp",
+      "imdb_rating": 6.5,
+      "londonLocationCount": 7
+    },
+    {
       "movie_id": "tt1599348",
       "title": "Safe House",
       "year": 2012,
@@ -928,6 +1062,20 @@
       "thumbnail_52": "/images/thumbnails/tt1599348.webp",
       "imdb_rating": 6.484,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0293564",
+      "title": "Rush Hour 3",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0293564.webp",
+      "thumbnail_52": "/images/thumbnails/tt0293564.webp",
+      "imdb_rating": 6.483,
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt2872732",
@@ -957,6 +1105,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0120347",
+      "title": "Tomorrow Never Dies",
+      "year": 1997,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0120347.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120347.webp",
+      "imdb_rating": 6.372,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0465234",
       "title": "National Treasure: Book of Secrets",
       "year": 2007,
@@ -983,6 +1145,34 @@
       "poster": "/images/posters/tt1397280.webp",
       "thumbnail_52": "/images/thumbnails/tt1397280.webp",
       "imdb_rating": 6.365,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1964418",
+      "title": "Tomorrowland",
+      "year": 2015,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1964418.webp",
+      "thumbnail_52": "/images/thumbnails/tt1964418.webp",
+      "imdb_rating": 6.286,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2446042",
+      "title": "Taken 3",
+      "year": 2014,
+      "genres": [
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt2446042.webp",
+      "thumbnail_52": "/images/thumbnails/tt2446042.webp",
+      "imdb_rating": 6.265,
       "londonLocationCount": 1
     },
     {
@@ -1043,6 +1233,20 @@
       "londonLocationCount": 4
     },
     {
+      "movie_id": "tt0181852",
+      "title": "Terminator 3: Rise of the Machines",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0181852.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181852.webp",
+      "imdb_rating": 6.176,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt1190080",
       "title": "2012",
       "year": 2009,
@@ -1083,39 +1287,52 @@
       "thumbnail_52": "/images/thumbnails/tt0949731.webp",
       "imdb_rating": 5.395,
       "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 79,
-    "totalLocations": 288,
+    "totalMovies": 95,
+    "totalLocations": 329,
     "genres": {
-      "Action": 27,
-      "Science Fiction": 14,
-      "Adventure": 18,
-      "Crime": 17,
-      "Drama": 38,
-      "Mystery": 8,
-      "Thriller": 23,
+      "Action": 32,
+      "Science Fiction": 18,
+      "Adventure": 21,
+      "Crime": 19,
+      "Drama": 43,
+      "Mystery": 11,
+      "Thriller": 28,
       "War": 2,
-      "Comedy": 17,
-      "Family": 5,
+      "Comedy": 22,
+      "Family": 6,
       "Animation": 5,
-      "Fantasy": 6,
+      "Fantasy": 7,
       "Romance": 6,
       "Music": 1,
       "Documentary": 1,
-      "Action & Adventure": 6,
-      "Sci-Fi & Fantasy": 2,
-      "Horror": 5,
+      "Action & Adventure": 7,
+      "Sci-Fi & Fantasy": 3,
+      "Horror": 8,
       "History": 1,
       "War & Politics": 2,
-      "Kids": 2
+      "Kids": 2,
+      "Reality": 1
     },
     "decades": {
-      "2010s": 28,
-      "1990s": 9,
-      "2000s": 23,
-      "2020s": 11,
+      "2010s": 31,
+      "1990s": 14,
+      "2000s": 29,
+      "2020s": 13,
       "1950s": 3,
       "1970s": 1,
       "1980s": 4

@@ -1,0 +1,256 @@
+{
+  "location": {
+    "city": "Houston",
+    "country": "United States",
+    "slug": "houston-united-states",
+    "coordinates": {
+      "lat": 29.969530748571422,
+      "lng": -95.26866432857143
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0455275",
+      "title": "Prison Break",
+      "year": 2005,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0455275.webp",
+      "thumbnail_52": "/images/thumbnails/tt0455275.webp",
+      "imdb_rating": 8.078,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3659388",
+      "title": "The Martian",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3659388.webp",
+      "thumbnail_52": "/images/thumbnails/tt3659388.webp",
+      "imdb_rating": 7.69,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0162222",
+      "title": "Cast Away",
+      "year": 2000,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0162222.webp",
+      "thumbnail_52": "/images/thumbnails/tt0162222.webp",
+      "imdb_rating": 7.66,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0112167",
+      "title": "Sliders",
+      "year": 1995,
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt0112167.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112167.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0083437",
+      "title": "Knight Rider",
+      "year": 1982,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0083437.webp",
+      "thumbnail_52": "/images/thumbnails/tt0083437.webp",
+      "imdb_rating": 7.532,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1065073",
+      "title": "Boyhood",
+      "year": 2014,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1065073.webp",
+      "thumbnail_52": "/images/thumbnails/tt1065073.webp",
+      "imdb_rating": 7.493,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0112384",
+      "title": "Apollo 13",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "/images/posters/tt0112384.webp",
+      "thumbnail_52": "/images/thumbnails/tt0112384.webp",
+      "imdb_rating": 7.449,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0128445",
+      "title": "Rushmore",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0128445.webp",
+      "thumbnail_52": "/images/thumbnails/tt0128445.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 13
+    },
+    {
+      "movie_id": "tt15875168",
+      "title": "Mo",
+      "year": 2022,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt15875168.webp",
+      "thumbnail_52": "/images/thumbnails/tt15875168.webp",
+      "imdb_rating": 7.056,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0082340",
+      "title": "Escape from New York",
+      "year": 1981,
+      "genres": [
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0082340.webp",
+      "thumbnail_52": "/images/thumbnails/tt0082340.webp",
+      "imdb_rating": 7.053,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0213149",
+      "title": "Pearl Harbor",
+      "year": 2001,
+      "genres": [
+        "War",
+        "Romance",
+        "History",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0213149.webp",
+      "thumbnail_52": "/images/thumbnails/tt0213149.webp",
+      "imdb_rating": 6.941,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120591",
+      "title": "Armageddon",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120591.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120591.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0478304",
+      "title": "The Tree of Life",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0478304.webp",
+      "thumbnail_52": "/images/thumbnails/tt0478304.webp",
+      "imdb_rating": 6.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0910936",
+      "title": "Pineapple Express",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0910936.webp",
+      "thumbnail_52": "/images/thumbnails/tt0910936.webp",
+      "imdb_rating": 6.643,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1399103",
+      "title": "Transformers: Dark of the Moon",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1399103.webp",
+      "thumbnail_52": "/images/thumbnails/tt1399103.webp",
+      "imdb_rating": 6.219,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 16,
+    "totalLocations": 35,
+    "genres": {
+      "Adventure": 4,
+      "Drama": 9,
+      "Action": 5,
+      "Science Fiction": 4,
+      "Action & Adventure": 3,
+      "Crime": 3,
+      "Thriller": 1,
+      "Comedy": 3,
+      "War": 1,
+      "Romance": 1,
+      "History": 2,
+      "Sci-Fi & Fantasy": 2,
+      "Fantasy": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2000s": 5,
+      "2010s": 4,
+      "1980s": 2,
+      "1990s": 4,
+      "2020s": 1
+    }
+  }
+}

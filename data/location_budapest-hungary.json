@@ -1,0 +1,622 @@
+{
+  "location": {
+    "city": "Budapest",
+    "country": "Hungary",
+    "slug": "budapest-hungary",
+    "coordinates": {
+      "lat": 47.492577309649086,
+      "lng": 19.09099547982458
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2934286",
+      "title": "Halo",
+      "year": 2022,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt2934286.webp",
+      "thumbnail_52": "/images/thumbnails/tt2934286.webp",
+      "imdb_rating": 8.229,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt24053860",
+      "title": "The Day of the Jackal",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt24053860.webp",
+      "thumbnail_52": "/images/thumbnails/tt24053860.webp",
+      "imdb_rating": 8.175,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt15239678",
+      "title": "Dune: Part Two",
+      "year": 2024,
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt15239678.webp",
+      "thumbnail_52": "/images/thumbnails/tt15239678.webp",
+      "imdb_rating": 8.132,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5180504",
+      "title": "The Witcher",
+      "year": 2019,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt5180504.webp",
+      "thumbnail_52": "/images/thumbnails/tt5180504.webp",
+      "imdb_rating": 7.982,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0914798",
+      "title": "The Boy in the Striped Pyjamas",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "poster": "/images/posters/tt0914798.webp",
+      "thumbnail_52": "/images/thumbnails/tt0914798.webp",
+      "imdb_rating": 7.821,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt16311594",
+      "title": "F1",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt16311594.webp",
+      "thumbnail_52": "/images/thumbnails/tt16311594.webp",
+      "imdb_rating": 7.814,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2403776",
+      "title": "Shadow and Bone",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt2403776.webp",
+      "thumbnail_52": "/images/thumbnails/tt2403776.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1160419",
+      "title": "Dune",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1160419.webp",
+      "thumbnail_52": "/images/thumbnails/tt1160419.webp",
+      "imdb_rating": 7.776,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3659388",
+      "title": "The Martian",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3659388.webp",
+      "thumbnail_52": "/images/thumbnails/tt3659388.webp",
+      "imdb_rating": 7.69,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt5057054",
+      "title": "Tom Clancy's Jack Ryan",
+      "year": 2018,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5057054.webp",
+      "thumbnail_52": "/images/thumbnails/tt5057054.webp",
+      "imdb_rating": 7.679,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt14230458",
+      "title": "Poor Things",
+      "year": 2023,
+      "genres": [
+        "Science Fiction",
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt14230458.webp",
+      "thumbnail_52": "/images/thumbnails/tt14230458.webp",
+      "imdb_rating": 7.664,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1856101",
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1856101.webp",
+      "thumbnail_52": "/images/thumbnails/tt1856101.webp",
+      "imdb_rating": 7.586,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1796960",
+      "title": "Homeland",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "War & Politics",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1796960.webp",
+      "thumbnail_52": "/images/thumbnails/tt1796960.webp",
+      "imdb_rating": 7.579,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4604612",
+      "title": "The Alienist",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt4604612.webp",
+      "thumbnail_52": "/images/thumbnails/tt4604612.webp",
+      "imdb_rating": 7.527,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5673782",
+      "title": "Genius",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt5673782.webp",
+      "thumbnail_52": "/images/thumbnails/tt5673782.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6932244",
+      "title": "Hanna",
+      "year": 2019,
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6932244.webp",
+      "thumbnail_52": "/images/thumbnails/tt6932244.webp",
+      "imdb_rating": 7.45,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1492179",
+      "title": "Strike Back",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt1492179.webp",
+      "thumbnail_52": "/images/thumbnails/tt1492179.webp",
+      "imdb_rating": 7.423,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt7520794",
+      "title": "Russian Doll",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7520794.webp",
+      "thumbnail_52": "/images/thumbnails/tt7520794.webp",
+      "imdb_rating": 7.374,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2708480",
+      "title": "The Terror",
+      "year": 2018,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt2708480.webp",
+      "thumbnail_52": "/images/thumbnails/tt2708480.webp",
+      "imdb_rating": 7.33,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt7456722",
+      "title": "Hunters",
+      "year": 2020,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7456722.webp",
+      "thumbnail_52": "/images/thumbnails/tt7456722.webp",
+      "imdb_rating": 7.2,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3480822",
+      "title": "Black Widow",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt3480822.webp",
+      "thumbnail_52": "/images/thumbnails/tt3480822.webp",
+      "imdb_rating": 7.189,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt18412256",
+      "title": "Alien: Romulus",
+      "year": 2024,
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt18412256.webp",
+      "thumbnail_52": "/images/thumbnails/tt18412256.webp",
+      "imdb_rating": 7.173,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt8772262",
+      "title": "Midsommar",
+      "year": 2019,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt8772262.webp",
+      "thumbnail_52": "/images/thumbnails/tt8772262.webp",
+      "imdb_rating": 7.153,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0408306",
+      "title": "Munich",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Action",
+        "History",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0408306.webp",
+      "thumbnail_52": "/images/thumbnails/tt0408306.webp",
+      "imdb_rating": 7.138,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt2296682",
+      "title": "Dracula",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2296682.webp",
+      "thumbnail_52": "/images/thumbnails/tt2296682.webp",
+      "imdb_rating": 7.102,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1229238",
+      "title": "Mission: Impossible - Ghost Protocol",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt1229238.webp",
+      "thumbnail_52": "/images/thumbnails/tt1229238.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4160708",
+      "title": "Don't Breathe",
+      "year": 2016,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt4160708.webp",
+      "thumbnail_52": "/images/thumbnails/tt4160708.webp",
+      "imdb_rating": 7.016,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0320691",
+      "title": "Underworld",
+      "year": 2003,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0320691.webp",
+      "thumbnail_52": "/images/thumbnails/tt0320691.webp",
+      "imdb_rating": 6.838,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt3079380",
+      "title": "Spy",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt3079380.webp",
+      "thumbnail_52": "/images/thumbnails/tt3079380.webp",
+      "imdb_rating": 6.833,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt0816711",
+      "title": "World War Z",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0816711.webp",
+      "thumbnail_52": "/images/thumbnails/tt0816711.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0411477",
+      "title": "Hellboy II: The Golden Army",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0411477.webp",
+      "thumbnail_52": "/images/thumbnails/tt0411477.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0787985",
+      "title": "Robin Hood",
+      "year": 2006,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0787985.webp",
+      "thumbnail_52": "/images/thumbnails/tt0787985.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt11291274",
+      "title": "The Unbearable Weight of Massive Talent",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt11291274.webp",
+      "thumbnail_52": "/images/thumbnails/tt11291274.webp",
+      "imdb_rating": 6.787,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1340800",
+      "title": "Tinker Tailor Soldier Spy",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt1340800.webp",
+      "thumbnail_52": "/images/thumbnails/tt1340800.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0401855",
+      "title": "Underworld: Evolution",
+      "year": 2006,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0401855.webp",
+      "thumbnail_52": "/images/thumbnails/tt0401855.webp",
+      "imdb_rating": 6.599,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2873282",
+      "title": "Red Sparrow",
+      "year": 2018,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2873282.webp",
+      "thumbnail_52": "/images/thumbnails/tt2873282.webp",
+      "imdb_rating": 6.533,
+      "londonLocationCount": 10
+    },
+    {
+      "movie_id": "tt2406566",
+      "title": "Atomic Blonde",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2406566.webp",
+      "thumbnail_52": "/images/thumbnails/tt2406566.webp",
+      "imdb_rating": 6.428,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt6450804",
+      "title": "Terminator: Dark Fate",
+      "year": 2019,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt6450804.webp",
+      "thumbnail_52": "/images/thumbnails/tt6450804.webp",
+      "imdb_rating": 6.415,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt8106534",
+      "title": "6 Underground",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt8106534.webp",
+      "thumbnail_52": "/images/thumbnails/tt8106534.webp",
+      "imdb_rating": 6.34,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3062096",
+      "title": "Inferno",
+      "year": 2016,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt3062096.webp",
+      "thumbnail_52": "/images/thumbnails/tt3062096.webp",
+      "imdb_rating": 6.085,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0385752",
+      "title": "The Golden Compass",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0385752.webp",
+      "thumbnail_52": "/images/thumbnails/tt0385752.webp",
+      "imdb_rating": 6.079,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1606378",
+      "title": "A Good Day to Die Hard",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1606378.webp",
+      "thumbnail_52": "/images/thumbnails/tt1606378.webp",
+      "imdb_rating": 5.335,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt10466872",
+      "title": "Dune: Prophecy",
+      "year": 0,
+      "genres": [],
+      "poster": "/images/posters/tt10466872.webp",
+      "thumbnail_52": "/images/thumbnails/tt10466872.webp",
+      "imdb_rating": 0,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 43,
+    "totalLocations": 114,
+    "genres": {
+      "Science Fiction": 9,
+      "Drama": 21,
+      "Adventure": 8,
+      "Romance": 1,
+      "Comedy": 6,
+      "Action": 15,
+      "Crime": 6,
+      "Thriller": 13,
+      "Horror": 4,
+      "Mystery": 7,
+      "War & Politics": 1,
+      "Sci-Fi & Fantasy": 4,
+      "Action & Adventure": 7,
+      "Fantasy": 4,
+      "War": 1,
+      "History": 2
+    },
+    "decades": {
+      "2010s": 24,
+      "2020s": 11,
+      "2000s": 7,
+      "0s": 1
+    }
+  }
+}

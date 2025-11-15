@@ -17,10 +17,11 @@ export interface GeoPoint {
 export interface Location {
   readonly lat: number;
   readonly lng: number;
-  readonly city: string;
-  readonly country: string;
-  readonly description?: string; // Location description/name
-  readonly scene_description?: string; // NEW: What was filmed here (scene details)
+  readonly display_name?: string; // Full address from reverse geocoding
+  readonly city?: string;
+  readonly country?: string;
+  readonly description?: string; // Location description/name (deprecated - use display_name)
+  readonly scene_description?: string; // What was filmed here (scene details)
 }
 
 /**

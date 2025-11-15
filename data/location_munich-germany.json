@@ -1,0 +1,145 @@
+{
+  "location": {
+    "city": "Munich",
+    "country": "Germany",
+    "slug": "munich-germany",
+    "coordinates": {
+      "lat": 48.138424300000004,
+      "lng": 11.576150007407406
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0050825",
+      "title": "Paths of Glory",
+      "year": 1957,
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0050825.webp",
+      "thumbnail_52": "/images/thumbnails/tt0050825.webp",
+      "imdb_rating": 8.26,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1727824",
+      "title": "Bohemian Rhapsody",
+      "year": 2018,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1727824.webp",
+      "thumbnail_52": "/images/thumbnails/tt1727824.webp",
+      "imdb_rating": 7.964,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0057115",
+      "title": "The Great Escape",
+      "year": 1963,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "War"
+      ],
+      "poster": "/images/posters/tt0057115.webp",
+      "thumbnail_52": "/images/thumbnails/tt0057115.webp",
+      "imdb_rating": 7.94,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363163",
+      "title": "Downfall",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0363163.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363163.webp",
+      "imdb_rating": 7.854,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0076786",
+      "title": "Suspiria",
+      "year": 1977,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0076786.webp",
+      "thumbnail_52": "/images/thumbnails/tt0076786.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0067992",
+      "title": "Willy Wonka & the Chocolate Factory",
+      "year": 1971,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0067992.webp",
+      "thumbnail_52": "/images/thumbnails/tt0067992.webp",
+      "imdb_rating": 7.481,
+      "londonLocationCount": 14
+    },
+    {
+      "movie_id": "tt0396171",
+      "title": "Perfume: The Story of a Murderer",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0396171.webp",
+      "thumbnail_52": "/images/thumbnails/tt0396171.webp",
+      "imdb_rating": 7.365,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8760932",
+      "title": "Nine Perfect Strangers",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt8760932.webp",
+      "thumbnail_52": "/images/thumbnails/tt8760932.webp",
+      "imdb_rating": 6.947,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 8,
+    "totalLocations": 27,
+    "genres": {
+      "Drama": 6,
+      "History": 1,
+      "War": 3,
+      "Family": 1,
+      "Fantasy": 2,
+      "Comedy": 1,
+      "Horror": 1,
+      "Music": 1,
+      "Crime": 1,
+      "Mystery": 1,
+      "Adventure": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "1970s": 2,
+      "2010s": 1,
+      "2020s": 1,
+      "1950s": 1,
+      "1960s": 1
+    }
+  }
+}

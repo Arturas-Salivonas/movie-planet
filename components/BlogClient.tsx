@@ -20,9 +20,9 @@ export default function BlogClient() {
         }
       `}</style>
 
-      <div className="min-h-screen pt-20" style={STYLES.spaceBackground}>
+      <div className="min-h-screen " style={STYLES.spaceBackground}>
         {/* Header */}
-        <header className="bg-white/10 backdrop-blur-sm border-b border-white/20">
+        <header className="pt-20 ">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <Link href="/" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-4 transition-colors">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

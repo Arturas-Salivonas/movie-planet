@@ -233,8 +233,8 @@ const Map = forwardRef<MapRef, MapProps>(({
       )}
 
 
-      <div className="hidden lg:block absolute top-4 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
-        {/* Logo at Top */}
+      {/* <div className="hidden lg:block absolute top-4 left-4 z-10 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+
 
           <img
             src="/images/logo/filmingmap-logo.webp"
@@ -242,7 +242,7 @@ const Map = forwardRef<MapRef, MapProps>(({
             className="h-8"
           />
 
-      </div>
+      </div> */}
 
       {/* Movie Statistics - Top Right (Hidden on Mobile) */}
       {/* <div className="hidden lg:flex absolute top-36 right-4 z-10 gap-3">
@@ -270,11 +270,12 @@ const Map = forwardRef<MapRef, MapProps>(({
         </div>
       </div> */}
 
-            <div className="select-none hidden mt-4 lg:block z-10 absolute top-16 left-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
+            <div className="select-none hidden mt-4 lg:block z-10 absolute top-0 left-4 bg-black/70 backdrop-blur-sm text-white px-4 py-3 rounded-lg shadow-xl border border-white/10 max-w-xs">
 
 
    {/* Instructions - Left Side (Hidden on Mobile) */}
-   <p className='text-xs text-gray-300'>Interactive globe that lets you discover filming locations from over <span className='font-bold italic'>2647+</span> movie &  TV shows.
+    <p className='inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-accent-100 dark:bg-accent-900/40 text-accent-800 dark:text-accent-300 text-[10px] lg:text-xs hover:bg-accent-200 dark:hover:bg-accent-900/60 transition-colors font-semibold border lg:border-2 border-accent-400 dark:border-accent-600 shadow-md lg:shadow-lg shadow-accent-200/50 dark:shadow-accent-500/20'>Alpha v0.17</p>
+   <p className='text-xs text-gray-300 mt-2'>Interactive globe that lets you discover filming locations from over <span className='font-bold italic'>2647+</span> movie &  TV shows.
 </p>
 {/* <p className='text-xs text-gray-300 space-y-1 mt-3'>  Use the 🔍 search or filters to find your favorites, 🗺️ click on markers to learn more about each location, and 🌐 rotate or zoom the globe to explore cinematic landscapes around the world.</p> */}
         <h3 className="text-sm font-bold mb-2 mt-2 flex items-center gap-2">
@@ -286,7 +287,7 @@ const Map = forwardRef<MapRef, MapProps>(({
           <li>🌐 Rotate or zoom the globe to explore locations</li>
 
         </ul>
-        <p className='inline-flex items-center gap-0.5 lg:gap-1 px-1.5 lg:px-2 py-0.5 lg:py-1 bg-accent-900 text-accent-800 dark:text-accent-300 text-[10px] lg:text-xs transition-colors font-semibold  shadow-md lg:shadow-lg shadow-accent-200/50 dark:shadow-accent-500/20'>Alpha v0.15</p>
+
              {/* <p className="text-xl font-bold">
                movies {movies.filter(m => m.type !== 'tv').length}
               </p>

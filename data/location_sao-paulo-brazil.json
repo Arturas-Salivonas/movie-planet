@@ -1,0 +1,93 @@
+{
+  "location": {
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "slug": "sao-paulo-brazil",
+    "coordinates": {
+      "lat": -23.5506507,
+      "lng": -46.6333824
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt2085059",
+      "title": "Black Mirror",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt2085059.webp",
+      "thumbnail_52": "/images/thumbnails/tt2085059.webp",
+      "imdb_rating": 8.285,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4922804",
+      "title": "3%",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt4922804.webp",
+      "thumbnail_52": "/images/thumbnails/tt4922804.webp",
+      "imdb_rating": 7.115,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6873658",
+      "title": "The Mechanism",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6873658.webp",
+      "thumbnail_52": "/images/thumbnails/tt6873658.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 5,
+    "genres": {
+      "Sci-Fi & Fantasy": 3,
+      "Drama": 4,
+      "Mystery": 1,
+      "Crime": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2010s": 4,
+      "2000s": 1
+    }
+  }
+}

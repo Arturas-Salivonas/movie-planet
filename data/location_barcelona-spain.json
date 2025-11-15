@@ -4,11 +4,25 @@
     "country": "Spain",
     "slug": "barcelona-spain",
     "coordinates": {
-      "lat": 41.38914902083334,
-      "lng": 2.170429779166667
+      "lat": 41.428965231578935,
+      "lng": 2.1571100131578946
     }
   },
   "movies": [
+    {
+      "movie_id": "tt0944947",
+      "title": "Game of Thrones",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0944947.webp",
+      "thumbnail_52": "/images/thumbnails/tt0944947.webp",
+      "imdb_rating": 8.458,
+      "londonLocationCount": 1
+    },
     {
       "movie_id": "tt4786824",
       "title": "The Crown",
@@ -20,6 +34,20 @@
       "thumbnail_52": "/images/thumbnails/tt4786824.webp",
       "imdb_rating": 8.197,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4857264",
+      "title": "The Invisible Guest",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt4857264.webp",
+      "thumbnail_52": "/images/thumbnails/tt4857264.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt7016936",
@@ -59,7 +87,7 @@
       "poster": "/images/posters/tt0361862.webp",
       "thumbnail_52": "/images/thumbnails/tt0361862.webp",
       "imdb_rating": 7.526,
-      "londonLocationCount": 2
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0258463",
@@ -131,6 +159,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0241303",
+      "title": "Chocolat",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0241303.webp",
+      "thumbnail_52": "/images/thumbnails/tt0241303.webp",
+      "imdb_rating": 6.97,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt2316411",
       "title": "Enemy",
       "year": 2014,
@@ -167,7 +209,7 @@
       "poster": "/images/posters/tt0497465.webp",
       "thumbnail_52": "/images/thumbnails/tt0497465.webp",
       "imdb_rating": 6.794,
-      "londonLocationCount": 9
+      "londonLocationCount": 10
     },
     {
       "movie_id": "tt2023587",
@@ -179,7 +221,7 @@
       "poster": "/images/posters/tt2023587.webp",
       "thumbnail_52": "/images/thumbnails/tt2023587.webp",
       "imdb_rating": 6.284,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1645170",
@@ -207,26 +249,27 @@
     }
   ],
   "stats": {
-    "totalMovies": 15,
-    "totalLocations": 24,
+    "totalMovies": 18,
+    "totalLocations": 38,
     "genres": {
-      "Drama": 9,
+      "Sci-Fi & Fantasy": 1,
+      "Drama": 12,
+      "Action & Adventure": 2,
       "Action": 2,
-      "Mystery": 4,
-      "Thriller": 4,
+      "Mystery": 5,
+      "Thriller": 5,
       "Crime": 3,
-      "Comedy": 1,
+      "Comedy": 2,
       "Adventure": 1,
-      "Romance": 1,
+      "Romance": 2,
       "Fantasy": 1,
       "History": 1,
-      "Action & Adventure": 1,
       "Horror": 2,
       "Reality": 1
     },
     "decades": {
-      "2010s": 8,
-      "2000s": 6,
+      "2010s": 10,
+      "2000s": 7,
       "2020s": 1
     }
   }

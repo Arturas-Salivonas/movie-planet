@@ -1,0 +1,66 @@
+{
+  "location": {
+    "city": "Cologne",
+    "country": "Germany",
+    "slug": "cologne-germany",
+    "coordinates": {
+      "lat": 50.94819156,
+      "lng": 6.9472425
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0211915",
+      "title": "Amélie",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0211915.webp",
+      "thumbnail_52": "/images/thumbnails/tt0211915.webp",
+      "imdb_rating": 7.913,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1979320",
+      "title": "Rush",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1979320.webp",
+      "thumbnail_52": "/images/thumbnails/tt1979320.webp",
+      "imdb_rating": 7.727,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0976051",
+      "title": "The Reader",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0976051.webp",
+      "thumbnail_52": "/images/thumbnails/tt0976051.webp",
+      "imdb_rating": 7.471,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 5,
+    "genres": {
+      "Drama": 2,
+      "Action": 1,
+      "Romance": 2,
+      "Comedy": 1
+    },
+    "decades": {
+      "2010s": 1,
+      "2000s": 2
+    }
+  }
+}

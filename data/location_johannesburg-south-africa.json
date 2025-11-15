@@ -4,8 +4,8 @@
     "country": "South Africa",
     "slug": "johannesburg-south-africa",
     "coordinates": {
-      "lat": -26.205718327272724,
-      "lng": 28.03711217272727
+      "lat": -26.202500079999993,
+      "lng": 28.048032029999995
     }
   },
   "movies": [
@@ -74,12 +74,12 @@
       "poster": "/images/posters/tt1823672.webp",
       "thumbnail_52": "/images/thumbnails/tt1823672.webp",
       "imdb_rating": 6.783,
-      "londonLocationCount": 6
+      "londonLocationCount": 5
     }
   ],
   "stats": {
     "totalMovies": 5,
-    "totalLocations": 11,
+    "totalLocations": 10,
     "genres": {
       "Drama": 1,
       "History": 1,

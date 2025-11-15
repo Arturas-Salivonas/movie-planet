@@ -4,8 +4,8 @@
     "country": "India",
     "slug": "delhi-india",
     "coordinates": {
-      "lat": 28.62654066666667,
-      "lng": 77.21519920000003
+      "lat": 28.62654066666666,
+      "lng": 77.2151992
     }
   },
   "movies": [
@@ -20,7 +20,7 @@
       "poster": "/images/posters/tt1187043.webp",
       "thumbnail_52": "/images/thumbnails/tt1187043.webp",
       "imdb_rating": 7.996,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9398466",
@@ -32,7 +32,7 @@
       "poster": "/images/posters/tt9398466.webp",
       "thumbnail_52": "/images/thumbnails/tt9398466.webp",
       "imdb_rating": 7.9,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt5074352",
@@ -73,7 +73,7 @@
       "poster": "/images/posters/tt0083987.webp",
       "thumbnail_52": "/images/thumbnails/tt0083987.webp",
       "imdb_rating": 7.555,
-      "londonLocationCount": 5
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt0405508",
@@ -88,7 +88,7 @@
       "poster": "/images/posters/tt0405508.webp",
       "thumbnail_52": "/images/thumbnails/tt0405508.webp",
       "imdb_rating": 7.106,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0120591",
@@ -108,7 +108,7 @@
   ],
   "stats": {
     "totalMovies": 7,
-    "totalLocations": 13,
+    "totalLocations": 21,
     "genres": {
       "Comedy": 4,
       "Drama": 5,

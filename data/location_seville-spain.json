@@ -1,0 +1,187 @@
+{
+  "location": {
+    "city": "Seville",
+    "country": "Spain",
+    "slug": "seville-spain",
+    "coordinates": {
+      "lat": 37.38267554545455,
+      "lng": -5.966911375757577
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0944947",
+      "title": "Game of Thrones",
+      "year": 2011,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt0944947.webp",
+      "thumbnail_52": "/images/thumbnails/tt0944947.webp",
+      "imdb_rating": 8.458,
+      "londonLocationCount": 5
+    },
+    {
+      "movie_id": "tt0056172",
+      "title": "Lawrence of Arabia",
+      "year": 1962,
+      "genres": [
+        "Adventure",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0056172.webp",
+      "thumbnail_52": "/images/thumbnails/tt0056172.webp",
+      "imdb_rating": 8,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt9059350",
+      "title": "Warrior Nun",
+      "year": 2020,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt9059350.webp",
+      "thumbnail_52": "/images/thumbnails/tt9059350.webp",
+      "imdb_rating": 7.962,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1856101",
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1856101.webp",
+      "thumbnail_52": "/images/thumbnails/tt1856101.webp",
+      "imdb_rating": 7.586,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt16288804",
+      "title": "Berlin",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt16288804.webp",
+      "thumbnail_52": "/images/thumbnails/tt16288804.webp",
+      "imdb_rating": 7.569,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8550732",
+      "title": "KAOS",
+      "year": 2024,
+      "genres": [
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt8550732.webp",
+      "thumbnail_52": "/images/thumbnails/tt8550732.webp",
+      "imdb_rating": 7.225,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0320661",
+      "title": "Kingdom of Heaven",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Action",
+        "Adventure",
+        "History",
+        "War"
+      ],
+      "poster": "/images/posters/tt0320661.webp",
+      "thumbnail_52": "/images/thumbnails/tt0320661.webp",
+      "imdb_rating": 7.001,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt0121765",
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0121765.webp",
+      "thumbnail_52": "/images/thumbnails/tt0121765.webp",
+      "imdb_rating": 6.586,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1013743",
+      "title": "Knight and Day",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1013743.webp",
+      "thumbnail_52": "/images/thumbnails/tt1013743.webp",
+      "imdb_rating": 6.225,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt1645170",
+      "title": "The Dictator",
+      "year": 2012,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1645170.webp",
+      "thumbnail_52": "/images/thumbnails/tt1645170.webp",
+      "imdb_rating": 6.212,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt2094766",
+      "title": "Assassin's Creed",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt2094766.webp",
+      "thumbnail_52": "/images/thumbnails/tt2094766.webp",
+      "imdb_rating": 5.428,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 11,
+    "totalLocations": 33,
+    "genres": {
+      "Sci-Fi & Fantasy": 3,
+      "Drama": 6,
+      "Action & Adventure": 3,
+      "Science Fiction": 3,
+      "Adventure": 4,
+      "Action": 4,
+      "Comedy": 3,
+      "History": 2,
+      "War": 2,
+      "Crime": 1
+    },
+    "decades": {
+      "2010s": 5,
+      "2000s": 2,
+      "2020s": 3,
+      "1960s": 1
+    }
+  }
+}

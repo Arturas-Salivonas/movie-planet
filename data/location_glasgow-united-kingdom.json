@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "glasgow-united-kingdom",
     "coordinates": {
-      "lat": 55.8647542057143,
-      "lng": -4.258552445714287
+      "lat": 55.8637597888889,
+      "lng": -4.266846622222223
     }
   },
   "movies": [
@@ -32,7 +32,7 @@
       "poster": "/images/posters/tt3006802.webp",
       "thumbnail_52": "/images/thumbnails/tt3006802.webp",
       "imdb_rating": 8.187,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt8579674",
@@ -60,7 +60,7 @@
       "poster": "/images/posters/tt0117951.webp",
       "thumbnail_52": "/images/thumbnails/tt0117951.webp",
       "imdb_rating": 7.96,
-      "londonLocationCount": 12
+      "londonLocationCount": 13
     },
     {
       "movie_id": "tt1877830",
@@ -87,6 +87,20 @@
       "poster": "/images/posters/tt11846996.webp",
       "thumbnail_52": "/images/thumbnails/tt11846996.webp",
       "imdb_rating": 7.158,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt10893694",
+      "title": "The Irregulars",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt10893694.webp",
+      "thumbnail_52": "/images/thumbnails/tt10893694.webp",
+      "imdb_rating": 7.145,
       "londonLocationCount": 1
     },
     {
@@ -128,7 +142,7 @@
       "poster": "/images/posters/tt1905041.webp",
       "thumbnail_52": "/images/thumbnails/tt1905041.webp",
       "imdb_rating": 6.818,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0816711",
@@ -174,24 +188,24 @@
     }
   ],
   "stats": {
-    "totalMovies": 12,
-    "totalLocations": 34,
+    "totalMovies": 13,
+    "totalLocations": 36,
     "genres": {
       "Crime": 4,
-      "Mystery": 1,
+      "Mystery": 2,
       "Thriller": 3,
       "Comedy": 2,
       "War": 1,
       "History": 1,
-      "Drama": 6,
+      "Drama": 7,
       "Action": 6,
       "Horror": 1,
       "Science Fiction": 3,
-      "Sci-Fi & Fantasy": 1,
+      "Sci-Fi & Fantasy": 2,
       "Adventure": 2
     },
     "decades": {
-      "2020s": 4,
+      "2020s": 5,
       "2000s": 1,
       "2010s": 6,
       "1990s": 1

@@ -1,0 +1,273 @@
+{
+  "location": {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "slug": "mexico-city-mexico",
+    "coordinates": {
+      "lat": 19.40832202352942,
+      "lng": -99.14259376666674
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0229889",
+      "title": "El Chavo del Ocho",
+      "year": 1973,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0229889.webp",
+      "thumbnail_52": "/images/thumbnails/tt0229889.webp",
+      "imdb_rating": 8.016,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt16311594",
+      "title": "F1",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt16311594.webp",
+      "thumbnail_52": "/images/thumbnails/tt16311594.webp",
+      "imdb_rating": 7.814,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6964748",
+      "title": "Alex Rider",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "poster": "/images/posters/tt6964748.webp",
+      "thumbnail_52": "/images/thumbnails/tt6964748.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0245712",
+      "title": "Amores Perros",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0245712.webp",
+      "thumbnail_52": "/images/thumbnails/tt0245712.webp",
+      "imdb_rating": 7.629,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0054047",
+      "title": "The Magnificent Seven",
+      "year": 1960,
+      "genres": [
+        "Western",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0054047.webp",
+      "thumbnail_52": "/images/thumbnails/tt0054047.webp",
+      "imdb_rating": 7.505,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0328107",
+      "title": "Man on Fire",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0328107.webp",
+      "thumbnail_52": "/images/thumbnails/tt0328107.webp",
+      "imdb_rating": 7.456,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0100802",
+      "title": "Total Recall",
+      "year": 1990,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0100802.webp",
+      "thumbnail_52": "/images/thumbnails/tt0100802.webp",
+      "imdb_rating": 7.313,
+      "londonLocationCount": 9
+    },
+    {
+      "movie_id": "tt0437086",
+      "title": "Alita: Battle Angel",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0437086.webp",
+      "thumbnail_52": "/images/thumbnails/tt0437086.webp",
+      "imdb_rating": 7.243,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0181865",
+      "title": "Traffic",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0181865.webp",
+      "thumbnail_52": "/images/thumbnails/tt0181865.webp",
+      "imdb_rating": 7.08,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0117509",
+      "title": "Romeo + Juliet",
+      "year": 1996,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0117509.webp",
+      "thumbnail_52": "/images/thumbnails/tt0117509.webp",
+      "imdb_rating": 6.8,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt3741700",
+      "title": "Godzilla: King of the Monsters",
+      "year": 2019,
+      "genres": [
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "/images/posters/tt3741700.webp",
+      "thumbnail_52": "/images/thumbnails/tt3741700.webp",
+      "imdb_rating": 6.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120746",
+      "title": "The Mask of Zorro",
+      "year": 1998,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0120746.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120746.webp",
+      "imdb_rating": 6.574,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2379713",
+      "title": "Spectre",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt2379713.webp",
+      "thumbnail_52": "/images/thumbnails/tt2379713.webp",
+      "imdb_rating": 6.564,
+      "londonLocationCount": 13
+    },
+    {
+      "movie_id": "tt1535108",
+      "title": "Elysium",
+      "year": 2013,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1535108.webp",
+      "thumbnail_52": "/images/thumbnails/tt1535108.webp",
+      "imdb_rating": 6.512,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0432021",
+      "title": "Resident Evil: Extinction",
+      "year": 2007,
+      "genres": [
+        "Horror",
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0432021.webp",
+      "thumbnail_52": "/images/thumbnails/tt0432021.webp",
+      "imdb_rating": 6.306,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0087182",
+      "title": "Dune",
+      "year": 1984,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0087182.webp",
+      "thumbnail_52": "/images/thumbnails/tt0087182.webp",
+      "imdb_rating": 6.169,
+      "londonLocationCount": 4
+    }
+  ],
+  "stats": {
+    "totalMovies": 17,
+    "totalLocations": 51,
+    "genres": {
+      "Drama": 9,
+      "Thriller": 5,
+      "Western": 1,
+      "Action": 11,
+      "Adventure": 6,
+      "Science Fiction": 6,
+      "Comedy": 1,
+      "Family": 1,
+      "Sci-Fi & Fantasy": 1,
+      "Romance": 1,
+      "Crime": 1,
+      "Horror": 1,
+      "Action & Adventure": 1
+    },
+    "decades": {
+      "2000s": 4,
+      "1960s": 1,
+      "1990s": 3,
+      "1970s": 1,
+      "2010s": 5,
+      "2020s": 2,
+      "1980s": 1
+    }
+  }
+}

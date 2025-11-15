@@ -4,8 +4,8 @@
     "country": "Canada",
     "slug": "vancouver-canada",
     "coordinates": {
-      "lat": 49.272959818134616,
-      "lng": -123.11306035673556
+      "lat": 49.224078173816125,
+      "lng": -123.10420290167117
     }
   },
   "movies": [
@@ -85,7 +85,7 @@
       "poster": "/images/posters/tt5420376.webp",
       "thumbnail_52": "/images/thumbnails/tt5420376.webp",
       "imdb_rating": 8.42,
-      "londonLocationCount": 7
+      "londonLocationCount": 6
     },
     {
       "movie_id": "tt0106179",
@@ -278,7 +278,7 @@
       "poster": "/images/posters/tt2543472.webp",
       "thumbnail_52": "/images/thumbnails/tt2543472.webp",
       "imdb_rating": 8.112,
-      "londonLocationCount": 4
+      "londonLocationCount": 5
     },
     {
       "movie_id": "tt11192306",
@@ -320,20 +320,6 @@
       "thumbnail_52": "/images/thumbnails/tt0455275.webp",
       "imdb_rating": 8.078,
       "londonLocationCount": 1
-    },
-    {
-      "movie_id": "tt2188671",
-      "title": "Bates Motel",
-      "year": 2013,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "poster": "/images/posters/tt2188671.webp",
-      "thumbnail_52": "/images/thumbnails/tt2188671.webp",
-      "imdb_rating": 8.061,
-      "londonLocationCount": 0
     },
     {
       "movie_id": "tt22091076",
@@ -414,7 +400,7 @@
       "poster": "/images/posters/tt9900092.webp",
       "thumbnail_52": "/images/thumbnails/tt9900092.webp",
       "imdb_rating": 7.919,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0120338",
@@ -524,7 +510,7 @@
       "poster": "/images/posters/tt7826376.webp",
       "thumbnail_52": "/images/thumbnails/tt7826376.webp",
       "imdb_rating": 7.8,
-      "londonLocationCount": 3
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt9018736",
@@ -637,6 +623,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1091909",
+      "title": "Murdoch Mysteries",
+      "year": 2008,
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1091909.webp",
+      "thumbnail_52": "/images/thumbnails/tt1091909.webp",
+      "imdb_rating": 7.703,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt2261227",
       "title": "Altered Carbon",
       "year": 2018,
@@ -689,7 +688,7 @@
       "poster": "/images/posters/tt8295472.webp",
       "thumbnail_52": "/images/thumbnails/tt8295472.webp",
       "imdb_rating": 7.645,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt3743822",
@@ -796,7 +795,7 @@
       "poster": "/images/posters/tt0112167.webp",
       "thumbnail_52": "/images/thumbnails/tt0112167.webp",
       "imdb_rating": 7.6,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt6263850",
@@ -891,21 +890,6 @@
       "thumbnail_52": "/images/thumbnails/tt5232792.webp",
       "imdb_rating": 7.5,
       "londonLocationCount": 1
-    },
-    {
-      "movie_id": "tt0083944",
-      "title": "First Blood",
-      "year": 1982,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller",
-        "War"
-      ],
-      "poster": "/images/posters/tt0083944.webp",
-      "thumbnail_52": "/images/thumbnails/tt0083944.webp",
-      "imdb_rating": 7.496,
-      "londonLocationCount": 0
     },
     {
       "movie_id": "tt13875494",
@@ -1087,7 +1071,7 @@
       "poster": "/images/posters/tt0110322.webp",
       "thumbnail_52": "/images/thumbnails/tt0110322.webp",
       "imdb_rating": 7.384,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0103442",
@@ -1226,7 +1210,7 @@
       "poster": "/images/posters/tt5957766.webp",
       "thumbnail_52": "/images/thumbnails/tt5957766.webp",
       "imdb_rating": 7.322,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0364817",
@@ -1240,6 +1224,19 @@
       "poster": "/images/posters/tt0364817.webp",
       "thumbnail_52": "/images/thumbnails/tt0364817.webp",
       "imdb_rating": 7.306,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0087469",
+      "title": "Indiana Jones and the Temple of Doom",
+      "year": 1984,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt0087469.webp",
+      "thumbnail_52": "/images/thumbnails/tt0087469.webp",
+      "imdb_rating": 7.302,
       "londonLocationCount": 1
     },
     {
@@ -1319,7 +1316,7 @@
       "poster": "/images/posters/tt7608248.webp",
       "thumbnail_52": "/images/thumbnails/tt7608248.webp",
       "imdb_rating": 7.259,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt0887912",
@@ -1364,19 +1361,6 @@
       "londonLocationCount": 1
     },
     {
-      "movie_id": "tt0965394",
-      "title": "Sanctuary",
-      "year": 2008,
-      "genres": [
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
-      ],
-      "poster": "/images/posters/tt0965394.webp",
-      "thumbnail_52": "/images/thumbnails/tt0965394.webp",
-      "imdb_rating": 7.247,
-      "londonLocationCount": 0
-    },
-    {
       "movie_id": "tt0113497",
       "title": "Jumanji",
       "year": 1995,
@@ -1415,7 +1399,7 @@
       "poster": "/images/posters/tt1439741.webp",
       "thumbnail_52": "/images/thumbnails/tt1439741.webp",
       "imdb_rating": 7.226,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3450958",
@@ -1470,7 +1454,7 @@
       "poster": "/images/posters/tt6394324.webp",
       "thumbnail_52": "/images/thumbnails/tt6394324.webp",
       "imdb_rating": 7.2,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt4181172",
@@ -1664,19 +1648,6 @@
       "londonLocationCount": 1
     },
     {
-      "movie_id": "tt1232320",
-      "title": "Harper's Island",
-      "year": 2009,
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "poster": "/images/posters/tt1232320.webp",
-      "thumbnail_52": "/images/thumbnails/tt1232320.webp",
-      "imdb_rating": 7,
-      "londonLocationCount": 1
-    },
-    {
       "movie_id": "tt5197820",
       "title": "Van Helsing",
       "year": 2016,
@@ -1821,7 +1792,7 @@
       "poster": "/images/posters/tt0454945.webp",
       "thumbnail_52": "/images/thumbnails/tt0454945.webp",
       "imdb_rating": 6.819,
-      "londonLocationCount": 1
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0120611",
@@ -1914,7 +1885,7 @@
       "poster": "/images/posters/tt4477536.webp",
       "thumbnail_52": "/images/thumbnails/tt4477536.webp",
       "imdb_rating": 6.683,
-      "londonLocationCount": 2
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt0116483",
@@ -2233,20 +2204,6 @@
       "londonLocationCount": 1
     },
     {
-      "movie_id": "tt0112281",
-      "title": "Ace Ventura: When Nature Calls",
-      "year": 1995,
-      "genres": [
-        "Crime",
-        "Comedy",
-        "Adventure"
-      ],
-      "poster": "/images/posters/tt0112281.webp",
-      "thumbnail_52": "/images/thumbnails/tt0112281.webp",
-      "imdb_rating": 6.3,
-      "londonLocationCount": 0
-    },
-    {
       "movie_id": "tt0309593",
       "title": "Final Destination 2",
       "year": 2003,
@@ -2272,7 +2229,21 @@
       "poster": "/images/posters/tt1964418.webp",
       "thumbnail_52": "/images/thumbnails/tt1964418.webp",
       "imdb_rating": 6.286,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1099212",
+      "title": "Twilight",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1099212.webp",
+      "thumbnail_52": "/images/thumbnails/tt1099212.webp",
+      "imdb_rating": 6.285,
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt3691740",
@@ -2498,7 +2469,7 @@
       "poster": "/images/posters/tt0359013.webp",
       "thumbnail_52": "/images/thumbnails/tt0359013.webp",
       "imdb_rating": 5.862,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0120667",
@@ -2527,52 +2498,38 @@
       "thumbnail_52": "/images/thumbnails/tt0486576.webp",
       "imdb_rating": 5.625,
       "londonLocationCount": 1
-    },
-    {
-      "movie_id": "tt1502712",
-      "title": "Fantastic Four",
-      "year": 2015,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "poster": "/images/posters/tt1502712.webp",
-      "thumbnail_52": "/images/thumbnails/tt1502712.webp",
-      "imdb_rating": 4.431,
-      "londonLocationCount": 0
     }
   ],
   "stats": {
-    "totalMovies": 185,
-    "totalLocations": 343,
+    "totalMovies": 182,
+    "totalLocations": 359,
     "genres": {
       "Drama": 121,
-      "Romance": 12,
-      "Comedy": 33,
+      "Romance": 13,
+      "Comedy": 32,
       "Family": 12,
-      "Fantasy": 17,
-      "Action": 42,
-      "Adventure": 30,
-      "Science Fiction": 29,
-      "Thriller": 18,
-      "Sci-Fi & Fantasy": 68,
-      "Action & Adventure": 38,
-      "Mystery": 32,
-      "Crime": 26,
+      "Fantasy": 18,
+      "Action": 41,
+      "Adventure": 28,
+      "Science Fiction": 28,
+      "Thriller": 17,
+      "Sci-Fi & Fantasy": 67,
+      "Action & Adventure": 37,
+      "Mystery": 31,
+      "Crime": 24,
       "Horror": 7,
       "War & Politics": 2,
-      "War": 4,
+      "War": 3,
       "Animation": 2,
       "Kids": 3,
       "Soap": 1,
       "Western": 1
     },
     "decades": {
-      "1990s": 11,
+      "1990s": 10,
       "2000s": 50,
       "2020s": 34,
-      "2010s": 86,
+      "2010s": 84,
       "1980s": 4
     }
   }

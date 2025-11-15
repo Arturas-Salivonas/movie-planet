@@ -1,0 +1,150 @@
+{
+  "location": {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "slug": "amsterdam-netherlands",
+    "coordinates": {
+      "lat": 52.36744489090909,
+      "lng": 4.889707604545453
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt7016936",
+      "title": "Killing Eve",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt7016936.webp",
+      "thumbnail_52": "/images/thumbnails/tt7016936.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2431438",
+      "title": "Sense8",
+      "year": 2015,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2431438.webp",
+      "thumbnail_52": "/images/thumbnails/tt2431438.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2582846",
+      "title": "The Fault in Our Stars",
+      "year": 2014,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2582846.webp",
+      "thumbnail_52": "/images/thumbnails/tt2582846.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0375912",
+      "title": "Layer Cake",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0375912.webp",
+      "thumbnail_52": "/images/thumbnails/tt0375912.webp",
+      "imdb_rating": 6.912,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1959563",
+      "title": "The Hitman's Bodyguard",
+      "year": 2017,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1959563.webp",
+      "thumbnail_52": "/images/thumbnails/tt1959563.webp",
+      "imdb_rating": 6.89,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0172156",
+      "title": "Bad Boys II",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Crime",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0172156.webp",
+      "thumbnail_52": "/images/thumbnails/tt0172156.webp",
+      "imdb_rating": 6.654,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0349903",
+      "title": "Ocean's Twelve",
+      "year": 2004,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0349903.webp",
+      "thumbnail_52": "/images/thumbnails/tt0349903.webp",
+      "imdb_rating": 6.6,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 9,
+    "totalLocations": 22,
+    "genres": {
+      "Sci-Fi & Fantasy": 1,
+      "Drama": 4,
+      "Crime": 5,
+      "Thriller": 3,
+      "Romance": 1,
+      "Action": 2,
+      "Comedy": 3,
+      "Reality": 1
+    },
+    "decades": {
+      "2010s": 4,
+      "2000s": 5
+    }
+  }
+}

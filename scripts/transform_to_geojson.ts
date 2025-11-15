@@ -31,9 +31,10 @@ interface EnrichedMovie {
   locations: Array<{
     lat: number
     lng: number
-    city: string
-    country: string
-    description: string
+    display_name?: string
+    city?: string
+    country?: string
+    description?: string
     scene_description?: string
     start_date?: string
     end_date?: string
@@ -64,6 +65,15 @@ interface GeoJSONFeature {
     locations_count: number
     location_names: string[]
     scene_descriptions?: (string | null)[]
+    locations?: Array<{
+      lat: number
+      lng: number
+      display_name?: string
+      city?: string
+      country?: string
+      description?: string
+      scene_description?: string
+    }>
     has_timeline: boolean
     centroid?: [number, number]
   }
@@ -189,9 +199,13 @@ function transformMovieToFeature(movie: EnrichedMovie): GeoJSONFeature | null {
   }
 
   const coordinates = movie.locations.map((loc) => [loc.lng, loc.lat])
-  const locationNames = movie.locations.map((loc) =>
-    `${loc.city}, ${loc.country}${loc.description ? ` (${loc.description})` : ''}`
-  )
+  const locationNames = movie.locations.map((loc) => {
+    // Use display_name if available, otherwise fall back to city/country
+    if (loc.display_name) {
+      return loc.display_name
+    }
+    return `${loc.city}, ${loc.country}${loc.description ? ` (${loc.description})` : ''}`
+  })
   const sceneDescriptions = movie.locations.map((loc) => loc.scene_description || null)
 
   let geometry: GeoJSONFeature['geometry']
@@ -233,6 +247,7 @@ function transformMovieToFeature(movie: EnrichedMovie): GeoJSONFeature | null {
       locations_count: movie.locations.length,
       location_names: locationNames,
       scene_descriptions: sceneDescriptions,
+      locations: movie.locations, // Include full locations array with display_name
       has_timeline: hasTimeline(movie.locations),
       centroid,
     },

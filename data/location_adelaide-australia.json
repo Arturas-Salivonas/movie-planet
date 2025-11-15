@@ -4,8 +4,8 @@
     "country": "Australia",
     "slug": "adelaide-australia",
     "coordinates": {
-      "lat": -34.91659550000001,
-      "lng": 138.59762854545454
+      "lat": -34.92188365666667,
+      "lng": 138.60223733666663
     }
   },
   "movies": [
@@ -19,7 +19,7 @@
       "poster": "/images/posters/tt10638522.webp",
       "thumbnail_52": "/images/thumbnails/tt10638522.webp",
       "imdb_rating": 7.142,
-      "londonLocationCount": 3
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt0293429",
@@ -33,7 +33,7 @@
       "poster": "/images/posters/tt0293429.webp",
       "thumbnail_52": "/images/thumbnails/tt0293429.webp",
       "imdb_rating": 7.004,
-      "londonLocationCount": 2
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0134847",
@@ -73,7 +73,7 @@
       "poster": "/images/posters/tt2321549.webp",
       "thumbnail_52": "/images/thumbnails/tt2321549.webp",
       "imdb_rating": 6.527,
-      "londonLocationCount": 12
+      "londonLocationCount": 13
     },
     {
       "movie_id": "tt0098141",
@@ -93,7 +93,7 @@
   ],
   "stats": {
     "totalMovies": 6,
-    "totalLocations": 22,
+    "totalLocations": 30,
     "genres": {
       "Action": 3,
       "Crime": 1,

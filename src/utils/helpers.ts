@@ -40,7 +40,28 @@ export const getUniqueStreamingPlatforms = (movies: readonly Movie[]): string[] 
 export const getUniqueCountries = (movies: readonly Movie[]): string[] => {
   const countriesSet = new Set<string>()
   movies.forEach(movie => {
-    movie.locations.forEach(loc => countriesSet.add(loc.country))
+    movie.locations.forEach(loc => {
+      // Try country field first, then extract from display_name or description
+      let country = loc.country
+
+      if (!country && loc.display_name) {
+        const parts = loc.display_name.split(',')
+        if (parts.length > 0) {
+          country = parts[parts.length - 1].trim()
+        }
+      }
+
+      if (!country && loc.description) {
+        const parts = loc.description.split(',')
+        if (parts.length > 0) {
+          country = parts[parts.length - 1].trim()
+        }
+      }
+
+      if (country) {
+        countriesSet.add(country)
+      }
+    })
   })
   return Array.from(countriesSet).sort()
 }

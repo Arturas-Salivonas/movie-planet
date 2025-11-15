@@ -1,0 +1,67 @@
+{
+  "location": {
+    "city": "Milan",
+    "country": "Italy",
+    "slug": "milan-italy",
+    "coordinates": {
+      "lat": 42.03260733333334,
+      "lng": -29.8368725
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt16294384",
+      "title": "Disclaimer",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt16294384.webp",
+      "thumbnail_52": "/images/thumbnails/tt16294384.webp",
+      "imdb_rating": 7.399,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0315733",
+      "title": "21 Grams",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0315733.webp",
+      "thumbnail_52": "/images/thumbnails/tt0315733.webp",
+      "imdb_rating": 7.324,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0363307",
+      "title": "America's Next Top Model",
+      "year": 2003,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0363307.webp",
+      "thumbnail_52": "/images/thumbnails/tt0363307.webp",
+      "imdb_rating": 5.261,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 3,
+    "totalLocations": 3,
+    "genres": {
+      "Drama": 2,
+      "Crime": 1,
+      "Thriller": 1,
+      "Mystery": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "2020s": 1
+    }
+  }
+}

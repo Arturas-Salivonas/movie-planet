@@ -1,0 +1,171 @@
+{
+  "location": {
+    "city": "Florence",
+    "country": "Italy",
+    "slug": "florence-italy",
+    "coordinates": {
+      "lat": 42.809462182352945,
+      "lng": -9.280063076470585
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt6468322",
+      "title": "Money Heist",
+      "year": 2017,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6468322.webp",
+      "thumbnail_52": "/images/thumbnails/tt6468322.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0346336",
+      "title": "The Best of Youth",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0346336.webp",
+      "thumbnail_52": "/images/thumbnails/tt0346336.webp",
+      "imdb_rating": 8.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264464",
+      "title": "Catch Me If You Can",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0264464.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264464.webp",
+      "imdb_rating": 7.978,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt5057130",
+      "title": "Medici: Masters of Florence",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "poster": "/images/posters/tt5057130.webp",
+      "thumbnail_52": "/images/thumbnails/tt5057130.webp",
+      "imdb_rating": 7.737,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt16294384",
+      "title": "Disclaimer",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt16294384.webp",
+      "thumbnail_52": "/images/thumbnails/tt16294384.webp",
+      "imdb_rating": 7.399,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1037705",
+      "title": "The Book of Eli",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt1037705.webp",
+      "thumbnail_52": "/images/thumbnails/tt1037705.webp",
+      "imdb_rating": 6.796,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0212985",
+      "title": "Hannibal",
+      "year": 2001,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0212985.webp",
+      "thumbnail_52": "/images/thumbnails/tt0212985.webp",
+      "imdb_rating": 6.766,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt8106534",
+      "title": "6 Underground",
+      "year": 2019,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt8106534.webp",
+      "thumbnail_52": "/images/thumbnails/tt8106534.webp",
+      "imdb_rating": 6.34,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1728102",
+      "title": "Alcatraz",
+      "year": 2012,
+      "genres": [
+        "Mystery",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1728102.webp",
+      "thumbnail_52": "/images/thumbnails/tt1728102.webp",
+      "imdb_rating": 6.3,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3062096",
+      "title": "Inferno",
+      "year": 2016,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Action"
+      ],
+      "poster": "/images/posters/tt3062096.webp",
+      "thumbnail_52": "/images/thumbnails/tt3062096.webp",
+      "imdb_rating": 6.085,
+      "londonLocationCount": 7
+    }
+  ],
+  "stats": {
+    "totalMovies": 10,
+    "totalLocations": 17,
+    "genres": {
+      "Drama": 7,
+      "Crime": 3,
+      "History": 1,
+      "Romance": 1,
+      "Action": 3,
+      "Thriller": 4,
+      "Science Fiction": 1,
+      "Mystery": 3,
+      "Action & Adventure": 1,
+      "Comedy": 1,
+      "War & Politics": 1
+    },
+    "decades": {
+      "2000s": 3,
+      "2010s": 6,
+      "2020s": 1
+    }
+  }
+}

@@ -4,8 +4,8 @@
     "country": "Australia",
     "slug": "melbourne-australia",
     "coordinates": {
-      "lat": -37.835802261333335,
-      "lng": 144.9614379533333
+      "lat": -36.95718179318181,
+      "lng": 142.35045842159084
     }
   },
   "movies": [
@@ -32,7 +32,7 @@
       "poster": "/images/posters/tt2433738.webp",
       "thumbnail_52": "/images/thumbnails/tt2433738.webp",
       "imdb_rating": 8.016,
-      "londonLocationCount": 5
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt0978762",
@@ -49,6 +49,18 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt0095953",
+      "title": "Rain Man",
+      "year": 1988,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0095953.webp",
+      "thumbnail_52": "/images/thumbnails/tt0095953.webp",
+      "imdb_rating": 7.751,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt1988386",
       "title": "Miss Fisher's Murder Mysteries",
       "year": 2012,
@@ -60,7 +72,7 @@
       "poster": "/images/posters/tt1988386.webp",
       "thumbnail_52": "/images/thumbnails/tt1988386.webp",
       "imdb_rating": 7.65,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt2699128",
@@ -128,7 +140,7 @@
       "poster": "/images/posters/tt11640018.webp",
       "thumbnail_52": "/images/thumbnails/tt11640018.webp",
       "imdb_rating": 7.437,
-      "londonLocationCount": 4
+      "londonLocationCount": 12
     },
     {
       "movie_id": "tt2397535",
@@ -246,15 +258,15 @@
     }
   ],
   "stats": {
-    "totalMovies": 17,
-    "totalLocations": 75,
+    "totalMovies": 18,
+    "totalLocations": 88,
     "genres": {
       "Science Fiction": 6,
       "Action": 7,
       "Adventure": 3,
       "Thriller": 7,
       "Crime": 4,
-      "Drama": 10,
+      "Drama": 11,
       "Animation": 1,
       "Comedy": 2,
       "Sci-Fi & Fantasy": 3,
@@ -265,7 +277,7 @@
     "decades": {
       "2000s": 6,
       "1970s": 1,
-      "1980s": 1,
+      "1980s": 2,
       "2010s": 8,
       "2020s": 1
     }

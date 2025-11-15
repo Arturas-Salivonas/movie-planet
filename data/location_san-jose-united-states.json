@@ -1,0 +1,82 @@
+{
+  "location": {
+    "city": "San Jose",
+    "country": "United States",
+    "slug": "san-jose-united-states",
+    "coordinates": {
+      "lat": 37.07581846,
+      "lng": -118.73200176
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt6470478",
+      "title": "The Good Doctor",
+      "year": 2017,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6470478.webp",
+      "thumbnail_52": "/images/thumbnails/tt6470478.webp",
+      "imdb_rating": 8.469,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0103064",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0103064.webp",
+      "thumbnail_52": "/images/thumbnails/tt0103064.webp",
+      "imdb_rating": 8.134,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0383126",
+      "title": "MythBusters",
+      "year": 2003,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "/images/posters/tt0383126.webp",
+      "thumbnail_52": "/images/thumbnails/tt0383126.webp",
+      "imdb_rating": 7.812,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0110632",
+      "title": "Natural Born Killers",
+      "year": 1994,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0110632.webp",
+      "thumbnail_52": "/images/thumbnails/tt0110632.webp",
+      "imdb_rating": 7.049,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 4,
+    "totalLocations": 5,
+    "genres": {
+      "Action": 1,
+      "Thriller": 2,
+      "Science Fiction": 1,
+      "Crime": 1,
+      "Drama": 2,
+      "Documentary": 1
+    },
+    "decades": {
+      "1990s": 2,
+      "2010s": 1,
+      "2000s": 1
+    }
+  }
+}

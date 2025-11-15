@@ -4,8 +4,8 @@
     "country": "India",
     "slug": "mumbai-india",
     "coordinates": {
-      "lat": 19.047428545161285,
-      "lng": 72.85984620645159
+      "lat": 19.047665121874992,
+      "lng": 72.86013862187498
     }
   },
   "movies": [
@@ -123,6 +123,19 @@
       "poster": "/images/posters/tt0083987.webp",
       "thumbnail_52": "/images/thumbnails/tt0083987.webp",
       "imdb_rating": 7.555,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6271042",
+      "title": "McMafia",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6271042.webp",
+      "thumbnail_52": "/images/thumbnails/tt6271042.webp",
+      "imdb_rating": 7.353,
       "londonLocationCount": 1
     },
     {
@@ -255,16 +268,16 @@
     }
   ],
   "stats": {
-    "totalMovies": 19,
-    "totalLocations": 31,
+    "totalMovies": 20,
+    "totalLocations": 32,
     "genres": {
-      "Drama": 14,
+      "Drama": 15,
       "Comedy": 3,
       "Action": 3,
       "Thriller": 3,
       "Adventure": 1,
       "Romance": 1,
-      "Crime": 2,
+      "Crime": 3,
       "Action & Adventure": 3,
       "Science Fiction": 2,
       "Sci-Fi & Fantasy": 1,
@@ -273,7 +286,7 @@
     },
     "decades": {
       "2000s": 3,
-      "2010s": 6,
+      "2010s": 7,
       "2020s": 8,
       "1980s": 1,
       "1970s": 1

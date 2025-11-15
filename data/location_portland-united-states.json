@@ -1,0 +1,325 @@
+{
+  "location": {
+    "city": "Portland",
+    "country": "United States",
+    "slug": "portland-united-states",
+    "coordinates": {
+      "lat": 34.458709823404256,
+      "lng": -103.9932730787234
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt1830617",
+      "title": "Grimm",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt1830617.webp",
+      "thumbnail_52": "/images/thumbnails/tt1830617.webp",
+      "imdb_rating": 8.3,
+      "londonLocationCount": 6
+    },
+    {
+      "movie_id": "tt0327597",
+      "title": "Coraline",
+      "year": 2009,
+      "genres": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "poster": "/images/posters/tt0327597.webp",
+      "thumbnail_52": "/images/thumbnails/tt0327597.webp",
+      "imdb_rating": 7.9,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3553976",
+      "title": "Captain Fantastic",
+      "year": 2016,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3553976.webp",
+      "thumbnail_52": "/images/thumbnails/tt3553976.webp",
+      "imdb_rating": 7.891,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0758758",
+      "title": "Into the Wild",
+      "year": 2007,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0758758.webp",
+      "thumbnail_52": "/images/thumbnails/tt0758758.webp",
+      "imdb_rating": 7.799,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt3107288",
+      "title": "The Flash",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt3107288.webp",
+      "thumbnail_52": "/images/thumbnails/tt3107288.webp",
+      "imdb_rating": 7.77,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0947798",
+      "title": "Black Swan",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0947798.webp",
+      "thumbnail_52": "/images/thumbnails/tt0947798.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0121164",
+      "title": "Corpse Bride",
+      "year": 2005,
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Animation"
+      ],
+      "poster": "/images/posters/tt0121164.webp",
+      "thumbnail_52": "/images/thumbnails/tt0121164.webp",
+      "imdb_rating": 7.583,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1103987",
+      "title": "Leverage",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1103987.webp",
+      "thumbnail_52": "/images/thumbnails/tt1103987.webp",
+      "imdb_rating": 7.581,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt4635282",
+      "title": "The OA",
+      "year": 2016,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt4635282.webp",
+      "thumbnail_52": "/images/thumbnails/tt4635282.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt6877772",
+      "title": "American Vandal",
+      "year": 2017,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt6877772.webp",
+      "thumbnail_52": "/images/thumbnails/tt6877772.webp",
+      "imdb_rating": 7.416,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0099810",
+      "title": "The Hunt for Red October",
+      "year": 1990,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0099810.webp",
+      "thumbnail_52": "/images/thumbnails/tt0099810.webp",
+      "imdb_rating": 7.4,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2382320",
+      "title": "No Time to Die",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt2382320.webp",
+      "thumbnail_52": "/images/thumbnails/tt2382320.webp",
+      "imdb_rating": 7.353,
+      "londonLocationCount": 15
+    },
+    {
+      "movie_id": "tt7078710",
+      "title": "Everything Sucks!",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt7078710.webp",
+      "thumbnail_52": "/images/thumbnails/tt7078710.webp",
+      "imdb_rating": 7.222,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt3663490",
+      "title": "The Librarians",
+      "year": 2014,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt3663490.webp",
+      "thumbnail_52": "/images/thumbnails/tt3663490.webp",
+      "imdb_rating": 7.215,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0055928",
+      "title": "Dr. No",
+      "year": 1962,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt0055928.webp",
+      "thumbnail_52": "/images/thumbnails/tt0055928.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1780441",
+      "title": "Portlandia",
+      "year": 2011,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1780441.webp",
+      "thumbnail_52": "/images/thumbnails/tt1780441.webp",
+      "imdb_rating": 7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0264263",
+      "title": "Jackass",
+      "year": 2000,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0264263.webp",
+      "thumbnail_52": "/images/thumbnails/tt0264263.webp",
+      "imdb_rating": 6.616,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1001508",
+      "title": "He's Just Not That Into You",
+      "year": 2009,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1001508.webp",
+      "thumbnail_52": "/images/thumbnails/tt1001508.webp",
+      "imdb_rating": 6.614,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1099212",
+      "title": "Twilight",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1099212.webp",
+      "thumbnail_52": "/images/thumbnails/tt1099212.webp",
+      "imdb_rating": 6.285,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0993840",
+      "title": "Army of the Dead",
+      "year": 2021,
+      "genres": [
+        "Crime",
+        "Action",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0993840.webp",
+      "thumbnail_52": "/images/thumbnails/tt0993840.webp",
+      "imdb_rating": 6.227,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1013743",
+      "title": "Knight and Day",
+      "year": 2010,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt1013743.webp",
+      "thumbnail_52": "/images/thumbnails/tt1013743.webp",
+      "imdb_rating": 6.225,
+      "londonLocationCount": 2
+    }
+  ],
+  "stats": {
+    "totalMovies": 21,
+    "totalLocations": 47,
+    "genres": {
+      "Adventure": 5,
+      "Drama": 11,
+      "Action": 5,
+      "Thriller": 4,
+      "Sci-Fi & Fantasy": 3,
+      "Horror": 2,
+      "Fantasy": 3,
+      "Romance": 3,
+      "Mystery": 2,
+      "Animation": 2,
+      "Family": 1,
+      "Comedy": 8,
+      "Action & Adventure": 2,
+      "Crime": 3
+    },
+    "decades": {
+      "2000s": 7,
+      "1960s": 1,
+      "2010s": 10,
+      "2020s": 2,
+      "1990s": 1
+    }
+  }
+}

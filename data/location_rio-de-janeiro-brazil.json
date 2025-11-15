@@ -1,0 +1,173 @@
+{
+  "location": {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "slug": "rio-de-janeiro-brazil",
+    "coordinates": {
+      "lat": -22.983774272727274,
+      "lng": -43.564956286363646
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0317248",
+      "title": "City of God",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0317248.webp",
+      "thumbnail_52": "/images/thumbnails/tt0317248.webp",
+      "imdb_rating": 8.428,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0081912",
+      "title": "Only Fools and Horses",
+      "year": 1981,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0081912.webp",
+      "thumbnail_52": "/images/thumbnails/tt0081912.webp",
+      "imdb_rating": 8.021,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1958961",
+      "title": "Lilyhammer",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1958961.webp",
+      "thumbnail_52": "/images/thumbnails/tt1958961.webp",
+      "imdb_rating": 7.304,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1596343",
+      "title": "Fast Five",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt1596343.webp",
+      "thumbnail_52": "/images/thumbnails/tt1596343.webp",
+      "imdb_rating": 7.242,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt6873658",
+      "title": "The Mechanism",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt6873658.webp",
+      "thumbnail_52": "/images/thumbnails/tt6873658.webp",
+      "imdb_rating": 7.1,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt1436562",
+      "title": "Rio",
+      "year": 2011,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt1436562.webp",
+      "thumbnail_52": "/images/thumbnails/tt1436562.webp",
+      "imdb_rating": 6.754,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1673434",
+      "title": "The Twilight Saga: Breaking Dawn - Part 2",
+      "year": 2012,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1673434.webp",
+      "thumbnail_52": "/images/thumbnails/tt1673434.webp",
+      "imdb_rating": 6.461,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt1320253",
+      "title": "The Expendables",
+      "year": 2010,
+      "genres": [
+        "Thriller",
+        "Adventure",
+        "Action"
+      ],
+      "poster": "/images/posters/tt1320253.webp",
+      "thumbnail_52": "/images/thumbnails/tt1320253.webp",
+      "imdb_rating": 6.248,
+      "londonLocationCount": 4
+    },
+    {
+      "movie_id": "tt0800080",
+      "title": "The Incredible Hulk",
+      "year": 2008,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0800080.webp",
+      "thumbnail_52": "/images/thumbnails/tt0800080.webp",
+      "imdb_rating": 6.2,
+      "londonLocationCount": 3
+    },
+    {
+      "movie_id": "tt1324999",
+      "title": "The Twilight Saga: Breaking Dawn - Part 1",
+      "year": 2011,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt1324999.webp",
+      "thumbnail_52": "/images/thumbnails/tt1324999.webp",
+      "imdb_rating": 6.193,
+      "londonLocationCount": 4
+    }
+  ],
+  "stats": {
+    "totalMovies": 10,
+    "totalLocations": 22,
+    "genres": {
+      "Drama": 4,
+      "Crime": 4,
+      "Science Fiction": 1,
+      "Action": 3,
+      "Adventure": 5,
+      "Comedy": 3,
+      "Thriller": 2,
+      "Fantasy": 2,
+      "Romance": 2,
+      "Animation": 1,
+      "Family": 1
+    },
+    "decades": {
+      "2000s": 2,
+      "1980s": 1,
+      "2010s": 7
+    }
+  }
+}

@@ -4,8 +4,8 @@
     "country": "Canada",
     "slug": "toronto-canada",
     "coordinates": {
-      "lat": 43.661894766843325,
-      "lng": -79.3854091090184
+      "lat": 43.66196687568904,
+      "lng": -79.38615122756875
     }
   },
   "movies": [
@@ -140,7 +140,7 @@
       "poster": "/images/posters/tt0262985.webp",
       "thumbnail_52": "/images/thumbnails/tt0262985.webp",
       "imdb_rating": 8.239,
-      "londonLocationCount": 3
+      "londonLocationCount": 8
     },
     {
       "movie_id": "tt1632701",
@@ -620,7 +620,7 @@
       "poster": "/images/posters/tt0352248.webp",
       "thumbnail_52": "/images/thumbnails/tt0352248.webp",
       "imdb_rating": 7.563,
-      "londonLocationCount": 2
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt5912064",
@@ -793,7 +793,7 @@
       "poster": "/images/posters/tt2365946.webp",
       "thumbnail_52": "/images/thumbnails/tt2365946.webp",
       "imdb_rating": 7.285,
-      "londonLocationCount": 1
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt0144117",
@@ -860,7 +860,7 @@
       "poster": "/images/posters/tt1606389.webp",
       "thumbnail_52": "/images/thumbnails/tt1606389.webp",
       "imdb_rating": 7.235,
-      "londonLocationCount": 1
+      "londonLocationCount": 7
     },
     {
       "movie_id": "tt2820852",
@@ -1263,7 +1263,7 @@
       "poster": "/images/posters/tt3952222.webp",
       "thumbnail_52": "/images/thumbnails/tt3952222.webp",
       "imdb_rating": 6.9,
-      "londonLocationCount": 2
+      "londonLocationCount": 3
     },
     {
       "movie_id": "tt1495708",
@@ -1545,7 +1545,7 @@
       "poster": "/images/posters/tt0366551.webp",
       "thumbnail_52": "/images/thumbnails/tt0366551.webp",
       "imdb_rating": 6.541,
-      "londonLocationCount": 2
+      "londonLocationCount": 4
     },
     {
       "movie_id": "tt0489270",
@@ -1666,7 +1666,7 @@
       "poster": "/images/posters/tt0385752.webp",
       "thumbnail_52": "/images/thumbnails/tt0385752.webp",
       "imdb_rating": 6.079,
-      "londonLocationCount": 1
+      "londonLocationCount": 2
     },
     {
       "movie_id": "tt1386703",
@@ -1741,7 +1741,7 @@
   ],
   "stats": {
     "totalMovies": 129,
-    "totalLocations": 377,
+    "totalLocations": 399,
     "genres": {
       "Drama": 74,
       "Science Fiction": 15,

@@ -1,0 +1,128 @@
+{
+  "location": {
+    "city": "Nashville",
+    "country": "United States",
+    "slug": "nashville-united-states",
+    "coordinates": {
+      "lat": 36.16090038,
+      "lng": -86.75974330000001
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0120689",
+      "title": "The Green Mile",
+      "year": 1999,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0120689.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120689.webp",
+      "imdb_rating": 8.502,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0133093",
+      "title": "The Matrix",
+      "year": 1999,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "poster": "/images/posters/tt0133093.webp",
+      "thumbnail_52": "/images/thumbnails/tt0133093.webp",
+      "imdb_rating": 8.234,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0358273",
+      "title": "Walk the Line",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "poster": "/images/posters/tt0358273.webp",
+      "thumbnail_52": "/images/thumbnails/tt0358273.webp",
+      "imdb_rating": 7.497,
+      "londonLocationCount": 2
+    },
+    {
+      "movie_id": "tt0120885",
+      "title": "Wag the Dog",
+      "year": 1997,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0120885.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120885.webp",
+      "imdb_rating": 6.946,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0241088",
+      "title": "Da Ali G Show",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Talk"
+      ],
+      "poster": "/images/posters/tt0241088.webp",
+      "thumbnail_52": "/images/thumbnails/tt0241088.webp",
+      "imdb_rating": 6.884,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt2281375",
+      "title": "Nashville",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt2281375.webp",
+      "thumbnail_52": "/images/thumbnails/tt2281375.webp",
+      "imdb_rating": 6.589,
+      "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0814255",
+      "title": "Percy Jackson & the Olympians: The Lightning Thief",
+      "year": 2010,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Family"
+      ],
+      "poster": "/images/posters/tt0814255.webp",
+      "thumbnail_52": "/images/thumbnails/tt0814255.webp",
+      "imdb_rating": 6.208,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 7,
+    "totalLocations": 15,
+    "genres": {
+      "Fantasy": 2,
+      "Drama": 4,
+      "Crime": 1,
+      "Action": 1,
+      "Science Fiction": 1,
+      "Comedy": 2,
+      "Music": 1,
+      "Romance": 1,
+      "Adventure": 1,
+      "Family": 1,
+      "Talk": 1
+    },
+    "decades": {
+      "1990s": 3,
+      "2000s": 2,
+      "2010s": 2
+    }
+  }
+}

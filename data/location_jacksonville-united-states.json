@@ -1,0 +1,97 @@
+{
+  "location": {
+    "city": "Jacksonville",
+    "country": "United States",
+    "slug": "jacksonville-united-states",
+    "coordinates": {
+      "lat": 30.332183800000003,
+      "lng": -81.655651
+    }
+  },
+  "movies": [
+    {
+      "movie_id": "tt0061512",
+      "title": "Cool Hand Luke",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt0061512.webp",
+      "thumbnail_52": "/images/thumbnails/tt0061512.webp",
+      "imdb_rating": 7.742,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13016388",
+      "title": "3 Body Problem",
+      "year": 2024,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13016388.webp",
+      "thumbnail_52": "/images/thumbnails/tt13016388.webp",
+      "imdb_rating": 7.477,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0118971",
+      "title": "The Devil's Advocate",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Horror"
+      ],
+      "poster": "/images/posters/tt0118971.webp",
+      "thumbnail_52": "/images/thumbnails/tt0118971.webp",
+      "imdb_rating": 7.465,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0120484",
+      "title": "The Waterboy",
+      "year": 1998,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "/images/posters/tt0120484.webp",
+      "thumbnail_52": "/images/thumbnails/tt0120484.webp",
+      "imdb_rating": 6.057,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0319931",
+      "title": "American Idol",
+      "year": 2002,
+      "genres": [
+        "Reality"
+      ],
+      "poster": "/images/posters/tt0319931.webp",
+      "thumbnail_52": "/images/thumbnails/tt0319931.webp",
+      "imdb_rating": 5.102,
+      "londonLocationCount": 1
+    }
+  ],
+  "stats": {
+    "totalMovies": 5,
+    "totalLocations": 5,
+    "genres": {
+      "Sci-Fi & Fantasy": 1,
+      "Mystery": 2,
+      "Drama": 3,
+      "Horror": 1,
+      "Crime": 1,
+      "Comedy": 1,
+      "Reality": 1
+    },
+    "decades": {
+      "2020s": 1,
+      "1990s": 2,
+      "1960s": 1,
+      "2000s": 1
+    }
+  }
+}

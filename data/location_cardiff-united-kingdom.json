@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "cardiff-united-kingdom",
     "coordinates": {
-      "lat": 51.477375415,
-      "lng": -3.1762263700000006
+      "lat": 51.48016028095238,
+      "lng": -3.1799659952380956
     }
   },
   "movies": [
@@ -62,6 +62,18 @@
       "londonLocationCount": 5
     },
     {
+      "movie_id": "tt3556920",
+      "title": "Wolf Hall",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt3556920.webp",
+      "thumbnail_52": "/images/thumbnails/tt3556920.webp",
+      "imdb_rating": 7.5,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0485301",
       "title": "Torchwood",
       "year": 2006,
@@ -116,11 +128,11 @@
     }
   ],
   "stats": {
-    "totalMovies": 8,
-    "totalLocations": 20,
+    "totalMovies": 9,
+    "totalLocations": 21,
     "genres": {
       "Action & Adventure": 2,
-      "Drama": 7,
+      "Drama": 8,
       "Sci-Fi & Fantasy": 5,
       "Horror": 1,
       "Thriller": 1,
@@ -128,7 +140,7 @@
     },
     "decades": {
       "2000s": 3,
-      "2010s": 4,
+      "2010s": 5,
       "2020s": 1
     }
   }

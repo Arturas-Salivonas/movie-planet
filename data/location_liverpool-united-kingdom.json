@@ -4,8 +4,8 @@
     "country": "United Kingdom",
     "slug": "liverpool-united-kingdom",
     "coordinates": {
-      "lat": 53.414174523529425,
-      "lng": -2.985237388235294
+      "lat": 51.81626296250002,
+      "lng": -15.667114166666666
     }
   },
   "movies": [
@@ -20,6 +20,20 @@
       "poster": "/images/posters/tt2442560.webp",
       "thumbnail_52": "/images/thumbnails/tt2442560.webp",
       "imdb_rating": 8.529,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt9288030",
+      "title": "Reacher",
+      "year": 2022,
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "poster": "/images/posters/tt9288030.webp",
+      "thumbnail_52": "/images/thumbnails/tt9288030.webp",
+      "imdb_rating": 8.087,
       "londonLocationCount": 1
     },
     {
@@ -62,6 +76,33 @@
       "londonLocationCount": 8
     },
     {
+      "movie_id": "tt1132290",
+      "title": "Warehouse 13",
+      "year": 2009,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Comedy",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "/images/posters/tt1132290.webp",
+      "thumbnail_52": "/images/thumbnails/tt1132290.webp",
+      "imdb_rating": 7.7,
+      "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt13542714",
+      "title": "House of Guinness",
+      "year": 2025,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt13542714.webp",
+      "thumbnail_52": "/images/thumbnails/tt13542714.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt3076658",
       "title": "Creed",
       "year": 2015,
@@ -88,6 +129,19 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt1396484",
+      "title": "It",
+      "year": 2017,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "/images/posters/tt1396484.webp",
+      "thumbnail_52": "/images/thumbnails/tt1396484.webp",
+      "imdb_rating": 7.238,
+      "londonLocationCount": 1
+    },
+    {
       "movie_id": "tt0988045",
       "title": "Sherlock Holmes",
       "year": 2009,
@@ -103,6 +157,20 @@
       "londonLocationCount": 2
     },
     {
+      "movie_id": "tt10893694",
+      "title": "The Irregulars",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "poster": "/images/posters/tt10893694.webp",
+      "thumbnail_52": "/images/thumbnails/tt10893694.webp",
+      "imdb_rating": 7.145,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0458339",
       "title": "Captain America: The First Avenger",
       "year": 2011,
@@ -115,25 +183,42 @@
       "thumbnail_52": "/images/thumbnails/tt0458339.webp",
       "imdb_rating": 7.004,
       "londonLocationCount": 1
+    },
+    {
+      "movie_id": "tt0366551",
+      "title": "Harold & Kumar Go to White Castle",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "/images/posters/tt0366551.webp",
+      "thumbnail_52": "/images/thumbnails/tt0366551.webp",
+      "imdb_rating": 6.541,
+      "londonLocationCount": 1
     }
   ],
   "stats": {
-    "totalMovies": 8,
-    "totalLocations": 17,
+    "totalMovies": 14,
+    "totalLocations": 24,
     "genres": {
-      "Crime": 3,
-      "Mystery": 2,
-      "Thriller": 1,
+      "Crime": 4,
+      "Mystery": 3,
+      "Thriller": 2,
       "Action": 3,
-      "Adventure": 4,
+      "Adventure": 5,
       "Science Fiction": 1,
       "Fantasy": 2,
-      "Drama": 3
+      "Drama": 7,
+      "Horror": 1,
+      "Action & Adventure": 2,
+      "Sci-Fi & Fantasy": 2,
+      "Comedy": 2
     },
     "decades": {
-      "2020s": 1,
-      "2010s": 5,
-      "2000s": 1,
+      "2020s": 4,
+      "2010s": 6,
+      "2000s": 3,
       "1990s": 1
     }
   }

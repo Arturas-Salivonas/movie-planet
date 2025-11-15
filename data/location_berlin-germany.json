@@ -4,8 +4,8 @@
     "country": "Germany",
     "slug": "berlin-germany",
     "coordinates": {
-      "lat": 52.5110714245834,
-      "lng": 13.373903820416654
+      "lat": 52.43014035697219,
+      "lng": 12.697336397211147
     }
   },
   "movies": [
@@ -169,6 +169,20 @@
       "londonLocationCount": 1
     },
     {
+      "movie_id": "tt8946378",
+      "title": "Knives Out",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "poster": "/images/posters/tt8946378.webp",
+      "thumbnail_52": "/images/thumbnails/tt8946378.webp",
+      "imdb_rating": 7.8,
+      "londonLocationCount": 2
+    },
+    {
       "movie_id": "tt0485947",
       "title": "Mr. Nobody",
       "year": 2009,
@@ -235,6 +249,18 @@
       "thumbnail_52": "/images/thumbnails/tt10366206.webp",
       "imdb_rating": 7.7,
       "londonLocationCount": 7
+    },
+    {
+      "movie_id": "tt0810819",
+      "title": "The Danish Girl",
+      "year": 2015,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "/images/posters/tt0810819.webp",
+      "thumbnail_52": "/images/thumbnails/tt0810819.webp",
+      "imdb_rating": 7.6,
+      "londonLocationCount": 1
     },
     {
       "movie_id": "tt1796960",
@@ -591,7 +617,7 @@
       "poster": "/images/posters/tt0993842.webp",
       "thumbnail_52": "/images/thumbnails/tt0993842.webp",
       "imdb_rating": 6.6,
-      "londonLocationCount": 1
+      "londonLocationCount": 9
     },
     {
       "movie_id": "tt3385516",
@@ -720,13 +746,13 @@
     }
   ],
   "stats": {
-    "totalMovies": 52,
-    "totalLocations": 240,
+    "totalMovies": 54,
+    "totalLocations": 251,
     "genres": {
       "Action": 24,
-      "Drama": 29,
+      "Drama": 30,
       "Thriller": 19,
-      "Mystery": 6,
+      "Mystery": 7,
       "History": 2,
       "War": 3,
       "Science Fiction": 15,
@@ -734,18 +760,18 @@
       "Adventure": 13,
       "Fantasy": 2,
       "Romance": 3,
-      "Crime": 7,
+      "Comedy": 4,
+      "Crime": 8,
       "Sci-Fi & Fantasy": 5,
       "War & Politics": 1,
       "Horror": 3,
-      "Comedy": 3,
       "Action & Adventure": 1
     },
     "decades": {
       "2000s": 14,
       "2020s": 10,
       "1920s": 1,
-      "2010s": 22,
+      "2010s": 24,
       "1980s": 2,
       "1930s": 1,
       "1960s": 1,
